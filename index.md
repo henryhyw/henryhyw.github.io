@@ -45,15 +45,63 @@ video {
         flex-shrink: 0;
     }
 }
+
+.welcome-text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome-text h1, .welcome-text h2 {
+    margin: 0;
+    padding: 0;
+}
 </style>
 
 <div class="image-left">
-   <video controls>
+   <video id="videoElement" controls>
       <source src="/assets/vid/travel.mp4" type="video/mp4">
       Your browser does not support the video tag.
    </video>
-   <div>
-   	  <h1 style="font-size: 5em;">WELCOME</h1>
-      <h2 style="font-size: 1.5em;">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I love exploring new places and coding my own programs. Glad to have you here!</h2>
+   <div class="welcome-text">
+      <h1 id="welcomeTitle">WELCOME</h1>
+      <h2 id="welcomeSubtitle">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I love exploring new places and coding my own programs. Glad to have you here!</h2>
    </div>
 </div>
+
+<script>
+    function adjustFontSize() {
+        const videoElement = document.getElementById('videoElement');
+        const titleElement = document.getElementById('welcomeTitle');
+        const subtitleElement = document.getElementById('welcomeSubtitle');
+
+        const videoHeight = videoElement.clientHeight;
+        const availableWidth = document.querySelector('.welcome-text').clientWidth;
+
+        // Adjust the font size of the title to fit the width
+        let fontSize = 10;
+        titleElement.style.fontSize = `${fontSize}em`;
+        while (titleElement.clientWidth < availableWidth && fontSize < 10) {
+            fontSize += 0.1;
+            titleElement.style.fontSize = `${fontSize}em`;
+        }
+
+        // Adjust the font size of the subtitle to match the height of the video
+        let subtitleFontSize = 1;
+        subtitleElement.style.fontSize = `${subtitleFontSize}em`;
+        while (subtitleElement.clientHeight < videoHeight && subtitleFontSize < 10) {
+            subtitleFontSize += 0.1;
+            subtitleElement.style.fontSize = `${subtitleFontSize}em`;
+        }
+
+        // Fine-tuning to fit within the height
+        while (subtitleElement.clientHeight > videoHeight) {
+            subtitleFontSize -= 0.1;
+            subtitleElement.style.fontSize = `${subtitleFontSize}em`;
+        }
+    }
+
+    window.onload = adjustFontSize;
+    window.onresize = adjustFontSize;
+</script>
