@@ -52,6 +52,7 @@ video, .fallback-image {
     flex: 2;
     display: flex;
     flex-direction: column;
+    justify-content: space-between; /* Distribute space evenly between children */
     height: 100%; /* Ensure it takes up the full height of the container */
 }
 </style>
@@ -97,9 +98,7 @@ video, .fallback-image {
 
         // Adjust the font size and line height of the title to fit the width
         let titleFontSize = 1; // Start with a smaller font size
-        let titleLineHeight = 1.2;
         titleElement.style.fontSize = `${titleFontSize}em`;
-        titleElement.style.lineHeight = titleLineHeight;
         let textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         while (textWidth < availableWidth && titleFontSize < 5) { // Constrain max font size to 5em
             titleFontSize += 0.1;
