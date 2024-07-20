@@ -6,7 +6,7 @@ title:
 <br>
 
 <style>
-video {
+video, .fallback-image {
     max-width: 40%;
     height: auto;
     filter: brightness(60%); /* Make the video darker */
@@ -22,12 +22,12 @@ video {
         align-items: flex-start;
     }
 
-    .image-left video {
+    .image-left video, .image-left .fallback-image {
         margin-right: 1.5em;
         float: left; /* fallback */
     }
 
-    .image-right video {
+    .image-right video, .image-right .fallback-image {
         order: 1;
         margin-left: 1.5em;
         float: right; /* fallback */
@@ -43,7 +43,7 @@ video {
 }
 
 @media (min-width: 30em) {
-    .image-left video, .image-right video {
+    .image-left video, .image-left .fallback-image, .image-right video, .image-right .fallback-image {
         flex-shrink: 0;
     }
 }
@@ -67,17 +67,16 @@ video {
     padding-bottom: 5px; /* Adjust padding at the bottom */
     align-self: flex-end; /* Align to the bottom */
 }
-
 </style>
 
 <div class="image-left container" style="margin: auto;">
    <video id="videoElement" muted autoplay loop playsinline>
       <source src="/assets/vid/travel.mp4" type="video/mp4">
-      Your browser does not support the video tag.
    </video>
+   <img src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="display: none;">
    <div class="welcome-text">
       <h1 id="welcomeTitle">WELCOME</h1>
-      <h2 id="welcomeSubtitle"><br>Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
+      <h2 id="welcomeSubtitle">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
    </div>
 </div>
 
@@ -125,7 +124,7 @@ video {
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         subtitleElement.style.lineHeight = `${lineHeight}`;
         let subtitleHeight = subtitleElement.clientHeight;
-        while (subtitleHeight < videoHeight && subtitleFontSize < 3) { // Constrain max font size to 3em
+        while (subtitleHeight < videoHeight - 20 && subtitleFontSize < 3) { // Constrain max font size to 3em
             subtitleFontSize += 0.1;
             lineHeight += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
@@ -134,7 +133,7 @@ video {
         }
 
         // Reduce font size and line height if subtitle exceeds video height
-        while (subtitleHeight > videoHeight && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
+        while (subtitleHeight > videoHeight - 20 && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
             subtitleFontSize -= 0.1;
             lineHeight -= 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
@@ -143,7 +142,27 @@ video {
         }
     }
 
-    window.onload = adjustFontSizeAndLineHeight;
+    function checkVideoCompatibility() {
+        const videoElement = document.getElementById('videoElement');
+        const fallbackImage = document.querySelector('.fallback-image');
+
+        // Check if the video is playable
+        videoElement.addEventListener('error', () => {
+            videoElement.style.display = 'none';
+            fallbackImage.style.display = 'block';
+        });
+
+        // Attempt to play the video, if it fails, switch to the fallback image
+        videoElement.play().catch(() => {
+            videoElement.style.display = 'none';
+            fallbackImage.style.display = 'block';
+        });
+    }
+
+    window.onload = () => {
+        adjustFontSizeAndLineHeight();
+        checkVideoCompatibility();
+    };
     window.onresize = adjustFontSizeAndLineHeight;
 
     // Mute/unmute button
