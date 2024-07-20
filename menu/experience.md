@@ -84,6 +84,8 @@ Tutoring has been a passion of mine, and during this period, I helped internatio
 
 ### Contributor in an Information Retrieval Research Project
 
+<img src="/assets/img/hku.jpeg" style="height:8vh;">
+
 *[Natural Language Processing Group at the University of Hong Kong](https://hkunlp.github.io/)*
 
 *December 2023 - May 2024*
