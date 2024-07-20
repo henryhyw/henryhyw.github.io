@@ -14,12 +14,12 @@ In my free time, I love walking by the ocean. When I lived in New Zealand, I oft
   </video>
   <div style="margin-left: 20px;">
     <p>I love traveling and have had the chance to explore some amazing places around the world. I’ve marveled at the stunning Sagrada Família in Barcelona, stood in awe at the ancient Acropolis in Athens, and gazed up at the iconic Statue of Liberty in the United States. In New Zealand, I wandered through the enchanting Rotorua Redwoods. Each of these experiences has left me with unforgettable memories and a deep appreciation for the beauty and diversity of our world.</p>
-    <blockquote>
-      <p>“Once you have traveled, the voyage never ends, but is played out over and over again in the quietest chambers. The mind can never break off from the journey.”</p>
-      <footer>- Pat Conroy</footer>
-    </blockquote>
   </div>
 </div>
+
+> "Once you have traveled, the voyage never ends, but is played out over and over again in the quietest chambers. The mind can never break off from the journey."
+>
+> *- Pat Conroy*
 
 Another passion of mine is diving into the world of computer science. I absolutely love coding. There’s nothing quite like the thrill of creating vibrant, functional programs from scratch. It’s amazing to see lines of code come together to build something real and impactful. Feel free to check out my early adventures in computer science—it was such a fun and exciting journey for me. You can explore more about it here: [My Early CS Adventures](https://henryhyw.github.io/early.html).
 
