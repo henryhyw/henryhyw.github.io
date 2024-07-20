@@ -7,9 +7,9 @@ title:
 
 <style>
 video {
-    max-width: 45%;
+    max-width: 40%;
     height: auto;
-    filter: brightness(50%); /* Make the video darker */
+    filter: brightness(60%); /* Make the video darker */
 }
 
 .image-left, .image-right {
@@ -58,13 +58,13 @@ video {
 
 .welcome-text h1 {
     margin: 0;
-    padding: 0;
+    padding: 10px 0; /* Add padding at the top */
     align-self: flex-start; /* Align to the top */
 }
 
 .welcome-text h2 {
     margin: 0;
-    padding: 0;
+    padding: 0 0 10px 0; /* Add padding at the bottom */
     align-self: flex-end; /* Align to the bottom */
 }
 </style>
@@ -76,6 +76,7 @@ video {
    </video>
    <div class="welcome-text">
       <h1 id="welcomeTitle">WELCOME</h1>
+      <br>
       <h2 id="welcomeSubtitle">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
    </div>
 </div>
