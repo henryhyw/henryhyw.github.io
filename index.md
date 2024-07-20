@@ -15,7 +15,9 @@ In my free time, I love walking by the ocean. When I lived in New Zealand, I oft
     </video>
   </div>
   <div style="flex: 2; margin-left: 20px; display: flex; align-items: center; padding: 0; box-sizing: border-box;">
-    <p style="margin: 0; padding: 0; box-sizing: border-box;">I love traveling and have had the chance to explore some amazing places around the world. I’ve marveled at the stunning Sagrada Família in Barcelona, stood in awe at the ancient Acropolis in Athens, and gazed up at the iconic Statue of Liberty in the United States. In New Zealand, I wandered through the enchanting Rotorua Redwoods. Each of these experiences has left me with unforgettable memories and a deep appreciation for the beauty and diversity of our world.</p>
+    <div style="margin: 0; padding: 0;">
+      <p style="margin: 0; padding: 0; box-sizing: border-box;">I love traveling and have had the chance to explore some amazing places around the world. I’ve marveled at the stunning Sagrada Família in Barcelona, stood in awe at the ancient Acropolis in Athens, and gazed up at the iconic Statue of Liberty in the United States. In New Zealand, I wandered through the enchanting Rotorua Redwoods. Each of these experiences has left me with unforgettable memories and a deep appreciation for the beauty and diversity of our world.</p>
+    </div>
   </div>
 </div>
 
