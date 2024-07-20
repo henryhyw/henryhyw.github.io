@@ -118,11 +118,11 @@ Here are some videos of the script I recorded.
 
 <div class="scroll-container">
   <video controls>
-    <source src="/assets/vid/24.mov" type="video/quicktime">
+    <source src="/assets/vid/24.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video controls>
-    <source src="/assets/vid/mentalmath.mov" type="video/quicktime">
+    <source src="/assets/vid/mentalmath.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
