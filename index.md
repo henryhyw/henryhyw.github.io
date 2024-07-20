@@ -70,7 +70,7 @@ video {
 </style>
 
 <div class="image-left container" style="margin: auto;">
-   <video id="videoElement" muted autoplay loop playsinline>
+   <video id="videoElement" muted autoplay playsinline>
       <source src="/assets/vid/travel.mp4" type="video/mp4">
       Your browser does not support the video tag.
    </video>
@@ -152,14 +152,18 @@ video {
 
     videoElement.addEventListener('ended', () => {
         if (playingForward) {
-            videoElement.playbackRate = -1;
+            videoElement.pause();
             videoElement.currentTime = videoElement.duration;
+            videoElement.playbackRate = -1;
+            videoElement.play();
             playingForward = false;
         } else {
+            videoElement.pause();
+            videoElement.currentTime = 0;
             videoElement.playbackRate = 1;
+            videoElement.play();
             playingForward = true;
         }
-        videoElement.play();
     });
 
     // Mute/unmute button
