@@ -11,6 +11,14 @@ I love traveling and have had the chance to explore some amazing places around t
 
 Another passion of mine is diving into the world of computer science. I absolutely love coding. There’s nothing quite like the thrill of creating vibrant, functional programs from scratch. It’s amazing to see lines of code come together to build something real and impactful. Feel free to check out my early adventures in computer science—it was such a fun and exciting journey for me. You can explore more about it here: [My Early CS Adventures](https://henryhyw.github.io/early.html).
 
+> "Traveling—it leaves you speechless, then turns you into a storyteller."
+>
+> *- Ibn Battuta*
+>
+> "Once you have traveled, the voyage never ends, but is played out over and over again in the quietest chambers. The mind can never break off from the journey."
+>
+> *- Pat Conroy*
+
 ### Visitor Map
 
 <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=606060&w=a&t=n&d=NuzI5fMF9fqCHtkxcTx3LZO5mvAbEZrLLxG3ZW1E-KY&co=ffffff&ct=606060'></script>
