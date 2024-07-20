@@ -7,66 +7,7 @@ Hey there! I’m Henry. I was born in Taiwan but grew up in the bustling city of
 
 In my free time, I love walking by the ocean. When I lived in New Zealand, I often visited the beautiful Napier Oceanside. Now that I’m back near school, you can often find me at the Kennedy Town Seaside, soaking in the peaceful vibes of the waterfront. There’s something incredibly calming about the ocean that I just can’t get enough of.
 
-<style>
-.container {
-    display: flex;
-    align-items: stretch;
-    padding: 0;
-    margin: 0;
-}
-.video-wrapper, .text-wrapper {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.video-wrapper {
-    flex: 1;
-    position: relative;
-}
-.text-wrapper {
-    flex: 2;
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
-}
-.text-content {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-video {
-    width: 100%;
-    display: block;
-    filter: brightness(50%);
-}
-</style>
-
-<div class="container">
-    <div class="video-wrapper">
-        <video id="video" controls>
-            <source src="/assets/vid/travel.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-    <div class="text-wrapper">
-        <div class="text-content">
-            <p id="text">I love traveling and have had the chance to explore some amazing places around the world. I’ve marveled at the stunning Sagrada Família in Barcelona, stood in awe at the ancient Acropolis in Athens, and gazed up at the iconic Statue of Liberty in the United States. In New Zealand, I wandered through the enchanting Rotorua Redwoods. Each of these experiences has left me with unforgettable memories and a deep appreciation for the beauty and diversity of our world.</p>
-        </div>
-    </div>
-</div>
-
-<script>
-    function adjustVideoHeight() {
-        const textElement = document.getElementById('text');
-        const videoElement = document.getElementById('video');
-        
-        const textHeight = textElement.clientHeight;
-        videoElement.style.height = `${textHeight}px`;
-    }
-
-    window.onload = adjustVideoHeight;
-    window.onresize = adjustVideoHeight;
-</script>
+I love traveling and have had the chance to explore some amazing places around the world. I’ve marveled at the stunning Sagrada Família in Barcelona, stood in awe at the ancient Acropolis in Athens, and gazed up at the iconic Statue of Liberty in the United States. In New Zealand, I wandered through the enchanting Rotorua Redwoods. Each of these experiences has left me with unforgettable memories and a deep appreciation for the beauty and diversity of our world.
 
 > "Once you have traveled, the voyage never ends, but is played out over and over again in the quietest chambers. The mind can never break off from the journey."
 >
