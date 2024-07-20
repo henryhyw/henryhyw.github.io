@@ -63,11 +63,11 @@ video{
 
 @media (min-width: 650px) {
     .welcome-text h1 {
-        font-size: 4em;
+        font-size: 3em;
     }
 
     .welcome-text h2 {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 }
 
