@@ -3,6 +3,11 @@ layout: page
 title: 
 ---
 
+---
+layout: page
+title: 
+---
+
 <style>
 video {
     max-width: 45%;
@@ -65,7 +70,7 @@ video {
       Your browser does not support the video tag.
    </video>
    <div class="welcome-text">
-      <h1 id="welcomeTitle">WELCOME<br></h1>
+      <h1 id="welcomeTitle">WELCOME</h1>
       <h2 id="welcomeSubtitle">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. My research interests lie at the fascinating intersections of artificial intelligence, neuroscience, and education. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
    </div>
 </div>
@@ -90,7 +95,7 @@ video {
         return `${fontWeight} ${fontSize} ${fontFamily}`;
     }
 
-    function adjustFontSize() {
+    function adjustFontSizeAndLineHeight() {
         const videoElement = document.getElementById('videoElement');
         const titleElement = document.getElementById('welcomeTitle');
         const subtitleElement = document.getElementById('welcomeSubtitle');
@@ -115,8 +120,18 @@ video {
             subtitleFontSize += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         }
+
+        // Adjust the line height to prevent overlap
+        let lineHeight = 1.2; // Start with a default line height
+        subtitleElement.style.lineHeight = lineHeight;
+        let subtitleHeight = subtitleElement.clientHeight;
+        while (subtitleHeight > videoHeight && lineHeight < 2) { // Adjust until it fits
+            lineHeight += 0.1;
+            subtitleElement.style.lineHeight = lineHeight;
+            subtitleHeight = subtitleElement.clientHeight;
+        }
     }
 
-    window.onload = adjustFontSize;
-    window.onresize = adjustFontSize;
+    window.onload = adjustFontSizeAndLineHeight;
+    window.onresize = adjustFontSizeAndLineHeight;
 </script>
