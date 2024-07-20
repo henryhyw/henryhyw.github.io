@@ -7,7 +7,8 @@ permalink: /early
 <style>
 div.scroll-container {
   background-color: #f7f7f7;
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
   white-space: nowrap;
   padding: 10px;
   height: 40vh; /* Set the height to 30% of the viewport height */
