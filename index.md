@@ -59,7 +59,7 @@ video {
 }
 </style>
 
-<div class="image-left" style="max-width: 615px; margin: auto;">
+<div class="image-left container" style="margin: auto;">
    <video id="videoElement" controls>
       <source src="/assets/vid/travel.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -111,7 +111,7 @@ video {
         // Adjust the font size of the subtitle to match the height of the video
         let subtitleFontSize = 1;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-        while (subtitleElement.clientHeight < videoHeight && subtitleFontSize < 2.5) { // Constrain max font size to 5em
+        while (subtitleElement.clientHeight < videoHeight && subtitleFontSize < 2) { // Constrain max font size to 5em
             subtitleFontSize += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         }
