@@ -3,7 +3,7 @@ layout: page
 title: Who I Am
 ---
 
-Hey there! I’m Henry. I was born in Taiwan but grew up in the bustling city of Shanghai. I’ve also had the chance to live in Hawke’s Bay, New Zealand.
+Hey there! I’m Henry. I was born in Taiwan but grew up in the bustling city of Shanghai. I’ve also had the chance to live in Hawke’s Bay, New Zealand. Currently, I'm pursuing my degree in vibrant Hong Kong.
 
 In my free time, I love walking by the ocean. When I lived in New Zealand, I often visited the beautiful Napier Oceanside. Now that I’m back near school, you can often find me at the Kennedy Town Seaside, soaking in the peaceful vibes of the waterfront. There’s something incredibly calming about the ocean that I just can’t get enough of.
 
