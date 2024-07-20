@@ -55,6 +55,21 @@ video, .fallback-image {
     justify-content: space-between; /* Distribute space evenly between children */
     height: 100%; /* Ensure it takes up the full height of the container */
 }
+
+.welcome-text h1, .welcome-text h2 {
+    margin: 0; /* Override predefined margins */
+}
+
+.welcome-text h1 {
+    padding: 15px 0; /* Add padding at the top */
+    width: 100%;
+    line-height: 1.2; /* Initial line height */
+}
+
+.welcome-text h2 {
+    padding-bottom: 5px; /* Adjust padding at the bottom */
+    line-height: 1.2; /* Initial line height */
+}
 </style>
 
 <div class="image-left container" style="margin: auto;">
