@@ -7,7 +7,7 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Learning Journey',   url: 'education.html'}
+- {name: 'Education',   url: 'education.html'}
 - {name: 'Work Experiences',   url: 'work.html'}
 - {name: 'Early CS Adventures',   url: 'early.html'}
 - {name: 'Contact Me', url: 'contact.html'}
