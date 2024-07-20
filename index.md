@@ -61,6 +61,11 @@ video, .fallback-image {
     margin-block-start: 0;
     margin-block-end: 0;
 }
+
+.welcome-text h1 {
+    width: 100%;
+    line-height: 1.2; /* Initial line height */
+}
 </style>
 
 <div class="image-left container" style="margin: auto;">
@@ -108,11 +113,9 @@ video, .fallback-image {
         let textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         while (textWidth < availableWidth && titleFontSize < 5) { // Constrain max font size to 5em
             titleFontSize += 0.1;
-            titleLineHeight += 0.1;
             titleElement.style.fontSize = `${titleFontSize}em`;
             textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         }
-        titleElement.style.lineHeight = 1.2;
 
         // Fix the title font size and adjust the subtitle to match the height of the video
         let subtitleFontSize = 0.6;
