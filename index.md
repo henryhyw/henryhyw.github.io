@@ -111,9 +111,7 @@ video, .fallback-image {
 
         // Adjust the font size and line height of the title to fit the width
         let titlefontSize = 1; // Start with a smaller font size
-        let titleLineHeight = 1.2; // Start with an initial line height
         titleElement.style.fontSize = `${titlefontSize}em`;
-        titleElement.style.lineHeight = `${titleLineHeight}em`;
         let textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         while (textWidth < availableWidth && fontSize < 5) { // Constrain max font size to 5em
             titlefontSize += 0.1;
