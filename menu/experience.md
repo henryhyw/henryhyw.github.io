@@ -28,6 +28,8 @@ Welcome to my professional playground. I've had the chance to work on some aweso
 
 ## Work Experience
 
+---
+
 ### Student Work Placement Intern
 
 <img src="/assets/img/hsbc.png" style="height:6vh;">
@@ -88,7 +90,11 @@ Here is the link to the website I developed: [Kiwiview International Limited](ht
 
 Tutoring has been a passion of mine, and during this period, I helped international high school students ace their AP and IB math and computer science exams. I also prepared them for AMC 8 & AMC 10 competitions and assisted with their school coursework to boost their understanding and performance.
 
+---
+
 ## Other Projects
+
+---
 
 ### Contributor in an Information Retrieval Research Project
 
@@ -103,3 +109,5 @@ I had an amazing opportunity to work on BRIGHT, a benchmark designed to evaluate
 It was a fascinating deep dive into how information is processed and understood. I spent a lot of time gathering and analyzing data from public forums, creating query-document pairs, and testing coding-related queries to ensure our models were accurate.
 
 As one of the co-authors, I contributed to a paper about the project, which we submitted to NeurIPS and is currently under review. This project was a challenging yet incredibly rewarding experience.
+
+---
