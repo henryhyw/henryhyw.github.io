@@ -51,11 +51,11 @@ video{
 
 @media (max-width: 600px) {
     .welcome-text h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .welcome-text h2 {
-        font-size: 1em;
+        font-size: 1.05em;
     }
 }
 
@@ -65,7 +65,7 @@ video{
     }
 
     .welcome-text h2 {
-        font-size: 1.4em;
+        font-size: 1.63em;
     }
 }
 
