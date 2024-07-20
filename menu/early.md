@@ -38,6 +38,8 @@ Here are some screenshots of the first app (contact notebook) I made.
   <img src="/assets/img/contactnotebook2.jpg">
 </div>
 
+*Scroll to see more*
+
 ## Scientific American Downloader
 
 In my first year of junior high, I decided to practice English and came across the podcast called Scientific American. At that time, I was using an MP3 player that supported playing audio, images, and texts. So, I developed an app to batch download audios, scripts, and images from Scientific American episodes. The app included a user account system that could record the episodes a user had downloaded and continue from where they left off next time.
