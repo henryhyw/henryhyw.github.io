@@ -98,6 +98,8 @@ video{
     position: relative;
     top: 0.2em; /* Shift down to remove space below */
     text-align: justify;
+    text-align-last: justify; /* Justify the last line as well */
+    -moz-text-align-last: justify; /* Firefox compatibility */
 }
 </style>
 
