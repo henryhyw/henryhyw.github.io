@@ -113,6 +113,23 @@ video{
 </div>
 
 <script>
+    function updateSubtitle() {
+        const subtitleElement = document.getElementById('welcomeSubtitle');
+        const isMobile = window.matchMedia("(max-width: 600px)").matches;
+
+        if (isMobile) {
+            subtitleElement.textContent = "Hello! I'm Han-yu, a junior at HKU, majoring in AI. I love to explore new places and code apps. I'm ready to share my journey with you!";
+        } else {
+            subtitleElement.textContent = "Hello! I'm Han-yu (Henry), a junior at HKU, majoring in AI. I love to explore new places and code apps. I'm excited to have you here and ready to share my journey with you!";
+        }
+    }
+
+    // Run on page load
+    window.onload = updateSubtitle;
+
+    // Run on resize
+    window.onresize = updateSubtitle;
+    
     function getTextWidth(text, font) {
         const canvas = getTextWidth.canvas || (getTextWidth.canvas = document.createElement("canvas"));
         const context = canvas.getContext("2d");
