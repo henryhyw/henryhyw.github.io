@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Henry Wang
+title: 
 ---
 
 <style>
@@ -12,7 +12,7 @@ video
 
 .image-left, .image-right
 {
-	margin: 1em 0;
+	margin: 10em 0;
 }
 
 @media (min-width: 20em)
