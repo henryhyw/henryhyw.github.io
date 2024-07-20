@@ -4,13 +4,11 @@ title: My Early Adventures in Computer Science
 permalink: /early
 ---
 
-### My Early Adventures in Computer Science
-
 Before we dive in, I have to admit that a lot of the things I did in junior high and high school were pretty naive. But who hasn't had a naive phase, right? Honestly, I might still be a bit naive now, and that's okay. 
 
 I fell in love with computer science when I was 13, in my first year of junior high school. I was fascinated by how computers could be programmed to do all sorts of cool things. I taught myself the basics of Java and Python and started building simple apps, like a notebook app in Java and an advanced number guessing game with user accounts and game history logged in text files.
 
-#### Chrome Extension Experiments
+## Chrome Extension Experiments
 
 In my second year of junior high, I started exploring Chrome extensions. Living in Mainland China made me curious about things that weren't easily accessible, so I'd use a VPN to access Google-related stuff. It amazed me that these small apps in the browser could do so much, like turning the screen dark for YouTube videos. So, I learned how to develop and publish Chrome extensions and created a few:
 
@@ -22,13 +20,13 @@ In my second year of junior high, I started exploring Chrome extensions. Living 
 
 Here are some screenshots of the developer dashboard and some of the extensions.
 
-#### Music Streaming Hacks
+## Music Streaming Hacks
 
 From the third year of junior high to the first year of high school, my main interest was building an app for downloading paid songs from music streaming services in China. I now realize that this was illegal, but at the time, I wasn't aware of that. Although I'm not proud of it, I still want to mention it because it was a masterpiece for a first-year high school student. I did a lot of research on web scraping and managed to crack the links of paid songs from various music streaming services. With this app, users could download songs with the link of the song page from QQ Music, Netease Music, KuGou Music, and KuWo Music, with the desired sound quality. Users could also batch download songs from a singer with a specified number of pages. I even created a user account system where some functions, like downloading lossless audio, were only available to VIP users.
 
 Here are some screenshots of the app, which is in Simplified Chinese since the users were from Mainland China.
 
-#### Building Kiwiview's Website
+## Building Kiwiview's Website
 
 In the second year of high school, I started building a website for Kiwiview International Limited, a New Zealand company co-owned by my parents and a Kiwi. Since the business was just starting, they let me try building the website. I taught myself HTML, JavaScript, CSS, and SQL. It took me months to deploy it on an IIS server on Tencent Cloud. The deployment process was really complicated for a beginner, and I spent a lot of time researching it. I also built a personal website, but unfortunately, it can no longer be accessed because I forgot to renew the server, and the files were lost. This taught me an important lesson about backing up files.
 
@@ -36,7 +34,7 @@ Actually, this is exactly the website I continue to work on in college when I wa
 
 Here is the link to the website: [Kiwiview International Limited](https://www.kiwiviewintl.co.nz/uk-en/index.php)
 
-#### Fun with Automation
+## Fun with Automation
 
 In my third year of high school, I participated in a mental arithmetic and "24-point" game competition. It was an online competition held at our school. I made a script to automatically solve the problems, achieving really high scores. The script recognized the content on the screen, used algorithms to solve the problems, and then instructed the computer to input the answers. Everything was done automatically and repeatedly until time was up.
 
