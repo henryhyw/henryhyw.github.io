@@ -53,7 +53,7 @@ video {
       Your browser does not support the video tag.
    </video>
    <div>
-   	  <h1 style="font-size: 2.5em;">WELCOME</h1>
-      <h2 style="font-size: 2em;">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I love exploring new places and coding my own programs. Glad to have you here!</h2>
+   	  <h1 style="font-size: 5em;">WELCOME</h1>
+      <h2 style="font-size: 1.5em;">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I love exploring new places and coding my own programs. Glad to have you here!</h2>
    </div>
 </div>
