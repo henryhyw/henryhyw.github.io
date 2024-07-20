@@ -6,6 +6,7 @@ permalink: /about
 
 <style>
 video, .fallback-image {
+	width: 100%;
     filter: brightness(80%); /* Make the video darker */
 }
 </style>
