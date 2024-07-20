@@ -8,7 +8,7 @@ google-ID: ''
 
 menu:
 - {name: 'Education',   url: 'education.html'}
-- {name: 'Work Experiences',   url: 'work.html'}
+- {name: 'Work Experience',   url: 'work.html'}
 - {name: 'Early CS Adventures',   url: 'early.html'}
 - {name: 'Contact Me', url: 'contact.html'}
 

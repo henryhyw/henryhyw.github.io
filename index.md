@@ -5,6 +5,8 @@ title: Who I Am
 
 Hey there! I’m Henry. I was born in Taiwan but grew up in the bustling city of Shanghai. I’ve also had the chance to live in Hawke’s Bay, New Zealand. Currently, I'm pursuing my degree in vibrant Hong Kong.
 
+I am a third-year student at the University of Hong Kong, majoring in Applied Artificial Intelligence. Meanwhile, I work as a part-time research assistant in the Speech, Language, and Reading Lab at HKU, and in the Psychometrics and Data Science Lab at HKU. Additionally, I am a full-time Student Work Placement Intern at HSBC. For more details, please visit my [education](https://henryhyw.github.io/education.html) and [work experience](https://henryhyw.github.io/work.html) pages.
+
 In my free time, I love walking by the ocean. When I lived in New Zealand, I often visited the beautiful Napier Oceanside. Now that I’m back near school, you can often find me at the Kennedy Town Seaside, soaking in the peaceful vibes of the waterfront. There’s something incredibly calming about the ocean that I just can’t get enough of.
 
 I love traveling and have had the chance to explore some amazing places around the world. I’ve marveled at the stunning Sagrada Família in Barcelona, stood in awe at the ancient Acropolis in Athens, and gazed up at the iconic Statue of Liberty in the United States. In New Zealand, I wandered through the enchanting Rotorua Redwoods. Each of these experiences has left me with unforgettable memories and a deep appreciation for the beauty and diversity of our world.
