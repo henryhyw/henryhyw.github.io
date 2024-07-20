@@ -52,7 +52,6 @@ video, .fallback-image {
     flex: 2;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Distribute space evenly between children */
     height: 100%; /* Ensure it takes up the full height of the container */
 }
 </style>
