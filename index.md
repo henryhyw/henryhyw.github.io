@@ -108,7 +108,7 @@ video{
    <img id="imageElement" src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="display: none;">
    <div class="welcome-text">
       <h1 id="welcomeTitle">WELCOME</h1>
-      <h2 id="welcomeSubtitle">I'm Henry, a junior at the University of Hong Kong, majoring in AI. I love exploring new places and coding innovative programs. I'm thrilled to share my journey with you!</h2>
+      <h2 id="welcomeSubtitle">I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I love exploring new places and coding innovative programs. I'm thrilled to have you here and share my journey with you!</h2>
    </div>
 </div>
 
