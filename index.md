@@ -76,8 +76,7 @@ video {
    </video>
    <div class="welcome-text">
       <h1 id="welcomeTitle">WELCOME</h1>
-      <br>
-      <h2 id="welcomeSubtitle">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
+      <h2 id="welcomeSubtitle"><br>Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
    </div>
 </div>
 
@@ -120,8 +119,8 @@ video {
         }
 
         // Adjust the font size of the subtitle to match the height of the video
-        let subtitleFontSize = 0.6;
-        let lineHeight = 0.8;
+        let subtitleFontSize = 0.4;
+        let lineHeight = 0.6;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         subtitleElement.style.lineHeight = lineHeight;
         let subtitleHeight = subtitleElement.clientHeight;
