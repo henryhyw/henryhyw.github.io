@@ -53,7 +53,7 @@ video {
       Your browser does not support the video tag.
    </video>
    <div>
-      <h2>Welcome</h2>
-	  <p>Hi! Welcome to my home page. I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I love walking by the ocean, exploring new places, and coding my own programs. Glad to have you here!</p>
+      <h2>Welcome to my home page!</h2>
+	  <p style="font-size: 1.2em;">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I love exploring new places and coding my own programs. Glad to have you here!</p>
    </div>
 </div>
