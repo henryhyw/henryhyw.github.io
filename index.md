@@ -3,11 +3,6 @@ layout: page
 title: 
 ---
 
----
-layout: page
-title: 
----
-
 <style>
 video {
     max-width: 45%;
