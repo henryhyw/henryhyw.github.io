@@ -10,10 +10,12 @@ div.scroll-container {
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
+  height: 30vh; /* Set the height to 30% of the viewport height */
 }
 
 div.scroll-container img {
   padding: 10px;
+  max-height: 100%; /* Ensure the images fit within the container height */
 }
 </style>
 
@@ -50,9 +52,11 @@ In my second year of junior high, I started exploring Chrome extensions. Living 
 
 Here are some screenshots of the developer dashboard and some of the extensions.
 
-![Image](/assets/img/chromeextension1){:width="50%"}
-![Image](/assets/img/chromeextension2){:width="50%"}
-![Image](/assets/img/chromeextension3){:width="50%"}
+<div class="scroll-container">
+  <img src="/assets/img/chromeextension1.jpg">
+  <img src="/assets/img/chromeextension2.jpg">
+  <img src="/assets/img/chromeextension3.jpg">
+</div>
 
 ## Music Streaming Hacks
 
