@@ -61,8 +61,9 @@ video, .fallback-image {
     margin-block-start: 0;
     margin-block-end: 0;
     width: 100%;
-    line-height: 1;
+    line-height: 1.2;
     position: relative;
+    top: -0.1em; /* Shift up to remove space above */
 }
 
 .welcome-text h2 {
