@@ -66,7 +66,7 @@ video {
    </video>
    <div class="welcome-text">
       <h1 id="welcomeTitle">WELCOME</h1>
-      <h2 id="welcomeSubtitle">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. My research interests lie at the fascinating intersections of artificial intelligence, neuroscience, and education. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
+      <h2 id="welcomeSubtitle">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
    </div>
 </div>
 
@@ -111,7 +111,7 @@ video {
         // Adjust the font size of the subtitle to match the height of the video
         let subtitleFontSize = 1;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-        while (subtitleElement.clientHeight < videoHeight && subtitleFontSize < 1.5) { // Constrain max font size to 1.5em
+        while (subtitleElement.clientHeight < videoHeight && subtitleFontSize < 2) { // Constrain max font size to 1.5em
             subtitleFontSize += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         }
@@ -120,7 +120,7 @@ video {
         let lineHeight = 1.2; // Start with a default line height
         subtitleElement.style.lineHeight = lineHeight;
         let subtitleHeight = subtitleElement.clientHeight;
-        while (subtitleHeight > videoHeight && lineHeight < 2) { // Adjust until it fits
+        while (subtitleHeight > videoHeight && lineHeight < 2.5) { // Adjust until it fits
             lineHeight += 0.1;
             subtitleElement.style.lineHeight = lineHeight;
             subtitleHeight = subtitleElement.clientHeight;
