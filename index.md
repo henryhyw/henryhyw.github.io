@@ -118,7 +118,7 @@ video, .fallback-image {
         }
 
         // Fix the title font size and adjust the subtitle to match the height of the video
-        let subtitleFontSize = 0.6;
+        let subtitleFontSize = 1;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         let totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
 
