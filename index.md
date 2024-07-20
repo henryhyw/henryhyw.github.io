@@ -87,12 +87,6 @@ video {
             titleElement.style.fontSize = `${fontSize}em`;
         }
 
-        // Fine-tuning to fit within the width
-        while (titleElement.clientWidth > availableWidth) {
-            fontSize -= 0.1;
-            titleElement.style.fontSize = `${fontSize}em`;
-        }
-
         // Adjust the font size of the subtitle to match the height of the video
         let subtitleFontSize = 1;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
@@ -110,9 +104,4 @@ video {
 
     window.onload = adjustFontSize;
     window.onresize = adjustFontSize;
-
-    // Monitor video size changes
-    const videoElement = document.getElementById('videoElement');
-    const observer = new ResizeObserver(adjustFontSize);
-    observer.observe(videoElement);
 </script>
