@@ -30,9 +30,9 @@ Here are some screenshots of the app, which is in Simplified Chinese since the u
 
 In the second year of high school, I started building a website for Kiwiview International Limited, a New Zealand company co-owned by my parents and a Kiwi. Since the business was just starting, they let me try building the website. I taught myself HTML, JavaScript, CSS, and SQL. It took me months to deploy it on an IIS server on Tencent Cloud. The deployment process was really complicated for a beginner, and I spent a lot of time researching it. I also built a personal website, but unfortunately, it can no longer be accessed because I forgot to renew the server, and the files were lost. This taught me an important lesson about backing up files.
 
-Actually, this is exactly the website I continue to work on in college when I was officially hired by the company as the Web Developer and Data Analyst. Please go to this [**PAGE**](https://www.kiwiviewintl.co.nz/uk-en/msg.php) and leave a message with your email address, there’s a little surprise waiting for you. Apart from the website, the business cards and logo of the company were also designed by me. I found it really fun to do all these things.
-
 Here is the link to the website: [Kiwiview International Limited](https://www.kiwiviewintl.co.nz/uk-en/index.php)
+
+Actually, this is the same website I continue to work on in college when I was officially hired by the company as a Web Developer and Data Analyst. Please visit this [**PAGE**](https://www.kiwiviewintl.co.nz/uk-en/msg.php) and leave a message with your email address—there’s a little surprise waiting for you. Besides the website, I also designed the business cards and logo for the company. I found it really fun to do all these things.
 
 ## Fun with Automation
 
