@@ -8,11 +8,29 @@ permalink: /about
 video, .fallback-image {
 	width: 100%;
 }
+
+div.scroll-container {
+  background-color: #f7f7f7;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Disable vertical scrolling */
+  white-space: nowrap;
+  padding: 10px;
+  height: 35vh; /* Set the height to 35% of the viewport height */
+  display: flex;
+  align-items: center; /* Center align images vertically */
+}
+
+div.scroll-container img,
+div.scroll-container video {
+  padding: 10px;
+  height: calc(35vh - 20px); /* Adjust the height to fit within the container, considering padding */
+  object-fit: contain; /* Ensure the images fit within the container */
+}
 </style>
 
 I’m Han-yu Wang. You can also call me Henry. I was born in **Taiwan** and grew up in the bustling city of **Shanghai**. I’ve also had the chance to live in **Hawke’s Bay, New Zealand**. Currently, I'm pursuing my degree in vibrant **Hong Kong**.
 
-![Image](/assets/img/henry.png)
+<img src="/assets/img/henry.jpg" height="30%">
 
 I am a third-year student at the **University of Hong Kong**, majoring in **Applied Artificial Intelligence**. Meanwhile, I work as a part-time research assistant in the **SLR Lab at HKU**, where I investigate intersections in neuroscience, artificial intelligence, and education. I also work in the **PDS Lab at HKU**, focusing on integrating generative AI and LLM with personalized learning. Additionally, I am a full-time Student Work Placement Intern at **HSBC**, working in the Digital Transformation Department. For more details, please visit my [education](https://henryhyw.github.io/education.html) and [work experience](https://henryhyw.github.io/work.html) pages.
 
@@ -28,6 +46,17 @@ I love traveling and have had the chance to explore some amazing places around t
 > "Once you have traveled, the voyage never ends, but is played out over and over again in the quietest chambers. The mind can never break off from the journey."
 >
 > *- Pat Conroy*
+
+<div class="scroll-container">
+  <img src="/assets/img/acropolis.jpg">
+  <img src="/assets/img/athensstatue.jpg">
+  <img src="/assets/img/kerameikos.jpg">
+  <img src="/assets/img/agora.jpg">
+  <img src="/assets/img/beijingairport.jpg">
+  <img src="/assets/img/nz.jpg">
+  <img src="/assets/img/rotorua.jpg">
+  <img src="/assets/img/baihe.jpg">
+</div>
 
 Another passion of mine is diving into the world of computer science. I absolutely love coding. There’s nothing quite like the thrill of creating vibrant, functional programs from scratch. It’s amazing to see lines of code come together to build something real and impactful. Feel free to check out my early adventures in computer science—it was such a fun and exciting journey for me. You can explore more about it here: [My Early CS Adventures](https://henryhyw.github.io/early.html).
 
