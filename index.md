@@ -70,7 +70,7 @@ video {
 </style>
 
 <div class="image-left container" style="margin: auto;">
-   <video id="videoElement" muted loop playsinline>
+   <video id="videoElement" muted autoplay loop playsinline>
       <source src="/assets/vid/travel.mp4" type="video/mp4">
       Your browser does not support the video tag.
    </video>
