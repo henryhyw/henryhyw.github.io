@@ -149,14 +149,14 @@ video {
     const videoElement = document.getElementById('videoElement');
     let playingForward = true;
 
-    videoElement.addEventListener('ended', () => {
-        if (playingForward) {
+    videoElement.addEventListener('timeupdate', () => {
+        if (videoElement.currentTime >= videoElement.duration && playingForward) {
             videoElement.pause();
             videoElement.currentTime = videoElement.duration;
             videoElement.playbackRate = -1;
             videoElement.play();
             playingForward = false;
-        } else {
+        } else if (videoElement.currentTime <= 0 && !playingForward) {
             videoElement.pause();
             videoElement.currentTime = 0;
             videoElement.playbackRate = 1;
