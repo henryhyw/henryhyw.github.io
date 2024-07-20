@@ -4,7 +4,7 @@ title: My Learning Journey So Far
 permalink: /education
 ---
 
-Hey there! Here’s a snapshot of my academic path and the experiences that have shaped my learning.
+Here’s a snapshot of my academic path and the experiences that have shaped my learning.
 
 ## The University of Hong Kong
 

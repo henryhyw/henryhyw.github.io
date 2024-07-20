@@ -24,7 +24,7 @@ div.scroll-container video {
 }
 </style>
 
-Hey there! Welcome to my professional playground. I've had the chance to work on some awesome projects and roles that have shaped my journey. Buckle up as I take you through my career highlights!
+Welcome to my professional playground. I've had the chance to work on some awesome projects and roles that have shaped my journey. Buckle up as I take you through my career highlights!
 
 ## Student Work Placement Intern
 
