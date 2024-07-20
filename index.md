@@ -118,6 +118,7 @@ video{
 
         const mediaElement = videoElement.style.display !== 'none' ? videoElement : imageElement;
         const mediaHeight = mediaElement.clientHeight;
+        alert(mediaHeight);
         const availableWidth = document.querySelector('.welcome-text').clientWidth;
 
         // Adjust the font size and line height of the title to fit the width
@@ -169,9 +170,10 @@ video{
     }
 
     window.onload = () => {
+
+        alert("haha");
         adjustFontSizeAndLineHeight();
         checkVideoCompatibility();
-        setTimeout(adjustFontSizeAndLineHeight, 1000); // Re-adjust after a short delay to handle initial load
     };
     window.onresize = adjustFontSizeAndLineHeight;
 
