@@ -66,6 +66,7 @@ video, .fallback-image {
 .welcome-text h1 {
     width: 100%;
     line-height: 1.5;
+    align-self: flex-start; /* Align to the top */
 }
 </style>
 
