@@ -8,7 +8,7 @@ Hey there! I’m Henry. I was born in Taiwan but grew up in the bustling city of
 In my free time, I love walking by the ocean. When I lived in New Zealand, I often visited the beautiful Napier Oceanside. Now that I’m back near school, you can often find me at the Kennedy Town Seaside, soaking in the peaceful vibes of the waterfront. There’s something incredibly calming about the ocean that I just can’t get enough of.
 
 <div style="display: flex; align-items: center;">
-  <div style="position: relative; width: 50%; height: auto;">
+  <div style="position: relative; width: 20%; height: auto;">
     <video style="width: 100%; filter: brightness(50%);" controls>
       <source src="/assets/vid/travel.mp4" type="video/mp4">
       Your browser does not support the video tag.
