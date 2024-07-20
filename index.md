@@ -110,48 +110,40 @@ video, .fallback-image {
         const availableWidth = document.querySelector('.welcome-text').clientWidth;
 
         // Adjust the font size and line height of the title to fit the width
-        let fontSize = 1; // Start with a smaller font size
+        let titlefontSize = 1; // Start with a smaller font size
         let titleLineHeight = 1.2; // Start with an initial line height
-        titleElement.style.fontSize = `${fontSize}em`;
-        titleElement.style.lineHeight = titleLineHeight;
+        titleElement.style.fontSize = `${titlefontSize}em`;
+        titleElement.style.lineHeight = `${titleLineHeight}em`;
         let textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
-        while (textWidth < availableWidth && fontSize < 5) { // Constrain max font size to 5em
-            fontSize += 0.1;
+        while (textWidth < availableWidth && titlefontSize < 5) { // Constrain max font size to 5em
+            titlefontSize += 0.1;
             titleLineHeight += 0.1;
-            titleElement.style.fontSize = `${fontSize}em`;
-            titleElement.style.lineHeight = titleLineHeight;
+            titleElement.style.fontSize = `${titlefontSize}em`;
+            titleElement.style.lineHeight = `${titleLineHeight}em`;
             textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         }
 
         // Adjust the font size and line height of the subtitle and title to occupy the height of the video
         let subtitleFontSize = 0.6;
-        let subtitleLineHeight = 1.2; // Start with an initial line height
+        let subtitleLineHeight = 0.8;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-        subtitleElement.style.lineHeight = subtitleLineHeight;
+        subtitleElement.style.lineHeight = `${subtitleLineHeight}em`;
         let totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
 
         while (totalHeight < videoHeight && subtitleFontSize < 3) { // Constrain max font size to 3em
-            fontSize += 0.1;
             subtitleFontSize += 0.1;
-            titleLineHeight += 0.1;
             subtitleLineHeight += 0.1;
-            titleElement.style.fontSize = `${fontSize}em`;
-            titleElement.style.lineHeight = titleLineHeight;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-            subtitleElement.style.lineHeight = subtitleLineHeight;
+            subtitleElement.style.lineHeight = `${subtitleLineHeight}em`;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
 
         // Reduce font size and line height if the total height exceeds the video height
         while (totalHeight > videoHeight && fontSize > 0.5 && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
-            fontSize -= 0.1;
             subtitleFontSize -= 0.1;
-            titleLineHeight -= 0.1;
             subtitleLineHeight -= 0.1;
-            titleElement.style.fontSize = `${fontSize}em`;
-            titleElement.style.lineHeight = titleLineHeight;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-            subtitleElement.style.lineHeight = subtitleLineHeight;
+            subtitleElement.style.lineHeight = `${subtitleLineHeight}em`;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
     }
