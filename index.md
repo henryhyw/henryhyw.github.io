@@ -65,6 +65,7 @@ video{
     margin-block-end: 0;
     width: 100%;
     line-height: 1.2;
+    font-size: 2.6em;
     position: relative;
     top: -0.1em; /* Shift up to remove space above */
 }
@@ -74,6 +75,7 @@ video{
     margin-block-start: 0;
     margin-block-end: 0;
     line-height: 1.3;
+    font-size: 1.13em;
     position: relative;
     top: 0.15em; /* Shift down to remove space below */
 }
@@ -118,7 +120,6 @@ video{
 
         const mediaElement = videoElement.style.display !== 'none' ? videoElement : imageElement;
         const mediaHeight = mediaElement.clientHeight;
-        alert(mediaHeight);
         const availableWidth = document.querySelector('.welcome-text').clientWidth;
 
         // Adjust the font size and line height of the title to fit the width
@@ -171,7 +172,6 @@ video{
 
     window.onload = () => {
 
-        alert("haha");
         adjustFontSizeAndLineHeight();
         checkVideoCompatibility();
     };
