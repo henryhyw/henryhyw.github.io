@@ -65,7 +65,7 @@ video {
       Your browser does not support the video tag.
    </video>
    <div class="welcome-text">
-      <h1 id="welcomeTitle">WELCOME</h1>
+      <h1 id="welcomeTitle">WELCOME<br></h1>
       <h2 id="welcomeSubtitle">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. My research interests lie at the fascinating intersections of artificial intelligence, neuroscience, and education. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
    </div>
 </div>
@@ -107,21 +107,12 @@ video {
             titleElement.style.fontSize = `${fontSize}em`;
             textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         }
-        while (textWidth > availableWidth && fontSize > 1) { // Ensure font size does not go below 1em
-            fontSize -= 0.1;
-            titleElement.style.fontSize = `${fontSize}em`;
-            textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
-        }
 
         // Adjust the font size of the subtitle to match the height of the video
         let subtitleFontSize = 1;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         while (subtitleElement.clientHeight < videoHeight && subtitleFontSize < 1.5) { // Constrain max font size to 1.5em
             subtitleFontSize += 0.1;
-            subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-        }
-        while (subtitleElement.clientHeight > videoHeight && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
-            subtitleFontSize -= 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         }
     }
