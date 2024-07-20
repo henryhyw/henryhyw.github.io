@@ -6,17 +6,20 @@ permalink: /early
 
 <style>
 div.scroll-container {
-  background-color: #f7f7f7;
-  overflow-x: auto;
-  overflow-y: hidden;
+  background-color: #fff;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Disable vertical scrolling */
   white-space: nowrap;
   padding: 10px;
-  height: 40vh; /* Set the height to 30% of the viewport height */
+  height: 35vh; /* Set the height to 35% of the viewport height */
+  display: flex;
+  align-items: center; /* Center align images vertically */
 }
 
 div.scroll-container img {
   padding: 10px;
-  max-height: 100%; /* Ensure the images fit within the container height */
+  height: calc(30vh - 20px); /* Adjust the height to fit within the container, considering padding */
+  object-fit: contain; /* Ensure the images fit within the container */
 }
 </style>
 
