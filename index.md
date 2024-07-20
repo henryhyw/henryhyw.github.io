@@ -52,12 +52,19 @@ video {
     flex: 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between; /* Distribute space evenly between children */
 }
 
-.welcome-text h1, .welcome-text h2 {
+.welcome-text h1 {
     margin: 0;
     padding: 0;
+    align-self: flex-start; /* Align to the top */
+}
+
+.welcome-text h2 {
+    margin: 0;
+    padding: 0;
+    align-self: flex-end; /* Align to the bottom */
 }
 </style>
 
