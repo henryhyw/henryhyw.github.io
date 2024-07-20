@@ -127,4 +127,6 @@ Here are some videos of the script I recorded.
   </video>
 </div>
 
+*Scroll to see more*
+
 I hope you enjoyed reading about my early journey with computer science!
