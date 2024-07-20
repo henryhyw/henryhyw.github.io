@@ -40,6 +40,13 @@ In my first year of junior high, I decided to practice English and came across t
 
 Here are some screenshots of this app.
 
+<div class="scroll-container">
+  <img src="/assets/img/safetcher1.jpg">
+  <img src="/assets/img/safetcher2.jpg">
+  <img src="/assets/img/safetcher3.jpg">
+  <img src="/assets/img/safetcher4.jpg">
+</div>
+
 ## Chrome Extension Experiments
 
 In my second year of junior high, I started exploring Chrome extensions. Living in Mainland China made me curious about things that weren't easily accessible, so I'd use a VPN to access Google-related stuff. It amazed me that these small apps in the browser could do so much, like turning the screen dark for YouTube videos. So, I learned how to develop and publish Chrome extensions and created a few:
@@ -63,6 +70,16 @@ Here are some screenshots of the developer dashboard and some of the extensions.
 In my first year of high school, my main interest was building an app for downloading paid songs from music streaming services in China. I now realize that this was illegal, but at the time, I wasn't aware of that. Although I'm not proud of it, I still want to mention it because it was a masterpiece for a first-year high school student. I did a lot of research on web scraping and managed to crack the links of paid songs from various music streaming services. With this app, users could download songs with the link of the song page from QQ Music, Netease Music, KuGou Music, and KuWo Music, with the desired sound quality. Users could also batch download songs from a singer with a specified number of pages. I even created a user account system where some functions, like downloading lossless audio, were only available to VIP users.
 
 Here are some screenshots of the app, which is in Simplified Chinese since the users were from Mainland China.
+
+<div class="scroll-container">
+  <img src="/assets/img/musicdownloader1.jpg">
+  <img src="/assets/img/musicdownloader2.jpg">
+  <img src="/assets/img/musicdownloader3.jpg">
+  <img src="/assets/img/musicdownloader4.jpg">
+  <img src="/assets/img/musicdownloader5.jpg">
+  <img src="/assets/img/musicdownloader6.jpg">
+  <img src="/assets/img/musicdownloader7.jpg">
+</div>
 
 ## Building Kiwiview's Website
 
