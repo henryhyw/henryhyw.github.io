@@ -7,7 +7,8 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'My Journey',   url: 'journey.html'}
+- {name: 'My Learning Journey',   url: 'education.html'}
+- {name: 'My Work Experiences',   url: 'work.html'}
 - {name: 'My Early CS Adventures',   url: 'early.html'}
 - {name: 'Contact Me', url: 'contact.html'}
 
