@@ -5,6 +5,8 @@ title:
 
 <style>
 video {
+    max-width: 220px;
+    height: auto;
     filter: brightness(50%); /* Make the video darker */
 }
 
