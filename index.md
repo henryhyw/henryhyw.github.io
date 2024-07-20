@@ -64,7 +64,7 @@ video {
 
 .welcome-text h2 {
     margin: 0;
-    padding-bottom: 7px; /* Adjust padding at the bottom */
+    padding-bottom: 5px; /* Adjust padding at the bottom */
     align-self: flex-end; /* Align to the bottom */
 }
 
@@ -77,7 +77,8 @@ video {
    </video>
    <div class="welcome-text">
       <h1 id="welcomeTitle">WELCOME</h1>
-      <h2 id="welcomeSubtitle"><br>Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
+      <br>
+      <h2 id="welcomeSubtitle">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
    </div>
 </div>
 
@@ -125,7 +126,7 @@ video {
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         subtitleElement.style.lineHeight = lineHeight;
         let subtitleHeight = subtitleElement.clientHeight;
-        while (subtitleHeight < videoHeight - 22 && subtitleFontSize < 3) { // Constrain max font size to 3em
+        while (subtitleHeight < videoHeight - 20 && subtitleFontSize < 3) { // Constrain max font size to 3em
             subtitleFontSize += 0.1;
             lineHeight += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
@@ -134,7 +135,7 @@ video {
         }
 
         // Reduce font size and line height if subtitle exceeds video height
-        while (subtitleHeight > videoHeight - 22 && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
+        while (subtitleHeight > videoHeight - 20 && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
             subtitleFontSize -= 0.1;
             lineHeight -= 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
