@@ -53,6 +53,8 @@ Here are some screenshots of this app.
   <img src="/assets/img/safetcher4.jpg">
 </div>
 
+*Scroll to see more*
+
 ## Chrome Extension Experiments
 
 In my second year of junior high, I started exploring Chrome extensions. Living in Mainland China made me curious about things that weren't easily accessible, so I'd use a VPN to access Google-related stuff. It amazed me that these small apps in the browser could do so much, like turning the screen dark for YouTube videos. So, I learned how to develop and publish Chrome extensions and created a few:
@@ -70,6 +72,8 @@ Here are some screenshots of the developer dashboard and some of the extensions.
   <img src="/assets/img/chromeextension2.png">
   <img src="/assets/img/chromeextension3.png">
 </div>
+
+*Scroll to see more*
 
 ## Music Streaming Hacks
 
@@ -90,6 +94,8 @@ Here are some screenshots of the app, which is in Simplified Chinese since the u
   <img src="/assets/img/musicdownloader6.jpg">
   <img src="/assets/img/musicdownloader7.jpg">
 </div>
+
+*Scroll to see more*
 
 ## Building Kiwiview's Website
 
