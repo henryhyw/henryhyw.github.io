@@ -9,7 +9,7 @@ In my free time, I love walking by the ocean. When I lived in New Zealand, I oft
 
 <div style="display: flex; align-items: stretch; padding: 0; margin: 0;">
   <div style="flex: 1; position: relative; margin: 0;">
-    <video style="width: 100%; height: 100%; filter: brightness(50%); margin: 0; padding: 0;" controls>
+    <video style="width: 100%; height: 100%; filter: brightness(50%); display: block;" controls>
       <source src="/assets/vid/travel.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
