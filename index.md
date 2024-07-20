@@ -111,17 +111,31 @@ video {
         // Adjust the font size of the subtitle to match the height of the video
         let subtitleFontSize = 1;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-        while (subtitleElement.clientHeight < videoHeight && subtitleFontSize < 2) { // Constrain max font size to 1.5em
+        let subtitleHeight = subtitleElement.clientHeight;
+        while (subtitleHeight < videoHeight && subtitleFontSize < 2) { // Constrain max font size to 2em
             subtitleFontSize += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
+            subtitleHeight = subtitleElement.clientHeight;
         }
 
         // Adjust the line height to prevent overlap
         let lineHeight = 1.2; // Start with a default line height
         subtitleElement.style.lineHeight = lineHeight;
-        let subtitleHeight = subtitleElement.clientHeight;
+        subtitleHeight = subtitleElement.clientHeight;
         while (subtitleHeight > videoHeight && lineHeight < 2.5) { // Adjust until it fits
             lineHeight += 0.1;
+            subtitleElement.style.lineHeight = lineHeight;
+            subtitleHeight = subtitleElement.clientHeight;
+        }
+
+        // Reduce font size and line height if subtitle exceeds video height
+        while (subtitleHeight > videoHeight && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
+            subtitleFontSize -= 0.1;
+            subtitleElement.style.fontSize = `${subtitleFontSize}em`;
+            subtitleHeight = subtitleElement.clientHeight;
+        }
+        while (subtitleHeight > videoHeight && lineHeight > 1) { // Ensure line height does not go below 1
+            lineHeight -= 0.1;
             subtitleElement.style.lineHeight = lineHeight;
             subtitleHeight = subtitleElement.clientHeight;
         }
