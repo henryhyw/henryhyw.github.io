@@ -87,6 +87,7 @@ video{
     line-height: 1.2;
     position: relative;
     top: -0.1em; /* Shift up to remove space above */
+    text-align: justify;
 }
 
 .welcome-text h2 {
@@ -96,6 +97,7 @@ video{
     line-height: 1.4;
     position: relative;
     top: 0.2em; /* Shift down to remove space below */
+    text-align: justify;
 }
 </style>
 
