@@ -93,9 +93,9 @@ video{
     margin: 0;
     margin-block-start: 0;
     margin-block-end: 0;
-    line-height: 1.3;
+    line-height: 1.4;
     position: relative;
-    top: 0.15em; /* Shift down to remove space below */
+    top: 0.2em; /* Shift down to remove space below */
 }
 </style>
 
