@@ -52,8 +52,14 @@ video, .fallback-image {
     flex: 2;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Distribute space evenly between children */
+    justify-content: center; /* Center the text vertically */
     height: 100%; /* Ensure it takes up the full height of the container */
+    margin: 0; /* Reset margin */
+}
+
+.welcome-text h1, .welcome-text h2 {
+    margin: 0;
+    padding: 0;
 }
 
 </style>
@@ -111,27 +117,27 @@ video, .fallback-image {
             textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         }
 
-        // Adjust the font size of the subtitle to match the height of the video
+        // Adjust the font size and line height of the title and subtitle to fit within the video height
+        let combinedHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         let subtitleFontSize = 0.6;
         let subtitlelineHeight = 0.8;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         subtitleElement.style.lineHeight = `${subtitlelineHeight}`;
-        let subtitleHeight = subtitleElement.clientHeight;
-        while (subtitleHeight < videoHeight && subtitleFontSize < 3) { // Constrain max font size to 3em
+        while (combinedHeight < videoHeight && subtitleFontSize < 3) { // Constrain max font size to 3em
             subtitleFontSize += 0.1;
             subtitlelineHeight += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-            subtitleElement.style.lineHeight = subtitlelineHeight;
-            subtitleHeight = subtitleElement.clientHeight;
+            subtitleElement.style.lineHeight = `${subtitlelineHeight}`;
+            combinedHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
 
-        // Reduce font size and line height if subtitle exceeds video height
-        while (subtitleHeight > videoHeight && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
+        // Reduce font size and line height if combined height exceeds video height
+        while (combinedHeight > videoHeight && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
             subtitleFontSize -= 0.1;
             subtitlelineHeight -= 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
             subtitleElement.style.lineHeight = `${subtitlelineHeight}`;
-            subtitleHeight = subtitleElement.clientHeight;
+            combinedHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
     }
 
