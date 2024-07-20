@@ -22,6 +22,12 @@ div.scroll-container video {
   height: calc(35vh - 20px); /* Adjust the height to fit within the container, considering padding */
   object-fit: contain; /* Ensure the images fit within the container */
 }
+
+iframe {
+            width: 100%;
+            height: 80vh; /* Adjust the height as needed */
+            border: none; /* Remove the border */
+}
 </style>
 
 Here are the adventures I went through during my junior high and high school years. I've highlighted one main project from each year.
@@ -32,7 +38,7 @@ Before we dive in, I have to admit that a lot of the things I did during this pe
 
 I fell in love with computer science when I was 13, in my first year of junior high school. My computer science teacher demonstrated how a batch script can create folders automatically. From that moment, I was fascinated by how computers could be programmed to do all sorts of cool things. I taught myself the basics of Java and Python and started building simple apps, like a contact notebook app in Java and an advanced number guessing game with user accounts and game history logged in text files.
 
-Here are some screenshots of the first app (contact notebook) I made.
+Here are some screenshots of this first app (contact notebook) I made.
 
 <div class="scroll-container">
   <img src="/assets/img/contactnotebook1.jpg">
@@ -105,6 +111,8 @@ In my second year of high school, I started building a website for Kiwiview Inte
 I taught myself HTML, JavaScript, CSS, and SQL. It took me months to deploy it on an IIS server on Tencent Cloud. The deployment process was really complicated for a beginner, and I spent a lot of time researching it.
 
 Here is the link to the website: [Kiwiview International Limited](https://www.kiwiviewintl.co.nz/uk-en/index.php)
+
+<iframe src="https://www.kiwiviewintl.co.nz/uk-en/index.php"></iframe>
 
 Actually, this is the same website I continue to work on in college when I was officially hired by the company as a Web Developer and Data Analyst. Please visit this [**PAGE**](https://www.kiwiviewintl.co.nz/uk-en/msg.php) and leave a message with your email address—there’s a little surprise waiting for you. Besides the website, I also designed the business cards and logo for the company. I found it really fun to do all these things.
 

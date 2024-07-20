@@ -4,6 +4,32 @@ title: My Work Experiences
 permalink: /work
 ---
 
+<style>
+div.scroll-container {
+  background-color: #f7f7f7;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Disable vertical scrolling */
+  white-space: nowrap;
+  padding: 10px;
+  height: 35vh; /* Set the height to 35% of the viewport height */
+  display: flex;
+  align-items: center; /* Center align images vertically */
+}
+
+div.scroll-container img,
+div.scroll-container video {
+  padding: 10px;
+  height: calc(35vh - 20px); /* Adjust the height to fit within the container, considering padding */
+  object-fit: contain; /* Ensure the images fit within the container */
+}
+
+iframe {
+            width: 100%;
+            height: 80vh; /* Adjust the height as needed */
+            border: none; /* Remove the border */
+}
+</style>
+
 Hey there! Welcome to my professional playground. I've had the chance to work on some awesome projects and roles that have shaped my journey. Buckle up as I take you through my career highlights!
 
 ## Student Work Placement Intern
