@@ -5,7 +5,7 @@ title:
 
 <style>
 video {
-    max-width: 300px;
+    max-width: 220px;
     height: auto;
     filter: brightness(50%); /* Make the video darker */
 }
@@ -79,18 +79,24 @@ video {
         const videoHeight = videoElement.clientHeight;
         const availableWidth = document.querySelector('.welcome-text').clientWidth;
 
-        // Adjust the font size of the title to fit the width and height
-        let titleFontSize = 1;
-        titleElement.style.fontSize = `${titleFontSize}em`;
-        while (titleElement.clientWidth < availableWidth && titleFontSize < 5) {
-            titleFontSize += 0.1;
-            titleElement.style.fontSize = `${titleFontSize}em`;
+        // Adjust the font size of the title to fit the width
+        let fontSize = 1; // Start with a smaller font size
+        titleElement.style.fontSize = `${fontSize}em`;
+        while (titleElement.clientWidth < availableWidth && fontSize < 5) { // Constrain max font size to 5em
+            fontSize += 0.1;
+            titleElement.style.fontSize = `${fontSize}em`;
         }
 
-        // Adjust the font size of the subtitle to fit the height of the video
+        // Fine-tuning to fit within the width
+        while (titleElement.clientWidth > availableWidth) {
+            fontSize -= 0.1;
+            titleElement.style.fontSize = `${fontSize}em`;
+        }
+
+        // Adjust the font size of the subtitle to match the height of the video
         let subtitleFontSize = 1;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-        while (subtitleElement.clientHeight < videoHeight && subtitleFontSize < 5) {
+        while (subtitleElement.clientHeight < videoHeight && subtitleFontSize < 5) { // Constrain max font size to 5em
             subtitleFontSize += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         }
@@ -100,14 +106,13 @@ video {
             subtitleFontSize -= 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         }
-        
-        // Fine-tuning to fit within the width
-        while (titleElement.clientWidth > availableWidth) {
-            titleFontSize -= 0.1;
-            titleElement.style.fontSize = `${titleFontSize}em`;
-        }
     }
 
     window.onload = adjustFontSize;
     window.onresize = adjustFontSize;
+
+    // Monitor video size changes
+    const videoElement = document.getElementById('videoElement');
+    const observer = new ResizeObserver(adjustFontSize);
+    observer.observe(videoElement);
 </script>
