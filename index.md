@@ -62,11 +62,6 @@ video, .fallback-image {
     align-self: flex-start; /* Align to the top */
 }
 
-.welcome-text h2 {
-    margin: 0;
-    padding-bottom: 5px; /* Adjust padding at the bottom */
-    align-self: flex-end; /* Align to the bottom */
-}
 </style>
 
 <div class="image-left container" style="margin: auto;">
@@ -76,7 +71,6 @@ video, .fallback-image {
    <img src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="display: none;">
    <div class="welcome-text">
       <h1 id="welcomeTitle">WELCOME</h1>
-      <br>
       <h2 id="welcomeSubtitle">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
    </div>
 </div>
@@ -111,34 +105,38 @@ video, .fallback-image {
 
         // Adjust the font size of the title to fit the width
         let fontSize = 1; // Start with a smaller font size
+        let subtitlelineHeight = 1.2;
         titleElement.style.fontSize = `${fontSize}em`;
+        titleElement.style.lineHeight = `${titlelineHeight}`;
         let textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         while (textWidth < availableWidth && fontSize < 5) { // Constrain max font size to 5em
             fontSize += 0.1;
+            titlelineHeight += 0.1;
             titleElement.style.fontSize = `${fontSize}em`;
+            titleElement.style.lineHeight = titlelineHeight;
             textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         }
 
         // Adjust the font size of the subtitle to match the height of the video
         let subtitleFontSize = 0.6;
-        let lineHeight = 1;
+        let subtitlelineHeight = 1;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-        subtitleElement.style.lineHeight = `${lineHeight}`;
+        subtitleElement.style.lineHeight = `${subtitlelineHeight}`;
         let subtitleHeight = subtitleElement.clientHeight;
         while (subtitleHeight < videoHeight - 20 && subtitleFontSize < 3) { // Constrain max font size to 3em
             subtitleFontSize += 0.1;
-            lineHeight += 0.1;
+            subtitlelineHeight += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-            subtitleElement.style.lineHeight = lineHeight;
+            subtitleElement.style.lineHeight = subtitlelineHeight;
             subtitleHeight = subtitleElement.clientHeight;
         }
 
         // Reduce font size and line height if subtitle exceeds video height
         while (subtitleHeight > videoHeight - 20 && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
             subtitleFontSize -= 0.1;
-            lineHeight -= 0.1;
+            subtitlelineHeight -= 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-            subtitleElement.style.lineHeight = `${lineHeight}`;
+            subtitleElement.style.lineHeight = `${subtitlelineHeight}`;
             subtitleHeight = subtitleElement.clientHeight;
         }
     }
