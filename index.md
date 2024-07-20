@@ -94,7 +94,7 @@ video, .fallback-image {
         return window.getComputedStyle(element, null).getPropertyValue(prop);
     }
 
-    function getCanvasFont(el = document.body) {
+    function getCanvasFont(el) {
         const fontWeight = getCssStyle(el, 'font-weight') || 'normal';
         const fontSize = getCssStyle(el, 'font-size') || '16px';
         const fontFamily = getCssStyle(el, 'font-family') || 'Times New Roman';
@@ -110,15 +110,15 @@ video, .fallback-image {
         const availableWidth = document.querySelector('.welcome-text').clientWidth;
 
         // Adjust the font size and line height of the title to fit the width
-        let titlefontSize = 1; // Start with a smaller font size
+        let titleFontSize = 1; // Start with a smaller font size
         let titleLineHeight = 1.2; // Start with an initial line height
-        titleElement.style.fontSize = `${titlefontSize}em`;
+        titleElement.style.fontSize = `${titleFontSize}em`;
         titleElement.style.lineHeight = `${titleLineHeight}em`;
         let textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
-        while (textWidth < availableWidth && titlefontSize < 5) { // Constrain max font size to 5em
-            titlefontSize += 0.1;
+        while (textWidth < availableWidth && titleFontSize < 5) { // Constrain max font size to 5em
+            titleFontSize += 0.1;
             titleLineHeight += 0.1;
-            titleElement.style.fontSize = `${titlefontSize}em`;
+            titleElement.style.fontSize = `${titleFontSize}em`;
             titleElement.style.lineHeight = `${titleLineHeight}em`;
             textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         }
@@ -131,19 +131,19 @@ video, .fallback-image {
         let totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
 
         while (totalHeight < videoHeight && subtitleFontSize < 3) { // Constrain max font size to 3em
+            titleFontSize += 0.1;
             subtitleFontSize += 0.1;
-            subtitleLineHeight += 0.1;
+            titleElement.style.fontSize = `${titleFontSize}em`;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-            subtitleElement.style.lineHeight = `${subtitleLineHeight}em`;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
 
         // Reduce font size and line height if the total height exceeds the video height
-        while (totalHeight > videoHeight && fontSize > 0.5 && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
+        while (totalHeight > videoHeight && titleFontSize > 0.5 && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
+            titleFontSize -= 0.1;
             subtitleFontSize -= 0.1;
-            subtitleLineHeight -= 0.1;
+            titleElement.style.fontSize = `${titleFontSize}em`;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-            subtitleElement.style.lineHeight = `${subtitleLineHeight}em`;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
     }
