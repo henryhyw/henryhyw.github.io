@@ -33,7 +33,7 @@ div.scroll-container video {
     border: none; /* Remove the border */
 }
 
-.iframe-container iframe {
+.iframe-wrapper {
     transform: scale(0.5); /* Scale down the iframe content */
     transform-origin: top left; /* Scale from the top left corner */
     width: 200%; /* Adjust width to counteract the scaling */
@@ -67,7 +67,9 @@ I'm exploring the exciting intersection of Generative AI and personalized learni
 Here is the [website](https://psym-ds.github.io/) I developed:
 
 <div class="iframe-container">
-	<iframe src="https://psym-ds.github.io/"></iframe>
+    <div class="iframe-wrapper">
+		<iframe src="https://psym-ds.github.io/"></iframe>
+    </div>
 </div>
 
 ## Part-time Student Research Assistant
