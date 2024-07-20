@@ -56,8 +56,10 @@ video, .fallback-image {
     height: 100%; /* Ensure it takes up the full height of the container */
 }
 
-.welcome-text h1, .welcome-text h2 {
-    margin: 0; /* Override predefined margins */
+.welcome-text h1, .welcome-text h2 { /* Override predefined margins */
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 </style>
 
@@ -102,11 +104,15 @@ video, .fallback-image {
 
         // Adjust the font size and line height of the title to fit the width
         let titleFontSize = 1; // Start with a smaller font size
+        let titleLineHeight = 1.2;
         titleElement.style.fontSize = `${titleFontSize}em`;
+        titleElement.style.lineHeight = titleLineHeight;
         let textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         while (textWidth < availableWidth && titleFontSize < 5) { // Constrain max font size to 5em
             titleFontSize += 0.1;
+            titleLineHeight += 0.1;
             titleElement.style.fontSize = `${titleFontSize}em`;
+            titleElement.style.lineHeight = titleLineHeight;
             textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         }
 
