@@ -7,7 +7,7 @@ title:
 
 <style>
 video, .fallback-image {
-    max-width: 50%;
+    max-width: 45%;
     height: auto;
     filter: brightness(60%); /* Make the video darker */
 }
@@ -80,7 +80,7 @@ video, .fallback-image {
    <video id="videoElement" muted autoplay loop playsinline>
       <source src="/assets/vid/travel.mp4" type="video/mp4">
    </video>
-   <img src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="display: none;">
+   <img id="imageElement" src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="display: none;">
    <div class="welcome-text">
       <h1 id="welcomeTitle">WELCOME</h1>
       <h2 id="welcomeSubtitle">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
@@ -109,10 +109,12 @@ video, .fallback-image {
 
     function adjustFontSizeAndLineHeight() {
         const videoElement = document.getElementById('videoElement');
+        const imageElement = document.getElementById('imageElement');
         const titleElement = document.getElementById('welcomeTitle');
         const subtitleElement = document.getElementById('welcomeSubtitle');
 
-        const videoHeight = videoElement.clientHeight;
+        const mediaElement = videoElement.style.display !== 'none' ? videoElement : imageElement;
+        const mediaHeight = mediaElement.clientHeight;
         const availableWidth = document.querySelector('.welcome-text').clientWidth;
 
         // Adjust the font size and line height of the title to fit the width
@@ -130,14 +132,14 @@ video, .fallback-image {
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         let totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
 
-        while (totalHeight < videoHeight && subtitleFontSize < 3) { // Constrain max font size to 3em
+        while (totalHeight < mediaHeight && subtitleFontSize < 3) { // Constrain max font size to 3em
             subtitleFontSize += 0.01;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
 
         // Reduce font size and line height if the total height exceeds the video height
-        while (totalHeight > videoHeight && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
+        while (totalHeight > mediaHeight && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
             subtitleFontSize -= 0.01;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
@@ -146,24 +148,27 @@ video, .fallback-image {
 
     function checkVideoCompatibility() {
         const videoElement = document.getElementById('videoElement');
-        const fallbackImage = document.querySelector('.fallback-image');
+        const fallbackImage = document.getElementById('imageElement');
 
         // Check if the video is playable
         videoElement.addEventListener('error', () => {
             videoElement.style.display = 'none';
             fallbackImage.style.display = 'block';
+            adjustFontSizeAndLineHeight(); // Ensure text formatting is adjusted when fallback image is shown
         });
 
         // Attempt to play the video, if it fails, switch to the fallback image
         videoElement.play().catch(() => {
             videoElement.style.display = 'none';
             fallbackImage.style.display = 'block';
+            adjustFontSizeAndLineHeight(); // Ensure text formatting is adjusted when fallback image is shown
         });
     }
 
     window.onload = () => {
         adjustFontSizeAndLineHeight();
         checkVideoCompatibility();
+        setTimeout(adjustFontSizeAndLineHeight, 100); // Re-adjust after a short delay to handle initial load
     };
     window.onresize = adjustFontSizeAndLineHeight;
 
