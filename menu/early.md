@@ -6,11 +6,11 @@ permalink: /early
 
 <style>
 div.scroll-container {
-  background-color: #fff;
+  background-color: #f7f7f7;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
-  height: 30vh; /* Set the height to 30% of the viewport height */
+  height: 40vh; /* Set the height to 30% of the viewport height */
 }
 
 div.scroll-container img {
@@ -60,9 +60,9 @@ In my second year of junior high, I started exploring Chrome extensions. Living 
 Here are some screenshots of the developer dashboard and some of the extensions.
 
 <div class="scroll-container">
-  <img src="/assets/img/chromeextension1.jpg">
-  <img src="/assets/img/chromeextension2.jpg">
-  <img src="/assets/img/chromeextension3.jpg">
+  <img src="/assets/img/chromeextension1.png">
+  <img src="/assets/img/chromeextension2.png">
+  <img src="/assets/img/chromeextension3.png">
 </div>
 
 ## Music Streaming Hacks
