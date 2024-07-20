@@ -23,10 +23,22 @@ div.scroll-container video {
   object-fit: contain; /* Ensure the images fit within the container */
 }
 
-iframe {
-            width: 100%;
-            height: 35vh; /* Adjust the height as needed */
-            border: none; /* Remove the border */
+.iframe-container {
+    width: 100%;
+    height: 35vh; /* Adjust the height as needed */
+    overflow: hidden; /* Ensure no scrollbars appear */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border: none; /* Remove the border */
+}
+
+.iframe-container iframe {
+    transform: scale(0.5); /* Scale down the iframe content */
+    transform-origin: top left; /* Scale from the top left corner */
+    width: 200%; /* Adjust width to counteract the scaling */
+    height: 200%; /* Adjust height to counteract the scaling */
+    border: none; /* Remove the border */
 }
 </style>
 
@@ -54,7 +66,9 @@ I'm exploring the exciting intersection of Generative AI and personalized learni
 
 Here is the [website](https://psym-ds.github.io/) I developed:
 
-<iframe src="https://psym-ds.github.io/"></iframe>
+<div class="iframe-container">
+	<iframe src="https://psym-ds.github.io/"></iframe>
+</div>
 
 ## Part-time Student Research Assistant
 
