@@ -107,16 +107,19 @@ video {
             titleElement.style.fontSize = `${fontSize}em`;
             textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         }
+        while (textWidth > availableWidth) {
+            fontSize -= 0.1;
+            titleElement.style.fontSize = `${fontSize}em`;
+            textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
+        }
 
         // Adjust the font size of the subtitle to match the height of the video
         let subtitleFontSize = 1;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-        while (subtitleElement.clientHeight < videoHeight && subtitleFontSize < 2) { // Constrain max font size to 5em
+        while (subtitleElement.clientHeight < videoHeight && subtitleFontSize < 1.5) { // Constrain max font size to 1.5em
             subtitleFontSize += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         }
-
-        // Fine-tuning to fit within the height
         while (subtitleElement.clientHeight > videoHeight) {
             subtitleFontSize -= 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
