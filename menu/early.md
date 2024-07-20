@@ -135,7 +135,7 @@ In my third year of high school, I started to wonder if the graphs we needed for
 
 I developed an Office Word add-in called "Econographer," specifically designed for generating the various types of economics graphs used in AP and IB courses. These graphs are highly customizable to fit any requirement.
 
-Here's a full demonstration video of how it works.
+Here's a full demonstration video, recorded by me, showing how it works.
 
 <video style="width: 80%;" controls>
   <source src="/assets/vid/econographer.mp4" type="video/mp4">
