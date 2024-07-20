@@ -20,7 +20,7 @@ Beyond my coursework, I served as a student representative on the CAES Staff-Stu
 
 <img src="/assets/img/shsid.png" style="height:8vh;">
 
-Before this, I completed my International Baccalaureate diploma at [Shanghai High School International Division](https://www.shsid.org/), which was the top IB school in Mainland China at the time.
+Before this, I completed my International Baccalaureate diploma at [Shanghai High School International Division](https://www.shsid.org/).
 
 For my IB diploma, I studied a broad array of subjects including computer science, mathematics, economics, physics, English, and Chinese.
 
