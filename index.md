@@ -123,14 +123,14 @@ video, .fallback-image {
         let totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
 
         while (totalHeight < videoHeight && subtitleFontSize < 3) { // Constrain max font size to 3em
-            subtitleFontSize += 0.1;
+            subtitleFontSize += 0.01;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
 
         // Reduce font size and line height if the total height exceeds the video height
         while (totalHeight > videoHeight && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
-            subtitleFontSize -= 0.1;
+            subtitleFontSize -= 0.01;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
