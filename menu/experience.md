@@ -30,7 +30,7 @@ Welcome to my professional playground. I've had the chance to work on some aweso
 
 ### Student Work Placement Intern
 
-<img src="/assets/img/hsbc.png" style="height:8vh;">
+<img src="/assets/img/hsbc.png" style="height:6vh;">
 
 *[HSBC](https://www.hsbc.com.hk/)*
 
@@ -40,7 +40,7 @@ Right now, I’m diving into the world of digital transformation at HSBC. It’s
 
 ### Part-time Student Research Assistant
 
-<img src="/assets/img/hku.jpeg" style="height:8vh;">
+<img src="/assets/img/hku.jpeg" style="height:6vh;">
 
 *[Psychometrics and Data Science Lab at the University of Hong Kong](https://psym-ds.github.io/)*
 
@@ -52,7 +52,7 @@ Here is the link to the website I developed: [PDS Laboratory](https://psym-ds.gi
 
 ### Part-time Student Research Assistant
 
-<img src="/assets/img/hku.jpeg" style="height:8vh;">
+<img src="/assets/img/hku.jpeg" style="height:6vh;">
 
 *[Speech, Language, and Reading Lab at the University of Hong Kong](https://slrlab.edu.hku.hk/)*
 
@@ -62,7 +62,7 @@ In this role, I'm delving into the fascinating world of human memory systems and
 
 ### Web Developer and Data Analyst
 
-<img src="/assets/img/kiwiview.png" style="height:8vh;">
+<img src="/assets/img/kiwiview.png" style="height:6vh;">
 
 *[Kiwiview International Limited](https://www.kiwiviewintl.co.nz/uk-en/index.php)*
 
@@ -74,7 +74,7 @@ Here is the link to the website I developed: [Kiwiview International Limited](ht
 
 ### Freelance Tutor of Computer Science and Mathematics
 
-<img src="/assets/img/tutoring.webp" style="height:8vh;">
+<img src="/assets/img/tutoring.webp" style="height:6vh;">
 
 *July 2022 - May 2023*
 
@@ -84,7 +84,7 @@ Tutoring has been a passion of mine, and during this period, I helped internatio
 
 ### Contributor in an Information Retrieval Research Project
 
-<img src="/assets/img/hku.jpeg" style="height:8vh;">
+<img src="/assets/img/hku.jpeg" style="height:6vh;">
 
 *[Natural Language Processing Group at the University of Hong Kong](https://hkunlp.github.io/)*
 
