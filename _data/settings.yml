@@ -8,7 +8,7 @@ google-ID: ''
 
 menu:
 - {name: 'Who I Am',   url: 'about.html'}
-- {name: 'Early CS Adventures',   url: 'early.html'}
+- {name: 'My Early CS Adventures',   url: 'early.html'}
 - {name: 'Let''s Chat', url: 'contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
