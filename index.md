@@ -67,7 +67,6 @@ video {
     padding-bottom: 5px; /* Adjust padding at the bottom */
     align-self: flex-end; /* Align to the bottom */
 }
-
 </style>
 
 <div class="image-left container" style="margin: auto;">
@@ -144,7 +143,7 @@ video {
         }
     }
 
-    window.onload = adjustFontSizeAndLineHeight;
+    document.addEventListener('DOMContentLoaded', adjustFontSizeAndLineHeight);
     window.onresize = adjustFontSizeAndLineHeight;
 
     // Mute/unmute button
