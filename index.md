@@ -60,11 +60,11 @@ video, .fallback-image {
     margin: 0;
     margin-block-start: 0;
     margin-block-end: 0;
+    line-height: 1.2;
 }
 
 .welcome-text h1 {
     width: 100%;
-    line-height: 1.2; /* Initial line height */
 }
 </style>
 
@@ -119,25 +119,19 @@ video, .fallback-image {
 
         // Fix the title font size and adjust the subtitle to match the height of the video
         let subtitleFontSize = 0.6;
-        let subtitleLineHeight = 0.5;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-        subtitleElement.style.lineHeight = subtitleLineHeight;
         let totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
 
         while (totalHeight < videoHeight && subtitleFontSize < 3) { // Constrain max font size to 3em
             subtitleFontSize += 0.1;
-            subtitleLineHeight += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-            subtitleElement.style.lineHeight = subtitleLineHeight;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
 
         // Reduce font size and line height if the total height exceeds the video height
         while (totalHeight > videoHeight && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
             subtitleFontSize -= 0.1;
-            subtitleLineHeight -= 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-            subtitleElement.style.lineHeight = subtitleLineHeight;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
     }
