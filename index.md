@@ -53,8 +53,7 @@ video {
       Your browser does not support the video tag.
    </video>
    <div>
-      <h2> Text with Left Image </h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu, massa scelerisque ac, cursus et, sollicitudin a, orci.</p>
-      <footer>(A dummy text)</footer>
+      <h2>Welcome</h2>
+	  <p>Hi! Welcome to my home page. I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I love walking by the ocean, exploring new places, and coding my own programs. Glad to have you here!</p>
    </div>
 </div>
