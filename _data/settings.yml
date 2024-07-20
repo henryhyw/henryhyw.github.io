@@ -7,6 +7,7 @@ disqus:
 google-ID: ''
 
 menu:
+- {name: 'About Me',   url: 'about.html'}
 - {name: 'Education',   url: 'education.html'}
 - {name: 'Work Experience',   url: 'work.html'}
 - {name: 'Early CS Adventures',   url: 'early.html'}
