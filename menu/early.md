@@ -38,12 +38,6 @@ In my first year of junior high, I decided to practice English and came across t
 
 Here are some screenshots of this app.
 
-## Scientific American Episodes Downloader
-
-In my first year of junior high, I decided to practice English. I came across the podcast called Scientific American. At that time, I was using an mp3 which supports playing audios, images, and texts. So I developed this app to batch download audios, scripts, and images from Scientific American episodes. There is a user account system, which can record the episode the user has downloaded to this time, and continue for new episodes next time.
-
-Here are some screenshots of this app.
-
 ## Chrome Extension Experiments
 
 In my second year of junior high, I started exploring Chrome extensions. Living in Mainland China made me curious about things that weren't easily accessible, so I'd use a VPN to access Google-related stuff. It amazed me that these small apps in the browser could do so much, like turning the screen dark for YouTube videos. So, I learned how to develop and publish Chrome extensions and created a few:
