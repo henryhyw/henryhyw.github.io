@@ -53,7 +53,7 @@ video{
 
 @media (max-width: 600px) {
     .welcome-text h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .welcome-text h2 {
