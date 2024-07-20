@@ -56,17 +56,21 @@ video, .fallback-image {
     height: 100%; /* Ensure it takes up the full height of the container */
 }
 
-.welcome-text h1, .welcome-text h2 { /* Override predefined margins */
-    margin: 0;
+.welcome-text h1 {
+	margin: 0;
     margin-block-start: 0;
     margin-block-end: 0;
-    line-height: 1.3;
-}
-
-.welcome-text h1 {
     width: 100%;
     line-height: 1.5;
     align-self: flex-start; /* Align to the top */
+}
+
+.welcome-text h2 {
+	margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    line-height: 1.3;
+    align-self: flex-end; /* Align to the bottom */
 }
 </style>
 
