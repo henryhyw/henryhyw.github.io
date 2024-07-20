@@ -16,7 +16,8 @@ div.scroll-container {
   align-items: center; /* Center align images vertically */
 }
 
-div.scroll-container img {
+div.scroll-container img,
+div.scroll-container video {
   padding: 10px;
   height: calc(35vh - 20px); /* Adjust the height to fit within the container, considering padding */
   object-fit: contain; /* Ensure the images fit within the container */
@@ -115,5 +116,15 @@ I made a script to automatically solve the problems, achieving really high score
 
 Here are some videos of the script I recorded.
 
+<div class="scroll-container">
+  <video controls>
+    <source src="/assets/vid/24.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
+  <video controls>
+    <source src="/assets/vid/mentalmath.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
-I hope you enjoyed reading about my journey with computer science!
+I hope you enjoyed reading about my early journey with computer science!
