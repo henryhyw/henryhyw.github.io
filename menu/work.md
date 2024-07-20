@@ -22,24 +22,6 @@ div.scroll-container video {
   height: calc(35vh - 20px); /* Adjust the height to fit within the container, considering padding */
   object-fit: contain; /* Ensure the images fit within the container */
 }
-
-.iframe-container {
-    width: 100%;
-    height: 35vh; /* Adjust the height as needed */
-    overflow: hidden; /* Ensure no scrollbars appear */
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    border: none; /* Remove the border */
-}
-
-.iframe-wrapper {
-    transform: scale(0.5); /* Scale down the iframe content */
-    transform-origin: top left; /* Scale from the top left corner */
-    width: 200%; /* Adjust width to counteract the scaling */
-    height: 200%; /* Adjust height to counteract the scaling */
-    border: none; /* Remove the border */
-}
 </style>
 
 Hey there! Welcome to my professional playground. I've had the chance to work on some awesome projects and roles that have shaped my journey. Buckle up as I take you through my career highlights!
@@ -65,12 +47,6 @@ Right now, I’m diving into the world of digital transformation at HSBC. It’s
 I'm exploring the exciting intersection of Generative AI and personalized learning. My work involves conducting deep literature reviews on contextual embeddings with transformer-based LLMs and developing a sleek website for the PDS lab. It’s a perfect blend of theory and hands-on development!
 
 Here is the [website](https://psym-ds.github.io/) I developed:
-
-<div class="iframe-container">
-    <div class="iframe-wrapper">
-		<iframe src="https://psym-ds.github.io/"></iframe>
-    </div>
-</div>
 
 ## Part-time Student Research Assistant
 
