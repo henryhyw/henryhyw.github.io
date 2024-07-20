@@ -19,7 +19,7 @@ video {
 @media (min-width: 20em) {
     .image-left, .image-right {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .image-left video {
@@ -53,6 +53,7 @@ video {
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Distribute space evenly between children */
+    height: 100%; /* Ensure it takes up the full height of the container */
 }
 
 .welcome-text h1 {
@@ -75,7 +76,6 @@ video {
    </video>
    <div class="welcome-text">
       <h1 id="welcomeTitle">WELCOME</h1>
-      <br>
       <h2 id="welcomeSubtitle">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
    </div>
 </div>
@@ -124,7 +124,7 @@ video {
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         subtitleElement.style.lineHeight = lineHeight;
         let subtitleHeight = subtitleElement.clientHeight;
-        while (subtitleHeight < videoHeight && subtitleFontSize < 3) { // Constrain max font size to 2em
+        while (subtitleHeight < videoHeight && subtitleFontSize < 3) { // Constrain max font size to 3em
             subtitleFontSize += 0.1;
             lineHeight += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
