@@ -26,6 +26,8 @@ div.scroll-container video {
 
 Welcome to my professional playground. I've had the chance to work on some awesome projects and roles that have shaped my journey. Buckle up as I take you through my career highlights!
 
+---
+
 ## Student Work Placement Intern
 
 <img src="/assets/img/hsbc.png" style="height:8vh;">
@@ -35,6 +37,8 @@ Welcome to my professional playground. I've had the chance to work on some aweso
 *August 2024 - December 2024*
 
 Right now, I’m diving into the world of digital transformation at HSBC. It’s been an incredible experience working with a team that's pushing the boundaries of banking technology.
+
+---
 
 ## Part-time Student Research Assistant
 
@@ -48,6 +52,8 @@ I'm exploring the exciting intersection of Generative AI and personalized learni
 
 Here is the link to the website I developed: [PDS Laboratory](https://psym-ds.github.io/)
 
+---
+
 ## Part-time Student Research Assistant
 
 <img src="/assets/img/hku.jpeg" style="height:8vh;">
@@ -57,6 +63,8 @@ Here is the link to the website I developed: [PDS Laboratory](https://psym-ds.gi
 *May 2024 - August 2025*
 
 In this role, I'm delving into the fascinating world of human memory systems and learning behaviors. I’m developing a computational model to simulate these processes, conducting literature reviews on artificial neural networks, reinforcement learning, and cognitive neuroscience. It’s intense but incredibly rewarding work. (Details are confidential)
+
+---
 
 ## Contributor in an Information Retrieval Research Project
 
@@ -72,6 +80,8 @@ It was a fascinating deep dive into how information is processed and understood.
 
 As one of the co-authors, I contributed to a paper about the project, which we submitted to NeurIPS and is currently under review. This project was a challenging yet incredibly rewarding experience.
 
+---
+
 ## Web Developer and Data Analyst
 
 <img src="/assets/img/kiwiview.png" style="height:8vh;">
@@ -83,6 +93,8 @@ As one of the co-authors, I contributed to a paper about the project, which we s
 I had the opportunity to work with a New Zealand company that provides educational services for international study and customized travel solutions. This company is actually a family endeavor that my parents and I established together from the start. I led the design, development, and hosting of their website using HTML, JavaScript, CSS, PHP, and MySQL. I also gathered, analyzed, and visualized global study and travel trends using various Python packages. (Details are confidential)
 
 Here is the link to the website I developed: [Kiwiview International Limited](https://www.kiwiviewintl.co.nz/uk-en/index.php)
+
+---
 
 ## Freelance Tutor of Computer Science and Mathematics
 
