@@ -65,7 +65,7 @@ video {
       Your browser does not support the video tag.
    </video>
    <div class="welcome-text">
-      <h1 id="welcomeTitle">WELCOME</h1>
+      <h1 id="welcomeTitle">WELCOME<br></h1>
       <h2 id="welcomeSubtitle">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
    </div>
 </div>
@@ -112,7 +112,7 @@ video {
         let subtitleFontSize = 1;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         let subtitleHeight = subtitleElement.clientHeight;
-        while (subtitleHeight < videoHeight && subtitleFontSize < 2) { // Constrain max font size to 2em
+        while (subtitleHeight < videoHeight && subtitleFontSize < 3) { // Constrain max font size to 2em
             subtitleFontSize += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
             subtitleHeight = subtitleElement.clientHeight;
@@ -122,7 +122,7 @@ video {
         let lineHeight = 1.2; // Start with a default line height
         subtitleElement.style.lineHeight = lineHeight;
         subtitleHeight = subtitleElement.clientHeight;
-        while (subtitleHeight > videoHeight && lineHeight < 2.5) { // Adjust until it fits
+        while (subtitleHeight > videoHeight && lineHeight < 3.5) { // Adjust until it fits
             lineHeight += 0.1;
             subtitleElement.style.lineHeight = lineHeight;
             subtitleHeight = subtitleElement.clientHeight;
