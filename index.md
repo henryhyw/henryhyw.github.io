@@ -57,20 +57,22 @@ video, .fallback-image {
 }
 
 .welcome-text h1 {
-	margin: 0;
+    margin: 0;
     margin-block-start: 0;
     margin-block-end: 0;
     width: 100%;
     line-height: 1.5;
-    align-self: flex-start; /* Align to the top */
+    position: relative;
+    top: -0.25em; /* Shift up to remove space above */
 }
 
 .welcome-text h2 {
-	margin: 0;
+    margin: 0;
     margin-block-start: 0;
     margin-block-end: 0;
     line-height: 1.3;
-    align-self: flex-end; /* Align to the bottom */
+    position: relative;
+    top: 0.15em; /* Shift down to remove space below */
 }
 </style>
 
