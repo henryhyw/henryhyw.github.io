@@ -9,6 +9,9 @@ title:
 video, .fallback-image {
     max-width: 45%;
     height: auto;
+}
+
+video{
     filter: brightness(70%); /* Make the video darker */
 }
 
