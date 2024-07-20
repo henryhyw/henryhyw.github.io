@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Work Experience
+title: My Experience
 permalink: /work
 ---
 
@@ -26,7 +26,9 @@ div.scroll-container video {
 
 Welcome to my professional playground. I've had the chance to work on some awesome projects and roles that have shaped my journey. Buckle up as I take you through my career highlights!
 
-## Student Work Placement Intern
+## Work Experience
+
+### Student Work Placement Intern
 
 <img src="/assets/img/hsbc.png" style="height:8vh;">
 
@@ -36,7 +38,7 @@ Welcome to my professional playground. I've had the chance to work on some aweso
 
 Right now, I’m diving into the world of digital transformation at HSBC. It’s been an incredible experience working with a team that's pushing the boundaries of banking technology.
 
-## Part-time Student Research Assistant
+### Part-time Student Research Assistant
 
 <img src="/assets/img/hku.jpeg" style="height:8vh;">
 
@@ -48,7 +50,7 @@ I'm exploring the exciting intersection of Generative AI and personalized learni
 
 Here is the link to the website I developed: [PDS Laboratory](https://psym-ds.github.io/)
 
-## Part-time Student Research Assistant
+### Part-time Student Research Assistant
 
 <img src="/assets/img/hku.jpeg" style="height:8vh;">
 
@@ -58,7 +60,7 @@ Here is the link to the website I developed: [PDS Laboratory](https://psym-ds.gi
 
 In this role, I'm delving into the fascinating world of human memory systems and learning behaviors. I’m developing a computational model to simulate these processes, conducting literature reviews on artificial neural networks, reinforcement learning, and cognitive neuroscience. It’s intense but incredibly rewarding work. (Details are confidential)
 
-## Web Developer and Data Analyst
+### Web Developer and Data Analyst
 
 <img src="/assets/img/kiwiview.png" style="height:8vh;">
 
@@ -70,10 +72,24 @@ I had the opportunity to work with a New Zealand company that provides education
 
 Here is the link to the website I developed: [Kiwiview International Limited](https://www.kiwiviewintl.co.nz/uk-en/index.php)
 
-## Freelance Tutor of Computer Science and Mathematics
+### Freelance Tutor of Computer Science and Mathematics
 
 <img src="/assets/img/tutoring.webp" style="height:8vh;">
 
 *July 2022 - May 2023*
 
 Tutoring has been a passion of mine, and during this period, I helped international high school students ace their AP and IB math and computer science exams. I also prepared them for AMC 8 & AMC 10 competitions and assisted with their school coursework to boost their understanding and performance.
+
+## Other Projects
+
+### Contributor in an Information Retrieval Research Project
+
+*[Natural Language Processing Group at the University of Hong Kong](https://hkunlp.github.io/)*
+
+*December 2023 - May 2024*
+
+I had an amazing opportunity to work on BRIGHT, a benchmark designed to evaluate how well models can reason through complex queries. Collaborating with Princeton University and Google Cloud AI Research made the project even more exciting!
+
+It was a fascinating deep dive into how information is processed and understood. I spent a lot of time gathering and analyzing data from public forums, creating query-document pairs, and testing coding-related queries to ensure our models were accurate.
+
+As one of the co-authors, I contributed to a paper about the project, which we submitted to NeurIPS and is currently under review. This project was a challenging yet incredibly rewarding experience.
