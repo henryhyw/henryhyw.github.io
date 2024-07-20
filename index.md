@@ -58,13 +58,13 @@ video {
 
 .welcome-text h1 {
     margin: 0;
-    padding: 10px 0; /* Add padding at the top */
+    padding: 15px 0; /* Add padding at the top */
     align-self: flex-start; /* Align to the top */
 }
 
 .welcome-text h2 {
     margin: 0;
-    padding: 0 0 10px 0; /* Add padding at the bottom */
+    padding: 0 0 5px 0; /* Add padding at the bottom */
     align-self: flex-end; /* Align to the bottom */
 }
 </style>
