@@ -65,7 +65,7 @@ video{
     margin-block-end: 0;
     width: 100%;
     line-height: 1.2;
-    font-size: 2.6em;
+    font-size: 2em;
     position: relative;
     top: -0.1em; /* Shift up to remove space above */
 }
@@ -75,7 +75,7 @@ video{
     margin-block-start: 0;
     margin-block-end: 0;
     line-height: 1.3;
-    font-size: 1.13em;
+    font-size: 1em;
     position: relative;
     top: 0.15em; /* Shift down to remove space below */
 }
