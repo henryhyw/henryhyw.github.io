@@ -8,6 +8,8 @@ Hey there! Welcome to my professional playground. I've had the chance to work on
 
 ## Student Work Placement Intern
 
+<img src="/assets/img/hsbc.png" style="height:10vh;">
+
 *[HSBC](https://www.hsbc.com.hk/)*
 
 *August 2024 - December 2024*
@@ -15,6 +17,8 @@ Hey there! Welcome to my professional playground. I've had the chance to work on
 Right now, I’m diving into the world of digital transformation at HSBC. It’s been an incredible experience working with a team that's pushing the boundaries of banking technology.
 
 ## Part-time Student Research Assistant
+
+<img src="/assets/img/hku.jpeg" style="height:10vh;">
 
 *[Psychometrics and Data Science Lab at the University of Hong Kong](https://psym-ds.github.io/)*
 
@@ -24,6 +28,8 @@ I'm exploring the exciting intersection of Generative AI and personalized learni
 
 ## Part-time Student Research Assistant
 
+<img src="/assets/img/hku.jpeg" style="height:10vh;">
+
 *[Speech, Language, and Reading Lab at the University of Hong Kong](https://slrlab.edu.hku.hk/)*
 
 *May 2024 - August 2025*
@@ -31,6 +37,8 @@ I'm exploring the exciting intersection of Generative AI and personalized learni
 In this role, I'm delving into the fascinating world of human memory systems and learning behaviors. I’m developing a computational model to simulate these processes, conducting literature reviews on artificial neural networks, reinforcement learning, and cognitive neuroscience. It’s intense but incredibly rewarding work. (Details are confidential)
 
 ## Web Developer and Data Analyst
+
+<img src="/assets/img/kiwiview.png" style="height:10vh;">
 
 *[Kiwiview International Limited](https://www.kiwiviewintl.co.nz/uk-en/index.php)*
 
