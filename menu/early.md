@@ -18,7 +18,7 @@ div.scroll-container {
 
 div.scroll-container img {
   padding: 10px;
-  height: calc(30vh - 20px); /* Adjust the height to fit within the container, considering padding */
+  height: calc(35vh - 20px); /* Adjust the height to fit within the container, considering padding */
   object-fit: contain; /* Ensure the images fit within the container */
 }
 </style>
