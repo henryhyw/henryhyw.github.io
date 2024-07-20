@@ -23,13 +23,13 @@ video {
     }
 
     .image-left video {
-        margin-right: 1em;
+        margin-right: 1.5em;
         float: left; /* fallback */
     }
 
     .image-right video {
         order: 1;
-        margin-left: 1em;
+        margin-left: 1.5em;
         float: right; /* fallback */
     }
     
@@ -64,13 +64,13 @@ video {
 
 .welcome-text h2 {
     margin: 0;
-    padding: 0 0 5px 0; /* Add padding at the bottom */
+    padding: 0 0 15px 0; /* Add padding at the bottom */
     align-self: flex-end; /* Align to the bottom */
 }
 </style>
 
 <div class="image-left container" style="margin: auto;">
-   <video id="videoElement" muted autoplay playsinline>
+   <video id="videoElement" muted autoplay loop playsinline>
       <source src="/assets/vid/travel.mp4" type="video/mp4">
       Your browser does not support the video tag.
    </video>
@@ -124,7 +124,7 @@ video {
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         subtitleElement.style.lineHeight = lineHeight;
         let subtitleHeight = subtitleElement.clientHeight;
-        while (subtitleHeight < videoHeight - 20 && subtitleFontSize < 3) { // Constrain max font size to 3em
+        while (subtitleHeight < videoHeight - 30 && subtitleFontSize < 3) { // Constrain max font size to 3em
             subtitleFontSize += 0.1;
             lineHeight += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
@@ -133,7 +133,7 @@ video {
         }
 
         // Reduce font size and line height if subtitle exceeds video height
-        while (subtitleHeight > videoHeight - 20 && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
+        while (subtitleHeight > videoHeight - 30 && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
             subtitleFontSize -= 0.1;
             lineHeight -= 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
@@ -145,27 +145,8 @@ video {
     window.onload = adjustFontSizeAndLineHeight;
     window.onresize = adjustFontSizeAndLineHeight;
 
-    // Bounce back style for the video loop
-    const videoElement = document.getElementById('videoElement');
-    let playingForward = true;
-
-    videoElement.addEventListener('timeupdate', () => {
-        if (videoElement.currentTime >= videoElement.duration && playingForward) {
-            videoElement.pause();
-            videoElement.currentTime = videoElement.duration;
-            videoElement.playbackRate = -1;
-            videoElement.play();
-            playingForward = false;
-        } else if (videoElement.currentTime <= 0 && !playingForward) {
-            videoElement.pause();
-            videoElement.currentTime = 0;
-            videoElement.playbackRate = 1;
-            videoElement.play();
-            playingForward = true;
-        }
-    });
-
     // Mute/unmute button
+    const videoElement = document.getElementById('videoElement');
     videoElement.addEventListener('click', () => {
         videoElement.muted = !videoElement.muted;
     });
