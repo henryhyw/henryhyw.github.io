@@ -112,7 +112,7 @@ video {
         let subtitleFontSize = 1;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         let subtitleHeight = subtitleElement.clientHeight;
-        while (subtitleHeight < videoHeight && subtitleFontSize < 3) { // Constrain max font size to 2em
+        while (subtitleHeight < videoHeight && subtitleFontSize < 2.5) { // Constrain max font size to 2em
             subtitleFontSize += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
             subtitleHeight = subtitleElement.clientHeight;
@@ -122,7 +122,7 @@ video {
         let lineHeight = 1.2; // Start with a default line height
         subtitleElement.style.lineHeight = lineHeight;
         subtitleHeight = subtitleElement.clientHeight;
-        while (subtitleHeight > videoHeight && lineHeight < 3.2) { // Adjust until it fits
+        while (subtitleHeight > videoHeight && lineHeight < 2.5) { // Adjust until it fits
             lineHeight += 0.1;
             subtitleElement.style.lineHeight = lineHeight;
             subtitleHeight = subtitleElement.clientHeight;
