@@ -9,7 +9,7 @@ title:
 video, .fallback-image {
     max-width: 45%;
     height: auto;
-    filter: brightness(60%); /* Make the video darker */
+    filter: brightness(70%); /* Make the video darker */
 }
 
 .image-left, .image-right {
@@ -168,7 +168,7 @@ video, .fallback-image {
     window.onload = () => {
         adjustFontSizeAndLineHeight();
         checkVideoCompatibility();
-        setTimeout(adjustFontSizeAndLineHeight, 100); // Re-adjust after a short delay to handle initial load
+        setTimeout(adjustFontSizeAndLineHeight, 1000); // Re-adjust after a short delay to handle initial load
     };
     window.onresize = adjustFontSizeAndLineHeight;
 
