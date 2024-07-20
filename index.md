@@ -51,6 +51,26 @@ video{
     }
 }
 
+@media (max-width: 600px) {
+    .welcome-text h1 {
+        font-size: 2em;
+    }
+
+    .welcome-text h2 {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 650px) {
+    .welcome-text h1 {
+        font-size: 4.3em;
+    }
+
+    .welcome-text h2 {
+        font-size: 1.7em;
+    }
+}
+
 .welcome-text {
     flex: 2;
     display: flex;
@@ -65,7 +85,6 @@ video{
     margin-block-end: 0;
     width: 100%;
     line-height: 1.2;
-    font-size: 2em;
     position: relative;
     top: -0.1em; /* Shift up to remove space above */
 }
@@ -75,7 +94,6 @@ video{
     margin-block-start: 0;
     margin-block-end: 0;
     line-height: 1.3;
-    font-size: 1em;
     position: relative;
     top: 0.15em; /* Shift down to remove space below */
 }
@@ -128,6 +146,12 @@ video{
         let textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         while (textWidth < availableWidth && titleFontSize < 5) { // Constrain max font size to 5em
             titleFontSize += 0.1;
+            titleElement.style.fontSize = `${titleFontSize}em`;
+            textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
+        }
+
+        while (textWidth > availableWidth && titleFontSize > 0.5) { // Constrain max font size to 5em
+            titleFontSize -= 0.1;
             titleElement.style.fontSize = `${titleFontSize}em`;
             textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         }
