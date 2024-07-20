@@ -65,8 +65,8 @@ video {
       Your browser does not support the video tag.
    </video>
    <div class="welcome-text">
-      <h1 id="welcomeTitle">WELCOME<br></h1>
-      <h2 id="welcomeSubtitle">Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
+      <h1 id="welcomeTitle">WELCOME</h1>
+      <h2 id="welcomeSubtitle"><br>Hi! I'm Henry, a junior at the University of Hong Kong, majoring in Applied Artificial Intelligence. I have a passion for exploring new places and creating my own programs through coding. I'm thrilled to have you here and share my journey with you!</h2>
    </div>
 </div>
 
