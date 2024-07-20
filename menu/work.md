@@ -72,6 +72,8 @@ Here is the link to the website I developed: [Kiwiview International Limited](ht
 
 ## Freelance Tutor of Computer Science and Mathematics
 
+<img src="/assets/img/tutoring.webp" style="height:8vh;">
+
 *July 2022 - May 2023*
 
 Tutoring has been a passion of mine, and during this period, I helped international high school students ace their AP and IB math and computer science exams. I also prepared them for AMC 8 & AMC 10 competitions and assisted with their school coursework to boost their understanding and performance.
