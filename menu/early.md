@@ -6,7 +6,7 @@ permalink: /early
 
 <style>
 div.scroll-container {
-  background-color: #999;
+  background-color: #fff;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
@@ -28,8 +28,8 @@ I fell in love with computer science when I was 13, in my first year of junior h
 Here are some screenshots of the first app (contact notebook) I made.
 
 <div class="scroll-container">
-  <img src="contactnotebook1.jpg">
-  <img src="contactnotebook2.jpg">
+  <img src="/assets/img/contactnotebook1.jpg">
+  <img src="/assets/img/contactnotebook2.jpg">
 </div>
 
 ## Scientific American Downloader
