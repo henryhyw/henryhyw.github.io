@@ -71,7 +71,11 @@ Here are some screenshots of the developer dashboard and some of the extensions.
 
 ## Music Streaming Hacks
 
-In my first year of high school, my main interest was building an app for downloading paid songs from music streaming services in China. I now realize that this was illegal, but at the time, I wasn't aware of that. Although I'm not proud of it, I still want to mention it because it was a masterpiece for a first-year high school student. I did a lot of research on web scraping and managed to crack the links of paid songs from various music streaming services. With this app, users could download songs with the link of the song page from QQ Music, Netease Music, KuGou Music, and KuWo Music, with the desired sound quality. Users could also batch download songs from a singer with a specified number of pages. I even created a user account system where some functions, like downloading lossless audio, were only available to VIP users.
+In my first year of high school, my main interest was building an app for downloading paid songs from music streaming services in China. I now realize that this was illegal, but at the time, I wasn't aware of that. Although I'm not proud of it, I still want to mention it because it was a masterpiece for a first-year high school student.
+
+I did a lot of research on web scraping and managed to crack the links of paid songs from various music streaming services. With this app, users could download songs with the link of the song page from QQ Music, Netease Music, KuGou Music, and KuWo Music, with the desired sound quality. Users could also batch download songs from a singer with a specified number of pages. I even created a user account system where some functions, like downloading lossless audio, were only available to VIP users.
+
+It took me several months to develop this app, but it only lasted for half a year because I later realized it wasn't quite legal, so I shut it down. Despite that, it remains one of my fondest memories. By that time, it had 413 users, with 228 QQ Music playlist downloads, 1294 QQ Music single downloads, 523 NetEase Music single downloads, 23 KuGou Music single downloads, and 47 KuWo Music single downloads.
 
 Here are some screenshots of the app, which is in Simplified Chinese since the users were from Mainland China.
 
@@ -87,7 +91,9 @@ Here are some screenshots of the app, which is in Simplified Chinese since the u
 
 ## Building Kiwiview's Website
 
-In my second year of high school, I started building a website for Kiwiview International Limited, a New Zealand company co-owned by my parents and a Kiwi. Since the business was just starting, they let me try building the website. I taught myself HTML, JavaScript, CSS, and SQL. It took me months to deploy it on an IIS server on Tencent Cloud. The deployment process was really complicated for a beginner, and I spent a lot of time researching it. I also built a personal website, but unfortunately, it can no longer be accessed because I forgot to renew the server, and the files were lost. This taught me an important lesson about backing up files.
+In my second year of high school, I started building a website for Kiwiview International Limited, a New Zealand company co-owned by my parents and a Kiwi. Since the business was just starting, they let me try building the website.
+
+I taught myself HTML, JavaScript, CSS, and SQL. It took me months to deploy it on an IIS server on Tencent Cloud. The deployment process was really complicated for a beginner, and I spent a lot of time researching it.
 
 Here is the link to the website: [Kiwiview International Limited](https://www.kiwiviewintl.co.nz/uk-en/index.php)
 
@@ -95,7 +101,9 @@ Actually, this is the same website I continue to work on in college when I was o
 
 ## Fun with Automation
 
-In my third year of high school, I participated in a mental arithmetic and "24-point" game competition. It was an online competition held at our school. I made a script to automatically solve the problems, achieving really high scores. The script recognized the content on the screen, used algorithms to solve the problems, and then instructed the computer to input the answers. Everything was done automatically and repeatedly until time was up.
+In my third year of high school, I participated in a mental arithmetic and "24-point" game competition. It was an online competition held at our school.
+
+I made a script to automatically solve the problems, achieving really high scores. The script recognized the content on the screen, used algorithms to solve the problems, and then instructed the computer to input the answers. Everything was done automatically and repeatedly until time was up.
 
 Here are some videos of the script I recorded.
 
