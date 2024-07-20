@@ -25,7 +25,7 @@ div.scroll-container video {
 
 iframe {
             width: 100%;
-            height: 80vh; /* Adjust the height as needed */
+            height: 35vh; /* Adjust the height as needed */
             border: none; /* Remove the border */
 }
 </style>
@@ -51,6 +51,10 @@ Right now, I’m diving into the world of digital transformation at HSBC. It’s
 *July 2024 - April 2025*
 
 I'm exploring the exciting intersection of Generative AI and personalized learning. My work involves conducting deep literature reviews on contextual embeddings with transformer-based LLMs and developing a sleek website for the PDS lab. It’s a perfect blend of theory and hands-on development!
+
+Here is the [website](https://psym-ds.github.io/) I developed:
+
+<iframe src="https://psym-ds.github.io/"></iframe>
 
 ## Part-time Student Research Assistant
 

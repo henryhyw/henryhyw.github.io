@@ -24,8 +24,8 @@ div.scroll-container video {
 }
 
 iframe {
-            width: 80%;
-            height: 20vh; /* Adjust the height as needed */
+            width: 100%;
+            height: 35vh; /* Adjust the height as needed */
             border: none; /* Remove the border */
 }
 </style>
