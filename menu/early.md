@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Early Adventures in Computer Science (From Junior High to High School)
+title: My Early Adventures in Computer Science
 permalink: /early
 ---
 
