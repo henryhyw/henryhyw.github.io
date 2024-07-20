@@ -163,7 +163,7 @@ video{
             textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         }
 
-        while (textWidth > availableWidth && titleFontSize > 0.5) { // Constrain max font size to 5em
+        while (textWidth > availableWidth && titleFontSize > 0.5) { // Constrain min font size to 0.5em
             titleFontSize -= 0.1;
             titleElement.style.fontSize = `${titleFontSize}em`;
             textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
@@ -184,6 +184,23 @@ video{
         while (totalHeight > mediaHeight && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
             subtitleFontSize -= 0.01;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
+            totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
+        }
+
+        // Adjust the line height of the subtitle element to fit within the media height
+        let subtitleLineHeight = 1.4; // Starting line height
+        subtitleElement.style.lineHeight = subtitleLineHeight;
+        totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
+
+        while (totalHeight < mediaHeight && subtitleLineHeight < 2) { // Constrain max line height to 2
+            subtitleLineHeight += 0.1;
+            subtitleElement.style.lineHeight = subtitleLineHeight;
+            totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
+        }
+
+        while (totalHeight > mediaHeight && subtitleLineHeight > 1) { // Ensure line height does not go below 1
+            subtitleLineHeight -= 0.1;
+            subtitleElement.style.lineHeight = subtitleLineHeight;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
     }
