@@ -6,6 +6,8 @@ permalink: /about
 
 I’m Han-yu Wang. You can also call me Henry. I was born in **Taiwan** and grew up in the bustling city of **Shanghai**. I’ve also had the chance to live in **Hawke’s Bay, New Zealand**. Currently, I'm pursuing my degree in vibrant **Hong Kong**.
 
+![Image](/assets/img/henry.png){:height="30%"}
+
 I am a third-year student at the **University of Hong Kong**, majoring in **Applied Artificial Intelligence**. Meanwhile, I work as a part-time research assistant in the **SLR Lab at HKU**, where I investigate intersections in neuroscience, artificial intelligence, and education. I also work in the **PDS Lab at HKU**, focusing on integrating generative AI and LLM with personalized learning. Additionally, I am a full-time Student Work Placement Intern at **HSBC**, working in the Digital Transformation Department. For more details, please visit my [education](https://henryhyw.github.io/education.html) and [work experience](https://henryhyw.github.io/work.html) pages.
 
 In my free time, I love walking by the ocean. When I lived in New Zealand, I often visited the beautiful **Napier Oceanside**. Now that I’m back near school, you can often find me at the **Kennedy Town Seaside**, soaking in the peaceful vibes of the waterfront. There’s something incredibly calming about the ocean that I just can’t get enough of.
