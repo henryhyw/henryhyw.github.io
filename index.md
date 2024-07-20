@@ -71,6 +71,25 @@ video {
 </div>
 
 <script>
+    function getTextWidth(text, font) {
+        const canvas = getTextWidth.canvas || (getTextWidth.canvas = document.createElement("canvas"));
+        const context = canvas.getContext("2d");
+        context.font = font;
+        const metrics = context.measureText(text);
+        return metrics.width;
+    }
+
+    function getCssStyle(element, prop) {
+        return window.getComputedStyle(element, null).getPropertyValue(prop);
+    }
+
+    function getCanvasFont(el = document.body) {
+        const fontWeight = getCssStyle(el, 'font-weight') || 'normal';
+        const fontSize = getCssStyle(el, 'font-size') || '16px';
+        const fontFamily = getCssStyle(el, 'font-family') || 'Times New Roman';
+        return `${fontWeight} ${fontSize} ${fontFamily}`;
+    }
+
     function adjustFontSize() {
         const videoElement = document.getElementById('videoElement');
         const titleElement = document.getElementById('welcomeTitle');
@@ -79,24 +98,20 @@ video {
         const videoHeight = videoElement.clientHeight;
         const availableWidth = document.querySelector('.welcome-text').clientWidth;
 
-        // Adjust the font size of the title to fit the width and height constraints
+        // Adjust the font size of the title to fit the width
         let fontSize = 1; // Start with a smaller font size
         titleElement.style.fontSize = `${fontSize}em`;
-        while (titleElement.clientWidth < availableWidth && titleElement.clientHeight < videoHeight && fontSize < 5) {
+        let textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
+        while (textWidth < availableWidth && fontSize < 5) { // Constrain max font size to 5em
             fontSize += 0.1;
             titleElement.style.fontSize = `${fontSize}em`;
-        }
-
-        // Fine-tuning to ensure it doesn't exceed the available width or height
-        while (titleElement.clientWidth > availableWidth || titleElement.clientHeight > videoHeight) {
-            fontSize -= 0.1;
-            titleElement.style.fontSize = `${fontSize}em`;
+            textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         }
 
         // Adjust the font size of the subtitle to match the height of the video
         let subtitleFontSize = 1;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-        while (subtitleElement.clientHeight < videoHeight && subtitleFontSize < 5) {
+        while (subtitleElement.clientHeight < videoHeight && subtitleFontSize < 2.5) { // Constrain max font size to 5em
             subtitleFontSize += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         }
