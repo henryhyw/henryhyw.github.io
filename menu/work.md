@@ -46,7 +46,7 @@ Right now, I’m diving into the world of digital transformation at HSBC. It’s
 
 I'm exploring the exciting intersection of Generative AI and personalized learning. My work involves conducting deep literature reviews on contextual embeddings with transformer-based LLMs and developing a sleek website for the PDS lab. It’s a perfect blend of theory and hands-on development!
 
-Here is the [website](https://psym-ds.github.io/) I developed:
+Here is the link to the website I developed: [PDS Laboratory](https://psym-ds.github.io/)
 
 ## Part-time Student Research Assistant
 
@@ -67,6 +67,8 @@ In this role, I'm delving into the fascinating world of human memory systems and
 *June 2023 - December 2023*
 
 I had the opportunity to work with a New Zealand company that provides educational services for international study and customized travel solutions. I led the design, development, and hosting of their website using HTML, JavaScript, CSS, PHP, and MySQL. I also gathered, analyzed, and visualized global study and travel trends using various Python packages. (Details are confidential)
+
+Here is the link to the website I developed: [Kiwiview International Limited](https://www.kiwiviewintl.co.nz/uk-en/index.php)
 
 ## Freelance Tutor of Computer Science and Mathematics
 
