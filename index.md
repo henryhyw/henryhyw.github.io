@@ -60,7 +60,7 @@ video, .fallback-image {
     margin: 0;
     margin-block-start: 0;
     margin-block-end: 0;
-    line-height: 1.2;
+    line-height: 1.3;
 }
 
 .welcome-text h1 {
