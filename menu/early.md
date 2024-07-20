@@ -6,7 +6,7 @@ permalink: /early
 
 <style>
 div.scroll-container {
-  background-color: #fff;
+  background-color: #f7f7f7;
   overflow-x: auto; /* Enable horizontal scrolling */
   overflow-y: hidden; /* Disable vertical scrolling */
   white-space: nowrap;
