@@ -56,12 +56,6 @@ video, .fallback-image {
     height: 100%; /* Ensure it takes up the full height of the container */
 }
 
-.welcome-text h1 {
-    margin: 0;
-    padding: 15px 0; /* Add padding at the top */
-    align-self: flex-start; /* Align to the top */
-}
-
 </style>
 
 <div class="image-left container" style="margin: auto;">
@@ -123,7 +117,7 @@ video, .fallback-image {
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         subtitleElement.style.lineHeight = `${subtitlelineHeight}`;
         let subtitleHeight = subtitleElement.clientHeight;
-        while (subtitleHeight < videoHeight - 20 && subtitleFontSize < 3) { // Constrain max font size to 3em
+        while (subtitleHeight < videoHeight && subtitleFontSize < 3) { // Constrain max font size to 3em
             subtitleFontSize += 0.1;
             subtitlelineHeight += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
@@ -132,7 +126,7 @@ video, .fallback-image {
         }
 
         // Reduce font size and line height if subtitle exceeds video height
-        while (subtitleHeight > videoHeight - 20 && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
+        while (subtitleHeight > videoHeight && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
             subtitleFontSize -= 0.1;
             subtitlelineHeight -= 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
