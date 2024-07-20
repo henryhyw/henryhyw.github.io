@@ -107,7 +107,7 @@ video {
             titleElement.style.fontSize = `${fontSize}em`;
             textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
         }
-        while (textWidth > availableWidth) {
+        while (textWidth > availableWidth && fontSize > 1) { // Ensure font size does not go below 1em
             fontSize -= 0.1;
             titleElement.style.fontSize = `${fontSize}em`;
             textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
@@ -120,7 +120,7 @@ video {
             subtitleFontSize += 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         }
-        while (subtitleElement.clientHeight > videoHeight) {
+        while (subtitleElement.clientHeight > videoHeight && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
             subtitleFontSize -= 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         }
