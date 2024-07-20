@@ -67,6 +67,7 @@ video {
     padding-bottom: 5px; /* Adjust padding at the bottom */
     align-self: flex-end; /* Align to the bottom */
 }
+
 </style>
 
 <div class="image-left container" style="margin: auto;">
@@ -120,10 +121,10 @@ video {
         }
 
         // Adjust the font size of the subtitle to match the height of the video
-        let subtitleFontSize = 0.4;
-        let lineHeight = 0.6;
+        let subtitleFontSize = 0.6;
+        let lineHeight = 1;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-        subtitleElement.style.lineHeight = lineHeight;
+        subtitleElement.style.lineHeight = `${lineHeight}`;
         let subtitleHeight = subtitleElement.clientHeight;
         while (subtitleHeight < videoHeight - 20 && subtitleFontSize < 3) { // Constrain max font size to 3em
             subtitleFontSize += 0.1;
@@ -138,12 +139,12 @@ video {
             subtitleFontSize -= 0.1;
             lineHeight -= 0.1;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
-            subtitleElement.style.lineHeight = lineHeight;
+            subtitleElement.style.lineHeight = `${lineHeight}`;
             subtitleHeight = subtitleElement.clientHeight;
         }
     }
 
-    document.addEventListener('DOMContentLoaded', adjustFontSizeAndLineHeight);
+    window.onload = adjustFontSizeAndLineHeight;
     window.onresize = adjustFontSizeAndLineHeight;
 
     // Mute/unmute button
