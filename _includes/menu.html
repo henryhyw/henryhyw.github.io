@@ -14,6 +14,7 @@
 
 <audio id="background-music"></audio>
 
+<audio id="background-music"></audio>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const musicIcon = document.getElementById("music-icon");
@@ -60,6 +61,9 @@
         console.log(`Restoring time: ${savedTime}`);
       }
       if (musicPlaying) {
+        music.play().catch(error => {
+          console.log("Autoplay prevented. Waiting for user interaction.");
+        });
         musicIcon.querySelector("i").classList.add("fa-spin");
         musicIcon.title = "Pause Music";
         console.log("Music is playing");
@@ -109,5 +113,12 @@
       console.log("Song ended, playing next random song");
       playRandomSong();
     });
+
+    // Automatically continue playback if it was playing before
+    if (musicPlaying && savedSong) {
+      music.play().catch(error => {
+        console.log("Autoplay prevented on load. Waiting for user interaction.");
+      });
+    }
   });
 </script>
