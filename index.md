@@ -53,7 +53,7 @@ video{
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .welcome-text h1 {
         font-size: 1.8em;
     }
@@ -63,7 +63,7 @@ video{
     }
 }
 
-@media (min-width: 650px) {
+@media (min-width: 615px) {
     .welcome-text h1 {
         font-size: 3.3em;
     }
@@ -119,7 +119,7 @@ video{
 <script>
     function updateSubtitle() {
         const subtitleElement = document.getElementById('welcomeSubtitle');
-        const isMobile = window.matchMedia("(max-width: 650px)").matches;
+        const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
         if (isMobile) {
             subtitleElement.textContent = "Hello! I'm Han-yu, a junior at HKU, majoring in AI. I love to explore new places and code apps. I'm ready to share my journey with you!";
