@@ -104,6 +104,26 @@ video{
     -moz-text-align-last: left; /* Firefox compatibility */
     color: white; /* Start with white text */
 }
+
+/* CSS for shaking effect */
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.shake {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
 </style>
 
 <div class="image-left container" style="margin: auto;">
@@ -112,7 +132,7 @@ video{
    </video>
    <img id="imageElement" src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="display: none;">
    <div class="welcome-text">
-      <h1 id="welcomeTitle">WELC<i class="far fa-compass" style="font-size: 0.8em;"></i>ME</h1>
+      <h1 id="welcomeTitle">WELC<i class="far fa-compass" id="compassIcon" style="font-size: 0.8em;"></i>ME</h1>
       <h2 id="welcomeSubtitle">Hello! I'm Han-yu (Henry), a junior at HKU, majoring in AI. I love to explore new places and code apps. I'm excited to have you here and ready to share my journey with you!</h2>
    </div>
 </div>
@@ -251,6 +271,12 @@ video{
         adjustFontSizeAndLineHeight();
         checkVideoCompatibility();
 
+        // Add click event listener to the compass icon
+        document.getElementById('compassIcon').addEventListener('click', function() {
+            this.classList.add('shake');
+            setTimeout(() => this.classList.remove('shake'), 500); // Remove the class after animation ends
+        });
+
         // Delay the typewriter effect to allow font size and line height adjustment
         setTimeout(() => {
             const subtitleText = document.getElementById('welcomeSubtitle').textContent;
@@ -258,13 +284,14 @@ video{
             subtitleElement.style.textAlign = 'left'; // Initially set to left align
             subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
             subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
-            typeWriterEffect(subtitleText, subtitleElement, 20, () => {
+            typeWriterEffect(subtitleText, subtitleElement, 15, () => {
                 subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
                 subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
                 subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
             });
         }, 1000);
     };
+
 
     window.onresize = () => {
         adjustFontSizeAndLineHeight();
