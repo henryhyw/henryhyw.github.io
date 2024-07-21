@@ -28,24 +28,24 @@ div.scroll-container video {
 }
 </style>
 
-I’m Han-yu Wang. You can also call me Henry. I was born in **Taiwan**, grew up in **Shanghai**, and also spent some time living in **Hawke’s Bay, New Zealand**. Now, I'm studying in **Hong Kong**.
+I’m Han-yu Wang. You can also call me Henry. I was born in **Taiwan** and grew up in **Shanghai**. I’ve also had the chance to live in **Hawke’s Bay, New Zealand**. Currently, I'm pursuing my degree in **Hong Kong**.
 
 <img src="/assets/img/henry.jpg">
 
-I’m a third-year student at the **University of Hong Kong**, majoring in **Applied Artificial Intelligence**. Alongside my studies, I work part-time as a research assistant in the **SLR Lab at HKU**, exploring the connections between neuroscience, artificial intelligence, and education. I’m also part of the **PDS Lab at HKU**, where I work on integrating generative AI and LLM with personalized learning. Additionally, I’m a full-time Student Work Placement Intern at **HSBC**, focusing on Digital Transformation. You can find more details on my [education](https://henryhyw.github.io/education.html) and [experience](https://henryhyw.github.io/experience.html) pages.
+I am a third-year student at the **University of Hong Kong**, majoring in **Applied Artificial Intelligence**. Meanwhile, I work as a part-time research assistant in the **SLR Lab at HKU**, where I investigate intersections in neuroscience, artificial intelligence, and education. I also work in the **PDS Lab at HKU**, focusing on integrating generative AI and LLM with personalized learning. Additionally, I am a full-time Student Work Placement Intern at **HSBC**, working in the Digital Transformation Department. For more details, please visit my [education](https://henryhyw.github.io/education.html) and [experience](https://henryhyw.github.io/experience.html) pages.
 
-My research interests lie where **natural language processing**, **artificial intelligence**, **cognitive neuroscience**, and **education** meet. I’m fascinated by how AI can help us understand and model learning behaviors.
+My research interests lie at the intersection of **natural language processing**, **artificial intelligence**, **cognitive neuroscience**, and **education**. I study how AI can help explain and model our learning behaviors.
 
 ## On a More Personal Level
 
-In my free time, I love being by the ocean. When I lived in New Zealand, I often visited the beautiful **Napier Oceanside**. In Europe, I enjoyed the **Mediterranean Sea**, whether it was sunbathing, swimming, or just taking in the view. Near school, you’ll often find me at the **Kennedy Town Praya**, enjoying the calm and peaceful waterfront. There’s just something about the ocean that I find incredibly soothing.
+In my free time, I love spending time by the ocean. When I lived in New Zealand, I often visited the beautiful **Napier Oceanside**. When I was in Europe, I loved relaxing at the **Mediterranean Sea**, sunbathing, swimming, and enjoying the serene beauty of the water. When I’m near school, you can often find me at the **Kennedy Town Praya**, enjoying the calm and peaceful waterfront. There’s something incredibly soothing about the ocean that I just can’t get enough of.
 
 <video id="videoElement" muted autoplay loop playsinline>
       <source src="/assets/vid/napier.mp4" type="video/mp4">
 </video>
 <img src="/assets/img/napier.png" alt="Travel" class="fallback-image" style="display: none;">
 
-I love traveling and have had the chance to see some amazing places around the world. I’ve been awestruck by the **Sagrada Família** in Barcelona, amazed by the ancient **Acropolis** in Athens, inspired by the **Statue of Liberty** in New York, and enchanted by the **Redwoods** in Rotorua. Each trip has given me unforgettable memories and a deeper appreciation for our world’s beauty and diversity.
+I love traveling and have had the chance to see some amazing places around the world. I’ve been awestruck by the **Sagrada Família** in Barcelona, amazed by the ancient **Acropolis** in Athens, inspired by the **Statue of Liberty** in New York, and enchanted by the **Redwoods** in Rotorua. Each of these experiences has left me with unforgettable memories and a deep appreciation for the beauty and diversity of our world.
 
 > "Once you have traveled, the voyage never ends, but is played out over and over again in the quietest chambers. The mind can never break off from the journey."
 >
@@ -53,7 +53,7 @@ I love traveling and have had the chance to see some amazing places around the w
 
 <div id="scroll-container" class="scroll-container"></div>
 
-Another passion of mine is diving into the world of computer science. I love coding and creating programs from scratch. It's exciting to see lines of code come together to build something real and impactful. Check out my early adventures in computer science—it was a fun and exciting journey. You can explore more about it here: [My Early CS Adventures](https://henryhyw.github.io/early.html).
+Another passion of mine is diving into the world of computer science.  I love coding and enjoy creating functional programs from scratch. It's thrilling to see lines of code come together to build something real and impactful. Feel free to check out my early adventures in computer science—it was a fun and exciting journey for me. You can explore more about it here: [My Early CS Adventures](https://henryhyw.github.io/early.html).
 
 <script>
   // Array of image filenames
