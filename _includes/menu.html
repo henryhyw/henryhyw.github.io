@@ -31,6 +31,7 @@
     }
 
     function playSong(song) {
+      console.log(`Playing song: ${song}`);
       music.src = song;
       music.play();
       musicIcon.querySelector("i").classList.add("fa-spin");
@@ -39,6 +40,7 @@
 
     function playRandomSong() {
       const randomSong = getRandomSong();
+      console.log(`Random song selected: ${randomSong}`);
       localStorage.setItem("currentSong", randomSong);
       playSong(randomSong);
     }
@@ -49,19 +51,24 @@
     const musicPlaying = localStorage.getItem("musicPlaying") === "true";
 
     if (savedSong) {
+      console.log(`Restoring song: ${savedSong}`);
       music.src = savedSong;
       if (savedTime) {
         music.currentTime = savedTime;
+        console.log(`Restoring time: ${savedTime}`);
       }
       if (musicPlaying) {
         music.play();
         musicIcon.querySelector("i").classList.add("fa-spin");
         musicIcon.title = "Pause Music";
+        console.log("Music is playing");
       } else {
         musicIcon.title = "Play Music";
+        console.log("Music is paused");
       }
     } else {
       musicIcon.title = "Play Music";
+      console.log("No saved song, ready to play a new one");
     }
 
     musicIcon.addEventListener("click", function() {
@@ -74,11 +81,13 @@
           musicIcon.title = "Pause Music";
         }
         localStorage.setItem("musicPlaying", "true");
+        console.log("Music started");
       } else {
         music.pause();
         musicIcon.querySelector("i").classList.remove("fa-spin");
         musicIcon.title = "Play Music";
         localStorage.setItem("musicPlaying", "false");
+        console.log("Music paused");
       }
     });
 
@@ -88,11 +97,13 @@
       localStorage.setItem("musicPlaying", !music.paused);
       if (music.src) {
         localStorage.setItem("currentSong", music.src);
+        console.log(`Saving song: ${music.src}`);
       }
     });
 
     // Play next random song when the current one ends
     music.addEventListener("ended", function() {
+      console.log("Song ended, playing next random song");
       playRandomSong();
     });
   });
