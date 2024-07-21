@@ -13,7 +13,7 @@ video, .fallback-image {
     height: auto;
 }
 
-video{
+video {
     filter: brightness(70%); /* Make the video darker */
 }
 
@@ -37,7 +37,7 @@ video{
         margin-left: 1.5em;
         float: right; /* fallback */
     }
-    
+
     /* clearfix for fallback */
     .image-left::after,
     .image-right::after {
@@ -99,9 +99,7 @@ video{
     line-height: 1.4;
     position: relative;
     top: 0.2em; /* Shift down to remove space below */
-    text-align: justify;
-    text-align-last: justify; /* Justify the last line as well */
-    -moz-text-align-last: justify; /* Firefox compatibility */
+    text-align: left; /* Start with left align */
     color: white; /* Start with white text */
 }
 
@@ -110,6 +108,7 @@ video{
     width: 1px;
     background-color: black;
     animation: blink 1s infinite;
+    margin-left: 2px;
 }
 
 @keyframes blink {
@@ -251,11 +250,13 @@ video{
 
         function type() {
             if (index < text.length) {
-                element.innerHTML += `<span style="color: black;">${text[index]}</span>`;
+                const nextChar = `<span style="color: black;">${text[index]}</span>`;
+                element.innerHTML = element.innerHTML.slice(0, -31) + nextChar + '<span class="cursor"></span>'; // Update cursor position
                 index++;
                 setTimeout(type, delay);
             } else {
-                element.innerHTML += '<span class="cursor"></span>'; // Add cursor after typing is done
+                element.innerHTML = text + '<span class="cursor"></span>'; // Final cursor position
+                element.style.textAlign = 'justify'; // Justify text after typing
             }
         }
 
@@ -271,7 +272,7 @@ video{
         setTimeout(() => {
             const subtitleText = document.getElementById('welcomeSubtitle').textContent;
             const subtitleElement = document.getElementById('welcomeSubtitle');
-            typeWriterEffect(subtitleText, subtitleElement, 50);
+            typeWriterEffect(subtitleText, subtitleElement, 150); // Slow down typing speed
         }, 1000);
     };
 
