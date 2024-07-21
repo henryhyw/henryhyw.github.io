@@ -127,10 +127,8 @@ Another passion of mine is diving into the world of computer science. I absolute
     }
 
     window.onload = () => {
-        adjustFontSizeAndLineHeight();
         checkVideoCompatibility();
     };
-    window.onresize = adjustFontSizeAndLineHeight;
 
     // Mute/unmute button
     const videoElement = document.getElementById('videoElement');
