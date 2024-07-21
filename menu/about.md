@@ -53,7 +53,7 @@ I love traveling and have had the chance to explore some amazing places around t
 
 <div id="scroll-container" class="scroll-container"></div>
 
-Another passion of mine is diving into the world of computer science. I absolutely love coding. There’s nothing quite like the thrill of creating vibrant and functional programs from scratch. It’s amazing to see lines of code come together to build something real and impactful. Feel free to check out my early adventures in computer science—it was such a fun and exciting journey for me. You can explore more about it here: [My Early CS Adventures](https://henryhyw.github.io/early.html).
+Another passion of mine is diving into the world of computer science.  I love coding and enjoy creating functional programs from scratch. It's thrilling to see lines of code come together to build something real and impactful. Feel free to check out my early adventures in computer science—it was a fun and exciting journey for me. You can explore more about it here: [My Early CS Adventures](https://henryhyw.github.io/early.html).
 
 <script>
   // Array of image filenames
