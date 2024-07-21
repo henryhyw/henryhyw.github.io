@@ -21,7 +21,6 @@
 
     const songs = [
       '/assets/aud/bg.mp3',
-      // Add more songs here if needed
     ];
 
     function getRandomSong() {
@@ -37,11 +36,11 @@
     }
 
     // Restore music state from localStorage
+    if (localStorage.getItem("musicTime")) {
+      music.currentTime = localStorage.getItem("musicTime");
+    }
     if (localStorage.getItem("musicPlaying") === "true") {
       playRandomSong();
-      if (localStorage.getItem("musicTime")) {
-        music.currentTime = localStorage.getItem("musicTime");
-      }
     }
 
     musicIcon.addEventListener("click", function() {
@@ -56,23 +55,13 @@
       }
     });
 
-    // Save music state periodically
-    setInterval(() => {
+    // Save music state before leaving the page
+    window.addEventListener("beforeunload", function() {
       localStorage.setItem("musicTime", music.currentTime);
       localStorage.setItem("musicPlaying", !music.paused);
-    }, 1000);
+    });
 
     // Play next random song when the current one ends
     music.addEventListener("ended", playRandomSong);
-
-    // Handle visibility change (e.g., tab change)
-    document.addEventListener("visibilitychange", function() {
-      if (document.hidden) {
-        music.pause();
-        localStorage.setItem("musicPlaying", "false");
-      } else if (localStorage.getItem("musicPlaying") === "true") {
-        music.play();
-      }
-    });
   });
 </script>
