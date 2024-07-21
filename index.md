@@ -3,6 +3,10 @@ layout: page
 title: 
 ---
 
+<script>
+  document.title = "Home | H.W.";
+</script>
+
 <style>
 video, .fallback-image {
     max-width: 45%;
