@@ -45,7 +45,7 @@ In my free time, I love spending time by the ocean. When I lived in New Zealand,
 </video>
 <img src="/assets/img/napier.png" alt="Travel" class="fallback-image" style="display: none;">
 
-I love traveling and have had the chance to explore some amazing places around the world. I’ve marveled at the stunning **Sagrada Família** in Barcelona, stood in awe at the ancient **Acropolis** in Athens, gazed up at the iconic **Statue of Liberty** in the United States, wandered through the enchanting **Rotorua Redwoods** in New Zealand... Each of these experiences has left me with unforgettable memories and a deep appreciation for the beauty and diversity of our world.
+I love traveling and have had the chance to explore some amazing places around the world. I’ve marveled at the stunning **Sagrada Família** in Barcelona, stood in awe at the ancient **Acropolis** in Athens, gazed up at the iconic **Statue of Liberty** in the New York, wandered through the enchanting **Redwoods** in Rotorua... Each of these experiences has left me with unforgettable memories and a deep appreciation for the beauty and diversity of our world.
 
 > "Once you have traveled, the voyage never ends, but is played out over and over again in the quietest chambers. The mind can never break off from the journey."
 >
