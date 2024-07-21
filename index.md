@@ -186,17 +186,21 @@ video{
         // Adjust the font size and line height of the title to fit the width
         let titleFontSize = 1; // Start with a smaller font size
         titleElement.style.fontSize = `${titleFontSize}em`;
-        let textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
+        compassIcon.style.fontSize = `${titleFontSize}em`;
+        
+        let textWidth = getTextWidth(titleElement.textContent.replace('O', ''), getCanvasFont(titleElement)) + compassIcon.clientWidth;
         while (textWidth < availableWidth && titleFontSize < 5) { // Constrain max font size to 5em
             titleFontSize += 0.1;
             titleElement.style.fontSize = `${titleFontSize}em`;
-            textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
+            compassIcon.style.fontSize = `${titleFontSize}em`;
+            textWidth = getTextWidth(titleElement.textContent.replace('O', ''), getCanvasFont(titleElement)) + compassIcon.clientWidth;
         }
 
         while (textWidth > availableWidth && titleFontSize > 0.5) { // Constrain min font size to 0.5em
             titleFontSize -= 0.1;
             titleElement.style.fontSize = `${titleFontSize}em`;
-            textWidth = getTextWidth(titleElement.textContent, getCanvasFont(titleElement));
+            compassIcon.style.fontSize = `${titleFontSize}em`;
+            textWidth = getTextWidth(titleElement.textContent.replace('O', ''), getCanvasFont(titleElement)) + compassIcon.clientWidth;
         }
 
         // Fix the title font size and adjust the subtitle to match the height of the video
