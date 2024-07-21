@@ -10,6 +10,8 @@ Here’s a snapshot of my academic path and the experiences that have shaped my 
 
 ## The University of Hong Kong
 
+*September 2022 - Present*
+
 <img src="/assets/img/hku.jpeg" style="height:8vh;">
 
 I'm a third-year student at the [University of Hong Kong](https://www.hku.hk/), majoring in [Applied Artificial Intelligence](https://admissions.hku.hk/programmes/undergraduate-programmes/bachelor-of-arts-and-sciences-applied-artificial-intelligence).
@@ -22,9 +24,11 @@ Beyond my coursework, I served as a student representative on the CAES Staff-Stu
 
 ## Shanghai High School International Division
 
+*September 2017 - June 2022*
+
 <img src="/assets/img/shsid.png" style="height:8vh;">
 
-Before this, I completed my International Baccalaureate diploma at [Shanghai High School International Division](https://www.shsid.org/).
+I completed my junior high, high school, and International Baccalaureate diplomas at [Shanghai High School International Division](https://www.shsid.org/).
 
 For my IB diploma, I studied a broad array of subjects including computer science, mathematics, economics, physics, English, and Chinese.
 

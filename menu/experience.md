@@ -42,11 +42,11 @@ Right now, I’m diving into the world of digital transformation at HSBC. It’s
 
 ## Part-time Student Research Assistant
 
-<img src="/assets/img/hku.jpeg" style="height:8vh;">
+*July 2024 - April 2025*
 
 *[Psychometrics and Data Science Lab at the University of Hong Kong](https://psym-ds.github.io/)*
 
-*July 2024 - April 2025*
+<img src="/assets/img/hku.jpeg" style="height:8vh;">
 
 I'm exploring the exciting intersection of Generative AI and personalized learning. My work involves conducting deep literature reviews on contextual embeddings with transformer-based LLMs and developing a sleek website for the PDS lab. It’s a perfect blend of theory and hands-on development!
 
@@ -56,11 +56,11 @@ Here is the link to the website I developed: [PDS Laboratory](https://psym-ds.gi
 
 ## Part-time Student Research Assistant
 
-<img src="/assets/img/hku.jpeg" style="height:8vh;">
+*May 2024 - August 2025*
 
 *[Speech, Language, and Reading Lab at the University of Hong Kong](https://slrlab.edu.hku.hk/)*
 
-*May 2024 - August 2025*
+<img src="/assets/img/hku.jpeg" style="height:8vh;">
 
 In this role, I'm delving into the fascinating world of human memory systems and learning behaviors. I’m developing a computational model to simulate these processes, conducting literature reviews on artificial neural networks, reinforcement learning, and cognitive neuroscience. It’s intense but incredibly rewarding work. (Details are confidential)
 
@@ -68,11 +68,11 @@ In this role, I'm delving into the fascinating world of human memory systems and
 
 ## Contributor in an Information Retrieval Research Project
 
-<img src="/assets/img/hku.jpeg" style="height:8vh;">
+*December 2023 - May 2024*
 
 *[Natural Language Processing Group at the University of Hong Kong](https://hkunlp.github.io/)*
 
-*December 2023 - May 2024*
+<img src="/assets/img/hku.jpeg" style="height:8vh;">
 
 I had an amazing opportunity to work on BRIGHT, a benchmark designed to evaluate how well models can reason through complex queries. Collaborating with Princeton University and Google Cloud AI Research made the project even more exciting!
 
@@ -84,11 +84,11 @@ As one of the co-authors, I contributed to a paper about the project, which we s
 
 ## Web Developer and Data Analyst
 
-<img src="/assets/img/kiwiview.png" style="height:8vh;">
+*June 2023 - December 2023*
 
 *[Kiwiview International Limited](https://www.kiwiviewintl.co.nz/uk-en/index.php)*
 
-*June 2023 - December 2023*
+<img src="/assets/img/kiwiview.png" style="height:8vh;">
 
 I had the opportunity to work with a New Zealand company that provides educational services for international study and customized travel solutions. This company is actually a family endeavor that my parents and I established together from the start. I led the design, development, and hosting of their website using HTML, JavaScript, CSS, PHP, and MySQL. I also gathered, analyzed, and visualized global study and travel trends using various Python packages. (Details are confidential)
 
@@ -98,8 +98,8 @@ Here is the link to the website I developed: [Kiwiview International Limited](ht
 
 ## Freelance Tutor of Computer Science and Mathematics
 
-<img src="/assets/img/tutoring.webp" style="height:8vh;">
-
 *July 2022 - May 2023*
+
+<img src="/assets/img/tutoring.webp" style="height:8vh;">
 
 Tutoring has been a passion of mine, and during this period, I helped international high school students ace their AP and IB math and computer science exams. I also prepared them for AMC 8 & AMC 10 competitions and assisted with their school coursework to boost their understanding and performance.
