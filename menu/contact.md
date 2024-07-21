@@ -21,17 +21,17 @@ If you have any questions, want to work together, or just want to chat, feel fre
 </style>
 
 <div class="contact-info">
-  <img class="icon" src="/assets/icons/email.svg"> 
+  <img class="icon" src="/assets/icons/role.svg"> 
   <span>Personal Email: whenry6688@gmail.com</span>
 </div>
 
 <div class="contact-info">
-  <img class="icon" src="/assets/icons/email.svg"> 
+  <img class="icon" src="/assets/icons/school.svg"> 
   <span>School Email: henry.why@connect.hku.hk</span>
 </div>
 
 <div class="contact-info">
-  <img class="icon" src="/assets/icons/email.svg"> 
+  <img class="icon" src="/assets/icons/department.svg"> 
   <span>Work Email: henry.wang@kiwiviewintl.co.nz</span>
 </div>
 
