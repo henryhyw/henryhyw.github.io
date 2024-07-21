@@ -244,7 +244,7 @@ video {
         });
     }
 
-    function typeWriterEffect(text, element, delay = 100) {
+    function typeWriterEffect(text, element, delay = 150) {
         element.innerHTML = '';
         let index = 0;
 
@@ -272,7 +272,8 @@ video {
         setTimeout(() => {
             const subtitleText = document.getElementById('welcomeSubtitle').textContent;
             const subtitleElement = document.getElementById('welcomeSubtitle');
-            typeWriterEffect(subtitleText, subtitleElement, 150); // Slow down typing speed
+            subtitleElement.textContent = ""; // Clear the subtitle content before typing effect
+            typeWriterEffect(subtitleText, subtitleElement, 300); // Slow down typing speed to 300ms
         }, 1000);
     };
 
