@@ -13,3 +13,21 @@
   </nav>
 </div>
 
+<audio id="background-music" src="/assets/aud/bg.mp3"></audio>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const musicIcon = document.getElementById("music-icon");
+    const music = document.getElementById("background-music");
+
+    musicIcon.addEventListener("click", function() {
+      if (music.paused) {
+        music.play();
+        musicIcon.querySelector("i").classList.add("fa-spin");
+      } else {
+        music.pause();
+        musicIcon.querySelector("i").classList.remove("fa-spin");
+      }
+    });
+  });
+</script>
