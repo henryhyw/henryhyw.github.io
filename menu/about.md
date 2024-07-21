@@ -52,17 +52,60 @@ I love traveling and have had the chance to explore some amazing places around t
 > *- Pat Conroy*
 
 <div class="scroll-container">
-  <img src="/assets/img/acropolis.jpg">
-  <img src="/assets/img/athensstatue.jpg">
-  <img src="/assets/img/kerameikos.jpg">
-  <img src="/assets/img/agora.jpg">
-  <img src="/assets/img/beijingairport.jpg">
-  <img src="/assets/img/nz.jpg">
-  <img src="/assets/img/rotorua.jpg">
-  <img src="/assets/img/baihe.jpg">
 </div>
 
 Another passion of mine is diving into the world of computer science. I absolutely love coding. There’s nothing quite like the thrill of creating vibrant and functional programs from scratch. It’s amazing to see lines of code come together to build something real and impactful. Feel free to check out my early adventures in computer science—it was such a fun and exciting journey for me. You can explore more about it here: [My Early CS Adventures](https://henryhyw.github.io/early.html).
+
+<script>
+  // Array of image filenames
+  const imageFilenames = [
+    'athens1.jpg',
+    'athens2.jpg',
+    'athens3.jpg',
+    'athens4.jpg',
+    'beijing1.jpg',
+    'hk1.jpg',
+    'hk2.jpg',
+    'hk3.jpg',
+    'hk4.jpg',
+    'hk5.jpg',
+    'hk6.jpg',
+    'hk7.jpg',
+    'hk8.jpg',
+    'hkdisney1.jpg',
+    'hkdisney2.jpg',
+    'hkdisney3.jpg',
+    'hkdisney4.jpg',
+    'hkdisney5.jpg',
+    'napier1.jpg',
+    'rotorua1.jpg',
+    'shanghai1.jpg',
+    'shanghai2.jpg',
+    'tainan1.jpg'
+  ];
+
+  // Function to shuffle an array
+  function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+  // Shuffle the image filenames
+  const shuffledFilenames = shuffle(imageFilenames);
+
+  // Get the scroll-container div
+  const container = document.getElementById('scroll-container');
+
+  // Dynamically create img elements and append them to the container
+  shuffledFilenames.forEach(filename => {
+    const img = document.createElement('img');
+    img.src = `/assets/gallery/${filename}`;
+    container.appendChild(img);
+  });
+</script>
 
 <script>
     function checkVideoCompatibility() {
