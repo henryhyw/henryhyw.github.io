@@ -178,6 +178,7 @@ video{
         const imageElement = document.getElementById('imageElement');
         const titleElement = document.getElementById('welcomeTitle');
         const subtitleElement = document.getElementById('welcomeSubtitle');
+        const compassIcon = document.getElementById('compassIcon');
 
         const mediaElement = videoElement.style.display !== 'none' ? videoElement : imageElement;
         const mediaHeight = mediaElement.clientHeight;
@@ -186,20 +187,22 @@ video{
         // Adjust the font size and line height of the title to fit the width
         let titleFontSize = 1; // Start with a smaller font size
         titleElement.style.fontSize = `${titleFontSize}em`;
-        compassIcon.style.fontSize = `${titleFontSize}em`;
+        
+        let iconScaleFactor = 0.8; // Scale factor to adjust the icon size relative to the text
+        compassIcon.style.fontSize = `${titleFontSize * iconScaleFactor}em`;
         
         let textWidth = getTextWidth(titleElement.textContent.replace('O', ''), getCanvasFont(titleElement)) + compassIcon.clientWidth;
         while (textWidth < availableWidth && titleFontSize < 5) { // Constrain max font size to 5em
             titleFontSize += 0.1;
             titleElement.style.fontSize = `${titleFontSize}em`;
-            compassIcon.style.fontSize = `${titleFontSize}em`;
+            compassIcon.style.fontSize = `${titleFontSize * iconScaleFactor}em`;
             textWidth = getTextWidth(titleElement.textContent.replace('O', ''), getCanvasFont(titleElement)) + compassIcon.clientWidth;
         }
 
         while (textWidth > availableWidth && titleFontSize > 0.5) { // Constrain min font size to 0.5em
             titleFontSize -= 0.1;
             titleElement.style.fontSize = `${titleFontSize}em`;
-            compassIcon.style.fontSize = `${titleFontSize}em`;
+            compassIcon.style.fontSize = `${titleFontSize * iconScaleFactor}em`;
             textWidth = getTextWidth(titleElement.textContent.replace('O', ''), getCanvasFont(titleElement)) + compassIcon.clientWidth;
         }
 
