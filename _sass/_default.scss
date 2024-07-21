@@ -51,17 +51,24 @@
 
 .menu {
   padding-top: 0.5rem;
-  display: block;
+  display: flex;
+  justify-content: center; /* Center the menu items */
 }
 
 .menu-content {
-  float: left;
+  display: flex;
+  gap: 20px; /* Adjust the gap between menu items as needed */
 }
 
 .menu-content a {
   color: $light-gray-color;
   font-size: 1rem;
-  padding-right: 10px;
+  padding: 0 10px; /* Adjust padding for better spacing */
+  text-decoration: none;
+}
+
+.menu-content a:hover {
+  color: #007BFF; /* Adjust the hover color as needed */
 }
 
 .social-icons {
