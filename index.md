@@ -100,6 +100,8 @@ video{
     position: relative;
     top: 0.2em; /* Shift down to remove space below */
     text-align: left; /* Initially set to normal align */
+    text-align-last: left; /* Initially set to normal align */
+    -moz-text-align-last: left; /* Firefox compatibility */
     color: white; /* Start with white text */
 }
 
@@ -271,8 +273,12 @@ video{
             const subtitleText = document.getElementById('welcomeSubtitle').textContent;
             const subtitleElement = document.getElementById('welcomeSubtitle');
             subtitleElement.style.textAlign = 'left'; // Initially set to left align
-            typeWriterEffect(subtitleText, subtitleElement, 100, () => {
+            subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
+            subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
+            typeWriterEffect(subtitleText, subtitleElement, 80, () => {
                 subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
+                subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
+                subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
             });
         }, 1000);
     };
