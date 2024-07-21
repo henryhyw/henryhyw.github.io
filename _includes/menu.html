@@ -92,6 +92,8 @@
     });
 
     // Play next random song when the current one ends
-    music.addEventListener("ended", playRandomSong);
+    music.addEventListener("ended", function() {
+      playRandomSong();
+    });
   });
 </script>
