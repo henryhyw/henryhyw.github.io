@@ -33,7 +33,9 @@
     function playSong(song) {
       console.log(`Playing song: ${song}`);
       music.src = song;
-      music.play();
+      music.play().catch(error => {
+        console.log("Autoplay prevented. Waiting for user interaction.");
+      });
       musicIcon.querySelector("i").classList.add("fa-spin");
       musicIcon.title = "Pause Music";
     }
@@ -58,7 +60,6 @@
         console.log(`Restoring time: ${savedTime}`);
       }
       if (musicPlaying) {
-        music.play();
         musicIcon.querySelector("i").classList.add("fa-spin");
         musicIcon.title = "Pause Music";
         console.log("Music is playing");
@@ -76,7 +77,9 @@
         if (!music.src) {
           playRandomSong();
         } else {
-          music.play();
+          music.play().catch(error => {
+            console.log("Autoplay prevented. Waiting for user interaction.");
+          });
           musicIcon.querySelector("i").classList.add("fa-spin");
           musicIcon.title = "Pause Music";
         }
