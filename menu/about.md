@@ -6,7 +6,7 @@ permalink: /about
 
 <style>
 video, .fallback-image {
-	width: 100%;
+    width: 100%;
 }
 
 div.scroll-container {
@@ -51,8 +51,7 @@ I love traveling and have had the chance to explore some amazing places around t
 >
 > *- Pat Conroy*
 
-<div class="scroll-container">
-</div>
+<div id="scroll-container" class="scroll-container"></div>
 
 Another passion of mine is diving into the world of computer science. I absolutely love coding. There’s nothing quite like the thrill of creating vibrant and functional programs from scratch. It’s amazing to see lines of code come together to build something real and impactful. Feel free to check out my early adventures in computer science—it was such a fun and exciting journey for me. You can explore more about it here: [My Early CS Adventures](https://henryhyw.github.io/early.html).
 
@@ -96,14 +95,16 @@ Another passion of mine is diving into the world of computer science. I absolute
   // Shuffle the image filenames
   const shuffledFilenames = shuffle(imageFilenames);
 
-  // Get the scroll-container div
-  const container = document.getElementById('scroll-container');
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get the scroll-container div
+    const container = document.getElementById('scroll-container');
 
-  // Dynamically create img elements and append them to the container
-  shuffledFilenames.forEach(filename => {
-    const img = document.createElement('img');
-    img.src = `/assets/gallery/${filename}`;
-    container.appendChild(img);
+    // Dynamically create img elements and append them to the container
+    shuffledFilenames.forEach(filename => {
+      const img = document.createElement('img');
+      img.src = `/assets/gallery/${filename}`;
+      container.appendChild(img);
+    });
   });
 </script>
 
