@@ -21,6 +21,7 @@
 
     const songs = [
       '/assets/aud/bg.mp3',
+      // Add more song paths here if needed
     ];
 
     function getRandomSong() {
@@ -41,6 +42,10 @@
     }
     if (localStorage.getItem("musicPlaying") === "true") {
       playRandomSong();
+      musicIcon.querySelector("i").classList.add("fa-spin");
+      musicIcon.title = "Pause Music";
+    } else {
+      musicIcon.title = "Play Music";
     }
 
     musicIcon.addEventListener("click", function() {
