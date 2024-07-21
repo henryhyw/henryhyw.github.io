@@ -9,21 +9,13 @@ video, .fallback-image {
     width: 100%;
 }
 
-div.outer-container {
-  background-color: #f7f7f7;
-  padding: 10px;
-  height: 70vh; /* Set the height to 70% of the viewport height */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 div.scroll-container {
+  background-color: #f7f7f7;
   overflow-x: auto; /* Enable horizontal scrolling */
   overflow-y: hidden; /* Disable vertical scrolling */
   white-space: nowrap;
   padding: 10px;
-  height: calc(35vh - 20px); /* Adjust the height to fit within the container, considering padding */
+  height: 35vh; /* Set the height to 35% of the viewport height */
   display: flex;
   align-items: center; /* Center align images vertically */
 }
@@ -59,10 +51,7 @@ I love traveling and have had the chance to see some amazing places around the w
 >
 > *- Pat Conroy*
 
-<div class="outer-container">
-  <div id="scroll-container-top" class="scroll-container" style="direction: rtl;"></div>
-  <div id="scroll-container-bottom" class="scroll-container"></div>
-</div>
+<div id="scroll-container" class="scroll-container"></div>
 
 Another passion of mine is diving into the world of computer science.  I love coding and enjoy creating functional programs from scratch. It's thrilling to see lines of code come together to build something real and impactful. Feel free to check out my early adventures in computer science—it was a fun and exciting journey for me. You can explore more about it here: [My Early CS Adventures](https://henryhyw.github.io/early.html).
 
@@ -106,30 +95,15 @@ Another passion of mine is diving into the world of computer science.  I love co
   // Shuffle the image filenames
   const shuffledFilenames = shuffle(imageFilenames);
 
-  // Split the shuffled filenames into two halves
-  const midIndex = Math.ceil(shuffledFilenames.length / 2);
-  const topFilenames = shuffledFilenames.slice(0, midIndex);
-  const bottomFilenames = shuffledFilenames.slice(midIndex);
-
   document.addEventListener("DOMContentLoaded", function() {
-    // Get the scroll-container divs
-    const containerTop = document.getElementById('scroll-container-top');
-    const containerBottom = document.getElementById('scroll-container-bottom');
+    // Get the scroll-container div
+    const container = document.getElementById('scroll-container');
 
-    // Reverse the top filenames array for correct display order with top scrollbar
-    topFilenames.reverse();
-
-    // Dynamically create img elements and append them to the containers
-    topFilenames.forEach(filename => {
+    // Dynamically create img elements and append them to the container
+    shuffledFilenames.forEach(filename => {
       const img = document.createElement('img');
       img.src = `/assets/gallery/${filename}`;
-      containerTop.appendChild(img);
-    });
-
-    bottomFilenames.forEach(filename => {
-      const img = document.createElement('img');
-      img.src = `/assets/gallery/${filename}`;
-      containerBottom.appendChild(img);
+      container.appendChild(img);
     });
   });
 </script>
