@@ -273,7 +273,7 @@ video {
             const subtitleText = document.getElementById('welcomeSubtitle').textContent;
             const subtitleElement = document.getElementById('welcomeSubtitle');
             subtitleElement.textContent = ""; // Clear the subtitle content before typing effect
-            typeWriterEffect(subtitleText, subtitleElement, 300); // Slow down typing speed to 300ms
+            typeWriterEffect(subtitleText, subtitleElement, 800); // Slow down typing speed to 300ms
         }, 1000);
     };
 
