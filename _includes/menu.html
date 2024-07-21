@@ -12,7 +12,7 @@
   </nav>
 </div>
 
-<audio id="background-music" src="/assets/aud/bg.mp3" loop></audio>
+<audio id="background-music" loop></audio>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -20,10 +20,7 @@
     const music = document.getElementById("background-music");
 
     const songs = [
-      'path/to/your/music/file1.mp3',
-      'path/to/your/music/file2.mp3',
-      'path/to/your/music/file3.mp3',
-      // Add more song paths here
+      '/assets/aud/bg.mp3',
     ];
 
     function getRandomSong() {
