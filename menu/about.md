@@ -28,7 +28,7 @@ div.scroll-container video {
 }
 </style>
 
-I’m Han-yu Wang. You can also call me Henry. I was born in **Taiwan** and grew up in the bustling city of **Shanghai**. I’ve also had the chance to live in **Hawke’s Bay, New Zealand**. Currently, I'm pursuing my degree in vibrant **Hong Kong**.
+I’m Han-yu Wang. You can also call me Henry. I was born in **Taiwan** and grew up in **Shanghai**. I’ve also had the chance to live in **Hawke’s Bay, New Zealand**. Currently, I'm pursuing my degree in **Hong Kong**.
 
 <img src="/assets/img/henry.jpg">
 
