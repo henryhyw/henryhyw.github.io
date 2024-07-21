@@ -104,22 +104,6 @@ video{
     -moz-text-align-last: left; /* Firefox compatibility */
     color: white; /* Start with white text */
 }
-
-.cursor {
-    display: inline-block;
-    width: 1px;
-    background-color: black;
-    animation: blink 1s infinite;
-}
-
-@keyframes blink {
-    0%, 50% {
-        opacity: 1;
-    }
-    50.01%, 100% {
-        opacity: 0;
-    }
-}
 </style>
 
 <div class="image-left container" style="margin: auto;">
@@ -129,7 +113,7 @@ video{
    <img id="imageElement" src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="display: none;">
    <div class="welcome-text">
       <h1 id="welcomeTitle">WELCOME</h1>
-      <h2 id="welcomeSubtitle">Hello! I'm Han-yu (Henry), a junior at HKU, majoring in AI. I love to explore new places and code apps. I'm excited to have you here and ready to share my journey with you!<span class="cursor"></span></h2>
+      <h2 id="welcomeSubtitle">Hello! I'm Han-yu (Henry), a junior at HKU, majoring in AI. I love to explore new places and code apps. I'm excited to have you here and ready to share my journey with you!</h2>
    </div>
 </div>
 
@@ -255,7 +239,6 @@ video{
                 index++;
                 setTimeout(type, delay);
             } else {
-                element.innerHTML += '<span class="cursor"></span>'; // Add cursor after typing is done
                 if (callback) callback();
             }
         }
@@ -284,7 +267,6 @@ video{
     };
 
     window.onresize = () => {
-        updateSubtitle();
         adjustFontSizeAndLineHeight();
     };
 
