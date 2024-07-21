@@ -119,8 +119,7 @@ video{
 <script>
     function updateSubtitle() {
         const subtitleElement = document.getElementById('welcomeSubtitle');
-        const isMobile = window.matchMedia("(max-width: 650px)").matches || /Mobi|Android/i.test(navigator.userAgent);
-        const isTablet = window.matchMedia("(min-width: 650px) and (max-width: 1024px)").matches || /Tablet|iPad/i.test(navigator.userAgent);
+        const isMobile = window.matchMedia("(max-width: 650px)").matches;
 
         if (isMobile) {
             subtitleElement.textContent = "Hello! I'm Han-yu, a junior at HKU, majoring in AI. I love to explore new places and code apps. I'm ready to share my journey with you!";
