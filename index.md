@@ -275,7 +275,7 @@ video{
             subtitleElement.style.textAlign = 'left'; // Initially set to left align
             subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
             subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
-            typeWriterEffect(subtitleText, subtitleElement, 80, () => {
+            typeWriterEffect(subtitleText, subtitleElement, 60, () => {
                 subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
                 subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
                 subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
