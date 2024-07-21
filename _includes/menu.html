@@ -15,6 +15,7 @@
 <audio id="background-music"></audio>
 
 <audio id="background-music"></audio>
+
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const musicIcon = document.getElementById("music-icon");
@@ -36,6 +37,10 @@
       music.src = song;
       music.play().catch(error => {
         console.log("Autoplay prevented. Waiting for user interaction.");
+        // Update play status to false and stop spinning
+        localStorage.setItem("musicPlaying", "false");
+        musicIcon.querySelector("i").classList.remove("fa-spin");
+        musicIcon.title = "Play Music";
       });
       musicIcon.querySelector("i").classList.add("fa-spin");
       musicIcon.title = "Pause Music";
@@ -63,6 +68,10 @@
       if (musicPlaying) {
         music.play().catch(error => {
           console.log("Autoplay prevented. Waiting for user interaction.");
+          // Update play status to false and stop spinning
+          localStorage.setItem("musicPlaying", "false");
+          musicIcon.querySelector("i").classList.remove("fa-spin");
+          musicIcon.title = "Play Music";
         });
         musicIcon.querySelector("i").classList.add("fa-spin");
         musicIcon.title = "Pause Music";
@@ -83,6 +92,10 @@
         } else {
           music.play().catch(error => {
             console.log("Autoplay prevented. Waiting for user interaction.");
+            // Update play status to false and stop spinning
+            localStorage.setItem("musicPlaying", "false");
+            musicIcon.querySelector("i").classList.remove("fa-spin");
+            musicIcon.title = "Play Music";
           });
           musicIcon.querySelector("i").classList.add("fa-spin");
           musicIcon.title = "Pause Music";
@@ -118,6 +131,10 @@
     if (musicPlaying && savedSong) {
       music.play().catch(error => {
         console.log("Autoplay prevented on load. Waiting for user interaction.");
+        // Update play status to false and stop spinning
+        localStorage.setItem("musicPlaying", "false");
+        musicIcon.querySelector("i").classList.remove("fa-spin");
+        musicIcon.title = "Play Music";
       });
     }
   });
