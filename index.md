@@ -112,7 +112,7 @@ video{
    </video>
    <img id="imageElement" src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="display: none;">
    <div class="welcome-text">
-      <h1 id="welcomeTitle">WELCOME</h1>
+      <h1 id="welcomeTitle">WELC<i class="fas fa-compass" style="font-size: 0.8em;"></i>ME</h1>
       <h2 id="welcomeSubtitle">Hello! I'm Han-yu (Henry), a junior at HKU, majoring in AI. I love to explore new places and code apps. I'm excited to have you here and ready to share my journey with you!</h2>
    </div>
 </div>
@@ -258,7 +258,7 @@ video{
             subtitleElement.style.textAlign = 'left'; // Initially set to left align
             subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
             subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
-            typeWriterEffect(subtitleText, subtitleElement, 30, () => {
+            typeWriterEffect(subtitleText, subtitleElement, 20, () => {
                 subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
                 subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
                 subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
