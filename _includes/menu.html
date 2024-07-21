@@ -30,8 +30,8 @@
       return songs[Math.floor(Math.random() * songs.length)];
     }
 
-    function playSong(songPath) {
-      music.src = songPath;
+    function playSong(song) {
+      music.src = song;
       music.play();
       musicIcon.querySelector("i").classList.add("fa-spin");
       musicIcon.title = "Pause Music";
@@ -39,23 +39,27 @@
 
     function playRandomSong() {
       const randomSong = getRandomSong();
-      playSong(randomSong);
       localStorage.setItem("currentSong", randomSong);
+      playSong(randomSong);
     }
 
     // Restore music state from localStorage
-    if (localStorage.getItem("musicTime")) {
-      music.currentTime = localStorage.getItem("musicTime");
-    }
-    if (localStorage.getItem("currentSong")) {
-      music.src = localStorage.getItem("currentSong");
-    } else {
-      playRandomSong(); // Set a random song if no song is stored
-    }
-    if (localStorage.getItem("musicPlaying") === "true") {
-      music.play();
-      musicIcon.querySelector("i").classList.add("fa-spin");
-      musicIcon.title = "Pause Music";
+    const savedSong = localStorage.getItem("currentSong");
+    const savedTime = localStorage.getItem("musicTime");
+    const musicPlaying = localStorage.getItem("musicPlaying") === "true";
+
+    if (savedSong) {
+      music.src = savedSong;
+      if (savedTime) {
+        music.currentTime = savedTime;
+      }
+      if (musicPlaying) {
+        music.play();
+        musicIcon.querySelector("i").classList.add("fa-spin");
+        musicIcon.title = "Pause Music";
+      } else {
+        musicIcon.title = "Play Music";
+      }
     } else {
       musicIcon.title = "Play Music";
     }
@@ -66,6 +70,8 @@
           playRandomSong();
         } else {
           music.play();
+          musicIcon.querySelector("i").classList.add("fa-spin");
+          musicIcon.title = "Pause Music";
         }
         localStorage.setItem("musicPlaying", "true");
       } else {
@@ -80,7 +86,9 @@
     window.addEventListener("beforeunload", function() {
       localStorage.setItem("musicTime", music.currentTime);
       localStorage.setItem("musicPlaying", !music.paused);
-      localStorage.setItem("currentSong", music.src);
+      if (music.src) {
+        localStorage.setItem("currentSong", music.src);
+      }
     });
 
     // Play next random song when the current one ends
