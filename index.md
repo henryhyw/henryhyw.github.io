@@ -13,7 +13,7 @@ video, .fallback-image {
     height: auto;
 }
 
-video {
+video{
     filter: brightness(70%); /* Make the video darker */
 }
 
@@ -37,7 +37,7 @@ video {
         margin-left: 1.5em;
         float: right; /* fallback */
     }
-
+    
     /* clearfix for fallback */
     .image-left::after,
     .image-right::after {
@@ -99,7 +99,7 @@ video {
     line-height: 1.4;
     position: relative;
     top: 0.2em; /* Shift down to remove space below */
-    text-align: left; /* Start with left align */
+    text-align: left; /* Initially set to normal align */
     color: white; /* Start with white text */
 }
 
@@ -108,7 +108,6 @@ video {
     width: 1px;
     background-color: black;
     animation: blink 1s infinite;
-    margin-left: 2px;
 }
 
 @keyframes blink {
@@ -244,19 +243,18 @@ video {
         });
     }
 
-    function typeWriterEffect(text, element, delay = 150) {
+    function typeWriterEffect(text, element, delay = 100, callback) {
         element.innerHTML = '';
         let index = 0;
 
         function type() {
             if (index < text.length) {
-                const nextChar = `<span style="color: black;">${text[index]}</span>`;
-                element.innerHTML = element.innerHTML.slice(0, -31) + nextChar + '<span class="cursor"></span>'; // Update cursor position
+                element.innerHTML += `<span style="color: black;">${text[index]}</span>`;
                 index++;
                 setTimeout(type, delay);
             } else {
-                element.innerHTML = text + '<span class="cursor"></span>'; // Final cursor position
-                element.style.textAlign = 'justify'; // Justify text after typing
+                element.innerHTML += '<span class="cursor"></span>'; // Add cursor after typing is done
+                if (callback) callback();
             }
         }
 
@@ -272,8 +270,10 @@ video {
         setTimeout(() => {
             const subtitleText = document.getElementById('welcomeSubtitle').textContent;
             const subtitleElement = document.getElementById('welcomeSubtitle');
-            subtitleElement.textContent = ""; // Clear the subtitle content before typing effect
-            typeWriterEffect(subtitleText, subtitleElement, 800); // Slow down typing speed to 300ms
+            subtitleElement.style.textAlign = 'left'; // Initially set to left align
+            typeWriterEffect(subtitleText, subtitleElement, 100, () => {
+                subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
+            });
         }, 1000);
     };
 
