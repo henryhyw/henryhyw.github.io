@@ -102,6 +102,23 @@ video{
     text-align: justify;
     text-align-last: justify; /* Justify the last line as well */
     -moz-text-align-last: justify; /* Firefox compatibility */
+    color: white; /* Start with white text */
+}
+
+.cursor {
+    display: inline-block;
+    width: 1px;
+    background-color: black;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    50.01%, 100% {
+        opacity: 0;
+    }
 }
 </style>
 
@@ -112,7 +129,7 @@ video{
    <img id="imageElement" src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="display: none;">
    <div class="welcome-text">
       <h1 id="welcomeTitle">WELCOME</h1>
-      <h2 id="welcomeSubtitle">Hello! I'm Han-yu (Henry), a junior at HKU, majoring in AI. I love to explore new places and code apps. I'm excited to have you here and ready to share my journey with you!</h2>
+      <h2 id="welcomeSubtitle">Hello! I'm Han-yu (Henry), a junior at HKU, majoring in AI. I love to explore new places and code apps. I'm excited to have you here and ready to share my journey with you!<span class="cursor"></span></h2>
    </div>
 </div>
 
@@ -228,10 +245,34 @@ video{
         });
     }
 
+    function typeWriterEffect(text, element, delay = 100) {
+        element.innerHTML = '';
+        let index = 0;
+
+        function type() {
+            if (index < text.length) {
+                element.innerHTML += `<span style="color: black;">${text[index]}</span>`;
+                index++;
+                setTimeout(type, delay);
+            } else {
+                element.innerHTML += '<span class="cursor"></span>'; // Add cursor after typing is done
+            }
+        }
+
+        type();
+    }
+
     window.onload = () => {
         updateSubtitle();
         adjustFontSizeAndLineHeight();
         checkVideoCompatibility();
+
+        // Delay the typewriter effect to allow font size and line height adjustment
+        setTimeout(() => {
+            const subtitleText = document.getElementById('welcomeSubtitle').textContent;
+            const subtitleElement = document.getElementById('welcomeSubtitle');
+            typeWriterEffect(subtitleText, subtitleElement, 50);
+        }, 1000);
     };
 
     window.onresize = () => {
