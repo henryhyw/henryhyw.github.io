@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Who I Am
+title: Getting to Know Me
 permalink: /about
 ---
 
