@@ -25,6 +25,8 @@ If you have any questions, want to work together, or just want to chat, feel fre
   <span>Personal Email: whenry6688@gmail.com</span>
 </div>
 
+<a><i class="fa fa-envelope" aria-hidden="true"></i></a> Personal Email: whenry6688@gmail.com
+
 <div class="contact-info">
   <img class="icon" src="/assets/icons/school.svg"> 
   <span>School Email: henry.why@connect.hku.hk</span>
