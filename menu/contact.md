@@ -6,46 +6,15 @@ permalink: /contact
 
 If you have any questions, want to work together, or just want to chat, feel free to get in touch! You can reach me at:
 
-<style>
-  .icon {
-    height: 1em;
-    margin-right: 10px;
-    vertical-align: middle;
-  }
+<a><i class="fa fa-user" aria-hidden="true"></i></a> Personal Email: whenry6688@gmail.com
 
-  .contact-info{
-  	display: flex;
-  	align-items: center;
-  	margin-bottom: 1em;
-  }
-</style>
+<a><i class="fa fa-graduation-cap" aria-hidden="true"></i></a> School Email: henry.why@connect.hku.hk
 
-<div class="contact-info">
-  <img class="icon" src="/assets/icons/role.svg"> 
-  <span>Personal Email: whenry6688@gmail.com</span>
-</div>
+<a><i class="fa fa-briefcase" aria-hidden="true"></i></a> Work Email: henry.wang@kiwiviewintl.co.nz
 
-<a><i class="fa fa-envelope" aria-hidden="true"></i></a> Personal Email: whenry6688@gmail.com
+<a><i class="fa fa-phone" aria-hidden="true"></i></a> Hong Kong Mobile: +852 51305468
 
-<div class="contact-info">
-  <img class="icon" src="/assets/icons/school.svg"> 
-  <span>School Email: henry.why@connect.hku.hk</span>
-</div>
-
-<div class="contact-info">
-  <img class="icon" src="/assets/icons/department.svg"> 
-  <span>Work Email: henry.wang@kiwiviewintl.co.nz</span>
-</div>
-
-<div class="contact-info">
-  <img class="icon" src="/assets/icons/phone.svg"> 
-  <span>Hong Kong Mobile: +852 51305468</span>
-</div>
-
-<div class="contact-info">
-  <img class="icon" src="/assets/icons/phone.svg"> 
-  <span>Shanghai Mobile: +86 15021833214</span>
-</div>
+<a><i class="fa fa-phone" aria-hidden="true"></i></a> Shanghai Mobile: +86 15021833214
 
 ---
 
