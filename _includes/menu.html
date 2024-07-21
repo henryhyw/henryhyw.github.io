@@ -30,20 +30,30 @@
       return songs[Math.floor(Math.random() * songs.length)];
     }
 
-    function playRandomSong() {
-      const randomSong = getRandomSong();
-      music.src = randomSong;
+    function playSong(songPath) {
+      music.src = songPath;
       music.play();
       musicIcon.querySelector("i").classList.add("fa-spin");
       musicIcon.title = "Pause Music";
+    }
+
+    function playRandomSong() {
+      const randomSong = getRandomSong();
+      playSong(randomSong);
+      localStorage.setItem("currentSong", randomSong);
     }
 
     // Restore music state from localStorage
     if (localStorage.getItem("musicTime")) {
       music.currentTime = localStorage.getItem("musicTime");
     }
+    if (localStorage.getItem("currentSong")) {
+      music.src = localStorage.getItem("currentSong");
+    } else {
+      playRandomSong(); // Set a random song if no song is stored
+    }
     if (localStorage.getItem("musicPlaying") === "true") {
-      playRandomSong();
+      music.play();
       musicIcon.querySelector("i").classList.add("fa-spin");
       musicIcon.title = "Pause Music";
     } else {
@@ -52,7 +62,11 @@
 
     musicIcon.addEventListener("click", function() {
       if (music.paused) {
-        playRandomSong();
+        if (!music.src) {
+          playRandomSong();
+        } else {
+          music.play();
+        }
         localStorage.setItem("musicPlaying", "true");
       } else {
         music.pause();
@@ -66,6 +80,7 @@
     window.addEventListener("beforeunload", function() {
       localStorage.setItem("musicTime", music.currentTime);
       localStorage.setItem("musicPlaying", !music.paused);
+      localStorage.setItem("currentSong", music.src);
     });
 
     // Play next random song when the current one ends
