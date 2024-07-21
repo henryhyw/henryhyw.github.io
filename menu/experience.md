@@ -30,11 +30,11 @@ Welcome to my professional playground. I've had the chance to work on some aweso
 
 ## Student Work Placement Intern
 
-<img src="/assets/img/hsbc.png" style="height:8vh;">
+*August 2024 - December 2024*
 
 *[HSBC](https://www.hsbc.com.hk/)*
 
-*August 2024 - December 2024*
+<img src="/assets/img/hsbc.png" style="height:8vh;">
 
 Right now, I’m diving into the world of digital transformation at HSBC. It’s been an incredible experience working with a team that's pushing the boundaries of banking technology.
 
