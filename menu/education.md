@@ -13,7 +13,7 @@ permalink: /education
 <style>
     .image-wrapper {
         display: inline-block;
-        background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent grey */
+        background-color: rgba(255, 255, 255, 1);
         padding: 5px; /* Optional: Add some padding if needed */
         border-radius: 5px; /* Optional: Add border radius for rounded corners */
     }
