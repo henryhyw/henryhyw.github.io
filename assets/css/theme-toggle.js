@@ -15,10 +15,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     function updateSubtitleColor() {
         const subtitleElement = document.getElementById('welcomeSubtitle');
         const isDarkMode = document.body.classList.contains('dark-mode');
-        log("isdarkMode: " + isDarkMode);
+        console.log("isdarkMode: " + isDarkMode);
         const textColor = isDarkMode ? '#fafafa' : '#252525';
         subtitleElement.style.color = textColor;
-        log("subtitle change to " + textColor);
+        console.log("subtitle change to " + textColor);
     }
 
     // Toggle theme on button click
