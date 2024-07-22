@@ -98,7 +98,16 @@ body.dark-mode .welcome-text h2 .typed {
     color: #fafafa;
 }
 
+body.dark-mode #welcomeQuote{
+    color: #565656;
+}
+
 /* Specific Styles for scroll container */
 body.dark-mode .scroll-container {
     background-color: #080808; /* Reverse #f7f7f7 to #080808 */
+}
+
+body.dark-mode .footer,
+body.dark-mode .footer, a {
+    color: #666666;
 }
