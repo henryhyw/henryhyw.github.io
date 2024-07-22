@@ -290,7 +290,7 @@ video{
     let isShaking = false;
     let pressCount = 0;
     const maxAngle = 60; // Maximum angle to prevent excessive shaking
-    const maxDuration = 0.2; // Minimum duration to prevent excessive speed
+    const maxDuration = 0.3; // Minimum duration to prevent excessive speed
 
     function processShakeQueue() {
         if (shakeQueue.length === 0 || isShaking) return;
