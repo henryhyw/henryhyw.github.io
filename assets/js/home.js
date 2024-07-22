@@ -140,7 +140,7 @@ function checkVideoCompatibility() {
     });
 }
 
-function typeWriterEffect(text, element, delay = 200, callback) {
+function typeWriterEffect(text, element, delay = 1000, callback) {
     element.innerHTML = '';
     let index = 0;
 
