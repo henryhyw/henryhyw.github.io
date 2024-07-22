@@ -73,6 +73,12 @@ video{
     }
 }
 
+@media (max-width: 600px) {
+    .social-icons {
+        visibility: hidden;
+    }
+}
+
 @media (min-width: 615px) {
     .welcome-text h1 {
         font-size: 3.3em;
