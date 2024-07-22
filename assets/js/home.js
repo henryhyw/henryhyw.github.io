@@ -210,6 +210,17 @@ window.onload = () => {
     const fallbackImage = document.getElementById('imageElement');
     checkVideoCompatibility();
 
+    videoElement.style.transition = 'opacity 1s ease-in-out';
+
+    // Add video fade effect listeners
+    videoElement.addEventListener('ended', () => {
+        videoElement.style.opacity = '0';
+    });
+
+    videoElement.addEventListener('play', () => {
+        videoElement.style.opacity = '1';
+    });
+
     setTimeout(() => {
         const titleElement = document.getElementById('welcomeTitle');
         titleElement.style.transition = 'color 2s';
@@ -253,17 +264,6 @@ window.onload = () => {
             }, 1000);
         });
     }, 1000);
-
-    videoElement.style.transition = 'opacity 1s ease-in-out';
-
-    // Add video fade effect listeners
-    videoElement.addEventListener('ended', () => {
-        videoElement.style.opacity = '0';
-    });
-
-    videoElement.addEventListener('play', () => {
-        videoElement.style.opacity = '1';
-    });
 };
 
 window.onresize = () => {
