@@ -14,10 +14,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
         console.log(`Updated color of ${typedElements.length} elements to ${textColor}`);
     }
 
+    // Function to update the script src based on the theme
+    function updateScriptSrc() {
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        const lightSrc = 'https://mapmyvisitors.com/map.js?cl=606060&w=a&t=n&d=NuzI5fMF9fqCHtkxcTx3LZO5mvAbEZrLLxG3ZW1E-KY&co=ffffff&ct=606060';
+        const darkSrc = 'https://mapmyvisitors.com/map.js?cl=606060&w=a&t=n&d=NuzI5fMF9fqCHtkxcTx3LZO5mvAbEZrLLxG3ZW1E-KY&co=ffffff&ct=606060';
+        mapScript.src = isDarkMode ? darkSrc : lightSrc;
+        console.log(`Updated script src to ${mapScript.src}`);
+    }
+
     // Function to apply the theme
     function applyTheme(theme) {
         document.body.classList.toggle('dark-mode', theme === 'dark');
         updateTypedElementsColor();
+        updateScriptSrc();
     }
 
     // Load the theme from localStorage
