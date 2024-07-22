@@ -90,7 +90,3 @@ body.dark-mode .welcome-text h2 .typed {
 body.dark-mode .scroll-container {
     background-color: #080808; /* Reverse #f7f7f7 to #080808 */
 }
-
-.fade-wrapper * {
-    transition: background-color 10s, color 10s, border-color 10s;
-}
