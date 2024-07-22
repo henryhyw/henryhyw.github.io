@@ -37,7 +37,7 @@ body.dark-mode pre {
 }
 
 body.dark-mode .container {
-    background-color: #121212; /* Darker background for container */
+    background-color: #000000; /* Darker background for container */
 }
 
 body.dark-mode .header-title a,
