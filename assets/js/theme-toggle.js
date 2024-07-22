@@ -60,8 +60,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const isDarkMode = theme === 'dark';
         document.body.classList.toggle('dark-mode', isDarkMode);
         updateTypedElementsColor();
-        loadVisitorMap();
         updateThemeIcon(isDarkMode);
+        loadVisitorMap();
     }
 
     // Load the theme from localStorage
