@@ -1,0 +1,131 @@
+html, body {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge */
+    user-select: none;         /* Non-prefixed version, currently supported by Chrome, Opera, and Edge */
+}
+
+#videoElement, #imageElement{
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 640 512" fill="%23FFFFFF"><path d="M155.6 17.3C163 3 179.9-3.6 195 1.9L320 47.5l125-45.6c15.1-5.5 32 1.1 39.4 15.4l78.8 152.9c28.8 55.8 10.3 122.3-38.5 156.6L556.1 413l41-15c16.6-6 35 2.5 41 19.1s-2.5 35-19.1 41l-71.1 25.9L476.8 510c-16.6 6.1-35-2.5-41-19.1s2.5-35 19.1-41l41-15-31.3-86.2c-59.4 5.2-116.2-34-130-95.2L320 188.8l-14.6 64.7c-13.8 61.3-70.6 100.4-130 95.2l-31.3 86.2 41 15c16.6 6 25.2 24.4 19.1 41s-24.4 25.2-41 19.1L92.2 484.1 21.1 458.2c-16.6-6.1-25.2-24.4-19.1-41s24.4-25.2 41-19.1l41 15 31.3-86.2C66.5 292.5 48.1 226 76.9 170.2L155.6 17.3zm44 54.4l-27.2 52.8L261.6 157l13.1-57.9L199.6 71.7zm240.9 0L365.4 99.1 378.5 157l89.2-32.5L440.5 71.7z"/></svg>') 24 24, auto;
+}
+video, .fallback-image {
+    max-width: 45%;
+    height: auto;
+}
+
+video{
+    filter: brightness(70%) grayscale(85%); /* Make the video darker and grayscale */
+}
+
+.image-left, .image-right {
+    margin: 1em 0;
+}
+
+@media (min-width: 20em) {
+    .image-left, .image-right {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .image-left video, .image-left .fallback-image {
+        margin-right: 1.5em;
+        float: left; /* fallback */
+    }
+
+    .image-right video, .image-right .fallback-image {
+        order: 1;
+        margin-left: 1.5em;
+        float: right; /* fallback */
+    }
+    
+    /* clearfix for fallback */
+    .image-left::after,
+    .image-right::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+@media (min-width: 30em) {
+    .image-left video, .image-left .fallback-image, .image-right video, .image-right .fallback-image {
+        flex-shrink: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .welcome-text h1 {
+        font-size: 1.8em;
+    }
+
+    .welcome-text h2 {
+        font-size: 1.05em;
+    }
+}
+
+@media (max-width: 600px) {
+    .social-icons {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 615px) {
+    .welcome-text h1 {
+        font-size: 3.3em;
+    }
+
+    .welcome-text h2 {
+        font-size: 1.63em;
+    }
+}
+
+.welcome-text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space evenly between children */
+    height: 100%; /* Ensure it takes up the full height of the container */
+}
+
+.welcome-text h1 {
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 100%;
+    line-height: 1.2;
+    position: relative;
+    top: -0.1em; /* Shift up to remove space above */
+    text-align: justify;
+    color: #616161;
+}
+
+.welcome-text h2 {
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    line-height: 1.4;
+    position: relative;
+    top: 0.2em; /* Shift down to remove space below */
+    text-align: left; /* Initially set to normal align */
+    text-align-last: left; /* Initially set to normal align */
+    -moz-text-align-last: left; /* Firefox compatibility */
+    color: white; /* Start with white text */
+}
+
+/* CSS for shaking effect */
+@keyframes rotate-shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(var(--shake-angle)); }
+    50% { transform: rotate(calc(var(--shake-angle) * -1)); }
+    75% { transform: rotate(var(--shake-angle)); }
+    100% { transform: rotate(0deg); }
+}
+
+.shake {
+    animation: rotate-shake var(--shake-duration) infinite;
+}
+
+#compassIcon {
+    --shake-angle: 10deg; /* Initial shake angle */
+    --shake-duration: 0.5s; /* Initial shake duration */
+}
