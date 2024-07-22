@@ -11,8 +11,8 @@ title:
 <script src="/assets/js/home.js" defer></script>
 
 <div class="image-left container" style="margin: auto;">
-   <div style="position: relative;">
-      <video id="videoElement" style="opacity: 0;" muted autoplay loop playsinline>
+   <div style="position: relative; width: 100%; height: 100%;">
+      <video id="videoElement" style="opacity: 0; width: 100%;" muted autoplay loop playsinline>
          <source src="/assets/vid/travel.mp4" type="video/mp4">
       </video>
       <div id="videoOverlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #AFB4B9; opacity: 0; pointer-events: none; transition: opacity 0.5s ease-in-out;"></div>
