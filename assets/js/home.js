@@ -109,17 +109,16 @@ function adjustSubtitle() {
     }
 }
 
-document.addEventListener('DOMContentLoaded', (event) => {
+function checkVideoCompatibility() {
     const videoElement = document.getElementById('videoElement');
     const fallbackImage = document.getElementById('imageElement');
+    videoElement.style.transition = 'opacity 2s ease-in-out';
+    videoElement.style.opacity = '';
 
-    // Attempt to play the video, if it fails, switch to the fallback image
-    videoElement.play().catch(() => {
-        videoElement.style.opacity = '0';
-        setTimeout(() => {
-            videoElement.style.display = 'none';
-            fallbackImage.classList.add('visible'); // Add the visible class to trigger the transition
-        }, 2000); // Match this delay to the CSS transition duration
+    // Check if the video is playable
+    videoElement.addEventListener('error', () => {
+        videoElement.style.display = 'none';
+        fallbackImage.style.display = 'block';
         adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
         const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
         if (isSmallScreen) {
@@ -128,7 +127,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
         adjustSubtitle();
     });
-});
+
+    // Attempt to play the video, if it fails, switch to the fallback image
+    videoElement.play().catch(() => {
+        videoElement.style.display = 'none';
+        fallbackImage.style.display = 'block';
+        adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
+        const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
+        if (isSmallScreen) {
+            document.getElementById('welcomeTitle').style.fontSize = '2em';
+            document.getElementById('compassIcon').style.fontSize = '1.1em';
+        }
+        adjustSubtitle();
+    });
+}
 
 function typeWriterEffect(text, element, delay = 100, callback) {
     element.innerHTML = '';
