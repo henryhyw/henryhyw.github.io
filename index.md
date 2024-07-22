@@ -315,7 +315,7 @@ video{
         pressCount++;
         
         // Calculate new angle and duration based on the number of presses
-        let newAngle = Math.min(10 + pressCount * 10, maxAngle); // Increase angle by 2 degrees per press, up to maxAngle
+        let newAngle = Math.min(10 + pressCount * 8, maxAngle); // Increase angle by 2 degrees per press, up to maxAngle
         let newDuration = Math.max(0.5 - pressCount * 0.05, maxDuration); // Decrease duration by 0.05s per press, down to maxDuration
         
         shakeQueue.push({ newAngle, newDuration });
