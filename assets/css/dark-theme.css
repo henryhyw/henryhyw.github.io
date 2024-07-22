@@ -67,3 +67,8 @@ body.dark-mode .welcome-text h1 {
 body.dark-mode .welcome-text h2 {
     color: #fafafa; /* Reverse white text to light grey */
 }
+
+/* Specific Styles for scroll container */
+body.dark-mode .scroll-container {
+    background-color: #080808; /* Reverse #f7f7f7 to #080808 */
+}
