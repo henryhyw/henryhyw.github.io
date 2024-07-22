@@ -55,15 +55,32 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     }
 
+    // Function to apply the transition class to all nested containers
+    function applyTransitionClass() {
+        const containers = document.querySelectorAll('.container, .container .container, .container .container .container');
+        containers.forEach(container => {
+            container.classList.add('transition');
+        });
+    }
+
+    // Function to remove the transition class from all nested containers
+    function removeTransitionClass() {
+        const containers = document.querySelectorAll('.container, .container .container, .container .container .container');
+        containers.forEach(container => {
+            container.classList.remove('transition');
+        });
+    }
+
     // Function to apply the theme
     function applyTheme(theme) {
         const isDarkMode = theme === 'dark';
         document.body.classList.add('transition'); // Add transition class
+        applyTransitionClass(); // Add transition class to all nested containers
         document.body.classList.toggle('dark-mode', isDarkMode);
         updateTypedElementsColor();
         loadVisitorMap();
         updateThemeIcon(isDarkMode);
-        setTimeout(() => document.body.classList.remove('transition'), 1000); // Remove transition class after 1 second
+        setTimeout(() => removeTransitionClass(), 1000);
     }
 
     // Load the theme from localStorage
