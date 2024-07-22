@@ -26,8 +26,8 @@ video{
     height: 100%;
     opacity: 0;
     background: #AFB4B9;
-    pointer-events: none;
     transition: 0.5s ease-in-out;
+    pointer-events: none;
 }
 
 /* Ensure the container's position is relative */
