@@ -140,7 +140,7 @@ function checkVideoCompatibility() {
     });
 }
 
-function typeWriterEffect(text, element, delay = 100, callback) {
+function typeWriterEffect(text, element, delay = 200, callback) {
     element.innerHTML = '';
     let index = 0;
 
@@ -197,7 +197,7 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     // Reset press count after a short delay to prevent excessive shaking
     setTimeout(() => {
         pressCount = 0;
-    }, 3000);
+    }, 6000);
 });
 
 window.onload = () => {
