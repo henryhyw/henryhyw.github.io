@@ -8,11 +8,6 @@ permalink: /about
     document.querySelectorAll('header *').forEach(element => {
         element.style.color = ''; // Reset to original color
     });
-
-    // Display elements with class="footer"
-    document.querySelectorAll('footer *').forEach(element => {
-        element.style.display = ''; // Reset to original display
-    });
 </script>
 
 <style>
@@ -145,5 +140,11 @@ Another passion of mine is diving into the world of computer science.  I love co
     const videoElement = document.getElementById('videoElement');
     videoElement.addEventListener('click', () => {
         videoElement.muted = !videoElement.muted;
+    });
+</script>
+
+<script>
+    document.querySelectorAll('footer *').forEach(element => {
+        element.style.color = '';
     });
 </script>
