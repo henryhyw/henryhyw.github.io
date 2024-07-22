@@ -14,7 +14,7 @@ video, .fallback-image {
 }
 
 video{
-    filter: brightness(70%) grayscale(100%); /* Make the video darker and grayscale */
+    filter: brightness(70%) grayscale(70%); /* Make the video darker and grayscale */
 }
 
 .image-left, .image-right {
