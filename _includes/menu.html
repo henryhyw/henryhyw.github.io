@@ -7,15 +7,15 @@
 <div class="menu">
   <nav class="menu-content">
     {% for item in site.data.settings.menu %}
-      <a href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
+      <a href="{{ site.github.url }}/{{ item.url }}" style="color: transparent;">{{ item.name }}</a>
     {% endfor %}
   </nav>
 <!--   <nav class="social-icons">
     {% include social-icons.html %}
   </nav> -->
   <nav class="social-icons">
-    <a id="toggle-theme" title="Toggle Theme"><i class="fa fa-sun" aria-hidden="true" style="font-size: 2em;"></i></a>
-    <a id="music-icon" title="Play Music"><i class="fa fa-compact-disc" aria-hidden="true" style="font-size: 2em;"></i></a>
+    <a id="toggle-theme" title="Toggle Theme" style="color: transparent;"><i class="fa fa-sun" aria-hidden="true" style="font-size: 2em;"></i></a>
+    <a id="music-icon" title="Play Music" style="color: transparent;"><i class="fa fa-compact-disc" aria-hidden="true" style="font-size: 2em;"></i></a>
   </nav>
 </div>
 
