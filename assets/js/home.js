@@ -210,6 +210,8 @@ window.onload = () => {
     const fallbackImage = document.getElementById('imageElement');
     checkVideoCompatibility();
 
+    let fadeOutApplied = false;
+
     videoElement.style.transition = 'opacity 0.5s ease-in-out';
 
     videoElement.addEventListener('timeupdate', () => {
