@@ -1,9 +1,18 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const toggleThemeBtn = document.getElementById('toggle-theme');
 
+    // Function to update the color of the subtitle based on the theme
+    function updateSubtitleColor() {
+        const subtitleElement = document.getElementById('welcomeSubtitle');
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        const textColor = isDarkMode ? '#fafafa' : '#252525';
+        subtitleElement.style.color = textColor;
+    }
+
     // Function to apply the theme
     function applyTheme(theme) {
         document.body.classList.toggle('dark-mode', theme === 'dark');
+        updateSubtitleColor();
     }
 
     // Load the theme from localStorage
