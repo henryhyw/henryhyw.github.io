@@ -142,7 +142,7 @@ video{
    </video>
    <img id="imageElement" src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="display: none;">
    <div class="welcome-text">
-      <h1 id="welcomeTitle">WELC<span id="compassContainer"><i class="far fa-compass fa-spin" style="--fa-animation-duration: 15s;" id="compassIcon"></i></span>ME</h1>
+      <h1 id="welcomeTitle">WELC<span id="compassContainer"><i class="far fa-compass fa-spin" id="compassIcon"></i></span>ME</h1>
       <h2 id="welcomeSubtitle">Hello! I'm Han-yu (Henry), a junior at HKU, majoring in AI. I love to explore new places and code apps. I'm excited to have you here and ready to share my journey with you!</h2>
    </div>
 </div>
