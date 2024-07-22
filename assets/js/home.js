@@ -215,19 +215,15 @@ window.onload = () => {
     videoElement.style.transition = 'opacity 0.5s ease-in-out';
 
     videoElement.addEventListener('timeupdate', () => {
-        console.log("end")
         const timeLeft = videoElement.duration - videoElement.currentTime;
-        if (timeLeft < 0.5 && !fadeOutApplied) { // Adjust the time threshold as needed
-            videoElement.style.opacity = '0';
-            console.log("fade out")
+        if (timeLeft < 1 && !fadeOutApplied) { // Adjust the time threshold as needed
+            videoOverlay.style.opacity = '1';
             fadeOutApplied = true;
         }
     });
 
     videoElement.addEventListener('playing', () => {
-        console.log("start")
-        videoElement.style.opacity = '1';
-        console.log("fade in")
+        videoOverlay.style.opacity = '0';
         fadeOutApplied = false; // Reset the flag when the video starts playing again
     });
 
