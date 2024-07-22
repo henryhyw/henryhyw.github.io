@@ -221,10 +221,8 @@ window.onload = () => {
     });
 
     videoElement.addEventListener('playing', () => {
-        if (fadeOutApplied) {
-            videoElement.style.opacity = '1';
-            fadeOutApplied = false; // Reset the flag when the video starts playing again
-        }
+        videoElement.style.opacity = '1';
+        fadeOutApplied = false; // Reset the flag when the video starts playing again
     });
 
     setTimeout(() => {
