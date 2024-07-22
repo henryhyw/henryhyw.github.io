@@ -59,6 +59,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     function applyTheme(theme) {
         const isDarkMode = theme === 'dark';
         document.body.classList.add('transition'); // Add transition class
+        // Trigger a reflow to ensure the transition starts at the same time
+        void document.body.offsetWidth;
         document.body.classList.toggle('dark-mode', isDarkMode);
         updateTypedElementsColor();
         loadVisitorMap();
