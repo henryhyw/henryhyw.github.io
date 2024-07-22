@@ -92,6 +92,17 @@ body.dark-mode .scroll-container {
 }
 
 .transition,
-.transition .container {
+.transition .container,
+.transition a,
+.transition h1,
+.transition h2,
+.transition h3,
+.transition h4,
+.transition h5,
+.transition h6,
+.transition blockquote,
+.transition hr,
+.transition code,
+.transition pre {
     transition: background-color 1s, color 1s;
 }
