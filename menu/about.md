@@ -144,7 +144,9 @@ Another passion of mine is diving into the world of computer science.  I love co
 </script>
 
 <script>
-    document.querySelectorAll('footer *').forEach(element => {
-        element.style.color = '';
-    });
+    setTimeout(() => {
+        document.querySelectorAll('footer *').forEach(element => {
+            element.style.color = '';
+        });
+    }, 3000);
 </script>
