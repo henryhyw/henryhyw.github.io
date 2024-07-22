@@ -58,10 +58,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // Function to apply the theme
     function applyTheme(theme) {
         const isDarkMode = theme === 'dark';
-        document.body.classList.toggle('dark-mode', theme === 'dark');
+        document.body.classList.add('transition'); // Add transition class
+        document.body.classList.toggle('dark-mode', isDarkMode);
         updateTypedElementsColor();
         loadVisitorMap();
         updateThemeIcon(isDarkMode);
+        setTimeout(() => document.body.classList.remove('transition'), 1000); // Remove transition class after 1 second
     }
 
     // Load the theme from localStorage

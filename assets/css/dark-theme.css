@@ -90,3 +90,7 @@ body.dark-mode .welcome-text h2 .typed {
 body.dark-mode .scroll-container {
     background-color: #080808; /* Reverse #f7f7f7 to #080808 */
 }
+
+.transition {
+    transition: background-color 1s, color 1s;
+}
