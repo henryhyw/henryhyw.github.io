@@ -115,19 +115,6 @@ function checkVideoCompatibility() {
     videoElement.style.transition = 'opacity 2s ease-in-out';
     videoElement.style.opacity = '';
 
-    // Check if the video is playable
-    videoElement.addEventListener('error', () => {
-        videoElement.style.display = 'none';
-        fallbackImage.style.display = 'block';
-        adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
-        const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
-        if (isSmallScreen) {
-            document.getElementById('welcomeTitle').style.fontSize = '2em';
-            document.getElementById('compassIcon').style.fontSize = '1.1em';
-        }
-        adjustSubtitle();
-    });
-
     // Attempt to play the video, if it fails, switch to the fallback image
     videoElement.play().catch(() => {
         videoElement.style.display = 'none';
