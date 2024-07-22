@@ -188,7 +188,7 @@ video{
         let titleFontSize = 1; // Start with a smaller font size
         titleElement.style.fontSize = `${titleFontSize}em`;
         
-        let iconScaleFactor = 0.8; // Scale factor to adjust the icon size relative to the text
+        let iconScaleFactor = 0.5; // Scale factor to adjust the icon size relative to the text
         compassIcon.style.fontSize = `${titleFontSize * iconScaleFactor}em`;
         
         let textWidth = getTextWidth(titleElement.textContent.replace('O', ''), getCanvasFont(titleElement)) + compassIcon.clientWidth;
