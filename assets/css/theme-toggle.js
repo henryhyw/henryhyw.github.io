@@ -19,6 +19,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
         subtitleElement.style.color = textColor;
     }
 
+    // Function to update the background color of the scroll container based on the theme
+    function updateScrollContainerColor() {
+        const scrollContainer = document.querySelector('.scroll-container');
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        const bgColor = isDarkMode ? '#080808' : '#f7f7f7';
+        scrollContainer.style.backgroundColor = bgColor;
+    }
+
     // Toggle theme on button click
     toggleThemeBtn.addEventListener('click', () => {
         const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
