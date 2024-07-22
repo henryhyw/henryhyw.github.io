@@ -83,12 +83,6 @@ video{
     }
 }
 
-@media (max-width: 500px) {
-    #welcomeTitle, #compassIcon {
-        font-size: 1.8 !important; /* Ensure the font size remains as default */
-    }
-}
-
 .welcome-text {
     flex: 2;
     display: flex;
@@ -355,6 +349,11 @@ video{
 
     window.onresize = () => {
         adjustFontSizeAndLineHeight();
+        const isSmallScreen = window.matchMedia("(max-width: 500px)").matches;
+        if (isSmallScreen) {
+            document.getElementById('welcomeTitle').style.fontSize = '1.5em';
+            document.getElementById('compassIcon').style.fontSize = '1.5em';
+        }
     };
 
     // Mute/unmute button
