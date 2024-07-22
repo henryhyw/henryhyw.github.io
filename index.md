@@ -132,6 +132,7 @@ video{
 #compassIcon {
     --shake-angle: 10deg; /* Initial shake angle */
     --shake-duration: 0.5s; /* Initial shake duration */
+    animation: fa-spin 15s infinite linear;
 }
 </style>
 
