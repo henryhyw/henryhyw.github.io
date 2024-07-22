@@ -93,7 +93,7 @@ body.dark-mode .scroll-container {
 
 .transition,
 .transition .container,
-.transition .content-container,
-.transition .image-left.container {
+.transition .container .container,
+.transition .container .container .container {
     transition: background-color 1s, color 1s, border-color 1s;
 }
