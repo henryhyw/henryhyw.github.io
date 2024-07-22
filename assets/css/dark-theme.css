@@ -91,6 +91,6 @@ body.dark-mode .scroll-container {
     background-color: #080808; /* Reverse #f7f7f7 to #080808 */
 }
 
-.transition * {
+.fade-wrapper * {
     transition: background-color 10s, color 10s, border-color 10s;
 }
