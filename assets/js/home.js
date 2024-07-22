@@ -143,12 +143,12 @@ function checkVideoCompatibility() {
 function typeWriterEffect(text, element, delay = 100, callback) {
     element.innerHTML = '';
     let index = 0;
-    const isDarkMode = document.body.classList.contains('dark-mode');
-    const textColor = isDarkMode ? '#fafafa' : '#252525'; // Change text color based on theme
 
     function type() {
         if (index < text.length) {
-            element.innerHTML += `<span style="color: ${textColor};">${text[index]}</span>`;
+            isDarkMode = document.body.classList.contains('dark-mode');
+            textColor = isDarkMode ? '#fafafa' : '#252525'; // Change text color based on theme
+            element.innerHTML += `<span class="typed" style="color: ${textColor};">${text[index]}</span>`;
             index++;
             setTimeout(type, delay);
         } else {

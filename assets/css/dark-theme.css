@@ -67,7 +67,11 @@ body.dark-mode .welcome-text h1 {
 }
 
 body.dark-mode .welcome-text h2 {
-    color: #ffffff; /* Reverse white text to light grey */
+    color: #ffffff;
+}
+
+body.dark-mode .welcome-text h2 .typed {
+    color: #fafafa;
 }
 
 /* Specific Styles for scroll container */
