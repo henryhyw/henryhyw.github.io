@@ -146,12 +146,18 @@ function typeWriterEffect(text, element, delay = 100, callback) {
 
     function type() {
         if (index < text.length) {
-            isDarkMode = document.body.classList.contains('dark-mode');
-            textColor = isDarkMode ? '#fafafa' : '#252525'; // Change text color based on theme
-            element.innerHTML += `<span class="typed" style="color: ${textColor};">${text[index]}</span>`;
+            // Initially set the text color to transparent
+            element.innerHTML += `<span class="typed" style="color: transparent; transition: color 1s;">${text[index]}</span>`;
             index++;
-            setTimeout(type, delay);
+            setTimeout(type, delay); // Control the speed with delay
         } else {
+            // Fade in the text by changing the color after typing is complete
+            const typedElements = document.querySelectorAll('.typed');
+            typedElements.forEach(typedElement => {
+                isDarkMode = document.body.classList.contains('dark-mode');
+                textColor = isDarkMode ? '#fafafa' : '#252525'; // Desired color based on theme
+                typedElement.style.color = textColor;
+            });
             if (callback) callback();
         }
     }
