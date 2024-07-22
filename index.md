@@ -138,7 +138,7 @@ video{
 
 <br>
 
-<h3 style="text-align: center; font-size: 1em; color: #a9a9a9;">"Knowledge is an unending adventure<br>at the edge of uncertainty."<br>-Jacob Bronowski</h3>
+<h3 style="text-align: center; font-size: 1em; color: #a9a9a9;">Knowledge is an unending adventure<br>at the edge of uncertainty<br>-Jacob Bronowski</h3>
 
 <script>
     function updateSubtitle() {
