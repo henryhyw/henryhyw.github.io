@@ -15,24 +15,24 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 
     // Function to update the map script based on the theme
-    function updateMapScript() {
+    function updateMapScript(theme) {
         const existingScript = document.getElementById('mapmyvisitors');
         if (existingScript) {
             existingScript.remove();
         }
 
-        const newScript = document.createElement('script');
-        newScript.type = 'text/javascript';
-        newScript.id = 'mapmyvisitors';
-        
-        const isDarkMode = document.body.classList.contains('dark-mode');
-        if (isDarkMode) {
-            newScript.src = 'https://mapmyvisitors.com/map.js?cl=fafafa&w=a&t=n&d=NuzI5fMF9fqCHtkxcTx3LZO5mvAbEZrLLxG3ZW1E-KY&co=000000&cmo=3acc3a&cmn=ff5353&ct=808080';
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.id = 'mapmyvisitors';
+
+        if (theme === 'dark') {
+            script.src = 'https://mapmyvisitors.com/map.js?cl=fafafa&w=a&t=n&d=NuzI5fMF9fqCHtkxcTx3LZO5mvAbEZrLLxG3ZW1E-KY&co=000000&cmo=3acc3a&cmn=ff5353&ct=808080';
         } else {
-            newScript.src = 'https://mapmyvisitors.com/map.js?cl=606060&w=a&t=n&d=NuzI5fMF9fqCHtkxcTx3LZO5mvAbEZrLLxG3ZW1E-KY&co=ffffff&ct=606060';
+            script.src = 'https://mapmyvisitors.com/map.js?cl=606060&w=a&t=n&d=NuzI5fMF9fqCHtkxcTx3LZO5mvAbEZrLLxG3ZW1E-KY&co=ffffff&ct=606060';
         }
 
-        document.body.appendChild(newScript);
+        // Ensure the script runs by appending to the document head
+        document.head.appendChild(script);
     }
 
     // Function to apply the theme
