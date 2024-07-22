@@ -22,11 +22,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
             ? 'https://mapmyvisitors.com/map.js?cl=fafafa&w=a&t=n&d=NuzI5fMF9fqCHtkxcTx3LZO5mvAbEZrLLxG3ZW1E-KY&co=000000&cmo=3acc3a&cmn=ff5353&ct=808080'
             : 'https://mapmyvisitors.com/map.js?cl=606060&w=a&t=n&d=NuzI5fMF9fqCHtkxcTx3LZO5mvAbEZrLLxG3ZW1E-KY&co=ffffff&ct=606060';
 
-        // Remove existing script if present
-        const existingScript = document.getElementById('mapmyvisitors');
-        if (existingScript) {
-            existingScript.remove();
-        }
+        // Clear existing map container content
+        visitorMapContainer.innerHTML = '';
 
         // Create a new script element
         const script = document.createElement('script');
@@ -34,8 +31,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         script.id = 'mapmyvisitors';
         script.src = mapScriptUrl;
 
-        // Append the script to the body
-        document.body.appendChild(script);
+        // Append the script to the visitor map container
+        visitorMapContainer.appendChild(script);
     }
 
     // Function to apply the theme
