@@ -64,9 +64,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
         loadVisitorMap();
     }
 
-    // Load the theme from localStorage
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    applyTheme(savedTheme);
+    // Determine the initial theme
+    const savedTheme = localStorage.getItem('theme');
+    const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const initialTheme = savedTheme || (userPrefersDark ? 'dark' : 'light');
+    
+    // Apply the initial theme
+    applyTheme(initialTheme);
 
     // Toggle theme on button click
     toggleThemeBtn.addEventListener('click', () => {
