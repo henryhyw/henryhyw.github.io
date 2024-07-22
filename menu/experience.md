@@ -28,6 +28,17 @@ div.scroll-container video {
   height: calc(35vh - 20px); /* Adjust the height to fit within the container, considering padding */
   object-fit: contain; /* Ensure the images fit within the container */
 }
+
+.image-wrapper {
+    display: inline-block;
+    background-color: rgba(128, 128, 128, 0.5); /* Semi-transparent grey */
+    padding: 5px; /* Optional: Add some padding if needed */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+}
+
+.image-wrapper img {
+    display: block; /* Ensure the image fits within the wrapper */
+}
 </style>
 
 Welcome to my professional playground. I've had the chance to work on some awesome projects and roles that have shaped my journey. Buckle up as I take you through my career highlights!
@@ -40,7 +51,9 @@ Welcome to my professional playground. I've had the chance to work on some aweso
 
 *[HSBC](https://www.hsbc.com.hk/)*
 
-<img src="/assets/img/hsbc.png" style="height:8vh;">
+<div class="image-wrapper">
+    <img src="/assets/img/hsbc.png" style="height:8vh;">
+</div>
 
 Right now, I’m diving into the world of digital transformation at HSBC. It’s been an incredible experience working with a team that's pushing the boundaries of banking technology.
 
