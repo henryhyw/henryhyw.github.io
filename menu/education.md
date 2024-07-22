@@ -27,8 +27,6 @@ Here’s a snapshot of my academic path and the experiences that have shaped my 
 
 I wouldn’t call myself a super hardworking student; in fact, I often look for shortcuts. However, when it comes to things I’m passionate about, I dive in deep and never deliberately take shortcuts. I love immersing myself in the things I care about and put in every effort to excel at them. With that being said, in most computer science courses, I spent far more time than others exploring those interesting concepts beyond the textbook.
 
----
-
 ## The University of Hong Kong
 
 *September 2022 - Present*
