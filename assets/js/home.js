@@ -140,7 +140,6 @@ function checkVideoCompatibility() {
     });
 }
 
-// Function for typewriter effect
 function typeWriterEffect(text, element, delay = 100, callback) {
     element.innerHTML = '';
     let index = 0;
