@@ -338,8 +338,8 @@ video{
         adjustFontSizeAndLineHeight();
         const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
         if (isSmallScreen) {
-            document.getElementById('welcomeTitle').style.fontSize = '1.5em';
-            document.getElementById('compassIcon').style.fontSize = '0.7em';
+            document.getElementById('welcomeTitle').style.fontSize = '1.8em';
+            document.getElementById('compassIcon').style.fontSize = '1em';
         }
         checkVideoCompatibility();
 
@@ -362,8 +362,8 @@ video{
         adjustFontSizeAndLineHeight();
         const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
         if (isSmallScreen) {
-            document.getElementById('welcomeTitle').style.fontSize = '1.5em';
-            document.getElementById('compassIcon').style.fontSize = '0.7em';
+            document.getElementById('welcomeTitle').style.fontSize = '1.8em';
+            document.getElementById('compassIcon').style.fontSize = '1em';
         }
     };
 
