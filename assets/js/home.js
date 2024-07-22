@@ -219,8 +219,8 @@ window.onload = () => {
 
     setTimeout(() => {
         const titleElement = document.getElementById('welcomeTitle');
-        titleElement.style.color = ''; // Reset to original color
         titleElement.style.transition = 'color 2s';
+        titleElement.style.color = ''; // Reset to original color
         const subtitleText = document.getElementById('welcomeSubtitle').textContent;
         const subtitleElement = document.getElementById('welcomeSubtitle');
         subtitleElement.style.textAlign = 'left'; // Initially set to left align
@@ -234,16 +234,16 @@ window.onload = () => {
 
             setTimeout(() => {
                 document.querySelectorAll('header *').forEach(element => {
-                    element.style.color = ''; // Reset to original color
                     element.style.transition = 'color 2s';
+                    element.style.color = ''; // Reset to original color
                 });
                 document.querySelectorAll('footer *').forEach(element => {
-                    element.style.color = ''; // Reset to original color
                     element.style.transition = 'color 2s';
+                    element.style.color = ''; // Reset to original color
                 });
                 const quoteElement = document.getElementById('welcomeQuote');
-                quoteElement.style.color = ''; // Reset to original color
                 quoteElement.style.transition = 'color 2s';
+                quoteElement.style.color = ''; // Reset to original color
 
                 // Reset the transition property after the color transition is complete
                 setTimeout(() => {
