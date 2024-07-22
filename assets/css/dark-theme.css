@@ -23,6 +23,10 @@ body.dark-mode a:hover {
     color: #ffffff; /* Reverse #000 to white */
 }
 
+body.dark-mode .container .header a:hover {
+    color: #ffffff; /* Reverse #000 to white */
+}
+
 body.dark-mode blockquote {
     border-left-color: #444444; /* Reverse #ccc to darker grey */
     color: #cccccc; /* Reverse #999 to lighter grey */
