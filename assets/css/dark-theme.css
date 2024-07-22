@@ -95,5 +95,5 @@ body.dark-mode .scroll-container {
 .transition .container,
 .transition .container .container,
 .transition .container .container .container {
-    transition: background-color 5s, color 5s, border-color 5s;
+    transition: background-color 10s, color 10s, border-color 10s;
 }
