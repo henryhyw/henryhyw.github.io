@@ -136,6 +136,8 @@ video{
    </div>
 </div>
 
+<p style="text-align: right;">Keep an eye out for Easter eggs scattered throughout the website. Happy hunting!</p>
+
 <script>
     function updateSubtitle() {
         const subtitleElement = document.getElementById('welcomeSubtitle');
