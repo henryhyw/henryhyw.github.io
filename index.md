@@ -83,16 +83,9 @@ video{
     }
 }
 
-@media (max-width: 600px) {
-    .social-icons {
-        display: flex;
-        justify-content: center;
-    }
-}
-
 @media (max-width: 500px) {
     #welcomeTitle, #compassIcon {
-        font-size: inherit !important; /* Ensure the font size remains as default */
+        font-size: 1.8 !important; /* Ensure the font size remains as default */
     }
 }
 
