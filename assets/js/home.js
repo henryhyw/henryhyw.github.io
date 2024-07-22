@@ -226,6 +226,7 @@ window.onload = () => {
         subtitleElement.style.textAlign = 'left'; // Initially set to left align
         subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
         subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
+
         typeWriterEffect(subtitleText, subtitleElement, 50, () => {
             subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
             subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
@@ -243,6 +244,19 @@ window.onload = () => {
                 const quoteElement = document.getElementById('welcomeQuote');
                 quoteElement.style.color = ''; // Reset to original color
                 quoteElement.style.transition = 'color 2s';
+
+                // Reset the transition property after the color transition is complete
+                setTimeout(() => {
+                    titleElement.style.transition = '';
+                    subtitleElement.style.transition = '';
+                    document.querySelectorAll('header *').forEach(element => {
+                        element.style.transition = '';
+                    });
+                    document.querySelectorAll('footer *').forEach(element => {
+                        element.style.transition = '';
+                    });
+                    quoteElement.style.transition = '';
+                }, 2000); // Match this duration with the color transition time (2 seconds)
             }, 1000);
         });
     }, 1000);
