@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const toggleThemeBtn = document.getElementById('toggle-theme');
+    const toggleIcon = toggleThemeBtn.querySelector('i');
 
     // Function to update the color of all elements with the class 'typed' based on the theme
     function updateTypedElementsColor() {
@@ -43,11 +44,24 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     }
 
+    // Function to update the theme icon
+    function updateThemeIcon(isDarkMode) {
+        if (isDarkMode) {
+            toggleIcon.classList.remove('fa-sun');
+            toggleIcon.classList.add('fa-moon');
+        } else {
+            toggleIcon.classList.remove('fa-moon');
+            toggleIcon.classList.add('fa-sun');
+        }
+    }
+
     // Function to apply the theme
     function applyTheme(theme) {
+        const isDarkMode = theme === 'dark';
         document.body.classList.toggle('dark-mode', theme === 'dark');
         updateTypedElementsColor();
         loadVisitorMap();
+        updateThemeIcon(isDarkMode);
     }
 
     // Load the theme from localStorage
