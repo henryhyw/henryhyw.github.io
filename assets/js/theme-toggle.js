@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     function updateScriptSrc() {
         const isDarkMode = document.body.classList.contains('dark-mode');
         const lightSrc = 'https://mapmyvisitors.com/map.js?cl=606060&w=a&t=n&d=NuzI5fMF9fqCHtkxcTx3LZO5mvAbEZrLLxG3ZW1E-KY&co=ffffff&ct=606060';
-        const darkSrc = 'https://mapmyvisitors.com/map.js?cl=606060&w=a&t=n&d=NuzI5fMF9fqCHtkxcTx3LZO5mvAbEZrLLxG3ZW1E-KY&co=ffffff&ct=606060';
+        const darkSrc = 'https://mapmyvisitors.com/map.js?cl=fafafa&w=a&t=n&d=NuzI5fMF9fqCHtkxcTx3LZO5mvAbEZrLLxG3ZW1E-KY&co=000000&cmo=3acc3a&cmn=ff5353&ct=808080';
         mapScript.src = isDarkMode ? darkSrc : lightSrc;
         console.log(`Updated script src to ${mapScript.src}`);
     }
