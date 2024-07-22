@@ -89,7 +89,7 @@ video{
     line-height: 1.2;
     position: relative;
     top: -0.1em; /* Shift up to remove space above */
-    text-align: justify;
+    text-align: center;
     color: #616161;
 }
 
