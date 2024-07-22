@@ -245,7 +245,7 @@ window.onload = () => {
         document.querySelectorAll('.footer').forEach(element => {
             element.style.display = ''; // Reset to original display
         });
-    }, 2000); // Delay to ensure other effects complete
+    }, 10000); // Delay to ensure other effects complete
 };
 
 window.onresize = () => {
