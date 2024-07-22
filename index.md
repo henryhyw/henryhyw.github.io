@@ -187,68 +187,63 @@ video{
         const titleElement = document.getElementById('welcomeTitle');
         const subtitleElement = document.getElementById('welcomeSubtitle');
         const compassIcon = document.getElementById('compassIcon');
-        const isMobile = window.matchMedia("(max-width: 768px)").matches;
-
-        if (isMobile) {
-            compassIcon.style.display = 'none';
-            titleElement.innerHTML = 'WELC<span>O</span>ME';
-        } else {
-            compassIcon.style.display = 'inline-block';
-            titleElement.innerHTML = 'WELC<span id="compassContainer"><i class="far fa-compass" id="compassIcon"></i></span>ME';
-        }
 
         const mediaElement = videoElement.style.display !== 'none' ? videoElement : imageElement;
         const mediaHeight = mediaElement.clientHeight;
         const availableWidth = document.querySelector('.welcome-text').clientWidth;
 
-        let titleFontSize = 1;
+        // Adjust the font size and line height of the title to fit the width
+        let titleFontSize = 1; // Start with a smaller font size
         titleElement.style.fontSize = `${titleFontSize}em`;
-
-        let iconScaleFactor = 0.3;
+        
+        let iconScaleFactor = 0.3; // Scale factor to adjust the icon size relative to the text
         compassIcon.style.fontSize = `${titleFontSize * iconScaleFactor}em`;
-
-        let textWidth = getTextWidth(titleElement.textContent.replace('O', ''), getCanvasFont(titleElement)) + (isMobile ? 0 : compassIcon.clientWidth);
-        while (textWidth < availableWidth && titleFontSize < 5) {
+        
+        let textWidth = getTextWidth(titleElement.textContent.replace('O', ''), getCanvasFont(titleElement)) + compassIcon.clientWidth;
+        while (textWidth < availableWidth && titleFontSize < 5) { // Constrain max font size to 5em
             titleFontSize += 0.1;
             titleElement.style.fontSize = `${titleFontSize}em`;
             compassIcon.style.fontSize = `${titleFontSize * iconScaleFactor}em`;
-            textWidth = getTextWidth(titleElement.textContent.replace('O', ''), getCanvasFont(titleElement)) + (isMobile ? 0 : compassIcon.clientWidth);
+            textWidth = getTextWidth(titleElement.textContent.replace('O', ''), getCanvasFont(titleElement)) + compassIcon.clientWidth;
         }
 
-        while (textWidth > availableWidth && titleFontSize > 0.5) {
+        while (textWidth > availableWidth && titleFontSize > 0.5) { // Constrain min font size to 0.5em
             titleFontSize -= 0.1;
             titleElement.style.fontSize = `${titleFontSize}em`;
             compassIcon.style.fontSize = `${titleFontSize * iconScaleFactor}em`;
-            textWidth = getTextWidth(titleElement.textContent.replace('O', ''), getCanvasFont(titleElement)) + (isMobile ? 0 : compassIcon.clientWidth);
+            textWidth = getTextWidth(titleElement.textContent.replace('O', ''), getCanvasFont(titleElement)) + compassIcon.clientWidth;
         }
 
+        // Fix the title font size and adjust the subtitle to match the height of the video
         let subtitleFontSize = 1;
         subtitleElement.style.fontSize = `${subtitleFontSize}em`;
         let totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
 
-        while (totalHeight < mediaHeight && subtitleFontSize < 3) {
+        while (totalHeight < mediaHeight && subtitleFontSize < 3) { // Constrain max font size to 3em
             subtitleFontSize += 0.01;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
 
-        while (totalHeight > mediaHeight && subtitleFontSize > 0.5) {
+        // Reduce font size and line height if the total height exceeds the video height
+        while (totalHeight > mediaHeight && subtitleFontSize > 0.5) { // Ensure font size does not go below 0.5em
             subtitleFontSize -= 0.01;
             subtitleElement.style.fontSize = `${subtitleFontSize}em`;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
 
-        let subtitleLineHeight = 1.4;
+        // Adjust the line height of the subtitle element to fit within the media height
+        let subtitleLineHeight = 1.4; // Starting line height
         subtitleElement.style.lineHeight = subtitleLineHeight;
         totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
 
-        while (totalHeight < mediaHeight && subtitleLineHeight < 2) {
+        while (totalHeight < mediaHeight && subtitleLineHeight < 2) { // Constrain max line height to 2
             subtitleLineHeight += 0.1;
             subtitleElement.style.lineHeight = subtitleLineHeight;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
         }
 
-        while (totalHeight > mediaHeight && subtitleLineHeight > 1) {
+        while (totalHeight > mediaHeight && subtitleLineHeight > 1) { // Ensure line height does not go below 1
             subtitleLineHeight -= 0.1;
             subtitleElement.style.lineHeight = subtitleLineHeight;
             totalHeight = titleElement.clientHeight + subtitleElement.clientHeight;
