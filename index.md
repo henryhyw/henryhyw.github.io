@@ -138,7 +138,7 @@ video{
 
 <br>
 
-<h3 style="text-align: right; font-size: 1em; color: #a9a9a9; width: 200px;">Look for EASTER EGGS hidden throughout the website!</h3>
+<h3 style="text-align: right; font-size: 1em; color: #a9a9a9; width: 200px;">Look for Easter Eggs hidden throughout the website!</h3>
 
 <script>
     function updateSubtitle() {
