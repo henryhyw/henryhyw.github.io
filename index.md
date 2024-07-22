@@ -136,7 +136,7 @@ video{
    </div>
 </div>
 
-<p style="text-align: right;">Keep an eye out for Easter eggs scattered throughout the website. Happy hunting!</p>
+<h3 style="text-align: right; font-size: 1em; color: #a9a9a9">Look for EASTER EGGS hidden throughout the website!</h3>
 
 <script>
     function updateSubtitle() {
