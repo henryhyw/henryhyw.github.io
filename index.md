@@ -187,7 +187,7 @@ video{
         return `${fontWeight} ${fontSize} ${fontFamily}`;
     }
 
-    function adjustFontSizeAndLineHeight() {
+    function adjustTitle() {
         const videoElement = document.getElementById('videoElement');
         const imageElement = document.getElementById('imageElement');
         const titleElement = document.getElementById('welcomeTitle');
@@ -219,6 +219,18 @@ video{
             compassIcon.style.fontSize = `${titleFontSize * iconScaleFactor}em`;
             textWidth = getTextWidth(titleElement.textContent.replace('O', ''), getCanvasFont(titleElement)) + compassIcon.clientWidth;
         }
+    }
+
+    function adjustSubtitle() {
+        const videoElement = document.getElementById('videoElement');
+        const imageElement = document.getElementById('imageElement');
+        const titleElement = document.getElementById('welcomeTitle');
+        const subtitleElement = document.getElementById('welcomeSubtitle');
+        const compassIcon = document.getElementById('compassIcon');
+
+        const mediaElement = videoElement.style.display !== 'none' ? videoElement : imageElement;
+        const mediaHeight = mediaElement.clientHeight;
+        const availableWidth = document.querySelector('.welcome-text').clientWidth;
 
         // Fix the title font size and adjust the subtitle to match the height of the video
         let subtitleFontSize = 1;
@@ -264,14 +276,16 @@ video{
         videoElement.addEventListener('error', () => {
             videoElement.style.display = 'none';
             fallbackImage.style.display = 'block';
-            adjustFontSizeAndLineHeight(); // Ensure text formatting is adjusted when fallback image is shown
+            adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
+            adjustSubtitle();
         });
 
         // Attempt to play the video, if it fails, switch to the fallback image
         videoElement.play().catch(() => {
             videoElement.style.display = 'none';
             fallbackImage.style.display = 'block';
-            adjustFontSizeAndLineHeight(); // Ensure text formatting is adjusted when fallback image is shown
+            adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
+            adjustSubtitle();
         });
     }
 
@@ -335,12 +349,13 @@ video{
 
     window.onload = () => {
         updateSubtitle();
-        adjustFontSizeAndLineHeight();
+        adjustTitle();
         const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
         if (isSmallScreen) {
             document.getElementById('welcomeTitle').style.fontSize = '1.8em';
             document.getElementById('compassIcon').style.fontSize = '1em';
         }
+        adjustSubtitle();
         checkVideoCompatibility();
 
         // Delay the typewriter effect to allow font size and line height adjustment
@@ -359,12 +374,13 @@ video{
     };
 
     window.onresize = () => {
-        adjustFontSizeAndLineHeight();
+        adjustTitle();
         const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
         if (isSmallScreen) {
             document.getElementById('welcomeTitle').style.fontSize = '1.8em';
             document.getElementById('compassIcon').style.fontSize = '1em';
         }
+        adjustSubtitle();
     };
 
     // Mute/unmute button
