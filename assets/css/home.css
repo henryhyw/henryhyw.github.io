@@ -63,12 +63,6 @@ video{
     }
 }
 
-@media (max-width: 600px) {
-    .social-icons {
-        visibility: hidden;
-    }
-}
-
 @media (min-width: 615px) {
     .welcome-text h1 {
         font-size: 3.3em;
@@ -110,6 +104,12 @@ video{
     text-align-last: left; /* Initially set to normal align */
     -moz-text-align-last: left; /* Firefox compatibility */
     color: white; /* Start with white text */
+}
+
+.welcome-text h3 {
+  text-align: center;
+  font-size: 1em;
+  color: #a9a9a9;
 }
 
 .typed {
