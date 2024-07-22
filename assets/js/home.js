@@ -110,10 +110,10 @@ function adjustSubtitle() {
 }
 
 function checkVideoCompatibility() {
-    videoElement.style.transition = 'opacity 2s ease-in-out';
-    videoElement.style.opacity = '';
     const videoElement = document.getElementById('videoElement');
     const fallbackImage = document.getElementById('imageElement');
+    videoElement.style.transition = 'opacity 2s ease-in-out';
+    videoElement.style.opacity = '';
 
     // Check if the video is playable
     videoElement.addEventListener('error', () => {
@@ -221,53 +221,52 @@ window.onload = () => {
         document.getElementById('compassIcon').style.fontSize = '1.1em';
     }
     adjustSubtitle();
+    checkVideoCompatibility();
 
     setTimeout(() => {
-        checkVideoCompatibility();
-        setTimeout(() => {
-            const titleElement = document.getElementById('welcomeTitle');
-            titleElement.style.transition = 'color 2s';
-            titleElement.style.color = ''; // Reset to original color
-            const subtitleText = document.getElementById('welcomeSubtitle').textContent;
-            const subtitleElement = document.getElementById('welcomeSubtitle');
-            subtitleElement.style.textAlign = 'left'; // Initially set to left align
-            subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
-            subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
+        const titleElement = document.getElementById('welcomeTitle');
+        titleElement.style.transition = 'color 2s';
+        titleElement.style.color = ''; // Reset to original color
+        const subtitleText = document.getElementById('welcomeSubtitle').textContent;
+        const subtitleElement = document.getElementById('welcomeSubtitle');
+        subtitleElement.style.textAlign = 'left'; // Initially set to left align
+        subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
+        subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
 
-            typeWriterEffect(subtitleText, subtitleElement, 50, () => {
-                subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
-                subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
-                subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
+        typeWriterEffect(subtitleText, subtitleElement, 50, () => {
+            subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
+            subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
+            subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
 
+            setTimeout(() => {
+                document.querySelectorAll('header *').forEach(element => {
+                    element.style.transition = 'color 2s';
+                    element.style.color = ''; // Reset to original color
+                });
+                document.querySelectorAll('footer *').forEach(element => {
+                    element.style.transition = 'color 2s';
+                    element.style.color = ''; // Reset to original color
+                });
+                const quoteElement = document.getElementById('welcomeQuote');
+                quoteElement.style.transition = 'color 2s';
+                quoteElement.style.color = ''; // Reset to original color
+
+                // Reset the transition property after the color transition is complete
                 setTimeout(() => {
+                    titleElement.style.transition = 'color 0.5s';
+                    subtitleElement.style.transition = 'color 0.5s';
                     document.querySelectorAll('header *').forEach(element => {
-                        element.style.transition = 'color 2s';
-                        element.style.color = ''; // Reset to original color
+                        element.style.transition = 'color 0.5s';
                     });
                     document.querySelectorAll('footer *').forEach(element => {
-                        element.style.transition = 'color 2s';
-                        element.style.color = ''; // Reset to original color
+                        element.style.transition = 'color 0.5s';
                     });
-                    const quoteElement = document.getElementById('welcomeQuote');
-                    quoteElement.style.transition = 'color 2s';
-                    quoteElement.style.color = ''; // Reset to original color
+                    quoteElement.style.transition = 'color 0.5s';
+                }, 2000); // Match this duration with the color transition time (2 seconds)
+            }, 1000);
+        });
+    }, 1000);
 
-                    // Reset the transition property after the color transition is complete
-                    setTimeout(() => {
-                        titleElement.style.transition = 'color 0.5s';
-                        subtitleElement.style.transition = 'color 0.5s';
-                        document.querySelectorAll('header *').forEach(element => {
-                            element.style.transition = 'color 0.5s';
-                        });
-                        document.querySelectorAll('footer *').forEach(element => {
-                            element.style.transition = 'color 0.5s';
-                        });
-                        quoteElement.style.transition = 'color 0.5s';
-                    }, 2000); // Match this duration with the color transition time (2 seconds)
-                }, 1000);
-            });
-        }, 1000);
-    });
 };
 
 window.onresize = () => {

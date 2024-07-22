@@ -12,8 +12,8 @@ title:
 
 <div class="image-left container" style="margin: auto;">
    <div class="welcome-media">
-      <video id="videoElement" muted autoplay loop playsinline>
-         <source src="/assets/vid/travel.mp4" type="video/mp4" style="opacity: 0;">
+      <video id="videoElement" style="opacity: 0;" muted autoplay loop playsinline>
+         <source src="/assets/vid/travel.mp4" type="video/mp4">
       </video>
       <img id="imageElement" src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="opacity: 0; display: none;">
    </div>
