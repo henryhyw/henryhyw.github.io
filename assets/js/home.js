@@ -110,8 +110,6 @@ function adjustSubtitle() {
 }
 
 function checkVideoCompatibility() {
-    const videoElement = document.getElementById('videoElement');
-    const fallbackImage = document.getElementById('imageElement');
     videoElement.style.transition = 'opacity 2s ease-in-out';
     videoElement.style.opacity = '';
 
@@ -207,6 +205,9 @@ window.onload = () => {
         document.getElementById('compassIcon').style.fontSize = '1.1em';
     }
     adjustSubtitle();
+
+    const videoElement = document.getElementById('videoElement');
+    const fallbackImage = document.getElementById('imageElement');
     checkVideoCompatibility();
 
     setTimeout(() => {
