@@ -213,15 +213,19 @@ window.onload = () => {
     videoElement.style.transition = 'opacity 0.5s ease-in-out';
 
     videoElement.addEventListener('timeupdate', () => {
+        console.log("end")
         const timeLeft = videoElement.duration - videoElement.currentTime;
         if (timeLeft < 0.5 && !fadeOutApplied) { // Adjust the time threshold as needed
             videoElement.style.opacity = '0';
+            console.log("fade out")
             fadeOutApplied = true;
         }
     });
 
     videoElement.addEventListener('playing', () => {
+        console.log("start")
         videoElement.style.opacity = '1';
+        console.log("fade in")
         fadeOutApplied = false; // Reset the flag when the video starts playing again
     });
 
