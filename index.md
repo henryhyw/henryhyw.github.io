@@ -90,6 +90,7 @@ video{
     position: relative;
     top: -0.1em; /* Shift up to remove space above */
     text-align: justify;
+    color: #616161;
 }
 
 .welcome-text h2 {
