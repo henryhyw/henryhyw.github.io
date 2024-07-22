@@ -25,6 +25,10 @@ permalink: /education
 
 Here’s a snapshot of my academic path and the experiences that have shaped my learning.
 
+## My Work Ethos
+
+I wouldn’t call myself a super hardworking student; in fact, I often look for shortcuts. However, when it comes to things I’m passionate about, I dive in deep and never deliberately take shortcuts. I love immersing myself in the things I care about and put in every effort to excel at them. With that being said, in most computer science courses, I spent far more time than others exploring those interesting concepts beyond the textbook.
+
 ---
 
 ## The University of Hong Kong
@@ -61,11 +65,6 @@ In addition to my coursework, I co-founded SHSID Musix Board, a popular music op
 
 Prior to that, I attended the Science Class at [Shibei Junior High School](http://www.sbc.edu.sh.cn/), known as the best junior high school class for STEM subjects in Shanghai.
  -->
----
-
-## My Work Ethos
-
-I wouldn't call myself a very hardworking student; in fact, I might even be a bit lazy since I often look for shortcuts. However, when it comes to things I'm passionate about, I dive in deep and never take shortcuts. I love immersing myself in the things I care about and will put in every effort to excel at them.
 
 <script>
     setTimeout(() => {
