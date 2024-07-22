@@ -10,7 +10,7 @@ permalink: /about
     });
 
     // Display elements with class="footer"
-    document.querySelectorAll('.footer').forEach(element => {
+    document.querySelectorAll('footer *').forEach(element => {
         element.style.display = ''; // Reset to original display
     });
 </script>
