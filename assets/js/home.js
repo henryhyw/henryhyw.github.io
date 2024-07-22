@@ -211,7 +211,7 @@ window.onload = () => {
     checkVideoCompatibility();
 
     let fadeOutApplied = false;
-
+    const videoOverlay = document.getElementById('video-overlay');
     videoElement.style.transition = 'opacity 0.5s ease-in-out';
 
     videoElement.addEventListener('timeupdate', () => {

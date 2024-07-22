@@ -25,7 +25,8 @@ video{
     max-width: 45%;
     background: #AFB4B9;
     pointer-events: none;
-    opacity: 0.5s ease-in-out;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
 }
 
 /* Ensure the container's position is relative */
