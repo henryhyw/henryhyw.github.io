@@ -212,13 +212,17 @@ window.onload = () => {
 
     videoElement.style.transition = 'opacity 1s ease-in-out';
 
-    // Add video fade effect listeners
-    videoElement.addEventListener('ended', () => {
-        videoElement.style.opacity = '0';
+    videoElement.addEventListener('timeupdate', () => {
+        const timeLeft = videoElement.duration - videoElement.currentTime;
+        if (timeLeft < 1 && !fadeOutApplied) { // Adjust the time threshold as needed
+            videoElement.style.opacity = '0';
+            fadeOutApplied = true;
+        }
     });
 
-    videoElement.addEventListener('play', () => {
+    videoElement.addEventListener('playing', () => {
         videoElement.style.opacity = '1';
+        fadeOutApplied = false; // Reset the flag when the video starts playing again
     });
 
     setTimeout(() => {
