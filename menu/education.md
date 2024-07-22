@@ -10,6 +10,19 @@ permalink: /education
     });
 </script>
 
+<style>
+    .image-wrapper {
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent grey */
+        padding: 5px; /* Optional: Add some padding if needed */
+        border-radius: 5px; /* Optional: Add border radius for rounded corners */
+    }
+
+    .image-wrapper img {
+        display: block; /* Ensure the image fits within the wrapper */
+    }
+</style>
+
 Here’s a snapshot of my academic path and the experiences that have shaped my learning.
 
 ---
@@ -32,7 +45,9 @@ Beyond my coursework, I served as a student representative on the CAES Staff-Stu
 
 *September 2017 - June 2022*
 
-<img src="/assets/img/shsid.png" style="height:8vh;">
+<div class="image-wrapper">
+    <img src="/assets/img/shsid.png" style="height:8vh;">
+</div>
 
 I completed my junior high, high school, and International Baccalaureate diplomas at [Shanghai High School International Division](https://www.shsid.org/).
 

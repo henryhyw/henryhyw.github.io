@@ -31,7 +31,7 @@ div.scroll-container video {
 
 .image-wrapper {
     display: inline-block;
-    background-color: rgba(128, 128, 128, 0.5); /* Semi-transparent grey */
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent grey */
     padding: 5px; /* Optional: Add some padding if needed */
     border-radius: 5px; /* Optional: Add border radius for rounded corners */
 }
@@ -107,7 +107,9 @@ As one of the co-authors, I contributed to a paper about the project, which we s
 
 *[Kiwiview International Limited](https://www.kiwiviewintl.co.nz/uk-en/index.php)*
 
-<img src="/assets/img/kiwiview.png" style="height:8vh;">
+<div class="image-wrapper">
+    <img src="/assets/img/kiwiview.png" style="height:8vh;">
+</div>
 
 I had the opportunity to work with a New Zealand company that provides educational services for international study and customized travel solutions. This company is actually a family endeavor that my parents and I established together from the start. I led the design, development, and hosting of their website using HTML, JavaScript, CSS, PHP, and MySQL. I also gathered, analyzed, and visualized global study and travel trends using various Python packages. (Details are confidential)
 
