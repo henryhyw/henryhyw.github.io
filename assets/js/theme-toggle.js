@@ -16,15 +16,5 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
         applyTheme(newTheme);
         localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
-        const subtitleText = document.getElementById('welcomeSubtitle').textContent;
-        const subtitleElement = document.getElementById('welcomeSubtitle');
-        subtitleElement.style.textAlign = 'left'; // Initially set to left align
-        subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
-        subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
-        typeWriterEffect(subtitleText, subtitleElement, 15, () => {
-            subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
-            subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
-            subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
-        });
     });
 });
