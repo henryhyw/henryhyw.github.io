@@ -4,6 +4,12 @@ title: My Experience
 permalink: /experience
 ---
 
+<script>
+    document.querySelectorAll('header *').forEach(element => {
+        element.style.color = ''; // Reset to original color
+    });
+</script>
+
 <style>
 div.scroll-container {
   background-color: #f7f7f7;
@@ -103,3 +109,11 @@ Here is the link to the website I developed: [Kiwiview International Limited](ht
 <img src="/assets/img/tutoring.webp" style="height:8vh;">
 
 Tutoring has been a passion of mine, and during this period, I helped international high school students ace their AP and IB math and computer science exams. I also prepared them for AMC 8 & AMC 10 competitions and assisted with their school coursework to boost their understanding and performance.
+
+<script>
+    setTimeout(() => {
+        document.querySelectorAll('footer *').forEach(element => {
+            element.style.color = '';
+        });
+    }, 3000);
+</script>

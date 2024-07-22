@@ -4,6 +4,12 @@ title: My Learning Journey So Far
 permalink: /education
 ---
 
+<script>
+    document.querySelectorAll('header *').forEach(element => {
+        element.style.color = ''; // Reset to original color
+    });
+</script>
+
 Here’s a snapshot of my academic path and the experiences that have shaped my learning.
 
 ---
@@ -45,3 +51,11 @@ Prior to that, I attended the Science Class at [Shibei Junior High School](http:
 ## My Work Ethos
 
 I wouldn't call myself a very hardworking student; in fact, I might even be a bit lazy since I often look for shortcuts. However, when it comes to things I'm passionate about, I dive in deep and never take shortcuts. I love immersing myself in the things I care about and will put in every effort to excel at them.
+
+<script>
+    setTimeout(() => {
+        document.querySelectorAll('footer *').forEach(element => {
+            element.style.color = '';
+        });
+    }, 3000);
+</script>

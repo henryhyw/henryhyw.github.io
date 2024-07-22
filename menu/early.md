@@ -4,6 +4,12 @@ title: My Early Adventures in Computer Science
 permalink: /early
 ---
 
+<script>
+    document.querySelectorAll('header *').forEach(element => {
+        element.style.color = ''; // Reset to original color
+    });
+</script>
+
 <style>
 div.scroll-container {
   background-color: #f7f7f7;
@@ -143,3 +149,11 @@ Here's a full demonstration video, recorded by me, showing how it works.
 </video>
 
 I hope you enjoyed reading about my early journey with computer science!
+
+<script>
+    setTimeout(() => {
+        document.querySelectorAll('footer *').forEach(element => {
+            element.style.color = '';
+        });
+    }, 3000);
+</script>

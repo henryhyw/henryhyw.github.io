@@ -4,6 +4,12 @@ title: Let's Chat
 permalink: /contact
 ---
 
+<script>
+    document.querySelectorAll('header *').forEach(element => {
+        element.style.color = ''; // Reset to original color
+    });
+</script>
+
 If you have any questions, want to work together, or just want to chat, feel free to get in touch! You can reach me at:
 
 <a><i class="fa fa-user" aria-hidden="true"></i></a> Personal Email: [whenry6688@gmail.com](mailto:whenry6688@gmail.com)
@@ -22,3 +28,11 @@ If you have any questions, want to work together, or just want to chat, feel fre
 
 <div class='visitormap'>
 </div>
+
+<script>
+    setTimeout(() => {
+        document.querySelectorAll('footer *').forEach(element => {
+            element.style.color = '';
+        });
+    }, 3000);
+</script>
