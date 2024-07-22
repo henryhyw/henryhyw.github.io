@@ -275,8 +275,8 @@ video{
     let shakeQueue = [];
     let isShaking = false;
     let pressCount = 0;
-    const maxAngle = 30; // Maximum angle to prevent excessive shaking
-    const maxDuration = 0.1; // Minimum duration to prevent excessive speed
+    const maxAngle = 70; // Maximum angle to prevent excessive shaking
+    const maxDuration = 0.2; // Minimum duration to prevent excessive speed
 
     function processShakeQueue() {
         if (shakeQueue.length === 0 || isShaking) return;
@@ -301,7 +301,7 @@ video{
         pressCount++;
         
         // Calculate new angle and duration based on the number of presses
-        let newAngle = Math.min(10 + pressCount * 2, maxAngle); // Increase angle by 2 degrees per press, up to maxAngle
+        let newAngle = Math.min(10 + pressCount * 15, maxAngle); // Increase angle by 2 degrees per press, up to maxAngle
         let newDuration = Math.max(0.5 - pressCount * 0.05, maxDuration); // Decrease duration by 0.05s per press, down to maxDuration
         
         shakeQueue.push({ newAngle, newDuration });
