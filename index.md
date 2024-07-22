@@ -330,6 +330,11 @@ video{
     window.onload = () => {
         updateSubtitle();
         adjustFontSizeAndLineHeight();
+        const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
+        if (isSmallScreen) {
+            document.getElementById('welcomeTitle').style.fontSize = '1.5em';
+            document.getElementById('compassIcon').style.fontSize = '0.7em';
+        }
         checkVideoCompatibility();
 
         // Delay the typewriter effect to allow font size and line height adjustment
@@ -349,7 +354,7 @@ video{
 
     window.onresize = () => {
         adjustFontSizeAndLineHeight();
-        const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+        const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
         if (isSmallScreen) {
             document.getElementById('welcomeTitle').style.fontSize = '1.5em';
             document.getElementById('compassIcon').style.fontSize = '0.7em';
