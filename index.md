@@ -106,18 +106,22 @@ video{
     color: white; /* Start with white text */
 }
 
-/* CSS for shaking effect */
+/* Base CSS for shaking effect */
 @keyframes rotate-shake {
     0% { transform: rotate(0deg); }
-    25% { transform: rotate(10deg); }
-    50% { transform: rotate(-10deg); }
-    75% { transform: rotate(10deg); }
+    25% { transform: rotate(var(--shake-angle)); }
+    50% { transform: rotate(calc(var(--shake-angle) * -1)); }
+    75% { transform: rotate(var(--shake-angle)); }
     100% { transform: rotate(0deg); }
 }
 
 .shake {
-    animation: rotate-shake 0.5s;
-    animation-iteration-count: infinite;
+    animation: rotate-shake var(--shake-duration) infinite;
+}
+
+#compassIcon {
+    --shake-angle: 10deg; /* Initial shake angle */
+    --shake-duration: 0.5s; /* Initial shake duration */
 }
 
 #compassContainer {
@@ -273,16 +277,41 @@ video{
         type();
     }
 
+    let pressCount = 0;
+    let maxAngle = 30; // Maximum angle to prevent excessive shaking
+    let maxDuration = 0.1; // Minimum duration to prevent excessive speed
+
+    document.getElementById('compassIcon').addEventListener('click', function() {
+        pressCount++;
+        
+        // Calculate new angle and duration based on the number of presses
+        let newAngle = Math.min(10 + pressCount * 2, maxAngle); // Increase angle by 2 degrees per press, up to maxAngle
+        let newDuration = Math.max(0.5 - pressCount * 0.05, maxDuration); // Decrease duration by 0.05s per press, down to maxDuration
+        
+        // Set CSS variables for the new angle and duration
+        this.style.setProperty('--shake-angle', `${newAngle}deg`);
+        this.style.setProperty('--shake-duration', `${newDuration}s`);
+        
+        // Apply the shake class
+        this.classList.add('shake');
+        
+        // Remove the shake class after the animation ends to reset
+        setTimeout(() => {
+            this.classList.remove('shake');
+        }, newDuration * 1000);
+        
+        // Reset press count after a short delay to prevent excessive shaking
+        setTimeout(() => {
+            pressCount = 0;
+            this.style.setProperty('--shake-angle', `10deg`);
+            this.style.setProperty('--shake-duration', `0.5s`);
+        }, 3000);
+    });
+
     window.onload = () => {
         updateSubtitle();
         adjustFontSizeAndLineHeight();
         checkVideoCompatibility();
-
-        // Add click event listener to the compass icon
-        document.getElementById('compassIcon').addEventListener('click', function() {
-            this.classList.add('shake');
-            setTimeout(() => this.classList.remove('shake'), 500); // Remove the class after animation ends
-        });
 
         // Delay the typewriter effect to allow font size and line height adjustment
         setTimeout(() => {
@@ -298,7 +327,6 @@ video{
             });
         }, 1000);
     };
-
 
     window.onresize = () => {
         adjustFontSizeAndLineHeight();
