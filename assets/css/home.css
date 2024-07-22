@@ -106,7 +106,7 @@ video{
     color: white; /* Start with white text */
 }
 
-.welcome-text h3 {
+#welcomeQuote{
   text-align: center;
   font-size: 1em;
   color: #a9a9a9;
