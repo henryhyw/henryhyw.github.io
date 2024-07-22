@@ -98,27 +98,6 @@ video{
     text-align: justify;
     color: #616161;
     font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    -webkit-text-stroke: 2px #ffffff;
-    text-stroke: 2px #ffffff;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-    color: transparent;
-    transition: all .4s linear; 
-    opacity: 0.3;
-    user-select: none;
-   
-  
-    &:hover {
-      opacity: 1;
-      -webkit-text-fill-color: white;
-      text-fill-color: white;
-    
-       ~ .cursor {
-          transform: scale(1.4);
-          mix-blend-mode: difference;
-        }
-    }
 }
 
 .welcome-text h2 {
