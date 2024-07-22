@@ -146,10 +146,15 @@ function typeWriterEffect(text, element, delay = 100, callback) {
 
     function type() {
         if (index < text.length) {
-            isDarkMode = document.body.classList.contains('dark-mode');
-            textColor = isDarkMode ? '#fafafa' : '#252525'; // Change text color based on theme
-            element.innerHTML += `<span class="typed" style="color: ${textColor};">${text[index]}</span>`;
-            element.style.transition = 'color 2s';
+            const isDarkMode = document.body.classList.contains('dark-mode');
+            const textColor = isDarkMode ? '#fafafa' : '#252525'; // Change text color based on theme
+            
+            const span = document.createElement('span');
+            span.className = 'typed';
+            span.style.color = textColor;
+            span.textContent = text[index];
+            element.appendChild(span);
+            
             index++;
             setTimeout(type, delay);
         } else {
