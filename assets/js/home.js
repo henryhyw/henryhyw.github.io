@@ -247,15 +247,15 @@ window.onload = () => {
 
                 // Reset the transition property after the color transition is complete
                 setTimeout(() => {
-                    titleElement.style.transition = '';
-                    subtitleElement.style.transition = '';
+                    titleElement.style.transition = 'color 1s';
+                    subtitleElement.style.transition = 'color 1s';
                     document.querySelectorAll('header *').forEach(element => {
-                        element.style.transition = '';
+                        element.style.transition = 'color 1s';
                     });
                     document.querySelectorAll('footer *').forEach(element => {
-                        element.style.transition = '';
+                        element.style.transition = 'color 1s';
                     });
-                    quoteElement.style.transition = '';
+                    quoteElement.style.transition = 'color 1s';
                 }, 2000); // Match this duration with the color transition time (2 seconds)
             }, 1000);
         });
