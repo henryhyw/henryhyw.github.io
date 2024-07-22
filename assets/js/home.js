@@ -201,16 +201,6 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 });
 
 window.onload = () => {
-    // Set the color of everything in header to white
-    document.querySelectorAll('header *').forEach(element => {
-        element.style.color = 'transparent';
-    });
-    
-    // Hide elements with class="footer"
-    document.querySelectorAll('.footer').forEach(element => {
-        element.style.display = 'none';
-    });
-
     updateSubtitle();
     adjustTitle();
     const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
@@ -242,7 +232,7 @@ window.onload = () => {
         });
         
         // Display elements with class="footer"
-        document.querySelectorAll('.footer').forEach(element => {
+        document.querySelectorAll('footer *').forEach(element => {
             element.style.display = ''; // Reset to original display
         });
     }, 12000); // Delay to ensure other effects complete

@@ -4,6 +4,17 @@ title: Getting to Know Me
 permalink: /about
 ---
 
+<script>
+    document.querySelectorAll('header *').forEach(element => {
+        element.style.color = ''; // Reset to original color
+    });
+
+    // Display elements with class="footer"
+    document.querySelectorAll('.footer').forEach(element => {
+        element.style.display = ''; // Reset to original display
+    });
+</script>
+
 <style>
 video, .fallback-image {
     width: 100%;
