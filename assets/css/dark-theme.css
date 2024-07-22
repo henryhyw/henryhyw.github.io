@@ -1,5 +1,5 @@
 /* Dark Theme */
-body * {
+body.dark-mode * {
     background-color: #000000; /* Reverse white to black */
 }
 
