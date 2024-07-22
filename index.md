@@ -7,9 +7,7 @@ title:
   document.title = "Home | H.W.";
 </script>
 
-<link rel="stylesheet" href="/assets/css/dark-theme.css">
 <link rel="stylesheet" href="/assets/css/home.css">
-<script src="/assets/js/theme-toggle.js" defer></script>
 <script src="/assets/js/home.js" defer></script>
 
 <div class="image-left container" style="margin: auto;">
