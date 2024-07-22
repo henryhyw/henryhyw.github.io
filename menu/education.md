@@ -41,7 +41,7 @@ I'm a third-year student at the [University of Hong Kong](https://www.hku.hk/), 
 
 I have taken a diverse range of courses including Python, C++, Java, Data Structures and Algorithms, Software Engineering, Multivariable Calculus, Linear Algebra, Probability and Statistics, Machine Learning, Deep Learning, and Data Science.
 
-Beyond my coursework, I served as a student representative on the CAES Staff-Student Consultative Committee and am currently a student peer advisor.
+Beyond my coursework, I served as a student representative on the CAES Staff-Student Consultative Committee and am currently a student peer advisor, offering advice and helping freshmen and sophomores make study and career plans.
 
 ---
 
