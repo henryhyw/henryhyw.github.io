@@ -23,4 +23,4 @@ title:
 
 <br>
 
-<h3 id="welcomeQuote" style="color: transparent;">Life is a journey that constantly<br>explores the unknown</h3>
+<h3 id="welcomeQuote" style="color: transparent;">Life is an endless adventure<br>into the unknown</h3>
