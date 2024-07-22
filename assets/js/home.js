@@ -217,13 +217,13 @@ window.onload = () => {
     videoElement.addEventListener('timeupdate', () => {
         const timeLeft = videoElement.duration - videoElement.currentTime;
         if (timeLeft < 0.5 && !fadeOutApplied) { // Adjust the time threshold as needed
-            videoElement.style.opacity = '0';
+            videoOverlay.style.opacity = '1';
             fadeOutApplied = true;
         }
     });
 
     videoElement.addEventListener('playing', () => {
-        videoElement.style.opacity = '1';
+        videoOverlay.style.opacity = '0';
         fadeOutApplied = false; // Reset the flag when the video starts playing again
     });
 
