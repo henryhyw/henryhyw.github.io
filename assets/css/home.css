@@ -24,9 +24,9 @@ video{
     left: 0;
     width: 100%;
     height: 100%;
+    opacity: 0;
     background: #AFB4B9;
     pointer-events: none;
-    opacity: 0;
     transition: 0.5s ease-in-out;
 }
 
