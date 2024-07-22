@@ -106,7 +106,7 @@ video{
     color: white; /* Start with white text */
 }
 
-/* Base CSS for shaking effect */
+/* CSS for shaking effect */
 @keyframes rotate-shake {
     0% { transform: rotate(0deg); }
     25% { transform: rotate(var(--shake-angle)); }
@@ -122,11 +122,6 @@ video{
 #compassIcon {
     --shake-angle: 10deg; /* Initial shake angle */
     --shake-duration: 0.5s; /* Initial shake duration */
-}
-
-#compassContainer {
-    display: inline-block;
-    white-space: nowrap;
 }
 </style>
 
@@ -277,34 +272,44 @@ video{
         type();
     }
 
+    let shakeQueue = [];
+    let isShaking = false;
     let pressCount = 0;
-    let maxAngle = 90; // Maximum angle to prevent excessive shaking
-    let minDuration = 0.3; // Minimum duration to prevent excessive speed
+    const maxAngle = 30; // Maximum angle to prevent excessive shaking
+    const maxDuration = 0.1; // Minimum duration to prevent excessive speed
+
+    function processShakeQueue() {
+        if (shakeQueue.length === 0 || isShaking) return;
+        
+        isShaking = true;
+        const { newAngle, newDuration } = shakeQueue.shift();
+        
+        const compassIcon = document.getElementById('compassIcon');
+        compassIcon.style.setProperty('--shake-angle', `${newAngle}deg`);
+        compassIcon.style.setProperty('--shake-duration', `${newDuration}s`);
+        
+        compassIcon.classList.add('shake');
+        
+        setTimeout(() => {
+            compassIcon.classList.remove('shake');
+            isShaking = false;
+            processShakeQueue(); // Process the next shake in the queue
+        }, newDuration * 1000);
+    }
 
     document.getElementById('compassIcon').addEventListener('click', function() {
         pressCount++;
         
         // Calculate new angle and duration based on the number of presses
-        let newAngle = Math.min(10 + pressCount * 15, maxAngle); // Increase angle by 2 degrees per press, up to maxAngle
-        let newDuration = Math.max(0.5 - pressCount * 0.05, minDuration); // Decrease duration by 0.05s per press, down to maxDuration
+        let newAngle = Math.min(10 + pressCount * 2, maxAngle); // Increase angle by 2 degrees per press, up to maxAngle
+        let newDuration = Math.max(0.5 - pressCount * 0.05, maxDuration); // Decrease duration by 0.05s per press, down to maxDuration
         
-        // Set CSS variables for the new angle and duration
-        this.style.setProperty('--shake-angle', `${newAngle}deg`);
-        this.style.setProperty('--shake-duration', `${newDuration}s`);
-        
-        // Apply the shake class
-        this.classList.add('shake');
-        
-        // Remove the shake class after the animation ends to reset
-        setTimeout(() => {
-            this.classList.remove('shake');
-        }, newDuration * 1000);
+        shakeQueue.push({ newAngle, newDuration });
+        processShakeQueue();
         
         // Reset press count after a short delay to prevent excessive shaking
         setTimeout(() => {
             pressCount = 0;
-            this.style.setProperty('--shake-angle', `10deg`);
-            this.style.setProperty('--shake-duration', `0.5s`);
         }, 3000);
     });
 
