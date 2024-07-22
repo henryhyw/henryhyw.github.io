@@ -235,6 +235,9 @@ window.onload = () => {
                     element.style.color = ''; // Reset to original color
                     element.style.transition = 'color 2s';
                 });
+                const quoteElement = document.getElementById('welcomeQuote');
+                quoteElement.style.color = ''; // Reset to original color
+                quoteElement.style.transition = 'color 2s';
             }, 1000);
         });
     }, 1000);

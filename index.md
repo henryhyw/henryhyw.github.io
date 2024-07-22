@@ -23,4 +23,4 @@ title:
 
 <br>
 
-<h3 style="text-align: center; font-size: 1em; color: #a9a9a9;">Life is a journey that constantly<br>explores the unknown</h3>
+<h3 id="welcomeQuote" style="color: transparent;">Life is a journey that constantly<br>explores the unknown</h3>
