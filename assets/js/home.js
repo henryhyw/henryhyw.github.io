@@ -140,7 +140,7 @@ function checkVideoCompatibility() {
     });
 }
 
-function typeWriterEffect(text, element, delay = 1000, callback) {
+function typeWriterEffect(text, element, delay = 100, callback) {
     element.innerHTML = '';
     let index = 0;
 
@@ -228,7 +228,7 @@ window.onload = () => {
         subtitleElement.style.textAlign = 'left'; // Initially set to left align
         subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
         subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
-        typeWriterEffect(subtitleText, subtitleElement, 15, () => {
+        typeWriterEffect(subtitleText, subtitleElement, 60, () => {
             subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
             subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
             subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
