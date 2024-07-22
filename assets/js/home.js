@@ -149,6 +149,7 @@ function typeWriterEffect(text, element, delay = 100, callback) {
             isDarkMode = document.body.classList.contains('dark-mode');
             textColor = isDarkMode ? '#fafafa' : '#252525'; // Change text color based on theme
             element.innerHTML += `<span class="typed" style="color: ${textColor};">${text[index]}</span>`;
+            element.style.transition = 'color 2s';
             index++;
             setTimeout(type, delay);
         } else {
@@ -212,6 +213,9 @@ window.onload = () => {
     checkVideoCompatibility();
 
     setTimeout(() => {
+        const titleElement = document.getElementById('welcomeTitle');
+        titleElement.style.color = ''; // Reset to original color
+        titleElement.style.transition = 'color 2s';
         const subtitleText = document.getElementById('welcomeSubtitle').textContent;
         const subtitleElement = document.getElementById('welcomeSubtitle');
         subtitleElement.style.textAlign = 'left'; // Initially set to left align
