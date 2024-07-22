@@ -266,7 +266,7 @@ video{
 
         function type() {
             if (index < text.length) {
-                element.innerHTML += `<span style="color: black;">${text[index]}</span>`;
+                element.innerHTML += `<span style="color: #252525;">${text[index]}</span>`;
                 index++;
                 setTimeout(type, delay);
             } else {
@@ -278,15 +278,15 @@ video{
     }
 
     let pressCount = 0;
-    let maxAngle = 30; // Maximum angle to prevent excessive shaking
-    let maxDuration = 0.1; // Minimum duration to prevent excessive speed
+    let maxAngle = 90; // Maximum angle to prevent excessive shaking
+    let minDuration = 0.3; // Minimum duration to prevent excessive speed
 
     document.getElementById('compassIcon').addEventListener('click', function() {
         pressCount++;
         
         // Calculate new angle and duration based on the number of presses
-        let newAngle = Math.min(10 + pressCount * 2, maxAngle); // Increase angle by 2 degrees per press, up to maxAngle
-        let newDuration = Math.max(0.5 - pressCount * 0.05, maxDuration); // Decrease duration by 0.05s per press, down to maxDuration
+        let newAngle = Math.min(10 + pressCount * 15, maxAngle); // Increase angle by 2 degrees per press, up to maxAngle
+        let newDuration = Math.max(0.5 - pressCount * 0.05, minDuration); // Decrease duration by 0.05s per press, down to maxDuration
         
         // Set CSS variables for the new angle and duration
         this.style.setProperty('--shake-angle', `${newAngle}deg`);
