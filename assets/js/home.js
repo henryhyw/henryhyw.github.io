@@ -3,9 +3,9 @@ function updateSubtitle() {
     const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
     if (isMobile) {
-        subtitleElement.textContent = "Hello! I'm Han-yu, a junior at HKU, majoring in AI. I love to explore new places and code apps. I'm ready to share my journey with you!";
+        subtitleElement.textContent = "Hello! I'm Han-yu, a junior at HKU, majoring in AI. I love exploring new places and coding apps. I'm ready to share my journey with you!";
     } else {
-        subtitleElement.textContent = "Hello! I'm Han-yu (Henry), a junior at HKU, majoring in Applied AI. I love to explore new places and code apps. I'm excited to have you here and share my journey with you!";
+        subtitleElement.textContent = "Hello! I'm Han-yu (Henry), a junior at HKU, majoring in Applied AI. I love exploring new places and coding apps. I'm excited to have you here and share my journey with you!";
     }
 }
 

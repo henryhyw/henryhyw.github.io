@@ -59,6 +59,8 @@ I love traveling and have had the chance to see some amazing places around the w
 
 <div id="scroll-container" class="scroll-container"></div>
 
+*Scroll to see more*
+
 Another passion of mine is diving into the world of computer science.  I love coding and enjoy creating functional programs from scratch. It's thrilling to see lines of code come together to build something real and impactful. Feel free to check out my early adventures in computer science—it was a fun and exciting journey for me. You can explore more about it here: [My Early CS Adventures](https://henryhyw.github.io/early.html).
 
 <script>
