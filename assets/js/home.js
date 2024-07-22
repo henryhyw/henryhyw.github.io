@@ -140,13 +140,16 @@ function checkVideoCompatibility() {
     });
 }
 
+// Function for typewriter effect
 function typeWriterEffect(text, element, delay = 100, callback) {
     element.innerHTML = '';
     let index = 0;
+    const isDarkMode = document.body.classList.contains('dark-mode');
+    const textColor = isDarkMode ? '#fafafa' : '#252525'; // Change text color based on theme
 
     function type() {
         if (index < text.length) {
-            element.innerHTML += `<span style="color: #252525;">${text[index]}</span>`;
+            element.innerHTML += `<span style="color: ${textColor};">${text[index]}</span>`;
             index++;
             setTimeout(type, delay);
         } else {
