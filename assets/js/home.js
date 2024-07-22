@@ -132,8 +132,6 @@ function checkVideoCompatibility() {
     videoElement.play().catch(() => {
         videoElement.style.display = 'none';
         fallbackImage.style.display = 'block';
-        fallbackImage.style.transition = 'opacity 2s ease-in-out';
-        fallbackImage.style.opacity = '';
         adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
         const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
         if (isSmallScreen) {

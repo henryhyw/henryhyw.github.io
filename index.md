@@ -15,7 +15,7 @@ title:
       <video id="videoElement" style="opacity: 0;" muted autoplay loop playsinline>
          <source src="/assets/vid/travel.mp4" type="video/mp4">
       </video>
-      <img id="imageElement" src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="opacity: 0; display: none;">
+      <img id="imageElement" src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="display: none;">
    </div>
    <div class="welcome-text">
       <h1 id="welcomeTitle" style="color: transparent;">WELC<span id="compassContainer"><i class="far fa-compass" id="compassIcon"></i></span>ME</h1>
