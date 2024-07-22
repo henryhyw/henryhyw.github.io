@@ -336,11 +336,11 @@ video{
     window.onload = () => {
         updateSubtitle();
         adjustFontSizeAndLineHeight();
-        const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
-        if (isSmallScreen) {
-            document.getElementById('welcomeTitle').style.fontSize = '1.8em';
-            document.getElementById('compassIcon').style.fontSize = '1em';
-        }
+        // const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
+        // if (isSmallScreen) {
+        //     document.getElementById('welcomeTitle').style.fontSize = '1.8em';
+        //     document.getElementById('compassIcon').style.fontSize = '1em';
+        // }
         checkVideoCompatibility();
 
         // Delay the typewriter effect to allow font size and line height adjustment
