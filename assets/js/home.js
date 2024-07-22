@@ -203,7 +203,7 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 window.onload = () => {
     // Set the color of everything in header to white
     document.querySelectorAll('header *').forEach(element => {
-        element.style.color = 'white';
+        element.style.color = 'transparent';
     });
     
     // Hide elements with class="footer"
