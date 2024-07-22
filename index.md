@@ -348,6 +348,7 @@ video{
     });
 
     window.onload = () => {
+        alert(window.screen.width);
         updateSubtitle();
         adjustTitle();
         const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
