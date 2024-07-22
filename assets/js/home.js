@@ -253,6 +253,16 @@ window.onload = () => {
         });
     }, 1000);
 
+    videoElement.style.transition = 'opacity 1s ease-in-out';
+
+    // Add video fade effect listeners
+    videoElement.addEventListener('ended', () => {
+        videoElement.style.opacity = '0';
+    });
+
+    videoElement.addEventListener('play', () => {
+        videoElement.style.opacity = '1';
+    });
 };
 
 window.onresize = () => {
