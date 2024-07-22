@@ -211,7 +211,6 @@ window.onload = () => {
     adjustSubtitle();
     checkVideoCompatibility();
 
-    // Delay the typewriter effect to allow font size and line height adjustment
     setTimeout(() => {
         const subtitleText = document.getElementById('welcomeSubtitle').textContent;
         const subtitleElement = document.getElementById('welcomeSubtitle');
@@ -222,20 +221,20 @@ window.onload = () => {
             subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
             subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
             subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
+
+            setTimeout(() => {
+                document.querySelectorAll('header *').forEach(element => {
+                    element.style.color = ''; // Reset to original color
+                    element.style.transition = 'color 2s';
+                });
+                document.querySelectorAll('footer *').forEach(element => {
+                    element.style.color = ''; // Reset to original color
+                    element.style.transition = 'color 2s';
+                });
+            }, 1000);
         });
     }, 1000);
 
-    // At the end, set back the color of everything in header
-    setTimeout(() => {
-        document.querySelectorAll('header *').forEach(element => {
-            element.style.color = ''; // Reset to original color
-        });
-        
-        // Display elements with class="footer"
-        document.querySelectorAll('footer *').forEach(element => {
-            element.style.color = ''; // Reset to original color
-        });
-    }, 12000); // Delay to ensure other effects complete
 };
 
 window.onresize = () => {
