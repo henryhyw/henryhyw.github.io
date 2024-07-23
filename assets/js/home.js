@@ -249,7 +249,7 @@ function createFlashingHint() {
     var hintParagraph = document.createElement("small");
 
     // Set the class and style of the new <p> element
-    hintParagraph.className = "hint tipcolor-2";
+    hintParagraph.className = "header-subtitle hint tipcolor-2";
     hintParagraph.style.float = "right";
 
     // Set the text content of the new <p> element
@@ -260,7 +260,7 @@ function createFlashingHint() {
 
     // Append the new <p> element to the header element
     if (headerElement) {
-        headerElement.appendChild(hintParagraph);
+        headerElement.insertBefore(hintParagraph, headerElement.children[2] || null);
     }
 
     // Function to toggle between the classes
