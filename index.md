@@ -23,10 +23,10 @@ title:
         console.log(randomIndex+1);
 
         // Select a random video source from the array
-        const source = videoSources[randomIndex];
+        let source = videoSources[randomIndex];
 
         // Create a new video element
-        const videoElement = document.createElement('video');
+        let videoElement = document.createElement('video');
         videoElement.setAttribute('id', 'videoElement');
         videoElement.setAttribute('class', source.class);
         videoElement.setAttribute('style', 'opacity: 0;');
@@ -36,7 +36,7 @@ title:
         videoElement.setAttribute('playsinline', '');
 
         // Create a new source element and set its attributes
-        const sourceElement = document.createElement('source');
+        let sourceElement = document.createElement('source');
         sourceElement.setAttribute('src', source.src);
         sourceElement.setAttribute('type', 'video/mp4');
 
