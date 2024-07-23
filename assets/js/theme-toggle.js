@@ -90,6 +90,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
             });
         }
 
+        // Use setTimeout to ensure the transition has time to start
+        setTimeout(() => {
+            // Loop through each element again and remove the 'toggling-theme' class
+            allElements.forEach(element => {
+                element.classList.remove('toggling-theme');
+            });
+        }, 2000); // 2 seconds delay to match the transition duration
+
         // Call the function to toggle the colors
         toggleColors();
 
