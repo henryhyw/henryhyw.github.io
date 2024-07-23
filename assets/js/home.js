@@ -287,7 +287,6 @@ document.addEventListener("DOMContentLoaded", function() {
             if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
                 clearInterval(checkDimensions);
                 console.log('Video is fully loaded and has correct dimensions with 9:16 aspect ratio');
-                videoElement.removeEventListener('loadeddata', checkVideoDimensions); // Remove the event listener
                 // Perform the next activity here
                 // Mute/unmute button
                 videoElement.addEventListener('click', () => {
