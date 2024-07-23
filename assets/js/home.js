@@ -181,6 +181,7 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 });
 
 function checkVideoCompatibility() {
+    const fallbackImage = document.getElementById('imageElement');
     videoElement.style.transition = 'opacity 2s ease-in-out';
     videoElement.style.opacity = '';
 
@@ -284,8 +285,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     adjustSubtitle();
 
-    videoElement = document.getElementById('videoElement');
-    const fallbackImage = document.getElementById('imageElement');
     console.log(2)
     checkVideoCompatibility();
     console.log(3)
