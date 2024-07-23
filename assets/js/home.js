@@ -230,6 +230,9 @@ function preloadVideos() {
         const video = document.createElement('video');
         video.src = videoData.src;
         video.preload = 'auto';
+        video.autoplay = true;
+        video.loop = true;
+        video.muted = true;
         video.style.display = 'none'; // Hide the video element
         document.body.appendChild(video);
     });
