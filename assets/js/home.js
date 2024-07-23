@@ -201,7 +201,7 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 // Function to switch video sources with a flip effect
 function switchVideoSource() {
     const videoElement = document.getElementById('videoElement');
-    const newSource = "/assets/vid/travel2.mp4"; // The new video source path
+    const newSource = "/assets/vid/home2.mp4"; // The new video source path
 
     // Apply flip effect
     videoElement.classList.add('flip');
@@ -250,12 +250,12 @@ window.onload = () => {
 
     let fadeOutApplied = false;
     const videoOverlay = document.getElementById('videoOverlay');
-    videoElement.style.transition = 'opacity 0.25s ease-in-out';
-    videoElement.style.transition = 'opacity 0.25s ease-in-out';
+    videoElement.style.transition = 'opacity 0.4s ease-in-out';
+    videoElement.style.transition = 'opacity 0.4s ease-in-out';
 
     videoElement.addEventListener('timeupdate', () => {
         const timeLeft = videoElement.duration - videoElement.currentTime;
-        if (timeLeft < 0.5 && !fadeOutApplied) { // Adjust the time threshold as needed
+        if (timeLeft < 0.8 && !fadeOutApplied) { // Adjust the time threshold as needed
             videoOverlay.style.opacity = '1';
             fadeOutApplied = true;
         }
