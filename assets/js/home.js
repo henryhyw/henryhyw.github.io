@@ -29,7 +29,7 @@ function getCanvasFont(el) {
 }
 
 function adjustTitle() {
-    let videoElement = document.getElementById('videoElement');
+    videoElement = document.getElementById('videoElement');
     const imageElement = document.getElementById('imageElement');
     const titleElement = document.getElementById('welcomeTitle');
     const subtitleElement = document.getElementById('welcomeSubtitle');
@@ -63,7 +63,7 @@ function adjustTitle() {
 }
 
 function adjustSubtitle() {
-    let videoElement = document.getElementById('videoElement');
+    videoElement = document.getElementById('videoElement');
     const imageElement = document.getElementById('imageElement');
     const titleElement = document.getElementById('welcomeTitle');
     const subtitleElement = document.getElementById('welcomeSubtitle');
@@ -203,7 +203,7 @@ function checkVideoCompatibility() {
 
 // Function to switch video sources with a flip effect
 function switchVideoSource() {
-    let videoElement = document.getElementById('videoElement');
+    videoElement = document.getElementById('videoElement');
     const currentSourceElement = videoElement.querySelector('source');
     const currentSource = currentSourceElement.getAttribute('src');
 
@@ -284,7 +284,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     adjustSubtitle();
 
-    let videoElement = document.getElementById('videoElement');
+    videoElement = document.getElementById('videoElement');
     const fallbackImage = document.getElementById('imageElement');
     console.log(2)
     checkVideoCompatibility();
@@ -364,7 +364,7 @@ window.onresize = () => {
 };
 
 // Mute/unmute button
-let videoElement = document.getElementById('videoElement');
+videoElement = document.getElementById('videoElement');
 videoElement.addEventListener('click', () => {
     videoElement.muted = !videoElement.muted;
 });
