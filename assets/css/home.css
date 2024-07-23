@@ -165,11 +165,8 @@ video{
     0% {
         transform: perspective(800px) rotateY(0deg);
     }
-    0% {
-        transform: perspective(800px) rotateY(90deg);
-    }
     100% {
-        transform: perspective(800px) rotateY(180deg);
+        transform: perspective(800px) rotateY(90deg);
     }
 }
 
@@ -182,8 +179,12 @@ video{
     }
 }
 
-.flip, .flip2 {
+.flip, .flip3 {
     animation: flip 1s forwards;
+}
+
+.flip2 {
+    animation: flip 0s forwards;
 }
 
 #compassIcon {
