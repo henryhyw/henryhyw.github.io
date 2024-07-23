@@ -59,11 +59,6 @@ title:
 <h3 id="welcomeQuote" style="color: transparent;">Life is an endless adventure<br>into the unknown</h3>
 
 <script>
-   const videoSources = [
-    { src: "/assets/vid/home1.mp4", class: "homevideo1" },
-    { src: "/assets/vid/home2.mp4", class: "homevideo2" },
-    { src: "/assets/vid/home3.mp4", class: "homevideo3" }
-   ];
     videoSources.forEach(videoData => {
         const video = document.createElement('video');
         video.src = videoData.src;
