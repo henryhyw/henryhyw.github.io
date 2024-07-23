@@ -187,6 +187,7 @@ const videoSources = [
 ];
 
 function checkVideoCompatibility() {
+    console.log("check compatibility")
     // Generate a random index between 0 and the length of the array minus 1
     const randomIndex = Math.floor(Math.random() * videoSources.length);
     console.log(randomIndex)
@@ -204,6 +205,7 @@ function checkVideoCompatibility() {
 
     videoElement.style.transition = 'opacity 4s ease-in-out';
     videoElement.style.opacity = '';
+    console.log("video shown")
 
     // Attempt to play the video, if it fails, switch to the fallback image
     videoElement.play().catch(() => {
