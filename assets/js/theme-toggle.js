@@ -74,46 +74,35 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Toggle theme on button click
     toggleThemeBtn.addEventListener('click', () => {
-        // Function to check if an element's color changed from black to white
-        function isColorChangeBlackToWhite(oldColor, newColor) {
-            const black = 'rgb(0, 0, 0)';
-            const white = 'rgb(255, 255, 255)';
-            return oldColor === black && newColor === white;
-        }
-
-        // Function to observe color changes on elements
-        function observeColorChanges(element) {
-            let oldColor = getComputedStyle(element).color;
-
-            const observer = new MutationObserver(mutations => {
-                mutations.forEach(mutation => {
-                    if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
-                        const newColor = getComputedStyle(element).color;
-                        if (isColorChangeBlackToWhite(oldColor, newColor)) {
-                            console.log(`Color changed from black to white on element:`, element);
-                        }
-                        oldColor = newColor;
-                    }
-                });
-            });
-
-            observer.observe(element, { attributes: true, attributeFilter: ['style'] });
-        }
-
         // Select all elements to observe
         const allElements = document.querySelectorAll('*');
-        allElements.forEach(element => {
-            observeColorChanges(element);
-        });
-
         // Loop through each element and add the 'toggling-theme' class
         allElements.forEach(element => {
             element.classList.add('toggling-theme');
         });
-        const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
-        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-        applyTheme(newTheme);
-        localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
+
+        function toggleColors() {
+            const allElements = document.querySelectorAll('*');
+
+            allElements.forEach(element => {
+                const style = window.getComputedStyle(element);
+
+                // Check and toggle text color
+                if (style.color === 'rgb(0, 0, 0)') { // black color
+                    element.style.color = 'white';
+                } else if (style.color === 'rgb(255, 255, 255)') { // white color
+                    element.style.color = 'black';
+                }
+
+                // Check and toggle background color
+                if (style.backgroundColor === 'rgb(0, 0, 0)') { // black background
+                    element.style.backgroundColor = 'white';
+                } else if (style.backgroundColor === 'rgb(255, 255, 255)') { // white background
+                    element.style.backgroundColor = 'black';
+                }
+            });
+        }
+
         // Use setTimeout to ensure the transition has time to start
         setTimeout(() => {
             // Loop through each element again and remove the 'toggling-theme' class
@@ -121,5 +110,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 element.classList.remove('toggling-theme');
             });
         }, 2000); // 2 seconds delay to match the transition duration
+
+        // Call the function to toggle the colors
+        toggleColors();
+
+        const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
+        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+        applyTheme(newTheme);
+        localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
     });
 });
