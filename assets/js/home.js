@@ -261,6 +261,19 @@ document.getElementById('compassIcon').addEventListener('click', switchVideoSour
 
 // Ensure the video is loaded on page load
 window.onload = () => {
+};
+
+document.addEventListener("DOMContentLoaded", function() {
+    videoSources.forEach(videoData => {
+        const video = document.createElement('video');
+        video.src = videoData.src;
+        video.preload = 'auto';
+        video.autoplay = true;
+        video.loop = true;
+        video.muted = true;
+        video.style.display = 'none'; // Hide the video element
+        document.body.appendChild(video);
+    });
     updateSubtitle();
     adjustTitle();
     const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
@@ -335,7 +348,7 @@ window.onload = () => {
             }, 1000);
         });
     }, 1000);
-};
+});
 
 window.onresize = () => {
     adjustTitle();
