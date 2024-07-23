@@ -181,29 +181,8 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 });
 
 function checkVideoCompatibility() {
-    // Generate a random index between 0 and the length of the array minus 1
-    const randomIndex = Math.floor(Math.random() * videoSources.length);
-    console.log(randomIndex)
-    // Select a random video source from the array
-    const newSource = videoSources[randomIndex];
-
-    // Get the video element and the current source element
-    const videoElement = document.getElementById('videoElement');
-    const currentSourceElement = videoElement.querySelector('source');
-
-    // Update the source element with the new video source
-    videoElement.pause(); // Pause the video before changing the source
-    currentSourceElement.setAttribute('src', newSource.src);
-    // Play the new video source
-    console.log(document.getElementById('videoElement').querySelector('source').getAttribute('src'))
-    videoElement.setAttribute('class', newSource.class);
-    console.log(document.getElementById('videoElement').getAttribute('class'))
-    setTimeout(() => {
-        videoElement.load(); // Load the new video source
-        videoElement.play();
-        videoElement.style.transition = 'opacity 2s ease-in-out';
-        videoElement.style.opacity = '';
-    });
+    videoElement.style.transition = 'opacity 2s ease-in-out';
+    videoElement.style.opacity = '';
 
     // Attempt to play the video, if it fails, switch to the fallback image
     videoElement.play().catch(() => {
