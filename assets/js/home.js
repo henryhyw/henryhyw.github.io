@@ -203,6 +203,12 @@ function checkVideoCompatibility() {
     });
 }
 
+const videoSources = [
+    { src: "/assets/vid/home1.mp4", class: "homevideo1" },
+    { src: "/assets/vid/home2.mp4", class: "homevideo2" },
+    { src: "/assets/vid/home3.mp4", class: "homevideo3" }
+];
+
 // Function to switch video sources with a flip effect
 function switchVideoSource() {
     const videoElement = document.getElementById('videoElement');
@@ -262,12 +268,6 @@ function switchVideoSource() {
 document.getElementById('compassIcon').addEventListener('click', switchVideoSource);
 
 document.addEventListener("DOMContentLoaded", function() {
-    const videoSources = [
-            { src: "/assets/vid/home1.mp4", class: "homevideo1" },
-            { src: "/assets/vid/home2.mp4", class: "homevideo2" },
-            { src: "/assets/vid/home3.mp4", class: "homevideo3" }
-        ];
-
     // Generate a random index between 0 and the length of the array minus 1
     const randomIndex = Math.floor(Math.random() * videoSources.length);
     console.log(randomIndex+1);
@@ -297,6 +297,10 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById('image-left container').appendChild(videoElement);
 
     setTimeout(() => {
+        // Mute/unmute button
+        videoElement.addEventListener('click', () => {
+            videoElement.muted = !videoElement.muted;
+        });
         videoSources.forEach(videoData => {
             const video = document.createElement('video');
             video.src = videoData.src;
@@ -391,9 +395,3 @@ window.onresize = () => {
     }
     adjustSubtitle();
 };
-
-// Mute/unmute button
-const videoElement = document.getElementById('videoElement');
-videoElement.addEventListener('click', () => {
-    videoElement.muted = !videoElement.muted;
-});
