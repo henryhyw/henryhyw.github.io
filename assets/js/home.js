@@ -286,7 +286,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let videoElement = document.getElementById('videoElement');
     const fallbackImage = document.getElementById('imageElement');
+    console.log(2)
     checkVideoCompatibility();
+    console.log(3)
 
     let fadeOutApplied = false;
     const videoOverlay = document.getElementById('videoOverlay');
