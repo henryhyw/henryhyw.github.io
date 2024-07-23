@@ -180,12 +180,6 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     }, 500);
 });
 
-const videoSources = [
-    { src: "/assets/vid/home1.mp4", class: "homevideo1" },
-    { src: "/assets/vid/home2.mp4", class: "homevideo2" },
-    { src: "/assets/vid/home3.mp4", class: "homevideo3" }
-];
-
 function checkVideoCompatibility() {
     // Generate a random index between 0 and the length of the array minus 1
     const randomIndex = Math.floor(Math.random() * videoSources.length);
