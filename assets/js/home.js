@@ -197,14 +197,15 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 
     // Flip transition and video source change
     const videoElement = document.getElementById('videoElement');
-    const newVideoSource = '/assets/vid/home2.mp4'; // Path to the new video
+    const newVideoSource = '/assets/vid/new_travel.mp4'; // Path to the new video
 
     videoElement.classList.add('flip');
     setTimeout(() => {
-        videoElement.src = newVideoSource;
-        videoElement.play();
-        videoElement.classList.remove('flip');
-    }, 500); // Duration of the flip transition
+        videoElement.pause(); // Pause the current video
+        videoElement.src = newVideoSource; // Change the video source
+        videoElement.load(); // Load the new video
+        videoElement.play(); // Play the new video
+    }, 500); // Halfway point of the flip animation (adjust if necessary)
 });
 
 window.onload = () => {
