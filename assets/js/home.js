@@ -196,6 +196,31 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     }, 6000);
 });
 
+// Function to switch video sources with a flip effect
+function switchVideo() {
+    const videoElement = document.getElementById('videoElement');
+    const videoElement2 = document.getElementById('videoElement2');
+    
+    // Apply flip effect
+    videoElement.classList.add('flip');
+    videoElement2.classList.add('flip');
+    
+    // Listen for the animation end to switch visibility and opacity
+    videoElement.addEventListener('animationend', () => {
+        videoElement.style.display = 'none';
+        videoElement2.style.display = 'block';
+        videoElement2.style.opacity = '1';
+        
+        // Remove the flip class to reset for future use
+        videoElement.classList.remove('flip');
+        videoElement2.classList.remove('flip');
+    }, { once: true });
+}
+
+// Event listener for compass icon click to switch videos
+document.getElementById('compassIcon').addEventListener('click', switchVideo);
+
+// Ensure both videos are loaded
 window.onload = () => {
     updateSubtitle();
     adjustTitle();
@@ -207,8 +232,11 @@ window.onload = () => {
     adjustSubtitle();
 
     const videoElement = document.getElementById('videoElement');
+    const videoElement2 = document.getElementById('videoElement2');
     const fallbackImage = document.getElementById('imageElement');
     checkVideoCompatibility();
+
+    videoElement2.load(); // Preload the second video
 
     let fadeOutApplied = false;
     const videoOverlay = document.getElementById('videoOverlay');
@@ -282,6 +310,7 @@ window.onresize = () => {
     }
     adjustSubtitle();
 };
+
 
 // Mute/unmute button
 const videoElement = document.getElementById('videoElement');

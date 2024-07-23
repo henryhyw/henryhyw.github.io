@@ -14,6 +14,9 @@ title:
    <video id="videoElement" style="opacity: 0;" muted autoplay loop playsinline>
       <source src="/assets/vid/home1.mp4" type="video/mp4">
    </video>
+   <video id="videoElement2" style="opacity: 0; display: none;" muted autoplay loop playsinline>
+    <source src="/assets/vid/travel2.mp4" type="video/mp4">
+   </video>
    <img id="imageElement" src="/assets/img/home1.jpg" alt="Travel" class="fallback-image" style="display: none;">
    <div class="video-overlay" id="videoOverlay"></div>
    <div class="welcome-text">
