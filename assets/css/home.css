@@ -59,7 +59,7 @@ video{
 }
 
 @media (min-width: 30em) {
-    .image-left video, .image-left .fallback-image, .image-right video, .image-right .fallback-image {
+    .image-left .overlay, .image-right .overlay {
         flex-shrink: 0;
     }
 }
