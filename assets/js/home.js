@@ -212,11 +212,11 @@ window.onload = () => {
 
     let fadeOutApplied = false;
     const videoOverlay = document.getElementById('videoOverlay');
-    videoElement.style.transition = 'opacity 0.5s ease-in-out';
+    videoElement.style.transition = 'opacity 0.4s ease-in-out';
 
     videoElement.addEventListener('timeupdate', () => {
         const timeLeft = videoElement.duration - videoElement.currentTime;
-        if (timeLeft < 0.5 && !fadeOutApplied) { // Adjust the time threshold as needed
+        if (timeLeft < 0.8 && !fadeOutApplied) { // Adjust the time threshold as needed
             videoOverlay.style.opacity = '1';
             fadeOutApplied = true;
         }
