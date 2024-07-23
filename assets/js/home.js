@@ -185,21 +185,21 @@ function checkVideoCompatibility() {
     videoElement.style.transition = 'opacity 2s ease-in-out';
     videoElement.style.opacity = '1';
 
-    // Attempt to play the video, if it fails, switch to the fallback image
-    videoElement.play().catch(() => {
-        videoElement.style.display = 'none';
-        fallbackImage.style.opacity = '0';
-        fallbackImage.style.display = 'block';
-        fallbackImage.style.opacity = 'opacity 4s ease-in-out';
-        fallbackImage.style.opacity = '';
-        adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
-        const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
-        if (isSmallScreen) {
-            document.getElementById('welcomeTitle').style.fontSize = '2em';
-            document.getElementById('compassIcon').style.fontSize = '1.1em';
-        }
-        adjustSubtitle();
-    });
+    // // Attempt to play the video, if it fails, switch to the fallback image
+    // videoElement.play().catch(() => {
+    //     videoElement.style.display = 'none';
+    //     fallbackImage.style.opacity = '0';
+    //     fallbackImage.style.display = 'block';
+    //     fallbackImage.style.opacity = 'opacity 4s ease-in-out';
+    //     fallbackImage.style.opacity = '';
+    //     adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
+    //     const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
+    //     if (isSmallScreen) {
+    //         document.getElementById('welcomeTitle').style.fontSize = '2em';
+    //         document.getElementById('compassIcon').style.fontSize = '1.1em';
+    //     }
+    //     adjustSubtitle();
+    // });
 }
 
 // Function to switch video sources with a flip effect
