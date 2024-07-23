@@ -273,29 +273,11 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log(randomIndex+1);
 
     // Select a random video source from the array
-    let source = videoSources[randomIndex];
+    const source = videoSources[randomIndex];
 
-    // Create a new video element
-    const videoElement = document.createElement('video');
-    videoElement.setAttribute('id', 'videoElement');
-    videoElement.setAttribute('class', source.class);
-    videoElement.setAttribute('style', 'opacity: 0;');
-    videoElement.setAttribute('muted', '');
-    videoElement.setAttribute('autoplay', '');
-    videoElement.setAttribute('loop', '');
-    videoElement.setAttribute('playsinline', '');
-
-    // Create a new source element and set its attributes
-    let sourceElement = document.createElement('source');
-    sourceElement.setAttribute('src', source.src);
-    sourceElement.setAttribute('type', 'video/mp4');
-
-    // Append the source element to the video element
-    videoElement.appendChild(sourceElement);
-
-    // Append the video element to the container
-    const container = document.getElementById('image-left container');
-    container.insertBefore(videoElement, container.firstChild);
+    const videoElement = document.getElementById('videoElement');
+    const currentSourceElement = videoElement.querySelector('source');
+    videoElement.setAttribute('src', source.src)
 
     setTimeout(() => {
         // Mute/unmute button
