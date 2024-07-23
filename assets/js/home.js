@@ -115,9 +115,11 @@ function checkVideoCompatibility() {
 
     // Attempt to play the video, if it fails, switch to the fallback image
     videoElement.play().catch(() => {
-        videoElement.style.opacity = '0';
+        videoElement.style.display = 'none';
+        fallbackImage.style.opacity = '0';
+        fallbackImage.style.display = 'block';
         fallbackImage.style.opacity = 'opacity 2s ease-in-out';
-        fallbackImage.style.opacity = '1';
+        fallbackImage.style.opacity = '';
         adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
         const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
         if (isSmallScreen) {
@@ -206,12 +208,12 @@ window.onload = () => {
 
     const videoElement = document.getElementById('videoElement');
     const fallbackImage = document.getElementById('imageElement');
-    const videoOverlay = document.getElementById('videoOverlay');
     checkVideoCompatibility();
 
     let fadeOutApplied = false;
+    const videoOverlay = document.getElementById('videoOverlay');
     videoElement.style.transition = 'opacity 0.25s ease-in-out';
-    videoOverlay.style.transition = 'opacity 0.25s ease-in-out';
+    videoElement.style.transition = 'opacity 0.25s ease-in-out';
 
     videoElement.addEventListener('timeupdate', () => {
         const timeLeft = videoElement.duration - videoElement.currentTime;
