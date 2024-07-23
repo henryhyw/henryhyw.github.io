@@ -264,6 +264,7 @@ function switchVideoSource() {
     const newVideoSource = videoSources[newIndex];
 
     // Apply flip effect
+    videoElement.classList.remove('flip2');
     videoElement.classList.add('flip');
 
     // Listen for the midpoint of the flip to change the source
