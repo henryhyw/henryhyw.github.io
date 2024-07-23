@@ -109,27 +109,6 @@ function adjustSubtitle() {
     }
 }
 
-function checkVideoCompatibility() {
-    videoElement.style.transition = 'opacity 4s ease-in-out';
-    videoElement.style.opacity = '';
-
-    // Attempt to play the video, if it fails, switch to the fallback image
-    videoElement.play().catch(() => {
-        videoElement.style.display = 'none';
-        fallbackImage.style.opacity = '0';
-        fallbackImage.style.display = 'block';
-        fallbackImage.style.opacity = 'opacity 4s ease-in-out';
-        fallbackImage.style.opacity = '';
-        adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
-        const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
-        if (isSmallScreen) {
-            document.getElementById('welcomeTitle').style.fontSize = '2em';
-            document.getElementById('compassIcon').style.fontSize = '1.1em';
-        }
-        adjustSubtitle();
-    });
-}
-
 function typeWriterEffect(text, element, delay = 100, callback) {
     element.innerHTML = '';
     let index = 0;
@@ -202,10 +181,47 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 });
 
 const videoSources = [
-    "/assets/vid/home1.mp4",
-    "/assets/vid/home2.mp4",
-    "/assets/vid/home3.mp4"
+    { src: "/assets/vid/home1.mp4", cursor: "url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 288 512\"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d=\"M216 464h-40V346.8c68.5-15.9 118.1-79.9 111.4-154.2l-16-178.1C270.7 6.3 263.9 0 255.7 0H32.3c-8.2 0-15 6.3-15.7 14.6L.6 192.7C-6.1 266.9 43.5 330.9 112 346.8V464H72c-22.1 0-40 17.9-40 40 0 4.4 3.6 8 8 8h208c4.4 0 8-3.6 8-8 0-22.1-17.9-40-40-40zM61.8 48h164.5l7.2 80H54.6l7.2-80z\"/></svg>') 32 32, auto" },
+    { src: "/assets/vid/home2.mp4", cursor: "url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d=\"M288 167.2v-28.1c-28.2-36.3-47.1-79.3-54.1-125.2-2.1-13.5-19-18.8-27.8-8.3-21.1 24.9-37.7 54.1-48.9 86.5 34.2 38.3 80 64.6 130.8 75.1zM400 64c-44.2 0-80 35.9-80 80.1v59.4C215.6 197.3 127 133 87 41.8c-5.5-12.5-23.2-13.2-29-.9C41.4 76 32 115.2 32 156.6c0 70.8 34.1 136.9 85.1 185.9 13.2 12.7 26.1 23.2 38.9 32.8l-143.9 36C1.4 414-3.4 426.4 2.6 435.7 20 462.6 63 508.2 155.8 512c8 .3 16-2.6 22.1-7.9l65.2-56.1H320c88.4 0 160-71.5 160-159.9V128l32-64H400zm0 96.1c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16z\"/></svg>') 32 32, auto" },
+    { src: "/assets/vid/home3.mp4", cursor: "url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d=\"M290.6 192c-20.2 0-106.8 2-162.6 86V192c0-52.9-43.1-96-96-96-17.7 0-32 14.3-32 32s14.3 32 32 32c17.6 0 32 14.4 32 32v256c0 35.3 28.7 64 64 64h176c8.8 0 16-7.2 16-16v-16c0-17.7-14.3-32-32-32h-32l128-96v144c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V289.9c-10.3 2.7-20.9 4.5-32 4.5-61.8 0-113.5-44.1-125.4-102.4zM448 96h-64l-64-64v134.4c0 53 43 96 96 96s96-43 96-96V32l-64 64zm-72 80c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zm80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16z\"/></svg>') 32 32, auto" }
 ];
+
+function checkVideoCompatibility() {
+    // Generate a random index between 0 and the length of the array minus 1
+    const randomIndex = Math.floor(Math.random() * videoSources.length);
+
+    // Select a random video source from the array
+    const newSource = videoSources[randomIndex];
+
+    // Get the video element and the current source element
+    const videoElement = document.getElementById('videoElement');
+    const currentSourceElement = videoElement.querySelector('source');
+
+    // Update the source element with the new video source
+    currentSourceElement.setAttribute('src', newSource.src);
+
+    // Assign the corresponding cursor style to the video element
+    videoElement.style.cursor = newSource.cursor;
+
+    videoElement.style.transition = 'opacity 4s ease-in-out';
+    videoElement.style.opacity = '';
+
+    // Attempt to play the video, if it fails, switch to the fallback image
+    videoElement.play().catch(() => {
+        videoElement.style.display = 'none';
+        fallbackImage.style.opacity = '0';
+        fallbackImage.style.display = 'block';
+        fallbackImage.style.opacity = 'opacity 4s ease-in-out';
+        fallbackImage.style.opacity = '';
+        adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
+        const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
+        if (isSmallScreen) {
+            document.getElementById('welcomeTitle').style.fontSize = '2em';
+            document.getElementById('compassIcon').style.fontSize = '1.1em';
+        }
+        adjustSubtitle();
+    });
+}
 
 // Function to preload videos
 function preloadVideos() {
@@ -225,7 +241,7 @@ function switchVideoSource() {
     const currentSource = currentSourceElement.getAttribute('src');
 
     // Find the index of the current video source
-    const currentIndex = videoSources.indexOf(currentSource);
+    const currentIndex = videoSources.findIndex(video => video.src === currentSource);
 
     // Function to get a new random index that is not the same as currentIndex
     function getNewRandomIndex(excludeIndex, arrayLength) {
@@ -239,8 +255,8 @@ function switchVideoSource() {
     // Get the new random index
     const newIndex = getNewRandomIndex(currentIndex, videoSources.length);
 
-    // Construct the new video source path using the new index
-    const newSource = videoSources[newIndex];
+    // Select the new video source and cursor using the new index
+    const newVideoSource = videoSources[newIndex];
 
     // Apply flip effect
     videoElement.classList.add('flip');
@@ -249,7 +265,7 @@ function switchVideoSource() {
     videoElement.addEventListener('animationend', () => {
         // Change the source and load the new video
         videoElement.pause(); // Pause the video before changing the source
-        videoElement.querySelector('source').src = newSource;
+        videoElement.querySelector('source').src = newVideoSource.src;
         videoElement.load(); // Load the new video source
 
         // Restart the flip animation for the second half of the transition
@@ -265,6 +281,7 @@ function switchVideoSource() {
         // Ensure the flip class is removed after the animation completes
         videoElement.addEventListener('animationend', () => {
             videoElement.classList.remove('flip2');
+            videoElement.style.cursor = newVideoSource.cursor;
         }, { once: true });
     }, { once: true });
 }
