@@ -189,7 +189,7 @@ const videoSources = [
 function checkVideoCompatibility() {
     // Generate a random index between 0 and the length of the array minus 1
     const randomIndex = Math.floor(Math.random() * videoSources.length);
-
+    console.log(randomIndex)
     // Select a random video source from the array
     const newSource = videoSources[randomIndex];
 
@@ -199,6 +199,7 @@ function checkVideoCompatibility() {
 
     // Update the source element with the new video source
     currentSourceElement.setAttribute('src', newSource.src);
+    console.log(document.getElementById('videoElement').querySelector('source').getAttribute('src'))
     currentSourceElement.setAttribute('class', newSource.class);
 
     videoElement.style.transition = 'opacity 4s ease-in-out';
