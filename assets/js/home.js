@@ -255,7 +255,7 @@ function createFlashingHint() {
     hintParagraph.textContent = "Click the compass!";
 
     // Find the element with the class "header"
-    var headerElement = document.querySelector(".header");
+    var headerElement = document.querySelector("head .header");
 
     // Append the new <p> element to the header element
     if (headerElement) {
@@ -407,7 +407,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                                 setTimeout(() => {
                                     createFlashingHint();
-                                }, 4000);
+                                }, 3000);
                             }, 2000); // Match this duration with the color transition time (2 seconds)
                         }, 1000);
                     });
