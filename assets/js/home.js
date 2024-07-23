@@ -205,7 +205,7 @@ function checkVideoCompatibility() {
     currentSourceElement.setAttribute('class', newSource.class);
     console.log(document.getElementById('videoElement').getAttribute('class'))
     setTimeout(() => {
-        videoElement.play();
+        // videoElement.play();
         videoElement.style.transition = 'opacity 2s ease-in-out';
         videoElement.style.opacity = '';
     });
