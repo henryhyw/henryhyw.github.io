@@ -8,6 +8,7 @@ title:
 </script>
 
 <link rel="stylesheet" href="/assets/css/home.css">
+<script src="/assets/js/home.js" defer></script>
 
 <div class="image-left container" id="image-left container" style="margin: auto;">
    <script>
@@ -69,5 +70,3 @@ title:
         document.body.appendChild(video);
     });
 </script>
-
-<script src="/assets/js/home.js" defer></script>
