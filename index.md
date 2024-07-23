@@ -45,6 +45,7 @@ title:
 
         // Append the video element to the container
         document.getElementById('image-left container').appendChild(videoElement);
+        console.log("videoelement")
     </script>
    <img id="imageElement" src="/assets/img/home1.jpg" alt="Travel" class="fallback-image" style="display: none;">
    <div class="video-overlay" id="videoOverlay"></div>
