@@ -201,7 +201,22 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     }, 500);
 });
 
+// Function to preload videos
+function preloadVideos() {
+    const videoSources = [
+        "/assets/vid/home1.mp4",
+        "/assets/vid/home2.mp4",
+        "/assets/vid/home3.mp4"
+    ];
 
+    videoSources.forEach(src => {
+        const video = document.createElement('video');
+        video.src = src;
+        video.preload = 'auto';
+        video.style.display = 'none'; // Hide the video element
+        document.body.appendChild(video);
+    });
+}
 
 // Function to switch video sources with a flip effect
 function switchVideoSource() {
@@ -244,6 +259,7 @@ document.getElementById('compassIcon').addEventListener('click', switchVideoSour
 
 // Ensure the video is loaded on page load
 window.onload = () => {
+    preloadVideos();
     updateSubtitle();
     adjustTitle();
     const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
