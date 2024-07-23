@@ -110,7 +110,7 @@ function adjustSubtitle() {
 }
 
 function checkVideoCompatibility() {
-    videoElement.style.transition = 'opacity 2s ease-in-out';
+    videoElement.style.transition = 'opacity 4s ease-in-out';
     videoElement.style.opacity = '';
 
     // Attempt to play the video, if it fails, switch to the fallback image
@@ -118,7 +118,7 @@ function checkVideoCompatibility() {
         videoElement.style.display = 'none';
         fallbackImage.style.opacity = '0';
         fallbackImage.style.display = 'block';
-        fallbackImage.style.opacity = 'opacity 2s ease-in-out';
+        fallbackImage.style.opacity = 'opacity 4s ease-in-out';
         fallbackImage.style.opacity = '';
         adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
         const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
@@ -250,12 +250,12 @@ window.onload = () => {
 
     let fadeOutApplied = false;
     const videoOverlay = document.getElementById('videoOverlay');
-    videoElement.style.transition = 'opacity 0.4s ease-in-out';
-    videoElement.style.transition = 'opacity 0.4s ease-in-out';
+    videoElement.style.transition = 'opacity 0.3s ease-in-out';
+    videoOverlay.style.transition = 'opacity 0.3s ease-in-out';
 
     videoElement.addEventListener('timeupdate', () => {
         const timeLeft = videoElement.duration - videoElement.currentTime;
-        if (timeLeft < 0.8 && !fadeOutApplied) { // Adjust the time threshold as needed
+        if (timeLeft < 0.6 && !fadeOutApplied) { // Adjust the time threshold as needed
             videoOverlay.style.opacity = '1';
             fadeOutApplied = true;
         }
