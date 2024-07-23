@@ -215,7 +215,7 @@ function switchVideoSource() {
 
     console.log(newVideoSource)
 
-    videoElement.autoplay = false;
+    videoElement.pause(); // Pause the video before changing the source
 
     // Apply flip effect
     videoElement.classList.remove('flip2');
@@ -223,9 +223,7 @@ function switchVideoSource() {
 
     // Listen for the midpoint of the flip to change the source
     videoElement.addEventListener('animationend', () => {
-        videoElement.autoplay = true;
         // Change the source and load the new video
-        videoElement.pause(); // Pause the video before changing the source
         videoElement.querySelector('source').src = newVideoSource.src;
         videoElement.load(); // Load the new video source
 
