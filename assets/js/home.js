@@ -225,9 +225,9 @@ function checkVideoCompatibility() {
 
 // Function to preload videos
 function preloadVideos() {
-    videoSources.forEach(src => {
+    videoSources.forEach(videoData => {
         const video = document.createElement('video');
-        video.src = src;
+        video.src = videoData.src;
         video.preload = 'auto';
         video.style.display = 'none'; // Hide the video element
         document.body.appendChild(video);
