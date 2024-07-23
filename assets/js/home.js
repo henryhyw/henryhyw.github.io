@@ -215,41 +215,32 @@ function switchVideoSource() {
 
     console.log(newVideoSource)
 
-    // Shutdown videoOverlay
-    const videoOverlay = document.getElementById('videoOverlay')
-    videoOverlay.style.background = 'trasparent';
+    // Apply flip effect
+    videoElement.classList.remove('flip2');
+    videoElement.classList.add('flip');
 
-    setTimeout(() => {
-        // Apply flip effect
-        videoElement.classList.remove('flip2');
-        videoElement.classList.add('flip');
+    // Listen for the midpoint of the flip to change the source
+    videoElement.addEventListener('animationend', () => {
+        // Change the source and load the new video
+        videoElement.pause(); // Pause the video before changing the source
+        videoElement.querySelector('source').src = newVideoSource.src;
+        videoElement.load(); // Load the new video source
 
-        // Listen for the midpoint of the flip to change the source
+        // Restart the flip animation for the second half of the transition
+        videoElement.classList.remove('flip');
+
+        // Play the new video source
+        videoElement.play();
+
+        // Add the flip class back to complete the flip animation
+        videoElement.classList.add('flip2');
+
+        // Ensure the flip class is removed after the animation completes
         videoElement.addEventListener('animationend', () => {
-            videoOverlay.style.background = '';
-            // Change the source and load the new video
-            videoElement.pause(); // Pause the video before changing the source
-            console.log(videoElement.querySelector('source').src);
-            videoElement.querySelector('source').src = newVideoSource.src;
-            console.log(videoElement.querySelector('source').src);
-            videoElement.load(); // Load the new video source
-
-            // Restart the flip animation for the second half of the transition
-            videoElement.classList.remove('flip');
-
-            // Play the new video source
-            videoElement.play();
-
-            // Add the flip class back to complete the flip animation
-            videoElement.classList.add('flip2');
-
-            // Ensure the flip class is removed after the animation completes
-            videoElement.addEventListener('animationend', () => {
-                videoElement.classList.remove('flip2');
-                videoElement.setAttribute('class', newVideoSource.class);
-            }, { once: true });
+            videoElement.classList.remove('flip2');
+            videoElement.setAttribute('class', newVideoSource.class);
         }, { once: true });
-    }, 100);
+    }, { once: true });
 }
 
 // Event listener for compass icon click to switch video sources
@@ -284,7 +275,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const videoElement = document.getElementById('videoElement');
     const currentSourceElement = videoElement.querySelector('source');
-    videoElement.setAttribute('src', source.src)
+    currentSourceElement.setAttribute('src', source.src)
     videoElement.load();
     const checkDimensions = setInterval(function() {
         if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
