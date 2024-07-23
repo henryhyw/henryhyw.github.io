@@ -279,12 +279,13 @@ function createFlashingHint() {
 
     
     // Set an interval to toggle the classes every 5000ms if compasspPressed is false
-    const intervalId = setInterval(function() {
+    const hintFlash = setInterval(function() {
         if (!pressed) {
             toggleTipColor();
         } else {
-            setColor2();
-            clearInterval(intervalId); // Clear the interval
+            hintParagraph.classList.remove("tipcolor-1");
+            hintParagraph.classList.add("tipcolor-2");
+            clearInterval(hintFlash); // Clear the interval
         }
     }, 4000);
 }
