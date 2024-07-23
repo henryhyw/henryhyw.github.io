@@ -265,20 +265,19 @@ function createFlashingHint() {
 
     // Function to toggle between the classes
     function toggleTipColor() {
-        if (hintParagraph.classList.contains("tipcolor-1")) {
-            hintParagraph.classList.remove("tipcolor-1");
-            hintParagraph.classList.add("tipcolor-2");
-        } else {
+        if (hintParagraph.classList.contains("tipcolor-2")) {
             hintParagraph.classList.remove("tipcolor-2");
             hintParagraph.classList.add("tipcolor-1");
+            setTimeout(function() {
+                if (!pressed) {
+                    hintParagraph.classList.remove("tipcolor-1");
+                    hintParagraph.classList.add("tipcolor-2");
+                }
+            }, 3000); // Change to "tipcolor-2" after 3 seconds
         }
     }
 
-    // Make the <p> element visible
-    hintParagraph.style.display = "block";
-
-    
-    // Set an interval to toggle the classes every 5000ms if compasspPressed is false
+    // Set an interval to toggle the classes every 4000ms if pressed is false
     const hintFlash = setInterval(function() {
         if (!pressed) {
             toggleTipColor();
@@ -418,7 +417,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                                 setTimeout(() => {
                                     createFlashingHint();
-                                }, 3000);
+                                });
                             }, 2000); // Match this duration with the color transition time (2 seconds)
                         }, 1000);
                     });
