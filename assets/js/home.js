@@ -249,7 +249,8 @@ function createFlashingHint() {
     var hintParagraph = document.createElement("small");
 
     // Set the class and style of the new <p> element
-    hintParagraph.className = "hint tipcolor-2";
+    hintParagraph.id = "hint";
+    hintParagraph.className = "tipcolor-2";
     hintParagraph.style.float = "right";
 
     // Set the text content of the new <p> element
@@ -282,8 +283,6 @@ function createFlashingHint() {
         if (!pressed) {
             toggleTipColor();
         } else {
-            hintParagraph.classList.remove("tipcolor-1");
-            hintParagraph.classList.add("tipcolor-2");
             clearInterval(hintFlash); // Clear the interval
         }
     }, 6000);
@@ -294,6 +293,15 @@ document.getElementById('compassIcon').addEventListener('click', switchVideoSour
 
 document.getElementById('compassIcon').addEventListener('click', function() {
     pressed = true;
+    const hintParagraph = document.getElementById('hint');
+    hintParagraph.style.transition = 'font-size 0.5s';
+    hintParagraph.classList.remove("tipcolor-2");
+    hintParagraph.classList.add("tipcolor-1");
+    hintParagraph.style.fontSize = '16';
+    hintParagraph.style.fontSize = '13';
+    hintParagraph.classList.remove("tipcolor-1");
+    hintParagraph.classList.add("tipcolor-2");
+
     pressCount++;
     
     // Calculate new angle and duration based on the number of presses
