@@ -24,7 +24,10 @@ video{
     width: 45%;
     height: 100%;
     opacity: 0;
-    background: #AFB4B9;
+/*    background: #AFB4B9;*/
+    background-image: url('{{ site.github.url }}/assets/img/travel.jpg'); /* Set your image path here */
+    background-size: cover; /* Ensure the image covers the entire overlay */
+    background-position: center; /* Center the image */
     transition: 0.25s ease-in-out;
     pointer-events: none;
 }
