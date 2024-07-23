@@ -229,7 +229,9 @@ function switchVideoSource() {
             videoOverlay.style.background = '';
             // Change the source and load the new video
             videoElement.pause(); // Pause the video before changing the source
+            console.log(videoElement.querySelector('source').src);
             videoElement.querySelector('source').src = newVideoSource.src;
+            console.log(videoElement.querySelector('source').src);
             videoElement.load(); // Load the new video source
 
             // Restart the flip animation for the second half of the transition
