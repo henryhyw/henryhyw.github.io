@@ -194,9 +194,9 @@ video{
 
 .tipcolor-1 {
     color: #999999;
-    transition: color 0.5s;
+    transition: color 1s;
 }
 .tipcolor-2 {
-    color: #000000;
-    transition: color 0.5s;
+    color: #ffffff;
+    transition: color 1s;
 }

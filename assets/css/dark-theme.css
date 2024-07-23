@@ -119,9 +119,7 @@ body.dark-mode .footer, a {
 
 body.dark-mode .tipcolor-1 {
     color: #666666;
-    transition: color 0.5s;
 }
 body.dark-mode .tipcolor-2 {
     color: #000000;
-    transition: color 0.5s;
 }

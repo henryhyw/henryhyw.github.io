@@ -276,8 +276,8 @@ function createFlashingHint() {
     // Make the <p> element visible
     hintParagraph.style.display = "block";
 
-    // Set an interval to toggle the classes every 500ms
-    setInterval(toggleTipColor, 500);
+    // Set an interval to toggle the classes every 5000ms
+    setInterval(toggleTipColor, 5000);
 }
 
 // Event listener for compass icon click to switch video sources
