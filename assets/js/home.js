@@ -294,7 +294,7 @@ document.addEventListener("DOMContentLoaded", function() {
     videoElement.appendChild(sourceElement);
 
     // Append the video element to the container
-    document.getElementById('image-left container').appendChild(videoElement);
+    document.getElementById('image-left container').insertBefore(videoElement, container.firstChild);
 
     setTimeout(() => {
         // Mute/unmute button
