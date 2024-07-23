@@ -63,7 +63,7 @@ function adjustTitle() {
 }
 
 function adjustSubtitle() {
-    const videoElement = document.getElementById('videoElement');
+    let videoElement = document.getElementById('videoElement');
     const imageElement = document.getElementById('imageElement');
     const titleElement = document.getElementById('welcomeTitle');
     const subtitleElement = document.getElementById('welcomeSubtitle');
@@ -203,7 +203,7 @@ function checkVideoCompatibility() {
 
 // Function to switch video sources with a flip effect
 function switchVideoSource() {
-    const videoElement = document.getElementById('videoElement');
+    let videoElement = document.getElementById('videoElement');
     const currentSourceElement = videoElement.querySelector('source');
     const currentSource = currentSourceElement.getAttribute('src');
 
@@ -264,6 +264,7 @@ window.onload = () => {
 };
 
 document.addEventListener("DOMContentLoaded", function() {
+    console.log(1)
     videoSources.forEach(videoData => {
         const video = document.createElement('video');
         video.src = videoData.src;
@@ -283,7 +284,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     adjustSubtitle();
 
-    const videoElement = document.getElementById('videoElement');
+    let videoElement = document.getElementById('videoElement');
     const fallbackImage = document.getElementById('imageElement');
     checkVideoCompatibility();
 
@@ -361,7 +362,7 @@ window.onresize = () => {
 };
 
 // Mute/unmute button
-const videoElement = document.getElementById('videoElement');
+let videoElement = document.getElementById('videoElement');
 videoElement.addEventListener('click', () => {
     videoElement.muted = !videoElement.muted;
 });
