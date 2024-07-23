@@ -201,7 +201,7 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 // Function to switch video sources with a flip effect
 function switchVideoSource() {
     const videoElement = document.getElementById('videoElement');
-    const newSource = "/assets/vid/travel2.mp4"; // The new video source path
+    const newSource = "/assets/vid/home2.mp4"; // The new video source path
 
     // Apply flip effect
     videoElement.classList.add('flip');
