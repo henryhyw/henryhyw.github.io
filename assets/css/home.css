@@ -194,11 +194,11 @@ video{
 
 .tipcolor-1 {
     color: #999999;
-    transition: color 1s;
+    transition: color 1.5s;
     font-size: 13px;
 }
 .tipcolor-2 {
     color: #ffffff;
-    transition: color 1s;
+    transition: color 1.5s;
     font-size: 13px;
 }

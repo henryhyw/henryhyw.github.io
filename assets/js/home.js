@@ -273,7 +273,7 @@ function createFlashingHint() {
                     hintParagraph.classList.remove("tipcolor-1");
                     hintParagraph.classList.add("tipcolor-2");
                 }
-            }, 3000); // Change to "tipcolor-2" after 3 seconds
+            }, 4000); // Change to "tipcolor-2" after 3 seconds
         }
     }
 
@@ -286,7 +286,7 @@ function createFlashingHint() {
             hintParagraph.classList.add("tipcolor-2");
             clearInterval(hintFlash); // Clear the interval
         }
-    }, 4000);
+    }, 6000);
 }
 
 // Event listener for compass icon click to switch video sources
