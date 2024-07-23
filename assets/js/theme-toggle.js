@@ -74,7 +74,38 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Toggle theme on button click
     toggleThemeBtn.addEventListener('click', () => {
+        // Function to check if an element's color changed from black to white
+        function isColorChangeBlackToWhite(oldColor, newColor) {
+            const black = 'rgb(0, 0, 0)';
+            const white = 'rgb(255, 255, 255)';
+            return oldColor === black && newColor === white;
+        }
+
+        // Function to observe color changes on elements
+        function observeColorChanges(element) {
+            let oldColor = getComputedStyle(element).color;
+
+            const observer = new MutationObserver(mutations => {
+                mutations.forEach(mutation => {
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
+                        const newColor = getComputedStyle(element).color;
+                        if (isColorChangeBlackToWhite(oldColor, newColor)) {
+                            console.log(`Color changed from black to white on element:`, element);
+                        }
+                        oldColor = newColor;
+                    }
+                });
+            });
+
+            observer.observe(element, { attributes: true, attributeFilter: ['style'] });
+        }
+
+        // Select all elements to observe
         const allElements = document.querySelectorAll('*');
+        allElements.forEach(element => {
+            observeColorChanges(element);
+        });
+
         // Loop through each element and add the 'toggling-theme' class
         allElements.forEach(element => {
             element.classList.add('toggling-theme');
