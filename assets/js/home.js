@@ -246,7 +246,7 @@ function switchVideoSource() {
 
 function createFlashingHint() {
     // Create a new <p> element
-    var hintParagraph = document.createElement("p");
+    var hintParagraph = document.createElement("small");
 
     // Set the class and style of the new <p> element
     hintParagraph.className = "hint tipcolor-2";
@@ -283,7 +283,7 @@ function createFlashingHint() {
         if (!pressed) {
             toggleTipColor();
         }
-    }, 5000);
+    }, 4000);
 }
 
 // Event listener for compass icon click to switch video sources
