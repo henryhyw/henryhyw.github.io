@@ -29,7 +29,7 @@ function getCanvasFont(el) {
 }
 
 function adjustTitle() {
-    const videoElement = document.getElementById('videoElement');
+    let videoElement = document.getElementById('videoElement');
     const imageElement = document.getElementById('imageElement');
     const titleElement = document.getElementById('welcomeTitle');
     const subtitleElement = document.getElementById('welcomeSubtitle');
