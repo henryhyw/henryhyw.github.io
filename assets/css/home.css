@@ -171,11 +171,11 @@ video{
 }
 
 .flip {
-    animation: flip 1s forwards;
+    animation: flip 1s ease-in-out forwards;
 }
 
 .flip2 {
-    animation: flip2 1s forwards;
+    animation: flip2 1s ease-in-out forwards;
 }
 
 #compassIcon {
