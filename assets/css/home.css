@@ -191,3 +191,12 @@ video{
     --shake-angle: 10deg; /* Initial shake angle */
     --shake-duration: 0.5s; /* Initial shake duration */
 }
+
+.tipcolor-1 {
+    color: #999999;
+    transition: color 0.5s;
+}
+.tipcolor-2 {
+    color: #000000;
+    transition: color 0.5s;
+}

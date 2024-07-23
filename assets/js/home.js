@@ -243,6 +243,43 @@ function switchVideoSource() {
     }, { once: true });
 }
 
+function createFlashingHint() {
+    // Create a new <p> element
+    var hintParagraph = document.createElement("p");
+
+    // Set the class and style of the new <p> element
+    hintParagraph.className = "hint tipcolor-2";
+    hintParagraph.style.float = "right";
+
+    // Set the text content of the new <p> element
+    hintParagraph.textContent = "Click the compass!";
+
+    // Find the element with the class "header"
+    var headerElement = document.querySelector(".header");
+
+    // Append the new <p> element to the header element
+    if (headerElement) {
+        headerElement.appendChild(hintParagraph);
+    }
+
+    // Function to toggle between the classes
+    function toggleTipColor() {
+        if (hintParagraph.classList.contains("tipcolor-1")) {
+            hintParagraph.classList.remove("tipcolor-1");
+            hintParagraph.classList.add("tipcolor-2");
+        } else {
+            hintParagraph.classList.remove("tipcolor-2");
+            hintParagraph.classList.add("tipcolor-1");
+        }
+    }
+
+    // Make the <p> element visible
+    hintParagraph.style.display = "block";
+
+    // Set an interval to toggle the classes every 500ms
+    setInterval(toggleTipColor, 500);
+}
+
 // Event listener for compass icon click to switch video sources
 document.getElementById('compassIcon').addEventListener('click', switchVideoSource);
 
@@ -367,6 +404,28 @@ document.addEventListener("DOMContentLoaded", function() {
                                     element.style.transition = 'color 0.5s';
                                 });
                                 quoteElement.style.transition = 'color 0.5s';
+
+                                // Create a new <p> element
+                                var hintParagraph = document.createElement("p");
+
+                                // Set the class and style of the new <p> element
+                                hintParagraph.className = "hint";
+                                hintParagraph.style.display = "none";
+
+                                // Set the text content of the new <p> element
+                                hintParagraph.textContent = "Click the compass!";
+
+                                // Find the element with the class "header"
+                                var headerElement = document.querySelector(".header");
+
+                                // Append the new <p> element to the header element
+                                if (headerElement) {
+                                    headerElement.appendChild(hintParagraph);
+                                }
+
+                                setTimeout(() => {
+                                    createFlashingHint();
+                                }, 4000);
                             }, 2000); // Match this duration with the color transition time (2 seconds)
                         }, 1000);
                     });
