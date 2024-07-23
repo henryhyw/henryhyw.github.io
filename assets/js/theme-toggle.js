@@ -2,6 +2,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const toggleThemeBtn = document.getElementById('toggle-theme');
     const toggleIcon = toggleThemeBtn.querySelector('i');
 
+    // Function to update the color of all elements with the class 'typed' based on the theme
+    function updateTypedElementsColor() {
+        const typedElements = document.querySelectorAll('.typed');
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        const textColor = isDarkMode ? '#fafafa' : '#252525';
+
+        typedElements.forEach(element => {
+            element.style.color = textColor;
+        });
+
+        console.log(`Updated color of ${typedElements.length} elements to ${textColor}`);
+    }
+
     // Function to load visitor map script dynamically
     function loadVisitorMap() {
         try {
@@ -61,46 +74,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Toggle theme on button click
     toggleThemeBtn.addEventListener('click', () => {
-        // Select all elements to observe
-        const allElements = document.querySelectorAll('*');
-        // Loop through each element and add the 'toggling-theme' class
-        allElements.forEach(element => {
-            element.classList.add('toggling-theme');
-        });
-
-        function toggleColors() {
-            const allElements = document.querySelectorAll('*');
-
-            allElements.forEach(element => {
-                const style = window.getComputedStyle(element);
-
-                // Check and toggle text color
-                if (style.color === 'rgb(0, 0, 0)') { // black color
-                    element.style.color = 'white';
-                } else if (style.color === 'rgb(255, 255, 255)') { // white color
-                    element.style.color = 'black';
-                }
-
-                // Check and toggle background color
-                if (style.backgroundColor === 'rgb(0, 0, 0)') { // black background
-                    element.style.backgroundColor = 'white';
-                } else if (style.backgroundColor === 'rgb(255, 255, 255)') { // white background
-                    element.style.backgroundColor = 'black';
-                }
-            });
-        }
-
-        // Use setTimeout to ensure the transition has time to start
-        setTimeout(() => {
-            // Loop through each element again and remove the 'toggling-theme' class
-            allElements.forEach(element => {
-                element.classList.remove('toggling-theme');
-            });
-        }, 2000); // 2 seconds delay to match the transition duration
-
-        // Call the function to toggle the colors
-        toggleColors();
-
         const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
         applyTheme(newTheme);
