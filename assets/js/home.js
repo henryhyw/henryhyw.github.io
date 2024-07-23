@@ -265,17 +265,16 @@ window.onload = () => {
 };
 
 document.addEventListener("DOMContentLoaded", function() {
-    console.log(1)
-    videoSources.forEach(videoData => {
-        const video = document.createElement('video');
-        video.src = videoData.src;
-        video.preload = 'auto';
-        video.autoplay = true;
-        video.loop = true;
-        video.muted = true;
-        video.style.display = 'none'; // Hide the video element
-        document.body.appendChild(video);
-    });
+    // videoSources.forEach(videoData => {
+    //     const video = document.createElement('video');
+    //     video.src = videoData.src;
+    //     video.preload = 'auto';
+    //     video.autoplay = true;
+    //     video.loop = true;
+    //     video.muted = true;
+    //     video.style.display = 'none'; // Hide the video element
+    //     document.body.appendChild(video);
+    // });
     updateSubtitle();
     adjustTitle();
     const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
@@ -285,9 +284,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     adjustSubtitle();
 
-    console.log(2)
     checkVideoCompatibility();
-    console.log(3)
 
     let fadeOutApplied = false;
     const videoOverlay = document.getElementById('videoOverlay');
