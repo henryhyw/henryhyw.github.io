@@ -83,9 +83,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
         applyTheme(newTheme);
         localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
-        // Loop through each element again and remove the 'toggling-theme' class
-        allElements.forEach(element => {
-            element.classList.remove('toggling-theme');
-        });
+        // Use setTimeout to ensure the transition has time to start
+        setTimeout(() => {
+            // Loop through each element again and remove the 'toggling-theme' class
+            allElements.forEach(element => {
+                element.classList.remove('toggling-theme');
+            });
+        }, 2000); // 2 seconds delay to match the transition duration
     });
 });
