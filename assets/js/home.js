@@ -221,11 +221,11 @@ function switchVideoSource() {
         videoElement.play();
 
         // Add the flip class back to complete the flip animation
-        videoElement.classList.add('flip');
+        videoElement.classList.add('flip2');
 
         // Ensure the flip class is removed after the animation completes
         videoElement.addEventListener('animationend', () => {
-            videoElement.classList.remove('flip');
+            videoElement.classList.remove('flip2');
         }, { once: true });
     }, { once: true });
 }

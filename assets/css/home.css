@@ -157,20 +157,23 @@ video{
     0% {
         transform: perspective(800px) rotateY(0deg);
     }
-    50% {
-        transform: perspective(800px) rotateY(45deg);
-    }
     100% {
         transform: perspective(800px) rotateY(90deg);
     }
 }
 
-.flip {
-    animation: flip 1s forwards;
+/* Add flip transition */
+@keyframes flip2 {
+    0% {
+        transform: perspective(800px) rotateY(90deg);
+    }
+    100% {
+        transform: perspective(800px) rotateY(180deg);
+    }
 }
 
-.hidden {
-    display: none;
+.flip, .flip2 {
+    animation: flip 1s forwards;
 }
 
 #compassIcon {
