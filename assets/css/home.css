@@ -158,10 +158,10 @@ video{
         transform: perspective(800px) rotateY(0deg);
     }
     50% {
-        transform: perspective(800px) rotateY(90deg);
+        transform: perspective(800px) rotateY(45deg);
     }
     100% {
-        transform: perspective(800px) rotateY(180deg);
+        transform: perspective(800px) rotateY(90deg);
     }
 }
 
