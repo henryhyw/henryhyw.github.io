@@ -1,6 +1,7 @@
 let shakeQueue = [];
 let isShaking = false;
 let pressCount = 0;
+let pressed = false;
 const maxAngle = 90; // Maximum angle to prevent excessive shaking
 const maxDuration = 0.3; // Minimum duration to prevent excessive speed
 let resetTimeout;
@@ -276,14 +277,20 @@ function createFlashingHint() {
     // Make the <p> element visible
     hintParagraph.style.display = "block";
 
-    // Set an interval to toggle the classes every 5000ms
-    setInterval(toggleTipColor, 5000);
+    
+    // Set an interval to toggle the classes every 5000ms if compasspPressed is false
+    setInterval(function() {
+        if (!pressed) {
+            toggleTipColor();
+        }
+    }, 5000);
 }
 
 // Event listener for compass icon click to switch video sources
 document.getElementById('compassIcon').addEventListener('click', switchVideoSource);
 
 document.getElementById('compassIcon').addEventListener('click', function() {
+    pressed = true;
     pressCount++;
     
     // Calculate new angle and duration based on the number of presses
