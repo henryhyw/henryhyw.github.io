@@ -194,18 +194,6 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     setTimeout(() => {
         pressCount = 0;
     }, 6000);
-
-    // Flip transition and video source change
-    const videoElement = document.getElementById('videoElement');
-    const newVideoSource = '/assets/vid/new_travel.mp4'; // Path to the new video
-
-    videoElement.classList.add('flip');
-    setTimeout(() => {
-        videoElement.pause(); // Pause the current video
-        videoElement.src = newVideoSource; // Change the video source
-        videoElement.load(); // Load the new video
-        videoElement.play(); // Play the new video
-    }, 500); // Halfway point of the flip animation (adjust if necessary)
 });
 
 window.onload = () => {
