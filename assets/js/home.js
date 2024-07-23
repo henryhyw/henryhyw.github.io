@@ -265,12 +265,15 @@ function switchVideoSource() {
     // Select the new video source and cursor using the new index
     const newVideoSource = videoSources[newIndex];
 
+    videoElement.autoplay = false;
+
     // Apply flip effect
     videoElement.classList.remove('flip2');
     videoElement.classList.add('flip');
 
     // Listen for the midpoint of the flip to change the source
     videoElement.addEventListener('animationend', () => {
+        videoElement.autoplay = true;
         // Change the source and load the new video
         videoElement.pause(); // Pause the video before changing the source
         videoElement.querySelector('source').src = newVideoSource.src;
