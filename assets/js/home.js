@@ -255,7 +255,7 @@ function createFlashingHint() {
     hintParagraph.textContent = "Click the compass!";
 
     // Find the element with the class "header"
-    var headerElement = document.querySelector("head .header");
+    var headerElement = document.querySelector(".header-title");
 
     // Append the new <p> element to the header element
     if (headerElement) {
