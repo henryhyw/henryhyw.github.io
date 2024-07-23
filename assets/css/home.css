@@ -182,7 +182,7 @@ video{
     }
 }
 
-.flip, flip2 {
+.flip, .flip2 {
     animation: flip 1s forwards;
 }
 
