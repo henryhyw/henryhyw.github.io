@@ -183,6 +183,10 @@ video{
     animation: flip 1s forwards;
 }
 
+.hidden {
+    display: none;
+}
+
 #compassIcon {
     --shake-angle: 10deg; /* Initial shake angle */
     --shake-duration: 0.5s; /* Initial shake duration */

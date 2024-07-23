@@ -201,27 +201,39 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 // Function to switch video sources with a flip effect
 function switchVideoSource() {
     const videoElement = document.getElementById('videoElement');
-    const newSource = "/assets/vid/home2.mp4"; // The new video source path
+    const newSource = "/assets/vid/travel2.mp4"; // The new video source path
 
     // Apply flip effect
     videoElement.classList.add('flip');
 
     // Listen for the midpoint of the flip to change the source
     videoElement.addEventListener('animationend', () => {
+        // Change the source and load the new video
         videoElement.pause(); // Pause the video before changing the source
         videoElement.querySelector('source').src = newSource;
         videoElement.load(); // Load the new video source
-        videoElement.play(); // Play the new video source
 
-        // Remove the flip class to reset for future use
+        // Restart the flip animation for the second half of the transition
         videoElement.classList.remove('flip');
+        void videoElement.offsetWidth; // Trigger reflow to restart animation
+
+        // Play the new video source
+        videoElement.play();
+
+        // Add the flip class back to complete the flip animation
+        videoElement.classList.add('flip');
+
+        // Ensure the flip class is removed after the animation completes
+        videoElement.addEventListener('animationend', () => {
+            videoElement.classList.remove('flip');
+        }, { once: true });
     }, { once: true });
 }
 
 // Event listener for compass icon click to switch video sources
 document.getElementById('compassIcon').addEventListener('click', switchVideoSource);
 
-// Ensure both videos are loaded
+// Ensure the video is loaded on page load
 window.onload = () => {
     updateSubtitle();
     adjustTitle();
