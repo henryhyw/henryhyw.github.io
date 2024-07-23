@@ -39,6 +39,10 @@ body.dark-mode pre {
     color: #fafafa; /* Reverse text color to light grey */
 }
 
+body.dark-mode .container {
+    background-color: #000000; /* Darker background for container */
+}
+
 body.dark-mode .header-title a,
 body.dark-mode .header-subtitle,
 body.dark-mode .menu-content a,
