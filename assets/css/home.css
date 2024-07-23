@@ -11,6 +11,8 @@ html, body {
 video, .fallback-image {
     max-width: 45%;
     height: auto;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
 }
 
 video{
