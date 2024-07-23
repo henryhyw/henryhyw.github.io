@@ -12,9 +12,9 @@ title:
 
 <div class="image-left container" style="margin: auto;">
    <video id="videoElement" style="opacity: 0;" muted autoplay loop playsinline>
-      <source src="/assets/vid/travel.mp4" type="video/mp4">
+      <source src="/assets/vid/home1.mp4" type="video/mp4">
    </video>
-   <img id="imageElement" src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="display: none;">
+   <img id="imageElement" src="/assets/img/home1.jpg" alt="Travel" class="fallback-image" style="display: none;">
    <div class="video-overlay" id="videoverlay"></div>
    <div class="welcome-text">
       <h1 id="welcomeTitle" style="color: transparent;">WELC<span id="compassContainer"><i class="far fa-compass" id="compassIcon"></i></span>ME</h1>

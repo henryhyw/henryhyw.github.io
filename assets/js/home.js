@@ -194,6 +194,17 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     setTimeout(() => {
         pressCount = 0;
     }, 6000);
+
+    // Flip transition and video source change
+    const videoElement = document.getElementById('videoElement');
+    const newVideoSource = '/assets/vid/home2.mp4'; // Path to the new video
+
+    videoElement.classList.add('flip');
+    setTimeout(() => {
+        videoElement.src = newVideoSource;
+        videoElement.play();
+        videoElement.classList.remove('flip');
+    }, 500); // Duration of the flip transition
 });
 
 window.onload = () => {

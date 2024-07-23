@@ -153,6 +153,22 @@ video{
     animation: rotate-shake var(--shake-duration) infinite;
 }
 
+@keyframes flip {
+    0% {
+        transform: perspective(600px) rotateY(0deg);
+    }
+    50% {
+        transform: perspective(600px) rotateY(180deg);
+    }
+    100% {
+        transform: perspective(600px) rotateY(360deg);
+    }
+}
+
+.flip {
+    animation: flip 1s forwards;
+}
+
 #compassIcon {
     --shake-angle: 10deg; /* Initial shake angle */
     --shake-duration: 0.5s; /* Initial shake duration */
