@@ -203,7 +203,8 @@ function checkVideoCompatibility() {
     currentSourceElement.setAttribute('class', newSource.class);
 
     setTimeout(() => {
-        videoElement.style.transition = 'opacity 3s ease-in-out';
+        videoElement.autoplay = 'true';
+        videoElement.style.transition = 'opacity 2s ease-in-out';
         videoElement.style.opacity = '';
     });
 
