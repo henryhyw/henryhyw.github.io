@@ -405,24 +405,6 @@ document.addEventListener("DOMContentLoaded", function() {
                                 });
                                 quoteElement.style.transition = 'color 0.5s';
 
-                                // Create a new <p> element
-                                var hintParagraph = document.createElement("p");
-
-                                // Set the class and style of the new <p> element
-                                hintParagraph.className = "hint";
-                                hintParagraph.style.display = "none";
-
-                                // Set the text content of the new <p> element
-                                hintParagraph.textContent = "Click the compass!";
-
-                                // Find the element with the class "header"
-                                var headerElement = document.querySelector(".header");
-
-                                // Append the new <p> element to the header element
-                                if (headerElement) {
-                                    headerElement.appendChild(hintParagraph);
-                                }
-
                                 setTimeout(() => {
                                     createFlashingHint();
                                 }, 4000);
