@@ -11,8 +11,6 @@ html, body {
 video, .fallback-image {
     max-width: 45%;
     height: auto;
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
 }
 
 video{
@@ -165,10 +163,10 @@ video{
 
 @keyframes flip2 {
     0% {
-        transform: perspective(800px) rotateY(90deg);
+        transform: perspective(800px) rotateY(270deg);
     }
     100% {
-        transform: perspective(800px) rotateY(180deg);
+        transform: perspective(800px) rotateY(360deg);
     }
 }
 
