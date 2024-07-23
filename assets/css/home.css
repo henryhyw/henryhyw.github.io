@@ -23,6 +23,7 @@ video{
     left: 0;
     width: 45%;
     height: 100%;
+    opacity: 0;
     background: #AFB4B9;
     transition: 0.25s ease-in-out;
     pointer-events: none;

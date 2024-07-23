@@ -14,8 +14,8 @@ title:
    <video id="videoElement" style="opacity: 0;" muted autoplay loop playsinline>
       <source src="/assets/vid/travel.mp4" type="video/mp4">
    </video>
-   <div class="video-overlay" id="videoOverlay"></div>
    <img id="imageElement" src="/assets/img/travel.jpg" alt="Travel" class="fallback-image" style="display: none;">
+   <div class="video-overlay" id="videoverlay"></div>
    <div class="welcome-text">
       <h1 id="welcomeTitle" style="color: transparent;">WELC<span id="compassContainer"><i class="far fa-compass" id="compassIcon"></i></span>ME</h1>
       <h2 id="welcomeSubtitle">Hello! I'm Han-yu (Henry), a junior at HKU, majoring in AI. I love to explore new places and code apps. I'm excited to have you here and ready to share my journey with you!</h2>
