@@ -11,42 +11,6 @@ title:
 <script src="/assets/js/home.js" defer></script>
 
 <div class="image-left container" id="image-left container" style="margin: auto;">
-   <script>
-        const videoSources = [
-            { src: "/assets/vid/home1.mp4", class: "homevideo1" },
-            { src: "/assets/vid/home2.mp4", class: "homevideo2" },
-            { src: "/assets/vid/home3.mp4", class: "homevideo3" }
-        ];
-
-        // Generate a random index between 0 and the length of the array minus 1
-        const randomIndex = Math.floor(Math.random() * videoSources.length);
-        console.log(randomIndex+1);
-
-        // Select a random video source from the array
-        let source = videoSources[randomIndex];
-
-        // Create a new video element
-        let videoElement = document.createElement('video');
-        videoElement.setAttribute('id', 'videoElement');
-        videoElement.setAttribute('class', source.class);
-        videoElement.setAttribute('style', 'opacity: 0;');
-        videoElement.setAttribute('muted', '');
-        videoElement.setAttribute('autoplay', '');
-        videoElement.setAttribute('loop', '');
-        videoElement.setAttribute('playsinline', '');
-
-        // Create a new source element and set its attributes
-        let sourceElement = document.createElement('source');
-        sourceElement.setAttribute('src', source.src);
-        sourceElement.setAttribute('type', 'video/mp4');
-
-        // Append the source element to the video element
-        videoElement.appendChild(sourceElement);
-
-        // Append the video element to the container
-        document.getElementById('image-left container').appendChild(videoElement);
-        console.log("videoelement")
-    </script>
    <img id="imageElement" src="/assets/img/home1.jpg" alt="Travel" class="fallback-image" style="display: none;">
    <div class="video-overlay" id="videoOverlay"></div>
    <div class="welcome-text">

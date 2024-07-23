@@ -29,7 +29,7 @@ function getCanvasFont(el) {
 }
 
 function adjustTitle() {
-    videoElement = document.getElementById('videoElement');
+    const videoElement = document.getElementById('videoElement');
     const imageElement = document.getElementById('imageElement');
     const titleElement = document.getElementById('welcomeTitle');
     const subtitleElement = document.getElementById('welcomeSubtitle');
@@ -63,7 +63,7 @@ function adjustTitle() {
 }
 
 function adjustSubtitle() {
-    videoElement = document.getElementById('videoElement');
+    const videoElement = document.getElementById('videoElement');
     const imageElement = document.getElementById('imageElement');
     const titleElement = document.getElementById('welcomeTitle');
     const subtitleElement = document.getElementById('welcomeSubtitle');
@@ -181,30 +181,31 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 });
 
 function checkVideoCompatibility() {
+    const videoElement = document.createElement('video');
     const fallbackImage = document.getElementById('imageElement');
     videoElement.style.transition = 'opacity 2s ease-in-out';
     videoElement.style.opacity = '1';
 
-    // // Attempt to play the video, if it fails, switch to the fallback image
-    // videoElement.play().catch(() => {
-    //     videoElement.style.display = 'none';
-    //     fallbackImage.style.opacity = '0';
-    //     fallbackImage.style.display = 'block';
-    //     fallbackImage.style.opacity = 'opacity 4s ease-in-out';
-    //     fallbackImage.style.opacity = '';
-    //     adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
-    //     const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
-    //     if (isSmallScreen) {
-    //         document.getElementById('welcomeTitle').style.fontSize = '2em';
-    //         document.getElementById('compassIcon').style.fontSize = '1.1em';
-    //     }
-    //     adjustSubtitle();
-    // });
+    // Attempt to play the video, if it fails, switch to the fallback image
+    videoElement.play().catch(() => {
+        videoElement.style.display = 'none';
+        fallbackImage.style.opacity = '0';
+        fallbackImage.style.display = 'block';
+        fallbackImage.style.opacity = 'opacity 4s ease-in-out';
+        fallbackImage.style.opacity = '';
+        adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
+        const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
+        if (isSmallScreen) {
+            document.getElementById('welcomeTitle').style.fontSize = '2em';
+            document.getElementById('compassIcon').style.fontSize = '1.1em';
+        }
+        adjustSubtitle();
+    });
 }
 
 // Function to switch video sources with a flip effect
 function switchVideoSource() {
-    videoElement = document.getElementById('videoElement');
+    const videoElement = document.getElementById('videoElement');
     const currentSourceElement = videoElement.querySelector('source');
     const currentSource = currentSourceElement.getAttribute('src');
 
@@ -265,7 +266,40 @@ window.onload = () => {
 };
 
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("script")
+    const videoSources = [
+            { src: "/assets/vid/home1.mp4", class: "homevideo1" },
+            { src: "/assets/vid/home2.mp4", class: "homevideo2" },
+            { src: "/assets/vid/home3.mp4", class: "homevideo3" }
+        ];
+
+    // Generate a random index between 0 and the length of the array minus 1
+    const randomIndex = Math.floor(Math.random() * videoSources.length);
+    console.log(randomIndex+1);
+
+    // Select a random video source from the array
+    let source = videoSources[randomIndex];
+
+    // Create a new video element
+    const videoElement = document.createElement('video');
+    videoElement.setAttribute('id', 'videoElement');
+    videoElement.setAttribute('class', source.class);
+    videoElement.setAttribute('style', 'opacity: 0;');
+    videoElement.setAttribute('muted', '');
+    videoElement.setAttribute('autoplay', '');
+    videoElement.setAttribute('loop', '');
+    videoElement.setAttribute('playsinline', '');
+
+    // Create a new source element and set its attributes
+    let sourceElement = document.createElement('source');
+    sourceElement.setAttribute('src', source.src);
+    sourceElement.setAttribute('type', 'video/mp4');
+
+    // Append the source element to the video element
+    videoElement.appendChild(sourceElement);
+
+    // Append the video element to the container
+    document.getElementById('image-left container').appendChild(videoElement);
+
     videoSources.forEach(videoData => {
         const video = document.createElement('video');
         video.src = videoData.src;
@@ -361,7 +395,7 @@ window.onresize = () => {
 };
 
 // Mute/unmute button
-videoElement = document.getElementById('videoElement');
+const videoElement = document.getElementById('videoElement');
 videoElement.addEventListener('click', () => {
     videoElement.muted = !videoElement.muted;
 });
