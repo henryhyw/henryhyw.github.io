@@ -183,7 +183,7 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 function checkVideoCompatibility() {
     const fallbackImage = document.getElementById('imageElement');
     videoElement.style.transition = 'opacity 2s ease-in-out';
-    videoElement.style.opacity = '';
+    videoElement.style.opacity = '1';
 
     // Attempt to play the video, if it fails, switch to the fallback image
     videoElement.play().catch(() => {
