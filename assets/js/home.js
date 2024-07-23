@@ -208,11 +208,12 @@ window.onload = () => {
 
     const videoElement = document.getElementById('videoElement');
     const fallbackImage = document.getElementById('imageElement');
+    const videoOverlay = document.getElementById('videoOverlay');
     checkVideoCompatibility();
 
     let fadeOutApplied = false;
-    const videoOverlay = document.getElementById('videoOverlay');
     videoElement.style.transition = 'opacity 0.25s ease-in-out';
+    videoOverlay.style.transition = 'opacity 0.25s ease-in-out';
 
     videoElement.addEventListener('timeupdate', () => {
         const timeLeft = videoElement.duration - videoElement.currentTime;
