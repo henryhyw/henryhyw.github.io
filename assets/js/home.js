@@ -280,6 +280,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const videoElement = document.getElementById('videoElement');
     const currentSourceElement = videoElement.querySelector('source');
     videoElement.setAttribute('src', source.src)
+    videoElement.load();
 
     setTimeout(() => {
         // Mute/unmute button
