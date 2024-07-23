@@ -1,3 +1,16 @@
+let shakeQueue = [];
+let isShaking = false;
+let pressCount = 0;
+const maxAngle = 90; // Maximum angle to prevent excessive shaking
+const maxDuration = 0.3; // Minimum duration to prevent excessive speed
+let resetTimeout;
+
+const videoSources = [
+    { src: "/assets/vid/home1.mp4", class: "homevideo1" },
+    { src: "/assets/vid/home2.mp4", class: "homevideo2" },
+    { src: "/assets/vid/home3.mp4", class: "homevideo3" }
+];
+
 function updateSubtitle() {
     const subtitleElement = document.getElementById('welcomeSubtitle');
     const isMobile = window.matchMedia("(max-width: 768px)").matches;
@@ -134,14 +147,6 @@ function typeWriterEffect(text, element, delay = 100, callback) {
     type();
 }
 
-let shakeQueue = [];
-let isShaking = false;
-let pressCount = 0;
-const maxAngle = 90; // Maximum angle to prevent excessive shaking
-const maxDuration = 0.3; // Minimum duration to prevent excessive speed
-
-let resetTimeout;
-
 function processShakeQueue() {
     if (shakeQueue.length === 0 || isShaking) return;
     
@@ -183,12 +188,6 @@ function checkVideoCompatibility() {
     //     adjustSubtitle();
     // });
 }
-
-const videoSources = [
-    { src: "/assets/vid/home1.mp4", class: "homevideo1" },
-    { src: "/assets/vid/home2.mp4", class: "homevideo2" },
-    { src: "/assets/vid/home3.mp4", class: "homevideo3" }
-];
 
 // Function to switch video sources with a flip effect
 function switchVideoSource() {
@@ -347,7 +346,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
                         subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
 
-                        typeWriterEffect(subtitleText, subtitleElement, 50, () => {
+                        typeWriterEffect(subtitleText, subtitleElement, 30, () => {
                             subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
                             subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
                             subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
