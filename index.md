@@ -7,24 +7,6 @@ title:
   document.title = "Home | H.W.";
 </script>
 
-<script>
-   const videoSources = [
-    { src: "/assets/vid/home1.mp4", class: "homevideo1" },
-    { src: "/assets/vid/home2.mp4", class: "homevideo2" },
-    { src: "/assets/vid/home3.mp4", class: "homevideo3" }
-   ];
-    videoSources.forEach(videoData => {
-        const video = document.createElement('video');
-        video.src = videoData.src;
-        video.preload = 'auto';
-        video.autoplay = true;
-        video.loop = true;
-        video.muted = true;
-        video.style.display = 'none'; // Hide the video element
-        document.body.appendChild(video);
-    });
-</script>
-
 <link rel="stylesheet" href="/assets/css/home.css">
 <script src="/assets/js/home.js" defer></script>
 
@@ -75,3 +57,21 @@ title:
 <br>
 
 <h3 id="welcomeQuote" style="color: transparent;">Life is an endless adventure<br>into the unknown</h3>
+
+<script>
+   const videoSources = [
+    { src: "/assets/vid/home1.mp4", class: "homevideo1" },
+    { src: "/assets/vid/home2.mp4", class: "homevideo2" },
+    { src: "/assets/vid/home3.mp4", class: "homevideo3" }
+   ];
+    videoSources.forEach(videoData => {
+        const video = document.createElement('video');
+        video.src = videoData.src;
+        video.preload = 'auto';
+        video.autoplay = true;
+        video.loop = true;
+        video.muted = true;
+        video.style.display = 'none'; // Hide the video element
+        document.body.appendChild(video);
+    });
+</script>
