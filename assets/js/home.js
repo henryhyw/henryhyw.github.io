@@ -201,14 +201,14 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     }, 500);
 });
 
+const videoSources = [
+    "/assets/vid/home1.mp4",
+    "/assets/vid/home2.mp4",
+    "/assets/vid/home3.mp4"
+];
+
 // Function to preload videos
 function preloadVideos() {
-    const videoSources = [
-        "/assets/vid/home1.mp4",
-        "/assets/vid/home2.mp4",
-        "/assets/vid/home3.mp4"
-    ];
-
     videoSources.forEach(src => {
         const video = document.createElement('video');
         video.src = src;
@@ -221,11 +221,26 @@ function preloadVideos() {
 // Function to switch video sources with a flip effect
 function switchVideoSource() {
     const videoElement = document.getElementById('videoElement');
+    const currentSourceElement = videoElement.querySelector('source');
+    const currentSource = currentSourceElement.getAttribute('src');
 
-    // Generate a random number between 1 and 3
-    const randomNumber = Math.floor(Math.random() * 3) + 1;
-    // Construct the new video source path using the random number
-    const newSource = `/assets/vid/home${randomNumber}.mp4`;
+    // Find the index of the current video source
+    const currentIndex = videoSources.indexOf(currentSource);
+
+    // Function to get a new random index that is not the same as currentIndex
+    function getNewRandomIndex(excludeIndex, arrayLength) {
+        let newIndex;
+        do {
+            newIndex = Math.floor(Math.random() * arrayLength);
+        } while (newIndex === excludeIndex);
+        return newIndex;
+    }
+
+    // Get the new random index
+    const newIndex = getNewRandomIndex(currentIndex, videoSources.length);
+
+    // Construct the new video source path using the new index
+    const newSource = videoSources[newIndex];
 
     // Apply flip effect
     videoElement.classList.add('flip');
