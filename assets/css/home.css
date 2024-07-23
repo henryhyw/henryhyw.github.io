@@ -163,15 +163,6 @@ video{
 
 @keyframes flip2 {
     0% {
-        transform: perspective(800px) rotateY(0deg);
-    }
-    100% {
-        transform: perspective(800px) rotateY(90deg);
-    }
-}
-
-@keyframes flip3 {
-    0% {
         transform: perspective(800px) rotateY(90deg);
     }
     100% {
@@ -179,12 +170,12 @@ video{
     }
 }
 
-.flip, .flip3 {
+.flip {
     animation: flip 1s forwards;
 }
 
 .flip2 {
-    animation: flip 0s forwards;
+    animation: flip2 1s forwards;
 }
 
 #compassIcon {
