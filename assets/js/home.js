@@ -196,29 +196,30 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     }, 6000);
 });
 
+
+
 // Function to switch video sources with a flip effect
-function switchVideo() {
+function switchVideoSource() {
     const videoElement = document.getElementById('videoElement');
-    const videoElement2 = document.getElementById('videoElement2');
-    
+    const newSource = "/assets/vid/travel2.mp4"; // The new video source path
+
     // Apply flip effect
     videoElement.classList.add('flip');
-    videoElement2.classList.add('flip');
-    
-    // Listen for the animation end to switch visibility and opacity
+
+    // Listen for the midpoint of the flip to change the source
     videoElement.addEventListener('animationend', () => {
-        videoElement.style.display = 'none';
-        videoElement2.style.display = 'block';
-        videoElement2.style.opacity = '1';
-        
+        videoElement.pause(); // Pause the video before changing the source
+        videoElement.querySelector('source').src = newSource;
+        videoElement.load(); // Load the new video source
+        videoElement.play(); // Play the new video source
+
         // Remove the flip class to reset for future use
         videoElement.classList.remove('flip');
-        videoElement2.classList.remove('flip');
     }, { once: true });
 }
 
-// Event listener for compass icon click to switch videos
-document.getElementById('compassIcon').addEventListener('click', switchVideo);
+// Event listener for compass icon click to switch video sources
+document.getElementById('compassIcon').addEventListener('click', switchVideoSource);
 
 // Ensure both videos are loaded
 window.onload = () => {
@@ -232,11 +233,8 @@ window.onload = () => {
     adjustSubtitle();
 
     const videoElement = document.getElementById('videoElement');
-    const videoElement2 = document.getElementById('videoElement2');
     const fallbackImage = document.getElementById('imageElement');
     checkVideoCompatibility();
-
-    videoElement2.load(); // Preload the second video
 
     let fadeOutApplied = false;
     const videoOverlay = document.getElementById('videoOverlay');
@@ -310,7 +308,6 @@ window.onresize = () => {
     }
     adjustSubtitle();
 };
-
 
 // Mute/unmute button
 const videoElement = document.getElementById('videoElement');
