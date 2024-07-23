@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', (event) => {
+    const allElements = document.querySelectorAll('*');
+    // Loop through each element and add the 'toggling-theme' class
+    allElements.forEach(element => {
+        element.classList.add('toggling-theme');
+    });
     const toggleThemeBtn = document.getElementById('toggle-theme');
     const toggleIcon = toggleThemeBtn.querySelector('i');
 
@@ -78,5 +83,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
         applyTheme(newTheme);
         localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
+    });
+    // Loop through each element again and remove the 'toggling-theme' class
+    allElements.forEach(element => {
+        element.classList.remove('toggling-theme');
     });
 });
