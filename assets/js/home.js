@@ -161,25 +161,6 @@ function processShakeQueue() {
     }, newDuration * 1000);
 }
 
-document.getElementById('compassIcon').addEventListener('click', function() {
-    pressCount++;
-    
-    // Calculate new angle and duration based on the number of presses
-    let newAngle = Math.min(15 + pressCount * 6, maxAngle); // Increase angle by 5 degrees per press, up to maxAngle
-    let newDuration = Math.max(0.8 - pressCount * 0, maxDuration); // Decrease duration by 0.05s per press, down to maxDuration
-    
-    shakeQueue.push({ newAngle, newDuration });
-    processShakeQueue();
-    
-    // Clear any existing reset timeout
-    clearTimeout(resetTimeout);
-    
-    // Set a new reset timeout for 2 seconds
-    resetTimeout = setTimeout(() => {
-        pressCount = 0;
-    }, 500);
-});
-
 function checkVideoCompatibility() {
     const videoElement = document.getElementById('videoElement');
     const fallbackImage = document.getElementById('imageElement');
@@ -268,6 +249,25 @@ function switchVideoSource() {
 
 // Event listener for compass icon click to switch video sources
 document.getElementById('compassIcon').addEventListener('click', switchVideoSource);
+
+document.getElementById('compassIcon').addEventListener('click', function() {
+    pressCount++;
+    
+    // Calculate new angle and duration based on the number of presses
+    let newAngle = Math.min(15 + pressCount * 6, maxAngle); // Increase angle by 5 degrees per press, up to maxAngle
+    let newDuration = Math.max(0.8 - pressCount * 0, maxDuration); // Decrease duration by 0.05s per press, down to maxDuration
+    
+    shakeQueue.push({ newAngle, newDuration });
+    processShakeQueue();
+    
+    // Clear any existing reset timeout
+    clearTimeout(resetTimeout);
+    
+    // Set a new reset timeout for 2 seconds
+    resetTimeout = setTimeout(() => {
+        pressCount = 0;
+    }, 500);
+});
 
 document.addEventListener("DOMContentLoaded", function() {
     // Generate a random index between 0 and the length of the array minus 1
@@ -369,7 +369,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }, 1000);
             });
         }, 1000);
-    }, 200);
+    }, 1000);
 });
 
 window.onresize = () => {
