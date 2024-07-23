@@ -38,12 +38,12 @@ video{
         align-items: flex-start;
     }
 
-    .image-left video, .image-left .fallback-image {
+    .image-left .overlay {
         margin-right: 1.5em;
         float: left; /* fallback */
     }
 
-    .image-right video, .image-right .fallback-image {
+    .image-right .overlay {
         order: 1;
         margin-left: 1.5em;
         float: right; /* fallback */
