@@ -233,6 +233,8 @@ function switchVideoSource() {
     // Select the new video source and cursor using the new index
     const newVideoSource = videoSources[newIndex];
 
+    console.log(newVideoSource)
+
     videoElement.autoplay = false;
 
     // Apply flip effect
