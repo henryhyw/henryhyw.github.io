@@ -198,12 +198,14 @@ function checkVideoCompatibility() {
     const currentSourceElement = videoElement.querySelector('source');
 
     // Update the source element with the new video source
+    videoElement.pause(); // Pause the video before changing the source
     currentSourceElement.setAttribute('src', newSource.src);
+    // Play the new video source
+    videoElement.play();
     console.log(document.getElementById('videoElement').querySelector('source').getAttribute('src'))
     currentSourceElement.setAttribute('class', newSource.class);
 
     setTimeout(() => {
-        videoElement.autoplay = 'true';
         videoElement.style.transition = 'opacity 2s ease-in-out';
         videoElement.style.opacity = '';
     });
@@ -276,7 +278,6 @@ function switchVideoSource() {
 
         // Restart the flip animation for the second half of the transition
         videoElement.classList.remove('flip');
-        void videoElement.offsetWidth; // Trigger reflow to restart animation
 
         // Play the new video source
         videoElement.play();
