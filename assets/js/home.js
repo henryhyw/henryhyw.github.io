@@ -202,7 +202,7 @@ function checkVideoCompatibility() {
     currentSourceElement.setAttribute('src', newSource.src);
     // Play the new video source
     console.log(document.getElementById('videoElement').querySelector('source').getAttribute('src'))
-    currentSourceElement.setAttribute('class', newSource.class);
+    videoElement.setAttribute('class', newSource.class);
     console.log(document.getElementById('videoElement').getAttribute('class'))
     setTimeout(() => {
         // videoElement.play();
