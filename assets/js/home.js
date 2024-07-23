@@ -186,8 +186,8 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     pressCount++;
     
     // Calculate new angle and duration based on the number of presses
-    let newAngle = Math.min(15 + pressCount * 5, maxAngle); // Increase angle by 5 degrees per press, up to maxAngle
-    let newDuration = Math.max(0.8 - pressCount * 0.05, maxDuration); // Decrease duration by 0.05s per press, down to maxDuration
+    let newAngle = Math.min(10 + pressCount * 5, maxAngle); // Increase angle by 5 degrees per press, up to maxAngle
+    let newDuration = Math.max(0.8 - pressCount * 0.08, maxDuration); // Decrease duration by 0.05s per press, down to maxDuration
     
     shakeQueue.push({ newAngle, newDuration });
     processShakeQueue();
@@ -198,7 +198,7 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     // Set a new reset timeout for 2 seconds
     resetTimeout = setTimeout(() => {
         pressCount = 0;
-    }, 2000);
+    }, 500);
 });
 
 
