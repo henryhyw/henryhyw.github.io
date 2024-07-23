@@ -152,7 +152,6 @@ video{
     animation: rotate-shake var(--shake-duration) infinite;
 }
 
-/* Add flip transition */
 @keyframes flip {
     0% {
         transform: perspective(800px) rotateY(0deg);
@@ -162,8 +161,10 @@ video{
     }
 }
 
-/* Add flip transition */
 @keyframes flip2 {
+    0% {
+        transform: perspective(800px) rotateY(0deg);
+    }
     0% {
         transform: perspective(800px) rotateY(90deg);
     }
@@ -172,7 +173,16 @@ video{
     }
 }
 
-.flip, .flip2 {
+@keyframes flip3 {
+    0% {
+        transform: perspective(800px) rotateY(90deg);
+    }
+    100% {
+        transform: perspective(800px) rotateY(180deg);
+    }
+}
+
+.flip, flip2 {
     animation: flip 1s forwards;
 }
 
