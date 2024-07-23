@@ -201,11 +201,11 @@ function checkVideoCompatibility() {
     videoElement.pause(); // Pause the video before changing the source
     currentSourceElement.setAttribute('src', newSource.src);
     // Play the new video source
-    videoElement.play();
     console.log(document.getElementById('videoElement').querySelector('source').getAttribute('src'))
     currentSourceElement.setAttribute('class', newSource.class);
-
+    console.log(document.getElementById('videoElement').getAttribute('class'))
     setTimeout(() => {
+        videoElement.play();
         videoElement.style.transition = 'opacity 2s ease-in-out';
         videoElement.style.opacity = '';
     });
