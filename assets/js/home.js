@@ -181,7 +181,7 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 });
 
 function checkVideoCompatibility() {
-    const videoElement = document.createElement('video');
+    const videoElement = document.getElementById('videoElement');
     const fallbackImage = document.getElementById('imageElement');
     videoElement.style.transition = 'opacity 2s ease-in-out';
     videoElement.style.opacity = '1';
