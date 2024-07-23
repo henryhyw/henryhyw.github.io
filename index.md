@@ -11,10 +11,13 @@ title:
 <script src="/assets/js/home.js" defer></script>
 
 <div class="image-left container" style="margin: auto;">
-   <video id="videoElement" style="opacity: 0;" muted autoplay loop playsinline>
+   <video id="videoElement1" class="videoElement" style="opacity: 0;" muted autoplay loop playsinline>
       <source src="/assets/vid/home1.mp4" type="video/mp4">
    </video>
-   <img id="imageElement" src="/assets/img/home1.jpg" alt="Travel" class="fallback-image" style="display: none;">
+   <video id="videoElement2" class="videoElement" style="display: none; opacity: 0;" muted autoplay loop playsinline>
+      <source src="/assets/vid/home2.mp4" type="video/mp4">
+   </video>
+   <img id="imageElement" src="/assets/img/home.jpg" alt="Travel" class="fallback-image" style="display: none;">
    <div class="video-overlay" id="videoOverlay"></div>
    <div class="welcome-text">
       <h1 id="welcomeTitle" style="color: transparent;">WELC<span id="compassContainer"><i class="far fa-compass" id="compassIcon"></i></span>ME</h1>

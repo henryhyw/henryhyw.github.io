@@ -189,12 +189,43 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     
     shakeQueue.push({ newAngle, newDuration });
     processShakeQueue();
-    
+
+    // Switch video source with flip effect
+    switchVideoWithFlip();
+
     // Reset press count after a short delay to prevent excessive shaking
     setTimeout(() => {
         pressCount = 0;
     }, 6000);
 });
+
+function switchVideoWithFlip() {
+    const videoElement1 = document.getElementById('videoElement1');
+    const videoElement2 = document.getElementById('videoElement2');
+
+    if (videoElement1.style.display !== 'none') {
+        flipVideo(videoElement1, videoElement2);
+    } else {
+        flipVideo(videoElement2, videoElement1);
+    }
+}
+
+function flipVideo(currentVideo, nextVideo) {
+    currentVideo.style.transition = 'transform 0.6s';
+    currentVideo.style.transform = 'rotateY(90deg)';
+
+    setTimeout(() => {
+        currentVideo.style.display = 'none';
+        nextVideo.style.display = 'block';
+        nextVideo.style.transition = 'transform 0.6s';
+        nextVideo.style.transform = 'rotateY(-90deg)';
+
+        setTimeout(() => {
+            nextVideo.style.transform = 'rotateY(0deg)';
+            currentVideo.style.transform = 'rotateY(0deg)'; // Reset for next flip
+        }, 10);
+    }, 300);
+}
 
 window.onload = () => {
     updateSubtitle();
@@ -206,24 +237,25 @@ window.onload = () => {
     }
     adjustSubtitle();
 
-    const videoElement = document.getElementById('videoElement');
+    const videoElement1 = document.getElementById('videoElement1');
+    const videoElement2 = document.getElementById('videoElement2');
     const fallbackImage = document.getElementById('imageElement');
     checkVideoCompatibility();
 
     let fadeOutApplied = false;
     const videoOverlay = document.getElementById('videoOverlay');
-    videoElement.style.transition = 'opacity 0.25s ease-in-out';
-    videoElement.style.transition = 'opacity 0.25s ease-in-out';
+    videoElement1.style.transition = 'opacity 0.25s ease-in-out';
+    videoElement1.style.transition = 'opacity 0.25s ease-in-out';
 
-    videoElement.addEventListener('timeupdate', () => {
-        const timeLeft = videoElement.duration - videoElement.currentTime;
+    videoElement1.addEventListener('timeupdate', () => {
+        const timeLeft = videoElement1.duration - videoElement1.currentTime;
         if (timeLeft < 0.5 && !fadeOutApplied) { // Adjust the time threshold as needed
             videoOverlay.style.opacity = '1';
             fadeOutApplied = true;
         }
     });
 
-    videoElement.addEventListener('playing', () => {
+    videoElement1.addEventListener('playing', () => {
         videoOverlay.style.opacity = '0';
         fadeOutApplied = false; // Reset the flag when the video starts playing again
     });
@@ -284,7 +316,7 @@ window.onresize = () => {
 };
 
 // Mute/unmute button
-const videoElement = document.getElementById('videoElement');
-videoElement.addEventListener('click', () => {
-    videoElement.muted = !videoElement.muted;
+const videoElement1 = document.getElementById('videoElement1');
+videoElement1.addEventListener('click', () => {
+    videoElement1.muted = !videoElement1.muted;
 });
