@@ -207,8 +207,8 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 function switchVideoSource() {
     const videoElement = document.getElementById('videoElement');
 
-    // Generate a random number between 1 and 4
-    const randomNumber = Math.floor(Math.random() * 4) + 1;
+    // Generate a random number between 1 and 3
+    const randomNumber = Math.floor(Math.random() * 3) + 1;
     // Construct the new video source path using the random number
     const newSource = `/assets/vid/home${randomNumber}.mp4`;
 
