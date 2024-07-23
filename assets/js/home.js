@@ -245,7 +245,7 @@ function switchVideoSource() {
 }
 
 function createFlashingHint() {
-    // Create a new <p> element
+    // Create a new <small> element
     var hintParagraph = document.createElement("small");
 
     // Set the class and style of the new <p> element
@@ -253,8 +253,8 @@ function createFlashingHint() {
     hintParagraph.className = "tipcolor-2";
     hintParagraph.style.float = "right";
 
-    // Set the text content of the new <p> element
-    hintParagraph.textContent = "Click the compass!";
+    // Set the text content of the new element
+    hintParagraph.innerHTML = 'Click the <i class="far fa-compass"></i> compass!';
 
     // Find the element with the class "header"
     var headerElement = document.querySelector(".header-title");
