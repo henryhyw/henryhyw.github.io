@@ -299,7 +299,7 @@ function createFlashingHint() {
 
     // Set the class and style of the new <p> element
     hintParagraph.id = "hint";
-    hintParagraph.className = "tipcolor-1";
+    hintParagraph.className = "tipcolor-2";
     hintParagraph.style.float = "right";
 
     // Set the text content of the new element
@@ -312,6 +312,8 @@ function createFlashingHint() {
     if (headerElement) {
         headerElement.insertBefore(hintParagraph, headerElement.children[2] || null);
     }
+
+    hintParagraph.classList.add("tipcolor-1");
 
     const compassIcon = document.getElementById('compassIcon');
     compassIcon.style.transition = 'color 1.5s'
