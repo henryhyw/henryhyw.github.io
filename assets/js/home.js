@@ -361,10 +361,57 @@ function createFlashingHint() {
     }, 6000);
 }
 
-// Event listener for compass icon click to switch video sources
-document.getElementById('compassIcon').addEventListener('click', switchVideoSource);
+function displayWelcomeContent() {
+    const titleElement = document.getElementById('welcomeTitle');
+    titleElement.style.transition = 'color 2s';
+    titleElement.style.color = ''; // Reset to original color
+    const subtitleText = document.getElementById('welcomeSubtitle').textContent;
+    const subtitleElement = document.getElementById('welcomeSubtitle');
+    subtitleElement.style.textAlign = 'left'; // Initially set to left align
+    subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
+    subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
+
+    typeWriterEffect(subtitleText, subtitleElement, 30, () => {
+        subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
+        subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
+        subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
+
+        setTimeout(() => {
+            document.querySelectorAll('header *').forEach(element => {
+                element.style.transition = 'color 2s';
+                element.style.color = ''; // Reset to original color
+            });
+            document.querySelectorAll('footer *').forEach(element => {
+                element.style.transition = 'color 2s';
+                element.style.color = ''; // Reset to original color
+            });
+            const quoteElement = document.getElementById('welcomeQuote');
+            quoteElement.style.transition = 'color 2s';
+            quoteElement.style.color = ''; // Reset to original color
+
+            // Reset the transition property after the color transition is complete
+            setTimeout(() => {
+                document.querySelectorAll('header *').forEach(element => {
+                    element.style.transition = 'color 0.5s';
+                });
+                document.querySelectorAll('footer *').forEach(element => {
+                    element.style.transition = 'color 0.5s';
+                });
+
+                setTimeout(() => {
+                    createFlashingHint();
+                });
+            }, 2000); // Match this duration with the color transition time (2 seconds)
+        }, 1000);
+    });
+}
 
 document.getElementById('compassIcon').addEventListener('click', function() {
+
+    if (!noVideo) {
+        switchVideoSource();
+    }
+
     pressed = true;
     const compassIcon = document.getElementById('compassIcon');
     const hintParagraph = document.getElementById('hint');
@@ -421,48 +468,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     // });
 
                     setTimeout(() => {
-                        const titleElement = document.getElementById('welcomeTitle');
-                        titleElement.style.transition = 'color 2s';
-                        titleElement.style.color = ''; // Reset to original color
-                        const subtitleText = document.getElementById('welcomeSubtitle').textContent;
-                        const subtitleElement = document.getElementById('welcomeSubtitle');
-                        subtitleElement.style.textAlign = 'left'; // Initially set to left align
-                        subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
-                        subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
-
-                        typeWriterEffect(subtitleText, subtitleElement, 30, () => {
-                            subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
-                            subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
-                            subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
-
-                            setTimeout(() => {
-                                document.querySelectorAll('header *').forEach(element => {
-                                    element.style.transition = 'color 2s';
-                                    element.style.color = ''; // Reset to original color
-                                });
-                                document.querySelectorAll('footer *').forEach(element => {
-                                    element.style.transition = 'color 2s';
-                                    element.style.color = ''; // Reset to original color
-                                });
-                                const quoteElement = document.getElementById('welcomeQuote');
-                                quoteElement.style.transition = 'color 2s';
-                                quoteElement.style.color = ''; // Reset to original color
-
-                                // Reset the transition property after the color transition is complete
-                                setTimeout(() => {
-                                    document.querySelectorAll('header *').forEach(element => {
-                                        element.style.transition = 'color 0.5s';
-                                    });
-                                    document.querySelectorAll('footer *').forEach(element => {
-                                        element.style.transition = 'color 0.5s';
-                                    });
-
-                                    setTimeout(() => {
-                                        createFlashingHint();
-                                    });
-                                }, 2000); // Match this duration with the color transition time (2 seconds)
-                            }, 1000);
-                        });
+                        displayWelcomeContent();
                     }, 1000);
                 }
             }
@@ -478,48 +484,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     updateTitles();
 
                     setTimeout(() => {
-                        const titleElement = document.getElementById('welcomeTitle');
-                        titleElement.style.transition = 'color 2s';
-                        titleElement.style.color = ''; // Reset to original color
-                        const subtitleText = document.getElementById('welcomeSubtitle').textContent;
-                        const subtitleElement = document.getElementById('welcomeSubtitle');
-                        subtitleElement.style.textAlign = 'left'; // Initially set to left align
-                        subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
-                        subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
-
-                        typeWriterEffect(subtitleText, subtitleElement, 30, () => {
-                            subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
-                            subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
-                            subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
-
-                            setTimeout(() => {
-                                document.querySelectorAll('header *').forEach(element => {
-                                    element.style.transition = 'color 2s';
-                                    element.style.color = ''; // Reset to original color
-                                });
-                                document.querySelectorAll('footer *').forEach(element => {
-                                    element.style.transition = 'color 2s';
-                                    element.style.color = ''; // Reset to original color
-                                });
-                                const quoteElement = document.getElementById('welcomeQuote');
-                                quoteElement.style.transition = 'color 2s';
-                                quoteElement.style.color = ''; // Reset to original color
-
-                                // Reset the transition property after the color transition is complete
-                                setTimeout(() => {
-                                    document.querySelectorAll('header *').forEach(element => {
-                                        element.style.transition = 'color 0.5s';
-                                    });
-                                    document.querySelectorAll('footer *').forEach(element => {
-                                        element.style.transition = 'color 0.5s';
-                                    });
-
-                                    setTimeout(() => {
-                                        createFlashingHint();
-                                    });
-                                }, 2000); // Match this duration with the color transition time (2 seconds)
-                            }, 1000);
-                        });
+                        displayWelcomeContent();
                     }, 1000);
                 }
             }
@@ -528,11 +493,5 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 window.onresize = () => {
-    adjustTitle();
-    const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
-    if (isSmallScreen) {
-        document.getElementById('welcomeTitle').style.fontSize = '2em';
-        document.getElementById('compassIcon').style.fontSize = '1.1em';
-    }
-    adjustSubtitle();
+    updateTitles();
 };
