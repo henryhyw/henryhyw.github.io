@@ -532,5 +532,5 @@ window.onresize = () => {
         subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
         subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
         subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
-    }
+    });
 };
