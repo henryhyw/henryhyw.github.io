@@ -435,13 +435,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     // Mute/unmute button
                     videoElement.addEventListener('click', () => {
-                        try{
-                            videoElement.muted = !videoElement.muted;
-                        } catch {
-                        }
-                        if (videoElement.style.filter === 'grayscale(85%)') {
+                        if (videoElement.muted) {
+                            videoElement.muted = false;
                             videoElement.style.filter = 'grayscale(0%)';
                         } else {
+                            videoElement.muted = true;
                             videoElement.style.filter = 'grayscale(85%)';
                         }
                     });
