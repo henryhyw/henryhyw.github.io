@@ -413,15 +413,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
                             // Reset the transition property after the color transition is complete
                             setTimeout(() => {
-                                titleElement.style.transition = 'color 0.5s';
-                                subtitleElement.style.transition = 'color 0.5s';
                                 document.querySelectorAll('header *').forEach(element => {
                                     element.style.transition = 'color 0.5s';
                                 });
                                 document.querySelectorAll('footer *').forEach(element => {
                                     element.style.transition = 'color 0.5s';
                                 });
-                                quoteElement.style.transition = 'color 0.5s';
 
                                 setTimeout(() => {
                                     createFlashingHint();

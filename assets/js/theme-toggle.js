@@ -74,9 +74,24 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Toggle theme on button click
     toggleThemeBtn.addEventListener('click', () => {
+        document.querySelectorAll('header *').forEach(element => {
+            element.style.transition = 'color 2s';
+        });
+        document.querySelectorAll('footer *').forEach(element => {
+            element.style.transition = 'color 2s';
+        });
         const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
         applyTheme(newTheme);
         localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
+        // Use setTimeout to ensure the transition has time to start
+        setTimeout(() => {
+            document.querySelectorAll('header *').forEach(element => {
+                element.style.transition = 'color 0.5s';
+            });
+            document.querySelectorAll('footer *').forEach(element => {
+                element.style.transition = 'color 0.5s';
+            });
+        }, 2000); // 2 seconds delay to match the transition duration
     });
 });
