@@ -25,7 +25,7 @@ function changeVideoSource() {
     const videoElement = document.getElementById('videoElement');
     const currentSourceElement = videoElement.querySelector('source');
     currentSourceElement.setAttribute('src', source.src)
-    videoElement.classList.add(source.class);
+    videoElement.setAttribute('class', source.class);
     videoElement.load();
 }
 
