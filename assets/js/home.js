@@ -471,13 +471,13 @@ document.addEventListener("DOMContentLoaded", function() {
                             videoElement.style.filter = 'grayscale(0%)';
                             // Update the description content
                             const descriptionContentElement = document.getElementById('descriptionContent');
-                            descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><a>Click to silence and fade!</a>`;
+                            descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click to silence and fade!</p>`;
                         } else {
                             videoElement.muted = true;
                             videoElement.style.filter = 'grayscale(85%)';
                             // Update the description content
                             const descriptionContentElement = document.getElementById('descriptionContent');
-                            descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><a>Click to bring color and sound!</a>`;
+                            descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click to bring color and sound!</p>`;
                         }
                     });
 
