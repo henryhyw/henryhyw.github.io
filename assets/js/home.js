@@ -367,75 +367,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 checkVideoCompatibility();
 
-                // let fadeOutApplied = false;
-                // const videoOverlay = document.getElementById('videoOverlay');
-                // videoElement.style.transition = 'opacity 0.3s ease-in-out';
-                // videoOverlay.style.transition = 'opacity 0.3s ease-in-out';
-
-                // videoElement.addEventListener('timeupdate', () => {
-                //     const timeLeft = videoElement.duration - videoElement.currentTime;
-                //     if (timeLeft < 0.6 && !fadeOutApplied) { // Adjust the time threshold as needed
-                //         videoOverlay.style.opacity = '1';
-                //         fadeOutApplied = true;
-                //     }
-                // });
-
-                // videoElement.addEventListener('playing', () => {
-                //     videoOverlay.style.opacity = '0';
-                //     fadeOutApplied = false; // Reset the flag when the video starts playing again
-                // });
-
                 let fadeOutApplied = false;
-                let overlayWorks = false;
                 const videoOverlay = document.getElementById('videoOverlay');
-                const videoElement = document.getElementById('videoElement');
-
-                // Define transitions for video and overlay elements
                 videoElement.style.transition = 'opacity 0.3s ease-in-out';
                 videoOverlay.style.transition = 'opacity 0.3s ease-in-out';
 
-                // Function to reset overlay opacity
-                const resetOverlay = () => {
-                    videoOverlay.style.opacity = '0';
-                    fadeOutApplied = false; // Reset the flag when the video starts playing again
-                };
-
-                // Check if the overlay works properly
-                const checkOverlay = () => {
+                videoElement.addEventListener('timeupdate', () => {
                     const timeLeft = videoElement.duration - videoElement.currentTime;
-                    if (timeLeft < 0.6 && !fadeOutApplied) {
+                    if (timeLeft < 0.6 && !fadeOutApplied) { // Adjust the time threshold as needed
                         videoOverlay.style.opacity = '1';
                         fadeOutApplied = true;
-                    }
-                };
-
-                // Event listeners for video playback
-                videoElement.addEventListener('timeupdate', () => {
-                    if (overlayWorks) {
-                        checkOverlay();
                     }
                 });
 
                 videoElement.addEventListener('playing', () => {
-                    if (overlayWorks) {
-                        resetOverlay();
-                    }
+                    videoOverlay.style.opacity = '0';
+                    fadeOutApplied = false; // Reset the flag when the video starts playing again
                 });
-
-                // Function to test if the overlay works
-                const testOverlay = () => {
-                    videoOverlay.style.opacity = '1';
-                    setTimeout(() => {
-                        if (videoOverlay.style.opacity === '1') {
-                            overlayWorks = true;
-                        } else {
-                            overlayWorks = false;
-                        }
-                        resetOverlay(); // Reset the overlay opacity after the test
-                    }, 1000); // Adjust this timeout as needed to allow enough time for testing
-                };
-
-                testOverlay();
 
                 setTimeout(() => {
                     const titleElement = document.getElementById('welcomeTitle');
