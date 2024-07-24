@@ -1,7 +1,7 @@
 let shakeQueue = [];
 let isShaking = false;
 let pressCount = 0;
-let pressed = false;
+// let pressed = false;
 let resetTimeout;
 const maxAngle = 360; // Maximum angle to prevent excessive shaking
 const minDuration = 0.2; // Minimum duration to prevent excessive speed
@@ -354,13 +354,14 @@ function compassFlash() {
         }, 800);
     }
 
-    // Set an interval to toggle the classes every 4000ms if pressed is false
+    // Set an interval to toggle
     const hintFlash = setInterval(function() {
-        if (!pressed) {
-            toggleTipColor();
-        } else {
-            clearInterval(hintFlash); // Clear the interval
-        }
+        toggleTipColor();
+        // if (!pressed) {
+        //     toggleTipColor();
+        // } else {
+        //     clearInterval(hintFlash); // Clear the interval
+        // }
     }, 2400);
 }
 
