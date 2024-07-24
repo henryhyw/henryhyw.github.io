@@ -94,6 +94,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             document.querySelectorAll('footer *').forEach(element => {
                 element.style.transition = 'color 0.5s';
             });
-        }, 2000); // 2 seconds delay to match the transition duration
+        }, 3000); // 2 seconds delay to match the transition duration
     });
 });
