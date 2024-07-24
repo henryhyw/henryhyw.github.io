@@ -516,5 +516,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 window.onresize = () => {
     updateTitles();
+    const subtitleText = document.getElementById('welcomeSubtitle').textContent;
+    const subtitleElement = document.getElementById('welcomeSubtitle');
     typeWriterEffect(subtitleText, subtitleElement, 10, null)
 };
