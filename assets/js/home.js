@@ -397,7 +397,7 @@ function setupDescriptionOverlay() {
     const descriptionOverlay = document.querySelector('.description-overlay');
 
     videoElement.addEventListener('mouseenter', () => {
-        descriptionOverlay.style.opacity = '0.8';
+        descriptionOverlay.style.opacity = '0.5';
     });
 
     videoElement.addEventListener('mouseleave', () => {
