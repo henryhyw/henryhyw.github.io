@@ -191,7 +191,6 @@ video, #imageElement{
 #compassIcon {
     --shake-angle: 10deg; /* Initial shake angle */
     --shake-duration: 0.5s; /* Initial shake duration */
-    transition: color 1.5s;
 }
 
 .tipcolor-1 {

@@ -313,9 +313,11 @@ function createFlashingHint() {
         headerElement.insertBefore(hintParagraph, headerElement.children[2] || null);
     }
 
+    const compassIcon = document.getElementById('compassIcon');
+    compassIcon.style.transition = 'color 1.5s'
+
     // Function to toggle between the classes
     function toggleTipColor() {
-        const compassIcon = document.getElementById('compassIcon');
         compassIcon.classList.add("tipcolor-1");
         setTimeout(function() {
             compassIcon.classList.remove("tipcolor-1");
