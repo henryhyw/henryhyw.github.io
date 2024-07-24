@@ -297,7 +297,7 @@ function switchVideoSource() {
     }, { once: true });
 }
 
-function createFlashingHint() {
+function createHint() {
     // Create a new <small> element
     var hintParagraph = document.createElement("small");
 
@@ -316,7 +316,10 @@ function createFlashingHint() {
     if (headerElement) {
         headerElement.insertBefore(hintParagraph, headerElement.children[2] || null);
     }
+}
 
+function compassFlash() {
+    const hintParagraph = document.getElementById('hint');
     hintParagraph.classList.remove("tipcolor-2");
     hintParagraph.classList.add("tipcolor-1");
 
@@ -369,19 +372,22 @@ function displayWelcomeContent() {
             quoteElement.style.transition = 'color 2s';
             quoteElement.style.color = ''; // Reset to original color
 
-            createFlashingHint();
             const overlay = document.getElementById('overlay');
             overlay.style.pointerEvents = 'none'; // Disable pointer events to allow clicks
 
-            // Reset the transition property after the color transition is complete
             setTimeout(() => {
-                document.querySelectorAll('header *').forEach(element => {
-                    element.style.transition = 'color 0.5s';
-                });
-                document.querySelectorAll('footer *').forEach(element => {
-                    element.style.transition = 'color 0.5s';
-                });
-            }, 2000); // Match this duration with the color transition time (2 seconds)
+                compassFlash();
+
+                // Reset the transition property after the color transition is complete
+                setTimeout(() => {
+                    document.querySelectorAll('header *').forEach(element => {
+                        element.style.transition = 'color 0.5s';
+                    });
+                    document.querySelectorAll('footer *').forEach(element => {
+                        element.style.transition = 'color 0.5s';
+                    });
+                }, 2000); // Match this duration with the color transition time (2 seconds)
+            }, 1000);
         }, 1000);
     });
 }
@@ -435,6 +441,7 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
+
     changeVideoSource();
 
     const videoElement = document.getElementById('videoElement');
@@ -448,6 +455,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 // Check if the aspect ratio is approximately 9:16
                 if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
                     clearInterval(checkDimensions);
+
+                    createHint();
 
                     setupDescriptionOverlay();
                     updateTitles();

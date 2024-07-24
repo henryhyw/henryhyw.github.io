@@ -57,7 +57,6 @@ video, #imageElement{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 20%; /* Horizontal margin of 20% on both sides */
 }
 
 .description-content {
