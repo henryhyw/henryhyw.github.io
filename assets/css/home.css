@@ -63,13 +63,13 @@ video, #imageElement{
     text-align: center; /* Center text inside the content */
     color: white; /* Set text color to white for visibility */
     margin: 15%;
-    font-size: 2.5vw; /* Relative unit for responsiveness */
-    line-height: 4.5vw; /* Relative unit for responsiveness */
+    font-size: 25px;
+    line-height: 45px;
 }
 
 .description-content p {
-    font-size: 1.5vw; /* Relative unit for responsiveness */
-    line-height: 2vw; /* Relative unit for responsiveness */
+    font-size: 15px;
+    line-height: 20px;
 }
 
 /* Ensure the container's position is relative */
@@ -120,6 +120,14 @@ video, #imageElement{
 
     .welcome-text h2 {
         font-size: 1.05em;
+    }
+    .description-content {
+        font-size: 4vw; /* Larger font size for smaller screens */
+        line-height: 6vw; /* Adjust line height accordingly */
+    }
+
+    .description-content p {
+        font-size: 2.3vw; /* Larger font size for paragraphs */
     }
 }
 
