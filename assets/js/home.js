@@ -275,6 +275,7 @@ function switchVideoSource() {
     const newVideoSource = videoSources[newIndex];
 
     currentVideoSource = newVideoSource;
+    console.log(currentVideoSource.description)
 
     // Apply flip effect
     videoElement.classList.remove('flip2');
@@ -366,7 +367,7 @@ function displayWelcomeContent() {
     subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
     subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
 
-    typeWriterEffect(subtitleText, subtitleElement, 30, () => {
+    typeWriterEffect(subtitleText, subtitleElement, 20, () => {
         subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
         subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
         subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
