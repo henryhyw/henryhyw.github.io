@@ -31,7 +31,7 @@ video, #imageElement{
     transition: opacity 3s ease-in-out, filter 3s ease-in-out;
 }
 
-.video-overlay {
+.transition-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -41,6 +41,22 @@ video, #imageElement{
     background: #AFB4B9;
     pointer-events: none;
     z-index: 3000;
+}
+
+.discription-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 100%;
+    opacity: 0;
+    background: #AFB4B9;
+    pointer-events: none;
+    z-index: 4000;
+}
+
+.discription-overlay:hover {
+    opacity: 0.7;
 }
 
 /* Ensure the container's position is relative */
