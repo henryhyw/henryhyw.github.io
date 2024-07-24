@@ -294,11 +294,6 @@ document.getElementById('compassIcon').addEventListener('click', switchVideoSour
 document.getElementById('compassIcon').addEventListener('click', function() {
     pressed = true;
     const hintParagraph = document.getElementById('hint');
-    hintParagraph.style.transition = 'font-size 0.5s';
-    hintParagraph.classList.remove("tipcolor-2");
-    hintParagraph.classList.add("tipcolor-1");
-    hintParagraph.style.fontSize = '16';
-    hintParagraph.style.fontSize = '13';
     hintParagraph.classList.remove("tipcolor-1");
     hintParagraph.classList.add("tipcolor-2");
 
