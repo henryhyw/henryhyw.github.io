@@ -237,7 +237,6 @@ function checkVideoCompatibility() {
     videoElement.play();
     // Attempt to play the video, if it fails, switch to the fallback image
     videoElement.play().catch(() => {
-        alert("video not available")
         noVideo = true;
         videoElement.style.display = 'none';
         fallbackImage.style.opacity = '0';
