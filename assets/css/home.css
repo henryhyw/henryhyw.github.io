@@ -50,14 +50,15 @@ video, #imageElement{
     width: 45%;
     height: 100%;
     opacity: 0;
-    background: #AFB4B9;
+    background: #000000;
     pointer-events: none;
     z-index: 4000;
     transition: opacity 1s ease-in-out;
 }
 
-.description-overlay:hover {
-    opacity: 0.7;
+.videoelement:hover + .description-overlay,
+.videoelement:hover ~ .description-overlay {
+    opacity: 0.8;
 }
 
 /* Ensure the container's position is relative */
