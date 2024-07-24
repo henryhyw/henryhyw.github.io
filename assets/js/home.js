@@ -382,6 +382,19 @@ function displayWelcomeContent() {
     });
 }
 
+function setupDescriptionOverlay() {
+    const videoElement = document.querySelector('.videoElement');
+    const descriptionOverlay = document.querySelector('.description-overlay');
+
+    videoElement.addEventListener('mouseenter', () => {
+        descriptionOverlay.style.opacity = '0.8';
+    });
+
+    videoElement.addEventListener('mouseleave', () => {
+        descriptionOverlay.style.opacity = '0';
+    });
+}
+
 document.getElementById('compassIcon').addEventListener('click', function() {
 
     if (canPlayVideo) {
