@@ -275,7 +275,14 @@ function switchVideoSource() {
     const newVideoSource = videoSources[newIndex];
 
     currentVideoSource = newVideoSource;
-    console.log(currentVideoSource.description)
+    
+    if (videoElement.muted) {
+        const descriptionContentElement = document.getElementById('descriptionContent');
+        descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click to silence and fade!</p>`;
+    } else {
+        const descriptionContentElement = document.getElementById('descriptionContent');
+        descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click for color and sound!</p>`;
+    }
 
     // Apply flip effect
     videoElement.classList.remove('flip2');
