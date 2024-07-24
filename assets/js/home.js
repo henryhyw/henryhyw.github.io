@@ -334,8 +334,8 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 document.addEventListener("DOMContentLoaded", function() {
     var ua = navigator.userAgent;
     weixin =  /MQQBrowser/.test(ua) || /QQBrowser/.test(ua);
-    alert.(weixin);
-    
+    alert(weixin);
+
     // Generate a random index between 0 and the length of the array minus 1
     const randomIndex = Math.floor(Math.random() * videoSources.length);
     console.log(randomIndex+1);
