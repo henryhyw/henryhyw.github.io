@@ -34,7 +34,7 @@ function changeVideoSource() {
 
     // Update the description content
     const descriptionContentElement = document.getElementById('descriptionContent');
-    descriptionContentElement.innerHTML = `${source.description}<br><a>Click to bring color and sound!</a>`;
+    descriptionContentElement.innerHTML = `${source.description}<br><a>Click for color and sound!</a>`;
 }
 
 function preloadVideos() {
@@ -477,7 +477,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             videoElement.style.filter = 'grayscale(85%)';
                             // Update the description content
                             const descriptionContentElement = document.getElementById('descriptionContent');
-                            descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click to bring color and sound!</p>`;
+                            descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click for color and sound!</p>`;
                         }
                     });
 
