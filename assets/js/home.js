@@ -6,7 +6,7 @@ let resetTimeout;
 const maxAngle = 90; // Maximum angle to prevent excessive shaking
 const maxDuration = 0.3; // Minimum duration to prevent excessive speed
 
-const noVideo = false;
+let noVideo = false;
 
 const videoSources = [
     { src: "/assets/vid/home1.mp4", class: "homevideo1" },
