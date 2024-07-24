@@ -22,8 +22,8 @@ video, .fallback-image {
     height: auto;
 }
 
-video{
-    filter: brightness(100%) grayscale(85%); /* Make the video darker and grayscale */
+video, image{
+    filter: grayscale(85%);
 }
 
 .video-overlay {
