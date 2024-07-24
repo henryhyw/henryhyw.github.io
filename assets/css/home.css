@@ -63,10 +63,11 @@ video, #imageElement{
     text-align: center; /* Center text inside the content */
     color: white; /* Set text color to white for visibility */
     margin: 15%;
-    font-size: 20px;
+    font-size: 25px;
+    line-height: 45px;
 }
 
-.description-content a {
+.description-content p {
     font-size: 16px;
 }
 
