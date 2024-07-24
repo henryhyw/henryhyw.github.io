@@ -387,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 });
 
                 videoElement.addEventListener('timeupdate', () => {
-                    if (videoElement.currentTime >0.5 && videoElement.currentTime <1.5 ) {
+                    if (videoElement.currentTime >0.2 && videoElement.currentTime <1.2 ) {
                         videoOverlay.style.opacity = '0';
                         fadeOutApplied = false; // Reset the flag when the video starts playing again
                     }
