@@ -6,7 +6,7 @@ let resetTimeout;
 const maxAngle = 90; // Maximum angle to prevent excessive shaking
 const maxDuration = 0.3; // Minimum duration to prevent excessive speed
 
-let noVideo = false;
+let canPlayVideo = true;
 
 const videoSources = [
     { src: "/assets/vid/home1.mp4", class: "homevideo1" },
@@ -234,28 +234,6 @@ function processShakeQueue() {
     }, newDuration * 1000);
 }
 
-function checkVideoCompatibility() {
-    const videoElement = document.getElementById('videoElement');
-    const fallbackImage = document.getElementById('imageElement');
-    videoElement.style.transition = 'opacity 3s ease-in-out';
-    videoElement.style.opacity = '1';
-    videoElement.play();
-    // Attempt to play the video, if it fails, switch to the fallback image
-    videoElement.play().catch(() => {
-        alert("set to true")
-        noVideo = true;
-        videoElement.style.display = 'none';
-        fallbackImage.style.display = 'block';
-        // adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
-        // const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
-        // if (isSmallScreen) {
-        //     document.getElementById('welcomeTitle').style.fontSize = '2em';
-        //     document.getElementById('compassIcon').style.fontSize = '1.1em';
-        // }
-        // adjustSubtitle();
-    });
-}
-
 function switchVideoSource() {
     const videoElement = document.getElementById('videoElement');
     const videoOverlay = document.getElementById('videoOverlay');
@@ -401,7 +379,7 @@ function displayWelcomeContent() {
 
 document.getElementById('compassIcon').addEventListener('click', function() {
 
-    if (!noVideo) {
+    if (canPlayVideo) {
         switchVideoSource();
     }
 
@@ -435,55 +413,58 @@ document.addEventListener("DOMContentLoaded", function() {
 
     checkVideoCompatibility();
 
-    setTimeout(() => {
-        alert(noVideo);
-        if (!noVideo){
-            const checkDimensions = setInterval(function() {
-                if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
-                    const aspectRatio = videoElement.videoWidth / videoElement.videoHeight;
-                    // Check if the aspect ratio is approximately 9:16
-                    if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
-                        clearInterval(checkDimensions);
+    const videoElement = document.getElementById('videoElement');
+    const fallbackImage = document.getElementById('imageElement');
+    videoElement.style.transition = 'opacity 3s ease-in-out';
+    videoElement.style.opacity = '1';
+    // Attempt to play the video
+    videoElement.play().then(() => {
+        const checkDimensions = setInterval(function() {
+            if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
+                const aspectRatio = videoElement.videoWidth / videoElement.videoHeight;
+                // Check if the aspect ratio is approximately 9:16
+                if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
+                    clearInterval(checkDimensions);
 
-                        updateTitles();
+                    updateTitles();
 
-                        // Mute/unmute button
-                        videoElement.addEventListener('click', () => {
-                            videoElement.muted = !videoElement.muted;
-                        });
+                    // Mute/unmute button
+                    videoElement.addEventListener('click', () => {
+                        videoElement.muted = !videoElement.muted;
+                    });
 
-                        preloadVideos();
+                    preloadVideos();
 
-                        videoTransition();
+                    videoTransition();
 
-                        setTimeout(() => {
-                            displayWelcomeContent();
-                        }, 1000);
-                    }
+                    setTimeout(() => {
+                        displayWelcomeContent();
+                    }, 1000);
                 }
-            }, 100); // Check every 100ms until dimensions are available
-        } else {
-            alert("a");
-            const checkDimensions = setInterval(function() {
-                if (imageElement.naturalWidth > 0 && imageElement.naturalHeight > 0) {
-                    const aspectRatio = imageElement.naturalWidth / imageElement.naturalHeight;
-                    // Check if the aspect ratio is approximately 9:16
-                    if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
-                        alert("b");
-                        clearInterval(checkDimensions);
+            }
+        }, 100); // Check every 100ms until dimensions are available
+    }).catch((error) => {
+        console.error('Error playing video:', error);
+        canPlayVideo = false;
+        videoElement.style.display = 'none';
+        fallbackImage.style.display = 'block';
+        const checkDimensions = setInterval(function() {
+            if (imageElement.naturalWidth > 0 && imageElement.naturalHeight > 0) {
+                const aspectRatio = imageElement.naturalWidth / imageElement.naturalHeight;
+                // Check if the aspect ratio is approximately 9:16
+                if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
+                    clearInterval(checkDimensions);
 
-                        updateTitles();
-                        alert("c");
+                    updateTitles();
 
-                        setTimeout(() => {
-                            alert("d");
-                            displayWelcomeContent();
-                        }, 1000);
-                    }
+                    setTimeout(() => {
+                        alert("d");
+                        displayWelcomeContent();
+                    }, 1000);
                 }
-            }, 100); // Check every 100ms until dimensions are available
-        }
-    }
+            }
+        }, 100); // Check every 100ms until dimensions are available
+    });
 });
 
 window.onresize = () => {
