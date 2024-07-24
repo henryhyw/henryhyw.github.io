@@ -9,9 +9,9 @@ const minDuration = 0.2; // Minimum duration to prevent excessive speed
 let canPlayVideo = true;
 
 const videoSources = [
-    { src: "/assets/vid/home1.mp4", class: "homevideo1", description: "home video 1" },
-    { src: "/assets/vid/home2.mp4", class: "homevideo2", description: "home video 2" },
-    { src: "/assets/vid/home3.mp4", class: "homevideo3", description: "home video 3" }
+    { src: "/assets/vid/home1.mp4", class: "homevideo1", description: "Sunbathing, beers, and ocean breezes on the Mediterranean!" },
+    { src: "/assets/vid/home2.mp4", class: "homevideo2", description: "A cat strolling on the ancient stone steps, shot in Athens." },
+    { src: "/assets/vid/home3.mp4", class: "homevideo3", description: "Ducks enjoying a swim by the oceanside, weaving between the boats." }
 ];
 
 let currentVideoSource = videoSources[0];

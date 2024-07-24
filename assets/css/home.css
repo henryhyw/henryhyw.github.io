@@ -62,6 +62,7 @@ video, #imageElement{
 .description-content {
     text-align: center; /* Center text inside the content */
     color: white; /* Set text color to white for visibility */
+    margin: 15%;
 }
 
 /* Ensure the container's position is relative */
