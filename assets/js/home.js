@@ -378,12 +378,19 @@ document.addEventListener("DOMContentLoaded", function() {
                         videoOverlay.style.opacity = '1';
                         fadeOutApplied = true;
                     }
+                    const hintFlash = setInterval(function() {
+                        if (videoElement.currentTime = 0) {
+                            videoOverlay.style.opacity = '0';
+                            fadeOutApplied = false; // Reset the flag when the video starts playing again
+                            clearInterval(hintFlash);
+                        }
+                    }, 100);
                 });
 
-                videoElement.addEventListener('playing', () => {
-                    videoOverlay.style.opacity = '0';
-                    fadeOutApplied = false; // Reset the flag when the video starts playing again
-                });
+                // videoElement.addEventListener('playing', () => {
+                //     videoOverlay.style.opacity = '0';
+                //     fadeOutApplied = false; // Reset the flag when the video starts playing again
+                // });
 
                 setTimeout(() => {
                     const titleElement = document.getElementById('welcomeTitle');
