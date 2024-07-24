@@ -6,7 +6,7 @@ let resetTimeout;
 const maxAngle = 90; // Maximum angle to prevent excessive shaking
 const maxDuration = 0.3; // Minimum duration to prevent excessive speed
 
-let noVideo = false;
+const noVideo = false;
 
 const videoSources = [
     { src: "/assets/vid/home1.mp4", class: "homevideo1" },
@@ -436,6 +436,8 @@ document.addEventListener("DOMContentLoaded", function() {
     changeVideoSource();
 
     checkVideoCompatibility();
+
+    alert(noVideo);
 
     if (!noVideo){
         const checkDimensions = setInterval(function() {
