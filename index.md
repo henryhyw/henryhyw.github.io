@@ -15,7 +15,7 @@ title:
       <source src="/assets/vid/home1.mp4" type="video/mp4">
       Your browser does not support this website.
    </video>
-   <img id="imageElement" src="/assets/img/home1.jpg" alt="Travel" class="fallback-image" style="display: none;">
+   <img id="imageElement" src="/assets/img/home1.jpg" alt="Travel" class="fallback-image" style="display: none; opacity: 0;">
    <div class="video-overlay" id="videoOverlay"></div>
    <div class="flip-overlay" id="flipOverlay"></div>
    <div class="welcome-text">

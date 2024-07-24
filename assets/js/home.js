@@ -452,6 +452,8 @@ document.addEventListener("DOMContentLoaded", function() {
         canPlayVideo = false;
         videoElement.style.display = 'none';
         fallbackImage.style.display = 'block';
+        fallbackImage.style.transition = 'opacity 3s ease-in-out'
+        fallbackImage.style.opacity = '1';
         const checkDimensions = setInterval(function() {
             if (imageElement.naturalWidth > 0 && imageElement.naturalHeight > 0) {
                 const aspectRatio = imageElement.naturalWidth / imageElement.naturalHeight;
