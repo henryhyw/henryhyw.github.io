@@ -92,10 +92,6 @@
     }
 
     musicIcon.addEventListener("click", function() {
-      try{
-        videoElement.muted = !videoElement.muted;
-      } catch {
-      }
       if (music.paused) {
         if (!music.src) {
           playRandomSong();
