@@ -323,7 +323,7 @@ function createFlashingHint() {
 
     // Set the class and style of the new <p> element
     hintParagraph.id = "hint";
-    hintParagraph.className = "tipcolor-2";
+    hintParagraph.className = "tipcolor-1";
     hintParagraph.style.float = "right";
 
     // Set the text content of the new element
@@ -340,19 +340,10 @@ function createFlashingHint() {
     // Function to toggle between the classes
     function toggleTipColor() {
         const compassIcon = document.getElementById('compassIcon');
-        if (hintParagraph.classList.contains("tipcolor-2")) {
-            compassIcon.classList.remove("tipcolor-2");
-            compassIcon.classList.add("tipcolor-1");
-            hintParagraph.classList.remove("tipcolor-2");
-            hintParagraph.classList.add("tipcolor-1");
-            setTimeout(function() {
-                if (!pressed) {
-                    compassIcon.classList.add("tipcolor-2");
-                    hintParagraph.classList.remove("tipcolor-1");
-                    hintParagraph.classList.add("tipcolor-2");
-                }
-            }, 4000); // Change to "tipcolor-2" after 3 seconds
-        }
+        compassIcon.classList.add("tipcolor-1");
+        setTimeout(function() {
+            compassIcon.classList.remove("tipcolor-1");
+        }, 4000);
     }
 
     // Set an interval to toggle the classes every 4000ms if pressed is false
@@ -362,7 +353,7 @@ function createFlashingHint() {
         } else {
             clearInterval(hintFlash); // Clear the interval
         }
-    }, 6000);
+    }, 5500);
 }
 
 function displayWelcomeContent() {
@@ -421,7 +412,6 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     const hintParagraph = document.getElementById('hint');
     compassIcon.classList.remove("tipcolor-1");
     compassIcon.classList.remove("tipcolor-2");
-    hintParagraph.classList.remove("tipcolor-1");
     hintParagraph.classList.add("tipcolor-2");
 
     pressCount++;
