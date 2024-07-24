@@ -12,8 +12,8 @@ let currentTimeoutId; // Variable to store the current timeout ID
 
 const videoSources = [
     { src: "/assets/vid/home1.mp4", class: "homevideo1", description: "Sunbathing, beers, and ocean breezes on the Mediterranean!" },
-    { src: "/assets/vid/home2.mp4", class: "homevideo2", description: "A cat strolling on the ancient stone steps, shot in Athens." },
-    { src: "/assets/vid/home3.mp4", class: "homevideo3", description: "Ducks enjoying a swim by the oceanside, weaving between the boats." }
+    { src: "/assets/vid/home2.mp4", class: "homevideo2", description: "Ducks enjoying a swim by the oceanside, weaving between the boats." },
+    { src: "/assets/vid/home3.mp4", class: "homevideo3", description: "A cat strolling on the ancient stone steps, shot in Athens." }
 ];
 
 let currentVideoSource = videoSources[0];
@@ -274,6 +274,8 @@ function switchVideoSource() {
     // Select the new video source and cursor using the new index
     const newVideoSource = videoSources[newIndex];
 
+    currentVideoSource = newVideoSource;
+
     // Apply flip effect
     videoElement.classList.remove('flip2');
     videoElement.classList.add('flip');
@@ -528,7 +530,7 @@ window.onresize = () => {
     subtitleElement.style.textAlign = 'left'; // Initially set to left align
     subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
     subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
-    typeWriterEffect(subtitleText, subtitleElement, 10, () => {
+    typeWriterEffect(subtitleText, subtitleElement, 5, () => {
         subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
         subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
         subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
