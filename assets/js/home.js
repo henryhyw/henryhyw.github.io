@@ -299,6 +299,7 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     pressed = true;
     const compassIcon = document.getElementById('compassIcon');
     const hintParagraph = document.getElementById('hint');
+    compassIcon.classList.remove("tipcolor-1");
     compassIcon.classList.remove("tipcolor-2");
     hintParagraph.classList.remove("tipcolor-1");
     hintParagraph.classList.add("tipcolor-2");
