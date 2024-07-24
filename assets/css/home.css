@@ -22,7 +22,7 @@ video, .fallback-image {
     height: auto;
 }
 
-video, img{
+video, #imageElement{
     filter: grayscale(85%);
 }
 
