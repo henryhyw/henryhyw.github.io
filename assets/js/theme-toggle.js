@@ -11,8 +11,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         typedElements.forEach(element => {
             element.style.color = textColor;
         });
-
-        console.log(`Updated color of ${typedElements.length} elements to ${textColor}`);
     }
 
     // Function to load visitor map script dynamically
@@ -40,7 +38,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             // Append the script to the visitor map container
             visitorMapContainer.appendChild(script);
         } catch (error) {
-            console.log(error.message);
         }
     }
 

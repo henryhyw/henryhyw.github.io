@@ -25,8 +25,6 @@ function changeVideoSource() {
     // Select a random video source from the array
     const source = videoSources[randomIndex];
 
-    console.log(source.description);
-
     currentVideoSource = source;
 
     const videoElement = document.getElementById('videoElement');
