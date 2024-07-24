@@ -324,7 +324,7 @@ function createFlashingHint() {
         compassIcon.classList.add("tipcolor-1");
         setTimeout(function() {
             compassIcon.classList.remove("tipcolor-1");
-        }, 1500);
+        }, 2000);
     }
 
     // Set an interval to toggle the classes every 4000ms if pressed is false
