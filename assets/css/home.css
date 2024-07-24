@@ -26,8 +26,7 @@ video{
     filter: brightness(100%) grayscale(85%); /* Make the video darker and grayscale */
 }
 
-.video-overlay,
-.flip-overlay {
+.video-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -36,10 +35,6 @@ video{
     opacity: 0;
     background: #AFB4B9;
     pointer-events: none;
-}
-
-.flip-overlay {
-    opacity: 0.3;
 }
 
 /* Ensure the container's position is relative */
