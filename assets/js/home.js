@@ -435,10 +435,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     }, 1000); // Adjust this timeout as needed to allow enough time for testing
                 };
 
-                // Call the test function when the document is ready
-                document.addEventListener('DOMContentLoaded', () => {
-                    testOverlay();
-                });
+                testOverlay();
 
                 setTimeout(() => {
                     const titleElement = document.getElementById('welcomeTitle');
