@@ -387,7 +387,7 @@ function displayWelcomeContent() {
 }
 
 function setupDescriptionOverlay() {
-    const videoElement = document.querySelector('.videoElement');
+    const videoElement = document.getElementById('videoElement');
     const descriptionOverlay = document.querySelector('.description-overlay');
 
     videoElement.addEventListener('mouseenter', () => {
