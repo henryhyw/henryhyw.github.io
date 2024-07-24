@@ -4,7 +4,7 @@ let pressCount = 0;
 let pressed = false;
 let resetTimeout;
 const maxAngle = 180; // Maximum angle to prevent excessive shaking
-const maxDuration = 0.3; // Minimum duration to prevent excessive speed
+const minDuration = 0.1; // Minimum duration to prevent excessive speed
 
 let canPlayVideo = true;
 
@@ -399,7 +399,7 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     
     // Calculate new angle and duration based on the number of presses
     let newAngle = Math.min(15 + pressCount * 6, maxAngle); // Increase angle by 5 degrees per press, up to maxAngle
-    let newDuration = Math.max(0.8 - pressCount * 0, maxDuration); // Decrease duration by 0.05s per press, down to maxDuration
+    let newDuration = Math.max(0.8 - pressCount * 0.05, minDuration); // Decrease duration by 0.05s per press, down to minDuration
     
     shakeQueue.push({ newAngle, newDuration });
     processShakeQueue();
