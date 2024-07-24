@@ -329,7 +329,7 @@ function createFlashingHint() {
         } else {
             clearInterval(hintFlash); // Clear the interval
         }
-    }, 5500);
+    }, 6000);
 }
 
 function displayWelcomeContent() {
@@ -456,7 +456,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     updateTitles();
 
                     setTimeout(() => {
-                        alert("d");
                         displayWelcomeContent();
                     }, 1000);
                 }
