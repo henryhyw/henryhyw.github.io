@@ -435,53 +435,54 @@ document.addEventListener("DOMContentLoaded", function() {
 
     checkVideoCompatibility();
 
-    alert(noVideo);
+    setTimeout(() => {
+        alert(noVideo);
+        if (!noVideo){
+            const checkDimensions = setInterval(function() {
+                if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
+                    const aspectRatio = videoElement.videoWidth / videoElement.videoHeight;
+                    // Check if the aspect ratio is approximately 9:16
+                    if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
+                        clearInterval(checkDimensions);
 
-    if (!noVideo){
-        const checkDimensions = setInterval(function() {
-            if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
-                const aspectRatio = videoElement.videoWidth / videoElement.videoHeight;
-                // Check if the aspect ratio is approximately 9:16
-                if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
-                    clearInterval(checkDimensions);
+                        updateTitles();
 
-                    updateTitles();
+                        // Mute/unmute button
+                        videoElement.addEventListener('click', () => {
+                            videoElement.muted = !videoElement.muted;
+                        });
 
-                    // Mute/unmute button
-                    videoElement.addEventListener('click', () => {
-                        videoElement.muted = !videoElement.muted;
-                    });
+                        preloadVideos();
 
-                    preloadVideos();
+                        videoTransition();
 
-                    videoTransition();
-
-                    setTimeout(() => {
-                        displayWelcomeContent();
-                    }, 1000);
+                        setTimeout(() => {
+                            displayWelcomeContent();
+                        }, 1000);
+                    }
                 }
-            }
-        }, 100); // Check every 100ms until dimensions are available
-    } else {
-        alert("a");
-        const checkDimensions = setInterval(function() {
-            if (imageElement.naturalWidth > 0 && imageElement.naturalHeight > 0) {
-                const aspectRatio = imageElement.naturalWidth / imageElement.naturalHeight;
-                // Check if the aspect ratio is approximately 9:16
-                if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
-                    alert("b");
-                    clearInterval(checkDimensions);
+            }, 100); // Check every 100ms until dimensions are available
+        } else {
+            alert("a");
+            const checkDimensions = setInterval(function() {
+                if (imageElement.naturalWidth > 0 && imageElement.naturalHeight > 0) {
+                    const aspectRatio = imageElement.naturalWidth / imageElement.naturalHeight;
+                    // Check if the aspect ratio is approximately 9:16
+                    if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
+                        alert("b");
+                        clearInterval(checkDimensions);
 
-                    updateTitles();
-                    alert("c");
+                        updateTitles();
+                        alert("c");
 
-                    setTimeout(() => {
-                        alert("d");
-                        displayWelcomeContent();
-                    }, 1000);
+                        setTimeout(() => {
+                            alert("d");
+                            displayWelcomeContent();
+                        }, 1000);
+                    }
                 }
-            }
-        }, 100); // Check every 100ms until dimensions are available
+            }, 100); // Check every 100ms until dimensions are available
+        }
     }
 });
 
