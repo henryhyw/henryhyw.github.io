@@ -166,6 +166,12 @@ function updateTitles() {
         document.getElementById('compassIcon').style.fontSize = '1.1em';
     }
     adjustSubtitle();
+    
+    // Ensure subtitle color is consistent with the theme
+    const subtitleElement = document.getElementById('welcomeSubtitle');
+    const isDarkMode = document.body.classList.contains('dark-mode');
+    const textColor = isDarkMode ? '#fafafa' : '#252525'; // Change text color based on theme
+    subtitleElement.style.color = textColor;
 }
 
 function typeWriterEffect(text, element, delay = 100, callback) {
