@@ -19,10 +19,11 @@ let currentVideoSource = videoSources[0];
 function changeVideoSource() {
     // Generate a random index between 0 and the length of the array minus 1
     const randomIndex = Math.floor(Math.random() * videoSources.length);
-    console.log(randomIndex+1);
 
     // Select a random video source from the array
     const source = videoSources[randomIndex];
+
+    console.log(source.description);
 
     currentVideoSource = source;
 
@@ -35,7 +36,6 @@ function changeVideoSource() {
     // Update the description content
     const descriptionContentElement = document.getElementById('descriptionContent');
     descriptionContentElement.innerHTML = `${source.description}<br><p>Click for color and sound!</p>`;
-    console.log(source.description);
 }
 
 function preloadVideos() {
@@ -266,8 +266,6 @@ function switchVideoSource() {
 
     // Select the new video source and cursor using the new index
     const newVideoSource = videoSources[newIndex];
-
-    console.log(newVideoSource)
 
     // Apply flip effect
     videoElement.classList.remove('flip2');
