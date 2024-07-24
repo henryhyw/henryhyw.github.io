@@ -67,7 +67,7 @@ Right now, I’m diving into the world of digital transformation at HSBC. It’s
 
 <img src="/assets/img/hku.jpeg" style="height:8vh;">
 
-I'm exploring the exciting intersection of Generative AI and personalized learning. My work involves conducting deep literature reviews on contextual embeddings with transformer-based LLMs and developing a sleek website for the PDS lab. It’s a perfect blend of theory and hands-on development!
+I'm exploring the intersection of Generative AI and personalized learning. My work involves conducting deep literature reviews on contextual embeddings with transformer-based LLMs and developing a sleek website for the PDS lab. It’s a perfect blend of theory and hands-on development!
 
 Here is the link to the website I developed: [PDS Laboratory](https://psym-ds.github.io/)
 
@@ -81,7 +81,7 @@ Here is the link to the website I developed: [PDS Laboratory](https://psym-ds.gi
 
 <img src="/assets/img/hku.jpeg" style="height:8vh;">
 
-In this role, I'm delving into the fascinating world of human memory systems and learning behaviors. I’m developing a computational model to simulate these processes, conducting literature reviews on artificial neural networks, reinforcement learning, and cognitive neuroscience. It’s intense but incredibly rewarding work. (Details are confidential)
+In this role, I'm delving into the world of human memory systems and learning behaviors. I’m developing a computational model to simulate these processes and conducting literature reviews on artificial neural networks, reinforcement learning, and cognitive neuroscience. (Details are confidential)
 
 ---
 
@@ -93,11 +93,11 @@ In this role, I'm delving into the fascinating world of human memory systems and
 
 <img src="/assets/img/hku.jpeg" style="height:8vh;">
 
-I had an amazing opportunity to work on BRIGHT, a benchmark designed to evaluate how well models can reason through complex queries. Collaborating with Princeton University and Google Cloud AI Research made the project even more exciting!
+I had an opportunity to work on BRIGHT, a benchmark designed to evaluate how well models can reason through complex queries. Collaborating with Princeton University and Google Cloud AI Research made the project even more exciting!
 
-It was a fascinating deep dive into how information is processed and understood. I spent a lot of time gathering and analyzing data from public forums, creating query-document pairs, and testing coding-related queries to ensure our models were accurate.
+It was a dive into how information is processed and understood. I spent a lot of time gathering and analyzing data from public forums, creating query-document pairs, and testing coding-related queries to ensure our models were accurate.
 
-As one of the co-authors, I contributed to a paper about the project, which we submitted to NeurIPS and is currently under review. This project was a challenging yet incredibly rewarding experience.
+As one of the co-authors, I contributed to a paper about the project, which we submitted to NeurIPS and is currently under review. This project was a challenging yet rewarding experience.
 
 ---
 
