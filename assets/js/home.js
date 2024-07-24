@@ -34,7 +34,7 @@ function changeVideoSource() {
 
     // Update the description content
     const descriptionContentElement = document.getElementById('descriptionContent');
-    descriptionContentElement.innerHTML = `${source.description}<br><a>Click for color and sound!</a>`;
+    descriptionContentElement.innerHTML = `${source.description}<br><p>Click for color and sound!</p>`;
 }
 
 function preloadVideos() {
