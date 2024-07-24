@@ -14,6 +14,8 @@ const videoSources = [
     { src: "/assets/vid/home3.mp4", class: "homevideo3", description: "home video 3" }
 ];
 
+let currentVideoSource = videoSources[0];
+
 function changeVideoSource() {
     // Generate a random index between 0 and the length of the array minus 1
     const randomIndex = Math.floor(Math.random() * videoSources.length);
@@ -21,6 +23,8 @@ function changeVideoSource() {
 
     // Select a random video source from the array
     const source = videoSources[randomIndex];
+
+    currentVideoSource = source;
 
     const videoElement = document.getElementById('videoElement');
     const currentSourceElement = videoElement.querySelector('source');
@@ -30,7 +34,7 @@ function changeVideoSource() {
 
     // Update the description content
     const descriptionContentElement = document.getElementById('descriptionContent');
-    descriptionContentElement.textContent = source.description;
+    descriptionContentElement.innerHTML = `${source.description}<br><a>Click to bring color and sound!</a>`;
 }
 
 function preloadVideos() {
@@ -461,14 +465,19 @@ document.addEventListener("DOMContentLoaded", function() {
                     setupDescriptionOverlay();
                     updateTitles();
 
-                    // Mute/unmute button
                     videoElement.addEventListener('click', () => {
                         if (videoElement.muted) {
                             videoElement.muted = false;
                             videoElement.style.filter = 'grayscale(0%)';
+                            // Update the description content
+                            const descriptionContentElement = document.getElementById('descriptionContent');
+                            descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><a>Click to silence and fade!</a>`;
                         } else {
                             videoElement.muted = true;
                             videoElement.style.filter = 'grayscale(85%)';
+                            // Update the description content
+                            const descriptionContentElement = document.getElementById('descriptionContent');
+                            descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><a>Click to bring color and sound!</a>`;
                         }
                     });
 
