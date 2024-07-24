@@ -518,4 +518,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 window.onresize = () => {
     updateTitles();
+    typeWriterEffect(subtitleText, subtitleElement, 10, null)
 };
