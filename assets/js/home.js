@@ -411,8 +411,6 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 document.addEventListener("DOMContentLoaded", function() {
     changeVideoSource();
 
-    checkVideoCompatibility();
-
     const videoElement = document.getElementById('videoElement');
     const fallbackImage = document.getElementById('imageElement');
     videoElement.style.transition = 'opacity 3s ease-in-out';
