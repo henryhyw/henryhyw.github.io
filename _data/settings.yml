@@ -11,7 +11,7 @@ menu:
 - {name: 'Education',   url: 'education.html'}
 - {name: 'Experience',   url: 'experience.html'}
 # - {name: 'Projects',   url: 'projects.html'}
-- {name: 'Early CS Adventures',   url: 'early.html'}
+- {name: 'Early Codes',   url: 'early.html'}
 # - {name: 'Travelogue',   url: 'travel.html'}
 - {name: 'Contact Me', url: 'contact.html'}
 
