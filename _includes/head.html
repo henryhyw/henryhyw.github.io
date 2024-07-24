@@ -20,26 +20,6 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <script>
-      // Function to detect X5 browser
-      function isX5Browser() {
-          var ua = navigator.userAgent;
-          return /MQQBrowser/.test(ua) || /QQBrowser/.test(ua);
-      }
-
-      // Add meta tags for X5 browser
-      if (isX5Browser()) {
-          var meta1 = document.createElement('meta');
-          meta1.name = "x5-fullscreen";
-          meta1.content = "true";
-          document.head.appendChild(meta1);
-
-          var meta2 = document.createElement('meta');
-          meta2.name = "x5-page-mode";
-          meta2.content = "app";
-          document.head.appendChild(meta2);
-      }
-  </script>
   <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
     MathJax.Hub.Config({
