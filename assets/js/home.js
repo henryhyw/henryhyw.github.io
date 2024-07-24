@@ -254,7 +254,7 @@ function createFlashingHint() {
     hintParagraph.style.float = "right";
 
     // Set the text content of the new element
-    hintParagraph.innerHTML = 'Click the <i class="far fa-compass"></i> compass!';
+    hintParagraph.textContent = 'Click the compass!';
 
     // Find the element with the class "header"
     var headerElement = document.querySelector(".header-title");
@@ -266,11 +266,15 @@ function createFlashingHint() {
 
     // Function to toggle between the classes
     function toggleTipColor() {
+        const compassIcon = document.getElementById('compassIcon');
         if (hintParagraph.classList.contains("tipcolor-2")) {
+            compassIcon.classList.remove("tipcolor-2");
+            compassIcon.classList.add("tipcolor-1");
             hintParagraph.classList.remove("tipcolor-2");
             hintParagraph.classList.add("tipcolor-1");
             setTimeout(function() {
                 if (!pressed) {
+                    compassIcon.classList.add("tipcolor-2");
                     hintParagraph.classList.remove("tipcolor-1");
                     hintParagraph.classList.add("tipcolor-2");
                 }
@@ -293,7 +297,9 @@ document.getElementById('compassIcon').addEventListener('click', switchVideoSour
 
 document.getElementById('compassIcon').addEventListener('click', function() {
     pressed = true;
+    const compassIcon = document.getElementById('compassIcon');
     const hintParagraph = document.getElementById('hint');
+    compassIcon.classList.remove("tipcolor-2");
     hintParagraph.classList.remove("tipcolor-1");
     hintParagraph.classList.add("tipcolor-2");
 
