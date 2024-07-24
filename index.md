@@ -23,6 +23,8 @@ title:
    </div>
 </div>
 
+<div id="overlay"></div>
+
 <br>
 
 <h3 id="welcomeQuote" style="color: transparent;">Life is an endless adventure<br>into the unknown</h3>

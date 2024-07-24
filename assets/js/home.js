@@ -365,6 +365,10 @@ function displayWelcomeContent() {
             quoteElement.style.transition = 'color 2s';
             quoteElement.style.color = ''; // Reset to original color
 
+            createFlashingHint();
+            const overlay = document.getElementById('overlay');
+            overlay.style.pointerEvents = 'none'; // Disable pointer events to allow clicks
+
             // Reset the transition property after the color transition is complete
             setTimeout(() => {
                 document.querySelectorAll('header *').forEach(element => {
@@ -372,10 +376,6 @@ function displayWelcomeContent() {
                 });
                 document.querySelectorAll('footer *').forEach(element => {
                     element.style.transition = 'color 0.5s';
-                });
-
-                setTimeout(() => {
-                    createFlashingHint();
                 });
             }, 2000); // Match this duration with the color transition time (2 seconds)
         }, 1000);
