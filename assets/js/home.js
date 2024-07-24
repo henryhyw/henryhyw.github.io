@@ -465,67 +465,69 @@ document.addEventListener("DOMContentLoaded", function() {
     const videoElement = document.getElementById('videoElement');
     const fallbackImage = document.getElementById('imageElement');
     videoElement.style.opacity = '1';
-    // Attempt to play the video
-    videoElement.play().then(() => {
-        const checkDimensions = setInterval(function() {
-            if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
-                const aspectRatio = videoElement.videoWidth / videoElement.videoHeight;
-                // Check if the aspect ratio is approximately 9:16
-                if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
-                    clearInterval(checkDimensions);
+    videoElement.addEventListener('loadeddata', () => {
+        // Attempt to play the video
+        videoElement.play().then(() => {
+            const checkDimensions = setInterval(function() {
+                if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
+                    const aspectRatio = videoElement.videoWidth / videoElement.videoHeight;
+                    // Check if the aspect ratio is approximately 9:16
+                    if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
+                        clearInterval(checkDimensions);
 
-                    createHint();
+                        createHint();
 
-                    setupDescriptionOverlay();
-                    updateTitles();
+                        setupDescriptionOverlay();
+                        updateTitles();
 
-                    videoElement.addEventListener('click', () => {
-                        if (videoElement.muted) {
-                            videoElement.muted = false;
-                            videoElement.style.filter = 'grayscale(0%)';
-                            // Update the description content
-                            const descriptionContentElement = document.getElementById('descriptionContent');
-                            descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click to silence and fade!</p>`;
-                        } else {
-                            videoElement.muted = true;
-                            videoElement.style.filter = 'grayscale(85%)';
-                            // Update the description content
-                            const descriptionContentElement = document.getElementById('descriptionContent');
-                            descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click for color and sound!</p>`;
-                        }
-                    });
+                        videoElement.addEventListener('click', () => {
+                            if (videoElement.muted) {
+                                videoElement.muted = false;
+                                videoElement.style.filter = 'grayscale(0%)';
+                                // Update the description content
+                                const descriptionContentElement = document.getElementById('descriptionContent');
+                                descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click to silence and fade!</p>`;
+                            } else {
+                                videoElement.muted = true;
+                                videoElement.style.filter = 'grayscale(85%)';
+                                // Update the description content
+                                const descriptionContentElement = document.getElementById('descriptionContent');
+                                descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click for color and sound!</p>`;
+                            }
+                        });
 
-                    preloadVideos();
+                        preloadVideos();
 
-                    videoTransition();
+                        videoTransition();
 
-                    setTimeout(() => {
-                        displayWelcomeContent();
-                    }, 1000);
+                        setTimeout(() => {
+                            displayWelcomeContent();
+                        }, 1000);
+                    }
                 }
-            }
-        }, 100); // Check every 100ms until dimensions are available
-    }).catch((error) => {
-        console.error('Error playing video:', error);
-        canPlayVideo = false;
-        videoElement.style.display = 'none';
-        fallbackImage.style.display = 'block';
-        fallbackImage.style.opacity = '1';
-        const checkDimensions = setInterval(function() {
-            if (imageElement.naturalWidth > 0 && imageElement.naturalHeight > 0) {
-                const aspectRatio = imageElement.naturalWidth / imageElement.naturalHeight;
-                // Check if the aspect ratio is approximately 9:16
-                if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
-                    clearInterval(checkDimensions);
+            }, 100); // Check every 100ms until dimensions are available
+        }).catch((error) => {
+            console.error('Error playing video:', error);
+            canPlayVideo = false;
+            videoElement.style.display = 'none';
+            fallbackImage.style.display = 'block';
+            fallbackImage.style.opacity = '1';
+            const checkDimensions = setInterval(function() {
+                if (imageElement.naturalWidth > 0 && imageElement.naturalHeight > 0) {
+                    const aspectRatio = imageElement.naturalWidth / imageElement.naturalHeight;
+                    // Check if the aspect ratio is approximately 9:16
+                    if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
+                        clearInterval(checkDimensions);
 
-                    updateTitles();
+                        updateTitles();
 
-                    setTimeout(() => {
-                        displayWelcomeContent();
-                    }, 1000);
+                        setTimeout(() => {
+                            displayWelcomeContent();
+                        }, 1000);
+                    }
                 }
-            }
-        }, 100); // Check every 100ms until dimensions are available
+            }, 100); // Check every 100ms until dimensions are available
+        });
     });
 });
 
