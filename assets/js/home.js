@@ -8,6 +8,8 @@ const minDuration = 0.2; // Minimum duration to prevent excessive speed
 
 let canPlayVideo = true;
 
+let currentTimeoutId; // Variable to store the current timeout ID
+
 const videoSources = [
     { src: "/assets/vid/home1.mp4", class: "homevideo1", description: "Sunbathing, beers, and ocean breezes on the Mediterranean!" },
     { src: "/assets/vid/home2.mp4", class: "homevideo2", description: "A cat strolling on the ancient stone steps, shot in Athens." },
@@ -174,6 +176,11 @@ function updateTitles() {
 }
 
 function typeWriterEffect(text, element, delay = 100, callback) {
+    // Clear any existing timeout to interrupt the previous typing effect
+    if (currentTimeoutId) {
+        clearTimeout(currentTimeoutId);
+    }
+
     element.innerHTML = '';
     let index = 0;
 
@@ -189,7 +196,7 @@ function typeWriterEffect(text, element, delay = 100, callback) {
             element.appendChild(span);
             
             index++;
-            setTimeout(type, delay);
+            currentTimeoutId = setTimeout(type, delay); // Store the timeout ID
         } else {
             if (callback) callback();
         }
