@@ -74,6 +74,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Toggle theme on button click
     toggleThemeBtn.addEventListener('click', () => {
+        document.body.style.transition = 'background-color 2s';
         document.querySelectorAll('header *').forEach(element => {
             element.style.transition = 'color 2s';
         });
@@ -86,6 +87,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
         // Use setTimeout to ensure the transition has time to start
         setTimeout(() => {
+            document.body.style.transition = '';
             document.querySelectorAll('header *').forEach(element => {
                 element.style.transition = 'color 0.5s';
             });
