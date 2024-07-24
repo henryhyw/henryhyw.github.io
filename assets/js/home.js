@@ -343,7 +343,7 @@ document.addEventListener("DOMContentLoaded", function() {
     videoElement.load();
 
     const checkDimensions = setInterval(function() {
-        if ((videoElement.videoWidth > 0 && videoElement.videoHeight > 0) || weixin) {
+        if ((videoElement.videoWidth > 0 && videoElement.videoHeight > 0)) {
             const aspectRatio = videoElement.videoWidth / videoElement.videoHeight;
             // Check if the aspect ratio is approximately 9:16
             if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
