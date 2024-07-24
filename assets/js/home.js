@@ -313,6 +313,7 @@ function createFlashingHint() {
         headerElement.insertBefore(hintParagraph, headerElement.children[2] || null);
     }
 
+    hintParagraph.classList.remove("tipcolor-2");
     hintParagraph.classList.add("tipcolor-1");
 
     const compassIcon = document.getElementById('compassIcon');
