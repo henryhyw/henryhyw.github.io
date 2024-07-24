@@ -191,7 +191,6 @@ function typeWriterEffect(text, element, delay = 100, callback) {
 function videoTransition() {
     let fadeOutApplied = false;
     const videoOverlay = document.getElementById('videoOverlay');
-    videoElement.style.transition = 'opacity 0.3s ease-in-out';
     videoOverlay.style.transition = 'opacity 0.3s ease-in-out';
 
     videoElement.addEventListener('timeupdate', () => {
@@ -422,7 +421,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const videoElement = document.getElementById('videoElement');
     const fallbackImage = document.getElementById('imageElement');
-    videoElement.style.transition = 'opacity 3s ease-in-out';
     videoElement.style.opacity = '1';
     // Attempt to play the video
     videoElement.play().then(() => {
@@ -437,7 +435,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     // Mute/unmute button
                     videoElement.addEventListener('click', () => {
-                        videoElement.muted = !videoElement.muted;
+                        videoElement.style.filter = 'grayscale(0%)';
                     });
 
                     preloadVideos();
@@ -455,7 +453,6 @@ document.addEventListener("DOMContentLoaded", function() {
         canPlayVideo = false;
         videoElement.style.display = 'none';
         fallbackImage.style.display = 'block';
-        fallbackImage.style.transition = 'opacity 3s ease-in-out'
         fallbackImage.style.opacity = '1';
         const checkDimensions = setInterval(function() {
             if (imageElement.naturalWidth > 0 && imageElement.naturalHeight > 0) {

@@ -18,7 +18,7 @@ html, body {
 }
 
 #videoElement, #imageElement {
-    z-index: 9999;
+    z-index: 2000;
 }
 
 video, .fallback-image {
@@ -28,6 +28,7 @@ video, .fallback-image {
 
 video, #imageElement{
     filter: grayscale(85%);
+    transition: opacity 3s ease-in-out, filter 3s ease-in-out;
 }
 
 .video-overlay {
@@ -39,6 +40,7 @@ video, #imageElement{
     opacity: 0;
     background: #AFB4B9;
     pointer-events: none;
+    z-index: 3000;
 }
 
 /* Ensure the container's position is relative */
@@ -215,6 +217,6 @@ video, #imageElement{
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0); /* Transparent */
-    z-index: 8888; /* High z-index to cover everything */
+    z-index: 1000; /* High z-index to cover everything */
     pointer-events: all;
 }
