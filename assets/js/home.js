@@ -208,6 +208,11 @@ function videoTransition() {
             fadeOutApplied = false; // Reset the flag when the video starts playing again
         }
     });
+
+    // videoElement.addEventListener('playing', () => {
+    //     videoOverlay.style.opacity = '0';
+    //     fadeOutApplied = false; // Reset the flag when the video starts playing again
+    // });
 }
 
 function processShakeQueue() {
@@ -253,7 +258,6 @@ function checkVideoCompatibility() {
     });
 }
 
-// Function to switch video sources with a flip effect
 function switchVideoSource() {
     const videoElement = document.getElementById('videoElement');
     const videoOverlay = document.getElementById('videoOverlay');
@@ -462,11 +466,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     videoTransition();
 
-                    // videoElement.addEventListener('playing', () => {
-                    //     videoOverlay.style.opacity = '0';
-                    //     fadeOutApplied = false; // Reset the flag when the video starts playing again
-                    // });
-
                     setTimeout(() => {
                         displayWelcomeContent();
                     }, 1000);
@@ -474,16 +473,20 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }, 100); // Check every 100ms until dimensions are available
     } else {
+        alert("a");
         const checkDimensions = setInterval(function() {
             if (imageElement.naturalWidth > 0 && imageElement.naturalHeight > 0) {
                 const aspectRatio = imageElement.naturalWidth / imageElement.naturalHeight;
                 // Check if the aspect ratio is approximately 9:16
                 if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
+                    alert("b");
                     clearInterval(checkDimensions);
 
                     updateTitles();
+                    alert("c");
 
                     setTimeout(() => {
+                        alert("d");
                         displayWelcomeContent();
                     }, 1000);
                 }
