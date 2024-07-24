@@ -3,7 +3,7 @@ let isShaking = false;
 let pressCount = 0;
 let pressed = false;
 let resetTimeout;
-const maxAngle = 90; // Maximum angle to prevent excessive shaking
+const maxAngle = 180; // Maximum angle to prevent excessive shaking
 const maxDuration = 0.3; // Minimum duration to prevent excessive speed
 
 let canPlayVideo = true;
