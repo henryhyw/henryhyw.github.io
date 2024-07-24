@@ -6,8 +6,6 @@ const maxAngle = 90; // Maximum angle to prevent excessive shaking
 const maxDuration = 0.3; // Minimum duration to prevent excessive speed
 let resetTimeout;
 
-var weixin = false;
-
 const videoSources = [
     { src: "/assets/vid/home1.mp4", class: "homevideo1" },
     { src: "/assets/vid/home2.mp4", class: "homevideo2" },
@@ -332,10 +330,6 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    var ua = navigator.userAgent;
-    weixin =  /MQQBrowser/.test(ua) || /QQBrowser/.test(ua);
-    alert(weixin);
-
     // Generate a random index between 0 and the length of the array minus 1
     const randomIndex = Math.floor(Math.random() * videoSources.length);
     console.log(randomIndex+1);
