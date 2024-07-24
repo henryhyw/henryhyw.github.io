@@ -445,6 +445,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
                     clearInterval(checkDimensions);
 
+                    setupDescriptionOverlay();
                     updateTitles();
 
                     // Mute/unmute button
