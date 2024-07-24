@@ -9,9 +9,9 @@ const minDuration = 0.2; // Minimum duration to prevent excessive speed
 let canPlayVideo = true;
 
 const videoSources = [
-    { src: "/assets/vid/home1.mp4", class: "homevideo1" },
-    { src: "/assets/vid/home2.mp4", class: "homevideo2" },
-    { src: "/assets/vid/home3.mp4", class: "homevideo3" }
+    { src: "/assets/vid/home1.mp4", class: "homevideo1", description: "home video 1" },
+    { src: "/assets/vid/home2.mp4", class: "homevideo2", description: "home video 2" },
+    { src: "/assets/vid/home3.mp4", class: "homevideo3", description: "home video 3" }
 ];
 
 function changeVideoSource() {
@@ -27,6 +27,10 @@ function changeVideoSource() {
     currentSourceElement.setAttribute('src', source.src)
     videoElement.setAttribute('class', source.class);
     videoElement.load();
+
+    // Update the description content
+    const descriptionContentElement = document.getElementById('descriptionContent');
+    descriptionContentElement.textContent = source.description;
 }
 
 function preloadVideos() {

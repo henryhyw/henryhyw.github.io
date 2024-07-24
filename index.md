@@ -18,7 +18,7 @@ title:
    <img id="imageElement" src="/assets/img/home1.jpg" alt="Travel" class="fallback-image" style="display: none; opacity: 0;">
    <div class="transition-overlay" id="transitionOverlay"></div>
    <div class="description-overlay" id="descriptionOverlay">
-      <div class="description-content">
+      <div class="description-content" id="descriptionContent">
         Your description content goes here.
       </div>
    </div>
