@@ -175,7 +175,6 @@ function checkVideoCompatibility() {
     videoElement.play();
     // Attempt to play the video, if it fails, switch to the fallback image
     videoElement.play().catch(() => {
-        noVideo = true;
         videoElement.style.display = 'none';
         fallbackImage.style.opacity = '0';
         fallbackImage.style.display = 'block';
@@ -341,9 +340,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const currentSourceElement = videoElement.querySelector('source');
     currentSourceElement.setAttribute('src', source.src)
     videoElement.load();
-
+    
     const checkDimensions = setInterval(function() {
-        if ((videoElement.videoWidth > 0 && videoElement.videoHeight > 0)) {
+        if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
             const aspectRatio = videoElement.videoWidth / videoElement.videoHeight;
             // Check if the aspect ratio is approximately 9:16
             if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
@@ -372,6 +371,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     document.getElementById('compassIcon').style.fontSize = '1.1em';
                 }
                 adjustSubtitle();
+
+                checkVideoCompatibility();
 
                 let fadeOutApplied = false;
                 const videoOverlay = document.getElementById('videoOverlay');
