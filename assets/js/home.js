@@ -242,12 +242,10 @@ function checkVideoCompatibility() {
     videoElement.play();
     // Attempt to play the video, if it fails, switch to the fallback image
     videoElement.play().catch(() => {
+        alert("set to true")
         noVideo = true;
         videoElement.style.display = 'none';
-        fallbackImage.style.opacity = '0';
         fallbackImage.style.display = 'block';
-        fallbackImage.style.opacity = 'opacity 4s ease-in-out';
-        fallbackImage.style.opacity = '';
         // adjustTitle(); // Ensure text formatting is adjusted when fallback image is shown
         // const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
         // if (isSmallScreen) {
