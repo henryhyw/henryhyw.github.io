@@ -16,6 +16,8 @@ const videoSources = [
     { src: "/assets/vid/home3.mp4", class: "homevideo3", description: "A cat strolling on the ancient stone steps, shot in Athens." }
 ];
 
+let nonPlayed = [...videoSources];
+
 let currentVideoSource = videoSources[0];
 
 function isMobilePhone() {
@@ -29,12 +31,11 @@ function isTouchScreen(){
 }
 
 function changeVideoSource() {
-    // Generate a random index between 0 and the length of the array minus 1
-    const randomIndex = Math.floor(Math.random() * videoSources.length);
+    // Get a new random index from nonPlayed
+    const newIndex = getNewRandomIndex(nonPlayed.length);
 
-    // Select a random video source from the array
-    const source = videoSources[randomIndex];
-
+    // Select the new video source using the new index
+    const source = nonPlayed.splice(newIndex, 1)[0]; // Remove the selected video from nonPlayed
     currentVideoSource = source;
 
     const videoElement = document.getElementById('videoElement');
@@ -265,23 +266,21 @@ function switchVideoSource() {
     const currentSourceElement = videoElement.querySelector('source');
     const currentSource = currentSourceElement.getAttribute('src');
 
-    // Find the index of the current video source
-    const currentIndex = videoSources.findIndex(video => video.src === currentSource);
-
-    // Function to get a new random index that is not the same as currentIndex
-    function getNewRandomIndex(excludeIndex, arrayLength) {
-        let newIndex;
-        do {
-            newIndex = Math.floor(Math.random() * arrayLength);
-        } while (newIndex === excludeIndex);
-        return newIndex;
+    // Function to get a new random index
+    function getNewRandomIndex(arrayLength) {
+        return Math.floor(Math.random() * arrayLength);
     }
 
-    // Get the new random index
-    const newIndex = getNewRandomIndex(currentIndex, videoSources.length);
+    // If nonPlayed is empty, refill it with a copy of videoSources
+    if (nonPlayed.length === 0) {
+        nonPlayed = [...videoSources];
+    }
+
+    // Get a new random index from nonPlayed
+    const newIndex = getNewRandomIndex(nonPlayed.length);
 
     // Select the new video source using the new index
-    const newVideoSource = videoSources[newIndex];
+    const newVideoSource = nonPlayed.splice(newIndex, 1)[0]; // Remove the selected video from nonPlayed
     currentVideoSource = newVideoSource;
 
     // Apply flip effect
