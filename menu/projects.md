@@ -49,11 +49,19 @@ Welcome to my professional playground! I've had the chance to dive into some ama
 
 *December 2023 - May 2024*
 
-*[Natural Language Processing Group at the University of Hong Kong](https://hkunlp.github.io/)*
+Associated with *[Natural Language Processing Group at the University of Hong Kong](https://hkunlp.github.io/)*
 
 <img src="/assets/img/hku.jpeg" style="height:8vh;">
 
-I had an opportunity to work on BRIGHT, a benchmark designed to evaluate how well models can reason through complex queries. I was responsible for literature reviews, gathering and analyzing data from public forums, creating query-document pairs, and testing coding-related queries.
+I had an opportunity to work on BRIGHT, a benchmark designed to evaluate how well models can reason through complex queries. My responsibilities included conducting literature reviews, gathering and analyzing data from public forums, creating query-document pairs, and testing coding-related queries.
+
+<div class="scroll-container">
+  <img src="/assets/img/BRIGHT1.jpg">
+  <img src="/assets/img/BRIGHT2.jpg">
+  <img src="/assets/img/BRIGHT3.jpg">
+  <img src="/assets/img/BRIGHT4.jpg">
+  <img src="/assets/img/BRIGHT5.jpg">
+</div>
 
 **BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval**\
 Hongjin Su\*, Howard Yen\*, Mengzhou Xia\*, Weijia Shi, Niklas Muennighoff, **Han-yu Wang**, Haisu Liu, Quan Shi, Zachary S. Siegel, Michael Tang, Ruoxi Sun, Jinsung Yoon, Sercan O. Arik, Danqi Chen, Tao Yu\
