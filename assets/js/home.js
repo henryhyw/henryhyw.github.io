@@ -251,6 +251,7 @@ function processShakeQueue() {
 function switchVideoSource() {
     const videoElement = document.getElementById('videoElement');
     const transitionOverlay = document.getElementById('transitionOverlay');
+    const descriptionOverlay = document.getElementById('descriptionOverlay');
     const currentSourceElement = videoElement.querySelector('source');
     const currentSource = currentSourceElement.getAttribute('src');
 
@@ -287,6 +288,8 @@ function switchVideoSource() {
     videoElement.classList.add('flip');
     transitionOverlay.classList.remove('flip2');
     transitionOverlay.classList.add('flip');
+    descriptionOverlay.classList.remove('flip2');
+    descriptionOverlay.classList.add('flip');
 
     // Listen for the midpoint of the flip to change the source
     videoElement.addEventListener('animationend', () => {
@@ -298,6 +301,7 @@ function switchVideoSource() {
         // Restart the flip animation for the second half of the transition
         videoElement.classList.remove('flip');
         transitionOverlay.classList.remove('flip');
+        descriptionOverlay.classList.remove('flip');
 
         // Play the new video source
         videoElement.play();
@@ -305,11 +309,13 @@ function switchVideoSource() {
         // Add the flip class back to complete the flip animation
         videoElement.classList.add('flip2');
         transitionOverlay.classList.add('flip2');
+        descriptionOverlay.classList.add('flip2');
 
         // Ensure the flip class is removed after the animation completes
         videoElement.addEventListener('animationend', () => {
             videoElement.classList.remove('flip2');
             transitionOverlay.classList.remove('flip2');
+            descriptionOverlay.classList.remove('flip2');
             videoElement.setAttribute('class', newVideoSource.class);
         }, { once: true });
     }, { once: true });
