@@ -81,6 +81,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
         const subtitleElement = document.getElementById('welcomeSubtitle');
+        subtitleElement.style.transition = 'color 0s';
         applyTheme(newTheme);
         localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
         // Use setTimeout to ensure the transition has time to start
@@ -91,7 +92,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             console.log(textColor);
             subtitleElement.style.transition = 'color 2s';
             subtitleElement.style.color = textColor;
-            subtitleElement.style.transition = '';
             document.querySelectorAll('header *').forEach(element => {
                 element.style.transition = 'color 0.5s';
             });
