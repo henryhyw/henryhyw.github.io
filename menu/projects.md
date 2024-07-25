@@ -55,11 +55,11 @@ Welcome to my professional playground! I've had the chance to dive into some ama
 
 I had an opportunity to work on BRIGHT, a benchmark designed to evaluate how well models can reason through complex queries. I was responsible for literature reviews, gathering and analyzing data from public forums, creating query-document pairs, and testing coding-related queries.
 
-**BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval**
-Hongjin Su\*, Howard Yen\*, Mengzhou Xia\*, Weijia Shi, Niklas Muennighoff, **Han-yu Wang**, Haisu Liu, Quan Shi, Zachary S. Siegel, Michael Tang, Ruoxi Sun, Jinsung Yoon, Sercan O. Arik, Danqi Chen, Tao Yu
+**BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval**\
+Hongjin Su\*, Howard Yen\*, Mengzhou Xia\*, Weijia Shi, Niklas Muennighoff, **Han-yu Wang**, Haisu Liu, Quan Shi, Zachary S. Siegel, Michael Tang, Ruoxi Sun, Jinsung Yoon, Sercan O. Arik, Danqi Chen, Tao Yu\
 *Preprint*
 
-For more details, please visit the homepage of this project: [BRIGHT](https://brightbenchmark.github.io/).
+For additional details including the paper, code, data, and more, please visit the homepage of this project: [BRIGHT](https://brightbenchmark.github.io/).
 
 ---
 
