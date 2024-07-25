@@ -192,26 +192,33 @@ function typeWriterEffect(text, element, delay = 100, callback) {
 
     element.innerHTML = '';
     let index = 0;
+    const spans = [];
 
-    function type() {
-        if (index < text.length) {
+    // Step 1: Create a span for each character
+    for (let i = 0; i < text.length; i++) {
+        const span = document.createElement('span');
+        span.className = 'typed';
+        span.style.color = 'transparent'; // Initially transparent
+        span.textContent = text[i];
+        element.appendChild(span);
+        spans.push(span);
+    }
+
+    // Step 2: Turn each span into the text color one by one
+    function reveal() {
+        if (index < spans.length) {
             const isDarkMode = document.body.classList.contains('dark-mode');
             const textColor = isDarkMode ? '#fafafa' : '#252525'; // Change text color based on theme
             
-            const span = document.createElement('span');
-            span.className = 'typed';
-            span.style.color = textColor;
-            span.textContent = text[index];
-            element.appendChild(span);
-            
+            spans[index].style.color = textColor;
             index++;
-            currentTimeoutId = setTimeout(type, delay); // Store the timeout ID
+            currentTimeoutId = setTimeout(reveal, delay); // Store the timeout ID
         } else {
             if (callback) callback();
         }
     }
 
-    type();
+    reveal();
 }
 
 function videoTransition() {
