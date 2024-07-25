@@ -389,18 +389,12 @@ function displayWelcomeContent() {
     titleElement.style.color = ''; // Reset to original color
     const subtitleText = document.getElementById('welcomeSubtitle').textContent;
     const subtitleElement = document.getElementById('welcomeSubtitle');
-    // subtitleElement.style.textAlign = 'left'; // Initially set to left align
-    // subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
-    // subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
     subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
     subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
     subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
 
     typeWriterEffect(subtitleText, subtitleElement, 20, () => {
         setTimeout(() => {
-            // subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
-            // subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
-            // subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
             document.querySelectorAll('header *').forEach(element => {
                 element.style.transition = 'color 2s';
                 element.style.color = ''; // Reset to original color
@@ -468,8 +462,8 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     pressCount++;
     
     // Calculate new angle and duration based on the number of presses
-    let newAngle = Math.min(15 + pressCount * 6, maxAngle); // Increase angle by 5 degrees per press, up to maxAngle
-    let newDuration = Math.max(0.8 - pressCount * 0.06, minDuration); // Decrease duration by 0.05s per press, down to minDuration
+    let newAngle = Math.min(15 + pressCount * 6, maxAngle); // Increase angle by 6 degrees per press, up to maxAngle
+    let newDuration = Math.max(0.8 - pressCount * 0.06, minDuration); // Decrease duration by 0.06s per press, down to minDuration
     
     shakeQueue.push({ newAngle, newDuration });
     processShakeQueue();
@@ -477,7 +471,7 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     // Clear any existing reset timeout
     clearTimeout(resetTimeout);
     
-    // Set a new reset timeout for 2 seconds
+    // Set a new reset timeout for 0.5 seconds
     resetTimeout = setTimeout(() => {
         pressCount = 0;
     }, 500);
