@@ -274,17 +274,9 @@ function switchVideoSource() {
     const newVideoSource = videoSources[newIndex];
 
     currentVideoSource = newVideoSource;
-    
-    if (videoElement.muted) {
-        const descriptionContentElement = document.getElementById('descriptionContent');
-        descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click to silence and fade!</p>`;
-    } else {
-        const descriptionContentElement = document.getElementById('descriptionContent');
-        descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click for color and sound!</p>`;
-    }
 
     // Apply flip effect
-    descriptionOverlay.style.opacity = 0.8
+    descriptionOverlay.style.opacity = 0.5
     videoElement.classList.remove('flip2');
     videoElement.classList.add('flip');
     transitionOverlay.classList.remove('flip2');
@@ -306,6 +298,14 @@ function switchVideoSource() {
 
         // Play the new video source
         videoElement.play();
+
+        if (videoElement.muted) {
+            const descriptionContentElement = document.getElementById('descriptionContent');
+            descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click to silence and fade!</p>`;
+        } else {
+            const descriptionContentElement = document.getElementById('descriptionContent');
+            descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click for color and sound!</p>`;
+        }
 
         // Add the flip class back to complete the flip animation
         videoElement.classList.add('flip2');
