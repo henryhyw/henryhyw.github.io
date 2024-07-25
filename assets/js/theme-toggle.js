@@ -80,12 +80,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
         const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-        const subtitleElement = document.getElementById('welcomeSubtitle');
-        const textColor = currentTheme === 'light' ? '#fafafa' : '#252525'; // Change text color based on theme
-        applyTheme(newTheme);
-        subtitleElement.style.transition = 'color 2s';
-        subtitleElement.style.color = textColor;
-        subtitleElement.style.transition = '';
+        try{
+            const subtitleElement = document.getElementById('welcomeSubtitle');
+            const textColor = currentTheme === 'light' ? '#fafafa' : '#252525'; // Change text color based on theme
+            applyTheme(newTheme);
+            subtitleElement.style.transition = 'color 2s';
+            subtitleElement.style.color = textColor;
+            subtitleElement.style.transition = '';
+        } catch {}
         localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
         // Use setTimeout to ensure the transition has time to start
         setTimeout(() => {
