@@ -81,17 +81,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
         const subtitleElement = document.getElementById('welcomeSubtitle');
-        subtitleElement.style.transition = 'color 0s';
+        const textColor = currentTheme === 'light' ? '#fafafa' : '#252525'; // Change text color based on theme
+        subtitleElement.style.transition = 'color 2s';
+        subtitleElement.style.color = textColor;
         applyTheme(newTheme);
         localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
         // Use setTimeout to ensure the transition has time to start
         setTimeout(() => {
             document.body.style.transition = '';
-            const textColor = currentTheme === 'light' ? '#fafafa' : '#252525'; // Change text color based on theme
-            console.log(newTheme);
-            console.log(textColor);
-            subtitleElement.style.transition = 'color 2s';
-            subtitleElement.style.color = textColor;
             document.querySelectorAll('header *').forEach(element => {
                 element.style.transition = 'color 0.5s';
             });
