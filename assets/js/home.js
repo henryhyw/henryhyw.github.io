@@ -550,7 +550,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 // Handle errors that occur during video playback
                 handleVideoError(error);
             });
-        });
+        }, { once: true });
 
         // Initial video load attempt
         try {
@@ -567,45 +567,45 @@ document.addEventListener("DOMContentLoaded", function() {
 window.onresize = () => {
     console.log("resize")
     updateTitles();
-    // const subtitleText = document.getElementById('welcomeSubtitle').textContent;
-    // const subtitleElement = document.getElementById('welcomeSubtitle');
-    // subtitleElement.style.textAlign = 'left'; // Initially set to left align
-    // subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
-    // subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
-    // typeWriterEffect(subtitleText, subtitleElement, 5, () => {
-    //     subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
-    //     subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
-    //     subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
+    const subtitleText = document.getElementById('welcomeSubtitle').textContent;
+    const subtitleElement = document.getElementById('welcomeSubtitle');
+    subtitleElement.style.textAlign = 'left'; // Initially set to left align
+    subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
+    subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
+    typeWriterEffect(subtitleText, subtitleElement, 5, () => {
+        subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
+        subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
+        subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
 
-    //     setTimeout(() => {
-    //         document.querySelectorAll('header *').forEach(element => {
-    //             element.style.transition = 'color 2s';
-    //             element.style.color = ''; // Reset to original color
-    //         });
-    //         document.querySelectorAll('footer *').forEach(element => {
-    //             element.style.transition = 'color 2s';
-    //             element.style.color = ''; // Reset to original color
-    //         });
-    //         const quoteElement = document.getElementById('welcomeQuote');
-    //         quoteElement.style.transition = 'color 2s';
-    //         quoteElement.style.color = ''; // Reset to original color
+        setTimeout(() => {
+            document.querySelectorAll('header *').forEach(element => {
+                element.style.transition = 'color 2s';
+                element.style.color = ''; // Reset to original color
+            });
+            document.querySelectorAll('footer *').forEach(element => {
+                element.style.transition = 'color 2s';
+                element.style.color = ''; // Reset to original color
+            });
+            const quoteElement = document.getElementById('welcomeQuote');
+            quoteElement.style.transition = 'color 2s';
+            quoteElement.style.color = ''; // Reset to original color
 
-    //         const overlay = document.getElementById('overlay');
-    //         overlay.style.pointerEvents = 'none'; // Disable pointer events to allow clicks
+            const overlay = document.getElementById('overlay');
+            overlay.style.pointerEvents = 'none'; // Disable pointer events to allow clicks
 
-    //         setTimeout(() => {
-    //             compassFlash();
+            setTimeout(() => {
+                compassFlash();
 
-    //             // Reset the transition property after the color transition is complete
-    //             setTimeout(() => {
-    //                 document.querySelectorAll('header *').forEach(element => {
-    //                     element.style.transition = 'color 0.5s';
-    //                 });
-    //                 document.querySelectorAll('footer *').forEach(element => {
-    //                     element.style.transition = 'color 0.5s';
-    //                 });
-    //             }, 2000); // Match this duration with the color transition time (2 seconds)
-    //         }, 1000);
-    //     }, 1000);
-    // });
+                // Reset the transition property after the color transition is complete
+                setTimeout(() => {
+                    document.querySelectorAll('header *').forEach(element => {
+                        element.style.transition = 'color 0.5s';
+                    });
+                    document.querySelectorAll('footer *').forEach(element => {
+                        element.style.transition = 'color 0.5s';
+                    });
+                }, 2000); // Match this duration with the color transition time (2 seconds)
+            }, 1000);
+        }, 1000);
+    });
 };
