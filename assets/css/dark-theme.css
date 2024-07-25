@@ -108,9 +108,10 @@ body.dark-mode #welcomeQuote{
 }
 
 /* Specific Styles for scroll container */
-/*body.dark-mode .scroll-container {
+body.dark-mode .scroll-container {
+    transition: color 2s;
     background-color: #1F1F1F;
-}*/
+}
 
 body.dark-mode .footer,
 body.dark-mode .footer, a {
