@@ -23,6 +23,11 @@ function isMobilePhone() {
     return /android|iPhone|iPod/i.test(userAgent);
 }
 
+function isTouchScreen(){
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    return /android|iPhone|iPad|iPod/i.test(userAgent);
+}
+
 function changeVideoSource() {
     // Generate a random index between 0 and the length of the array minus 1
     const randomIndex = Math.floor(Math.random() * videoSources.length);
@@ -428,7 +433,7 @@ function setupDescriptionOverlay() {
     const videoElement = document.getElementById('videoElement');
     const descriptionOverlay = document.querySelector('.description-overlay');
 
-    if (!isMobilePhone()) {
+    if (!isTouchScreen()) {
         videoElement.addEventListener('mouseenter', () => {
             descriptionOverlay.style.opacity = '0.5';
         });
