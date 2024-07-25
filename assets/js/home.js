@@ -30,14 +30,9 @@ function isTouchScreen(){
     return /android|iPhone|iPad|iPod/i.test(userAgent);
 }
 
-// Function to get a new random index
-function getNewRandomIndex(arrayLength) {
-    return Math.floor(Math.random() * arrayLength);
-}
-
 function changeVideoSource() {
     // Get a new random index from nonPlayed
-    const newIndex = getNewRandomIndex(nonPlayed.length);
+    const newIndex = getNewRandomIndex(Math.floor(Math.random() * nonPlayed.length));
 
     // Select the new video source using the new index
     const source = nonPlayed.splice(newIndex, 1)[0]; // Remove the selected video from nonPlayed
@@ -271,18 +266,13 @@ function switchVideoSource() {
     const currentSourceElement = videoElement.querySelector('source');
     const currentSource = currentSourceElement.getAttribute('src');
 
-    // Function to get a new random index
-    function getNewRandomIndex(arrayLength) {
-        return Math.floor(Math.random() * arrayLength);
-    }
-
     // If nonPlayed is empty, refill it with a copy of videoSources
     if (nonPlayed.length === 0) {
         nonPlayed = [...videoSources];
     }
 
     // Get a new random index from nonPlayed
-    const newIndex = getNewRandomIndex(nonPlayed.length);
+    const newIndex = getNewRandomIndex(Math.floor(Math.random() * nonPlayed.length));
 
     // Select the new video source using the new index
     const newVideoSource = nonPlayed.splice(newIndex, 1)[0]; // Remove the selected video from nonPlayed
