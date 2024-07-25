@@ -56,11 +56,11 @@ Associated with *[Natural Language Processing Group at the University of Hong Ko
 I had an opportunity to work on BRIGHT, a benchmark designed to evaluate how well models can reason through complex queries. My responsibilities included conducting literature reviews, gathering and analyzing data from public forums, creating query-document pairs, and testing coding-related queries.
 
 <div class="scroll-container">
-  <img src="/assets/img/BRIGHT1.jpg">
-  <img src="/assets/img/BRIGHT2.jpg">
-  <img src="/assets/img/BRIGHT3.jpg">
-  <img src="/assets/img/BRIGHT4.jpg">
-  <img src="/assets/img/BRIGHT5.jpg">
+  <img src="/assets/img/BRIGHT1.png">
+  <img src="/assets/img/BRIGHT2.png">
+  <img src="/assets/img/BRIGHT3.png">
+  <img src="/assets/img/BRIGHT4.png">
+  <img src="/assets/img/BRIGHT5.png">
 </div>
 
 **BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval**\
@@ -74,6 +74,14 @@ For additional details including the paper, code, data, and more, please visit t
 ## My Early Projects in Junior High and High School
 
 During my junior high and high school years, I got to work on a bunch of projects that really sparked my love for computer science. Some of the highlights were creating a batch downloader for Scientific American episodes, developing a few Chrome extensions, building a website for Kiwiview International Limited, and making an economics graph generator called Econographer. These projects show just how excited I was (and still am) about programming and solving problems.
+
+<div class="scroll-container">
+  <img src="/assets/img/BRIGHT1.jpg">
+  <img src="/assets/img/BRIGHT2.jpg">
+  <img src="/assets/img/BRIGHT3.jpg">
+  <img src="/assets/img/BRIGHT4.jpg">
+  <img src="/assets/img/BRIGHT5.jpg">
+</div>
 
 For more details, please visit: [My Early CS Adventures](https://henryhyw.github.io/early.html).
 
