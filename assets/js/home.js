@@ -475,7 +475,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!videoLoaded) {
                 handleVideoError(new Error('Timeout waiting for video to load'));
             }
-        }, 4000); // 4 seconds
+        }, 1500); // 1.5 seconds
 
         // Function to handle video errors
         function handleVideoError(error) {
