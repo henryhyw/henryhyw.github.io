@@ -388,15 +388,18 @@ function displayWelcomeContent() {
     titleElement.style.color = ''; // Reset to original color
     const subtitleText = document.getElementById('welcomeSubtitle').textContent;
     const subtitleElement = document.getElementById('welcomeSubtitle');
-    subtitleElement.style.textAlign = 'left'; // Initially set to left align
-    subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
-    subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
+    // subtitleElement.style.textAlign = 'left'; // Initially set to left align
+    // subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
+    // subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
+    subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
+    subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
+    subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
 
     typeWriterEffect(subtitleText, subtitleElement, 20, () => {
         setTimeout(() => {
-            subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
-            subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
-            subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
+            // subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
+            // subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
+            // subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
             document.querySelectorAll('header *').forEach(element => {
                 element.style.transition = 'color 2s';
                 element.style.color = ''; // Reset to original color
