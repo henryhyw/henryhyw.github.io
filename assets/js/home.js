@@ -377,7 +377,7 @@ function compassFlash() {
 
 function displayWelcomeContent() {
     const titleElement = document.getElementById('welcomeTitle');
-    // titleElement.style.transition = 'color 2s';
+    titleElement.style.transition = 'color 0s';
     titleElement.style.color = ''; // Reset to original color
     const subtitleText = document.getElementById('welcomeSubtitle').textContent;
     const subtitleElement = document.getElementById('welcomeSubtitle');
