@@ -386,10 +386,15 @@ function displayWelcomeContent() {
     subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
 
     typeWriterEffect(subtitleText, subtitleElement, 20, () => {
+        // Fade out the text
+        subtitleElement.style.transition = 'opacity 0.5s ease';
+        subtitleElement.style.opacity = '0';
+        
         subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
         subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
         subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
-
+        // Fade in the text
+        subtitleElement.style.opacity = '1';
         setTimeout(() => {
             document.querySelectorAll('header *').forEach(element => {
                 element.style.transition = 'color 2s';
