@@ -18,6 +18,11 @@ const videoSources = [
 
 let currentVideoSource = videoSources[0];
 
+function isMobilePhone() {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    return /android|iPhone|iPod/i.test(userAgent);
+}
+
 function changeVideoSource() {
     // Generate a random index between 0 and the length of the array minus 1
     const randomIndex = Math.floor(Math.random() * videoSources.length);
@@ -270,13 +275,14 @@ function switchVideoSource() {
     // Get the new random index
     const newIndex = getNewRandomIndex(currentIndex, videoSources.length);
 
-    // Select the new video source and cursor using the new index
+    // Select the new video source using the new index
     const newVideoSource = videoSources[newIndex];
-
     currentVideoSource = newVideoSource;
 
     // Apply flip effect
-    descriptionOverlay.style.opacity = 0.5
+    if (!isMobilePhone()) {
+        descriptionOverlay.style.opacity = 0.5;
+    }
     videoElement.classList.remove('flip2');
     videoElement.classList.add('flip');
     transitionOverlay.classList.remove('flip2');
