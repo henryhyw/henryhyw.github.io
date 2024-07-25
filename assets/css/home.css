@@ -19,19 +19,14 @@ html, body {
 
 #videoElement, #imageElement {
     z-index: 2000;
-    width: 100%; /* Ensure the video element takes full width */
-    max-width: 45%;
-    height: auto;
-    display: block;
 }
 
 video, .fallback-image {
     max-width: 45%;
     height: auto;
-    display: block;
 }
 
-video, #imageElement {
+video, #imageElement{
     filter: grayscale(85%);
     transition: opacity 3s ease-in-out, filter 1s ease-in-out;
 }
@@ -40,7 +35,7 @@ video, #imageElement {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 45%;
     height: 100%;
     opacity: 0;
     background: #AFB4B9;
@@ -52,7 +47,7 @@ video, #imageElement {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 45%;
     height: 100%;
     opacity: 0;
     background: #000000;
@@ -127,6 +122,7 @@ video, #imageElement {
         font-size: 1.05em;
     }
     .description-content {
+        margin: 15%;
         font-size: 4vw; /* Larger font size for smaller screens */
         line-height: 6vw; /* Adjust line height accordingly */
     }
@@ -179,7 +175,7 @@ video, #imageElement {
     color: white; /* Start with white text */
 }
 
-#welcomeQuote {
+#welcomeQuote{
   text-align: center;
   font-size: 1em;
   color: #a9a9a9;
@@ -246,7 +242,6 @@ video, #imageElement {
     transition: color 0.8s;
     font-size: 13px;
 }
-
 .tipcolor-2 {
     color: #ffffff;
     transition: color 0.8s;
