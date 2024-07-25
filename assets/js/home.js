@@ -286,7 +286,7 @@ function gradualStop() {
     
     setTimeout(() => {
         compassIcon.classList.remove('shake');
-        if (reducedAngle > 15) {
+        if (reducedAngle > 3) {
             setTimeout(gradualStop, coolDownInterval);
         }
     }, reducedDuration * 1000);
