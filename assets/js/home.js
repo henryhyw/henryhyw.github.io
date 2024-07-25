@@ -389,12 +389,13 @@ function displayWelcomeContent() {
         // Fade out the text
         subtitleElement.style.transition = 'opacity 0.5s ease';
         subtitleElement.style.opacity = '0';
-        
+
         subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
         subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
         subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
         // Fade in the text
         subtitleElement.style.opacity = '1';
+        subtitleElement.style.transition = '';
         setTimeout(() => {
             document.querySelectorAll('header *').forEach(element => {
                 element.style.transition = 'color 2s';
