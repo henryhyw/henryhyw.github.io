@@ -20,6 +20,7 @@ div.scroll-container {
   height: 35vh; /* Set the height to 35% of the viewport height */
   display: flex;
   align-items: center; /* Center align images vertically */
+  transition: color 2s;
 }
 
 div.scroll-container img,
