@@ -580,6 +580,7 @@ document.addEventListener("DOMContentLoaded", function() {
 window.onresize = () => {
     console.log("resize")
     updateTitles();
+    const isDarkMode = document.body.classList.contains('dark-mode');
     const subtitleElement = document.getElementById('welcomeSubtitle');
     const textColor = isDarkMode ? '#fafafa' : '#252525'; // Change text color based on theme
     subtitleElement.style.transition = 'color 0s';
