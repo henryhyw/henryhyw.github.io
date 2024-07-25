@@ -45,7 +45,7 @@ Welcome to my professional playground! I've had the chance to dive into some ama
 
 ---
 
-## Contributor in BRIGHT, a Benchmark for Reasoning-Intensive Information Retrieval
+## BRIGHT, a Benchmark for Reasoning-Intensive Information Retrieval
 
 *December 2023 - May 2024*
 
