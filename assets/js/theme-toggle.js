@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         setTimeout(() => {
             document.body.style.transition = '';
             const textColor = currentTheme === 'light' ? '#fafafa' : '#252525'; // Change text color based on theme
-            subtitleElement.style.transition = 'color 0s';
+            subtitleElement.style.transition = 'color 2s';
             subtitleElement.style.color = textColor;
             subtitleElement.style.transition = '';
             document.querySelectorAll('header *').forEach(element => {
