@@ -428,13 +428,15 @@ function setupDescriptionOverlay() {
     const videoElement = document.getElementById('videoElement');
     const descriptionOverlay = document.querySelector('.description-overlay');
 
-    videoElement.addEventListener('mouseenter', () => {
-        descriptionOverlay.style.opacity = '0.5';
-    });
+    if (!isMobilePhone()) {
+        videoElement.addEventListener('mouseenter', () => {
+            descriptionOverlay.style.opacity = '0.5';
+        });
 
-    videoElement.addEventListener('mouseleave', () => {
-        descriptionOverlay.style.opacity = '0';
-    });
+        videoElement.addEventListener('mouseleave', () => {
+            descriptionOverlay.style.opacity = '0';
+        });
+    }
 }
 
 document.getElementById('compassIcon').addEventListener('click', function() {
