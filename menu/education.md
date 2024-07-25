@@ -4,12 +4,6 @@ title: My Learning Journey So Far
 permalink: /education
 ---
 
-<script>
-    document.querySelectorAll('header *').forEach(element => {
-        element.style.color = ''; // Reset to original color
-    });
-</script>
-
 Here’s a snapshot of my academic path and the experiences that have shaped my learning.
 
 I wouldn't say I'm an extremely hardworking student; in fact, I often look for shortcuts. But when it comes to things I'm passionate about, I dive in deep and never take shortcuts. I love immersing myself in what I care about and put in every effort to excel. Take my computer science courses, for instance—I spent a lot of time exploring interesting concepts beyond the textbook.
@@ -50,11 +44,3 @@ In addition to my coursework, I co-founded SHSID Musix Board, a popular music op
 
 Prior to that, I attended the Science Class at [Shibei Junior High School](http://www.sbc.edu.sh.cn/), known as the best junior high school class for STEM subjects in Shanghai.
  -->
-
-<script>
-    setTimeout(() => {
-        document.querySelectorAll('footer *').forEach(element => {
-            element.style.color = '';
-        });
-    }, 3000);
-</script>

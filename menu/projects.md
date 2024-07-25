@@ -4,12 +4,6 @@ title: Projects I've Been Up To
 permalink: /projects
 ---
 
-<script>
-    document.querySelectorAll('header *').forEach(element => {
-        element.style.color = ''; // Reset to original color
-    });
-</script>
-
 Welcome to my professional playground! I've had the chance to dive into some amazing projects that have been a big part of my journey. Here are some of the highlights.
 
 ---
@@ -52,11 +46,3 @@ During my junior high and high school years, I got to work on a bunch of project
 </div>
 
 For more details, please visit: [My Early CS Adventures](https://henryhyw.github.io/early.html).
-
-<script>
-    setTimeout(() => {
-        document.querySelectorAll('footer *').forEach(element => {
-            element.style.color = '';
-        });
-    }, 3000);
-</script>

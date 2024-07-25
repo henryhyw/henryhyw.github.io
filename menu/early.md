@@ -4,12 +4,6 @@ title: My Early Adventures in Computer Science
 permalink: /early
 ---
 
-<script>
-    document.querySelectorAll('header *').forEach(element => {
-        element.style.color = ''; // Reset to original color
-    });
-</script>
-
 Here are the adventures I went through during my junior high and high school years. I've highlighted some main projects from each year.
 
 Before we dive in, I have to admit that a lot of the things I did during this period were pretty naive. But who hasn't had a naive phase, right? Honestly, I might still be a bit naive now, and that's okay.
@@ -129,11 +123,3 @@ Here's a full demonstration video, recorded by me, showing how it works.
 </video>
 
 I hope you enjoyed reading about my early journey with computer science!
-
-<script>
-    setTimeout(() => {
-        document.querySelectorAll('footer *').forEach(element => {
-            element.style.color = '';
-        });
-    }, 3000);
-</script>

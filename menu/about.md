@@ -4,12 +4,6 @@ title: Getting to Know Me
 permalink: /about
 ---
 
-<script>
-    document.querySelectorAll('header *').forEach(element => {
-        element.style.color = ''; // Reset to original color
-    });
-</script>
-
 <style>
 video, .fallback-image {
     width: 100%;
@@ -125,12 +119,4 @@ Another passion of mine is diving into the world of computer science.  I love co
     videoElement.addEventListener('click', () => {
         videoElement.muted = !videoElement.muted;
     });
-</script>
-
-<script>
-    setTimeout(() => {
-        document.querySelectorAll('footer *').forEach(element => {
-            element.style.color = '';
-        });
-    }, 3000);
 </script>
