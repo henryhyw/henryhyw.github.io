@@ -468,10 +468,13 @@ document.addEventListener("DOMContentLoaded", function() {
     // Function to handle video playback and related tasks
     function handleVideoPlayback() {
         try {
+            alert("try to load");
             // Listen for the loadeddata event to ensure the video is ready
             videoElement.addEventListener('loadeddata', () => {
+                alert("loaded");
                 // Attempt to play the video
                 videoElement.play().then(() => {
+                    alert("can play");
                     const checkDimensions = setInterval(function() {
                         if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
                             const aspectRatio = videoElement.videoWidth / videoElement.videoHeight;
@@ -514,7 +517,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 });
             });
         } catch (error) {
-            alert("cannot play video");
+            alert("cannot play");
             // Handle any errors that occur during the process
             console.error('Error:', error);
             canPlayVideo = false;
