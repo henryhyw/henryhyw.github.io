@@ -26,7 +26,7 @@ div.scroll-container img,
 div.scroll-container video {
   padding: 10px;
   height: calc(35vh - 20px); /* Adjust the height to fit within the container, considering padding */
-  object-fit: contain; /* Ensure the images fit within the container */
+  object-fit: cover; /* Ensure the images fit within the container */
 }
 
 .image-wrapper {
