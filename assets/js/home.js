@@ -381,22 +381,18 @@ function displayWelcomeContent() {
     titleElement.style.color = ''; // Reset to original color
     const subtitleText = document.getElementById('welcomeSubtitle').textContent;
     const subtitleElement = document.getElementById('welcomeSubtitle');
-    subtitleElement.style.textAlign = 'left'; // Initially set to left align
-    subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
-    subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
+    // subtitleElement.style.textAlign = 'left'; // Initially set to left align
+    // subtitleElement.style.textAlignLast = 'left'; // Initially set to left align
+    // subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
+    subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
+    subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
+    subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
 
     typeWriterEffect(subtitleText, subtitleElement, 20, () => {
-        // Fade out the text
-        subtitleElement.style.transition = 'opacity 2s ease';
-        subtitleElement.style.opacity = '0';
-
-        subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
-        subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
-        subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
+        // subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
+        // subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
+        // subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
         setTimeout(() => {
-            // Fade in the text
-            subtitleElement.style.opacity = '1';
-            subtitleElement.style.transition = '';
             document.querySelectorAll('header *').forEach(element => {
                 element.style.transition = 'color 2s';
                 element.style.color = ''; // Reset to original color
