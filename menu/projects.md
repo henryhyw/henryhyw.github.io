@@ -59,7 +59,7 @@ I had an opportunity to work on BRIGHT, a benchmark designed to evaluate how wel
 Hongjin Su\*, Howard Yen\*, Mengzhou Xia\*, Weijia Shi, Niklas Muennighoff, **Han-yu Wang**, Haisu Liu, Quan Shi, Zachary S. Siegel, Michael Tang, Ruoxi Sun, Jinsung Yoon, Sercan O. Arik, Danqi Chen, Tao Yu
 *Preprint*
 
-For more details, please visit the homepage of this project: [BRIGHT]("https://brightbenchmark.github.io/").
+For more details, please visit the homepage of this project: [BRIGHT](https://brightbenchmark.github.io/).
 
 ---
 
