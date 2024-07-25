@@ -595,4 +595,18 @@ window.onresize = () => {
     subtitleElement.style.textAlign = 'justify';
     subtitleElement.style.textAlignLast = 'justify';
     subtitleElement.style.MozTextAlignLast = 'justify';
+    document.querySelectorAll('header *').forEach(element => {
+        element.style.transition = 'color 2s';
+        element.style.color = ''; // Reset to original color
+    });
+    document.querySelectorAll('footer *').forEach(element => {
+        element.style.transition = 'color 2s';
+        element.style.color = ''; // Reset to original color
+    });
+    const quoteElement = document.getElementById('welcomeQuote');
+    quoteElement.style.transition = 'color 2s';
+    quoteElement.style.color = ''; // Reset to original color
+
+    const overlay = document.getElementById('overlay');
+    overlay.style.pointerEvents = 'none'; // Disable pointer events to allow clicks
 };
