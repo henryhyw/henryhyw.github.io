@@ -10,38 +10,6 @@ permalink: /projects
     });
 </script>
 
-<style>
-div.scroll-container {
-  background-color: #f7f7f7;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  overflow-y: hidden; /* Disable vertical scrolling */
-  white-space: nowrap;
-  padding: 10px;
-  height: 35vh; /* Set the height to 35% of the viewport height */
-  display: flex;
-  align-items: center; /* Center align images vertically */
-  transition: color 2s;
-}
-
-div.scroll-container img,
-div.scroll-container video {
-  padding: 10px;
-  height: calc(35vh - 20px); /* Adjust the height to fit within the container, considering padding */
-  object-fit: contain; /* Ensure the images fit within the container */
-}
-
-.image-wrapper {
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 1);
-    padding: 5px; /* Optional: Add some padding if needed */
-    border-radius: 5px; /* Optional: Add border radius for rounded corners */
-}
-
-.image-wrapper img {
-    display: block; /* Ensure the image fits within the wrapper */
-}
-</style>
-
 Welcome to my professional playground! I've had the chance to dive into some amazing projects that have been a big part of my journey. Here are some of the highlights.
 
 ---

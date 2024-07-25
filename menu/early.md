@@ -10,26 +10,6 @@ permalink: /early
     });
 </script>
 
-<style>
-div.scroll-container {
-  background-color: #f7f7f7;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  overflow-y: hidden; /* Disable vertical scrolling */
-  white-space: nowrap;
-  padding: 10px;
-  height: 35vh; /* Set the height to 35% of the viewport height */
-  display: flex;
-  align-items: center; /* Center align images vertically */
-}
-
-div.scroll-container img,
-div.scroll-container video {
-  padding: 10px;
-  height: calc(35vh - 20px); /* Adjust the height to fit within the container, considering padding */
-  object-fit: contain; /* Ensure the images fit within the container */
-}
-</style>
-
 Here are the adventures I went through during my junior high and high school years. I've highlighted some main projects from each year.
 
 Before we dive in, I have to admit that a lot of the things I did during this period were pretty naive. But who hasn't had a naive phase, right? Honestly, I might still be a bit naive now, and that's okay.

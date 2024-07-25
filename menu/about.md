@@ -14,24 +14,6 @@ permalink: /about
 video, .fallback-image {
     width: 100%;
 }
-
-div.scroll-container {
-  background-color: #f7f7f7;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  overflow-y: hidden; /* Disable vertical scrolling */
-  white-space: nowrap;
-  padding: 10px;
-  height: 35vh; /* Set the height to 35% of the viewport height */
-  display: flex;
-  align-items: center; /* Center align images vertically */
-}
-
-div.scroll-container img,
-div.scroll-container video {
-  padding: 10px;
-  height: calc(35vh - 20px); /* Adjust the height to fit within the container, considering padding */
-  object-fit: contain; /* Ensure the images fit within the container */
-}
 </style>
 
 I’m Han-yu Wang. You can also call me Henry. I was born in **Taiwan** and grew up in **Shanghai**. I’ve also had the chance to live in **Hawke’s Bay, New Zealand**. Currently, I'm pursuing my degree in **Hong Kong**.

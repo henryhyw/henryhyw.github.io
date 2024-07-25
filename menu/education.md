@@ -10,19 +10,6 @@ permalink: /education
     });
 </script>
 
-<style>
-    .image-wrapper {
-        display: inline-block;
-        background-color: rgba(255, 255, 255, 1);
-        padding: 5px; /* Optional: Add some padding if needed */
-        border-radius: 5px; /* Optional: Add border radius for rounded corners */
-    }
-
-    .image-wrapper img {
-        display: block; /* Ensure the image fits within the wrapper */
-    }
-</style>
-
 Here’s a snapshot of my academic path and the experiences that have shaped my learning.
 
 I wouldn't say I'm an extremely hardworking student; in fact, I often look for shortcuts. But when it comes to things I'm passionate about, I dive in deep and never take shortcuts. I love immersing myself in what I care about and put in every effort to excel. Take my computer science courses, for instance—I spent a lot of time exploring interesting concepts beyond the textbook.
