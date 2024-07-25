@@ -32,7 +32,7 @@ function isTouchScreen(){
 
 function changeVideoSource() {
     // Get a new random index from nonPlayed
-    const newIndex = getNewRandomIndex(Math.floor(Math.random() * nonPlayed.length));
+    const newIndex = Math.floor(Math.random() * nonPlayed.length);
 
     // Select the new video source using the new index
     const source = nonPlayed.splice(newIndex, 1)[0]; // Remove the selected video from nonPlayed
@@ -272,7 +272,7 @@ function switchVideoSource() {
     }
 
     // Get a new random index from nonPlayed
-    const newIndex = getNewRandomIndex(Math.floor(Math.random() * nonPlayed.length));
+    const newIndex = Math.floor(Math.random() * nonPlayed.length);
 
     // Select the new video source using the new index
     const newVideoSource = nonPlayed.splice(newIndex, 1)[0]; // Remove the selected video from nonPlayed
