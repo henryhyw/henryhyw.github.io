@@ -63,7 +63,7 @@ I had an opportunity to work on BRIGHT, a benchmark designed to evaluate how wel
   <img src="/assets/img/BRIGHT5.png">
 </div>
 
-**BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval**\
+[**BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval**](https://arxiv.org/abs/2407.12883)\
 Hongjin Su\*, Howard Yen\*, Mengzhou Xia\*, Weijia Shi, Niklas Muennighoff, **Han-yu Wang**, Haisu Liu, Quan Shi, Zachary S. Siegel, Michael Tang, Ruoxi Sun, Jinsung Yoon, Sercan O. Arik, Danqi Chen, Tao Yu\
 *Preprint*
 
