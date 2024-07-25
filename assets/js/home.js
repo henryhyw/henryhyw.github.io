@@ -304,7 +304,7 @@ function switchVideoSource() {
         // Play the new video source
         videoElement.play();
 
-        if (videoElement.muted) {
+        if (!videoElement.muted) {
             const descriptionContentElement = document.getElementById('descriptionContent');
             descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click to silence and fade!</p>`;
         } else {
