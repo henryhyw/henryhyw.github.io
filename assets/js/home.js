@@ -584,6 +584,10 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 window.onresize = () => {
+    // Clear any existing timeout to interrupt the previous typing effect
+    if (currentTimeoutId) {
+        clearTimeout(currentTimeoutId);
+    }
     console.log("resize")
     updateTitles();
     const isDarkMode = document.body.classList.contains('dark-mode');
