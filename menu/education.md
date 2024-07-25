@@ -36,7 +36,7 @@ I completed my junior high, high school, and International Baccalaureate diploma
 
 For my IB diploma, I studied a broad array of subjects including computer science, mathematics, economics, physics, English, and Chinese.
 
-In addition to my coursework, I co-founded SHSID Musix Board, a popular music opinion-sharing website, and led the Coding Club.
+In addition to my coursework, I co-founded SHSID Musix Board, a school-wide popular music opinion-sharing platform, and led the Coding Club.
 
 <!-- ## Shibei Junior High School
 
