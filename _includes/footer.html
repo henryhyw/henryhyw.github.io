@@ -4,3 +4,14 @@
 </footer>
 
 <script src="{{ site.github.url }}/assets/js/theme-toggle.js" defer></script>
+
+<script>
+    document.querySelectorAll('header *').forEach(element => {
+        element.style.color = ''; // Reset to original color
+    });
+    setTimeout(() => {
+        document.querySelectorAll('footer *').forEach(element => {
+            element.style.color = '';
+        });
+    }, 3000);
+</script>
