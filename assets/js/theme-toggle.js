@@ -82,9 +82,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
         const subtitleElement = document.getElementById('welcomeSubtitle');
         const textColor = currentTheme === 'light' ? '#fafafa' : '#252525'; // Change text color based on theme
+        applyTheme(newTheme);
         subtitleElement.style.transition = 'color 2s';
         subtitleElement.style.color = textColor;
-        applyTheme(newTheme);
+        subtitleElement.style.transition = 'color 0s';
         localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
         // Use setTimeout to ensure the transition has time to start
         setTimeout(() => {
