@@ -41,11 +41,11 @@ div.scroll-container video {
 }
 </style>
 
-Welcome to my professional playground! I've had the chance to dive into some amazing projects that have been a big part of my journey. Let's take a look at some of the highlights together!
+Welcome to my professional playground! I've had the chance to dive into some amazing projects that have been a big part of my journey. Here are some of the highlights.
 
 ---
 
-## Contributor in an Information Retrieval Research Project
+## Contributor in BRIGHT, a Benchmark for Reasoning-Intensive Information Retrieval
 
 *December 2023 - May 2024*
 
@@ -53,11 +53,14 @@ Welcome to my professional playground! I've had the chance to dive into some ama
 
 <img src="/assets/img/hku.jpeg" style="height:8vh;">
 
-I had an opportunity to work on BRIGHT, a benchmark designed to evaluate how well models can reason through complex queries. Collaborating with Princeton University and Google Cloud AI Research made the project even more exciting!
+I had an opportunity to work on BRIGHT, a benchmark designed to evaluate how well models can reason through complex queries. I was responsible for literature reviews, gathering and analyzing data from public forums, creating query-document pairs, and testing coding-related queries.
 
-It was a dive into how information is processed and understood. I spent a lot of time gathering and analyzing data from public forums, creating query-document pairs, and testing coding-related queries to ensure our models were accurate.
+As one of the co-authors, I contributed to a paper about the project.
 
-As one of the co-authors, I contributed to a paper about the project, which we submitted to NeurIPS and is currently under review. This project was a challenging yet rewarding experience.
+**BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval**
+Hongjin Su\*, Howard Yen\*, Mengzhou Xia\*, Weijia Shi, Niklas Muennighoff, **Han-yu Wang**, Haisu Liu, Quan Shi, Zachary S. Siegel, Michael Tang, Ruoxi Sun, Jinsung Yoon, Sercan O. Arik, Danqi Chen, Tao Yu
+*Preprint*
+[paper]("https://arxiv.org/abs/2407.12883") [code]("https://github.com/xlang-ai/BRIGHT") [data]("https://huggingface.co/datasets/xlangai/BRIGHT") [website]("https://brightbenchmark.github.io/")
 
 ---
 
