@@ -76,11 +76,11 @@ For additional details including the paper, code, data, and more, please visit t
 During my junior high and high school years, I got to work on a bunch of projects that really sparked my love for computer science. Some of the highlights were creating a batch downloader for Scientific American episodes, developing a few Chrome extensions, building a website for Kiwiview International Limited, and making an economics graph generator called Econographer. These projects show just how excited I was (and still am) about programming and solving problems.
 
 <div class="scroll-container">
-  <img src="/assets/img/BRIGHT1.jpg">
-  <img src="/assets/img/BRIGHT2.jpg">
-  <img src="/assets/img/BRIGHT3.jpg">
-  <img src="/assets/img/BRIGHT4.jpg">
-  <img src="/assets/img/BRIGHT5.jpg">
+  <img src="/assets/img/econographer1.png">
+  <img src="/assets/img/musicdownloader3.jpg">
+  <img src="/assets/img/chromeextension1.png">
+  <img src="/assets/img/safetcher1.jpg">
+  <img src="/assets/img/24.png">
 </div>
 
 For more details, please visit: [My Early CS Adventures](https://henryhyw.github.io/early.html).
