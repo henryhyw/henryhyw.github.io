@@ -596,4 +596,7 @@ window.onresize = () => {
     subtitleElement.style.transition = 'color 0s';
     subtitleElement.style.color = textColor;
     subtitleElement.style.transition = '';
+    subtitleElement.style.textAlign = 'justify';
+    subtitleElement.style.textAlignLast = 'justify';
+    subtitleElement.style.MozTextAlignLast = 'justify';
 };
