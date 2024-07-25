@@ -5,8 +5,6 @@ let pressed = false;
 let resetTimeout;
 const maxAngle = 360; // Maximum angle to prevent excessive shaking
 const minDuration = 0.2; // Minimum duration to prevent excessive speed
-const coolDownFactor = 0.9; // Factor to gradually reduce angle and duration during cool down
-const coolDownInterval = 200; // Interval between cool down steps in milliseconds
 
 let canPlayVideo = true;
 
@@ -269,29 +267,6 @@ function processShakeQueue() {
     }, newDuration * 1000);
 }
 
-function gradualStop() {
-    if (pressCount === 0) return;
-
-    const compassIcon = document.getElementById('compassIcon');
-
-    // Calculate the reduced angle and duration
-    let reducedAngle = Math.max(15, compassIcon.style.getPropertyValue('--shake-angle').replace('deg', '') * coolDownFactor);
-    let reducedDuration = Math.min(0.8, compassIcon.style.getPropertyValue('--shake-duration').replace('s', '') / coolDownFactor);
-
-    // Apply the reduced angle and duration
-    compassIcon.style.setProperty('--shake-angle', `${reducedAngle}deg`);
-    compassIcon.style.setProperty('--shake-duration', `${reducedDuration}s`);
-
-    compassIcon.classList.add('shake');
-    
-    setTimeout(() => {
-        compassIcon.classList.remove('shake');
-        if (reducedAngle > 3) {
-            setTimeout(gradualStop, coolDownInterval);
-        }
-    }, reducedDuration * 1000);
-}
-
 function switchVideoSource() {
     const videoElement = document.getElementById('videoElement');
     const transitionOverlay = document.getElementById('transitionOverlay');
@@ -474,6 +449,7 @@ function setupDescriptionOverlay() {
 }
 
 document.getElementById('compassIcon').addEventListener('click', function() {
+
     if (canPlayVideo) {
         switchVideoSource();
     }
@@ -483,7 +459,7 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     const hintParagraph = document.getElementById('hint');
     compassIcon.classList.remove("tipcolor-1");
     compassIcon.classList.remove("tipcolor-2");
-    try {
+    try{
         hintParagraph.classList.add("tipcolor-2");
     } catch (error) {
         console.error(error);
@@ -492,8 +468,8 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     pressCount++;
     
     // Calculate new angle and duration based on the number of presses
-    let newAngle = Math.min(15 + pressCount * 6, maxAngle); // Increase angle by 6 degrees per press, up to maxAngle
-    let newDuration = Math.max(0.8 - pressCount * 0.06, minDuration); // Decrease duration by 0.06s per press, down to minDuration
+    let newAngle = Math.min(15 + pressCount * 6, maxAngle); // Increase angle by 5 degrees per press, up to maxAngle
+    let newDuration = Math.max(0.8 - pressCount * 0.06, minDuration); // Decrease duration by 0.05s per press, down to minDuration
     
     shakeQueue.push({ newAngle, newDuration });
     processShakeQueue();
@@ -504,8 +480,7 @@ document.getElementById('compassIcon').addEventListener('click', function() {
     // Set a new reset timeout for 2 seconds
     resetTimeout = setTimeout(() => {
         pressCount = 0;
-        gradualStop(); // Start the gradual stop process
-    }, 2000);
+    }, 500);
 });
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -530,7 +505,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!videoLoaded) {
                 handleVideoError(new Error('Timeout waiting for video to load'));
             }
-        }, 3000); // 2 seconds
+        }, 3000); // 3 seconds
 
         // Function to handle video errors
         function handleVideoError(error) {
