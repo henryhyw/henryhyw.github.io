@@ -284,6 +284,7 @@ function switchVideoSource() {
     }
 
     // Apply flip effect
+    descriptionOverlay.style.opacity = 0.8
     videoElement.classList.remove('flip2');
     videoElement.classList.add('flip');
     transitionOverlay.classList.remove('flip2');
@@ -317,6 +318,7 @@ function switchVideoSource() {
             transitionOverlay.classList.remove('flip2');
             descriptionOverlay.classList.remove('flip2');
             videoElement.setAttribute('class', newVideoSource.class);
+            descriptionOverlay.style.opacity = '';
         }, { once: true });
     }, { once: true });
 }
