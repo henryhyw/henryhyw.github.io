@@ -481,7 +481,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!videoLoaded) {
                 handleVideoError(new Error('Timeout waiting for video to load'));
             }
-        }, 1500); // 1.5 seconds
+        }, 2000); // 2 seconds
 
         // Function to handle video errors
         function handleVideoError(error) {
@@ -500,7 +500,6 @@ document.addEventListener("DOMContentLoaded", function() {
                         updateTitles();
 
                         setTimeout(() => {
-                            console.log("display 2")
                             displayWelcomeContent();
                         }, 1000);
                     }
@@ -546,7 +545,6 @@ document.addEventListener("DOMContentLoaded", function() {
                             videoTransition();
 
                             setTimeout(() => {
-                                console.log("display 1")
                                 displayWelcomeContent();
                             }, 1000);
                         }
