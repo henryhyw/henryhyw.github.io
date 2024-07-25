@@ -25,7 +25,7 @@ permalink: /education
 
 Here’s a snapshot of my academic path and the experiences that have shaped my learning.
 
-I wouldn’t call myself a super hardworking student; in fact, I often look for shortcuts. However, when it comes to things I’m passionate about, I dive in deep and never deliberately take shortcuts. I love immersing myself in the things I care about and put in every effort to excel at them. With that being said, in most computer science courses, I spent far more time than others exploring those interesting concepts beyond the textbook.
+I wouldn't say I'm an extremely hardworking student; in fact, I often look for shortcuts. But when it comes to things I'm passionate about, I dive in deep and never take shortcuts. I love immersing myself in what I care about and put in every effort to excel. Take my computer science courses, for instance—I spent a lot of time exploring interesting concepts beyond the textbook.
 
 ---
 
