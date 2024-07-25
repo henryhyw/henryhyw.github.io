@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         applyTheme(newTheme);
         subtitleElement.style.transition = 'color 2s';
         subtitleElement.style.color = textColor;
-        subtitleElement.style.transition = 'color 0s';
+        subtitleElement.style.transition = '';
         localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
         // Use setTimeout to ensure the transition has time to start
         setTimeout(() => {
