@@ -467,58 +467,18 @@ document.addEventListener("DOMContentLoaded", function() {
     videoElement.style.opacity = '1';
     // Function to handle video playback and related tasks
     function handleVideoPlayback() {
-        try {
-            alert("try to load");
-            // Listen for the loadeddata event to ensure the video is ready
-            videoElement.addEventListener('loadeddata', () => {
-                alert("loaded");
-                // Attempt to play the video
-                videoElement.play().then(() => {
-                    alert("can play");
-                    const checkDimensions = setInterval(function() {
-                        if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
-                            const aspectRatio = videoElement.videoWidth / videoElement.videoHeight;
-                            // Check if the aspect ratio is approximately 9:16
-                            if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
-                                clearInterval(checkDimensions);
+        // Create a flag to indicate whether the video is loaded successfully
+        let videoLoaded = false;
 
-                                createHint();
-                                setupDescriptionOverlay();
-                                updateTitles();
+        // Create a timeout to handle the scenario where loadeddata is not fired within 4 seconds
+        const loadTimeout = setTimeout(() => {
+            if (!videoLoaded) {
+                handleVideoError(new Error('Timeout waiting for video to load'));
+            }
+        }, 4000); // 4 seconds
 
-                                videoElement.addEventListener('click', () => {
-                                    if (videoElement.muted) {
-                                        videoElement.muted = false;
-                                        videoElement.style.filter = 'grayscale(0%)';
-                                        // Update the description content
-                                        const descriptionContentElement = document.getElementById('descriptionContent');
-                                        descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click to silence and fade!</p>`;
-                                    } else {
-                                        videoElement.muted = true;
-                                        videoElement.style.filter = 'grayscale(85%)';
-                                        // Update the description content
-                                        const descriptionContentElement = document.getElementById('descriptionContent');
-                                        descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click for color and sound!</p>`;
-                                    }
-                                });
-
-                                preloadVideos();
-                                videoTransition();
-
-                                setTimeout(() => {
-                                    displayWelcomeContent();
-                                }, 1000);
-                            }
-                        }
-                    }, 100); // Check every 100ms until dimensions are available
-                }).catch((error) => {
-                    // Handle errors that occur during video playback
-                    throw new Error('Error playing video');
-                });
-            });
-        } catch (error) {
-            alert("cannot play");
-            // Handle any errors that occur during the process
+        // Function to handle video errors
+        function handleVideoError(error) {
             console.error('Error:', error);
             canPlayVideo = false;
             videoElement.style.display = 'none';
@@ -540,7 +500,65 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }, 100); // Check every 100ms until dimensions are available
         }
+
+        // Listen for the loadeddata event to ensure the video is ready
+        videoElement.addEventListener('loadeddata', () => {
+            videoLoaded = true;
+            clearTimeout(loadTimeout); // Clear the timeout since the video is loaded
+
+            // Attempt to play the video
+            videoElement.play().then(() => {
+                const checkDimensions = setInterval(function() {
+                    if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
+                        const aspectRatio = videoElement.videoWidth / videoElement.videoHeight;
+                        // Check if the aspect ratio is approximately 9:16
+                        if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
+                            clearInterval(checkDimensions);
+
+                            createHint();
+                            setupDescriptionOverlay();
+                            updateTitles();
+
+                            videoElement.addEventListener('click', () => {
+                                if (videoElement.muted) {
+                                    videoElement.muted = false;
+                                    videoElement.style.filter = 'grayscale(0%)';
+                                    // Update the description content
+                                    const descriptionContentElement = document.getElementById('descriptionContent');
+                                    descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click to silence and fade!</p>`;
+                                } else {
+                                    videoElement.muted = true;
+                                    videoElement.style.filter = 'grayscale(85%)';
+                                    // Update the description content
+                                    const descriptionContentElement = document.getElementById('descriptionContent');
+                                    descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click for color and sound!</p>`;
+                                }
+                            });
+
+                            preloadVideos();
+                            videoTransition();
+
+                            setTimeout(() => {
+                                displayWelcomeContent();
+                            }, 1000);
+                        }
+                    }
+                }, 100); // Check every 100ms until dimensions are available
+            }).catch((error) => {
+                // Handle errors that occur during video playback
+                handleVideoError(error);
+            });
+        });
+
+        // Initial video load attempt
+        try {
+            videoElement.load();
+        } catch (error) {
+            handleVideoError(error);
+        }
     }
+
+    // Call the function to handle video playback
     handleVideoPlayback();
 });
 
