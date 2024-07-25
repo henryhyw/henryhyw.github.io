@@ -494,6 +494,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         updateTitles();
 
                         setTimeout(() => {
+                            console.log("display 2")
                             displayWelcomeContent();
                         }, 1000);
                     }
@@ -539,6 +540,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             videoTransition();
 
                             setTimeout(() => {
+                                console.log("display 1")
                                 displayWelcomeContent();
                             }, 1000);
                         }
@@ -563,6 +565,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 window.onresize = () => {
+    console.log("resize")
     updateTitles();
     // const subtitleText = document.getElementById('welcomeSubtitle').textContent;
     // const subtitleElement = document.getElementById('welcomeSubtitle');
