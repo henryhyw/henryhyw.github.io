@@ -386,10 +386,10 @@ function displayWelcomeContent() {
     subtitleElement.style.MozTextAlignLast = 'left'; // Initially set to left align
 
     typeWriterEffect(subtitleText, subtitleElement, 20, () => {
-        subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
-        subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
-        subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
         setTimeout(() => {
+            subtitleElement.style.textAlign = 'justify'; // Change to justify after typing is complete
+            subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
+            subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
             document.querySelectorAll('header *').forEach(element => {
                 element.style.transition = 'color 2s';
                 element.style.color = ''; // Reset to original color
@@ -419,7 +419,7 @@ function displayWelcomeContent() {
                 }, 2000); // Match this duration with the color transition time (2 seconds)
             }, 1000);
         }, 1000);
-    }, 10000);
+    });
 }
 
 function setupDescriptionOverlay() {
