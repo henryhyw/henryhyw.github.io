@@ -30,6 +30,11 @@ function isTouchScreen(){
     return /android|iPhone|iPad|iPod/i.test(userAgent);
 }
 
+// Function to get a new random index
+function getNewRandomIndex(arrayLength) {
+    return Math.floor(Math.random() * arrayLength);
+}
+
 function changeVideoSource() {
     // Get a new random index from nonPlayed
     const newIndex = getNewRandomIndex(nonPlayed.length);
