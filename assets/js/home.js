@@ -514,6 +514,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 });
             });
         } catch (error) {
+            alert("cannot play video");
             // Handle any errors that occur during the process
             console.error('Error:', error);
             canPlayVideo = false;
