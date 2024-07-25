@@ -474,6 +474,11 @@ document.getElementById('compassIcon').addEventListener('click', function() {
 
 document.addEventListener("DOMContentLoaded", function() {
 
+    if (window.location.pathname === '/index.html') { // Check if the current page is not the homepage
+        const overlay = document.getElementById('overlay');
+        overlay.style.pointerEvents = 'none'; // Disable pointer events to allow clicks
+    }
+
     changeVideoSource();
 
     const videoElement = document.getElementById('videoElement');
