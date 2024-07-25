@@ -210,6 +210,7 @@ function typeWriterEffect(text, element, delay = 100, callback) {
             const isDarkMode = document.body.classList.contains('dark-mode');
             const textColor = isDarkMode ? '#fafafa' : '#252525'; // Change text color based on theme
             
+            spans[index].style.transition = `color 2s`;
             spans[index].style.color = textColor;
             index++;
             currentTimeoutId = setTimeout(reveal, delay); // Store the timeout ID
@@ -504,7 +505,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!videoLoaded) {
                 handleVideoError(new Error('Timeout waiting for video to load'));
             }
-        }, 2000); // 2 seconds
+        }, 3000); // 2 seconds
 
         // Function to handle video errors
         function handleVideoError(error) {
