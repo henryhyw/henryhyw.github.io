@@ -210,7 +210,7 @@ function typeWriterEffect(text, element, delay = 100, callback) {
             const isDarkMode = document.body.classList.contains('dark-mode');
             const textColor = isDarkMode ? '#fafafa' : '#252525'; // Change text color based on theme
             
-            spans[index].style.transition = `color 2ms`;
+            spans[index].style.transition = `color 2s`;
             spans[index].style.color = textColor;
             index++;
             currentTimeoutId = setTimeout(reveal, delay); // Store the timeout ID
