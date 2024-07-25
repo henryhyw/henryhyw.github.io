@@ -419,7 +419,7 @@ function displayWelcomeContent() {
                 }, 2000); // Match this duration with the color transition time (2 seconds)
             }, 1000);
         }, 1000);
-    });
+    }, 1000);
 }
 
 function setupDescriptionOverlay() {
