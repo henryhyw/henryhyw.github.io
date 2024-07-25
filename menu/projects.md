@@ -55,12 +55,11 @@ Welcome to my professional playground! I've had the chance to dive into some ama
 
 I had an opportunity to work on BRIGHT, a benchmark designed to evaluate how well models can reason through complex queries. I was responsible for literature reviews, gathering and analyzing data from public forums, creating query-document pairs, and testing coding-related queries.
 
-As one of the co-authors, I contributed to a paper about the project.
-
 **BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval**
 Hongjin Su\*, Howard Yen\*, Mengzhou Xia\*, Weijia Shi, Niklas Muennighoff, **Han-yu Wang**, Haisu Liu, Quan Shi, Zachary S. Siegel, Michael Tang, Ruoxi Sun, Jinsung Yoon, Sercan O. Arik, Danqi Chen, Tao Yu
 *Preprint*
-[paper]("https://arxiv.org/abs/2407.12883") [code]("https://github.com/xlang-ai/BRIGHT") [data]("https://huggingface.co/datasets/xlangai/BRIGHT") [website]("https://brightbenchmark.github.io/")
+
+For more details, please visit the homepage of this project: [BRIGHT]("https://brightbenchmark.github.io/").
 
 ---
 
@@ -68,7 +67,7 @@ Hongjin Su\*, Howard Yen\*, Mengzhou Xia\*, Weijia Shi, Niklas Muennighoff, **Ha
 
 During my junior high and high school years, I got to work on a bunch of projects that really sparked my love for computer science. Some of the highlights were creating a batch downloader for Scientific American episodes, developing a few Chrome extensions, building a website for Kiwiview International Limited, and making an economics graph generator called Econographer. These projects show just how excited I was (and still am) about programming and solving problems.
 
-For more details, please visit this page, [My Early CS Adventures](https://henryhyw.github.io/early.html).
+For more details, please visit: [My Early CS Adventures](https://henryhyw.github.io/early.html).
 
 <script>
     setTimeout(() => {
