@@ -26,12 +26,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 ? 'https://mapmyvisitors.com/map.js?cl=fafafa&w=a&t=n&d=NuzI5fMF9fqCHtkxcTx3LZO5mvAbEZrLLxG3ZW1E-KY&co=000000&cmo=3acc3a&cmn=ff5353&ct=808080'
                 : 'https://mapmyvisitors.com/map.js?cl=606060&w=a&t=n&d=NuzI5fMF9fqCHtkxcTx3LZO5mvAbEZrLLxG3ZW1E-KY&co=ffffff&ct=606060';
 
-            const subtitleElement = document.getElementById('welcomeSubtitle');
-            const textColor = isDarkMode ? '#fafafa' : '#252525'; // Change text color based on theme
-            subtitleElement.style.transition = 'color 0s';
-            subtitleElement.style.color = textColor;
-            subtitleElement.style.transition = '';
-
             // Clear existing map container content
             visitorMapContainer.innerHTML = '';
 
@@ -86,11 +80,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
         const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+        const subtitleElement = document.getElementById('welcomeSubtitle');
         applyTheme(newTheme);
         localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
         // Use setTimeout to ensure the transition has time to start
         setTimeout(() => {
             document.body.style.transition = '';
+            const textColor = currentTheme === 'light' ? '#fafafa' : '#252525'; // Change text color based on theme
+            subtitleElement.style.transition = 'color 0s';
+            subtitleElement.style.color = textColor;
+            subtitleElement.style.transition = '';
             document.querySelectorAll('header *').forEach(element => {
                 element.style.transition = 'color 0.5s';
             });
