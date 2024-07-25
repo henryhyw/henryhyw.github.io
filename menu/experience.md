@@ -4,11 +4,11 @@ title: My Work Experience
 permalink: /experience
 ---
 
-<script>
+<!-- <script>
     document.querySelectorAll('header *').forEach(element => {
         element.style.color = ''; // Reset to original color
     });
-</script>
+</script> -->
 
 Welcome to my career journey! I've taken on various roles that have really shaped who I am today. Come along as I share these key experiences with you!
 
@@ -78,10 +78,10 @@ Here is the link to the website I developed: [Kiwiview International Limited](ht
 
 Tutoring has been a passion of mine, and during this period, I helped international high school students ace their AP and IB math and computer science exams. I also prepared them for AMC 8 & AMC 10 competitions and assisted with their school coursework to boost their understanding and performance. -->
 
-<script>
+<!-- <script>
     setTimeout(() => {
         document.querySelectorAll('footer *').forEach(element => {
             element.style.color = '';
         });
     }, 3000);
-</script>
+</script> -->
