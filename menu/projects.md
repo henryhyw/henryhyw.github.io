@@ -26,7 +26,7 @@ div.scroll-container img,
 div.scroll-container video {
   padding: 10px;
   height: calc(35vh - 20px); /* Adjust the height to fit within the container, considering padding */
-  object-fit: cover; /* Ensure the images fit within the container */
+  object-fit: contain; /* Ensure the images fit within the container */
 }
 
 .image-wrapper {
@@ -58,7 +58,6 @@ I had an opportunity to work on BRIGHT, a benchmark designed to evaluate how wel
 <div class="scroll-container">
   <img src="/assets/img/BRIGHT1.png">
   <img src="/assets/img/BRIGHT2.png">
-  <img src="/assets/img/BRIGHT3.png">
   <img src="/assets/img/BRIGHT4.png">
   <img src="/assets/img/BRIGHT5.png">
 </div>
