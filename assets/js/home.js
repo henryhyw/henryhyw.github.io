@@ -465,49 +465,57 @@ document.addEventListener("DOMContentLoaded", function() {
     const videoElement = document.getElementById('videoElement');
     const fallbackImage = document.getElementById('imageElement');
     videoElement.style.opacity = '1';
-    videoElement.addEventListener('loadeddata', () => {
-        // Attempt to play the video
-        videoElement.play().then(() => {
-            const checkDimensions = setInterval(function() {
-                if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
-                    const aspectRatio = videoElement.videoWidth / videoElement.videoHeight;
-                    // Check if the aspect ratio is approximately 9:16
-                    if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
-                        clearInterval(checkDimensions);
+    // Function to handle video playback and related tasks
+    function handleVideoPlayback() {
+        try {
+            // Listen for the loadeddata event to ensure the video is ready
+            videoElement.addEventListener('loadeddata', () => {
+                // Attempt to play the video
+                videoElement.play().then(() => {
+                    const checkDimensions = setInterval(function() {
+                        if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
+                            const aspectRatio = videoElement.videoWidth / videoElement.videoHeight;
+                            // Check if the aspect ratio is approximately 9:16
+                            if (Math.abs(aspectRatio - (9 / 16)) < 0.01) {
+                                clearInterval(checkDimensions);
 
-                        createHint();
+                                createHint();
+                                setupDescriptionOverlay();
+                                updateTitles();
 
-                        setupDescriptionOverlay();
-                        updateTitles();
+                                videoElement.addEventListener('click', () => {
+                                    if (videoElement.muted) {
+                                        videoElement.muted = false;
+                                        videoElement.style.filter = 'grayscale(0%)';
+                                        // Update the description content
+                                        const descriptionContentElement = document.getElementById('descriptionContent');
+                                        descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click to silence and fade!</p>`;
+                                    } else {
+                                        videoElement.muted = true;
+                                        videoElement.style.filter = 'grayscale(85%)';
+                                        // Update the description content
+                                        const descriptionContentElement = document.getElementById('descriptionContent');
+                                        descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click for color and sound!</p>`;
+                                    }
+                                });
 
-                        videoElement.addEventListener('click', () => {
-                            if (videoElement.muted) {
-                                videoElement.muted = false;
-                                videoElement.style.filter = 'grayscale(0%)';
-                                // Update the description content
-                                const descriptionContentElement = document.getElementById('descriptionContent');
-                                descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click to silence and fade!</p>`;
-                            } else {
-                                videoElement.muted = true;
-                                videoElement.style.filter = 'grayscale(85%)';
-                                // Update the description content
-                                const descriptionContentElement = document.getElementById('descriptionContent');
-                                descriptionContentElement.innerHTML = `${currentVideoSource.description}<br><p>Click for color and sound!</p>`;
+                                preloadVideos();
+                                videoTransition();
+
+                                setTimeout(() => {
+                                    displayWelcomeContent();
+                                }, 1000);
                             }
-                        });
-
-                        preloadVideos();
-
-                        videoTransition();
-
-                        setTimeout(() => {
-                            displayWelcomeContent();
-                        }, 1000);
-                    }
-                }
-            }, 100); // Check every 100ms until dimensions are available
-        }).catch((error) => {
-            console.error('Error playing video:', error);
+                        }
+                    }, 100); // Check every 100ms until dimensions are available
+                }).catch((error) => {
+                    // Handle errors that occur during video playback
+                    throw new Error('Error playing video');
+                });
+            });
+        } catch (error) {
+            // Handle any errors that occur during the process
+            console.error('Error:', error);
             canPlayVideo = false;
             videoElement.style.display = 'none';
             fallbackImage.style.display = 'block';
@@ -527,8 +535,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                 }
             }, 100); // Check every 100ms until dimensions are available
-        });
-    });
+        }
+    }
+    handleVideoPlayback();
 });
 
 window.onresize = () => {
