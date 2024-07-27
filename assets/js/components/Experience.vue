@@ -3,9 +3,6 @@
 </template>
 
 <script>
-import axios from 'axios';
-import MarkdownIt from 'markdown-it';
-
 export default {
   data() {
     return {
@@ -14,12 +11,12 @@ export default {
   },
   computed: {
     compiledMarkdown() {
-      const md = new MarkdownIt();
+      const md = window.markdownit();
       return md.render(this.markdownContent);
     },
   },
   mounted() {
-    axios
+    window.axios
       .get('/assets/markdown/experience.md') // Update the path to your Markdown file
       .then((response) => {
         this.markdownContent = response.data;
