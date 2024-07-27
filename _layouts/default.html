@@ -2,101 +2,12 @@
 <html>
   {% include head.html %}
   <body>
-    <div id="app" class="container">
+    <div class="container">
       {% include header.html %}
-      <router-view></router-view>
+      <div class="content-container">
+        {{ content }}
+      </div>
       {% include footer.html %}
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue-router@3.5.3/dist/vue-router.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
-    <script src="https://henryhyw.github.io/assets/js/theme-toggle.js" defer></script>
-    <script>
-      if (window.location.pathname !== '/') {
-        // Check if the current page is not the homepage
-        document.querySelectorAll('header *').forEach(element => {
-          element.style.color = ''; // Reset to original color
-        });
-        setTimeout(() => {
-          document.querySelectorAll('footer *').forEach(element => {
-            element.style.color = '';
-          });
-        }, 1000);
-      }
-    </script>
-    <script type="module">
-      // Inline JavaScript for Vue and Vue Router
-
-      const Home = {
-        template: '<div v-html="compiledMarkdown"></div>',
-        data() {
-          return {
-            markdownContent: '',
-          };
-        },
-        computed: {
-          compiledMarkdown() {
-            const md = window.markdownit();
-            return md.render(this.markdownContent);
-          },
-        },
-        mounted() {
-          window.axios
-            .get('/assets/markdown/index.md')
-            .then((response) => {
-              this.markdownContent = response.data;
-            });
-        },
-      };
-
-      const About = {
-        template: '<div v-html="compiledMarkdown"></div>',
-        data() {
-          return {
-            markdownContent: '',
-          };
-        },
-        computed: {
-          compiledMarkdown() {
-            const md = window.markdownit();
-            return md.render(this.markdownContent);
-          },
-        },
-        mounted() {
-          window.axios
-            .get('/assets/markdown/about.md')
-            .then((response) => {
-              this.markdownContent = response.data;
-            });
-        },
-      };
-
-      // Repeat for other components...
-      const Education = { /* similar setup */ };
-      const Experience = { /* similar setup */ };
-      const Projects = { /* similar setup */ };
-      const Early = { /* similar setup */ };
-      const Contact = { /* similar setup */ };
-
-      const routes = [
-        { path: '/', component: Home },
-        { path: '/about', component: About },
-        { path: '/education', component: Education },
-        { path: '/experience', component: Experience },
-        { path: '/projects', component: Projects },
-        { path: '/early', component: Early },
-        { path: '/contact', component: Contact }
-      ];
-
-      const router = new VueRouter({
-        routes
-      });
-
-      new Vue({
-        el: '#app',
-        router
-      });
-    </script>
   </body>
 </html>
