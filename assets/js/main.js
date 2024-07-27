@@ -1,5 +1,5 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.esm.browser.js';
+import VueRouter from 'https://cdn.jsdelivr.net/npm/vue-router@3.5.3/dist/vue-router.esm.browser.js';
 import Home from './components/Home.vue';
 import About from './components/About.vue';
 import Education from './components/Education.vue';
