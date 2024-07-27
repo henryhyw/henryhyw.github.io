@@ -2,9 +2,9 @@
   <div v-html="compiledMarkdown"></div>
 </template>
 
-<script>
-import axios from 'axios';
-import MarkdownIt from 'markdown-it';
+<script type="module">
+import axios from 'https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js';
+import MarkdownIt from 'https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js';
 
 export default {
   data() {
