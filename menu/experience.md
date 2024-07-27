@@ -15,7 +15,7 @@ Welcome to my career journey! I've taken on various roles that have really shape
 *[HSBC](https://www.hsbc.com.hk/)*
 
 <div class="image-wrapper">
-    <img src="/assets/img/hsbc.png" style="height:8vh;">
+    <img src="/assets/img/hsbc.png" style="height:5.5vh;">
 </div>
 
 Right now, I’m diving into the world of digital transformation at HSBC. It’s been an incredible experience working with a team that's pushing the boundaries of banking technology.
@@ -55,7 +55,7 @@ In this role, I'm delving into the world of human memory systems and learning be
 *[Kiwiview International Limited](https://www.kiwiviewintl.co.nz/uk-en/index.php)*
 
 <div class="image-wrapper">
-    <img src="/assets/img/kiwiview.png" style="height:8vh;">
+    <img src="/assets/img/kiwiview.png" style="height:8.5vh;">
 </div>
 
 I had the opportunity to work with a New Zealand company that provides educational services for international study and customized travel solutions. This company is actually a family endeavor that my parents and I established together from the start. I led the design, development, and hosting of their website using HTML, JavaScript, CSS, PHP, and MySQL. I also gathered, analyzed, and visualized global study and travel trends using various Python packages. (Details are confidential)
