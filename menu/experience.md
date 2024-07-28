@@ -4,7 +4,7 @@ title: My Work Experience
 permalink: /experience
 ---
 
-Welcome to my career journey! I've taken on various roles that have really shaped who I am today. Come along as I share these key experiences with you!
+Welcome to my career journey! I've taken on various roles that have shaped who I am today. Come along as I share these key experiences with you!
 
 ---
 
@@ -18,7 +18,7 @@ Welcome to my career journey! I've taken on various roles that have really shape
     <img src="/assets/img/hsbc.png" style="height:5.5vh;">
 </div>
 
-Right now, I’m diving into the world of digital transformation at HSBC. It’s been an incredible experience working with a team that's pushing the boundaries of banking technology.
+I’m currently working in the department of digital transformation.
 
 ---
 
@@ -30,7 +30,7 @@ Right now, I’m diving into the world of digital transformation at HSBC. It’s
 
 <img src="/assets/img/hku.jpeg" style="height:8vh;">
 
-I'm exploring the intersection of Generative AI and personalized learning. My work involves conducting deep literature reviews on contextual embeddings with transformer-based LLMs and developing a sleek website for the PDS lab. It’s a perfect blend of theory and hands-on development!
+I'm exploring the intersection of Generative AI and personalized learning. My work involves conducting literature reviews on contextual embeddings with transformer-based LLMs and developing a website for the PDS lab.
 
 Here is the link to the website I developed: [PDS Laboratory](https://psym-ds.github.io/)
 
