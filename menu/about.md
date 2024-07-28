@@ -37,7 +37,7 @@ I love traveling and have had the chance to see some amazing places around the w
 
 *Scroll to see more*
 
-Another passion of mine is coding.  I enjoy creating functional programs from scratch. It's thrilling to see lines of code come together to build something real and impactful. Feel free to check out my [Projects](https://henryhyw.github.io/projects.html).
+Another passion of mine is coding.  I enjoy creating functional programs from scratch. It's thrilling to see lines of code come together to build something real and impactful. Feel free to check out some of my [Early Projects](https://henryhyw.github.io/early.html).
 
 <script>
   // Array of image filenames
