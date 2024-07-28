@@ -4,7 +4,7 @@ title: Projects I've Been Up To
 permalink: /projects
 ---
 
-Welcome to my professional playground! I've had the chance to dive into some amazing projects that have been a big part of my journey. Here are some of the highlights.
+I've had the chance to dive into some amazing projects that have been a big part of my journey. Here are some of the highlights.
 
 ---
 

@@ -4,7 +4,7 @@ title: My Work Experience
 permalink: /experience
 ---
 
-Welcome to my career journey! I've taken on various roles that have shaped who I am today. Come along as I share these key experiences with you!
+I've taken on various roles that have shaped who I am today. Come along as I share these key experiences with you!
 
 ---
 
