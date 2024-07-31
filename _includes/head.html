@@ -63,11 +63,20 @@
       transition: color 2s;
     }
 
+    div.scroll-container.project{
+      height: 20vh;
+    }
+
     div.scroll-container img,
     div.scroll-container video {
       padding: 10px;
       height: calc(35vh - 20px); /* Adjust the height to fit within the container, considering padding */
       object-fit: contain; /* Ensure the images fit within the container */
+    }
+
+    div.scroll-container.project img,
+    div.scroll-container.project video {
+      height: calc(20vh - 20px); /* Adjust the height to fit within the container, considering padding */
     }
 
     .image-wrapper {
