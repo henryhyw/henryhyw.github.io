@@ -79,10 +79,44 @@
       height: calc(20vh - 20px); /* Adjust the height to fit within the container, considering padding */
     }
 
-    div.scroll-container img.enlarged {
-        transform: scale(2); /* Double the size of the image */
-        z-index: 10; /* Bring the enlarged image to the front */
-        position: relative; /* Ensure it stays on top of other elements */
+    /* Modal (fullscreen) styles */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 100; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .modal-content {
+        margin: auto;
+        display: block;
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    .close {
+        position: absolute;
+        top: 20px;
+        right: 35px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
     }
 
     .image-wrapper {
@@ -98,22 +132,21 @@
   </style>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-        const images = document.querySelectorAll('div.scroll-container img');
+        const modal = document.getElementById('modal');
+        const modalImg = document.getElementById('modal-image');
+        const closeBtn = document.getElementsByClassName('close')[0];
         
-        images.forEach(image => {
-            image.addEventListener('click', () => {
-                if (image.classList.contains('enlarged')) {
-                    image.classList.remove('enlarged');
-                } else {
-                    // Remove 'enlarged' class from all images first
-                    images.forEach(img => img.classList.remove('enlarged'));
-                    // Add 'enlarged' class to the clicked image
-                    image.classList.add('enlarged');
-                }
+        document.querySelectorAll('div.scroll-container img').forEach(img => {
+            img.addEventListener('click', () => {
+                modal.style.display = 'flex';
+                modalImg.src = img.src;
             });
         });
+        
+        closeBtn.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
     });
-
   </script>
   <!-- Google Analytics -->
   {% include google-analytics.html %}
