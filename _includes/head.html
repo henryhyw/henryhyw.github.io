@@ -79,6 +79,12 @@
       height: calc(20vh - 20px); /* Adjust the height to fit within the container, considering padding */
     }
 
+    div.scroll-container img.enlarged {
+        transform: scale(2); /* Double the size of the image */
+        z-index: 10; /* Bring the enlarged image to the front */
+        position: relative; /* Ensure it stays on top of other elements */
+    }
+
     .image-wrapper {
         display: inline-block;
         background-color: rgba(255, 255, 255, 1);
