@@ -18,7 +18,7 @@ Associated with *[XLANG Lab at the University of Hong Kong](https://www.xlang.ai
 
 I had an opportunity to work on BRIGHT, a benchmark designed to evaluate how well models can reason through complex queries. My responsibilities included conducting literature reviews, gathering and analyzing data from public forums, creating query-document pairs, and testing coding-related queries.
 
-<div class="scroll-container">
+<div class="scroll-container" style="height: 20vh;">
   <img src="/assets/img/BRIGHT1.png">
   <img src="/assets/img/BRIGHT2.png">
   <img src="/assets/img/BRIGHT4.png">
