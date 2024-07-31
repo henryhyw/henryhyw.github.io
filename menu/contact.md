@@ -12,10 +12,10 @@ If you have any questions, want to work together, or just want to chat, feel fre
 
 <a><i class="fa fa-briefcase" aria-hidden="true"></i></a> Work Email: [henry.wang@kiwiviewintl.co.nz](mailto:henry.wang@kiwiviewintl.co.nz)
 
-<a><i class="fa fa-phone" aria-hidden="true"></i></a> Hong Kong Mobile: +852 51305468
+<a><i class="fa fa-phone" aria-hidden="true"></i></a> Mobile: +852 51305468
 
-<a><i class="fa fa-phone" aria-hidden="true"></i></a> Shanghai Mobile: +86 15021833214
-
+<!-- <a><i class="fa fa-phone" aria-hidden="true"></i></a> Shanghai Mobile: +86 15021833214
+ -->
 ---
 
 ## Visitor Map
