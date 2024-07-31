@@ -14,7 +14,7 @@ I've had the chance to dive into some amazing projects that have been a big part
 
 Associated with *[XLANG Lab at the University of Hong Kong](https://www.xlang.ai/)*
 
-<img src="/assets/img/xlang.png" style="height:8vh;">
+<img src="/assets/img/xlang.png" style="height:6vh;">
 
 I had an opportunity to work on BRIGHT, a benchmark designed to evaluate how well models can reason through complex queries. My responsibilities included conducting literature reviews, gathering and analyzing data from public forums, creating query-document pairs, and testing coding-related queries.
 
