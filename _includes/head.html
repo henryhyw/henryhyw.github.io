@@ -90,6 +90,25 @@
         display: block; /* Ensure the image fits within the wrapper */
     }
   </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const images = document.querySelectorAll('div.scroll-container img');
+        
+        images.forEach(image => {
+            image.addEventListener('click', () => {
+                if (image.classList.contains('enlarged')) {
+                    image.classList.remove('enlarged');
+                } else {
+                    // Remove 'enlarged' class from all images first
+                    images.forEach(img => img.classList.remove('enlarged'));
+                    // Add 'enlarged' class to the clicked image
+                    image.classList.add('enlarged');
+                }
+            });
+        });
+    });
+
+  </script>
   <!-- Google Analytics -->
   {% include google-analytics.html %}
   <!-- Use Jekyll SEO plugin -->
