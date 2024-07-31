@@ -393,7 +393,7 @@ function displayWelcomeContent() {
     subtitleElement.style.textAlignLast = 'justify'; // Change to justify after typing is complete
     subtitleElement.style.MozTextAlignLast = 'justify'; // Change to justify after typing is complete
 
-    typeWriterEffect(subtitleText, subtitleElement, 20, () => {
+    typeWriterEffect(subtitleText, subtitleElement, 10, () => {
         setTimeout(() => {
             document.querySelectorAll('header *').forEach(element => {
                 element.style.transition = 'color 2s';
