@@ -100,21 +100,21 @@ Another passion of mine is coding.  I enjoy creating functional programs from sc
       img.src = `/assets/gallery/${filename}`;
       container.appendChild(img);
     });
-  });
 
-  const modal = document.getElementById('modal');
-  const modalImg = document.getElementById('modal-image');
-  const closeBtn = document.getElementsByClassName('close')[0];
+    const modal = document.getElementById('modal');
+    const modalImg = document.getElementById('modal-image');
+    const closeBtn = document.getElementsByClassName('close')[0];
 
-  document.querySelectorAll('div.scroll-container img').forEach(img => {
-      img.addEventListener('click', () => {
-          modal.style.display = 'flex';
-          modalImg.src = img.src;
-      });
-  });
+    document.querySelectorAll('div.scroll-container img').forEach(img => {
+        img.addEventListener('click', () => {
+            modal.style.display = 'flex';
+            modalImg.src = img.src;
+        });
+    });
 
-  closeBtn.addEventListener('click', () => {
-      modal.style.display = 'none';
+    closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
   });
 </script>
 
