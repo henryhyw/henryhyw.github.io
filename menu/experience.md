@@ -38,7 +38,7 @@ Here is the link to the website I developed: [PDS Laboratory](https://psym-ds.gi
 
 ## Part-time Student Research Assistant
 
-*May 2024 - August 2025*
+*May 2024 - August 2024*
 
 *[Speech, Language, and Reading Lab at the University of Hong Kong](https://slrlab.edu.hku.hk/)*
 
