@@ -46,8 +46,3 @@ During my junior high and high school years, I got to work on a bunch of project
 </div>
 
 For more details, please visit: [My Early CS Adventures](https://henryhyw.github.io/early.html).
-
-<div id="modal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="modal-image">
-</div>
