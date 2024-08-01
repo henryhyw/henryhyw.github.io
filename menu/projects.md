@@ -30,13 +30,13 @@ I've had the chance to dive into some amazing projects that have been a big part
   <li class="timeline-event">
     <label class="timeline-event-icon"></label>
     <div class="timeline-event-copy">
-      <p class="timeline-event-thumbnail">Junior High & High School</p>
+      <p class="timeline-event-thumbnail">September 2017 - June 2022</p>
       <h3>My Early Projects in Junior High and High School</h3>
       <h4>Associated with <a href="https://www.shsid.org/"><b>SHSID</b></a></h4>
       <div class="image-wrapper">
           <img src="/assets/img/shsid.png" style="height:7.5vh;">
       </div>
-      <p>During my junior high and high school years, I got to work on a bunch of projects that really sparked my love for computer science. Some of the highlights were creating a batch downloader for Scientific American episodes, developing a few Chrome extensions, building a website for Kiwiview International Limited, and making an economics graph generator called Econographer. These projects show just how excited I was (and still am) about programming and solving problems.</p>
+      <p>During my junior high and high school years, I got to work on a bunch of projects that really sparked my love for coding. Some of the highlights were creating a batch downloader for Scientific American episodes, developing a few Chrome extensions, building a website for Kiwiview International Limited, and making an economics graph generator called Econographer. These projects show just how excited I was (and still am) about programming and solving problems.</p>
       <div class="scroll-container project">
         <img src="/assets/img/econographer1.png">
         <img src="/assets/img/musicdownloader3.jpg">
