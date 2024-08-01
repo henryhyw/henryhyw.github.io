@@ -52,24 +52,15 @@
   padding: 0 0 0 89px;
   color: #969696;
 }
-@media (min-width: 62em) {
-  #timeline section.year section h4 {
-    font-size: 1em;
-  }
-}
+
 #timeline section.year section ul {
   list-style-type: none;
   padding: 0 0 0 85px;
   margin: -1.35rem 0 1em;
   max-width: 100rem;
-  font-size: 1em;
+  font-size: 0.9em;
 }
-@media (min-width: 62em) {
-  #timeline section.year section ul {
-    font-size: 1.1em;
-    padding: 0 0 0 81px;
-  }
-}
+
 #timeline section.year section ul:last-child {
   margin-bottom: 0;
 }
