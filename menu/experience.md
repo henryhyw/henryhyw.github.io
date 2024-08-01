@@ -27,7 +27,7 @@ permalink: /experience
         <h4>July 2024 - April 2025</h4>
         <ul>
             <div class="image-wrapper">
-              <img src="/assets/img/hku.jpeg" style="height:8vh;">
+              <img src="/assets/img/hku.jpeg" style="height:8.5vh;">
             </div>
           <li class="title">Part-time Student Research Assistant</li>
           <li class="role">Psychometrics and Data Science Lab, HKU</li>
@@ -39,7 +39,7 @@ permalink: /experience
         <h4>May 2024 - August 2025</h4>
         <ul>
             <div class="image-wrapper">
-              <img src="/assets/img/hku.jpeg" style="height:8vh;">
+              <img src="/assets/img/hku.jpeg" style="height:8.5vh;">
             </div>
           <li class="title">Part-time Student Research Assistant</li>
           <li class="role">Speech, Language, and Reading Lab, HKU</li>
@@ -53,7 +53,7 @@ permalink: /experience
         <h4>August 2024 - December 2024</h4>
         <ul>
             <div class="image-wrapper">
-              <img src="/assets/img/kiwiview.png" style="height:8.5vh;">
+              <img src="/assets/img/kiwiview.png" style="height:9vh;">
             </div>
           <li class="title">Web Developer and Data Analyst</li>
           <li class="role">Kiwiview International Limited</li>
