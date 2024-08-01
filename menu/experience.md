@@ -43,7 +43,7 @@ permalink: /experience
             </div>
           <li class="title">Part-time Student Research Assistant</li>
           <li class="role">Speech, Language, and Reading Lab, HKU</li>
-          <li class="description">In this role, I am investigating human memory systems and learning behaviors in the <a href="https://slrlab.edu.hku.hk/">SLR Lab</a>. I’m developing a computational model to simulate these processes and conducting literature reviews on artificial neural networks, reinforcement learning, and cognitive neuroscience. (Details are confidential)</li>
+          <li class="description">Under the supervision of Dr. Man-kit Lee, I am researching human memory systems and learning behaviors in the <a href="https://slrlab.edu.hku.hk/">SLR Lab</a>. My work involves developing a computational model to simulate these processes, alongside conducting literature reviews on artificial neural networks, reinforcement learning, and cognitive neuroscience. (Details are confidential)</li>
         </ul>
       </section>          
     </section>

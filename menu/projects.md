@@ -12,6 +12,16 @@ permalink: /projects
   <li class="timeline-event">
     <label class="timeline-event-icon"></label>
     <div class="timeline-event-copy">
+      <p class="timeline-event-thumbnail">May 2024 - Present</p>
+      <h3>Computational Model for Modelling Human Memory Systems and Learning Behaviors</h3>
+      <h4>Associated with <a href="https://slrlab.edu.hku.hk/"><b>SLR Lab</b></a></h4>
+      <img src="/assets/img/slr.png" style="height:6vh;">
+      <p>Under the supervision of Dr. Man-kit Lee, I am researching human memory systems and learning behaviors. My work involves developing a computational model to simulate these processes, alongside conducting literature reviews on artificial neural networks, reinforcement learning, and cognitive neuroscience. (Details are confidential)</p>
+    </div>
+  </li>
+  <li class="timeline-event">
+    <label class="timeline-event-icon"></label>
+    <div class="timeline-event-copy">
       <p class="timeline-event-thumbnail">December 2023 - May 2024</p>
       <h3>BRIGHT: A Benchmark for Reasoning-Intensive Information Retrieval</h3>
       <h4>Associated with <a href="https://www.xlang.ai/"><b>XLANG Lab</b></a></h4>
