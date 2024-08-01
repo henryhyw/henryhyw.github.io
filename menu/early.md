@@ -19,8 +19,6 @@ Here are some screenshots of this first app (contact notebook) I made.
   <img src="/assets/img/contactnotebook2.jpg">
 </div>
 
-*Scroll to see more*
-
 ## Batch Downloading Scientific American Episodes
 
 In my first year of junior high, I decided to practice English and discovered the podcast called Scientific American. At that time, I was using an MP3 player that supported playing audio, images, and texts. So, I developed an app to batch download audios, scripts, and images from Scientific American episodes. The app included a user account system that could record the episodes a user had downloaded and continue from where they left off next time.
@@ -33,8 +31,6 @@ Here are some screenshots of this app.
   <img src="/assets/img/safetcher3.jpg">
   <img src="/assets/img/safetcher4.jpg">
 </div>
-
-*Scroll to see more*
 
 ## Chrome Extension Experiments
 
@@ -53,8 +49,6 @@ Here are some screenshots of the developer dashboard and some of the extensions.
   <img src="/assets/img/chromeextension2.png">
   <img src="/assets/img/chromeextension3.png">
 </div>
-
-*Scroll to see more*
 
 ## Music Streaming Hacks
 
@@ -75,8 +69,6 @@ Here are some screenshots of the app, which is in Simplified Chinese since the u
   <img src="/assets/img/musicdownloader6.jpg">
   <img src="/assets/img/musicdownloader7.jpg">
 </div>
-
-*Scroll to see more*
 
 ## Building Kiwiview's Website
 
@@ -106,8 +98,6 @@ Here are some videos of the script I recorded.
     Your browser does not support the video tag.
   </video>
 </div>
-
-*Scroll to see more*
 
 ## Econographer, an Economics Graphs Generator
 
