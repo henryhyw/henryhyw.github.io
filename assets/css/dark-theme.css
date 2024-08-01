@@ -129,7 +129,7 @@ body.dark-mode .timeline:before {
 }
 
 body.dark-mode .timeline-event:hover .timeline-event-icon {
-    background-color: #5e5e5e;
+    background-color: #b7b7b7;
 }
 
 body.dark-mode .timeline-event:hover .timeline-event-thumbnail {
@@ -146,7 +146,7 @@ body.dark-mode .timeline-event-icon {
 body.dark-mode .timeline-event-thumbnail {
     color: black;
     background-color: white;
-    -moz-box-shadow: inset 0 0 0 0em #b7b7b7;
-    -webkit-box-shadow: inset 0 0 0 0em #b7b7b7;
-    box-shadow: inset 0 0 0 0em #b7b7b7;
+    -moz-box-shadow: inset 0 0 0 0em #f4f4f4;
+    -webkit-box-shadow: inset 0 0 0 0em #f4f4f4;
+    box-shadow: inset 0 0 0 0em #f4f4f4;
 }
