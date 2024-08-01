@@ -71,12 +71,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Toggle theme on button click
     toggleThemeBtn.addEventListener('click', () => {
-        document.body.style.transition = 'background-color 2s';
+        document.body.style.transition = 'background-color 2s ease-in';
         document.querySelectorAll('header *').forEach(element => {
-            element.style.transition = 'color 2s';
+            element.style.transition = 'color 2s ease-in';
         });
         document.querySelectorAll('footer *').forEach(element => {
-            element.style.transition = 'color 2s';
+            element.style.transition = 'color 2s ease-in';
         });
         const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             const subtitleElement = document.getElementById('welcomeSubtitle');
             const textColor = currentTheme === 'light' ? '#fafafa' : '#252525'; // Change text color based on theme
             applyTheme(newTheme);
-            subtitleElement.style.transition = 'color 2s';
+            subtitleElement.style.transition = 'color 2s ease-in';
             subtitleElement.style.color = textColor;
         } catch {}
         localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
