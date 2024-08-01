@@ -1,7 +1,7 @@
 .timeline {
   margin: 4em auto;
   position: relative;
-  max-width: 46em;
+  max-width: 90%;
 }
 .timeline:before {
   background-color: black;
