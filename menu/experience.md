@@ -45,8 +45,7 @@ permalink: /experience
           <li class="title">Part-time Student Research Assistant</li>
           <li class="role">Speech, Language, and Reading Lab, HKU</li>
           <li class="description">Under the supervision of Dr. Man-kit Lee, I am investigating human memory systems and learning behaviors in the <a href="https://slrlab.edu.hku.hk/">SLR Lab</a>.</li>
-          <li class="description">My work involves developing a computational model to simulate these processes, alongside conducting literature reviews on artificial neural networks, reinforcement learning, and cognitive neuroscience.</li>
-          <li class="description">(Details are confidential)</li>
+          <li class="description">My work involves developing a computational model to simulate these processes, alongside conducting literature reviews on artificial neural networks, reinforcement learning, and cognitive neuroscience. (Details are confidential)</li>
         </ul>
       </section>          
     </section>
@@ -61,8 +60,7 @@ permalink: /experience
           <li class="title">Web Developer and Data Analyst</li>
           <li class="role">Kiwiview International Limited</li>
           <li class="description">I had the opportunity to work with <a href="https://www.kiwiviewintl.co.nz/uk-en/index.php">Kiwiview Intl.</a>, a New Zealand company that provides educational services for international study and customized travel solutions. This company is actually a family endeavor that my parents and I established together from the start.</li>
-          <li class="description">I led the design, development, and hosting of their website using HTML, JavaScript, CSS, PHP, and MySQL. I also gathered, analyzed, and visualized global study and travel trends using various Python packages.</li>
-          <li class="description">(Details are confidential)</li>
+          <li class="description">I led the design, development, and hosting of their website using HTML, JavaScript, CSS, PHP, and MySQL. I also gathered, analyzed, and visualized global study and travel trends using various Python packages. (Details are confidential)</li>
           <li class="description">Here is the link to the website I developed: <a href="https://www.kiwiviewintl.co.nz/uk-en/index.php">Kiwiview International Limited</a>.</li>
         </ul>
       </section>
