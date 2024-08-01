@@ -61,6 +61,10 @@
   font-size: 0.9em;
 }
 
+#timeline section.year section ul.title {
+  font-size: 1.2em;
+}
+
 #timeline section.year section ul:last-child {
   margin-bottom: 0;
 }
