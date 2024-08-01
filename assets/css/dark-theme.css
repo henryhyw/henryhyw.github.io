@@ -144,6 +144,7 @@ body.dark-mode .timeline-event-icon {
 }
 
 body.dark-mode .timeline-event-thumbnail {
+    color: black;
     background-color: white;
     -moz-box-shadow: inset 0 0 0 0em #969696;
     -webkit-box-shadow: inset 0 0 0 0em #969696;
