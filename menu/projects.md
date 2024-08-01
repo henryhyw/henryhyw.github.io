@@ -36,8 +36,8 @@ I've had the chance to dive into some amazing projects that have been a big part
   <li class="timeline-event">
     <label class="timeline-event-icon"></label>
     <div class="timeline-event-copy">
-      <p class="timeline-event-thumbnail">November 2009 - März 2011</p>
-      <h3>Freelancer</h3>
+      <p class="timeline-event-thumbnail">Junior High & High School</p>
+      <h3>My Early Projects in Junior High and High School</h3>
       <h4>Designer und Autor</h4>
       <p>Konzeption, Design und Produktion von Digitalen Magazinen mit InDesign, der Adobe Digital Publishing Suite und HTML5. Co-Autorin der Fachbücher "Digitales Publizieren für Tablets" und "Adobe Digital Publishing Suite" erschienen im dpunkt.verlag.</p>
     </div>
