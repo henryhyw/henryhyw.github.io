@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <title>Page Not Found</title>
   <script type="text/javascript">
-    // Redirect all 404 paths to the index.html for handling by Vue Router
-    var redirectTo = window.location.protocol + '//' + window.location.host + '/';
+    // Capture the current path and redirect to index.html with the path as a hash
+    var path = window.location.pathname + window.location.search;
+    var redirectTo = window.location.origin + '/#' + path;
     window.location.replace(redirectTo);
   </script>
 </head>
