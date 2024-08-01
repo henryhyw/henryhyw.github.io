@@ -24,11 +24,6 @@
   transform: rotate(-45deg);
   background-color: #494949;
 }
-.timeline-event:hover .timeline-event-thumbnail {
-  -moz-box-shadow: inset 40em 0 0 0 #494949;
-  -webkit-box-shadow: inset 40em 0 0 0 #494949;
-  box-shadow: inset 40em 0 0 0 #494949;
-}
 
 .timeline-event-copy {
   padding: 2em;
@@ -73,17 +68,10 @@
 }
 
 .timeline-event-thumbnail {
-  -moz-transition: box-shadow 0.5s ease-in 0.1s;
-  -o-transition: box-shadow 0.5s ease-in 0.1s;
-  -webkit-transition: box-shadow 0.5s ease-in;
-  /* -webkit-transition-delay: 0.1s; */
-  transition: box-shadow 0.5s ease-in 0.1s, color 2s ease-in;
+  transition: color 2s ease-in;
   color: white;
   font-size: 0.75em;
   background-color: black;
-  -moz-box-shadow: inset 0 0 0 0em #494949;
-  -webkit-box-shadow: inset 0 0 0 0em #494949;
-  box-shadow: inset 0 0 0 0em #494949;
   display: inline-block;
   margin-bottom: 1.2em;
   padding: 0.25em 1em 0.2em 1em;
