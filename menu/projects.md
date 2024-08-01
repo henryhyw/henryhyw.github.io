@@ -23,7 +23,6 @@ I've had the chance to dive into some amazing projects that have been a big part
         <img src="/assets/img/BRIGHT4.png">
         <img src="/assets/img/BRIGHT5.png">
       </div>
-      <br>
       <p><a href="https://arxiv.org/abs/2407.12883">BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval</a><br>Hongjin Su*, Howard Yen*, Mengzhou Xia*, Weijia Shi, Niklas Muennighoff, <b>Han-yu Wang</b>, Haisu Liu, Quan Shi, Zachary S. Siegel, Michael Tang, Ruoxi Sun, Jinsung Yoon, Sercan O. Arik, Danqi Chen, Tao Yu<br><i>Preprint</i></p>
       <p>For additional details including the paper, code, data, and more, please visit the homepage of this project: <a href="https://brightbenchmark.github.io/">BRIGHT</a></p>
     </div>
@@ -42,7 +41,6 @@ I've had the chance to dive into some amazing projects that have been a big part
         <img src="/assets/img/safetcher1.jpg">
         <img src="/assets/img/24.png">
       </div>
-      <br>
       <p>For more details, please visit: <a href="https://henryhyw.github.io/early.html">My Early CS Adventures</a>.</p>
     </div>
   </li>
