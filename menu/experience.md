@@ -16,7 +16,7 @@ permalink: /experience
         <h4>August 2024 - December 2024</h4>
         <ul>
             <div class="image-wrapper">
-              <img src="/assets/img/hsbc.png" style="height:6vh;">
+              <img src="/assets/img/hsbc.png" style="height:5.5vh;">
             </div>
           <li class="title">Student Work Placement Intern</li>
           <li class="role">Hongkong and Shanghai Banking Corporation Limited</li>
