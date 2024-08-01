@@ -9,7 +9,7 @@
   margin-left: -1px;
   position: absolute;
   top: 0;
-  left: 2em;
+  left: 1em;
   width: 2px;
   height: 100%;
 }
@@ -62,7 +62,7 @@
   margin: 0.5em 0.5em 0.5em -0.5em;
   position: absolute;
   top: 0;
-  left: 2em;
+  left: 1em;
   width: 1em;
   height: 1em;
 }
