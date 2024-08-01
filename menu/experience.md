@@ -6,7 +6,7 @@ permalink: /experience
 
 <link rel="stylesheet" href="/assets/css/timeline.css">
 
-I've taken on various roles that have shaped who I am today. Come along as I share these key experiences with you!
+<p>I've taken on various roles that have shaped who I am today. Come along as I share these key experiences with you!</p>
 
 <div id="timeline">
   <div>

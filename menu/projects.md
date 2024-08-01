@@ -6,7 +6,7 @@ permalink: /projects
 
 <link rel="stylesheet" href="/assets/css/list.css">
 
-I've had the chance to dive into some amazing projects that have been a big part of my journey. Here are some of the highlights.
+<p>I've had the chance to dive into some amazing projects that have been a big part of my journey. Here are some of the highlights.</p>
 
 <ul class="timeline">
   <li class="timeline-event">
