@@ -31,7 +31,7 @@ I wouldn't say I'm an extremely hardworking student; in fact, I often look for s
         <h4>February 2025 - June 2025</h4>
         <ul>
             <div class="image-wrapper">
-              <img src="/assets/img/umelb.jpg" style="height:8vh;">
+              <img src="/assets/img/umelb.jpg" style="height:7vh;">
             </div>
           <li class="title"><b>The University of Melbourne</b></li>
           <li class="description">Expected semester exchange at The University of Melbourne.</li>
