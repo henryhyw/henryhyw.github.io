@@ -32,7 +32,7 @@ I've had the chance to dive into some amazing projects that have been a big part
     <div class="timeline-event-copy">
       <p class="timeline-event-thumbnail">Junior High & High School</p>
       <h3>My Early Projects in Junior High and High School</h3>
-      <h4>Associated with <b>SHSID</b></h4>
+      <h4>Associated with <a href="https://www.shsid.org/"><b>SHSID</b></a></h4>
       <img src="/assets/img/shsid.png" style="height:7.5vh;">
       <p>During my junior high and high school years, I got to work on a bunch of projects that really sparked my love for computer science. Some of the highlights were creating a batch downloader for Scientific American episodes, developing a few Chrome extensions, building a website for Kiwiview International Limited, and making an economics graph generator called Econographer. These projects show just how excited I was (and still am) about programming and solving problems.</p>
       <div class="scroll-container project">
