@@ -14,7 +14,7 @@ I've had the chance to dive into some amazing projects that have been a big part
     <div class="timeline-event-copy">
       <p class="timeline-event-thumbnail">December 2023 - May 2024</p>
       <h3>BRIGHT: A Benchmark for Reasoning-Intensive Information Retrieval</h3>
-      <h4>Associated with <a href="https://www.xlang.ai/"><b>XLANG Lab at the University of Hong Kong</b></a></h4>
+      <h4>Associated with <a href="https://www.xlang.ai/"><b>XLANG Lab, NLP Group, HKU</b></a></h4>
       <img src="/assets/img/xlang.png" style="height:6vh;">
       <p>I had an opportunity to work on BRIGHT, a benchmark designed to evaluate how well models can reason through complex queries. My responsibilities included conducting literature reviews, gathering and analyzing data from public forums, creating query-document pairs, and testing coding-related queries.</p>
       <div class="scroll-container project">
