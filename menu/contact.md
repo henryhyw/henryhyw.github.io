@@ -14,8 +14,6 @@ permalink: /contact
 
 <p><a><i class="fa fa-phone" aria-hidden="true"></i></a> Mobile: +852 51305468</p>
 
-<!-- <a><i class="fa fa-phone" aria-hidden="true"></i></a> Shanghai Mobile: +86 15021833214
- -->
 ---
 
 <h2>Visitor Map</h2>
