@@ -12,6 +12,7 @@
   left: 2em;
   width: 2px;
   height: 100%;
+  transition: color 2s;
 }
 
 .timeline-event {
@@ -23,11 +24,13 @@
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   background-color: #a1a1a1;
+  transition: color 2s;
 }
 .timeline-event:hover .timeline-event-thumbnail {
   -moz-box-shadow: inset 40em 0 0 0 #a1a1a1;
   -webkit-box-shadow: inset 40em 0 0 0 #a1a1a1;
   box-shadow: inset 40em 0 0 0 #a1a1a1;
+  transition: color 2s;
 }
 
 .timeline-event-copy {
