@@ -1,7 +1,7 @@
 .timeline {
   margin: 4em auto;
   position: relative;
-  max-width: 85%;
+  max-width: 90%;
 }
 .timeline:before {
   background-color: black;
@@ -29,8 +29,8 @@
   padding: 2em;
   position: relative;
   top: -1.875em;
-  left: 4em;
-  width: 80%;
+  left: 2em; /* Adjusted left position to ensure it stays within timeline */
+  width: calc(100% - 4em); /* Adjusted width to fit within the timeline */
 }
 .timeline-event-copy h3 {
   font-size: 1.75em;
