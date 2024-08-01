@@ -1,9 +1,13 @@
 ---
 ---
 
-$sans-serif-font-family: "Quattrocento Sans", sans-serif;
-$serif-font-family:      "PT Serif", Georgia, "Times New Roman", serif;
-$code-font-family:       "Source Code Pro", monospace;
+// $sans-serif-font-family: "Quattrocento Sans", sans-serif;
+// $serif-font-family:      "PT Serif", Georgia, "Times New Roman", serif;
+// $code-font-family:       "Source Code Pro", monospace;
+
+$sans-serif-font-family: "Inter", "Roboto", sans-serif;
+$serif-font-family:      "Merriweather", "Playfair Display", serif;
+$code-font-family:       "Fira Code", "JetBrains Mono", monospace;
 
 $body-color:             #505050;
 $link-color:             black;
