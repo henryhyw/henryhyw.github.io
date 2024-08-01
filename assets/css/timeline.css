@@ -78,7 +78,12 @@
   margin-left: .5rem;
 }
 #timeline section.year section ul li.title {
+  font-weight: bold;
   font-size: 1.2em;
+}
+#timeline section.year section ul li.role {
+  font-weight: bold;
+  color: #6e6e6e;
 }
 #timeline section.year section ul li.description:before {
   content: '·';
