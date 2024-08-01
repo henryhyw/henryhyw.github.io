@@ -77,7 +77,7 @@
   -o-transition: box-shadow 0.5s ease-in 0.1s;
   -webkit-transition: box-shadow 0.5s ease-in;
   -webkit-transition-delay: 0.1s;
-  transition: box-shadow 0.5s ease-in 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s, color 2s ease-in;
   color: white;
   font-size: 0.75em;
   background-color: black;
