@@ -1,29 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-  <title>H.W. | An enthusiastic explorer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']]
-        }
-      });
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=/" />
+  <script>
+    // This script makes sure to redirect correctly within the SPA
+    var path = window.location.pathname;
+    if (path !== '/') {
+      window.location.href = '/' + '#' + path;
+    }
   </script>
-  <div id="modal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="modal-image">
-  </div>
 </head>
 <body>
-  <div id="app"></div>
-  <script src="./assets/js/default.js"></script>
-  <script src="./assets/js/theme-toggle.js" defer></script>
+  <p>Redirecting...</p>
 </body>
 </html>
