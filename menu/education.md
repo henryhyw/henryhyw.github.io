@@ -29,7 +29,7 @@ Beyond my coursework, I served as a Student Representative on the CAES Staff-Stu
 *September 2017 - June 2022*
 
 <div class="image-wrapper">
-    <img src="/assets/img/shsid.png" style="height:8vh;">
+    <img src="/assets/img/shsid.png" style="height:7.5vh;">
 </div>
 
 I completed my junior high, high school, and International Baccalaureate diplomas at [Shanghai High School International Division](https://www.shsid.org/).
