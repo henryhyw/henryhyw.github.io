@@ -24,11 +24,11 @@
   transform: rotate(-45deg);
   background-color: #494949;
 }
-/* .timeline-event:hover .timeline-event-thumbnail {
+.timeline-event:hover .timeline-event-thumbnail {
   -moz-box-shadow: inset 40em 0 0 0 #494949;
   -webkit-box-shadow: inset 40em 0 0 0 #494949;
   box-shadow: inset 40em 0 0 0 #494949;
-} */
+}
 
 .timeline-event-copy {
   padding: 2em;
