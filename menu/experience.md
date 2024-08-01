@@ -31,7 +31,8 @@ permalink: /experience
             </div>
           <li class="title">Part-time Student Research Assistant</li>
           <li class="role">Psychometrics and Data Science Lab, HKU</li>
-          <li class="description">Under the supervision of Prof. Jinsong Chen, I'm exploring the intersection of Generative AI and personalized learning in the <a href="https://psym-ds.github.io/">PDS Lab</a>. My work involves conducting literature reviews on contextual embeddings with transformer-based LLMs and developing a website for the PDS lab.</li>
+          <li class="description">Under the supervision of Prof. Jinsong Chen, I'm exploring the intersection of Generative AI and personalized learning in the <a href="https://psym-ds.github.io/">PDS Lab</a>.</li>
+          <li class="description">My work involves conducting literature reviews on contextual embeddings with transformer-based LLMs and developing a website for the PDS lab.</li>
           <li class="description">Here is the link to the website I developed: <a href="https://psym-ds.github.io/">PDS Laboratory</a></li>
         </ul>
       </section>
@@ -43,7 +44,8 @@ permalink: /experience
             </div>
           <li class="title">Part-time Student Research Assistant</li>
           <li class="role">Speech, Language, and Reading Lab, HKU</li>
-          <li class="description">Under the supervision of Dr. Man-kit Lee, I am investigating human memory systems and learning behaviors in the <a href="https://slrlab.edu.hku.hk/">SLR Lab</a>. My work involves developing a computational model to simulate these processes, alongside conducting literature reviews on artificial neural networks, reinforcement learning, and cognitive neuroscience.</li>
+          <li class="description">Under the supervision of Dr. Man-kit Lee, I am investigating human memory systems and learning behaviors in the <a href="https://slrlab.edu.hku.hk/">SLR Lab</a>.</li>
+          <li class="description">My work involves developing a computational model to simulate these processes, alongside conducting literature reviews on artificial neural networks, reinforcement learning, and cognitive neuroscience.</li>
           <li class="description">(Details are confidential)</li>
         </ul>
       </section>          
