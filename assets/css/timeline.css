@@ -52,7 +52,6 @@
   padding: 0 0 0 89px;
   color: #969696;
 }
-
 #timeline section.year section ul {
   list-style-type: none;
   padding: 0 0 0 85px;
@@ -60,11 +59,6 @@
   max-width: 100rem;
   font-size: 0.9em;
 }
-
-#timeline section.year section ul.title {
-  font-size: 1.2em;
-}
-
 #timeline section.year section ul:last-child {
   margin-bottom: 0;
 }
@@ -82,6 +76,9 @@
 }
 #timeline section.year section ul li {
   margin-left: .5rem;
+}
+#timeline section.year section ul.title {
+  font-size: 1.2em;
 }
 #timeline section.year section ul li.description:before {
   content: '·';
