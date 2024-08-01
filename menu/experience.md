@@ -31,7 +31,7 @@ permalink: /experience
             </div>
           <li class="title">Part-time Student Research Assistant</li>
           <li class="role">Psychometrics and Data Science Lab, HKU</li>
-          <li class="description">I'm exploring the intersection of Generative AI and personalized learning in the <a href="https://psym-ds.github.io/">PDS Lab</a>. My work involves conducting literature reviews on contextual embeddings with transformer-based LLMs and developing a website for the PDS lab.</li>
+          <li class="description">Under the supervision of Prof. Jinsong Chen, I'm exploring the intersection of Generative AI and personalized learning in the <a href="https://psym-ds.github.io/">PDS Lab</a>. My work involves conducting literature reviews on contextual embeddings with transformer-based LLMs and developing a website for the PDS lab.</li>
           <li class="description">Here is the link to the website I developed: <a href="https://psym-ds.github.io/">PDS Laboratory</a></li>
         </ul>
       </section>
