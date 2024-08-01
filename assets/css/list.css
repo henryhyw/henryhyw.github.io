@@ -62,7 +62,7 @@
 }
 
 .timeline-event-thumbnail {
-  transition: box-shadow 0.5s ease-in, color 0.5s ease-in;
+  transition: box-shadow 0.5s ease-in;
   color: white;
   font-size: 0.75em;
   background-color: black;
