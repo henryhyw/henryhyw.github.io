@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    if (window.location.hash === '' || window.location.hash === '#') { // Check if the current page is not the homepage
+    if (window.location.hash === '' || window.location.hash === '#' || window.location.hash === '#/') { // Check if the current page is not the homepage
         document.querySelectorAll('header *').forEach(element => {
             element.style.color = 'transparent';
         });
