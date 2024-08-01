@@ -18,7 +18,7 @@ permalink: /education
         <h4>September 2022 - Present</h4>
         <ul>
             <div class="image-wrapper">
-              <img src="/assets/img/hku.jpeg" style="height:8vh;">
+              <img src="/assets/img/hku.jpeg" style="height:8.5vh;">
             </div>
           <li class="title">The University of Hong Kong</li>
           <li class="role">Bachelor of Arts and Sciences in Applied Artificial Intelligence</li>
