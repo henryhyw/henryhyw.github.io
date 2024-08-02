@@ -1,0 +1,96 @@
+#timeline {
+  position: relative;
+  display: table; /* For Firefox */
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}
+#timeline div:after {
+  content: '';
+  width: 2px;
+  position: absolute;
+  top: .5rem;
+  bottom: 0rem;
+  left: 60px;
+  z-index: 1;
+  background: #C5C5C5;
+}
+#timeline h3 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5rem;
+  color: #888;
+  margin: 0;
+  font-size: 1em;
+  font-weight: 400;
+}
+@media (min-width: 62em) {
+  #timeline h3 {
+    font-size: 1.1em;
+  }
+}
+#timeline section.year {
+  position: relative;
+}
+#timeline section.year section:first-child {
+  margin-top: -1.3em;
+  padding-bottom: 0px;
+}
+#timeline section.year section {
+  position: relative;
+  padding-bottom: 1.25em;
+  margin-bottom: 5em;
+}
+#timeline section.year section h4 {
+  position: absolute;
+  bottom: 0;
+  font-size: .9em;
+  font-weight: 400;
+  line-height: 1em;
+  margin: 0;
+  padding: 0 0 0 89px;
+  color: #969696;
+}
+#timeline section.year section ul {
+  list-style-type: none;
+  padding: 0 0 0 85px;
+  margin: -1.35rem 0 1em;
+  max-width: 100rem;
+  font-size: 0.9em;
+}
+#timeline section.year section ul:last-child {
+  margin-bottom: 0;
+}
+#timeline section.year section ul:first-of-type:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #C5C5C5;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  left: 54px;
+  top: 3px;
+  z-index: 2;
+}
+#timeline section.year section ul li {
+  margin-left: .5rem;
+}
+#timeline section.year section ul li.title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#timeline section.year section ul li.role {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #838383;
+}
+#timeline section.year section ul li.description:before {
+  content: '·';
+  margin-left: -.5rem;
+  padding-right: .3rem;
+}
+#timeline section.year section ul li:not(:first-child) {
+  margin-top: .5rem;
+}
