@@ -11,12 +11,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalImg = document.getElementById('modal-image');
     const closeBtn = document.getElementsByClassName('close')[0];
     
-    document.querySelectorAll('div.scroll-container img').forEach(img => {
-        img.addEventListener('click', () => {
-            modal.style.display = 'flex';
-            modalImg.src = img.src;
+    const applyListeners = () => {
+        document.querySelectorAll('div.scroll-container img').forEach(img => {
+            img.addEventListener('click', () => {
+                modal.style.display = 'flex';
+                modalImg.src = img.src;
+            });
         });
-    });
+    };
+    
+    // Initial application of listeners
+    applyListeners();
+    
+    // Observer to detect new elements in the whole document
+    const observer = new MutationObserver(applyListeners);
+    observer.observe(document.body, { childList: true, subtree: true });
     
     closeBtn.addEventListener('click', () => {
         modal.style.display = 'none';
