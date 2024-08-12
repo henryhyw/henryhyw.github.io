@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             const isDarkMode = document.body.classList.contains('dark-mode');
             const iframeSrc = isDarkMode
                 ? 'https://lookerstudio.google.com/embed/reporting/cb075bce-b506-41e8-a243-39502ee15d01/page/EkW8D'
-                : 'https://lookerstudio.google.com/embed/reporting/4a46ee2f-a660-48a5-8717-eea7cd8eaaa2/page/EkW8D';
+                : 'https://lookerstudio.google.com/embed/reporting/fa45582a-0947-4aa9-a259-df74aaaf38a1/page/EkW8D';
 
             // Clear existing traffic container content
             trafficContainer.innerHTML = '';
