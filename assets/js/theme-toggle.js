@@ -98,8 +98,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         updateThemeIcon(isDarkMode);
         loadVisitorMap();
         loadTrafficReports();
-        adjustIframeHeight();
-        window.addEventListener('resize', adjustIframeHeight);
+        try {
+            adjustIframeHeight();
+            window.addEventListener('resize', adjustIframeHeight);
+        } catch (error) {
+            console.error(error.message);
+        }
     }
 
     // Determine the initial theme
