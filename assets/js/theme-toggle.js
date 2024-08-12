@@ -71,10 +71,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             iframe.style.border = '0';
             iframe.allowFullscreen = true;
             iframe.sandbox = 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox';
-            
-            adjustIframeHeight();
-
-            window.addEventListener('resize', adjustIframeHeight);
 
             // Append the iframe to the traffic container
             trafficContainer.appendChild(iframe);
@@ -102,6 +98,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         updateThemeIcon(isDarkMode);
         loadVisitorMap();
         loadTrafficReports();
+        adjustIframeHeight();
+        window.addEventListener('resize', adjustIframeHeight);
     }
 
     // Determine the initial theme
