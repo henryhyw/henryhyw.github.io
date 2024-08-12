@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     function adjustIframeHeight() {
         var iframe = document.getElementById('trafficReportFrame');
         var aspectRatio = 1068 / 600;
-        iframe.style.height = (iframe.clientWidth / aspectRatio) + 'px';
+        iframe.style.height = (iframe.clientWidth * aspectRatio) + 'px';
     }
 
     // Function to load traffic reports dynamically
