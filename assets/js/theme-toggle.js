@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // Function to load traffic reports dynamically
     function loadTrafficReports() {
         try {
-            const trafficContainer = document.querySelector('.traffic');
+            const trafficContainer = document.querySelector('.trafficReport');
             if (!trafficContainer) {
                 throw new Error('Traffic container not found');
             }
@@ -60,7 +60,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             // Create a new iframe element
             const iframe = document.createElement('iframe');
             iframe.src = iframeSrc;
-            iframe.frameBorder = '0';
             iframe.style.width = '100%';
             iframe.style.height = 'calc(145vw)';
             iframe.style.border = '0';
