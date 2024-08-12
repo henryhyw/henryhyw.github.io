@@ -41,6 +41,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     }
 
+    function adjustIframeHeight() {
+        var iframe = document.getElementById('trafficReportFrame');
+        var aspectRatio = 1068 / 600;
+        iframe.style.height = (iframe.clientWidth / aspectRatio) + 'px';
+    }
+
     // Function to load traffic reports dynamically
     function loadTrafficReports() {
         try {
@@ -59,12 +65,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
             // Create a new iframe element
             const iframe = document.createElement('iframe');
+            iframe.id = 'trafficReportFrame'
             iframe.src = iframeSrc;
             iframe.style.width = '100%';
-            iframe.style.height = 'calc(145vw)';
             iframe.style.border = '0';
             iframe.allowFullscreen = true;
             iframe.sandbox = 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox';
+            
+            adjustIframeHeight();
+
+            window.addEventListener('resize', adjustIframeHeight);
 
             // Append the iframe to the traffic container
             trafficContainer.appendChild(iframe);
