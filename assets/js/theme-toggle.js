@@ -41,6 +41,39 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     }
 
+    // Function to load traffic reports dynamically
+    function loadTrafficReports() {
+        try {
+            const trafficContainer = document.querySelector('.traffic');
+            if (!trafficContainer) {
+                throw new Error('Traffic container not found');
+            }
+
+            const isDarkMode = document.body.classList.contains('dark-mode');
+            const iframeSrc = isDarkMode
+                ? 'https://lookerstudio.google.com/embed/reporting/cb075bce-b506-41e8-a243-39502ee15d01/page/EkW8D'
+                : 'https://lookerstudio.google.com/embed/reporting/4a46ee2f-a660-48a5-8717-eea7cd8eaaa2/page/EkW8D';
+
+            // Clear existing traffic container content
+            trafficContainer.innerHTML = '';
+
+            // Create a new iframe element
+            const iframe = document.createElement('iframe');
+            iframe.src = iframeSrc;
+            iframe.frameBorder = '0';
+            iframe.style.width = '100%';
+            iframe.style.height = 'calc(145vw)';
+            iframe.style.border = '0';
+            iframe.allowFullscreen = true;
+            iframe.sandbox = 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox';
+
+            // Append the iframe to the traffic container
+            trafficContainer.appendChild(iframe);
+        } catch (error) {
+            console.error(error.message);
+        }
+    }
+
     // Function to update the theme icon
     function updateThemeIcon(isDarkMode) {
         if (isDarkMode) {
@@ -59,6 +92,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         updateTypedElementsColor();
         updateThemeIcon(isDarkMode);
         loadVisitorMap();
+        loadTrafficReports();
     }
 
     // Determine the initial theme
