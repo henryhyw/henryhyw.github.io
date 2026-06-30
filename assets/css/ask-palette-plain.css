@@ -1,0 +1,28 @@
+.henry-ask-samples {
+  display: block !important;
+  text-align: center !important;
+}
+
+.henry-ask-label,
+.henry-ask-hint {
+  display: none !important;
+}
+
+.henry-ask-sample {
+  appearance: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  color: inherit !important;
+  cursor: default !important;
+  font: inherit !important;
+  line-height: inherit !important;
+  padding: 0 !important;
+  max-width: none !important;
+}
+
+.henry-ask-sample:hover,
+.henry-ask-sample:focus-visible {
+  border-color: transparent !important;
+  outline: none !important;
+}
