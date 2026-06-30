@@ -1,5 +1,5 @@
 (function() {
-  const ORIGINAL_PLACEHOLDER = "Ask anything about Henry, then press Enter.";
+  const ORIGINAL_PLACEHOLDER = "Ask anything about Henry...";
 
   function fixAskPlaceholder() {
     document.querySelectorAll(".sp-input").forEach(input => {
