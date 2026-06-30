@@ -1,0 +1,65 @@
+.henry-ask-samples {
+  display: block !important;
+  text-align: center !important;
+}
+
+.henry-ask-label,
+.henry-ask-hint {
+  display: none !important;
+}
+
+.henry-ask-sample {
+  appearance: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  color: inherit !important;
+  cursor: pointer !important;
+  font: inherit !important;
+  line-height: inherit !important;
+  padding: 0 !important;
+  max-width: none !important;
+  animation: henryAskSampleCycle 3200ms ease-in-out both !important;
+  transition: color 180ms ease !important;
+}
+
+.henry-ask-samples:hover .henry-ask-sample,
+.henry-ask-sample:hover,
+.henry-ask-sample:focus-visible {
+  animation-play-state: paused !important;
+  opacity: 1 !important;
+  color: #222 !important;
+  border-color: transparent !important;
+  outline: none !important;
+}
+
+body.dark-mode .henry-ask-samples:hover .henry-ask-sample,
+body.dark-mode .henry-ask-sample:hover,
+body.dark-mode .henry-ask-sample:focus-visible {
+  color: #fff !important;
+}
+
+@keyframes henryAskSampleCycle {
+  0% {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  12% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  82% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .henry-ask-sample {
+    animation: none !important;
+  }
+}
