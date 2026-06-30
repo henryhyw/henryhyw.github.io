@@ -155,9 +155,50 @@ if (window.location.pathname !== '/') { // Check if the current page is not the 
   }, 1000);
 }
 
+// Prevent the Ask/Search palette from closing when a drag starts inside the panel
+// and ends on the overlay. It should close only when press and release both happen outside.
+document.addEventListener("DOMContentLoaded", function() {
+  let pointerStartedOutsidePanel = false;
+
+  function closestSearchOverlay(target) {
+    return target && target.closest ? target.closest(".sp-overlay") : null;
+  }
+
+  function isSearchOverlay(target) {
+    return !!(target && target.classList && target.classList.contains("sp-overlay"));
+  }
+
+  function isInsidePanel(target) {
+    return !!(target && target.closest && target.closest(".sp-panel"));
+  }
+
+  function rememberPointerStart(event) {
+    const overlay = closestSearchOverlay(event.target);
+    if (!overlay) return;
+    pointerStartedOutsidePanel = !isInsidePanel(event.target);
+  }
+
+  function guardOverlayClick(event) {
+    if (!isSearchOverlay(event.target)) return;
+
+    const releasedOutsidePanel = !isInsidePanel(event.target);
+    const shouldClose = pointerStartedOutsidePanel && releasedOutsidePanel;
+
+    if (!shouldClose) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+    }
+  }
+
+  document.addEventListener("pointerdown", rememberPointerStart, true);
+  document.addEventListener("mousedown", rememberPointerStart, true);
+  document.addEventListener("touchstart", rememberPointerStart, true);
+  document.addEventListener("click", guardOverlayClick, true);
+});
+
 // Rotating sample prompts for the Ask palette.
 document.addEventListener("DOMContentLoaded", function() {
-  const originalPlaceholder = "Ask anything about Henry, then press Enter.";
+  const originalPlaceholder = "Ask anything about Henry...";
   const samples = [
     "What is Henry's research about?",
     "Which papers has Henry written?",
