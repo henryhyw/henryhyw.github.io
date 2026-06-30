@@ -154,3 +154,170 @@ if (window.location.pathname !== '/') { // Check if the current page is not the 
       });
   }, 1000);
 }
+
+// Rotating sample prompts for the Ask palette.
+document.addEventListener("DOMContentLoaded", function() {
+  const samples = [
+    "What is Henry's research about?",
+    "Which papers has Henry written?",
+    "How does Henry connect cognitive science and AI?",
+    "What projects has Henry built?",
+    "Where has Henry studied?",
+    "What did Henry do at PwC and HSBC?",
+    "What is Henry's work on mechanistic interpretability?"
+  ];
+
+  let current = 0;
+
+  function injectStyles() {
+    if (document.getElementById("henry-ask-sample-style")) return;
+
+    const style = document.createElement("style");
+    style.id = "henry-ask-sample-style";
+    style.textContent = `
+      .henry-ask-samples {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 0.45rem;
+        text-align: center;
+      }
+
+      .henry-ask-label,
+      .henry-ask-hint {
+        opacity: 0.72;
+      }
+
+      .henry-ask-sample {
+        appearance: none;
+        border: 1px solid rgba(127, 127, 127, 0.32);
+        border-radius: 999px;
+        background: transparent;
+        color: inherit;
+        cursor: pointer;
+        font: inherit;
+        line-height: 1.4;
+        padding: 0.3rem 0.72rem;
+        max-width: min(100%, 34rem);
+        animation: henryAskSampleIn 320ms ease both;
+      }
+
+      .henry-ask-sample:hover,
+      .henry-ask-sample:focus-visible {
+        border-color: currentColor;
+        outline: none;
+      }
+
+      @keyframes henryAskSampleIn {
+        from {
+          opacity: 0;
+          transform: translateY(6px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .henry-ask-sample {
+          animation: none;
+        }
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
+  function getPanel() {
+    return document.querySelector(".sp-panel");
+  }
+
+  function isAskMode(panel) {
+    const activeMode = panel && panel.querySelector(".sp-mode.active");
+    return !!(activeMode && activeMode.textContent.toLowerCase().includes("ask"));
+  }
+
+  function getInput(panel) {
+    return panel && panel.querySelector(".sp-input");
+  }
+
+  function getEmptyTarget(panel) {
+    if (!panel) return null;
+
+    const existing = panel.querySelector('.sp-ask .sp-empty[data-henry-ask-samples="true"]');
+    if (existing) return existing;
+
+    return Array.from(panel.querySelectorAll(".sp-ask .sp-empty")).find(element => {
+      return element.textContent.includes("Ask anything about Henry");
+    }) || null;
+  }
+
+  function fillSample(text) {
+    const panel = getPanel();
+    const input = getInput(panel);
+    if (!input) return;
+
+    input.value = text;
+    input.dispatchEvent(new Event("input", { bubbles: true }));
+    input.focus();
+  }
+
+  function render() {
+    const panel = getPanel();
+    if (!panel || !isAskMode(panel)) return;
+
+    const input = getInput(panel);
+    if (!input) return;
+
+    const sample = samples[current];
+    const hasQuery = input.value.trim().length > 0;
+    input.setAttribute("placeholder", hasQuery ? "Ask anything about Henry..." : sample);
+
+    const target = getEmptyTarget(panel);
+    if (!target || hasQuery) return;
+
+    if (target.dataset.currentSample === sample) return;
+
+    target.dataset.henryAskSamples = "true";
+    target.dataset.currentSample = sample;
+    target.innerHTML = `
+      <div class="henry-ask-samples" aria-live="polite">
+        <span class="henry-ask-label">Try asking</span>
+        <button class="henry-ask-sample" type="button"></button>
+        <span class="henry-ask-hint">then press Enter.</span>
+      </div>
+    `;
+
+    const button = target.querySelector(".henry-ask-sample");
+    if (button) {
+      button.textContent = sample;
+      button.addEventListener("click", function() {
+        fillSample(sample);
+      });
+    }
+  }
+
+  injectStyles();
+  render();
+
+  window.setInterval(function() {
+    current = (current + 1) % samples.length;
+    render();
+  }, 3200);
+
+  const observer = new MutationObserver(function() {
+    render();
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
+
+  document.addEventListener("input", function(event) {
+    if (event.target && event.target.matches && event.target.matches(".sp-input")) {
+      render();
+    }
+  }, true);
+
+  document.addEventListener("click", function() {
+    window.setTimeout(render, 0);
+  }, true);
+});
