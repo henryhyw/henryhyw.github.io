@@ -485,7 +485,7 @@
     "page": "Fragments",
     "title": "Fragments",
     "anchor": "",
-    "body": "Loose fragments of thought and life. Fragment entries should be used only when the user asks about a clearly related topic."
+    "body": "Loose fragments of thought and life. Fragment entries are indexed from the shared fragment data source."
   },
   {
     "id": 61,
@@ -501,10 +501,26 @@
     "page": "Fragments",
     "title": "Expression, Recording, and the Compressed Version of Thought (2)",
     "anchor": "expression-recording",
-    "body": "When a thought is still in my head, it is usually not a sentence. It is more like a mass of feeling, direction, memory, and connections that are not yet fully separated. Language cuts that mass into words, order, and boundaries. That makes the thought easier to hold, share, revise, and return to later, but it also means the thought has already been compressed.\n\nExpression is useful because without it many thoughts disappear. Once something is said or written, it becomes something that can be handled. Other people can understand it, challenge it, and I can look at it again. It can be saved, remembered, organized further, and placed into the next round of thinking.\n\nBut expression is not free. The expressed version is not the original mass. It preserves some structure and makes the thought transmissible, but the parts that did not enter language are compressed away. The harder part is that later thinking often begins from the sentence I just produced, not from the original thing that produced it.\n\nThat sentence becomes the new starting point. I may continue explaining it, adding to it, modifying it, or defending it. Once a thought becomes language, it feels like an object I can hold, but precisely because I can hold it, it also starts to grow according to the shape of language.\n\nDifferent languages may work this way too. The point is not that one language is more rational than another, but that different languages may cut experience differently. If the cut changes, the later path of thought may also change. Translation is not only transfer; it is another cut through the original mass.\n\nAI fits here as an organizer of already-expressed material. It can summarize, classify, recombine, and find connections among paragraphs and notes. But what it receives is already the version I have said. It does not directly access the experience, hesitation, bodily state, and intuition that produced the thought before language cut it apart.\n\nSo AI is useful, but its place is closer to"
+    "body": "When a thought is still in my head, it is usually not a sentence.\n\nIt is more like a mass of things. There is a feeling, a direction, some past experience, and connections I cannot quite explain even to myself. Most of the time, I do not first have a complete sentence and then simply say it out loud. It is more like I have something vague but real, and language cuts it apart, puts it in order, and compresses it into a form other people can understand.\n\nThat matters. Without language, many thoughts would just stay inside my head. Once I say something, it becomes something I can work with. Other people can understand it. They can push back on it. I can look at it again. It can be saved, remembered, organized further, and put into the next round of thinking.\n\nSo expression is not a bad thing. Many thoughts only become usable after they are expressed. Before that, they are just a state in the mind. After being said, they have a clearer shape. That shape lets the thought be transmitted, discussed, changed, and picked up again later.\n\nBut expression is not free.\n\nLanguage asks you to choose words, choose an order, and choose boundaries. Many things that originally existed together have to be said one after another. Some feelings are fine, mixed, and hard to separate, but in order to express them, they have to be cut into parts. After being cut, the thought is indeed clearer and easier to transmit, but it is no longer the original thing.\n\nIt has become a discrete version.\n\nThat discrete version is useful. Without it, thought cannot be taken out. But it also necessarily loses something. It keeps some main structure and turns the thought into a form that can be transmitted, saved, organized, and operated on. But the parts that did not enter language are temporarily compressed away.\n\nThis is why I think compression is central here. Expression and recording do not simply move a thought out of the mind. They first compress the thought into a version that can be processed. That "
   },
   {
     "id": 63,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Expression, Recording, and the Compressed Version of Thought (3)",
+    "anchor": "expression-recording",
+    "body": "Different languages may work this way too. Not in the simple sense that one language makes people more rational or anything like that, but in a more specific sense: different languages may cut experience differently. A continuous thought may naturally become certain blocks in one language, and different blocks in another language. If the cut changes, the later path of thought may also change.\n\nThat may be why saying something in another language sometimes feels like it is no longer quite the same thing. It is not only a question of whether the translation is accurate. The original mass has been cut again.\n\nThis also makes me think about where artificial intelligence fits.\n\nAI is very good at working with things that have already been expressed. If you give it a paragraph, a pile of notes, a few claims, or scattered materials, it can summarize, organize, classify, recombine, and find connections. It can make already-discretized material clearer, and it can point out arrangements I may not have noticed yet.\n\nBut what it receives is still the version I have already said.\n\nThe original thought does not begin as text. It comes from experience, memory, emotion, details of life, bodily state, unclear intuitions, and many connections that have not been fully expressed. By the time I tell these things to AI, I have already compressed them once. It is processing the material after that compression, not the mass that existed before language cut it apart.\n\nSo AI is useful to me, but its place is closer to an organizer and a reflecting surface than to the source of the thought. It can help me straighten out what has already been written, show me where things repeat, where they connect, and where they remain unclear. But I should not mistake that organization for thought itself.\n\nWhat I need to watch out for is continuing to work only on the version AI has organized, while forgetting to bring back new experience, new hesitation, and new intuition. The thought may become smoother "
+  },
+  {
+    "id": 64,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Expression, Recording, and the Compressed Version of Thought (4)",
+    "anchor": "expression-recording",
+    "body": "This is not only a problem of being too early. Being too early does create problems. If a thought is organized into a concept right after it appears, it can easily become narrower. But even if it is not too early, even if I have thought about it for a long time, once it is written down, it still forms a version. That version will later influence me.\n\nI may continue thinking along its path. I may also be led by it.\n\nThis is what I need to be careful about.\n\nThese notes matter because they mean I do not have to start from zero every time. They are like handles that let me hold onto things that would otherwise be scattered. But the handle is not the thing itself. If I trust the written versions too much, they will turn from handles into boundaries.\n\nI may begin to feel: this thought is exactly this. But actually, it was only written this way at that moment.\n\nSo I do not want to treat these notes as definitions. They are more like slices from a certain day. They record where I had thought up to at that time, but they should not decide where I can go later. Later, I can completely change my mind, rewrite them, discover that they connect elsewhere, or realize that they were not that important after all.\n\nTitles are useful. Labels are useful. A little classification is useful. Without any of them, things become messy and hard to find. But they should mainly be for retrieval, not for making boundaries. A thought that today seems to be about language may tomorrow connect to memory, and the day after that to consciousness. It should not be stuck forever in one place just because it was first placed there.\n\nSimilarly, the fact that a thought has not been developed right now does not mean it has been excluded. It just has not grown there yet. Maybe it will connect back later, maybe it will not. Placing something too early on the irrelevant side is also a form of over-organization.\n\nI prefer to see these thoughts as a graph that slowly grows. Each note is a node, with some lines"
+  },
+  {
+    "id": 65,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Labels, Goals, and Rules as Ways of Shaping People",
@@ -512,23 +528,47 @@
     "body": "Labels, goals, and rules make a complex person readable, expected, and constrained, then shape that person in return."
   },
   {
-    "id": 64,
+    "id": 66,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Labels, Goals, and Rules as Ways of Shaping People (2)",
     "anchor": "labels-goals-rules",
-    "body": "If thoughts can be compressed by language, then people can be compressed by labels. A person is a complicated mass of experiences, behaviors, habits, desires, fears, interests, abilities, and tendencies. These things are continuous and do not naturally come in neat blocks, but other people cannot read a full internal structure directly, so we hand over compressed versions of ourselves.\n\nLabels are useful. Personality types, professional identities, research directions, personal profiles, and other people’s descriptions all help make a person readable. A label is like a handle: it lets others hold onto part of you, and it lets you hold onto part of yourself. But the handle is not the person.\n\nThe problem is that labels do not stay outside. A label may begin as a summary, but after being repeated, it can begin to shape future behavior. You may start to live up to it, defend it, perform it, or ignore parts of yourself that do not fit. A sentence that first described a person can start helping produce that person.\n\nExternal labels also work like training signals. Other people compress behavior into judgments, then treat you through those judgments. Those labels change expectations, opportunities, feedback, and limits. Over time, you may begin to predict yourself through the same compressed version, and the internal structure can also shift.\n\nGoals work similarly, except that they are often self-imposed. A goal compresses the future into a discrete result and pulls behavior toward it. It gives continuous behavior direction, but it can also make a person compress themselves into the shape needed by that goal.\n\nRules add another layer. When someone’s internal structure has not naturally produced the output that society expects, law, morality, etiquette, institutions, school requirements, or family expectations may constrain behavior first. A rule says what cannot be said, what must be done, or which first reaction should not become final output.\n\nVery often, rules are not "
+    "body": "If thoughts can be compressed by language, then people can be compressed by labels.\n\nA person is also a very complicated mass of things. There are experiences, behaviors, habits, desires, fears, interests, abilities, and tendencies even the person may not be able to explain clearly. Many of these things are continuous. They do not naturally come in neat blocks. A person is not born already divided into personality, occupation, research direction, hobbies, values, and life stages. Very often, these divisions are cut out later so that the person can be understood and communicated.\n\nBut we do need those cuts.\n\nOther people cannot directly read a person’s full internal structure. What you have done, what you have thought, why you react in certain ways, why you care about some things and not others, all of this is too complicated. You cannot hand over your complete self every time. Most of the time, you can only hand over a compressed version.\n\nThat is why labels are useful.\n\nPersonality types are one kind. A professional identity is one kind. A research direction is one kind. A personal profile is one kind. The way other people describe what kind of person you are is also one kind. We say we belong to a certain type, fit a certain direction, care about certain questions, or resemble a certain group of people. This makes us easier for others to read, and also easier for ourselves to organize.\n\nA label is a bit like a language for describing people. It takes a continuous, complex, hard-to-transfer person and compresses that person into a format that can travel more easily. Through it, other people can quickly get a rough sense of who you are, what you care about, who you may be similar to, and how you differ from others. You can also use it to gather scattered experiences, interests, behaviors, and thoughts into one place.\n\nThis is not bad in itself. Without labels, people are hard to understand and hard to remember. Without some kind of identity narrative, many experienc"
   },
   {
-    "id": 65,
+    "id": 67,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Labels, Goals, and Rules as Ways of Shaping People (3)",
     "anchor": "labels-goals-rules",
-    "body": "This is why being summarized can feel subtly uncomfortable. A summary creates a version of you that is easier to circulate. That version may be clear and convenient, but it may not preserve the core that matters. The issue is not only whether labels, goals, and rules are accurate, but that they return to the person and shape the person who has been compressed."
+    "body": "More than that, a label can sometimes work like a training signal from the outside world.\n\nThe outside world cannot see a person’s complete internal structure. It can only make compressed judgments from behavior: this person is smart, this person is outgoing, this person is suited for research, this person has leadership, this person is unreliable, this person belongs to a certain type. At first, these judgments may only be summaries based on some observed behavior. But once they appear, they begin to change the environment.\n\nPeople treat you through those labels. They give you different expectations, opportunities, feedback, and limitations. If you are seen as suited for something, you may receive more opportunities related to it, and you may also be expected to keep performing in that direction. If you are seen as unsuited for something, you may be given fewer chances to try, and eventually you may stop trying yourself.\n\nSo labels from the outside are not only descriptions. They also change a person’s training environment.\n\nThey change how other people respond to you, and they also change how you predict yourself. You begin to know what others expect you to become, and you begin to adjust your behavior. Sometimes this adjustment is only on the surface. But over time, the internal structure may also change. Habits change. Abilities change. Desires change. Even your understanding of yourself can change.\n\nA loop forms here.\n\nA person’s internal structure produces behavior. Behavior is compressed by the outside world into labels. Labels become expectations, opportunities, rewards, and limits. These forms of feedback return to the person and continue shaping later behavior and internal structure.\n\nSo a label is not a static sticker. It is part of a feedback system.\n\nThis process is not necessarily bad. A good label, or an accurate expectation, may push someone in a better direction. If someone says you are suited for something, you may become more willing to invest in "
   },
   {
-    "id": 66,
+    "id": 68,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Labels, Goals, and Rules as Ways of Shaping People (4)",
+    "anchor": "labels-goals-rules",
+    "body": "Sometimes a person’s internal structure has not yet naturally produced the output that society expects. In other words, their impulses, habits, desires, attention, or existing tendencies are not yet aligned with a certain social requirement. In that case, society does not wait for the internal structure to slowly change. It first uses rules to constrain behavior.\n\nLaw, moral norms, politeness, institutions, school requirements, and family expectations are all rules of this kind. They are also a form of discretization. They compress complex situations into explicit requirements: do not do this, say this instead, behave this way in this situation, suppress this impulse, this behavior will be punished.\n\nRules are not quite the same as labels. Labels often say “what you are” or “what others expect you to become.” Goals say “what you want to become.” Rules are more like “what you at least must not do” or “what output you must produce.”\n\nVery often, rules are not natural reactions at first.\n\nWhen a person sees something, they may first understand it through their existing internal structure. Past experience, habits, prejudice, desire, and fear may first shape what they notice, what they think of, and how they want to respond. This first reaction does not come from nowhere. It comes from internal representations that have already formed.\n\nBut immediately after that, another rule may intervene. That rule is also in the mind, but it has not been fully internalized. It may come from law, morality, politeness, education, or social expectation. It tells you: do not say this, do not do this, do not keep your attention there, do not let the first reaction become the final behavior.\n\nSo the behavior that finally appears may not be the behavior naturally generated by the internal structure. It may be the result after rule-based override.\n\nThe outside world sees compliant behavior, but the internal path may be completely different. One person may simply not have that impulse. Anothe"
+  },
+  {
+    "id": 69,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Labels, Goals, and Rules as Ways of Shaping People (5)",
+    "anchor": "labels-goals-rules",
+    "body": "External discrete rules slowly become part of the internal structure. An originally strong tendency may be worn down, weakened, or at least made easier to suppress. Whether a rule can be internalized, and how deeply it can be internalized, is itself a question. Not every rule truly changes internal structure. Some remain surface compliance. Some change habits. Some enter attention and judgment more deeply.\n\nAnd social rules are not always right. A rule is an external constraint mechanism, not truth itself. It can protect people, but it can also limit people. It can help internal structure become more stable, but it can also press a person into an unreasonable shape.\n\nSo I do not want to simply say labels are bad, goals are bad, or rules are bad.\n\nThey are clearly useful. Without labels, others have a hard time reading you, and you have a hard time organizing yourself. Without goals, many behaviors may not hold together. Without rules, society cannot rely only on everyone’s naturally formed internal structure to maintain order.\n\nThe question is not whether we should have these things. The question is whether we remember that none of them is neutral.\n\nLabels make people readable. Goals give people a point to move toward. Rules override output when the internal structure has not yet naturally aligned.\n\nAll of them compress complex people into forms that are easier to handle: readable, expected, trainable, and constrained. Then they shape people in return through feedback, opportunities, rewards, punishments, repetition, and internalization.\n\nAI can also be understood through this problem, but here the issue is not whether it is the source of thought. The issue is that it can become a training signal.\n\nIt does not only help me organize content. It also presents a way of moving thought forward: turn something vague into several points, turn those points into a structure, turn the structure into a next step, and turn the next step into an output that looks complete. This "
+  },
+  {
+    "id": 70,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Labels, Goals, and Rules as Ways of Shaping People (6)",
+    "anchor": "labels-goals-rules",
+    "body": "Being misunderstood is bad, of course. But it is even stranger when people seem to understand you, while in fact they only understand a wrongly compressed version. The clearer and more complete that version looks, the easier it is for people to believe that it is you.\n\nThat is stranger than simply being forgotten. Being forgotten is disappearance. Being wrongly summarized leaves behind something that looks like you, but whose inner structure may not be yours.\n\nSo what interests me about labels, goals, and rules is not only whether they are accurate or right. It is their two-way effect.\n\nThey come from the person, or from society’s demands on the person. Then they return to the person.\n\nThey first make the person readable, expected, and constrained. Then they begin to change how the person continues becoming themselves.\n\nLabels can help us understand a person, and they can also help a person organize themselves. Goals can give continuous behavior a direction. Rules can first override outputs that have not yet naturally aligned.\n\nBut once they appear, they are no longer merely explanations or restrictions. They become expectation, feedback, training, constraint, and force.\n\nThey compress a complex person into a version that can be handled by society and by the person themselves. And then they shape the person who has been compressed."
+  },
+  {
+    "id": 71,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Memory Compresses Time, but the Self Is Changed by Passing Through It",
@@ -536,15 +576,39 @@
     "body": "Memory turns continuous life into stages and stories, but the self is shaped by actually moving through time."
   },
   {
-    "id": 67,
+    "id": 72,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Memory Compresses Time, but the Self Is Changed by Passing Through It (2)",
     "anchor": "memory-time-self",
-    "body": "Life, while it is happening, does not really come in sections. It does not announce that this part is high school, this part is university, and this year is a turning point. Real time feels more like something that keeps flowing forward. Many changes have no clear boundary while they are happening.\n\nMemory is not good at preserving that continuity. The closer something is, the more detail it has. Once time moves further away, many things get compressed. A year becomes a few keywords, a place becomes a feeling, a relationship becomes a few images. Distant life is not actually made only of keywords; it is stored by memory at a higher compression rate.\n\nSo life stages may not be the structure of life itself, but a structure that memory later adds. This is useful because the past is too large to hold in full detail. But compression loses ordinary afternoons, small jokes, boredom, repetition, and many details that did not survive the later summary.\n\nOld photos, chat records, and notes can feel strange because they reopen the messier version of a period that memory had simplified. The further away time is, the more memory starts to look like labels. We need those labels, but they are not the past itself.\n\nThis also changes how I think about the self. I do not really like saying that the future self is simply another person, because that cuts the continuous line between versions. A person is not a fixed point. A person is more like a trajectory that keeps changing.\n\nThe future me is not a stranger who suddenly appears in the distance. He is the state of this current system after many updates. Each step may be small, but many small changes together can become a clearly different person. What makes both versions still me may not be similarity, but the continuous path between them.\n\nThis makes the question of memory and experience stranger. If someone could jump over a difficult period while keeping the memory and the feeling of continuity, would anything be missing? My first"
+    "body": "Life, while it is happening, does not really come in sections.\n\nIt does not tell you: this part is high school, this part is university, this year is a turning point, this city means growth. Real time feels more like something that keeps flowing forward. Many changes do not have clear borders while they are happening. You simply live one day after another, slowly change, and only when you look back do you realize that you seem to have entered another stage.\n\nBut memory does not seem very good at preserving that continuity.\n\nThe closer something is, the more detail it has. Today still has temperature. Something said yesterday still has a tone. A recent experience has not yet fully become a story. But once time moves further away, many things begin to be compressed. A year becomes a few keywords. A place becomes a feeling. A relationship becomes a few images. Many things that were once fine-grained eventually become only “that period.”\n\nAnd this compression does not happen evenly. It has a temporal gradient. The closer something is to the present, the lighter the compression, and the details remain relatively loose. The further away it is, the heavier the compression, and many things are folded into stages, labels, stories, and a few representative scenes. Distant life is not really made only of a few keywords. It is just stored by memory at a higher compression rate.\n\nSo sometimes I feel that so-called life stages may not be the structure of life itself, but a structure that memory later adds to life.\n\nThis is not necessarily bad. If the past remained there in full detail, maybe people could not keep moving forward. A stage is like a folder. It gathers too many scattered things into one place. You do not need to reopen every detail each time. You only need to say “that time,” and many things come back with it.\n\nBut compression always loses something.\n\nYou may remember a certain year as a painful year, but inside that year there were probably ordinary afternoons, funn"
   },
   {
-    "id": 68,
+    "id": 73,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Memory Compresses Time, but the Self Is Changed by Passing Through It (3)",
+    "anchor": "memory-time-self",
+    "body": "I do not really like saying that the future self is another person. That saying has something to it. The future version of me may think differently, like different things, care about different things. He may even fail to understand why the present version of me cares so much about certain problems. But if I simply call the future self another person, something feels wrong. It is as if the continuous line in between has been cut.\n\nA person is not a fixed point. A person is more like a trajectory that keeps changing.\n\nThe version of me at each moment is not exactly the same. What I see today changes tomorrow’s judgment. What happens tomorrow changes how I understand today the day after. Memory changes. The body changes. Relationships change. The internal representations in my mind also change. It is hard to say which slice is the real me.\n\nBut these slices are not connected randomly. They change into one another little by little.\n\nThe future me is not a stranger who suddenly appears in the distance. He is the state of this current system after many updates. Each step may be tiny, so tiny that it is hard to notice at the time. But many small changes together can become a clearly different person.\n\nThat is why the path in between matters.\n\nIf you only look at two time points, a person can certainly seem very different. The me from ten years ago and the me now may look like two versions. But what makes both of them still me may not be how similar the two versions are. It may be the continuous path between them. Even if another person knows my experiences and even many of my memories, he cannot directly become me, because he did not move through the path from the inside.\n\nMaybe each momentary version of me is only a slice of a longer structure. If you look at the slices separately, they may be quite different. But once you put the time dimension back, they are not isolated people. They are the same thing taking different shapes at different positions.\n\nSo the self is not "
+  },
+  {
+    "id": 74,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Memory Compresses Time, but the Self Is Changed by Passing Through It (4)",
+    "anchor": "memory-time-self",
+    "body": "What makes it even stranger is that the person after the jump may not feel that anything is missing. He may feel that he really did go through it. Then the question becomes harder: if even the subjective feeling of continuity is preserved, what is still irreplaceable about actually experiencing it?\n\nShould he take the pill?\n\nMy first instinct is yes. It is simple: if the final state is the same, and the memory is the same, why actually go through the pain? Pain itself is not something worth collecting. If I can avoid the pain and keep the result, that sounds reasonable.\n\nBut many people would not choose it. They would feel that the painful period is also part of life. Even if you remember it afterward, if you did not actually live through it, something still seems missing.\n\nI have always found this strange. If the memory is truly complete, and the person after the jump believes he has lived through it, has the same lessons, the same memories, and the same result, then what exactly does “actually living through it” add?\n\nMaybe memory and experience are still not the same thing.\n\nMemory is like the result, but experience is the process. Pain does not only leave a conclusion at the end. It changes a person second by second in the middle. Many things are not written into memory all at once. They slowly change you while you are enduring them. You may think that receiving the same memory at the end is enough, but perhaps what really changes you is each morning you wake up, each moment of loss, each time you think you are fine and then fall back again.\n\nThis brings me back to the earlier question: is the self made of results and memories, or is it made of the process of actually passing through time?\n\nIf the self is a trajectory in time, then skipping pain is not only skipping an unpleasant experience. It may also skip a stretch of continuous change. The person after the jump has memory, and even the feeling of having gone through it, but he did not actually pass through t"
+  },
+  {
+    "id": 75,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Memory Compresses Time, but the Self Is Changed by Passing Through It (5)",
+    "anchor": "memory-time-self",
+    "body": "I just understand better now why some people would not.\n\nThe self is not a photograph. It is also not just a compressed memoir.\n\nIt is more like a movement.\n\nNo moment is the final version. But each moment grows out of the one before it.\n\nMemory compresses time into stages, making the past something that can be preserved, narrated, and understood again. But what truly changes a person may not only be those stages and stories. It may also be the continuous passage through time that was never fully preserved.\n\nWhat we remember later are chapters. What we lived then was a whole line."
+  },
+  {
+    "id": 76,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Satisfaction Is Not a Fixed Reward",
@@ -552,15 +616,39 @@
     "body": "Satisfaction is better understood as a changing signal generated through behavior, time, individual difference, and interpretation."
   },
   {
-    "id": 69,
+    "id": 77,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Satisfaction Is Not a Fixed Reward (2)",
     "anchor": "satisfaction-signal",
-    "body": "I sometimes wonder whether happiness and satisfaction can be treated as the same thing. This is debatable, but I tend to first understand happiness as a broad kind of satisfaction. The important point is that satisfaction cannot only mean immediate pleasure.\n\nEating something good, delaying gratification, finishing a goal, controlling an impulse, helping someone, buying something at a good price, or feeling that I made a more rational choice can all produce satisfaction. Delayed gratification is not necessarily the opposite of satisfaction. It may be another satisfaction curve.\n\nI think of satisfaction as an internal feedback signal. Different activities trigger different signals, and different people receive them with different strengths, durations, delays, and shapes. The same activity may be enjoyable to one person and meaningless to another, or enjoyable to the same person only under a certain interpretation.\n\nThis is why rationality cannot always be judged from the outside. Buying discounted products is a good example. For one person, searching for discounts is a waste of time. For another, it produces a small win: the search, the comparison, the discovery, the feeling of being good at living, and the sense that resources are under control.\n\nOpportunity cost should not only count money and time. More accurately, it is the satisfaction you give up from another possible activity. If someone enjoys the search, the time spent is not pure cost. If someone finds it draining, then it is closer to cost.\n\nSatisfaction is not something the outside world simply gives to a person. Often, the behavior itself is only the material. The actual satisfaction is generated through a person’s internal structure, interpretation, goal system, and the unfolding of time.\n\nThis connects to labels and language. If the same activity is interpreted as wasting time, it may produce irritation. If it is interpreted as completing a small optimization, it may produce satisfaction. This does not"
+    "body": "I sometimes wonder whether happiness and satisfaction can be treated as the same thing.\n\nThis is obviously debatable. Some people would say happiness is not just satisfaction. It also includes meaning, long-term goals, relationships, a sense of value, and even growth through pain. But I tend to first understand happiness as a kind of satisfaction. The important point is that satisfaction cannot be defined too narrowly. It cannot just mean whether something feels good right now.\n\nIf satisfaction is understood more broadly, it can include many things.\n\nEating something good in the moment is a kind of satisfaction. Delayed gratification is also a kind of satisfaction. Finishing a goal is a kind of satisfaction. Controlling an impulse is a kind of satisfaction. Helping someone may also be a kind of satisfaction. Getting a good deal may be a kind of satisfaction. Even feeling that I made the more rational choice can itself bring satisfaction.\n\nSo delayed gratification is not necessarily the opposite of satisfaction. It may simply be another form of satisfaction.\n\nSome people treat immediate gratification as lower and delayed gratification as higher. I think that is too simple. A person who chooses delayed gratification may not be rejecting satisfaction. They may be getting satisfaction from the delay itself, from future payoff, from self-control, or from the feeling that they made the better choice.\n\nIn other words, they are not avoiding satisfaction. They are choosing another satisfaction curve.\n\nWhat is called more rational may not be separate from satisfaction. It may be that, in that person’s system, the choice is expected to produce a stronger, more stable, or longer-lasting satisfaction signal. Rationality and satisfaction do not have to be opposites. Sometimes rationality itself is a source of satisfaction.\n\nI do not need to reduce satisfaction to one specific biological measure, but I can at least think of it as an internal feedback signal. Different activities t"
   },
   {
-    "id": 70,
+    "id": 78,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Satisfaction Is Not a Fixed Reward (3)",
+    "anchor": "satisfaction-signal",
+    "body": "For some people, getting a discount is not just about saving money. It feels like a small win. There is the search, the comparison, the surprise of discovering a good deal, the feeling of being good at living, and the sense that resources are under better control. It can even feel like a little game: I found it, I judged correctly, I won a little.\n\nIf the process itself gives that person satisfaction, then it is not simply a waste of time.\n\nFor another person, the same process may produce no joy at all. It may only feel like trouble, exhaustion, anxiety, and a waste of attention. For that person, buying at the original price may be more rational, because what they save is not a little money, but time, energy, and mental space.\n\nSo the same behavior may be rational in different ways for different people.\n\nIt is not because rationality is arbitrary. It is because the behavior produces different satisfaction signals once it enters different internal systems. From the outside, both people are spending time looking for discounts, but internally the returns are different, so the rational calculation is different too. You cannot judge whether something is worth it only by asking how much time was spent and how much money was saved. You also have to ask what the person received from the process.\n\nOpportunity cost should not be calculated only in money and time. More accurately, opportunity cost is the satisfaction you give up from another possible activity.\n\nIf someone spends an hour looking for discounts and enjoys the process, then that hour is not only a cost. It is also part of the return. But if someone does not enjoy the process at all, then that hour is closer to a pure cost.\n\nThis makes me think that satisfaction is not something the outside world simply hands to a person. It is not that one behavior is naturally joyful and another is naturally boring. Often, the behavior itself is only the material. The actual satisfaction is generated through a person’s internal s"
+  },
+  {
+    "id": 79,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Satisfaction Is Not a Fixed Reward (4)",
+    "anchor": "satisfaction-signal",
+    "body": "By creation, I do not mean forcing oneself to be happy or rationalizing everything bad. Creating satisfaction is not pretending that a bad thing is good. It is redesigning the relationship between a behavior and oneself so that the behavior can genuinely produce some positive signal.\n\nPeople can use attention, interpretation, habit design, and goal setting to make some originally neutral activities capable of producing satisfaction.\n\nTake housework. For some people, it is just a burden. But if someone understands it as restoring order, organizing space, and making life feel controllable again, it may begin to produce some satisfaction. Exercise may start as pain, but once it connects to progress, rhythm, and bodily control, it becomes another kind of signal. Volunteering may look from the outside like giving up time, but for some people, it is not a loss. It produces value and connection.\n\nThis does not mean everyone should think this way. It also does not mean everything deserves to be repackaged. Some things are simply draining. Some pain is simply pain. We should not turn every negative thing into meaning just to manufacture satisfaction.\n\nBut I do think a person can ask: are there things that I currently find joyless, but that could produce some positive signal if I understood, organized, and experienced them differently?\n\nThis may matter more than simply chasing stronger stimulation.\n\nStrong stimulation easily saturates the system. If something arrives too quickly, too strongly, and too easily, it can certainly create immediate satisfaction, but it can also change the scale of satisfaction. After that, the same thing is no longer enough. More, faster, and stronger is required. The old high point becomes the new baseline, and ordinary life begins to feel flat.\n\nSo satisfaction is not only about quantity. It is also about how satisfaction is generated.\n\nSome satisfaction comes from the result. Some satisfaction comes from approaching the result. Some satisfaction"
+  },
+  {
+    "id": 80,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Satisfaction Is Not a Fixed Reward (5)",
+    "anchor": "satisfaction-signal",
+    "body": "The satisfaction system adapts, compares, recalibrates, and generates different signals under different interpretations.\n\nSo a person with better living conditions is not always more satisfied. A person with fewer resources is not completely unable to generate satisfaction. The former may become saturated because things arrive too quickly. The latter may still find structure, expectation, and process in small things.\n\nOf course, this should not be used to cover up real problems. Poverty, illness, oppression, and long-term stress cannot be solved by simply “changing perspective.” External conditions still matter. But once basic conditions are considered, when we talk about quality of life, the way satisfaction is generated also matters.\n\nI increasingly feel that satisfaction is not a fixed thing, and not a simple external reward.\n\nIt is more like an internal signal that a person keeps generating through time, behavior, and interpretation.\n\nWe are affected by external stimulation. We are also affected by how we interpret things. We are affected by immediate outcomes. We are also affected by waiting and process. We are affected by how others evaluate us. We are also affected by how we understand ourselves.\n\nSo if happiness can be understood as satisfaction, satisfaction should not be understood as a simple number.\n\nIt is more like a changing system. It can saturate, shift, be trained, and be reinterpreted. It can be given by the outside world, and it can also be slowly cultivated by the person themselves.\n\nMaybe one important part of life is not only finding more things that satisfy us, but learning how to let more ordinary things produce a small signal that makes life worth continuing."
+  },
+  {
+    "id": 81,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Oysters and Black Truffle Toast at Queen Victoria Market",
@@ -568,7 +656,7 @@
     "body": "A Melbourne food memory from my last day before leaving exchange: oysters with lemon juice and black truffle toast at Queen Victoria Market."
   },
   {
-    "id": 71,
+    "id": 82,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Oysters and Black Truffle Toast at Queen Victoria Market (2)",
@@ -576,23 +664,23 @@
     "body": "Queen Victoria Market in Melbourne gave me one of those food memories I will keep thinking about after leaving the city.\n\nThe oysters were fresh, cold, and clean, and they were really good with lemon juice. That sharpness made the oyster taste even clearer. The black truffle toast was also unexpectedly satisfying: warm, rich, fragrant, and direct.\n\nWhat makes it especially memorable is that I went there with my sister on my last day before leaving Melbourne exchange. It was not just about the food, but also about the timing: one last market morning, one last meal before leaving, and something simple that became tied to the whole exchange period.\n\nThis is one of the foods I will keep missing after leaving Melbourne."
   },
   {
-    "id": 72,
+    "id": 83,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Chaoshan Beef Hot Pot in Guangzhou",
     "anchor": "guangzhou-chaoshan-beef-hot-pot",
-    "body": "A Guangzhou food memory with my father: Chaoshan beef hot pot, especially beef meatball and diaolong, eaten without sauce for the clean beef flavor."
+    "body": "A Guangzhou food memory with my father: Chaoshan beef hot pot, especially beef balls and diaolong, eaten without sauce for the clean beef flavor."
   },
   {
-    "id": 73,
+    "id": 84,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Chaoshan Beef Hot Pot in Guangzhou (2)",
     "anchor": "guangzhou-chaoshan-beef-hot-pot",
-    "body": "When I travelled to Guangzhou with my father, we went to eat Chaoshan beef hot pot together. That made the meal memorable to me, not only because the food was good, but because it became part of that trip with him.\n\nI really like Chaoshan-style beef. I especially like the beef meatball and diaolong. The meatball has that springy texture and deep beef taste, and diaolong has a clean, tender freshness that works very well in hot pot.\n\nI also tend not to dip it in sauce. The plain beef flavor is already good enough. I like the original, fresh taste of the beef itself, without covering it up too much."
+    "body": "When I travelled to Guangzhou with my father, we went to eat Chaoshan beef hot pot together. That made the meal memorable to me, not only because the food was good, but because it became part of that trip with him.\n\nI really like Chaoshan-style beef. I especially like the beef balls and diaolong. The beef balls have that springy texture and deep beef taste, and diaolong has a clean, tender freshness that works very well in hot pot.\n\nI also tend not to dip it in sauce. The plain beef flavor is already good enough. I like the original, fresh taste of the beef itself, without covering it up too much."
   },
   {
-    "id": 74,
+    "id": 85,
     "route": "/fragments",
     "page": "Fragments",
     "title": "AI-Generated Kitten Videos and Manufactured Cuteness",
@@ -600,7 +688,7 @@
     "body": "AI-generated kitten videos are a good example of synthetic content still reaching human senses and triggering real emotional responses."
   },
   {
-    "id": 75,
+    "id": 86,
     "route": "/fragments",
     "page": "Fragments",
     "title": "AI-Generated Kitten Videos and Manufactured Cuteness (2)",
@@ -608,7 +696,7 @@
     "body": "I have seen many AI-generated videos on social media where kittens interact with humans, and also some more surreal ones, like a plush watermelon being opened and turning out to contain little kittens. I find them very cute, and clearly many other people like them too.\n\nWhat interests me is not only that the videos are cute. They are a good example of generative AI content triggering human emotion. The kittens are not real in the usual sense, but the content still reaches human perception: softness, smallness, eye contact, movement, care, surprise. These signals can still produce emotional fluctuation.\n\nThat makes this kind of AI-generated content valuable. It can create things that touch human senses and emotions, even when the objects are synthetic. But it also needs caution, because the same ability can be abused. If generated content can reliably press emotional buttons, then it can also be used to manipulate attention, sympathy, desire, or belief.\n\nSo I do not think the value of generative AI content is only whether it is realistic. Sometimes its value is that it can generate emotionally meaningful sensory patterns. But precisely because those patterns work on people, they need to be treated carefully."
   },
   {
-    "id": 76,
+    "id": 87,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Conversation About Identity",
@@ -616,7 +704,7 @@
     "body": "After taking part in an interview about growing up between Shanghai and Taiwanese family roots, I found a clearer way to describe identity: not confused, but layered."
   },
   {
-    "id": 77,
+    "id": 88,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Conversation About Identity (2)",
@@ -624,7 +712,7 @@
     "body": "I once took part in an interview about identity and growing up with a Taiwanese family background while living mostly in Shanghai. It was not something I had planned to write publicly at first, but the conversation helped me organize many scattered feelings that had existed in the background for a long time.\n\nWhat stayed with me most was not a dramatic conclusion, but a quieter one: identity is not always a single answer. It can be made of several layers: where I grew up, where my family comes from, what languages and habits shaped me, what places feel familiar, and how I introduce myself in different contexts.\n\nThe interview helped me see that this is not necessarily confusion. It is more like a layered structure. Different parts become more visible in different situations. Sometimes Shanghai feels like the most natural answer. Sometimes Taiwanese family roots matter more. Neither layer fully cancels the other.\n\nThat is why the conversation was meaningful to me. It gave me a neutral way to look back at my background without forcing it into one simple label."
   },
   {
-    "id": 78,
+    "id": 89,
     "route": "/cv",
     "page": "CV",
     "title": "Han-yu Wang",
@@ -632,7 +720,7 @@
     "body": "Applied AI undergraduate, University of Hong Kong whenry6688@gmail.com (mailto:whenry6688@gmail.com) &middot; henryw.me (https://www.henryw.me/) &middot; LinkedIn (https://www.linkedin.com/in/henrywhy/) &middot; GitHub (https://github.com/henryhyw/)"
   },
   {
-    "id": 79,
+    "id": 90,
     "route": "/cv",
     "page": "CV",
     "title": "Profile",
@@ -640,7 +728,7 @@
     "body": "Fourth-year Applied Artificial Intelligence student at the University of Hong Kong, working where cognitive science meets AI. My research runs along two lines: how people learn and remember, and what goes on inside language models as they learn and reason, studied through behavioral experiments, model internals, and computational modeling. Part-time research assistant at HKU's SLR Lab and Cloud, Data & AI consulting intern at PwC."
   },
   {
-    "id": 80,
+    "id": 91,
     "route": "/cv",
     "page": "CV",
     "title": "Education",
@@ -648,7 +736,7 @@
     "body": "University of Hong Kong Sep 2022 – Present BASc in Applied Artificial Intelligence Coursework across machine learning, deep learning, data science, algorithms, and the mathematics behind them. Dean's Honours List; Student Peer Advisor; Staff–Student Consultative Committee representative. University of Melbourne Feb 2025 – Jun 2025 Semester exchange, HKU Worldwide Student Exchange Optimisation, Machine Learning, Principles of Finance. Shanghai High School International Division Sep 2017 – Jun 2022 International Baccalaureate Diploma Computer science, mathematics, economics, physics. Led the Coding Club; co-founded the SHSID Musix Board."
   },
   {
-    "id": 81,
+    "id": 92,
     "route": "/cv",
     "page": "CV",
     "title": "Experience",
@@ -656,7 +744,7 @@
     "body": "Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Translating technical AI and data work into business-facing consulting. Student Research Assistant May 2024 – Present Speech, Language & Reading Lab, HKU Computational models of human memory and learning, fitting experimental data to ask which mechanisms reproduce how people actually behave. Digital Transformation Intern Aug 2024 – Dec 2024 HSBC, Hong Kong Product and distribution mapping across markets; built an Excel/VBA workflow for a UI transformation project; contributed to AI use-case reviews in personal banking. Student Research Assistant Jul 2024 – Apr 2025 Psychometrics & Data Science Lab, HKU Built an AI-supported education platform, applying generative AI, NLP, retrieval, and recommendation methods to real learning workflows. Web Developer, Digital Content Support Jun 2023 – Dec 2023 Kiwiview International Limited, New Zealand Owned the company website from design to development to hosting, plus branding and content for travel programmes."
   },
   {
-    "id": 82,
+    "id": 93,
     "route": "/cv",
     "page": "CV",
     "title": "Publications & Preprints",
