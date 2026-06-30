@@ -155,10 +155,22 @@ if (window.location.pathname !== '/') { // Check if the current page is not the 
   }, 1000);
 }
 
-// Prevent the Ask/Search palette from closing when a drag starts inside the panel
-// and ends on the overlay. It should close only when press and release both happen outside.
+// Prevent the Ask/Search palette from closing unless both press and release happen outside the panel.
 document.addEventListener("DOMContentLoaded", function() {
   let pointerStartedOutsidePanel = false;
+  let pointerEndedOutsidePanel = false;
+
+  function targetAtPointer(event) {
+    const point = event.changedTouches && event.changedTouches.length
+      ? event.changedTouches[0]
+      : event;
+
+    if (typeof point.clientX === "number" && typeof point.clientY === "number") {
+      return document.elementFromPoint(point.clientX, point.clientY) || event.target;
+    }
+
+    return event.target;
+  }
 
   function closestSearchOverlay(target) {
     return target && target.closest ? target.closest(".sp-overlay") : null;
@@ -172,27 +184,45 @@ document.addEventListener("DOMContentLoaded", function() {
     return !!(target && target.closest && target.closest(".sp-panel"));
   }
 
+  function isInsideSearchOverlay(event, target) {
+    return !!(closestSearchOverlay(target) || closestSearchOverlay(event.target));
+  }
+
   function rememberPointerStart(event) {
-    const overlay = closestSearchOverlay(event.target);
-    if (!overlay) return;
-    pointerStartedOutsidePanel = !isInsidePanel(event.target);
+    const target = targetAtPointer(event);
+    if (!isInsideSearchOverlay(event, target)) return;
+
+    pointerStartedOutsidePanel = !isInsidePanel(target);
+    pointerEndedOutsidePanel = false;
+  }
+
+  function rememberPointerEnd(event) {
+    const target = targetAtPointer(event);
+    if (!isInsideSearchOverlay(event, target)) return;
+
+    pointerEndedOutsidePanel = !isInsidePanel(target);
   }
 
   function guardOverlayClick(event) {
     if (!isSearchOverlay(event.target)) return;
 
-    const releasedOutsidePanel = !isInsidePanel(event.target);
-    const shouldClose = pointerStartedOutsidePanel && releasedOutsidePanel;
+    const shouldClose = pointerStartedOutsidePanel && pointerEndedOutsidePanel;
 
     if (!shouldClose) {
       event.preventDefault();
       event.stopImmediatePropagation();
     }
+
+    pointerStartedOutsidePanel = false;
+    pointerEndedOutsidePanel = false;
   }
 
   document.addEventListener("pointerdown", rememberPointerStart, true);
   document.addEventListener("mousedown", rememberPointerStart, true);
   document.addEventListener("touchstart", rememberPointerStart, true);
+  document.addEventListener("pointerup", rememberPointerEnd, true);
+  document.addEventListener("mouseup", rememberPointerEnd, true);
+  document.addEventListener("touchend", rememberPointerEnd, true);
   document.addEventListener("click", guardOverlayClick, true);
 });
 
