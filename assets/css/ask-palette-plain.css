@@ -14,15 +14,17 @@
   border-radius: 0 !important;
   background: transparent !important;
   color: inherit !important;
-  cursor: default !important;
+  cursor: pointer !important;
   font: inherit !important;
   line-height: inherit !important;
   padding: 0 !important;
   max-width: none !important;
+  transition: color 180ms ease, opacity 180ms ease !important;
 }
 
 .henry-ask-sample:hover,
 .henry-ask-sample:focus-visible {
+  color: #b7794b !important;
   border-color: transparent !important;
   outline: none !important;
 }
