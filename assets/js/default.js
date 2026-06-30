@@ -157,6 +157,7 @@ if (window.location.pathname !== '/') { // Check if the current page is not the 
 
 // Rotating sample prompts for the Ask palette.
 document.addEventListener("DOMContentLoaded", function() {
+  const originalPlaceholder = "Ask anything about Henry, then press Enter.";
   const samples = [
     "What is Henry's research about?",
     "Which papers has Henry written?",
@@ -168,6 +169,7 @@ document.addEventListener("DOMContentLoaded", function() {
   ];
 
   let current = 0;
+  let rotating = false;
 
   function injectStyles() {
     if (document.getElementById("henry-ask-sample-style")) return;
@@ -176,53 +178,57 @@ document.addEventListener("DOMContentLoaded", function() {
     style.id = "henry-ask-sample-style";
     style.textContent = `
       .henry-ask-samples {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 0.45rem;
-        text-align: center;
+        display: block;
+        text-align: left;
       }
 
       .henry-ask-label,
       .henry-ask-hint {
-        opacity: 0.72;
+        display: none;
       }
 
       .henry-ask-sample {
         appearance: none;
-        border: 1px solid rgba(127, 127, 127, 0.32);
-        border-radius: 999px;
+        border: 0;
+        border-radius: 0;
         background: transparent;
         color: inherit;
         cursor: pointer;
         font: inherit;
-        line-height: 1.4;
-        padding: 0.3rem 0.72rem;
-        max-width: min(100%, 34rem);
-        animation: henryAskSampleIn 320ms ease both;
+        line-height: inherit;
+        padding: 0;
+        max-width: none;
+        opacity: 0;
+        transform: translateY(4px);
+        transition: opacity 260ms ease, transform 260ms ease, color 160ms ease;
+      }
+
+      .henry-ask-sample.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .henry-ask-sample.is-fading {
+        opacity: 0;
+        transform: translateY(-4px);
       }
 
       .henry-ask-sample:hover,
       .henry-ask-sample:focus-visible {
-        border-color: currentColor;
+        color: #222;
         outline: none;
       }
 
-      @keyframes henryAskSampleIn {
-        from {
-          opacity: 0;
-          transform: translateY(6px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
+      body.dark-mode .henry-ask-sample:hover,
+      body.dark-mode .henry-ask-sample:focus-visible {
+        color: #fff;
       }
 
       @media (prefers-reduced-motion: reduce) {
         .henry-ask-sample {
-          animation: none;
+          opacity: 1;
+          transform: none;
+          transition: color 160ms ease;
         }
       }
     `;
@@ -253,6 +259,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }) || null;
   }
 
+  function fixPlaceholder(input) {
+    if (input && input.getAttribute("placeholder") !== originalPlaceholder) {
+      input.setAttribute("placeholder", originalPlaceholder);
+    }
+  }
+
   function fillSample(text) {
     const panel = getPanel();
     const input = getInput(panel);
@@ -260,64 +272,111 @@ document.addEventListener("DOMContentLoaded", function() {
 
     input.value = text;
     input.dispatchEvent(new Event("input", { bubbles: true }));
+    input.dispatchEvent(new Event("change", { bubbles: true }));
     input.focus();
   }
 
-  function render() {
+  function ensureSampleButton(target) {
+    if (!target.dataset.henryAskSamples) {
+      target.dataset.henryAskSamples = "true";
+      target.innerHTML = `
+        <div class="henry-ask-samples" aria-live="polite">
+          <span class="henry-ask-label">Try asking</span>
+          <button class="henry-ask-sample" type="button"></button>
+          <span class="henry-ask-hint">then press Enter.</span>
+        </div>
+      `;
+    }
+
+    const button = target.querySelector(".henry-ask-sample");
+    if (button && !button.dataset.bound) {
+      button.dataset.bound = "true";
+      button.addEventListener("click", function() {
+        fillSample(button.textContent.trim());
+      });
+    }
+
+    return button;
+  }
+
+  function showCurrentSample() {
     const panel = getPanel();
     if (!panel || !isAskMode(panel)) return;
 
     const input = getInput(panel);
     if (!input) return;
+    fixPlaceholder(input);
 
-    const sample = samples[current];
     const hasQuery = input.value.trim().length > 0;
-    input.setAttribute("placeholder", hasQuery ? "Ask anything about Henry..." : sample);
-
     const target = getEmptyTarget(panel);
     if (!target || hasQuery) return;
 
-    if (target.dataset.currentSample === sample) return;
+    const button = ensureSampleButton(target);
+    if (!button) return;
 
-    target.dataset.henryAskSamples = "true";
-    target.dataset.currentSample = sample;
-    target.innerHTML = `
-      <div class="henry-ask-samples" aria-live="polite">
-        <span class="henry-ask-label">Try asking</span>
-        <button class="henry-ask-sample" type="button"></button>
-        <span class="henry-ask-hint">then press Enter.</span>
-      </div>
-    `;
-
-    const button = target.querySelector(".henry-ask-sample");
-    if (button) {
+    const sample = samples[current];
+    if (button.dataset.currentSample !== sample) {
+      button.classList.remove("is-visible", "is-fading");
       button.textContent = sample;
-      button.addEventListener("click", function() {
-        fillSample(sample);
+      button.dataset.currentSample = sample;
+      window.requestAnimationFrame(() => {
+        button.classList.add("is-visible");
       });
+    } else {
+      button.classList.add("is-visible");
     }
   }
 
-  injectStyles();
-  render();
+  function rotateSample() {
+    if (rotating) return;
 
-  window.setInterval(function() {
-    current = (current + 1) % samples.length;
-    render();
-  }, 3200);
+    const panel = getPanel();
+    const input = getInput(panel);
+    if (!panel || !isAskMode(panel) || !input || input.value.trim()) {
+      showCurrentSample();
+      return;
+    }
+
+    const target = getEmptyTarget(panel);
+    const button = target && target.querySelector(".henry-ask-sample");
+    if (!button) {
+      showCurrentSample();
+      return;
+    }
+
+    rotating = true;
+    button.classList.remove("is-visible");
+    button.classList.add("is-fading");
+
+    window.setTimeout(() => {
+      current = (current + 1) % samples.length;
+      button.classList.remove("is-fading", "is-visible");
+      button.textContent = samples[current];
+      button.dataset.currentSample = samples[current];
+      window.requestAnimationFrame(() => {
+        button.classList.add("is-visible");
+        rotating = false;
+      });
+    }, 280);
+  }
+
+  injectStyles();
+  showCurrentSample();
+
+  window.setInterval(rotateSample, 3200);
 
   const observer = new MutationObserver(function() {
-    render();
+    showCurrentSample();
   });
   observer.observe(document.body, { childList: true, subtree: true });
 
   document.addEventListener("input", function(event) {
     if (event.target && event.target.matches && event.target.matches(".sp-input")) {
-      render();
+      showCurrentSample();
     }
   }, true);
 
   document.addEventListener("click", function() {
-    window.setTimeout(render, 0);
+    window.setTimeout(showCurrentSample, 0);
   }, true);
 });
