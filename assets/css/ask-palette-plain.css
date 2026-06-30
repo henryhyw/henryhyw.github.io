@@ -23,11 +23,20 @@
   transition: color 180ms ease !important;
 }
 
+.henry-ask-samples:hover .henry-ask-sample,
 .henry-ask-sample:hover,
 .henry-ask-sample:focus-visible {
-  color: #b7794b !important;
+  animation-play-state: paused !important;
+  opacity: 1 !important;
+  color: #222 !important;
   border-color: transparent !important;
   outline: none !important;
+}
+
+body.dark-mode .henry-ask-samples:hover .henry-ask-sample,
+body.dark-mode .henry-ask-sample:hover,
+body.dark-mode .henry-ask-sample:focus-visible {
+  color: #fff !important;
 }
 
 @keyframes henryAskSampleCycle {
