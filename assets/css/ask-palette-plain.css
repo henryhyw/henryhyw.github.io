@@ -19,7 +19,8 @@
   line-height: inherit !important;
   padding: 0 !important;
   max-width: none !important;
-  transition: color 180ms ease, opacity 180ms ease !important;
+  animation: henryAskSampleCycle 3200ms ease-in-out both !important;
+  transition: color 180ms ease !important;
 }
 
 .henry-ask-sample:hover,
@@ -27,4 +28,29 @@
   color: #b7794b !important;
   border-color: transparent !important;
   outline: none !important;
+}
+
+@keyframes henryAskSampleCycle {
+  0% {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  12% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  82% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .henry-ask-sample {
+    animation: none !important;
+  }
 }
