@@ -1,8 +1,15 @@
-document.addEventListener('DOMContentLoaded', (event) => {
+function initThemeToggle() {
     const toggleThemeBtn = document.getElementById('toggle-theme');
+    if (!toggleThemeBtn || window.__themeToggleInitialized) {
+        return;
+    }
+    window.__themeToggleInitialized = true;
+
     const toggleIcon = toggleThemeBtn.querySelector('i');
     const TRAFFIC_RESIZE_FLAG = '__trafficThemeResizeBound';
     const THEME_EVENT_NAME = 'theme-change';
+    const THEME_TRANSITION_MS = 2000;
+    let themeTransitionTimer = null;
 
     // Function to update the color of all elements with the class 'typed' based on the theme
     function updateTypedElementsColor() {
@@ -94,11 +101,23 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // Function to apply the theme
     function applyTheme(theme) {
         const isDarkMode = theme === 'dark';
+        document.documentElement.classList.toggle('dark-mode', isDarkMode);
         document.body.classList.toggle('dark-mode', isDarkMode);
         updateTypedElementsColor();
         updateThemeIcon(isDarkMode);
         loadTrafficReports();
         window.dispatchEvent(new CustomEvent(THEME_EVENT_NAME, { detail: { theme } }));
+    }
+
+    function beginThemeTransition() {
+        document.documentElement.classList.add('theme-transitioning');
+        document.body.classList.add('theme-transitioning');
+        clearTimeout(themeTransitionTimer);
+        themeTransitionTimer = setTimeout(() => {
+            document.documentElement.classList.remove('theme-transitioning');
+            document.body.classList.remove('theme-transitioning');
+            themeTransitionTimer = null;
+        }, THEME_TRANSITION_MS + 250);
     }
 
     // Determine the initial theme
@@ -111,13 +130,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Toggle theme on button click
     toggleThemeBtn.addEventListener('click', () => {
-        document.body.style.transition = 'background-color 2s ease-in';
-        document.querySelectorAll('header *').forEach(element => {
-            element.style.transition = 'color 2s ease-in';
-        });
-        document.querySelectorAll('footer *').forEach(element => {
-            element.style.transition = 'color 2s ease-in';
-        });
+        beginThemeTransition();
         const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
         try{
@@ -125,20 +138,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
             const textColor = currentTheme === 'light' ? '#fafafa' : '#252525'; // Change text color based on theme
             applyTheme(newTheme);
             if (subtitleElement) {
-                subtitleElement.style.transition = 'color 2s ease-in';
                 subtitleElement.style.color = textColor;
             }
         } catch {}
         localStorage.setItem('theme', newTheme); // Save the new theme in localStorage
-        // Use setTimeout to ensure the transition has time to start
-        setTimeout(() => {
-            document.body.style.transition = '';
-            document.querySelectorAll('header *').forEach(element => {
-                element.style.transition = 'color 0.5s';
-            });
-            document.querySelectorAll('footer *').forEach(element => {
-                element.style.transition = 'color 0.5s';
-            });
-        }, 5000);
     });
-});
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initThemeToggle);
+} else {
+    initThemeToggle();
+}
