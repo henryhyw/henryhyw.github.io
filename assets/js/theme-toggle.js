@@ -9,6 +9,14 @@ function initThemeToggle() {
     const TRAFFIC_RESIZE_FLAG = '__trafficThemeResizeBound';
     const THEME_EVENT_NAME = 'theme-change';
     const THEME_TRANSITION_MS = 2000;
+    const NAV_THEME_SELECTORS = [
+        '.header-title a',
+        '.header-subtitle',
+        '.menu-content a',
+        '.social-icons a',
+        '.footer a',
+        '.footer-description',
+    ];
     let themeTransitionTimer = null;
 
     // Function to update the color of all elements with the class 'typed' based on the theme
@@ -19,6 +27,21 @@ function initThemeToggle() {
 
         typedElements.forEach(element => {
             element.style.color = textColor;
+        });
+    }
+
+    // Header/footer colors should normally come from CSS. The home intro temporarily
+    // writes inline colors for the fade-in animation; if those inline values remain,
+    // later theme toggles cannot recolor the nav correctly. Preserve transparent while
+    // the intro is still hiding the nav, but release concrete inline colors back to CSS.
+    function releaseNavInlineColors() {
+        NAV_THEME_SELECTORS.forEach(selector => {
+            document.querySelectorAll(selector).forEach(element => {
+                const inlineColor = (element.style.color || '').trim();
+                if (inlineColor && inlineColor !== 'transparent') {
+                    element.style.color = '';
+                }
+            });
         });
     }
 
@@ -103,6 +126,7 @@ function initThemeToggle() {
         const isDarkMode = theme === 'dark';
         document.documentElement.classList.toggle('dark-mode', isDarkMode);
         document.body.classList.toggle('dark-mode', isDarkMode);
+        releaseNavInlineColors();
         updateTypedElementsColor();
         updateThemeIcon(isDarkMode);
         loadTrafficReports();
