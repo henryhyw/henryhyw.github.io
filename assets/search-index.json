@@ -819,12 +819,44 @@
     "id": 102,
     "route": "/fragments",
     "page": "Fragments",
+    "title": "Trying Golf with My Mother in New Zealand",
+    "anchor": "golf-with-my-mother-in-new-zealand",
+    "body": "A small New Zealand memory: my mother liked golf and brought me along a few times, even though I never felt very natural at it."
+  },
+  {
+    "id": 103,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Trying Golf with My Mother in New Zealand (2)",
+    "anchor": "golf-with-my-mother-in-new-zealand",
+    "body": "When I visited my mother in New Zealand, she sometimes brought me to play golf with her.\n\nGolf is one of her hobbies, and I could tell she enjoyed that whole rhythm: the open grass, the slow walking, choosing a club, taking time before a shot. It suited her in a way.\n\nI tried a few times, but I never felt that I had much talent for it. I could hit the ball, but not in the way good players do, where it rises cleanly and draws a nice curve through the air. Mine was usually more practical than beautiful, and sometimes not even practical.\n\nStill, I liked going with her. Not because I suddenly became interested in golf, but because it was one of those things she had made part of her life there, and for a few afternoons I was inside it too."
+  },
+  {
+    "id": 104,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Racket Games with the SLR Lab",
+    "anchor": "slr-lab-racket-games",
+    "body": "A small SLR Lab memory: our PI took me and another RA to play badminton and table tennis, and the lab felt a little warmer because of it."
+  },
+  {
+    "id": 105,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Racket Games with the SLR Lab (2)",
+    "anchor": "slr-lab-racket-games",
+    "body": "One time, the PI of our SLR Lab took me and another RA to play badminton and table tennis.\n\nIt was not a very serious sports day. We played, missed shots, picked up balls, laughed a little, and moved between badminton and table tennis in that slightly messy way small group activities usually happen.\n\nI liked it because it made the lab feel less like only papers, meetings, and tasks. Those things are important, of course, but a lab also has a feeling to it. You can tell whether people are only working in the same place, or whether there is some actual warmth around the work.\n\nThat day made me feel the second one a bit more. Nothing dramatic, just a good lab atmosphere showing up through a normal afternoon."
+  },
+  {
+    "id": 106,
+    "route": "/fragments",
+    "page": "Fragments",
     "title": "The Sea Near My First Hong Kong Life",
     "anchor": "kennedy-town-seaside-hku-years",
     "body": "A memory of Kennedy Town seaside from my earlier HKU years, when the sea was close enough to become part of ordinary student life."
   },
   {
-    "id": 103,
+    "id": 107,
     "route": "/fragments",
     "page": "Fragments",
     "title": "The Sea Near My First Hong Kong Life (2)",
@@ -832,7 +864,7 @@
     "body": "I have not gone to Kennedy Town seaside much recently.\n\nThat feels a little strange, because in my first years at HKU, especially when I still lived closer to that side, the sea felt much more reachable. It was not a travel destination. It was just somewhere nearby, somewhere I could go without making it a big plan.\n\nI do not remember every walk clearly now. A lot of those memories have probably become implicit. But I think that place still affected me. Being near the sea changed the feeling of the city a little. Hong Kong can feel dense, fast, and pressed together, but when I walked toward the water, the space suddenly opened.\n\nMaybe part of that feeling also came from New Zealand, from the times my mother took me to the seaside there. The sea was already connected to something familiar before I came to Hong Kong. So Kennedy Town seaside was not only a new place. It also touched an older feeling.\n\nWhat I liked was not a dramatic view. It was the movement of the water, the irregular waves, the space beyond the buildings, and the simple fact that the city could suddenly end in something wide.\n\nLooking back, that seaside belongs to a particular stage of my Hong Kong life. I do not live that rhythm now, and I do not go there as often. But when I think of my early HKU years, the sea is still somewhere in the background."
   },
   {
-    "id": 104,
+    "id": 108,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Ferry Rides Across Sydney Harbour",
@@ -840,7 +872,7 @@
     "body": "A Sydney memory of taking public ferries across the harbour, moving between the Opera House, the bridge, quiet residential areas, commuters, and sunset."
   },
   {
-    "id": 105,
+    "id": 109,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Ferry Rides Across Sydney Harbour (2)",
@@ -848,7 +880,7 @@
     "body": "One of my strongest memories of Sydney is not standing at one landmark, but moving through the harbour by ferry.\n\nThe ferries were not expensive, so we just kept taking them between different stops. That made the city feel less like a fixed map and more like something you could cross through from the water. Each route gave a slightly different version of Sydney.\n\nSometimes the ferry passed near the Opera House and the Harbour Bridge, and everything looked exactly as beautiful as people say. But other parts were different. Some areas felt more residential, with houses near the water that looked quiet, expensive, and almost unreal from the ferry.\n\nI also remember one ride around the time people were getting off work. There were people in suits on the ferry, probably heading back home. When the ferry reached their stop, they got off in a very orderly way and walked toward those residential areas. For a moment it felt like I was seeing another person’s everyday life from the outside: work in the city, ferry across the water, home somewhere along the harbour.\n\nThe sunset made the whole thing even better. The bridge, the Opera House, the water, and the light all came together in a way that was almost too easy to remember.\n\nSydney stayed with me because of that movement. Not just one view, but the feeling of crossing between views, letting the city change slowly around the boat."
   },
   {
-    "id": 106,
+    "id": 110,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Gold Coast, Water, and the City Line",
@@ -856,7 +888,7 @@
     "body": "A Gold Coast memory of water activities, high views, and the strange beauty of a city stretched directly along the beach."
   },
   {
-    "id": 107,
+    "id": 111,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Gold Coast, Water, and the City Line (2)",
@@ -864,7 +896,7 @@
     "body": "Gold Coast is one of the places where I remember the sea not only as something to look at, but as something I actually entered.\n\nWe did several water activities there. Kayaking, jet skiing, snorkelling, and the kind of activity where a boat pulls you up into the air above the water. I am not even fully sure what name I used for it at the time, but I remember the feeling clearly: the sea was not just background. It became part of the body, the speed, the wind, and the noise.\n\nAnother memory is from going up to one of those high observation decks. From above, the whole city looked like a line pressed against the coast: beach, water, high buildings, and long strips of sunlight all arranged together.\n\nThat view felt different from other cities I had seen. In many places, the sea and the city feel like separate things. But in Gold Coast, the buildings seemed to stand right beside the beach, almost as if the city had been drawn along the edge of the water.\n\nI liked that contrast a lot. It was both urban and coastal, both energetic and holiday-like. You could be in a high-rise city, and at the same time feel that everything was still organized by the beach.\n\nWhen I think of Gold Coast now, I think of water from two directions: being on it, and later looking down at it from high above."
   },
   {
-    "id": 108,
+    "id": 112,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Road Trip Along the Great Ocean Road",
@@ -872,7 +904,7 @@
     "body": "A Melbourne exchange memory of friends renting a car and driving along the Great Ocean Road, where the journey mattered as much as the views."
   },
   {
-    "id": 109,
+    "id": 113,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Road Trip Along the Great Ocean Road (2)",
@@ -880,7 +912,7 @@
     "body": "Great Ocean Road is hard to write about because the first thing to say is too obvious: it was beautiful.\n\nBut what I remember more is that this was during my Melbourne exchange, and some friends rented a car and brought us along the road. Without them, it would probably have stayed as one of those places I knew I should visit. Because of them, it became part of my actual life there.\n\nThat day was not just about seeing the coastline. It was sitting in the car for hours with people who, a few months earlier, I did not even know. It was stopping wherever someone thought the view was worth it, taking photos, getting back in, talking, getting tired, and still wanting to see the next stop.\n\nExchange friendships are strange in that way. They form quickly, but they can carry a lot because everyone is living in a temporary period. You know it will not last in the same form, so the things you do together become heavier than they look.\n\nThe road itself kept changing: cliffs, ocean, open sky, small stops, famous viewpoints, and places I later put onto my website map. But I do not remember it as one clean scene. I remember it as movement, the car, the people, and the feeling that Melbourne was becoming more than a university term.\n\nFor me, Great Ocean Road is not only a scenic route. It is one of the moments when my exchange started to feel like a real lived period, because there were people beside me who made it feel that way."
   },
   {
-    "id": 110,
+    "id": 114,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Birthday Somewhere Along Taiwan’s East Coast",
@@ -888,7 +920,7 @@
     "body": "A family road trip along Taiwan’s east coast, with my father driving, seaside cafés along the road, and one of my birthdays folded into the journey."
   },
   {
-    "id": 111,
+    "id": 115,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Birthday Somewhere Along Taiwan’s East Coast (2)",
@@ -896,7 +928,7 @@
     "body": "One of my happiest recent family memories is a road trip along Taiwan’s east coast.\n\nIt was the four of us: my father, my mother, my sister, and me. My father drove, and we moved along the eastern side of Taiwan, stopping in different places on the way. I do not remember every exact route clearly now, and maybe that is fine. What stayed with me is not the route as a travel record, but the feeling of being together in one car.\n\nThat kind of full family time has become rarer. Everyone is in different places, with different lives and schedules. So when we are all together for a trip, even normal things start to feel more memorable.\n\nThe east coast had a lot of sea. We would drive, see the water, stop somewhere, and sometimes find those small cafés near the coast. Many of them had their own style. We would sit down, drink coffee, look out at the sea, and then keep going.\n\nThere was nothing very dramatic about those stops, but that is why I liked them. They were not arranged to become important memories. They became important because they were simple, repeated, and shared.\n\nMy birthday also fell somewhere inside that trip. That made the whole journey feel even warmer to me. Not a big celebration in the formal sense, but a birthday inside a moving family trip, somewhere between the sea, the road, and coffee by the coast.\n\nWhen I think back to it, I do not first remember a single landmark. I remember my father driving, the four of us together, and Taiwan’s east coast passing by outside the car window."
   },
   {
-    "id": 112,
+    "id": 116,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Athens, Ruins, and a Rare Family Trip",
@@ -904,7 +936,7 @@
     "body": "A family trip to Greece, where food, ruins, sunlight, and ancient stone made the place feel unlike anywhere I had been before."
   },
   {
-    "id": 113,
+    "id": 117,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Athens, Ruins, and a Rare Family Trip (2)",
@@ -912,7 +944,7 @@
     "body": "Our family trip to Greece stayed with me partly because it was another rare period when the four of us could actually be together for a longer time.\n\nWe stayed for around two weeks, mostly around Athens, visiting different places, eating a lot, and moving through a city that felt very different from the places I was used to. Greece was not only pretty. It had a kind of historical weight that I had not really experienced before.\n\nThe ruins were the most obvious part of that. Places like the Acropolis made me feel that I was not just looking at an old building, but standing near something that belonged to a much longer line of human history. The stone, the columns, the open air, and the age of everything made the place feel almost unreal.\n\nThere was also one part my mother especially liked, with those carved figures standing like columns. I do not always remember the name immediately, but I remember the feeling of seeing them there, exposed to the sky, still holding that shape after so much time.\n\nAnd then there was the food. I really liked Greek food: Greek salad, fried calamari, halloumi, and many other things that were simple but very satisfying. The food made the trip feel relaxed, not only grand or historical.\n\nThat combination is what I remember most: ancient places in the daytime, good food after walking, and my family being there together. Greece felt like a place where travel was not only about seeing something new, but about feeling that the world is much older and wider than my usual life."
   },
   {
-    "id": 114,
+    "id": 118,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Swimming in the Mediterranean",
@@ -920,7 +952,7 @@
     "body": "A Greece memory of taking a boat out to sea, swimming in the Mediterranean, and feeling the trip become physical rather than only visual."
   },
   {
-    "id": 115,
+    "id": 119,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Swimming in the Mediterranean (2)",
@@ -928,7 +960,7 @@
     "body": "One of my clearest memories from Greece is swimming in the Mediterranean.\n\nWe went out by boat that day. I remember the sun, the water, the open sea around us, and my family nearby. It was not a day with much plot, but it stayed very clearly.\n\nThe strange thing is that the Mediterranean had always felt like a name to me before that. A sea on maps, in history, in photos of Greece. Then suddenly I was in it, not just looking at it from the coast.\n\nI think that was my only time swimming there, which makes the memory feel more fixed. There are many beautiful views from that trip, but this one feels different because it was physical. The place was not only something I saw. It touched my body.\n\nWe spent time on the boat, rested in the sun, swam, and let the day pass slowly. Nothing needed to be explained.\n\nWhen I think of Greece, I do not only think of ruins, streets, or blue views from far away. I also think of that day on the water, and the feeling of entering a sea I had known before only as a name."
   },
   {
-    "id": 116,
+    "id": 120,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Rainy Days as Permission to Stay In",
@@ -936,7 +968,7 @@
     "body": "A small daily feeling: rain makes staying indoors feel less like avoidance and more like something the world has quietly allowed."
   },
   {
-    "id": 117,
+    "id": 121,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Rainy Days as Permission to Stay In (2)",
@@ -944,7 +976,7 @@
     "body": "I do not actually like rainy days that much.\n\nRain is inconvenient. The ground gets wet, the sky turns grey, and going anywhere becomes a little more annoying.\n\nBut I do like one thing about it: it gives me a reason not to go out.\n\nOn a sunny day, staying inside can feel like I am wasting the day. Even if nobody says anything, there is still a small pressure to do something, meet someone, walk somewhere, use the weather properly.\n\nRain removes that pressure.\n\nIt makes staying indoors feel less like a personal decision and more like the natural thing to do. The room becomes enough, not because I suddenly love being trapped inside, but because the outside has become less demanding.\n\nSo maybe I do not like rain itself.\n\nI like the excuse it gives me."
   },
   {
-    "id": 118,
+    "id": 122,
     "route": "/fragments",
     "page": "Fragments",
     "title": "The Mental Map of a Small Room",
@@ -952,7 +984,7 @@
     "body": "A small-room memory about mess, order, and why a space can feel familiar even when it does not look perfectly tidy from the outside."
   },
   {
-    "id": 119,
+    "id": 123,
     "route": "/fragments",
     "page": "Fragments",
     "title": "The Mental Map of a Small Room (2)",
@@ -960,7 +992,7 @@
     "body": "My mother sometimes says my room is messy.\n\nShe is probably not completely wrong. From the outside, it may look like things are placed everywhere. But to me, the room is not simply messy. I usually know where everything is. There is a map in my head.\n\nThat map is not always visible to other people. A book may be on one side, a cable somewhere else, a camera lens near the window, some small object on the desk. It may not look organized in the usual way, but I know the routes. I know where my hand should go when I need something.\n\nThis is why small rooms can feel quite intimate to me. In a small space, every object is close enough to become part of my mental map. The room may be crowded, but it is navigable. It has a kind of personal order that only makes full sense from inside my own habits.\n\nA larger space can be more comfortable in an obvious way, but sometimes it also feels less close. Things are more spread out, and the relationship between me and the objects around me becomes less clear.\n\nSo when I say my room is not really messy, I do not mean it is objectively tidy. I mean it has a structure that I can feel. It is a little private, a little inefficient, maybe not very presentable, but still mine."
   },
   {
-    "id": 120,
+    "id": 124,
     "route": "/fragments",
     "page": "Fragments",
     "title": "My First Camera and Another Way of Seeing",
@@ -968,7 +1000,7 @@
     "body": "A memory of my Nikon Zfc, the apartment window, long lenses, travel photos, and how a camera gave me another way to look at the world."
   },
   {
-    "id": 121,
+    "id": 125,
     "route": "/fragments",
     "page": "Fragments",
     "title": "My First Camera and Another Way of Seeing (2)",
@@ -976,7 +1008,7 @@
     "body": "My Nikon Zfc was my first real camera.\n\nAt the beginning, I did not even need to go far. I would stand in the apartment and shoot through the small window, trying different angles, looking for things outside that I would not normally pay attention to. After getting a longer lens, this became even more interesting. The lens could pull distant things closer and turn a random view outside the window into something worth looking at.\n\nThat was probably when photography started to change my relationship with going out. The camera gave me a reason to walk more, to look around more, and later to travel with a slightly different kind of attention. I was not only going somewhere. I was also looking for frames.\n\nMy mother has said before that people should use their eyes to see the world, not only keep taking photos. I actually think she is right. There are things the eyes experience directly that a photo cannot replace: the scale of a place, the air, the movement, the feeling of being there.\n\nBut I also think the camera gives another kind of seeing. It does not simply copy the eyes. It cuts the world differently. It notices details I might have passed over. It lets me return to a moment later and see it again from a distance.\n\nSometimes the photo is not even valuable because it is beautiful. It is valuable because it proves that I once looked at the world from that exact angle.\n\nThat is what the camera gave me: not a replacement for experience, but another layer of it."
   },
   {
-    "id": 122,
+    "id": 126,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Music That Became More Spacious",
@@ -984,7 +1016,7 @@
     "body": "A small reflection on how my music taste moved from stronger beats and rap-like rhythm toward slower, wider, more atmospheric sound."
   },
   {
-    "id": 123,
+    "id": 127,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Music That Became More Spacious (2)",
@@ -992,7 +1024,7 @@
     "body": "My music taste has changed quite a bit.\n\nWhen I was in high school, I was more drawn to music with stronger rhythm: EDM, rap, beats that moved quickly and gave a direct kind of energy. I still understand why I liked it. That kind of music pushes you forward. It is useful when you want intensity, speed, or just a clear hit of momentum.\n\nNow I find myself liking music that feels more spacious.\n\nNot necessarily music without rhythm. Rhythm still matters. But I am more attracted to something slower, wider, and more atmospheric. Sometimes it is pure instrumental music. Sometimes it still has lyrics, like Lana Del Rey's Young and Beautiful, but what I like is not only the words. It is the whole feeling behind it: the slow movement, the large background, the sense that the song opens up a space rather than just driving a beat.\n\nI do not think this means my old taste was wrong. It is more like different stages of life need different sound structures. EDM still works for exercise because the body wants energy and repetition. But when I am not exercising, I often want music that gives me more room to think or feel.\n\nMaybe that is the change. I used to want music to move me forward. Now I also want music to give me space."
   },
   {
-    "id": 124,
+    "id": 128,
     "route": "/cv",
     "page": "CV",
     "title": "Han-yu Wang",
@@ -1000,7 +1032,7 @@
     "body": "Applied AI undergraduate, University of Hong Kong whenry6688@gmail.com (mailto:whenry6688@gmail.com) &middot; henryw.me (https://www.henryw.me/) &middot; LinkedIn (https://www.linkedin.com/in/henrywhy/) &middot; GitHub (https://github.com/henryhyw/)"
   },
   {
-    "id": 125,
+    "id": 129,
     "route": "/cv",
     "page": "CV",
     "title": "Profile",
@@ -1008,7 +1040,7 @@
     "body": "Fourth-year Applied Artificial Intelligence student at the University of Hong Kong, working where cognitive science meets AI. My research runs along two lines: how people learn and remember, and what goes on inside language models as they learn and reason, studied through behavioral experiments, model internals, and computational modeling. Part-time research assistant at HKU's SLR Lab and Cloud, Data & AI consulting intern at PwC."
   },
   {
-    "id": 126,
+    "id": 130,
     "route": "/cv",
     "page": "CV",
     "title": "Education",
@@ -1016,7 +1048,7 @@
     "body": "University of Hong Kong Sep 2022 – Present BASc in Applied Artificial Intelligence Coursework across machine learning, deep learning, data science, algorithms, and the mathematics behind them. Dean's Honours List; Student Peer Advisor; Staff–Student Consultative Committee representative. University of Melbourne Feb 2025 – Jun 2025 Semester exchange, HKU Worldwide Student Exchange Optimisation, Machine Learning, Principles of Finance. Shanghai High School International Division Sep 2017 – Jun 2022 International Baccalaureate Diploma Computer science, mathematics, economics, physics. Led the Coding Club; co-founded the SHSID Musix Board."
   },
   {
-    "id": 127,
+    "id": 131,
     "route": "/cv",
     "page": "CV",
     "title": "Experience",
@@ -1024,7 +1056,7 @@
     "body": "Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Translating technical AI and data work into business-facing consulting. Student Research Assistant May 2024 – Present Speech, Language & Reading Lab, HKU Computational models of human memory and learning, fitting experimental data to ask which mechanisms reproduce how people actually behave. Digital Transformation Intern Aug 2024 – Dec 2024 HSBC, Hong Kong Product and distribution mapping across markets; built an Excel/VBA workflow for a UI transformation project; contributed to AI use-case reviews in personal banking. Student Research Assistant Jul 2024 – Apr 2025 Psychometrics & Data Science Lab, HKU Built an AI-supported education platform, applying generative AI, NLP, retrieval, and recommendation methods to real learning workflows. Web Developer, Digital Content Support Jun 2023 – Dec 2023 Kiwiview International Limited, New Zealand Owned the company website from design to development to hosting, plus branding and content for travel programmes."
   },
   {
-    "id": 128,
+    "id": 132,
     "route": "/cv",
     "page": "CV",
     "title": "Publications & Preprints",
