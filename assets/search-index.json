@@ -499,12 +499,44 @@
     "id": 62,
     "route": "/fragments",
     "page": "Fragments",
+    "title": "The Projection of Thought",
+    "anchor": "the-projection-of-thought",
+    "body": "When thought becomes language, it is not only shortened. A layered, moving state is projected onto a surface, and that surface can start guiding the thought in return."
+  },
+  {
+    "id": 63,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "The Projection of Thought (2)",
+    "anchor": "the-projection-of-thought",
+    "body": "I used to think of expression mainly as compression.\n\nA thought is larger than a sentence, and when I express it, I have to cut it into words, order it, and leave some things out. That still feels right.\n\nBut compression may not be enough to describe what is happening.\n\nIt makes the problem sound as if the thought has a certain amount of content, and expression simply removes some of it. Some details are kept, some details are lost, and the remaining version becomes easier to store and transmit.\n\nThat is part of it.\n\nBut the deeper change may be that expression projects the thought onto another surface.\n\nBefore expression, a thought is not only a set of contents. It is also a movement. It has pressure, direction, hesitation, unfinished relations, bodily feeling, memory, and some sense of where it may want to go next. Many of these things do not stand separately. They exist together, pull on each other, and change each other.\n\nA thought can be non-linear in this sense.\n\nOne example may not matter by itself, but matters because of how it sits beside another example. One word may feel wrong not because it is false, but because it would make the whole path turn too early. A vague feeling may contain several possible directions before any of them becomes clear.\n\nWhen I put this into language, the movement has to become a line.\n\nOne sentence comes first. Then another. A relation becomes a phrase. A pressure becomes a claim. A hesitation becomes a qualification. A half-formed direction becomes a title, a category, or a possible next step.\n\nThis does not only remove things.\n\nIt changes their relations.\n\nWhat was simultaneous becomes sequential. What was layered becomes flatter. What was still moving becomes a more stable object. What was not yet divided may be cut into parts. What had several possible directions may begin to look like one path.\n\nSo expression is a projection.\n\nI do not mean this in a strict mathematical way. I mean that something with more layers and moveme"
+  },
+  {
+    "id": 64,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "The Projection of Thought (3)",
+    "anchor": "the-projection-of-thought",
+    "body": "Sometimes this is fine. A thought often needs to become thinner in order to become usable. If everything remains folded together, nothing can be said. There is no writing, no communication, no development.\n\nBut sometimes the flattening happens too early.\n\nA thought may still need its ambiguity. It may still need several directions to remain alive. It may still need to resist becoming one clean claim. If I project it too quickly into a sentence or a title, the projected surface may decide the path before the thought has finished moving.\n\nThis is not just about losing content.\n\nIt is also about losing the developmental process of the thought.\n\nA thought does not only have a current state. It also has a possible unfolding. It may be moving toward one problem, then suddenly turn because another memory becomes relevant. It may look like it is about language, then later reveal that it is really about memory, self, or agency. It may need time to discover what kind of thought it is.\n\nProjection can shorten that process.\n\nOnce a thought is expressed in one form, later thinking often follows the form. If I call it a problem about language, I may keep developing it as a language problem. If I call it a problem about memory, I may start looking for memory-related examples. The title becomes a route. The route becomes easier to walk. Other routes become harder to notice.\n\nThis is useful when the title is right.\n\nIt is limiting when the title is only the first surface the thought happened to take.\n\nSo the question is not only whether a projected thought is accurate.\n\nThe question is whether it still lets the thought continue becoming what it was not yet able to become.\n\nA bad projection does not have to be false. It may be true at the surface and still harmful to the movement. It may capture what I said, but not what was still trying to form. It may preserve one relation while making another relation unavailable.\n\nThis is why some summaries feel wrong even when they are correct.\n"
+  },
+  {
+    "id": 65,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "The Projection of Thought (4)",
+    "anchor": "the-projection-of-thought",
+    "body": "But because AI works on the projected version, it may also intensify the projection.\n\nIt may take a surface that was only temporary and make it look like the real structure. It may turn a fragile direction into a confident outline. It may turn a hesitation into a neat qualification. It may turn several live possibilities into one elegant frame.\n\nThe problem is not that AI necessarily gets things wrong.\n\nSometimes the more serious problem is that it makes one projected version too convincing.\n\nThen I may continue from the AI-organized surface and forget to return to the wider movement. The thought becomes more polished, but the process by which it was still discovering itself may be cut short.\n\nSo AI does not create the problem from nowhere.\n\nExpression already projects thought. Writing already gives thought a surface. AI enters this process after projection has already happened, and then it can organize the surface with unusual speed and force.\n\nThat means the responsibility is not simply to reject AI organization.\n\nThe responsibility is to keep moving between the surface and the deeper field.\n\nWhen AI gives me a structure, I need to ask whether it only organizes the visible text, or whether it helps me recover the movement that produced the text. Does it preserve the pressure? Does it keep the unresolved relation alive? Does it let the thought continue, or does it make the thought look finished too early?\n\nIf I can do that, AI may become useful in a deeper way.\n\nIt can give me a surface that helps me see the movement again.\n\nBut if I cannot do that, I may slowly start thinking only from projected surfaces.\n\nThe thought will look clearer.\n\nIt may also become flatter.\n\nMaybe this is why I need fragments to stay open.\n\nA fragment is a projection of a moment, not the final form of the thought. It is a surface left behind by a movement. Later, I can return to it, connect it to other fragments, rewrite it, reject it, or discover that it was pointing somewhere else.\n\nThe "
+  },
+  {
+    "id": 66,
+    "route": "/fragments",
+    "page": "Fragments",
     "title": "Rebuilding Another State Inside Me",
     "anchor": "rebuilding-another-state-inside-me",
     "body": "Empathy may be less like directly receiving another feeling, and more like rebuilding another state inside my own system from the signals it leaves outside."
   },
   {
-    "id": 63,
+    "id": 67,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Rebuilding Another State Inside Me (2)",
@@ -512,7 +544,7 @@
     "body": "I cannot actually enter another person’s state.\n\nThis sounds obvious, but I think it matters more than it first seems. Another person’s real state is inside them. Their body, memory, history, habits, fear, shame, desire, and the way a certain event touches all of these things are not directly available to me.\n\nWhat I can see is what comes out.\n\nWords. Facial expression. Tone. Silence. Movement. A change in posture. A story they tell. Something they avoid saying. The situation around them. These are outputs, or traces, from a system I cannot directly open.\n\nSo empathy cannot be simple access.\n\nIt is more like reconstruction.\n\nAnother person gives off signals, and my own system tries to build a state that corresponds to them. I take in the visible part, then use my own memory, body, experience, imagination, and learned sense of people to generate something inside me.\n\nThat thing inside me is not exactly their feeling.\n\nBut it is also not just my ordinary feeling.\n\nIt is a state produced in me, but pulled by them.\n\nThis is where empathy starts to become interesting to me. It is not only about whether I know what someone feels. That is too shallow. The real question is what kind of state gets generated inside me after I receive their signals.\n\nAt a shallow level, I may only label the state.\n\nHe is sad. She is embarrassed. This person is anxious. This person feels left out.\n\nThat kind of recognition is useful, but it still feels outside. It is like I have classified the output, but nothing much has happened inside my own system.\n\nAt a deeper level, the other person’s state starts changing my state.\n\nMy attention moves toward them. My body may tighten a little. My voice may become softer. I may become more careful with my words. I may feel an urge to stop explaining, to comfort, to stay quiet, to protect, or to move closer.\n\nThis is probably why I keep thinking empathy needs some kind of internal signal.\n\nNot necessarily the same signal as the other person has. That would"
   },
   {
-    "id": 64,
+    "id": 68,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Rebuilding Another State Inside Me (3)",
@@ -520,7 +552,7 @@
     "body": "This is why I do not think empathy is automatically pure or correct. A person can empathize deeply and still be wrong. Sometimes the deeper reconstruction may even become more dangerous, because I start trusting the feeling inside me too much. I feel something strongly, so I think I have reached them. But maybe I have reached a version of them that my own system produced.\n\nThis does not make empathy fake.\n\nIt only means empathy is not a direct copy of another mind.\n\nIt is a model, but not a cold one. It is a reconstruction, but not only cognitive. It is a state inside me that tries to correspond to a state outside me.\n\nThen self-empathy becomes a special case.\n\nAt first it sounds easier. If the state I am trying to feel belongs to myself, then maybe I do not need to reconstruct another system. It is my own system. My own body history. My own memory line. My own past.\n\nBut I do not think it is that simple.\n\nThe past version of me is also not directly available to the present me. A hidden part of me is also not fully open. A feeling I pushed away, a state I did not understand at the time, a pressure I lived through but later compressed into a story, all of these are not just sitting there in their original form.\n\nThey leave traces.\n\nA memory. A reaction. A kind of avoidance. A bodily discomfort. A preference I cannot explain. A sudden resistance to something. A feeling that a certain old moment still matters, even though I have already explained it many times.\n\nSo self-empathy may also be reconstruction.\n\nThe present me takes traces from a past or hidden me, and tries to rebuild that state inside the current system.\n\nThis is not the same as self-understanding.\n\nI can explain myself very well and still not really be close to myself.\n\nI can say why I reacted that way. I can say where the pattern came from. I can say what kind of experience shaped it. I can turn it into a clean story.\n\nBut sometimes that explanation feels too far above the state.\n\nIt is like I have descr"
   },
   {
-    "id": 65,
+    "id": 69,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Rebuilding Another State Inside Me (4)",
@@ -528,7 +560,7 @@
     "body": "But this proxy is different from language. It does not explain the state as quickly. It lets the state sit there in a form. I can look at it before I know exactly what it means.\n\nThat looking matters.\n\nThe image came from me, but once it is outside, it is not fully trapped inside me anymore. I can face it. I can move around it. I can notice what part pulls my attention. I can feel whether it makes me tense, calm, sad, embarrassed, or unexpectedly familiar.\n\nIn that moment, the image may help rebuild a state that language could only summarize.\n\nMaybe this is why something like mandala can feel connected to self-empathy. Not because drawing a shape magically heals anything, but because it gives a hard-to-access internal state an external surface. The state becomes something I can meet again.\n\nSo empathy, self-empathy, language, and drawing may all be different ways of dealing with states that are not directly accessible.\n\nWith another person, I see outputs and rebuild a state inside me.\n\nWith a past or hidden self, I see traces and rebuild a state inside the present me.\n\nWith language, I compress the state into words.\n\nWith drawing, I may let the state become visible before it is fully explained.\n\nNone of these gives perfect access.\n\nBut maybe perfect access is not the point.\n\nThe point is whether a state that was outside my immediate reach can become active enough inside me to change how I feel, how I understand, or how I act.\n\nThat state may belong to someone else. It may belong to a past version of me. It may belong to a part of me that has not yet become clear.\n\nEither way, I am not simply receiving it.\n\nI am rebuilding it inside me, using the only system I have."
   },
   {
-    "id": 66,
+    "id": 70,
     "route": "/fragments",
     "page": "Fragments",
     "title": "The Visible Part of the Mind",
@@ -536,7 +568,7 @@
     "body": "Consciousness may not be the whole mind becoming visible, but the part of the mind that becomes reachable through the lens of the current moment."
   },
   {
-    "id": 67,
+    "id": 71,
     "route": "/fragments",
     "page": "Fragments",
     "title": "The Visible Part of the Mind (2)",
@@ -544,7 +576,7 @@
     "body": "Sometimes I feel that what I consciously think is much smaller than what is actually moving inside my mind.\n\nA thought appears, and because it appears clearly enough, I may feel that this is the thought itself. I can hold it, say it, write it down, or continue from it. But very often, the thing that appears in consciousness is probably only a small visible part of something much larger.\n\nBefore I know what I think, many things may already be moving. Memory, mood, body, recent experience, language, old associations, unfinished thoughts, attention, and the current situation may all be involved. Most of them do not appear directly. I do not see all of them as separate causes. I only receive the result.\n\nThat result may be a sentence. It may be a feeling. It may be a sudden preference. It may be a vague sense that something is wrong. It may be the feeling that I understand something, even before I can explain why.\n\nSo maybe consciousness is not where a thought begins.\n\nMaybe consciousness is where something becomes reachable.\n\nThis distinction matters to me. Something can already be shaping me before I can consciously access it. A memory can affect my reaction without appearing as a memory. A mood can change how I read a situation without announcing itself as mood. A past experience can make one idea feel natural and another idea feel wrong, even when I cannot immediately explain the path.\n\nWhen something finally becomes conscious, it is not necessarily being created at that moment. It may simply have become available to the part of me that can notice, hold, name, report, and continue working on it.\n\nBut even then, what becomes conscious is still not the whole structure.\n\nIt is more like a projection.\n\nI do not mean projection in a precise mathematical sense. I just mean that a larger internal state is being shown through a smaller surface. Something complex becomes visible as something simpler. A whole background of memory, emotion, body, and attention becomes one thou"
   },
   {
-    "id": 68,
+    "id": 72,
     "route": "/fragments",
     "page": "Fragments",
     "title": "The Visible Part of the Mind (3)",
@@ -552,7 +584,7 @@
     "body": "This may be why the same thought can change when I return to it later. I may think I am continuing the same idea, but actually I am reading it through a different state. The old material is still there, but the current lens has changed. New mood, new language, new context, new pressure, new experience. So the thought comes out differently.\n\nThis also makes me think that language is not the first compression.\n\nI used to think about expression as the moment when a vague thought becomes compressed into language. That still feels right. But maybe before language compresses thought, consciousness has already compressed it once.\n\nA large hidden state becomes a conscious surface. Then the conscious surface becomes a sentence. Then the sentence becomes a written note. Then the written note becomes something I later read and continue from.\n\nAt each step, something is preserved and something is lost.\n\nThis is why I should not fully trust the conscious version either. It is closer to me than the written version, but it is still not the whole thing. It is already shaped by attention, access, mood, language, and the current way I am reading myself.\n\nStill, I need it.\n\nWithout the visible part, I cannot work with anything. I cannot hold the whole hidden structure directly. I need something to appear. I need a sentence, a feeling, a rough image, a small handle. Consciousness gives me that handle.\n\nBut the handle is not the whole mind.\n\nMaybe that is the strange thing about consciousness. It feels like the place where I meet myself most directly, but it may also be one of the first places where I have already been simplified.\n\nWhat I can report is not nothing. But it is not the whole thing.\n\nIt is the visible part of the mind, made reachable through the lens of the current moment."
   },
   {
-    "id": 69,
+    "id": 73,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Before Defining Understanding",
@@ -560,7 +592,7 @@
     "body": "Maybe understanding should not be defined too quickly, because the word often gathers many different questions before we have separated them."
   },
   {
-    "id": 70,
+    "id": 74,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Before Defining Understanding (2)",
@@ -568,7 +600,7 @@
     "body": "I do not want to define understanding too early.\n\nNot because the word is meaningless. It clearly points to something important. But it also gathers too many things before I have separated them.\n\nSometimes understanding means being able to give the right answer. Sometimes it means being able to explain. Sometimes it means transfer, generalization, correction, compression, use, experience, grounding, or consciousness. These things are related, but they are not the same.\n\nSo if I define understanding too quickly, I may only be choosing one layer and pretending I have answered the whole question.\n\nThis matters for both people and machines. A student may solve a problem correctly without really knowing why. A person may explain something fluently while missing the structure underneath. A model may give a good answer without failing or adapting in the same way a person would. In all of these cases, the word understanding feels tempting, but also unstable.\n\nThat is why I think the first step should not be to decide whether something understands.\n\nThe first step should be to ask which part of understanding I am talking about.\n\nAm I asking whether it can answer? Whether it can explain? Whether it can use the idea in a new situation? Whether it can notice when the surface changes but the structure remains? Whether it can revise itself after being wrong? Whether it has experience behind the behavior?\n\nThese questions may all belong near understanding, but they should not be collapsed into one word too quickly.\n\nThe same problem appears in the usual contrast between correlation and causation. People often say that machines learn correlations while humans understand causes. I think there is something right in that, but it is also too clean.\n\nHumans also begin with regularities. We see one thing often appear with another, and later we expect them together. That alone is not yet causation.\n\nBut a regularity can become an assumption. The assumption can guide action. Then the world"
   },
   {
-    "id": 71,
+    "id": 75,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Expression, Recording, and the Compressed Version of Thought",
@@ -576,7 +608,7 @@
     "body": "Expression preserves a thought by turning it into language, but the same act also compresses and reshapes it."
   },
   {
-    "id": 72,
+    "id": 76,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Expression, Recording, and the Compressed Version of Thought (2)",
@@ -584,7 +616,7 @@
     "body": "When a thought is still in my head, it is usually not a sentence.\n\nIt is more like a mass of things. There is a feeling, a direction, some past experience, and connections I cannot quite explain even to myself. Most of the time, I do not first have a complete sentence and then simply say it out loud. It is more like I have something vague but real, and language cuts it apart, puts it in order, and compresses it into a form other people can understand.\n\nThat matters. Without language, many thoughts would just stay inside my head. Once I say something, it becomes something I can work with. Other people can understand it. They can push back on it. I can look at it again. It can be saved, remembered, organized further, and put into the next round of thinking.\n\nSo expression is not a bad thing. Many thoughts only become usable after they are expressed. Before that, they are just a state in the mind. After being said, they have a clearer shape. That shape lets the thought be transmitted, discussed, changed, and picked up again later.\n\nBut expression is not free.\n\nLanguage asks you to choose words, choose an order, and choose boundaries. Many things that originally existed together have to be said one after another. Some feelings are fine, mixed, and hard to separate, but in order to express them, they have to be cut into parts. After being cut, the thought is indeed clearer and easier to transmit, but it is no longer the original thing.\n\nIt has become a discrete version.\n\nThat discrete version is useful. Without it, thought cannot be taken out. But it also necessarily loses something. It keeps some main structure and turns the thought into a form that can be transmitted, saved, organized, and operated on. But the parts that did not enter language are temporarily compressed away.\n\nThis is why I think compression is central here. Expression and recording do not simply move a thought out of the mind. They first compress the thought into a version that can be processed. That "
   },
   {
-    "id": 73,
+    "id": 77,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Expression, Recording, and the Compressed Version of Thought (3)",
@@ -592,7 +624,7 @@
     "body": "Different languages may work this way too. Not in the simple sense that one language makes people more rational or anything like that, but in a more specific sense: different languages may cut experience differently. A continuous thought may naturally become certain blocks in one language, and different blocks in another language. If the cut changes, the later path of thought may also change.\n\nThat may be why saying something in another language sometimes feels like it is no longer quite the same thing. It is not only a question of whether the translation is accurate. The original mass has been cut again.\n\nThis also makes me think about where artificial intelligence fits.\n\nAI is very good at working with things that have already been expressed. If you give it a paragraph, a pile of notes, a few claims, or scattered materials, it can summarize, organize, classify, recombine, and find connections. It can make already-discretized material clearer, and it can point out arrangements I may not have noticed yet.\n\nBut what it receives is still the version I have already said.\n\nThe original thought does not begin as text. It comes from experience, memory, emotion, details of life, bodily state, unclear intuitions, and many connections that have not been fully expressed. By the time I tell these things to AI, I have already compressed them once. It is processing the material after that compression, not the mass that existed before language cut it apart.\n\nSo AI is useful to me, but its place is closer to an organizer and a reflecting surface than to the source of the thought. It can help me straighten out what has already been written, show me where things repeat, where they connect, and where they remain unclear. But I should not mistake that organization for thought itself.\n\nWhat I need to watch out for is continuing to work only on the version AI has organized, while forgetting to bring back new experience, new hesitation, and new intuition. The thought may become smoother "
   },
   {
-    "id": 74,
+    "id": 78,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Expression, Recording, and the Compressed Version of Thought (4)",
@@ -600,7 +632,7 @@
     "body": "This is not only a problem of being too early. Being too early does create problems. If a thought is organized into a concept right after it appears, it can easily become narrower. But even if it is not too early, even if I have thought about it for a long time, once it is written down, it still forms a version. That version will later influence me.\n\nI may continue thinking along its path. I may also be led by it.\n\nThis is what I need to be careful about.\n\nThese notes matter because they mean I do not have to start from zero every time. They are like handles that let me hold onto things that would otherwise be scattered. But the handle is not the thing itself. If I trust the written versions too much, they will turn from handles into boundaries.\n\nI may begin to feel: this thought is exactly this. But actually, it was only written this way at that moment.\n\nSo I do not want to treat these notes as definitions. They are more like slices from a certain day. They record where I had thought up to at that time, but they should not decide where I can go later. Later, I can completely change my mind, rewrite them, discover that they connect elsewhere, or realize that they were not that important after all.\n\nTitles are useful. Labels are useful. A little classification is useful. Without any of them, things become messy and hard to find. But they should mainly be for retrieval, not for making boundaries. A thought that today seems to be about language may tomorrow connect to memory, and the day after that to consciousness. It should not be stuck forever in one place just because it was first placed there.\n\nSimilarly, the fact that a thought has not been developed right now does not mean it has been excluded. It just has not grown there yet. Maybe it will connect back later, maybe it will not. Placing something too early on the irrelevant side is also a form of over-organization.\n\nI prefer to see these thoughts as a graph that slowly grows. Each note is a node, with some lines"
   },
   {
-    "id": 75,
+    "id": 79,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Rich Traces and Open Paths",
@@ -608,7 +640,7 @@
     "body": "AI can organize my thought better when it receives richer traces, but the most interesting cases are when rich traces still do not decide the path."
   },
   {
-    "id": 76,
+    "id": 80,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Rich Traces and Open Paths (2)",
@@ -616,7 +648,7 @@
     "body": "I keep using voice input when I talk to AI.\n\nAt first this may look like a convenience. It is faster than typing, and it lets me keep talking before the thought disappears. But I think there is something deeper in it.\n\nA typed prompt is often already cleaned up.\n\nBefore I type, I usually compress. I choose a direction, remove some hesitation, make the sentence more direct, and turn the thought into something that looks like a request. That can be useful, but it also means the AI receives a much thinner version of what was actually happening in my mind.\n\nVoice is messier.\n\nI repeat myself. I change direction halfway. I say something and immediately feel that it is not quite right. I add examples. I hesitate. I reject my own wording. I suddenly remember another connection. The structure is not always good, but the movement is there.\n\nThat movement matters because it is also a trace.\n\nIt is still not the original thought itself. This distinction is important. The thought before expression may already have many layers: hidden pressure, bodily state, memory, attention, a vague conscious surface, and then the words that finally come out. By the time I speak, something has already been made explicit. By the time the speech becomes text, it has been changed again.\n\nSo voice input is not direct access to the self.\n\nBut it may be a richer externalized trace than a clean prompt.\n\nIt keeps more false starts, more local pressure, more signs of what I am resisting, and more evidence of which parts still feel unstable. When AI receives this kind of trace, it has more to work with. It can organize the material while preserving more of the path that produced it. The returned structure is then less likely to feel alien, because it was shaped by more of the movement that led to it.\n\nThis also makes uptake easier.\n\nIf I only give AI a short, polished request, its answer may be fluent but far away from the actual problem. I may have to work hard to reconnect it to what I meant. But if I"
   },
   {
-    "id": 77,
+    "id": 81,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Rich Traces and Open Paths (3)",
@@ -624,7 +656,7 @@
     "body": "It may mean the problem itself is still open. The existing material is enough to rule out many bad continuations, but not enough to decide the right one. The uncertainty remains because the inquiry needs a new organizing judgment, not merely more completion.\n\nThis is probably where research and creation often begin.\n\nIn routine writing, enough context may make the answer converge. In research writing, even a rich context may leave several possible worlds open. The question is not only how to express the thought, but what the thought is becoming. Which frame should hold it? Which distinction should name it? Which literature should it enter? Which tension should remain unresolved for longer?\n\nAI can help here, but in a different way.\n\nIt should not simply close the space too quickly. Its value may be to make the remaining uncertainty visible: to show several paths, to organize why they differ, to preserve what each one loses, and to let me see where my own judgment still has to enter.\n\nA good AI interaction, then, is not always one that removes uncertainty.\n\nSometimes it should increase resolution without closing the question.\n\nIt can bring in a concept I did not know, an expert framing I could not have produced, or a contrast I had not seen. That outside structure may genuinely change my thinking. But it becomes useful only if I can take it up: test it against my own pressure, resist it when it is too easy, and let it enter the next round of thought without letting it replace the inquiry.\n\nSo the practical lesson is not simply to give AI more information.\n\nMore information helps when the problem is underconstrained because the trace is too thin. But when the trace is already rich and the path is still open, the remaining uncertainty may be exactly the place where thinking has to continue.\n\nThis is why I like keeping fragments.\n\nA fragment is not a finished idea. It is not a definition. It is a trace of a moment when something became visible enough to record, but not "
   },
   {
-    "id": 78,
+    "id": 82,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Labels, Goals, and Rules as Ways of Shaping People",
@@ -632,7 +664,7 @@
     "body": "Labels, goals, and rules make a complex person readable, expected, and constrained, then shape that person in return."
   },
   {
-    "id": 79,
+    "id": 83,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Labels, Goals, and Rules as Ways of Shaping People (2)",
@@ -640,7 +672,7 @@
     "body": "If thoughts can be compressed by language, then people can be compressed by labels.\n\nA person is also a very complicated mass of things. There are experiences, behaviors, habits, desires, fears, interests, abilities, and tendencies even the person may not be able to explain clearly. Many of these things are continuous. They do not naturally come in neat blocks. A person is not born already divided into personality, occupation, research direction, hobbies, values, and life stages. Very often, these divisions are cut out later so that the person can be understood and communicated.\n\nBut we do need those cuts.\n\nOther people cannot directly read a person’s full internal structure. What you have done, what you have thought, why you react in certain ways, why you care about some things and not others, all of this is too complicated. You cannot hand over your complete self every time. Most of the time, you can only hand over a compressed version.\n\nThat is why labels are useful.\n\nPersonality types are one kind. A professional identity is one kind. A research direction is one kind. A personal profile is one kind. The way other people describe what kind of person you are is also one kind. We say we belong to a certain type, fit a certain direction, care about certain questions, or resemble a certain group of people. This makes us easier for others to read, and also easier for ourselves to organize.\n\nA label is a bit like a language for describing people. It takes a continuous, complex, hard-to-transfer person and compresses that person into a format that can travel more easily. Through it, other people can quickly get a rough sense of who you are, what you care about, who you may be similar to, and how you differ from others. You can also use it to gather scattered experiences, interests, behaviors, and thoughts into one place.\n\nThis is not bad in itself. Without labels, people are hard to understand and hard to remember. Without some kind of identity narrative, many experienc"
   },
   {
-    "id": 80,
+    "id": 84,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Labels, Goals, and Rules as Ways of Shaping People (3)",
@@ -648,7 +680,7 @@
     "body": "More than that, a label can sometimes work like a training signal from the outside world.\n\nThe outside world cannot see a person’s complete internal structure. It can only make compressed judgments from behavior: this person is smart, this person is outgoing, this person is suited for research, this person has leadership, this person is unreliable, this person belongs to a certain type. At first, these judgments may only be summaries based on some observed behavior. But once they appear, they begin to change the environment.\n\nPeople treat you through those labels. They give you different expectations, opportunities, feedback, and limitations. If you are seen as suited for something, you may receive more opportunities related to it, and you may also be expected to keep performing in that direction. If you are seen as unsuited for something, you may be given fewer chances to try, and eventually you may stop trying yourself.\n\nSo labels from the outside are not only descriptions. They also change a person’s training environment.\n\nThey change how other people respond to you, and they also change how you predict yourself. You begin to know what others expect you to become, and you begin to adjust your behavior. Sometimes this adjustment is only on the surface. But over time, the internal structure may also change. Habits change. Abilities change. Desires change. Even your understanding of yourself can change.\n\nA loop forms here.\n\nA person’s internal structure produces behavior. Behavior is compressed by the outside world into labels. Labels become expectations, opportunities, rewards, and limits. These forms of feedback return to the person and continue shaping later behavior and internal structure.\n\nSo a label is not a static sticker. It is part of a feedback system.\n\nThis process is not necessarily bad. A good label, or an accurate expectation, may push someone in a better direction. If someone says you are suited for something, you may become more willing to invest in "
   },
   {
-    "id": 81,
+    "id": 85,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Labels, Goals, and Rules as Ways of Shaping People (4)",
@@ -656,7 +688,7 @@
     "body": "Sometimes a person’s internal structure has not yet naturally produced the output that society expects. In other words, their impulses, habits, desires, attention, or existing tendencies are not yet aligned with a certain social requirement. In that case, society does not wait for the internal structure to slowly change. It first uses rules to constrain behavior.\n\nLaw, moral norms, politeness, institutions, school requirements, and family expectations are all rules of this kind. They are also a form of discretization. They compress complex situations into explicit requirements: do not do this, say this instead, behave this way in this situation, suppress this impulse, this behavior will be punished.\n\nRules are not quite the same as labels. Labels often say “what you are” or “what others expect you to become.” Goals say “what you want to become.” Rules are more like “what you at least must not do” or “what output you must produce.”\n\nVery often, rules are not natural reactions at first.\n\nWhen a person sees something, they may first understand it through their existing internal structure. Past experience, habits, prejudice, desire, and fear may first shape what they notice, what they think of, and how they want to respond. This first reaction does not come from nowhere. It comes from internal representations that have already formed.\n\nBut immediately after that, another rule may intervene. That rule is also in the mind, but it has not been fully internalized. It may come from law, morality, politeness, education, or social expectation. It tells you: do not say this, do not do this, do not keep your attention there, do not let the first reaction become the final behavior.\n\nSo the behavior that finally appears may not be the behavior naturally generated by the internal structure. It may be the result after rule-based override.\n\nThe outside world sees compliant behavior, but the internal path may be completely different. One person may simply not have that impulse. Anothe"
   },
   {
-    "id": 82,
+    "id": 86,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Labels, Goals, and Rules as Ways of Shaping People (5)",
@@ -664,7 +696,7 @@
     "body": "External discrete rules slowly become part of the internal structure. An originally strong tendency may be worn down, weakened, or at least made easier to suppress. Whether a rule can be internalized, and how deeply it can be internalized, is itself a question. Not every rule truly changes internal structure. Some remain surface compliance. Some change habits. Some enter attention and judgment more deeply.\n\nAnd social rules are not always right. A rule is an external constraint mechanism, not truth itself. It can protect people, but it can also limit people. It can help internal structure become more stable, but it can also press a person into an unreasonable shape.\n\nSo I do not want to simply say labels are bad, goals are bad, or rules are bad.\n\nThey are clearly useful. Without labels, others have a hard time reading you, and you have a hard time organizing yourself. Without goals, many behaviors may not hold together. Without rules, society cannot rely only on everyone’s naturally formed internal structure to maintain order.\n\nThe question is not whether we should have these things. The question is whether we remember that none of them is neutral.\n\nLabels make people readable. Goals give people a point to move toward. Rules override output when the internal structure has not yet naturally aligned.\n\nAll of them compress complex people into forms that are easier to handle: readable, expected, trainable, and constrained. Then they shape people in return through feedback, opportunities, rewards, punishments, repetition, and internalization.\n\nAI can also be understood through this problem, but here the issue is not whether it is the source of thought. The issue is that it can become a training signal.\n\nIt does not only help me organize content. It also presents a way of moving thought forward: turn something vague into several points, turn those points into a structure, turn the structure into a next step, and turn the next step into an output that looks complete. This "
   },
   {
-    "id": 83,
+    "id": 87,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Labels, Goals, and Rules as Ways of Shaping People (6)",
@@ -672,7 +704,7 @@
     "body": "Being misunderstood is bad, of course. But it is even stranger when people seem to understand you, while in fact they only understand a wrongly compressed version. The clearer and more complete that version looks, the easier it is for people to believe that it is you.\n\nThat is stranger than simply being forgotten. Being forgotten is disappearance. Being wrongly summarized leaves behind something that looks like you, but whose inner structure may not be yours.\n\nSo what interests me about labels, goals, and rules is not only whether they are accurate or right. It is their two-way effect.\n\nThey come from the person, or from society’s demands on the person. Then they return to the person.\n\nThey first make the person readable, expected, and constrained. Then they begin to change how the person continues becoming themselves.\n\nLabels can help us understand a person, and they can also help a person organize themselves. Goals can give continuous behavior a direction. Rules can first override outputs that have not yet naturally aligned.\n\nBut once they appear, they are no longer merely explanations or restrictions. They become expectation, feedback, training, constraint, and force.\n\nThey compress a complex person into a version that can be handled by society and by the person themselves. And then they shape the person who has been compressed."
   },
   {
-    "id": 84,
+    "id": 88,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Memory Compresses Time, but the Self Is Changed by Passing Through It",
@@ -680,7 +712,7 @@
     "body": "Memory turns continuous life into stages and stories, but the self is shaped by actually moving through time."
   },
   {
-    "id": 85,
+    "id": 89,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Memory Compresses Time, but the Self Is Changed by Passing Through It (2)",
@@ -688,7 +720,7 @@
     "body": "Life, while it is happening, does not really come in sections.\n\nIt does not tell you: this part is high school, this part is university, this year is a turning point, this city means growth. Real time feels more like something that keeps flowing forward. Many changes do not have clear borders while they are happening. You simply live one day after another, slowly change, and only when you look back do you realize that you seem to have entered another stage.\n\nBut memory does not seem very good at preserving that continuity.\n\nThe closer something is, the more detail it has. Today still has temperature. Something said yesterday still has a tone. A recent experience has not yet fully become a story. But once time moves further away, many things begin to be compressed. A year becomes a few keywords. A place becomes a feeling. A relationship becomes a few images. Many things that were once fine-grained eventually become only “that period.”\n\nAnd this compression does not happen evenly. It has a temporal gradient. The closer something is to the present, the lighter the compression, and the details remain relatively loose. The further away it is, the heavier the compression, and many things are folded into stages, labels, stories, and a few representative scenes. Distant life is not really made only of a few keywords. It is just stored by memory at a higher compression rate.\n\nSo sometimes I feel that so-called life stages may not be the structure of life itself, but a structure that memory later adds to life.\n\nThis is not necessarily bad. If the past remained there in full detail, maybe people could not keep moving forward. A stage is like a folder. It gathers too many scattered things into one place. You do not need to reopen every detail each time. You only need to say “that time,” and many things come back with it.\n\nBut compression always loses something.\n\nYou may remember a certain year as a painful year, but inside that year there were probably ordinary afternoons, funn"
   },
   {
-    "id": 86,
+    "id": 90,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Memory Compresses Time, but the Self Is Changed by Passing Through It (3)",
@@ -696,7 +728,7 @@
     "body": "I do not really like saying that the future self is another person. That saying has something to it. The future version of me may think differently, like different things, care about different things. He may even fail to understand why the present version of me cares so much about certain problems. But if I simply call the future self another person, something feels wrong. It is as if the continuous line in between has been cut.\n\nA person is not a fixed point. A person is more like a trajectory that keeps changing.\n\nThe version of me at each moment is not exactly the same. What I see today changes tomorrow’s judgment. What happens tomorrow changes how I understand today the day after. Memory changes. The body changes. Relationships change. The internal representations in my mind also change. It is hard to say which slice is the real me.\n\nBut these slices are not connected randomly. They change into one another little by little.\n\nThe future me is not a stranger who suddenly appears in the distance. He is the state of this current system after many updates. Each step may be tiny, so tiny that it is hard to notice at the time. But many small changes together can become a clearly different person.\n\nThat is why the path in between matters.\n\nIf you only look at two time points, a person can certainly seem very different. The me from ten years ago and the me now may look like two versions. But what makes both of them still me may not be how similar the two versions are. It may be the continuous path between them. Even if another person knows my experiences and even many of my memories, he cannot directly become me, because he did not move through the path from the inside.\n\nMaybe each momentary version of me is only a slice of a longer structure. If you look at the slices separately, they may be quite different. But once you put the time dimension back, they are not isolated people. They are the same thing taking different shapes at different positions.\n\nSo the self is not "
   },
   {
-    "id": 87,
+    "id": 91,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Memory Compresses Time, but the Self Is Changed by Passing Through It (4)",
@@ -704,7 +736,7 @@
     "body": "What makes it even stranger is that the person after the jump may not feel that anything is missing. He may feel that he really did go through it. Then the question becomes harder: if even the subjective feeling of continuity is preserved, what is still irreplaceable about actually experiencing it?\n\nShould he take the pill?\n\nMy first instinct is yes. It is simple: if the final state is the same, and the memory is the same, why actually go through the pain? Pain itself is not something worth collecting. If I can avoid the pain and keep the result, that sounds reasonable.\n\nBut many people would not choose it. They would feel that the painful period is also part of life. Even if you remember it afterward, if you did not actually live through it, something still seems missing.\n\nI have always found this strange. If the memory is truly complete, and the person after the jump believes he has lived through it, has the same lessons, the same memories, and the same result, then what exactly does “actually living through it” add?\n\nMaybe memory and experience are still not the same thing.\n\nMemory is like the result, but experience is the process. Pain does not only leave a conclusion at the end. It changes a person second by second in the middle. Many things are not written into memory all at once. They slowly change you while you are enduring them. You may think that receiving the same memory at the end is enough, but perhaps what really changes you is each morning you wake up, each moment of loss, each time you think you are fine and then fall back again.\n\nThis brings me back to the earlier question: is the self made of results and memories, or is it made of the process of actually passing through time?\n\nIf the self is a trajectory in time, then skipping pain is not only skipping an unpleasant experience. It may also skip a stretch of continuous change. The person after the jump has memory, and even the feeling of having gone through it, but he did not actually pass through t"
   },
   {
-    "id": 88,
+    "id": 92,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Memory Compresses Time, but the Self Is Changed by Passing Through It (5)",
@@ -712,7 +744,7 @@
     "body": "I just understand better now why some people would not.\n\nThe self is not a photograph. It is also not just a compressed memoir.\n\nIt is more like a movement.\n\nNo moment is the final version. But each moment grows out of the one before it.\n\nMemory compresses time into stages, making the past something that can be preserved, narrated, and understood again. But what truly changes a person may not only be those stages and stories. It may also be the continuous passage through time that was never fully preserved.\n\nWhat we remember later are chapters. What we lived then was a whole line."
   },
   {
-    "id": 89,
+    "id": 93,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Satisfaction Is Not a Fixed Reward",
@@ -720,7 +752,7 @@
     "body": "Satisfaction is better understood as a changing signal generated through behavior, time, individual difference, and interpretation."
   },
   {
-    "id": 90,
+    "id": 94,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Satisfaction Is Not a Fixed Reward (2)",
@@ -728,7 +760,7 @@
     "body": "I sometimes wonder whether happiness and satisfaction can be treated as the same thing.\n\nThis is obviously debatable. Some people would say happiness is not just satisfaction. It also includes meaning, long-term goals, relationships, a sense of value, and even growth through pain. But I tend to first understand happiness as a kind of satisfaction. The important point is that satisfaction cannot be defined too narrowly. It cannot just mean whether something feels good right now.\n\nIf satisfaction is understood more broadly, it can include many things.\n\nEating something good in the moment is a kind of satisfaction. Delayed gratification is also a kind of satisfaction. Finishing a goal is a kind of satisfaction. Controlling an impulse is a kind of satisfaction. Helping someone may also be a kind of satisfaction. Getting a good deal may be a kind of satisfaction. Even feeling that I made the more rational choice can itself bring satisfaction.\n\nSo delayed gratification is not necessarily the opposite of satisfaction. It may simply be another form of satisfaction.\n\nSome people treat immediate gratification as lower and delayed gratification as higher. I think that is too simple. A person who chooses delayed gratification may not be rejecting satisfaction. They may be getting satisfaction from the delay itself, from future payoff, from self-control, or from the feeling that they made the better choice.\n\nIn other words, they are not avoiding satisfaction. They are choosing another satisfaction curve.\n\nWhat is called more rational may not be separate from satisfaction. It may be that, in that person’s system, the choice is expected to produce a stronger, more stable, or longer-lasting satisfaction signal. Rationality and satisfaction do not have to be opposites. Sometimes rationality itself is a source of satisfaction.\n\nI do not need to reduce satisfaction to one specific biological measure, but I can at least think of it as an internal feedback signal. Different activities t"
   },
   {
-    "id": 91,
+    "id": 95,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Satisfaction Is Not a Fixed Reward (3)",
@@ -736,7 +768,7 @@
     "body": "For some people, getting a discount is not just about saving money. It feels like a small win. There is the search, the comparison, the surprise of discovering a good deal, the feeling of being good at living, and the sense that resources are under better control. It can even feel like a little game: I found it, I judged correctly, I won a little.\n\nIf the process itself gives that person satisfaction, then it is not simply a waste of time.\n\nFor another person, the same process may produce no joy at all. It may only feel like trouble, exhaustion, anxiety, and a waste of attention. For that person, buying at the original price may be more rational, because what they save is not a little money, but time, energy, and mental space.\n\nSo the same behavior may be rational in different ways for different people.\n\nIt is not because rationality is arbitrary. It is because the behavior produces different satisfaction signals once it enters different internal systems. From the outside, both people are spending time looking for discounts, but internally the returns are different, so the rational calculation is different too. You cannot judge whether something is worth it only by asking how much time was spent and how much money was saved. You also have to ask what the person received from the process.\n\nOpportunity cost should not be calculated only in money and time. More accurately, opportunity cost is the satisfaction you give up from another possible activity.\n\nIf someone spends an hour looking for discounts and enjoys the process, then that hour is not only a cost. It is also part of the return. But if someone does not enjoy the process at all, then that hour is closer to a pure cost.\n\nThis makes me think that satisfaction is not something the outside world simply hands to a person. It is not that one behavior is naturally joyful and another is naturally boring. Often, the behavior itself is only the material. The actual satisfaction is generated through a person’s internal s"
   },
   {
-    "id": 92,
+    "id": 96,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Satisfaction Is Not a Fixed Reward (4)",
@@ -744,7 +776,7 @@
     "body": "By creation, I do not mean forcing oneself to be happy or rationalizing everything bad. Creating satisfaction is not pretending that a bad thing is good. It is redesigning the relationship between a behavior and oneself so that the behavior can genuinely produce some positive signal.\n\nPeople can use attention, interpretation, habit design, and goal setting to make some originally neutral activities capable of producing satisfaction.\n\nTake housework. For some people, it is just a burden. But if someone understands it as restoring order, organizing space, and making life feel controllable again, it may begin to produce some satisfaction. Exercise may start as pain, but once it connects to progress, rhythm, and bodily control, it becomes another kind of signal. Volunteering may look from the outside like giving up time, but for some people, it is not a loss. It produces value and connection.\n\nThis does not mean everyone should think this way. It also does not mean everything deserves to be repackaged. Some things are simply draining. Some pain is simply pain. We should not turn every negative thing into meaning just to manufacture satisfaction.\n\nBut I do think a person can ask: are there things that I currently find joyless, but that could produce some positive signal if I understood, organized, and experienced them differently?\n\nThis may matter more than simply chasing stronger stimulation.\n\nStrong stimulation easily saturates the system. If something arrives too quickly, too strongly, and too easily, it can certainly create immediate satisfaction, but it can also change the scale of satisfaction. After that, the same thing is no longer enough. More, faster, and stronger is required. The old high point becomes the new baseline, and ordinary life begins to feel flat.\n\nSo satisfaction is not only about quantity. It is also about how satisfaction is generated.\n\nSome satisfaction comes from the result. Some satisfaction comes from approaching the result. Some satisfaction"
   },
   {
-    "id": 93,
+    "id": 97,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Satisfaction Is Not a Fixed Reward (5)",
@@ -752,7 +784,7 @@
     "body": "The satisfaction system adapts, compares, recalibrates, and generates different signals under different interpretations.\n\nSo a person with better living conditions is not always more satisfied. A person with fewer resources is not completely unable to generate satisfaction. The former may become saturated because things arrive too quickly. The latter may still find structure, expectation, and process in small things.\n\nOf course, this should not be used to cover up real problems. Poverty, illness, oppression, and long-term stress cannot be solved by simply “changing perspective.” External conditions still matter. But once basic conditions are considered, when we talk about quality of life, the way satisfaction is generated also matters.\n\nI increasingly feel that satisfaction is not a fixed thing, and not a simple external reward.\n\nIt is more like an internal signal that a person keeps generating through time, behavior, and interpretation.\n\nWe are affected by external stimulation. We are also affected by how we interpret things. We are affected by immediate outcomes. We are also affected by waiting and process. We are affected by how others evaluate us. We are also affected by how we understand ourselves.\n\nSo if happiness can be understood as satisfaction, satisfaction should not be understood as a simple number.\n\nIt is more like a changing system. It can saturate, shift, be trained, and be reinterpreted. It can be given by the outside world, and it can also be slowly cultivated by the person themselves.\n\nMaybe one important part of life is not only finding more things that satisfy us, but learning how to let more ordinary things produce a small signal that makes life worth continuing."
   },
   {
-    "id": 94,
+    "id": 98,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Oysters and Black Truffle Toast at Queen Victoria Market",
@@ -760,7 +792,7 @@
     "body": "A Melbourne food memory from my last day before leaving exchange: oysters with lemon juice and black truffle toast at Queen Victoria Market."
   },
   {
-    "id": 95,
+    "id": 99,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Oysters and Black Truffle Toast at Queen Victoria Market (2)",
@@ -768,7 +800,7 @@
     "body": "Queen Victoria Market in Melbourne gave me one of those food memories I will keep thinking about after leaving the city.\n\nThe oysters were fresh, cold, and clean, and they were really good with lemon juice. That sharpness made the oyster taste even clearer. The black truffle toast was also unexpectedly satisfying: warm, rich, fragrant, and direct.\n\nWhat makes it especially memorable is that I went there with my sister on my last day before leaving Melbourne exchange. It was not just about the food, but also about the timing: one last market morning, one last meal before leaving, and something simple that became tied to the whole exchange period.\n\nThis is one of the foods I will keep missing after leaving Melbourne."
   },
   {
-    "id": 96,
+    "id": 100,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Chaoshan Beef Hot Pot in Guangzhou",
@@ -776,7 +808,7 @@
     "body": "A Guangzhou food memory with my father: Chaoshan beef hot pot, especially beef balls and diaolong, eaten without sauce for the clean beef flavor."
   },
   {
-    "id": 97,
+    "id": 101,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Chaoshan Beef Hot Pot in Guangzhou (2)",
@@ -784,7 +816,7 @@
     "body": "When I travelled to Guangzhou with my father, we went to eat Chaoshan beef hot pot together. That made the meal memorable to me, not only because the food was good, but because it became part of that trip with him.\n\nI really like Chaoshan-style beef. I especially like the beef balls and diaolong. The beef balls have that springy texture and deep beef taste, and diaolong has a clean, tender freshness that works very well in hot pot.\n\nI also tend not to dip it in sauce. The plain beef flavor is already good enough. I like the original, fresh taste of the beef itself, without covering it up too much."
   },
   {
-    "id": 98,
+    "id": 102,
     "route": "/fragments",
     "page": "Fragments",
     "title": "AI-Generated Kitten Videos and Manufactured Cuteness",
@@ -792,7 +824,7 @@
     "body": "AI-generated kitten videos are a good example of synthetic content still reaching human senses and triggering real emotional responses."
   },
   {
-    "id": 99,
+    "id": 103,
     "route": "/fragments",
     "page": "Fragments",
     "title": "AI-Generated Kitten Videos and Manufactured Cuteness (2)",
@@ -800,7 +832,7 @@
     "body": "I have seen many AI-generated videos on social media where kittens interact with humans, and also some more surreal ones, like a plush watermelon being opened and turning out to contain little kittens. I find them very cute, and clearly many other people like them too.\n\nWhat interests me is not only that the videos are cute. They are a good example of generative AI content triggering human emotion. The kittens are not real in the usual sense, but the content still reaches human perception: softness, smallness, eye contact, movement, care, surprise. These signals can still produce emotional fluctuation.\n\nThat makes this kind of AI-generated content valuable. It can create things that touch human senses and emotions, even when the objects are synthetic. But it also needs caution, because the same ability can be abused. If generated content can reliably press emotional buttons, then it can also be used to manipulate attention, sympathy, desire, or belief.\n\nSo I do not think the value of generative AI content is only whether it is realistic. Sometimes its value is that it can generate emotionally meaningful sensory patterns. But precisely because those patterns work on people, they need to be treated carefully."
   },
   {
-    "id": 100,
+    "id": 104,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Conversation About Identity",
@@ -808,7 +840,7 @@
     "body": "After taking part in an interview about growing up between Shanghai and Taiwanese family roots, I found a clearer way to describe identity: not confused, but layered."
   },
   {
-    "id": 101,
+    "id": 105,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Conversation About Identity (2)",
@@ -816,7 +848,7 @@
     "body": "I once took part in an interview about identity and growing up with a Taiwanese family background while living mostly in Shanghai. It was not something I had planned to write publicly at first, but the conversation helped me organize many scattered feelings that had existed in the background for a long time.\n\nWhat stayed with me most was not a dramatic conclusion, but a quieter one: identity is not always a single answer. It can be made of several layers: where I grew up, where my family comes from, what languages and habits shaped me, what places feel familiar, and how I introduce myself in different contexts.\n\nThe interview helped me see that this is not necessarily confusion. It is more like a layered structure. Different parts become more visible in different situations. Sometimes Shanghai feels like the most natural answer. Sometimes Taiwanese family roots matter more. Neither layer fully cancels the other.\n\nThat is why the conversation was meaningful to me. It gave me a neutral way to look back at my background without forcing it into one simple label."
   },
   {
-    "id": 102,
+    "id": 106,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Napier Seaside with My Mother",
@@ -824,7 +856,7 @@
     "body": "My mother used to drive me from Hastings or Havelock North to Napier, and somehow that seaside became attached to her."
   },
   {
-    "id": 103,
+    "id": 107,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Napier Seaside with My Mother (2)",
@@ -832,7 +864,7 @@
     "body": "Napier seaside is one of the places I connect with my mother.\n\nMy mother lives around Hastings and Havelock North. When I went back to New Zealand, she would sometimes drive me to Napier. It was not a big trip, just a short drive to the seaside.\n\nBut I remember it quite clearly.\n\nThe car ride, the road, arriving near the water, walking for a while, maybe not even talking that much. It was ordinary, but it was one of the few things we repeatedly did together there.\n\nMy family’s connection with New Zealand is a little scattered. My sister studied there, my mother stayed there for her, and later that area became part of my mother’s own life too. For me, New Zealand was never only a travel place. It was also where part of my family was living without me.\n\nSo when my mother drove me to Napier, it felt like I was briefly entering that part of her life.\n\nI do not remember Napier only as a beautiful seaside. I remember it as somewhere my mother brought me.\n\nMaybe that is enough."
   },
   {
-    "id": 104,
+    "id": 108,
     "route": "/fragments",
     "page": "Fragments",
     "title": "My Mother’s Cooking Across Places",
@@ -840,7 +872,7 @@
     "body": "A memory of my mother’s cooking, from home in Shanghai to later visits in New Zealand, and how food can carry the feeling of home across places."
   },
   {
-    "id": 105,
+    "id": 109,
     "route": "/fragments",
     "page": "Fragments",
     "title": "My Mother’s Cooking Across Places (2)",
@@ -848,7 +880,7 @@
     "body": "My mother has always been good at making food that is both healthy and actually good.\n\nWhen I was younger and we were still living together in Shanghai, this felt very normal. She cooked at home, and I ate what she made. At that time, I probably did not think of it as something that needed to be remembered. It was just part of home.\n\nLater, after life became more scattered and my mother spent more time in New Zealand, her cooking started to feel different to me. When I visited her there, having something she made was no longer just a normal meal. It became a small return to something familiar.\n\nThe food itself matters, of course. It is usually clean, warm, and carefully made. But what I remember more is the continuity. The same person who cooked for us in Shanghai was now cooking in another country, in another stage of life, and somehow the taste still carried something from before.\n\nThat is what makes it feel like home to me. Not because home is fixed in one city, or one apartment, or one period of life. Sometimes home appears through a repeated action: someone still cooking for you, still caring about whether you have eaten well, still making something ordinary but full of attention.\n\nI do not get to eat my mother’s cooking all the time now. Maybe that is why, when I do, I notice it more."
   },
   {
-    "id": 106,
+    "id": 110,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Trying Golf with My Mother in New Zealand",
@@ -856,7 +888,7 @@
     "body": "A small New Zealand memory: my mother liked golf and brought me along a few times, even though I never felt very natural at it."
   },
   {
-    "id": 107,
+    "id": 111,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Trying Golf with My Mother in New Zealand (2)",
@@ -864,7 +896,7 @@
     "body": "When I visited my mother in New Zealand, she sometimes brought me to play golf with her.\n\nGolf is one of her hobbies, and I could tell she enjoyed that whole rhythm: the open grass, the slow walking, choosing a club, taking time before a shot. It suited her in a way.\n\nI tried a few times, but I never felt that I had much talent for it. I could hit the ball, but not in the way good players do, where it rises cleanly and draws a nice curve through the air. Mine was usually more practical than beautiful, and sometimes not even practical.\n\nStill, I liked going with her. Not because I suddenly became interested in golf, but because it was one of those things she had made part of her life there, and for a few afternoons I was inside it too."
   },
   {
-    "id": 108,
+    "id": 112,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Racket Games with the SLR Lab",
@@ -872,7 +904,7 @@
     "body": "A small SLR Lab memory: our PI took me and another RA to play badminton and table tennis, and the lab felt a little warmer because of it."
   },
   {
-    "id": 109,
+    "id": 113,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Racket Games with the SLR Lab (2)",
@@ -880,7 +912,7 @@
     "body": "One time, the PI of our SLR Lab took me and another RA to play badminton and table tennis.\n\nIt was not a very serious sports day. We played, missed shots, picked up balls, laughed a little, and moved between badminton and table tennis in that slightly messy way small group activities usually happen.\n\nI liked it because it made the lab feel less like only papers, meetings, and tasks. Those things are important, of course, but a lab also has a feeling to it. You can tell whether people are only working in the same place, or whether there is some actual warmth around the work.\n\nThat day made me feel the second one a bit more. Nothing dramatic, just a good lab atmosphere showing up through a normal afternoon."
   },
   {
-    "id": 110,
+    "id": 114,
     "route": "/fragments",
     "page": "Fragments",
     "title": "The Sea Near My First Hong Kong Life",
@@ -888,7 +920,7 @@
     "body": "A memory of Kennedy Town seaside from my earlier HKU years, when the sea was close enough to become part of ordinary student life."
   },
   {
-    "id": 111,
+    "id": 115,
     "route": "/fragments",
     "page": "Fragments",
     "title": "The Sea Near My First Hong Kong Life (2)",
@@ -896,7 +928,7 @@
     "body": "I have not gone to Kennedy Town seaside much recently.\n\nThat feels a little strange, because in my first years at HKU, especially when I still lived closer to that side, the sea felt much more reachable. It was not a travel destination. It was just somewhere nearby, somewhere I could go without making it a big plan.\n\nI do not remember every walk clearly now. A lot of those memories have probably become implicit. But I think that place still affected me. Being near the sea changed the feeling of the city a little. Hong Kong can feel dense, fast, and pressed together, but when I walked toward the water, the space suddenly opened.\n\nMaybe part of that feeling also came from New Zealand, from the times my mother took me to the seaside there. The sea was already connected to something familiar before I came to Hong Kong. So Kennedy Town seaside was not only a new place. It also touched an older feeling.\n\nWhat I liked was not a dramatic view. It was the movement of the water, the irregular waves, the space beyond the buildings, and the simple fact that the city could suddenly end in something wide.\n\nLooking back, that seaside belongs to a particular stage of my Hong Kong life. I do not live that rhythm now, and I do not go there as often. But when I think of my early HKU years, the sea is still somewhere in the background."
   },
   {
-    "id": 112,
+    "id": 116,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Ferry Rides Across Sydney Harbour",
@@ -904,7 +936,7 @@
     "body": "A Sydney memory of taking public ferries across the harbour, moving between the Opera House, the bridge, quiet residential areas, commuters, and sunset."
   },
   {
-    "id": 113,
+    "id": 117,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Ferry Rides Across Sydney Harbour (2)",
@@ -912,7 +944,7 @@
     "body": "One of my strongest memories of Sydney is not standing at one landmark, but moving through the harbour by ferry.\n\nThe ferries were not expensive, so we just kept taking them between different stops. That made the city feel less like a fixed map and more like something you could cross through from the water. Each route gave a slightly different version of Sydney.\n\nSometimes the ferry passed near the Opera House and the Harbour Bridge, and everything looked exactly as beautiful as people say. But other parts were different. Some areas felt more residential, with houses near the water that looked quiet, expensive, and almost unreal from the ferry.\n\nI also remember one ride around the time people were getting off work. There were people in suits on the ferry, probably heading back home. When the ferry reached their stop, they got off in a very orderly way and walked toward those residential areas. For a moment it felt like I was seeing another person’s everyday life from the outside: work in the city, ferry across the water, home somewhere along the harbour.\n\nThe sunset made the whole thing even better. The bridge, the Opera House, the water, and the light all came together in a way that was almost too easy to remember.\n\nSydney stayed with me because of that movement. Not just one view, but the feeling of crossing between views, letting the city change slowly around the boat."
   },
   {
-    "id": 114,
+    "id": 118,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Gold Coast, Water, and the City Line",
@@ -920,7 +952,7 @@
     "body": "A Gold Coast memory of water activities, high views, and the strange beauty of a city stretched directly along the beach."
   },
   {
-    "id": 115,
+    "id": 119,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Gold Coast, Water, and the City Line (2)",
@@ -928,7 +960,7 @@
     "body": "Gold Coast is one of the places where I remember the sea not only as something to look at, but as something I actually entered.\n\nWe did several water activities there. Kayaking, jet skiing, snorkelling, and the kind of activity where a boat pulls you up into the air above the water. I am not even fully sure what name I used for it at the time, but I remember the feeling clearly: the sea was not just background. It became part of the body, the speed, the wind, and the noise.\n\nAnother memory is from going up to one of those high observation decks. From above, the whole city looked like a line pressed against the coast: beach, water, high buildings, and long strips of sunlight all arranged together.\n\nThat view felt different from other cities I had seen. In many places, the sea and the city feel like separate things. But in Gold Coast, the buildings seemed to stand right beside the beach, almost as if the city had been drawn along the edge of the water.\n\nI liked that contrast a lot. It was both urban and coastal, both energetic and holiday-like. You could be in a high-rise city, and at the same time feel that everything was still organized by the beach.\n\nWhen I think of Gold Coast now, I think of water from two directions: being on it, and later looking down at it from high above."
   },
   {
-    "id": 116,
+    "id": 120,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Road Trip Along the Great Ocean Road",
@@ -936,7 +968,7 @@
     "body": "A Melbourne exchange memory of friends renting a car and driving along the Great Ocean Road, where the journey mattered as much as the views."
   },
   {
-    "id": 117,
+    "id": 121,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Road Trip Along the Great Ocean Road (2)",
@@ -944,7 +976,7 @@
     "body": "Great Ocean Road is hard to write about because the first thing to say is too obvious: it was beautiful.\n\nBut what I remember more is that this was during my Melbourne exchange, and some friends rented a car and brought us along the road. Without them, it would probably have stayed as one of those places I knew I should visit. Because of them, it became part of my actual life there.\n\nThat day was not just about seeing the coastline. It was sitting in the car for hours with people who, a few months earlier, I did not even know. It was stopping wherever someone thought the view was worth it, taking photos, getting back in, talking, getting tired, and still wanting to see the next stop.\n\nExchange friendships are strange in that way. They form quickly, but they can carry a lot because everyone is living in a temporary period. You know it will not last in the same form, so the things you do together become heavier than they look.\n\nThe road itself kept changing: cliffs, ocean, open sky, small stops, famous viewpoints, and places I later put onto my website map. But I do not remember it as one clean scene. I remember it as movement, the car, the people, and the feeling that Melbourne was becoming more than a university term.\n\nFor me, Great Ocean Road is not only a scenic route. It is one of the moments when my exchange started to feel like a real lived period, because there were people beside me who made it feel that way."
   },
   {
-    "id": 118,
+    "id": 122,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Birthday Somewhere Along Taiwan’s East Coast",
@@ -952,7 +984,7 @@
     "body": "A family road trip along Taiwan’s east coast, with my father driving, seaside cafés along the road, and one of my birthdays folded into the journey."
   },
   {
-    "id": 119,
+    "id": 123,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Birthday Somewhere Along Taiwan’s East Coast (2)",
@@ -960,7 +992,7 @@
     "body": "One of my happiest recent family memories is a road trip along Taiwan’s east coast.\n\nIt was the four of us: my father, my mother, my sister, and me. My father drove, and we moved along the eastern side of Taiwan, stopping in different places on the way. I do not remember every exact route clearly now, and maybe that is fine. What stayed with me is not the route as a travel record, but the feeling of being together in one car.\n\nThat kind of full family time has become rarer. Everyone is in different places, with different lives and schedules. So when we are all together for a trip, even normal things start to feel more memorable.\n\nThe east coast had a lot of sea. We would drive, see the water, stop somewhere, and sometimes find those small cafés near the coast. Many of them had their own style. We would sit down, drink coffee, look out at the sea, and then keep going.\n\nThere was nothing very dramatic about those stops, but that is why I liked them. They were not arranged to become important memories. They became important because they were simple, repeated, and shared.\n\nMy birthday also fell somewhere inside that trip. That made the whole journey feel even warmer to me. Not a big celebration in the formal sense, but a birthday inside a moving family trip, somewhere between the sea, the road, and coffee by the coast.\n\nWhen I think back to it, I do not first remember a single landmark. I remember my father driving, the four of us together, and Taiwan’s east coast passing by outside the car window."
   },
   {
-    "id": 120,
+    "id": 124,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Athens, Ruins, and a Rare Family Trip",
@@ -968,7 +1000,7 @@
     "body": "A family trip to Greece, where food, ruins, sunlight, and ancient stone made the place feel unlike anywhere I had been before."
   },
   {
-    "id": 121,
+    "id": 125,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Athens, Ruins, and a Rare Family Trip (2)",
@@ -976,7 +1008,7 @@
     "body": "Our family trip to Greece stayed with me partly because it was another rare period when the four of us could actually be together for a longer time.\n\nWe stayed for around two weeks, mostly around Athens, visiting different places, eating a lot, and moving through a city that felt very different from the places I was used to. Greece was not only pretty. It had a kind of historical weight that I had not really experienced before.\n\nThe ruins were the most obvious part of that. Places like the Acropolis made me feel that I was not just looking at an old building, but standing near something that belonged to a much longer line of human history. The stone, the columns, the open air, and the age of everything made the place feel almost unreal.\n\nThere was also one part my mother especially liked, with those carved figures standing like columns. I do not always remember the name immediately, but I remember the feeling of seeing them there, exposed to the sky, still holding that shape after so much time.\n\nAnd then there was the food. I really liked Greek food: Greek salad, fried calamari, halloumi, and many other things that were simple but very satisfying. The food made the trip feel relaxed, not only grand or historical.\n\nThat combination is what I remember most: ancient places in the daytime, good food after walking, and my family being there together. Greece felt like a place where travel was not only about seeing something new, but about feeling that the world is much older and wider than my usual life."
   },
   {
-    "id": 122,
+    "id": 126,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Swimming in the Mediterranean",
@@ -984,7 +1016,7 @@
     "body": "A Greece memory of taking a boat out to sea, swimming in the Mediterranean, and feeling the trip become physical rather than only visual."
   },
   {
-    "id": 123,
+    "id": 127,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Swimming in the Mediterranean (2)",
@@ -992,7 +1024,7 @@
     "body": "One of my clearest memories from Greece is swimming in the Mediterranean.\n\nWe went out by boat that day. I remember the sun, the water, the open sea around us, and my family nearby. It was not a day with much plot, but it stayed very clearly.\n\nThe strange thing is that the Mediterranean had always felt like a name to me before that. A sea on maps, in history, in photos of Greece. Then suddenly I was in it, not just looking at it from the coast.\n\nI think that was my only time swimming there, which makes the memory feel more fixed. There are many beautiful views from that trip, but this one feels different because it was physical. The place was not only something I saw. It touched my body.\n\nWe spent time on the boat, rested in the sun, swam, and let the day pass slowly. Nothing needed to be explained.\n\nWhen I think of Greece, I do not only think of ruins, streets, or blue views from far away. I also think of that day on the water, and the feeling of entering a sea I had known before only as a name."
   },
   {
-    "id": 124,
+    "id": 128,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Rainy Days as Permission to Stay In",
@@ -1000,7 +1032,7 @@
     "body": "A small daily feeling: rain makes staying indoors feel less like avoidance and more like something the world has quietly allowed."
   },
   {
-    "id": 125,
+    "id": 129,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Rainy Days as Permission to Stay In (2)",
@@ -1008,7 +1040,7 @@
     "body": "I do not actually like rainy days that much.\n\nRain is inconvenient. The ground gets wet, the sky turns grey, and going anywhere becomes a little more annoying.\n\nBut I do like one thing about it: it gives me a reason not to go out.\n\nOn a sunny day, staying inside can feel like I am wasting the day. Even if nobody says anything, there is still a small pressure to do something, meet someone, walk somewhere, use the weather properly.\n\nRain removes that pressure.\n\nIt makes staying indoors feel less like a personal decision and more like the natural thing to do. The room becomes enough, not because I suddenly love being trapped inside, but because the outside has become less demanding.\n\nSo maybe I do not like rain itself.\n\nI like the excuse it gives me."
   },
   {
-    "id": 126,
+    "id": 130,
     "route": "/fragments",
     "page": "Fragments",
     "title": "The Mental Map of a Small Room",
@@ -1016,7 +1048,7 @@
     "body": "A small-room memory about mess, order, and why a space can feel familiar even when it does not look perfectly tidy from the outside."
   },
   {
-    "id": 127,
+    "id": 131,
     "route": "/fragments",
     "page": "Fragments",
     "title": "The Mental Map of a Small Room (2)",
@@ -1024,7 +1056,7 @@
     "body": "My mother sometimes says my room is messy.\n\nShe is probably not completely wrong. From the outside, it may look like things are placed everywhere. But to me, the room is not simply messy. I usually know where everything is. There is a map in my head.\n\nThat map is not always visible to other people. A book may be on one side, a cable somewhere else, a camera lens near the window, some small object on the desk. It may not look organized in the usual way, but I know the routes. I know where my hand should go when I need something.\n\nThis is why small rooms can feel quite intimate to me. In a small space, every object is close enough to become part of my mental map. The room may be crowded, but it is navigable. It has a kind of personal order that only makes full sense from inside my own habits.\n\nA larger space can be more comfortable in an obvious way, but sometimes it also feels less close. Things are more spread out, and the relationship between me and the objects around me becomes less clear.\n\nSo when I say my room is not really messy, I do not mean it is objectively tidy. I mean it has a structure that I can feel. It is a little private, a little inefficient, maybe not very presentable, but still mine."
   },
   {
-    "id": 128,
+    "id": 132,
     "route": "/fragments",
     "page": "Fragments",
     "title": "My First Camera and Another Way of Seeing",
@@ -1032,7 +1064,7 @@
     "body": "A memory of my Nikon Zfc, the apartment window, long lenses, travel photos, and how a camera gave me another way to look at the world."
   },
   {
-    "id": 129,
+    "id": 133,
     "route": "/fragments",
     "page": "Fragments",
     "title": "My First Camera and Another Way of Seeing (2)",
@@ -1040,7 +1072,7 @@
     "body": "My Nikon Zfc was my first real camera.\n\nAt the beginning, I did not even need to go far. I would stand in the apartment and shoot through the small window, trying different angles, looking for things outside that I would not normally pay attention to. After getting a longer lens, this became even more interesting. The lens could pull distant things closer and turn a random view outside the window into something worth looking at.\n\nThat was probably when photography started to change my relationship with going out. The camera gave me a reason to walk more, to look around more, and later to travel with a slightly different kind of attention. I was not only going somewhere. I was also looking for frames.\n\nMy mother has said before that people should use their eyes to see the world, not only keep taking photos. I actually think she is right. There are things the eyes experience directly that a photo cannot replace: the scale of a place, the air, the movement, the feeling of being there.\n\nBut I also think the camera gives another kind of seeing. It does not simply copy the eyes. It cuts the world differently. It notices details I might have passed over. It lets me return to a moment later and see it again from a distance.\n\nSometimes the photo is not even valuable because it is beautiful. It is valuable because it proves that I once looked at the world from that exact angle.\n\nThat is what the camera gave me: not a replacement for experience, but another layer of it."
   },
   {
-    "id": 130,
+    "id": 134,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Music That Became More Spacious",
@@ -1048,7 +1080,7 @@
     "body": "A small reflection on how my music taste moved from stronger beats and rap-like rhythm toward slower, wider, more atmospheric sound."
   },
   {
-    "id": 131,
+    "id": 135,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Music That Became More Spacious (2)",
@@ -1056,7 +1088,7 @@
     "body": "My music taste has changed quite a bit.\n\nWhen I was in high school, I was more drawn to music with stronger rhythm: EDM, rap, beats that moved quickly and gave a direct kind of energy. I still understand why I liked it. That kind of music pushes you forward. It is useful when you want intensity, speed, or just a clear hit of momentum.\n\nNow I find myself liking music that feels more spacious.\n\nNot necessarily music without rhythm. Rhythm still matters. But I am more attracted to something slower, wider, and more atmospheric. Sometimes it is pure instrumental music. Sometimes it still has lyrics, like Lana Del Rey's Young and Beautiful, but what I like is not only the words. It is the whole feeling behind it: the slow movement, the large background, the sense that the song opens up a space rather than just driving a beat.\n\nI do not think this means my old taste was wrong. It is more like different stages of life need different sound structures. EDM still works for exercise because the body wants energy and repetition. But when I am not exercising, I often want music that gives me more room to think or feel.\n\nMaybe that is the change. I used to want music to move me forward. Now I also want music to give me space."
   },
   {
-    "id": 132,
+    "id": 136,
     "route": "/cv",
     "page": "CV",
     "title": "Han-yu Wang",
@@ -1064,7 +1096,7 @@
     "body": "Applied AI undergraduate, University of Hong Kong whenry6688@gmail.com (mailto:whenry6688@gmail.com) &middot; henryw.me (https://www.henryw.me/) &middot; LinkedIn (https://www.linkedin.com/in/henrywhy/) &middot; GitHub (https://github.com/henryhyw/)"
   },
   {
-    "id": 133,
+    "id": 137,
     "route": "/cv",
     "page": "CV",
     "title": "Profile",
@@ -1072,7 +1104,7 @@
     "body": "Fourth-year Applied Artificial Intelligence student at the University of Hong Kong, working where cognitive science meets AI. My research runs along two lines: how people learn and remember, and what goes on inside language models as they learn and reason, studied through behavioral experiments, model internals, and computational modeling. Part-time research assistant at HKU's SLR Lab and Cloud, Data & AI consulting intern at PwC."
   },
   {
-    "id": 134,
+    "id": 138,
     "route": "/cv",
     "page": "CV",
     "title": "Education",
@@ -1080,7 +1112,7 @@
     "body": "University of Hong Kong Sep 2022 – Present BASc in Applied Artificial Intelligence Coursework across machine learning, deep learning, data science, algorithms, and the mathematics behind them. Dean's Honours List; Student Peer Advisor; Staff–Student Consultative Committee representative. University of Melbourne Feb 2025 – Jun 2025 Semester exchange, HKU Worldwide Student Exchange Optimisation, Machine Learning, Principles of Finance. Shanghai High School International Division Sep 2017 – Jun 2022 International Baccalaureate Diploma Computer science, mathematics, economics, physics. Led the Coding Club; co-founded the SHSID Musix Board."
   },
   {
-    "id": 135,
+    "id": 139,
     "route": "/cv",
     "page": "CV",
     "title": "Experience",
@@ -1088,7 +1120,7 @@
     "body": "Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Translating technical AI and data work into business-facing consulting. Student Research Assistant May 2024 – Present Speech, Language & Reading Lab, HKU Computational models of human memory and learning, fitting experimental data to ask which mechanisms reproduce how people actually behave. Digital Transformation Intern Aug 2024 – Dec 2024 HSBC, Hong Kong Product and distribution mapping across markets; built an Excel/VBA workflow for a UI transformation project; contributed to AI use-case reviews in personal banking. Student Research Assistant Jul 2024 – Apr 2025 Psychometrics & Data Science Lab, HKU Built an AI-supported education platform, applying generative AI, NLP, retrieval, and recommendation methods to real learning workflows. Web Developer, Digital Content Support Jun 2023 – Dec 2023 Kiwiview International Limited, New Zealand Owned the company website from design to development to hosting, plus branding and content for travel programmes."
   },
   {
-    "id": 136,
+    "id": 140,
     "route": "/cv",
     "page": "CV",
     "title": "Publications & Preprints",
