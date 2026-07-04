@@ -29,7 +29,7 @@
     "page": "Education",
     "title": "My Learning Journey So Far",
     "anchor": "",
-    "body": "Where I’ve studied so far, and a bit of what I got up to along the way."
+    "body": "Places I’ve studied, and a few things that shaped how I learned along the way."
   },
   {
     "id": 4,
@@ -51,9 +51,9 @@
     "id": 6,
     "route": "/experience",
     "page": "Experience",
-    "title": "My Work Experience",
+    "title": "Work That Shaped How I Think",
     "anchor": "",
-    "body": "A few of the roles that shaped how I think about technology, and about what it takes to turn an idea into something people actually use."
+    "body": "Roles that shaped how I think about technology, organizations, and what it takes to turn an idea into something people actually use."
   },
   {
     "id": 7,
@@ -85,7 +85,7 @@
     "page": "Research",
     "title": "Research I've Been Part Of",
     "anchor": "",
-    "body": "My research asks how representations are formed, changed, used, and governed across minds and machines. I am interested in how experience becomes structure, how that structure supports memory, reasoning, generalization, and action, and why it sometimes becomes unstable, misleading, or difficult to control. On the human side, I study learning as a problem of representation. How do people move from examples to rules, from local regularities to reusable structure, and from partial evidence to a sense of what matters? I use behavior and models to ask what kind of structure a person may have built, how that structure changes with experience, and how it guides later judgment. Some of this work is done as a part-time research assistant at HKU's SLR Lab (https://slrlab.edu.hku.hk/), with Dr. Stephen M. K. Lee. On the AI side, I study model interpretability, transparency, and the mechanisms behind model behavior. I want to understand not only whether a model gives the right answer, but what internal structures and computations make that answer possible, where they fail, and how much of the process can be made inspectable enough to reason about. The goal is a more precise account of what models represent, how those representations are used, and when an apparent capability has a stable mechanism behind it. I am also interested in the broader relationship between people and AI systems. As these systems become part of learning, writing, work, and decision-making, they change what people attend to, what they trust, what they practice, and what they stop doing themselves. I want to study those changes at the level of cognition and design: how ability is distributed between person and tool, how control and understanding can be preserved, and how AI can help people think better rather than simply move faster. The long-term aim is to let the study of minds and models inform one another. Work on human learning can make AI systems more interpretable and more useful; work on AI can give"
+    "body": "My research asks how representations are formed, changed, used, and controlled across minds and machines. I am interested in how experience becomes structure, how that structure supports memory, reasoning, generalization, and action, and why it sometimes becomes unstable, misleading, or difficult to control. On the human side, I study learning as a problem of representation. How do people move from examples to rules, from local regularities to reusable structure, and from partial evidence to a sense of what matters? I use behavior and models to ask what kind of structure a person may have built, how that structure changes with experience, and how it guides later judgment. Some of this work is done as a part-time research assistant at HKU's SLR Lab (https://slrlab.edu.hku.hk/), with Dr. Stephen M. K. Lee. On the AI side, I study model interpretability, transparency, and the mechanisms behind model behavior. I want to understand not only whether a model gives the right answer, but what internal structures and computations make that answer possible, where they fail, and how much of the process can be made inspectable enough to reason about. The goal is a more precise account of what models represent, how those representations are used, and when an apparent capability has a stable mechanism behind it. I am also interested in the broader relationship between people and AI systems. As these systems become part of learning, writing, work, and decision-making, they change what people attend to, what they trust, what they practice, and what they stop doing themselves. I want to study those changes at the level of cognition and design: how ability is distributed between person and tool, how control and understanding can be preserved, and how AI can help people think better rather than simply move faster. The long-term aim is to let the study of minds and models inform one another. Work on human learning can make AI systems more interpretable and more useful; work on AI can gi"
   },
   {
     "id": 11,
@@ -163,9 +163,9 @@
     "id": 20,
     "route": "/projects",
     "page": "Projects",
-    "title": "Projects I've Been Up To",
+    "title": "Things I've Built",
     "anchor": "",
-    "body": "These are things I built because I wanted a clearer way to work with an idea, a task, or a habit. Some came out of a lab or a job, others from coursework or my own time. They range from AI tools and learning systems to visual explanations and small automations. Underneath, though, I keep coming back to the same thing: how people think and learn, and how the right tool can make something complicated easy to inspect, use, and play with. Professional and lab work Projects built inside companies and research labs. July 2024 - December 2024"
+    "body": "Things I built because I wanted a clearer way to work with an idea, a task, or a habit. Some came out of a lab or a job, others from coursework or my own time. They range from AI tools and learning systems to visual explanations and small automations. Underneath, though, I keep coming back to the same thing: how people think and learn, and how the right tool can make something complicated easier to inspect, use, and play with. Professional and lab work Projects built inside companies and research labs. July 2024 - December 2024"
   },
   {
     "id": 21,
