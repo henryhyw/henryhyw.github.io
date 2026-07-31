@@ -77,7 +77,7 @@
     "page": "Experience",
     "title": "Cloud, Data & AI Consulting Intern",
     "anchor": "cloud-data-ai-consulting-intern",
-    "body": "July 2026 - December 2026 Cloud, Data & AI Consulting Intern PricewaterhouseCoopers, Hong Kong At PwC, I support AI and data consulting work that moves between technical research, workflow prototyping, and client-ready analysis. One workstream has involved building enterprise AI document-processing prototypes, comparing how much structure survives preprocessing across text, tables, images, comments, and anchors. Some of the follow-up work involved script-assisted extraction, workflow-based retrieval, and dynamic example selection from structured files. I also researched Ethereum and stablecoin infrastructure, organizing it around transaction submission, consensus, execution, and network operations, then linking each layer to information flow, control, value movement, and risk. Alongside that, I handled spreadsheet-heavy delivery tasks, including cleaning, matching, and consolidating materials across repeated rounds. When the processing pattern became stable, I wrote a small script to make the later rounds faster and less error-prone."
+    "body": "July 2026 - December 2026 Cloud, Data & AI Consulting Intern PricewaterhouseCoopers, Hong Kong At PwC, I design and evaluate AI systems for financial services and public sector engagements. Assignments arrive as an objective rather than a specification, so scoping what should be tested is usually as much of the work as building it. I have assessed how Microsoft 365 Copilot and Copilot Studio handle enterprise documents, built a document ingestion pipeline that preserves tables and footnote references across page boundaries through to retrieval, and built a workflow that reverse-engineers legacy ETL into test cases, with every expected value traceable to a specific source expression. Earlier I worked on Ethereum and stablecoin infrastructure and drafted the infrastructure risk section a client assessment had omitted."
   },
   {
     "id": 10,
@@ -85,7 +85,7 @@
     "page": "Experience",
     "title": "Part-time Student Research Assistant",
     "anchor": "part-time-student-research-assistant",
-    "body": "May 2024 - Present Part-time Student Research Assistant Speech, Language, and Reading Lab, HKU, Hong Kong This role is closely related to a question I have been thinking about for a long time: how do people learn, remember, and gradually change through experience? I work with experimental data and computational models to study learning behaviour over time. What interests me most is not only whether a model performs well, but whether it captures something real about the way people learn. The work has pulled me further into the space between cognitive science and AI, especially questions around memory, structure, and learning processes."
+    "body": "May 2024 - Present Part-time Student Research Assistant Speech, Language, and Reading Lab, HKU, Hong Kong I work with Dr. Stephen Lee on generalization: when someone succeeds on a novel item, whether they acquired a rule, memorized the training examples, or recombined familiar components. The three accounts frequently predict indistinguishable behaviour. I formalize each account as a computational learner and test whether a proposed design can separate them before data collection begins. That work is packaged as an open Python toolkit with a web app. I also work on why a learner who demonstrably knows a rule fails to apply it to a new item, separating whether the relevant component enters the representation driving the response from whether it remains recombinable or is fused into the whole."
   },
   {
     "id": 11,
@@ -93,7 +93,7 @@
     "page": "Experience",
     "title": "Digital Transformation Intern",
     "anchor": "digital-transformation-intern",
-    "body": "August 2024 - December 2024 Digital Transformation Intern Hongkong and Shanghai Banking Corporation Limited, Hong Kong At HSBC, I worked mostly with product, distribution, and UI mapping across markets. A lot of the work was cleaning scattered inputs: aligning product and channel information, turning notes and spreadsheets into comparable fields, and checking where the source materials did not agree. For a UI transformation workstream, I organized business fields, scenarios, and interface components into an Excel/VBA workflow so repeated mapping work could be done more consistently. I also joined personal-banking AI use-case reviews, where the discussion was usually very practical: what workflow was being changed, what data was available, and what controls would be needed."
+    "body": "August 2024 - December 2024 Digital Transformation Intern Hongkong and Shanghai Banking Corporation Limited, Hong Kong At HSBC, I mapped product, distribution, and UI information across markets. Each market supplied it in a different shape, so I normalized notes and spreadsheets into comparable fields and reconciled the points where sources conflicted. For a UI transformation workstream, I encoded business fields, scenarios, and interface components into an Excel and VBA workflow, so the mapping did not have to be reproduced by hand each round. I also joined personal banking AI use case reviews, where the questions were which workflow was changing, what data existed to support it, and what controls it would require."
   },
   {
     "id": 12,
@@ -101,7 +101,7 @@
     "page": "Experience",
     "title": "Part-time Student Research Assistant",
     "anchor": "part-time-student-research-assistant-2",
-    "body": "July 2024 - April 2025 Part-time Student Research Assistant Psychometrics and Data Science Lab, HKU, Hong Kong At the PDS Lab, I worked on ideas around AI, education, and personalized learning. Part of the work involved building an AI-supported education platform and thinking about how generative AI, NLP, information retrieval, and recommendation methods could fit into actual learning workflows. It made me more attentive to the difference between educational tools that merely look intelligent and those that are genuinely useful from the learner’s side."
+    "body": "July 2024 - April 2025 Part-time Student Research Assistant Psychometrics and Data Science Lab, HKU, Hong Kong At the PDS Lab, I worked on generative AI for personalized learning. I built an AI-supported education platform with separate views for learners, instructors, and administrators. Generative AI, NLP, retrieval, and recommendation drove the question banks, the assessment templates, and the per-student suggestions for what to study next."
   },
   {
     "id": 13,
@@ -109,7 +109,7 @@
     "page": "Experience",
     "title": "Web Developer, Digital Content Support",
     "anchor": "web-developer-digital-content-support",
-    "body": "June 2023 - December 2023 Web Developer, Digital Content Support Kiwiview International Limited, New Zealand Kiwiview was one of my earliest experiences working in a company setting, and it gave me a first sense of what it means to be responsible for something outside school. I worked on the company website from design to development to hosting, and also helped with branding materials, website content, and promotional posts for study-tour and travel programmes. What stayed with me from that period was the feeling that even fairly small design and web decisions could quietly shape how a business presents itself."
+    "body": "June 2023 - December 2023 Web Developer, Digital Content Support Kiwiview International Limited, New Zealand Kiwiview was my first role inside a company. I owned their website from design through development to hosting. I also produced site content, branding materials, and promotional posts for their study tour and travel programmes."
   },
   {
     "id": 14,
@@ -171,8 +171,8 @@
     "id": 21,
     "route": "/research",
     "page": "Research",
-    "title": "When Representation Outruns Uptake: Cognitive Governance in LLM-Assisted Writing",
-    "anchor": "when-representation-outruns-uptake-cognitive-governance-in-llm-assisted-writing",
+    "title": "When Structure Settles Thought: Generative AI and the Costs of Fitted Assistance in Writing",
+    "anchor": "when-structure-settles-thought-generative-ai-and-the-costs-of-fitted-assistance-",
     "body": "January 2026 - May 2026"
   },
   {
@@ -1229,7 +1229,7 @@
     "page": "CV",
     "title": "Experience",
     "anchor": "experience",
-    "body": "Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Built and evaluated enterprise AI document-processing prototypes; organized Ethereum and stablecoin infrastructure by layer, value flow, and risk; automated repeated spreadsheet consolidation tasks. Student Research Assistant May 2024 – Present Speech, Language & Reading Lab, HKU Computational models of human memory and learning, fitting experimental data to ask which mechanisms reproduce how people actually behave. Digital Transformation Intern Aug 2024 – Dec 2024 HSBC, Hong Kong Mapped product and distribution data across markets; built an Excel/VBA workflow for UI component mapping; reviewed personal-banking AI use cases from workflow, data, and control angles. Student Research Assistant Jul 2024 – Apr 2025 Psychometrics & Data Science Lab, HKU Built an AI-supported education platform, applying generative AI, NLP, retrieval, and recommendation methods to real learning workflows. Web Developer, Digital Content Support Jun 2023 – Dec 2023 Kiwiview International Limited, New Zealand Owned the company website from design to development to hosting, plus branding and content for travel programmes."
+    "body": "Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Designed evaluation frameworks for enterprise retrieval systems; built document-ingestion pipelines that keep cross-page structure intact through to retrieval; reverse-engineered legacy ETL into traceable test assets; organized Ethereum and stablecoin infrastructure by layer, value flow, and risk. Student Research Assistant May 2024 – Present Speech, Language & Reading Lab, HKU Computational models of human memory and learning, fitting experimental data to ask which mechanisms reproduce how people actually behave. Digital Transformation Intern Aug 2024 – Dec 2024 HSBC, Hong Kong Mapped product and distribution data across markets; built an Excel/VBA workflow for UI component mapping; reviewed personal-banking AI use cases from workflow, data, and control angles. Student Research Assistant Jul 2024 – Apr 2025 Psychometrics & Data Science Lab, HKU Built an AI-supported education platform, applying generative AI, NLP, retrieval, and recommendation methods to real learning workflows. Web Developer, Digital Content Support Jun 2023 – Dec 2023 Kiwiview International Limited, New Zealand Owned the company website from design to development to hosting, plus branding and content for travel programmes."
   },
   {
     "id": 154,
