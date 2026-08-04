@@ -113,11 +113,11 @@ function initThemeToggle() {
     // Function to update the theme icon
     function updateThemeIcon(isDarkMode) {
         if (isDarkMode) {
-            toggleIcon.classList.remove('fa-sun');
-            toggleIcon.classList.add('fa-moon');
-        } else {
             toggleIcon.classList.remove('fa-moon');
             toggleIcon.classList.add('fa-sun');
+        } else {
+            toggleIcon.classList.remove('fa-sun');
+            toggleIcon.classList.add('fa-moon');
         }
         toggleThemeBtn.setAttribute('aria-label', isDarkMode ? 'Use light theme' : 'Use dark theme');
     }
