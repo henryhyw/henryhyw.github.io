@@ -9,13 +9,36 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     const modal = document.getElementById('modal');
     const modalImg = document.getElementById('modal-image');
-    const closeBtn = document.getElementsByClassName('close')[0];
+    const boundImages = new WeakSet();
+    let previousFocus = null;
+
+    const openModal = (img) => {
+        previousFocus = document.activeElement;
+        modalImg.src = img.dataset.fullSrc || img.src;
+        modalImg.alt = img.alt || '';
+        modal.style.display = 'flex';
+        modal.setAttribute('aria-hidden', 'false');
+        document.body.classList.add('modal-open');
+        modal.focus({ preventScroll: true });
+    };
+
+    const closeModal = () => {
+        if (modal.style.display !== 'flex') return;
+        modal.style.display = 'none';
+        modal.setAttribute('aria-hidden', 'true');
+        document.body.classList.remove('modal-open');
+        if (previousFocus && typeof previousFocus.focus === 'function') {
+            previousFocus.focus({ preventScroll: true });
+        }
+        previousFocus = null;
+    };
     
     const applyListeners = () => {
         document.querySelectorAll('div.scroll-container img').forEach(img => {
+            if (boundImages.has(img)) return;
+            boundImages.add(img);
             img.addEventListener('click', () => {
-                modal.style.display = 'flex';
-                modalImg.src = img.src;
+                openModal(img);
             });
         });
     };
@@ -26,9 +49,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Observer to detect new elements in the whole document
     const observer = new MutationObserver(applyListeners);
     observer.observe(document.body, { childList: true, subtree: true });
-    
-    closeBtn.addEventListener('click', () => {
-        modal.style.display = 'none';
+
+    modal.addEventListener('click', (event) => {
+        if (event.target === modal) closeModal();
+    });
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') closeModal();
     });
 });
 document.addEventListener("DOMContentLoaded", function() {
@@ -55,9 +82,11 @@ document.addEventListener("DOMContentLoaded", function() {
       localStorage.setItem("musicPlaying", "false");
       musicIcon.querySelector("i").classList.remove("fa-spin");
       musicIcon.title = "Play Music";
+      musicIcon.setAttribute("aria-label", "Play music");
     });
     musicIcon.querySelector("i").classList.add("fa-spin");
     musicIcon.title = "Pause Music";
+      musicIcon.setAttribute("aria-label", "Pause music");
   }
 
   function playRandomSong() {
@@ -85,14 +114,18 @@ document.addEventListener("DOMContentLoaded", function() {
         localStorage.setItem("musicPlaying", "false");
         musicIcon.querySelector("i").classList.remove("fa-spin");
         musicIcon.title = "Play Music";
+      musicIcon.setAttribute("aria-label", "Play music");
       });
       musicIcon.querySelector("i").classList.add("fa-spin");
       musicIcon.title = "Pause Music";
+      musicIcon.setAttribute("aria-label", "Pause music");
     } else {
       musicIcon.title = "Play Music";
+      musicIcon.setAttribute("aria-label", "Play music");
     }
   } else {
     musicIcon.title = "Play Music";
+      musicIcon.setAttribute("aria-label", "Play music");
   }
 
   musicIcon.addEventListener("click", function() {
@@ -106,15 +139,18 @@ document.addEventListener("DOMContentLoaded", function() {
           localStorage.setItem("musicPlaying", "false");
           musicIcon.querySelector("i").classList.remove("fa-spin");
           musicIcon.title = "Play Music";
+      musicIcon.setAttribute("aria-label", "Play music");
         });
         musicIcon.querySelector("i").classList.add("fa-spin");
         musicIcon.title = "Pause Music";
+      musicIcon.setAttribute("aria-label", "Pause music");
       }
       localStorage.setItem("musicPlaying", "true");
     } else {
       music.pause();
       musicIcon.querySelector("i").classList.remove("fa-spin");
       musicIcon.title = "Play Music";
+      musicIcon.setAttribute("aria-label", "Play music");
       localStorage.setItem("musicPlaying", "false");
     }
   });
@@ -140,6 +176,7 @@ document.addEventListener("DOMContentLoaded", function() {
       localStorage.setItem("musicPlaying", "false");
       musicIcon.querySelector("i").classList.remove("fa-spin");
       musicIcon.title = "Play Music";
+      musicIcon.setAttribute("aria-label", "Play music");
     });
   }
 });

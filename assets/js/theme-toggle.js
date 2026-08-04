@@ -8,7 +8,7 @@ function initThemeToggle() {
     const toggleIcon = toggleThemeBtn.querySelector('i');
     const TRAFFIC_RESIZE_FLAG = '__trafficThemeResizeBound';
     const THEME_EVENT_NAME = 'theme-change';
-    const THEME_TRANSITION_MS = 2000;
+    const THEME_TRANSITION_MS = 220;
     const NAV_THEME_SELECTORS = [
         '.header-title a',
         '.header-subtitle',
@@ -119,6 +119,7 @@ function initThemeToggle() {
             toggleIcon.classList.remove('fa-moon');
             toggleIcon.classList.add('fa-sun');
         }
+        toggleThemeBtn.setAttribute('aria-label', isDarkMode ? 'Use light theme' : 'Use dark theme');
     }
 
     // Function to apply the theme
@@ -141,7 +142,7 @@ function initThemeToggle() {
             document.documentElement.classList.remove('theme-transitioning');
             document.body.classList.remove('theme-transitioning');
             themeTransitionTimer = null;
-        }, THEME_TRANSITION_MS + 250);
+        }, THEME_TRANSITION_MS + 60);
     }
 
     // Determine the initial theme
