@@ -1,12 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    if (window.location.hash === '' || window.location.hash === '#' || window.location.hash === '#/') { // Check if the current page is not the homepage
-        document.querySelectorAll('header *').forEach(element => {
-            element.style.color = 'transparent';
-        });
-        document.querySelectorAll('footer *').forEach(element => {
-            element.style.color = 'transparent';
-        });
-    }
     const modal = document.getElementById('modal');
     const modalImg = document.getElementById('modal-image');
     const boundImages = new WeakSet();
