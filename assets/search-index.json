@@ -5,7 +5,7 @@
     "page": "About",
     "title": "About Me",
     "anchor": "",
-    "body": "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I have also spent extended periods in Melbourne and Hawke's Bay , New Zealand, through exchange, travel, and family. I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. My research covers human learning, language models, and human-AI interaction. I study how people form and use knowledge from experience, how models represent and apply patterns, and how AI changes learning, writing, reasoning, and decision-making when people work with it. I am especially interested in cases where similar behaviour on the surface can come from very different processes underneath. For the academic and professional record in one place, visit my CV → 多良 · 太麻里 · 台東 Duoliang · Taimali · Taitung I also spend a lot of time building tools and systems. Some began at work or in research, while others started because I wanted something that did not exist yet. At PwC, I have worked on how AI systems are scoped, tested, explained, and fitted into existing workflows. The Projects page collects work from companies, research labs, coursework, and things I built on my own, including several projects from secondary school. I also use this website to keep that work in one place and to try out different ways of presenting it. Use the or press / to ask about anything on the site."
+    "body": "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I have also spent extended periods in Melbourne and Hawke's Bay , New Zealand, through exchange, travel, and family. I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. I like working with things that are still taking shape, gradually finding and building structure as I understand them better. For the academic and professional record in one place, visit my CV → 多良 · 太麻里 · 台東 Duoliang · Taimali · Taitung In my Research , I look at human learning, language models, and human-AI interaction. I study how people form and use knowledge from experience, how models represent and apply patterns, and how AI changes learning, writing, reasoning, and decision-making when people work with it. I am especially interested in cases where similar behaviour on the surface can come from very different processes underneath. I also spend a lot of time building tools and systems. Some began at work or in research, while others started because I wanted something that did not exist yet. At PwC, I have worked on how AI systems are scoped, tested, explained, and fitted into existing workflows. The Builds page collects work from companies, research labs, coursework, and things I built on my own, including several projects from secondary school. I also use this website to keep that work in one place and to try out different ways of presenting it. Use the or press / to ask about anything on the site."
   },
   {
     "id": 1,
@@ -189,7 +189,7 @@
     "page": "Projects",
     "title": "Things I've Built",
     "anchor": "",
-    "body": "Most of these started with a vague need rather than a fully defined problem. The structure took shape as I built, and kept changing through actual use and conversations with the people they were for. Professional and lab work Projects built inside companies and research labs. July 2026 - August 2026"
+    "body": "Most of these started with a vague need rather than a fully defined problem. The structure took shape as I built, and kept changing through actual use and conversations with the people they were for. Professional and lab work --> Professional and lab work July 2026 - August 2026"
   },
   {
     "id": 24,
@@ -197,7 +197,7 @@
     "page": "Projects",
     "title": "A Structure-Preserving RAG Ingestion Pipeline",
     "anchor": "a-structure-preserving-rag-ingestion-pipeline",
-    "body": "Keeps document structure intact so retrieval returns the right chunk Associated with PwC (https://www.pwc.com.hk/) At PwC, I designed and built a customised ingestion pipeline for a retrieval-augmented generation system. Standard PDF parsing broke relationships that mattered: merged cells, tables spanning multiple pages, notes cited in one place and defined in another, and flowcharts represented only as images. I used structured parsing, a small rule-based linker, and text representations of diagrams to preserve those relationships before chunking and embedding. The team developed the architecture together, and I implemented the pipeline end to end. See how structure survives from PDF to chunk &rarr; July 2024 - December 2024"
+    "body": "Keeps document structure intact so retrieval returns the right chunk Associated with PwC (https://www.pwc.com.hk/) At PwC, I designed and built a customised ingestion pipeline for a retrieval-augmented generation system. Standard PDF parsing broke relationships that mattered: merged cells, tables spanning multiple pages, notes cited in one place and defined in another, and flowcharts represented only as images. I used structured parsing, a small rule-based linker, and text representations of diagrams to preserve those relationships before chunking and embedding. See how structure survives from PDF to chunk &rarr; July 2024 - December 2024"
   },
   {
     "id": 25,
@@ -213,7 +213,7 @@
     "page": "Projects",
     "title": "Advancing Generative AI in Personalized Learning",
     "anchor": "advancing-generative-ai-in-personalized-learning",
-    "body": "A Full-Stack Adaptive Learning Portal with Vue, Flask, and Firestore Associated with PDS Lab (https://psym-ds.github.io/) Working with Prof. Jinsong Chen, I built a full-stack education platform with separate interfaces for learners, instructors, and administrators. Instructors can create question banks and assessment templates, assign content to individuals or groups, and review analytics showing where each learner is struggling. The system uses generative AI, retrieval, and recommendation to suggest questions and study resources based on each learner's progress. I built the platform with Vue.js, Flask, and Firestore. Check out the live demo: LLMAS Portal (https://llmas.pds-lab.org/) Coursework Projects that started as university coursework. November 2025 – December 2025"
+    "body": "A Full-Stack Adaptive Learning Portal with Vue, Flask, and Firestore Associated with PDS Lab (https://psym-ds.github.io/) Working with Prof. Jinsong Chen, I built a full-stack education platform with separate interfaces for learners, instructors, and administrators. Instructors can create question banks and assessment templates, assign content to individuals or groups, and review analytics showing where each learner is struggling. The system uses generative AI, retrieval, and recommendation to suggest questions and study resources based on each learner's progress. I built the platform with Vue.js, Flask, and Firestore. Check out the live demo: LLMAS Portal (https://llmas.pds-lab.org/) Coursework --> Coursework November 2025 – December 2025"
   },
   {
     "id": 27,
@@ -229,7 +229,7 @@
     "page": "Projects",
     "title": "Stride Support",
     "anchor": "stride-support",
-    "body": "Customer Support Copilot with MCP Tools and Local LLM Stride Support is an on-device customer-support copilot. A React interface lets a customer select a current or past order, and a FastAPI router passes that context to a local language model so the response stays grounded in the customer's actual purchases. Five MCP tool servers handle catalogue search, order lookups, complaints, recommendations, and policy questions. A semantic gate rejects unrelated requests, while a fine-tuned mBERT classifier detects sentiment so the system can adjust its tone. The complete workflow runs locally through LM Studio. Project repo: github.com/backprop07/STAT4011 (https://github.com/backprop07/STAT4011) On my own time Side projects, built outside work and class. June 2026 - July 2026"
+    "body": "Customer Support Copilot with MCP Tools and Local LLM Stride Support is an on-device customer-support copilot. A React interface lets a customer select a current or past order, and a FastAPI router passes that context to a local language model so the response stays grounded in the customer's actual purchases. Five MCP tool servers handle catalogue search, order lookups, complaints, recommendations, and policy questions. A semantic gate rejects unrelated requests, while a fine-tuned mBERT classifier detects sentiment so the system can adjust its tone. The complete workflow runs locally through LM Studio. Project repo: github.com/backprop07/STAT4011 (https://github.com/backprop07/STAT4011) On my own time --> On my own time June 2026 - July 2026"
   },
   {
     "id": 29,
