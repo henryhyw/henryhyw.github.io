@@ -77,7 +77,7 @@
     "page": "Experience",
     "title": "Cloud, Data & AI Consulting Intern",
     "anchor": "cloud-data-ai-consulting-intern",
-    "body": "July 2026 - December 2026 Cloud, Data & AI Consulting Intern PricewaterhouseCoopers Central, Hong Kong At PwC, I design and evaluate AI systems for financial-services and public-sector engagements. Assignments often begin with an objective rather than a detailed specification, so defining what should be built or tested is usually part of the work. My work has included evaluating Microsoft 365 Copilot and Copilot Studio on enterprise documents, building a document-ingestion pipeline that preserves tables and cross-page note references through retrieval, and translating legacy ETL logic into traceable test cases. I have also researched Ethereum and stablecoin infrastructure and written an infrastructure-risk section for a client assessment."
+    "body": "July 2026 - December 2026 Cloud, Data & AI Consulting Intern PricewaterhouseCoopers Central, Hong Kong At PwC, I work on AI systems for financial-services and public-sector engagements, from problem framing to prototyping and evaluation. I built an LLM-assisted pipeline to reverse-engineer legacy ETL logic into traceable data lineage, business rules, and test scenarios for migration work. For a public-enquiry RAG system, I built a knowledge-base ingestion pipeline that preserves document structure and developed a DeepEval framework for classification, retrieval, and response quality. I evaluated enterprise document-processing systems and built workflows to recover information lost during preprocessing and support rule-based document review. I also reviewed Ethereum and stablecoin infrastructure risks for a banking engagement."
   },
   {
     "id": 10,
@@ -85,7 +85,7 @@
     "page": "Experience",
     "title": "Part-time Student Research Assistant",
     "anchor": "part-time-student-research-assistant",
-    "body": "May 2024 - Present Part-time Student Research Assistant Speech, Language, and Reading Lab, HKU Pokfulam, Hong Kong I work with Dr. Stephen Lee on how people generalise from experience. A learner may succeed on a new item because they acquired a rule, remembered similar training examples, or recombined familiar components, yet these explanations often predict the same behaviour. I formalise each explanation as a computational learner and test whether an experimental design can distinguish them before data collection. This work is packaged as an open Python toolkit with a web app. I also study why someone who appears to know a rule may fail to apply it, separating whether a relevant component enters the response-driving representation from whether it remains available for recombination."
+    "body": "May 2024 - Present Part-time Student Research Assistant Speech, Language, and Reading Lab, HKU Pokfulam, Hong Kong I work with Dr. Stephen Lee on computational models of how people learn and generalise from experience, particularly when different learning mechanisms can produce the same observable behaviour. I formalise competing explanations as computational learners and test whether experiments can distinguish them before data collection. I also study when learned structure becomes available for transfer and recombination, including the interaction between explicit and implicit learning."
   },
   {
     "id": 11,
@@ -93,7 +93,7 @@
     "page": "Experience",
     "title": "Digital Transformation Intern",
     "anchor": "digital-transformation-intern",
-    "body": "August 2024 - December 2024 Digital Transformation Intern Hongkong and Shanghai Banking Corporation Limited Central, Hong Kong At HSBC, I mapped product, distribution, and interface information across markets. Because each market supplied the information in a different format, I converted notes and spreadsheets into a shared set of fields and reconciled conflicts between sources. For a UI-transformation workstream, I encoded business fields, scenarios, and interface components in an Excel and VBA tool, allowing the mapping to be regenerated instead of rebuilt manually for each iteration. I also participated in reviews of personal-banking AI use cases, focusing on the workflow being changed, the data available to support it, and the controls required."
+    "body": "August 2024 - December 2024 Digital Transformation Intern Hongkong and Shanghai Banking Corporation Limited Central, Hong Kong At HSBC, I worked on translating complex insurance product requirements into structures that business, design, and engineering teams could use. I consolidated product and distribution information across markets, then built an Excel/VBA workflow that mapped product specifications through business scenarios to UI-component requirements, allowing configurations to be regenerated as requirements changed. I also evaluated AI use cases in banking, focusing on data readiness, controls, and where human review needed to remain in the workflow."
   },
   {
     "id": 12,
@@ -101,7 +101,7 @@
     "page": "Experience",
     "title": "Part-time Student Research Assistant",
     "anchor": "part-time-student-research-assistant-2",
-    "body": "July 2024 - April 2025 Part-time Student Research Assistant Psychometrics and Data Science Lab, HKU Pokfulam, Hong Kong At the PDS Lab, I worked on the use of generative AI in personalised learning. I built an education platform with separate interfaces for learners, instructors, and administrators. Generative AI, retrieval, NLP, and recommendation supported question-bank creation, assessment design, and learner-specific suggestions for what to study next."
+    "body": "July 2024 - April 2025 Part-time Student Research Assistant Psychometrics and Data Science Lab, HKU Pokfulam, Hong Kong At the PDS Lab, I worked on applying generative AI and retrieval methods to personalised learning. I built a full-stack education platform with separate interfaces for learners, instructors, and administrators, supporting question-bank management, assessment workflows, AI-assisted feedback, and personalised study recommendations."
   },
   {
     "id": 13,
@@ -189,7 +189,7 @@
     "page": "Projects",
     "title": "Things I've Built",
     "anchor": "",
-    "body": "These are projects I built to solve problems I kept running into at work, in research, in class, and in my own life. Some organise complex information, some support learning, and others turn technical processes into something easier to see and use. Across them, I keep returning to the same question: how can a tool preserve what matters while making a complicated task clearer, more reliable, or easier to explore? Professional and lab work Projects built inside companies and research labs. July 2026 - August 2026"
+    "body": "These are things I've built across work, research, class, and my own time. Most start with a problem that feels messy, unclear, or harder to work with than it should be. I like figuring out the structure underneath it and seeing how far I can take an idea once I have something working. Professional and lab work Projects built inside companies and research labs. July 2026 - August 2026"
   },
   {
     "id": 24,
@@ -613,7 +613,7 @@
     "page": "Fragments",
     "title": "Fragments",
     "anchor": "",
-    "body": "Loose fragments of thought and life. Fragment entries are indexed from the shared fragment data source."
+    "body": "Fragments is where I keep things I want to return to. Some are thoughts still taking shape. Others come from places, memories, conversations, or small things in everyday life that stayed with me. I write them down while they are still on my mind."
   },
   {
     "id": 77,
