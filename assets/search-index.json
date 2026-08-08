@@ -27,9 +27,9 @@
     "id": 3,
     "route": "/education",
     "page": "Education",
-    "title": "Education",
+    "title": "Places I've Studied",
     "anchor": "",
-    "body": "Places I've studied, from secondary school to university."
+    "body": "These places have shaped a lot of who I am today."
   },
   {
     "id": 4,
@@ -67,9 +67,9 @@
     "id": 8,
     "route": "/experience",
     "page": "Experience",
-    "title": "Work",
+    "title": "Roles I've Had",
     "anchor": "",
-    "body": "Work and research roles I've held since 2023."
+    "body": "My work has ranged from open-ended research to delivery-focused industry projects."
   },
   {
     "id": 9,
@@ -189,7 +189,7 @@
     "page": "Projects",
     "title": "Things I've Built",
     "anchor": "",
-    "body": "These are things I've built at work, in research, for class, and on my own. Most started because I ran into a problem and wanted to see if I could build something useful for it. Professional and lab work Projects built inside companies and research labs. July 2026 - August 2026"
+    "body": "Most of these started with a vague need rather than a fully defined problem. The structure took shape as I built, and kept changing through actual use and conversations with the people they were for. Professional and lab work Projects built inside companies and research labs. July 2026 - August 2026"
   },
   {
     "id": 24,
