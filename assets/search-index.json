@@ -5,15 +5,15 @@
     "page": "About",
     "title": "About Me",
     "anchor": "",
-    "body": "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I have also spent extended periods in Melbourne and Hawke's Bay , New Zealand, through exchange, travel, and family. I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. My academic work connects human learning, artificial intelligence, and the ways people think with AI. I study how people form and use knowledge from experience, how models represent and apply patterns, and how the interaction between person and tool changes learning, writing, reasoning, and decision-making. Across these questions, I am especially interested in cases where sensible behaviour on the surface can arise from very different processes underneath. For the academic and professional record in one place, visit my CV → 多良 · 太麻里 · 台東 Duoliang · Taimali · Taitung I also like turning ideas into working systems. Some projects make complex rules easier to operate, some make hidden technical processes visible, and others automate small tasks I would otherwise repeat. My current Cloud, Data & AI consulting work at PwC has made me think more seriously about how AI systems are scoped, evaluated, explained, and integrated into real organisational workflows. The Projects page brings together work from companies, research labs, coursework, and personal experiments, including several projects from secondary school. This website has gradually become part of the same practice: it is a portfolio, a personal archive, and a place where I can experiment with new ways of organising and presenting information. Use the , or press / , to ask about anything on the site."
+    "body": "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I have also spent extended periods in Melbourne and Hawke's Bay , New Zealand, through exchange, travel, and family. I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. My research covers human learning, language models, and human-AI interaction. I study how people form and use knowledge from experience, how models represent and apply patterns, and how AI changes learning, writing, reasoning, and decision-making when people work with it. I am especially interested in cases where similar behaviour on the surface can come from very different processes underneath. For the academic and professional record in one place, visit my CV → 多良 · 太麻里 · 台東 Duoliang · Taimali · Taitung I also spend a lot of time building tools and systems. Some began at work or in research, while others started because I wanted something that did not exist yet. At PwC, I have worked on how AI systems are scoped, tested, explained, and fitted into existing workflows. The Projects page collects work from companies, research labs, coursework, and things I built on my own, including several projects from secondary school. I also use this website to keep that work in one place and to try out different ways of presenting it. Use the or press / to ask about anything on the site."
   },
   {
     "id": 1,
     "route": "/about",
     "page": "About",
-    "title": "On a More Personal Level",
-    "anchor": "on-a-more-personal-level",
-    "body": "I like travelling, but collecting destinations is not the point. What stays with me is usually a particular scene: crossing Sydney Harbour by ferry at sunset, driving along Taiwan 's east coast with my family, standing among the ruins of Athens in the heat, swimming in the Mediterranean, or walking beside the sea after a dense day. My exchange semester in Melbourne stayed with me because the city became part of my ordinary life rather than only a place I visited. Click the compass to explore places that have stayed with me. When I'm not working, I often end up near the water. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , Kennedy Town Praya became part of my early university years. Elsewhere, it may be a ferry, a harbour, or a long walk along the shore. Being near the sea gives me a sense of space that dense days often remove. For the less formal side, Fragments collects unfinished thoughts and small pieces of life. They range from notes on AI, memory, language, and identity to travel, family, food, and ordinary moments I wanted to keep."
+    "title": "Outside Work and Research",
+    "anchor": "outside-work-and-research",
+    "body": "I like travelling, though I usually remember particular scenes more than destinations. I remember crossing Sydney Harbour by ferry at sunset, driving along Taiwan 's east coast with my family, standing among the ruins of Athens in the heat, swimming in the Mediterranean, and walking beside the sea after a dense day. Melbourne feels different because I lived there for a semester and the city became part of my routine. Click the compass to explore my travel map. When I'm not working, I often end up near the water. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , Kennedy Town Praya became part of my early university years. Elsewhere, it may be a ferry, a harbour, or a long walk along the shore. Being near the sea gives me a sense of space that dense days often remove. Fragments is where I keep unfinished thoughts and notes from everyday life. They include ideas about AI, memory, language, and identity, along with travel, family, food, and other things I wanted to remember."
   },
   {
     "id": 2,
@@ -21,15 +21,15 @@
     "page": "About",
     "title": "Say Hello",
     "anchor": "say-hello",
-    "body": "If something here resonates, or you simply want to get in touch, I'd be glad to hear from you. For personal messages, write to me at whenry6688@gmail.com (mailto:whenry6688@gmail.com). For academic matters, reach me at henry.why@connect.hku.hk (mailto:henry.why@connect.hku.hk). Curious how people move through this site? The traffic page shows a small record of visits and page activity. Open"
+    "body": "If you want to get in touch, I'd be glad to hear from you. For personal messages, write to me at whenry6688@gmail.com (mailto:whenry6688@gmail.com). For academic matters, reach me at henry.why@connect.hku.hk (mailto:henry.why@connect.hku.hk). Curious how people move through this site? The traffic page shows a small record of visits and page activity. Open"
   },
   {
     "id": 3,
     "route": "/education",
     "page": "Education",
-    "title": "My Learning Journey So Far",
+    "title": "Education",
     "anchor": "",
-    "body": "Places I’ve studied, and a few things that shaped how I learned along the way."
+    "body": "Places I've studied, from secondary school to university."
   },
   {
     "id": 4,
@@ -67,9 +67,9 @@
     "id": 8,
     "route": "/experience",
     "page": "Experience",
-    "title": "Work That Shaped How I Think",
+    "title": "Work",
     "anchor": "",
-    "body": "Roles through which I learned how technical work is scoped, communicated, and turned into systems that other people can use."
+    "body": "Work and research roles I've held since 2023."
   },
   {
     "id": 9,
@@ -117,7 +117,7 @@
     "page": "Research",
     "title": "Research I've Been Part Of",
     "anchor": "",
-    "body": "My research connects three questions. How do people form representations that support memory, generalisation, and transfer? What internal structures and computations produce the behaviour of AI models? And when people work with AI, how does the tool change what they attend to, practise, understand, and decide? I study human-AI interaction as a cognitive and design problem. As AI enters learning, writing, work, and decision-making, ability becomes distributed between the person and the tool. I want to understand when that distribution helps people think more effectively, when it weakens their command of the task, and how systems can preserve agency, judgment, and understanding rather than merely increasing speed. On the human side, I study how learners move from examples to reusable structure. Behaviour alone often cannot reveal whether someone learned a rule, memorised particular items, or recombined familiar components. I use experiments and computational models to ask which representations could have produced the observed pattern, how those representations change with experience, and what a proposed experiment can actually distinguish. Some of this work is conducted as a part-time research assistant at HKU's SLR Lab (https://slrlab.edu.hku.hk/), with Dr. Stephen M. K. Lee. On the AI side, I study the mechanisms behind model behaviour. A correct answer does not by itself show how the model represented the problem or which internal components produced the result. I use behavioural tests and causal interventions to examine what models encode, how those representations are used, where competing processes cancel or override one another, and whether an apparent capability rests on a stable mechanism. The long-term aim is to let the study of minds and models inform one another. Cognitive models can sharpen the questions we ask about AI mechanisms; AI systems can provide new tools and comparison cases for studying human cognition; and work on their interaction can guide t"
+    "body": "My research connects three questions. How do people form representations that support memory, generalisation, and transfer? What internal structures and computations produce the behaviour of AI models? And when people work with AI, how does the tool change what they attend to, practise, understand, and decide? I study human-AI interaction as a cognitive and design problem. As AI enters learning, writing, work, and decision-making, ability becomes distributed between the person and the tool. I want to understand when that distribution helps people think more effectively, when it weakens their command of the task, and how systems can preserve agency, judgment, and understanding rather than merely increasing speed. On the human side, I study how learners move from examples to reusable structure. Behaviour alone often cannot reveal whether someone learned a rule, memorised particular items, or recombined familiar components. I use experiments and computational models to ask which representations could have produced the observed pattern, how those representations change with experience, and what a proposed experiment can actually distinguish. Some of this work is conducted as a part-time research assistant at HKU's SLR Lab (https://slrlab.edu.hku.hk/), with Dr. Stephen M. K. Lee. On the AI side, I study the mechanisms behind model behaviour. A correct answer does not by itself show how the model represented the problem or which internal components produced the result. I use behavioural tests and causal interventions to examine what models encode, how those representations are used, where competing processes cancel or override one another, and whether an apparent capability rests on a stable mechanism. These areas often inform one another in my work. Ideas from cognitive modelling shape the questions I ask about model behaviour, while AI gives me new comparison cases and tools for studying human cognition. Human-AI interaction is where both matter at once, because the des"
   },
   {
     "id": 15,
@@ -133,7 +133,7 @@
     "page": "Research",
     "title": "Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation",
     "anchor": "humansDisengage",
-    "body": "Reasoning models and people both take longer on harder problems, so their aggregate behaviour can look similar. Within individual items, however, the relationship reverses. When a model answers incorrectly, it typically spends more tokens than when it answers the same item correctly. People show the opposite pattern, responding fastest on the trials they ultimately fail. The same difficulty trend therefore reflects different control policies: models persist when uncertain, whereas people are more likely to disengage."
+    "body": "Reasoning models and people both take longer on harder problems, so their aggregate behaviour can look similar. Within individual items, however, the relationship reverses. When a model answers incorrectly, it typically spends more tokens than when it answers the same item correctly. People show the opposite pattern, responding fastest on the trials they ultimately fail. The same difficulty trend comes from different control policies. Models persist when uncertain, whereas people are more likely to disengage."
   },
   {
     "id": 17,
@@ -189,7 +189,7 @@
     "page": "Projects",
     "title": "Things I've Built",
     "anchor": "",
-    "body": "These are things I've built across work, research, class, and my own time. Most start with a problem that feels messy, unclear, or harder to work with than it should be. I like figuring out the structure underneath it and seeing how far I can take an idea once I have something working. Professional and lab work Projects built inside companies and research labs. July 2026 - August 2026"
+    "body": "These are things I've built at work, in research, for class, and on my own. Most started because I ran into a problem and wanted to see if I could build something useful for it. Professional and lab work Projects built inside companies and research labs. July 2026 - August 2026"
   },
   {
     "id": 24,
@@ -205,7 +205,7 @@
     "page": "Projects",
     "title": "Insurance Product Configuration Engine",
     "anchor": "insurance-product-configuration-engine",
-    "body": "An engine that turns an insurance product into the exact app screens it needs Associated with HSBC (https://www.hsbc.com/) On HSBC's insurance digital-transformation team, I worked on a recurring configuration problem: across dozens of products and multiple markets, which screens and fields should each product display? The rules were spread across business requirements, design libraries, and engineering documents, so they were difficult to compare and easy to let drift. I reorganised them into three linked libraries and a set of decision tables. An Excel and VBA engine then used a product specification to generate the exact UI components required for that product. The tool went through four versions and included a built-in tutorial so the team could maintain it after I left. See how a few answers decide what goes in the bag → July 2024 - April 2025"
+    "body": "An engine that turns an insurance product into the exact app screens it needs Associated with HSBC (https://www.hsbc.com/) On HSBC's insurance digital-transformation team, I worked on a recurring configuration problem across dozens of products and multiple markets. Each product needed a different set of screens and fields. The rules were spread across business requirements, design libraries, and engineering documents, so they were difficult to compare and easy to let drift. I reorganised them into three linked libraries and a set of decision tables. An Excel and VBA engine then used a product specification to generate the exact UI components required for that product. The tool went through four versions and included a built-in tutorial so the team could maintain it after I left. See how a few answers decide what goes in the bag → July 2024 - April 2025"
   },
   {
     "id": 26,
@@ -213,7 +213,7 @@
     "page": "Projects",
     "title": "Advancing Generative AI in Personalized Learning",
     "anchor": "advancing-generative-ai-in-personalized-learning",
-    "body": "A Full-Stack Adaptive Learning Portal with Vue, Flask, and Firestore Associated with PDS Lab (https://psym-ds.github.io/) Working with Prof. Jinsong Chen, I built a full-stack education platform with separate interfaces for learners, instructors, and administrators. Instructors can create question banks and assessment templates, assign content to individuals or groups, and review analytics showing where each learner is struggling. The system uses generative AI, retrieval, and recommendation to suggest questions and study resources based on each learner's progress. I built the platform with Vue.js, Flask, and Firestore. Check out the live demo: LLMAS Portal (https://llmas.pds-lab.org/) Coursework University course projects, taken further. November 2025 – December 2025"
+    "body": "A Full-Stack Adaptive Learning Portal with Vue, Flask, and Firestore Associated with PDS Lab (https://psym-ds.github.io/) Working with Prof. Jinsong Chen, I built a full-stack education platform with separate interfaces for learners, instructors, and administrators. Instructors can create question banks and assessment templates, assign content to individuals or groups, and review analytics showing where each learner is struggling. The system uses generative AI, retrieval, and recommendation to suggest questions and study resources based on each learner's progress. I built the platform with Vue.js, Flask, and Firestore. Check out the live demo: LLMAS Portal (https://llmas.pds-lab.org/) Coursework Projects that started as university coursework. November 2025 – December 2025"
   },
   {
     "id": 27,
@@ -237,7 +237,7 @@
     "page": "Projects",
     "title": "How This Search Was Built",
     "anchor": "how-this-search-was-built",
-    "body": "Search by Meaning and Grounded Q&A, Running Inside a Static Site This static site supports two related features. Search runs entirely in the browser: during the build, each passage is embedded as a vector, and a query is embedded with the same model so semantically similar passages can be found even when they use different words. The results combine lexical and semantic rankings, preserving exact-name matches while still handling paraphrases. Ask uses the site's indexed content to build a grounded prompt, then sends it to a small model running on edge services. The walkthrough exposes both systems through an embedding map, a ranking comparison, and an adjustable relevance threshold. See how your question finds the passages that answer it &rarr; Or just try it: press / or &#8984; + K anywhere on this site and ask something. February 2026 – Present"
+    "body": "Search by Meaning and Grounded Q&A, Running Inside a Static Site This static site supports two related features. Search runs entirely in the browser. During the build, each passage is embedded as a vector, and a query is embedded with the same model so semantically similar passages can be found even when they use different words. The results combine lexical and semantic rankings, preserving exact-name matches while still handling paraphrases. Ask uses the site's indexed content to build a grounded prompt, then sends it to a small model running on edge services. The walkthrough exposes both systems through an embedding map, a ranking comparison, and an adjustable relevance threshold. See how your question finds the passages that answer it &rarr; Or just try it. Press / or &#8984; + K anywhere on this site and ask something. February 2026 – Present"
   },
   {
     "id": 30,
@@ -245,7 +245,7 @@
     "page": "Projects",
     "title": "Congentra",
     "anchor": "congentra",
-    "body": "AI-Native Oral Verification Platform for Assignment Understanding I'm building Congentra, a platform that helps teachers assess whether students understand and can explain the work they submit. It does not attempt to detect AI use. Instead, it reads the assignment and submission, generates targeted oral questions, records the student's spoken responses asynchronously, and assembles the materials into one review file. The reviewer receives the original work, the generated questions, the student's answers, and a compact evidence summary in one place, reducing the time required to review a case while providing a clearer basis for judgment. February 2025 - June 2025"
+    "body": "Oral Verification of Submitted Work I'm building Congentra, a platform that helps teachers assess whether students understand and can explain the work they submit. It does not attempt to detect AI use. Instead, it reads the assignment and submission, generates targeted oral questions, records the student's spoken responses asynchronously, and assembles the materials into one review file. The reviewer receives the original work, the generated questions, the student's answers, and a compact evidence summary in one place, reducing the time required to review a case while providing a clearer basis for judgment. February 2025 - June 2025"
   },
   {
     "id": 31,
@@ -269,7 +269,7 @@
     "page": "Projects",
     "title": "My Early Projects in Secondary School",
     "anchor": "my-early-projects-in-secondary-school",
-    "body": "Downloaders, Browser Extensions, and an Economics Graph Generator These projects trace how I first learned to program during secondary school. I built a downloader for Scientific American audio and transcripts, several Chrome extensions, the first website for Kiwiview International Limited, small automation scripts, and Econographer, a Microsoft Word add-in for drawing economics diagrams. Some of the projects were naive, and a few raised legal or ethical questions that I understood only later. I keep them here as an honest record of how my technical curiosity, judgment, and sense of responsibility developed together. For more details, see My Early CS Adventures ."
+    "body": "Downloaders, Browser Extensions, and an Economics Graph Generator These projects trace how I first learned to program during secondary school. I built a downloader for Scientific American audio and transcripts, several Chrome extensions, the first website for Kiwiview International Limited, small automation scripts, and Econographer, a Microsoft Word add-in for drawing economics diagrams. Some of the projects were naive, and a few raised legal or ethical questions that I understood only later. I keep them here, including the parts I now see differently. For more details, see My Early CS Adventures ."
   },
   {
     "id": 34,
@@ -285,7 +285,7 @@
     "page": "Omni Playbook",
     "title": "Insurance Product Configuration Engine",
     "anchor": "",
-    "body": "Packing for a trip follows a set of conditional rules, even if we rarely describe it that way. A beach trip calls for swimwear; water sports add a snorkel; a ski trip produces a different list. A few answers determine what belongs in the bag. At HSBC I built an engine for a much larger version of the same problem. The interactive example below uses packing rules instead of confidential insurance data, but the underlying logic is the same. First it shows the problem; then it lets you operate the rule system yourself."
+    "body": "Packing for a trip follows a set of conditional rules, even if we rarely describe it that way. A beach trip calls for swimwear. Water sports add a snorkel. A ski trip produces a different list. A few answers determine what belongs in the bag. At HSBC I built an engine for a much larger version of the same problem. The interactive example below uses packing rules instead of confidential insurance data, but the underlying logic is the same. First it shows the problem. Then it lets you operate the rule system yourself."
   },
   {
     "id": 36,
@@ -301,7 +301,7 @@
     "page": "Omni Playbook",
     "title": "The idea",
     "anchor": "the-idea",
-    "body": "I separated the information into three linked libraries, with each part maintained by the team closest to it. Spec What information does the product require? The business fields and their allowed values. Components What can the interface display? The reusable screens and UI components. Config Which components apply under each set of conditions? The decision tables connecting specifications to interface blocks. Keeping these libraries separate allowed business rules and interface components to change independently. The configuration tables connected them at runtime: given a product's answers, the engine selected the required components."
+    "body": "I separated the information into three linked libraries, with each part maintained by the team closest to it. Spec What information does the product require? The business fields and their allowed values. Components What can the interface display? The reusable screens and UI components. Config Which components apply under each set of conditions? The decision tables connecting specifications to interface blocks. Keeping these libraries separate allowed business rules and interface components to change independently. The configuration tables connected them at runtime. Given a product's answers, the engine selected the required components."
   },
   {
     "id": 38,
@@ -309,7 +309,7 @@
     "page": "Omni Playbook",
     "title": "Try it",
     "anchor": "try-it",
-    "body": "This demo uses the same logic with a familiar example. Describe the trip, watch each decision table evaluate the answers, and see the final packing list assemble itself. 1 Tell us about the trip ↳ The follow-up question appears only when an earlier answer makes it relevant. In the production tool, the dependency was encoded in the field definition, allowing the form to update without requiring users to edit the VBA logic. 2 Each decision gets its own rule table Each table represents one decision. A column remains eligible only when all of its conditions match the answers. If several columns match, the most specific column on the right takes priority. ALL acts as a wildcard. Your answers (inputs) What to pack (outputs) 1\"> Your answers match columns; the most specific, “ ” , wins. Your answers land on “ ” . 3 The bag packs itself Packing list Just the essentials for this trip. The same inputs produce the same output every time. Each decision table contributes part of the result, and the combined output becomes the final list. The rules remain explicit in the tables instead of relying on someone to remember them."
+    "body": "This demo uses the same logic with a familiar example. Describe the trip, watch each decision table evaluate the answers, and see the final packing list assemble itself. 1 Tell us about the trip ↳ The follow-up question appears only when an earlier answer makes it relevant. In the production tool, the dependency was encoded in the field definition, allowing the form to update without requiring users to edit the VBA logic. 2 Each decision gets its own rule table Each table represents one decision. A column remains eligible only when all of its conditions match the answers. If several columns match, the most specific column on the right takes priority. ALL acts as a wildcard. Your answers (inputs) What to pack (outputs) 1\"> Your answers match columns. The most specific, “ ” , wins. Your answers land on “ ” . 3 The bag packs itself Packing list Just the essentials for this trip. The same inputs produce the same output every time. Each decision table contributes part of the result, and the combined output becomes the final list. The rules remain explicit in the tables instead of relying on someone to remember them."
   },
   {
     "id": 39,
@@ -317,7 +317,7 @@
     "page": "Omni Playbook",
     "title": "What this really was",
     "anchor": "what-this-really-was",
-    "body": "The production version ran in Excel with a VBA engine of roughly 32 KB. It included a small notation for conditional follow-up fields, decision tables with wildcard matching and right-side overrides, and a dynamic form that non-technical users could complete without editing the underlying code. I developed four versions and added an embedded tutorial so another team member could maintain the tool after my internship. The packing demo replaces confidential insurance data, but the mechanism is the same: it converts fragmented business logic into a shared representation that people can inspect and a computer can execute. ← Back to projects"
+    "body": "The production version ran in Excel with a VBA engine of roughly 32 KB. It included a small notation for conditional follow-up fields, decision tables with wildcard matching and right-side overrides, and a dynamic form that non-technical users could complete without editing the underlying code. I developed four versions and added an embedded tutorial so another team member could maintain the tool after my internship. The packing demo replaces confidential insurance data, but the mechanism is the same. It converts fragmented business logic into a shared representation that people can inspect and a computer can execute. ← Back to projects"
   },
   {
     "id": 40,
@@ -325,7 +325,7 @@
     "page": "Lexaday",
     "title": "Lexaday",
     "anchor": "",
-    "body": "Lexaday combines two ideas: word roots make vocabulary easier to connect, and spaced review keeps earlier material from disappearing. Each daily email introduces one root, shows the words built from it, and includes example sentences and a generated visual mnemonic. Older roots return at progressively longer intervals, so the routine includes both new material and review without requiring the learner to manage a schedule."
+    "body": "Lexaday combines two ideas. Word roots make vocabulary easier to connect, while spaced review keeps earlier material from disappearing. Each daily email introduces one root, shows the words built from it, and includes example sentences and a generated visual mnemonic. Older roots return at progressively longer intervals, so the routine includes both new material and review without requiring the learner to manage a schedule."
   },
   {
     "id": 41,
@@ -333,7 +333,7 @@
     "page": "Lexaday",
     "title": "A small lesson, generated fresh each morning",
     "anchor": "a-small-lesson-generated-fresh-each-morning",
-    "body": "Lexaday builds one compact lesson around a single root: its meaning, related words, an example for each word, and an image designed to make the root easier to remember."
+    "body": "Lexaday builds one compact lesson around a single root. It includes the root's meaning, related words, an example for each word, and an image designed to make it easier to remember."
   },
   {
     "id": 42,
@@ -405,7 +405,7 @@
     "page": "Dealtracker",
     "title": "From noisy sale pages to a short inbox digest",
     "anchor": "from-noisy-sale-pages-to-a-short-inbox-digest",
-    "body": "The workflow is simple: choose the stores, define the brands, sizes, gender, and minimum discount, and let a scheduled job scan the sale pages. The result is not another catalogue. It is a short list of new products that meet the saved criteria. 2 Australian stores 7 brands I track 29-39% minimum discount"
+    "body": "The workflow is simple. Choose the stores, define the brands, sizes, gender, and minimum discount, and let a scheduled job scan the sale pages. The result is not another catalogue. It is a short list of new products that meet the saved criteria. 2 Australian stores 7 brands I track 29-39% minimum discount"
   },
   {
     "id": 51,
@@ -421,7 +421,7 @@
     "page": "Dealtracker",
     "title": "What happens behind the email",
     "anchor": "what-happens-behind-the-email",
-    "body": "Dealtracker performs one narrow task: it checks selected stores on a schedule and sends a message only when it finds a new product I might actually buy. The current version monitors two Australian outdoor retailers, WildEarth and Find Your Feet. Search Generate store-specific sale URLs from the saved brand, size, gender, and discount filters. Read Load the result pages in a headless browser, including dynamic product grids that appear after the initial page load. Clean Standardise brand variants such as Arc'teryx and Arcteryx, and infer product gender from the title when the store data is inconsistent. Compare Check each product against the saved history so previously reported deals do not appear again. Notify Send an HTML digest only when at least one new product passes all filters."
+    "body": "Dealtracker performs one narrow task. It checks selected stores on a schedule and sends a message only when it finds a new product I might actually buy. The current version monitors two Australian outdoor retailers, WildEarth and Find Your Feet. Search Generate store-specific sale URLs from the saved brand, size, gender, and discount filters. Read Load the result pages in a headless browser, including dynamic product grids that appear after the initial page load. Clean Standardise brand variants such as Arc'teryx and Arcteryx, and infer product gender from the title when the store data is inconsistent. Compare Check each product against the saved history so previously reported deals do not appear again. Notify Send an HTML digest only when at least one new product passes all filters."
   },
   {
     "id": 53,
@@ -437,7 +437,7 @@
     "page": "Scrollytelling Engine",
     "title": "Scrollytelling Engine",
     "anchor": "",
-    "body": "A course project required me to explain a data-heavy topic through maps, distributions, and flows. On static slides, the relationships were difficult to follow because the audience had to absorb the chart and the argument at the same time. I therefore built the presentation as a scrolling web narrative: each visual could remain in place while the surrounding explanation changed. As I developed the deck, I separated the presentation system from the original topic and turned it into a reusable engine."
+    "body": "A course project required me to explain a data-heavy topic through maps, distributions, and flows. On static slides, the relationships were difficult to follow because the audience had to absorb the chart and the argument at the same time. I therefore built the presentation as a scrolling web narrative. Each visual could remain in place while the surrounding explanation changed. As I developed the deck, I separated the presentation system from the original topic and turned it into a reusable engine."
   },
   {
     "id": 55,
@@ -469,7 +469,7 @@
     "page": "Early CS Adventure",
     "title": "My Early Adventures in Computer Science",
     "anchor": "",
-    "body": "This page collects the projects I built during junior high and high school, arranged roughly in the order in which I made them. Some of the ideas were naive, and a few crossed legal or ethical boundaries that I did not understand clearly at the time. I have kept them here as an honest record of how my technical ability and judgment developed."
+    "body": "This page collects the projects I built during junior high and high school, arranged roughly in the order in which I made them. Some of the ideas were naive, and a few crossed legal or ethical boundaries that I did not understand clearly at the time. I have kept them here, including the parts I now see differently."
   },
   {
     "id": 59,
@@ -477,7 +477,7 @@
     "page": "Early CS Adventure",
     "title": "How it started",
     "anchor": "how-it-started",
-    "body": "I became interested in computer science at thirteen, during my first year of junior high school. A teacher showed the class how a batch script could create folders automatically. It was a small demonstration, but it changed my idea of what a computer could do: instead of only using software, I could write instructions and make the machine carry them out. I began teaching myself Java and Python and built simple desktop programs, including a contact notebook and a number-guessing game with user accounts and a text-file history. These screenshots show the contact notebook, one of the first applications I completed."
+    "body": "I became interested in computer science at thirteen, during my first year of junior high school. A teacher showed the class how a batch script could create folders automatically. It was a small demonstration, but it changed my idea of what a computer could do. Instead of only using software, I could write instructions and make the machine carry them out. I began teaching myself Java and Python and built simple desktop programs, including a contact notebook and a number-guessing game with user accounts and a text-file history. These screenshots show the contact notebook, one of the first applications I completed."
   },
   {
     "id": 60,
@@ -501,7 +501,7 @@
     "page": "Early CS Adventure",
     "title": "Music Streaming Hacks",
     "anchor": "music-streaming-hacks",
-    "body": "In my first year of high school, I spent several months building a program that downloaded paid music from Chinese streaming services without authorisation. I did not understand the legal and ethical implications clearly when I started. Once I did, I shut the service down. I am not proud of the infringement, but the project remains part of my development because it forced me to recognise that technical difficulty and responsible use are separate questions. I researched how the services exposed media URLs and built an interface that accepted a song-page link from QQ Music, NetEase Cloud Music, KuGou, or KuWo. It could download individual tracks at different quality levels and process multiple pages from an artist catalogue. I also built an account system and restricted some functions to selected users. Technically, it was the most complex application I had attempted at that point; ethically, it was a project I should not have released. I closed the service after about six months. By then, more than four hundred accounts had been created and the system had processed thousands of downloads. I no longer treat those numbers as a measure of success. What matters in retrospect is that the project changed how I think about permission, platform rules, and the responsibility that comes with making software available to other people. These screenshots show the Simplified Chinese interface used by the original audience."
+    "body": "In my first year of high school, I spent several months building a program that downloaded paid music from Chinese streaming services without authorisation. I did not understand the legal and ethical implications clearly when I started. Once I did, I shut the service down. I am not proud of the infringement, but I have kept the project here because it was part of my early programming work. I researched how the services exposed media URLs and built an interface that accepted a song-page link from QQ Music, NetEase Cloud Music, KuGou, or KuWo. It could download individual tracks at different quality levels and process multiple pages from an artist catalogue. I also built an account system and restricted some functions to selected users. Technically, it was the most complex application I had attempted at that point. Ethically, it was a project I should not have released. I closed the service after about six months. By then, more than four hundred accounts had been created and the system had processed thousands of downloads. I no longer treat those numbers as a measure of success. I now think about the project mainly in terms of permission, platform rules, and the responsibility involved in releasing software for other people to use. These screenshots show the Simplified Chinese interface used by the original audience."
   },
   {
     "id": 63,
@@ -605,7 +605,7 @@
     "page": "How This Search Was Built",
     "title": "The constraints that shaped it",
     "anchor": "the-constraints-that-shaped-it",
-    "body": "No search backend The corpus is embedded once during the build and shipped as quantised vectors. Browser search is a local dot-product calculation, so a search query is not sent to a server. One model, both sides The build script and browser use the same MiniLM checkpoint. Document and query embeddings therefore occupy the same vector space. Answers on the edge Generation is the only server-side step. It runs in one edge worker, with a second edge deployment for reachability in mainland China. Free end to end Build-time embeddings and browser retrieval have no per-query cost. Answer generation uses available free tiers, keeping the running cost close to zero. All of it comes together in the palette itself: open search and ask something (or press / or &#8984; + K anywhere on the site). &larr; Back to projects"
+    "body": "No search backend The corpus is embedded once during the build and shipped as quantised vectors. Browser search is a local dot-product calculation, so a search query is not sent to a server. One model, both sides The build script and browser use the same MiniLM checkpoint. Document and query embeddings therefore occupy the same vector space. Answers on the edge Generation is the only server-side step. It runs in one edge worker, with a second edge deployment for reachability in mainland China. Free end to end Build-time embeddings and browser retrieval have no per-query cost. Answer generation uses available free tiers, keeping the running cost close to zero. All of it comes together in the palette itself. open search and ask something (or press / or &#8984; + K anywhere on the site). &larr; Back to projects"
   },
   {
     "id": 76,
@@ -629,7 +629,7 @@
     "page": "Fragments",
     "title": "The Projection of Thought (2)",
     "anchor": "the-projection-of-thought",
-    "body": "I used to think of expression mainly as compression. A thought is larger than a sentence, so putting it into words requires selection: I choose an order, make some relations explicit, and leave other things out. That still feels true, but compression alone makes the thought sound too fixed, as if it were a complete object that language merely made smaller. Often the deeper change is that expression projects a moving state onto a surface.\n\nBefore expression, a thought may contain pressure, direction, hesitation, memory, bodily feeling, and several possible paths at once. These parts do not always stand separately. They pull on one another and change meaning through their relation. A word can feel wrong not because it is false, but because saying it would make the thought turn too early. A vague feeling can hold several directions before any one of them is ready to become a claim.\n\nLanguage makes that movement proceed in a line. One sentence must come before another. A relation becomes a phrase, a pressure becomes a claim, a hesitation becomes a qualification, and an unfinished direction may become a title. What was simultaneous becomes sequential; what was layered is divided into parts; what was still moving becomes easier to treat as a stable object. Expression therefore changes not only how much of the thought remains, but also how its parts relate.\n\nThis projection is necessary. A thought that remains only as pressure may disappear, whereas a sentence gives me something I can return to, revise, compare, and share. The surface genuinely carries the thought, even though it does not contain the whole state from which it came. The problem begins when the surface starts to feel identical to the thought itself.\n\nOnce something has been written, later thinking tends to continue from the written version. I add distinctions, examples, and structure to the sentence I can see, and the result may become clearer while moving away from relations that were active before the sent"
+    "body": "I used to think of expression mainly as compression. A thought is larger than a sentence, so putting it into words means choosing an order, making some relations explicit, and leaving other things out. That still feels true, but compression alone makes the thought sound too fixed, as if it were a complete object that language merely made smaller. Often the deeper change is that expression projects a moving state onto a surface.\n\nBefore expression, a thought may contain pressure, direction, hesitation, memory, bodily feeling, and several possible paths at once. These parts do not always stand separately. They pull on one another and change meaning through their relation. A word can feel wrong not because it is false, but because saying it would make the thought turn too early. A vague feeling can hold several directions before any one of them is ready to become a claim.\n\nLanguage makes that movement proceed in a line. One sentence must come before another. A relation becomes a phrase, a pressure becomes a claim, a hesitation becomes a qualification, and an unfinished direction may become a title. What was simultaneous becomes sequential. What was layered is divided into parts. What was still moving becomes easier to treat as a stable object. Expression therefore changes not only how much of the thought remains, but also how its parts relate.\n\nThis projection is necessary. A thought that remains only as pressure may disappear, whereas a sentence gives me something I can return to, revise, compare, and share. The surface genuinely carries the thought, even though it does not contain the whole state from which it came. The problem begins when the surface starts to feel identical to the thought itself.\n\nOnce something has been written, later thinking tends to continue from the written version. I add distinctions, examples, and structure to the sentence I can see, and the result may become clearer while moving away from relations that were active before the sentence exist"
   },
   {
     "id": 79,
@@ -653,7 +653,7 @@
     "page": "Fragments",
     "title": "Rebuilding Another State Inside Me (2)",
     "anchor": "rebuilding-another-state-inside-me",
-    "body": "I cannot enter another person's internal state directly. Their body, memory, history, habits, fear, shame, desire, and the way a particular event touches all of these remain inside them. What reaches me is what comes out: words, facial expression, tone, silence, movement, posture, the story they tell, what they avoid saying, and the situation around them. These are traces from a system I cannot open from the inside.\n\nEmpathy therefore seems less like direct access and more like reconstruction. I receive another person's signals and use my own body, memory, experience, imagination, and learned sense of people to generate a corresponding state inside me. That state is not an exact copy of what they feel, but it is not simply my ordinary state either. It is produced by my system while being pulled into shape by theirs.\n\nThis makes empathy more than correctly naming an emotion. I may recognise that someone is sad, anxious, embarrassed, or excluded while remaining largely unchanged myself. Deeper empathy seems to involve some movement in my own attention, body, feeling, or tendency to act. My voice may soften, I may become more careful, or I may feel an urge to stop explaining, stay quiet, comfort, protect, or move closer. The other person's state has become active enough inside me to rearrange me for a moment.\n\nThe reconstruction is never neutral because it is built from my own materials. I may understand another person's sadness through a sadness I have known, or their fear through the way fear feels in me. This is necessary; without using myself, I have no route toward them. It is also a source of distortion. Their silence may not mean what my silence would mean, and a strong feeling of recognition may reflect the model I built more than the state they actually occupy. Empathy can be deep and still be wrong.\n\nSelf-empathy may be a special case of the same process. A past version of me is not fully available to the present one, and neither are the parts of myself that "
+    "body": "I cannot enter another person's internal state directly. Their body, memory, history, habits, fear, shame, desire, and the way a particular event touches all of these remain inside them. What reaches me is what comes out: words, facial expression, tone, silence, movement, posture, the story they tell, what they avoid saying, and the situation around them. These are traces from a system I cannot open from the inside.\n\nEmpathy therefore seems less like direct access and more like reconstruction. I receive another person's signals and use my own body, memory, experience, imagination, and learned sense of people to generate a corresponding state inside me. That state is not an exact copy of what they feel, but it is not simply my ordinary state either. It is produced by my system while being pulled into shape by theirs.\n\nThis makes empathy more than correctly naming an emotion. I may recognise that someone is sad, anxious, embarrassed, or excluded while remaining largely unchanged myself. Deeper empathy seems to involve some movement in my own attention, body, feeling, or tendency to act. My voice may soften, I may become more careful, or I may feel an urge to stop explaining, stay quiet, comfort, protect, or move closer. The other person's state has become active enough inside me to rearrange me for a moment.\n\nThe reconstruction is never neutral because it is built from my own materials. I may understand another person's sadness through a sadness I have known, or their fear through the way fear feels in me. This is necessary. Without using myself, I have no route toward them. It is also a source of distortion. Their silence may not mean what my silence would mean, and a strong feeling of recognition may reflect the model I built more than the state they actually occupy. Empathy can be deep and still be wrong.\n\nSelf-empathy may be a special case of the same process. A past version of me is not fully available to the present one, and neither are the parts of myself that "
   },
   {
     "id": 82,
@@ -677,7 +677,7 @@
     "page": "Fragments",
     "title": "The Visible Part of the Mind (2)",
     "anchor": "visible-part-of-the-mind",
-    "body": "Sometimes what I consciously think feels much smaller than what is moving inside my mind. A thought appears clearly enough for me to hold, say, or write down, and because it is the part I can reach, I may take it for the whole thought. Yet memory, mood, bodily state, recent experience, old associations, unfinished ideas, and the current situation may already be shaping what appears without becoming visible themselves. I receive a sentence, a feeling, a preference, or a sense that something is wrong, but not the full process that produced it.\n\nMaybe consciousness is not where a thought begins, but where something becomes reachable. A memory can affect my reaction without appearing as a memory. A mood can alter how I read a situation without announcing itself. A past experience can make one idea feel natural and another feel wrong even when I cannot trace the path. When something becomes conscious, it may not be created at that moment; it may have become available to the part of me that can notice, name, report, and continue working on it.\n\nWhat becomes available is still a projection through a current way of reading. The same underlying material can appear as nostalgia, regret, evidence, a story, or a small image. A place can feel like home, distance, pressure, freedom, or nothing special. The material has not necessarily changed completely, but attention, language, mood, bodily state, recent events, and what I am trying to do determine which part becomes visible and what form it takes.\n\nThis makes the conscious thought both real and partial. It is real because it came from somewhere in the larger system and carries information from it. A sudden feeling that a sentence is wrong, a memory matters, or an idea is not ready is not meaningless. It is partial because another state or another moment might have made the same underlying material appear differently. Returning to an old idea may feel like continuing the same thought when I am actually reading it through a new l"
+    "body": "Sometimes what I consciously think feels much smaller than what is moving inside my mind. A thought appears clearly enough for me to hold, say, or write down, and because it is the part I can reach, I may take it for the whole thought. Yet memory, mood, bodily state, recent experience, old associations, unfinished ideas, and the current situation may already be shaping what appears without becoming visible themselves. I receive a sentence, a feeling, a preference, or a sense that something is wrong, but not the full process that produced it.\n\nMaybe consciousness is not where a thought begins, but where something becomes reachable. A memory can affect my reaction without appearing as a memory. A mood can alter how I read a situation without announcing itself. A past experience can make one idea feel natural and another feel wrong even when I cannot trace the path. When something becomes conscious, it may not be created at that moment. It may have become available to the part of me that can notice, name, report, and continue working on it.\n\nWhat becomes available is still a projection through a current way of reading. The same underlying material can appear as nostalgia, regret, evidence, a story, or a small image. A place can feel like home, distance, pressure, freedom, or nothing special. The material has not necessarily changed completely, but attention, language, mood, bodily state, recent events, and what I am trying to do determine which part becomes visible and what form it takes.\n\nThis makes the conscious thought both real and partial. It is real because it came from somewhere in the larger system and carries information from it. A sudden feeling that a sentence is wrong, a memory matters, or an idea is not ready is not meaningless. It is partial because another state or another moment might have made the same underlying material appear differently. Returning to an old idea may feel like continuing the same thought when I am actually reading it through a new l"
   },
   {
     "id": 85,
@@ -693,7 +693,7 @@
     "page": "Fragments",
     "title": "Before Defining Understanding (2)",
     "anchor": "understanding-before-definition",
-    "body": "I do not want to define understanding too early. The word clearly points to something important, but it gathers many questions before they have been separated. Sometimes understanding means giving the right answer; elsewhere it means explaining, transferring, generalising, correcting, compressing, using, grounding, experiencing, or being conscious of something. These may be related, but they are not identical. A quick definition can select one layer and make it look as though the entire problem has been solved.\n\nThis matters for both people and machines. A student may solve a problem correctly without knowing why. A person may explain something fluently while missing the structure that would support transfer. A model may produce a strong answer while failing to adapt when the surface form changes. Instead of first asking whether a system understands, I would rather ask what capacity is at issue: Can it answer? Can it explain? Can it use the idea in a new situation? Can it recognise the same structure under a different surface? Can it notice failure and revise itself? Is there experience behind the behaviour?\n\nThe usual contrast between correlation and causation has a similar problem. People often say that machines learn correlations while humans understand causes. There is something useful in the distinction, but it is too clean. Humans also begin with regularities. We notice that events occur together and form expectations. A regularity may then become an assumption, guide action, meet resistance from the world, and be corrected, refined, or abandoned. That movement from pattern to use, failure, and revision may be more informative than treating understanding as one final property.\n\nSimilar outward behaviour is therefore not enough. Two systems may answer the same question correctly while depending on different processes. One may transfer, another may break; one may revise after an error, another may repeat a familiar pattern in a new surface form. Calling both cas"
+    "body": "I do not want to define understanding too early. The word clearly points to something important, but it gathers many questions before they have been separated. Sometimes understanding means giving the right answer. Elsewhere it means explaining, transferring, generalising, correcting, compressing, using, grounding, experiencing, or being conscious of something. These may be related, but they are not identical. A quick definition can select one layer and make it look as though the entire problem has been solved.\n\nThis matters for both people and machines. A student may solve a problem correctly without knowing why. A person may explain something fluently while missing the structure that would support transfer. A model may produce a strong answer while failing to adapt when the surface form changes. Instead of first asking whether a system understands, I would rather ask what capacity is at issue: Can it answer? Can it explain? Can it use the idea in a new situation? Can it recognise the same structure under a different surface? Can it notice failure and revise itself? Is there experience behind the behaviour?\n\nThe usual contrast between correlation and causation has a similar problem. People often say that machines learn correlations while humans understand causes. There is something useful in the distinction, but it is too clean. Humans also begin with regularities. We notice that events occur together and form expectations. A regularity may then become an assumption, guide action, meet resistance from the world, and be corrected, refined, or abandoned. That movement from pattern to use, failure, and revision may be more informative than treating understanding as one final property.\n\nSimilar outward behaviour is therefore not enough. Two systems may answer the same question correctly while depending on different processes. One may transfer while another breaks. One may revise after an error, while another repeats a familiar pattern in a new surface form. Calling bot"
   },
   {
     "id": 87,
@@ -709,7 +709,7 @@
     "page": "Fragments",
     "title": "Expression, Recording, and the Compressed Version of Thought (2)",
     "anchor": "expression-recording",
-    "body": "When a thought is still in my head, it is usually not a complete sentence. It is closer to a mixture of feeling, direction, memory, and relations that I cannot yet explain. To express it, I have to choose words, divide what was mixed together, and put the parts in an order. This makes the thought available to other people and to my later self. Without expression, many thoughts would remain too vague to examine and too fragile to preserve.\n\nExpression therefore gives thought a usable form, but it is not a neutral transfer. Language turns a continuous or layered state into a more discrete version. Mixed feelings become separate descriptions; simultaneous relations are spoken one after another; boundaries appear where the original state may not have contained clear divisions. The expressed version can be clearer and easier to work with while no longer being identical to what existed before the words.\n\nRecording adds another change. A spoken thought can still disappear, but a written note persists as an object: a title, paragraph, file, or page that can be opened, quoted, revised, classified, and connected to other material. This is enormously useful. Writing means I do not have to reconstruct the thought from nothing each time, and it gives scattered ideas a chance to accumulate.\n\nThe difficulty is that the recorded version becomes the next starting point. When I return, I often continue from the sentence on the page rather than from the larger state that produced it. I explain the sentence, defend it, add distinctions to it, and let its wording suggest the next move. The thought may become more coherent while growing according to the shape of its record. The record preserves a path, but by making that path easy to re-enter, it can also make other paths less visible.\n\nDifferent languages may cut the same material differently. This is not the simple claim that one language makes people more rational or emotional. It is that each language offers different distinctions, r"
+    "body": "When a thought is still in my head, it is usually not a complete sentence. It is closer to a mixture of feeling, direction, memory, and relations that I cannot yet explain. To express it, I have to choose words, divide what was mixed together, and put the parts in an order. This makes the thought available to other people and to my later self. Without expression, many thoughts would remain too vague to examine and too fragile to preserve.\n\nExpression therefore gives thought a usable form, but it is not a neutral transfer. Language turns a continuous or layered state into a more discrete version. Mixed feelings become separate descriptions. Simultaneous relations are spoken one after another. Boundaries appear where the original state may not have contained clear divisions. The expressed version can be clearer and easier to work with while no longer being identical to what existed before the words.\n\nRecording adds another change. A spoken thought can still disappear, but a written note persists as an object: a title, paragraph, file, or page that can be opened, quoted, revised, classified, and connected to other material. This is enormously useful. Writing means I do not have to reconstruct the thought from nothing each time, and it gives scattered ideas a chance to accumulate.\n\nThe difficulty is that the recorded version becomes the next starting point. When I return, I often continue from the sentence on the page rather than from the larger state that produced it. I explain the sentence, defend it, add distinctions to it, and let its wording suggest the next move. The thought may become more coherent while growing according to the shape of its record. The record preserves a path, but by making that path easy to re-enter, it can also make other paths less visible.\n\nDifferent languages may cut the same material differently. This is not the simple claim that one language makes people more rational or emotional. It is that each language offers different distinctions, r"
   },
   {
     "id": 89,
@@ -733,18 +733,10 @@
     "page": "Fragments",
     "title": "Rich Traces and Open Paths (2)",
     "anchor": "rich-traces-and-open-paths",
-    "body": "I often use voice input when I talk to AI. The obvious reason is speed: I can keep speaking before a thought disappears. But voice also preserves more of the process by which the thought is forming. A typed prompt is often already cleaned up. Before typing, I tend to choose a direction, remove hesitation, and turn the thought into something that resembles a well-defined request. That can be efficient, but it gives the model a thinner record of what was actually happening.\n\nVoice is messier. I repeat myself, change direction, reject a phrase as soon as I say it, remember another example, and leave some relations unfinished. The transcript is not direct access to the original thought; expression has already changed the state, and transcription changes it again. Still, it can preserve more false starts, emphasis, resistance, and uncertainty than a polished prompt. I think of it as a richer external trace, not as an unfiltered copy of the mind.\n\nThat richer trace gives AI more evidence about the path that produced the request. It can see which examples mattered, which formulations failed, and where I remained unsure. The structure it returns is therefore more likely to feel recognisable and easier for me to test against what I was trying to hold. This is not only a matter of answer quality. It also affects uptake: I can work with a reconstruction more easily when I can see how it connects to my own unfinished movement.\n\nNot every uncertainty has the same source. Sometimes the task is already settled, as when I am polishing a message or expressing a claim whose role is fixed. More context simply helps the model produce the expected form. Sometimes the task only appears open because I supplied too little: a vague sentence invites a conventional frame, and the remedy is to add examples, rejected versions, background, and constraints. In both cases, richer input can make the answer converge.\n\nThe more interesting case is when the trace is already rich and the path is still "
+    "body": "I often use voice input when I talk to AI. The obvious reason is speed. I can keep speaking before a thought disappears. But voice also preserves more of the process by which the thought is forming. A typed prompt is often already cleaned up. Before typing, I tend to choose a direction, remove hesitation, and turn the thought into something that resembles a well-defined request. That can be efficient, but it gives the model a thinner record of what was actually happening.\n\nVoice is messier. I repeat myself, change direction, reject a phrase as soon as I say it, remember another example, and leave some relations unfinished. The transcript is not direct access to the original thought. Expression has already changed the state, and transcription changes it again. Still, it can preserve more false starts, emphasis, resistance, and uncertainty than a polished prompt. I think of it as a richer external trace, not as an unfiltered copy of the mind.\n\nThat richer trace gives AI more evidence about the path that produced the request. It can see which examples mattered, which formulations failed, and where I remained unsure. The structure it returns is therefore more likely to feel recognisable and easier for me to test against what I was trying to hold. This is not only a matter of answer quality. It also affects uptake. I can work with a reconstruction more easily when I can see how it connects to my own unfinished movement.\n\nNot every uncertainty has the same source. Sometimes the task is already settled, as when I am polishing a message or expressing a claim whose role is fixed. More context simply helps the model produce the expected form. Sometimes the task only appears open because I supplied too little. A vague sentence invites a conventional frame, and the remedy is to add examples, rejected versions, background, and constraints. In both cases, richer input can make the answer converge.\n\nThe more interesting case is when the trace is already rich and the path is still "
   },
   {
     "id": 92,
-    "route": "/fragments",
-    "page": "Fragments",
-    "title": "Rich Traces and Open Paths (3)",
-    "anchor": "rich-traces-and-open-paths",
-    "body": "The practical lesson is therefore not simply to give AI more information. Richer traces help when the model lacks the material needed to reconstruct the problem. When the material is already rich and the path remains open, that remaining uncertainty may be exactly where thinking has to continue. This is why fragments matter to me. A fragment records a moment that became visible enough to keep but not settled enough to close. AI can help me reconnect and examine those traces, but the path that follows cannot always be completed from the record. Some part of it still has to be lived forward."
-  },
-  {
-    "id": 93,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Labels, Goals, and Rules as Ways of Shaping People",
@@ -752,23 +744,23 @@
     "body": "Labels, goals, and rules reduce complex people to forms that can be read and acted on, then return as expectations and training signals that help shape what those people become."
   },
   {
-    "id": 94,
+    "id": 93,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Labels, Goals, and Rules as Ways of Shaping People (2)",
     "anchor": "labels-goals-rules",
-    "body": "If language can compress thought, labels can compress people. A person contains experiences, habits, desires, fears, abilities, contradictions, and tendencies that do not naturally arrive in neat categories. We are not born already divided into personality type, occupation, research direction, hobbies, values, and life stages. Those divisions are made later because a whole person is too complex to communicate each time.\n\nThe compression is useful. A label gives other people a rough entry point and gives me a way to gather scattered parts of myself. Saying that someone is a researcher, an introvert, a musician, or a certain kind of friend does not capture the person, but it makes some pattern easier to remember and discuss. A label works as a handle. The problem begins when the handle is treated as the whole person and the loss created by compression is forgotten.\n\nA label does not remain a passive summary. Once repeated, it starts to affect what happens next. I may feel that because I am this kind of person, I should continue behaving in the expected way, protect the identity, or ignore parts of myself that do not fit it. Other people also respond to the label by changing their expectations, opportunities, feedback, and limits. Being seen as suited to something can bring more chances to practise it; being seen as unsuited can remove those chances before the ability has had room to develop.\n\nA feedback loop forms. Internal tendencies produce behaviour; the outside world compresses that behaviour into a label; the label changes the environment; and the altered environment shapes later behaviour and internal structure. This can help someone grow into a possibility that others recognised early. It can also trap someone inside an inaccurate version that receives enough reinforcement to become partly true. A label is therefore not only a description. It can become part of a person's training environment.\n\nGoals have a related structure, but they are usually directed towar"
+    "body": "If language can compress thought, labels can compress people. A person contains experiences, habits, desires, fears, abilities, contradictions, and tendencies that do not naturally arrive in neat categories. We are not born already divided into personality type, occupation, research direction, hobbies, values, and life stages. Those divisions are made later because a whole person is too complex to communicate each time.\n\nThe compression is useful. A label gives other people a rough entry point and gives me a way to gather scattered parts of myself. Saying that someone is a researcher, an introvert, a musician, or a certain kind of friend does not capture the person, but it makes some pattern easier to remember and discuss. A label works as a handle. The problem begins when the handle is treated as the whole person and the loss created by compression is forgotten.\n\nA label does not remain a passive summary. Once repeated, it starts to affect what happens next. I may feel that because I am this kind of person, I should continue behaving in the expected way, protect the identity, or ignore parts of myself that do not fit it. Other people also respond to the label by changing their expectations, opportunities, feedback, and limits. Being seen as suited to something can bring more chances to practise it. Being seen as unsuited can remove those chances before the ability has had room to develop.\n\nA feedback loop forms. Internal tendencies produce behaviour. The outside world compresses that behaviour into a label. The label changes the environment, and the altered environment shapes later behaviour and internal structure. This can help someone grow into a possibility that others recognised early. It can also trap someone inside an inaccurate version that receives enough reinforcement to become partly true. A label is therefore not only a description. It can become part of a person's training environment.\n\nGoals have a related structure, but they are usually directed towar"
   },
   {
-    "id": 95,
+    "id": 94,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Labels, Goals, and Rules as Ways of Shaping People (3)",
     "anchor": "labels-goals-rules",
-    "body": "The same compliant behaviour can therefore come from different internal paths. One person may not have the prohibited impulse at all. Another may have it and override it through a rule. The final output looks the same, but the underlying systems are not. This does not make behaviour unimportant; behaviour protects or harms people, and external constraints are often necessary. It only means that behaviour alone may not reveal what had to be controlled on the way to it.\n\nRepeated override can also become training. A rule that first appears after an impulse may gradually enter earlier into attention and decision. It may become easier to apply, turn into habit, and eventually change which responses arise at all. But internalisation is not guaranteed or uniformly good. Some rules remain surface compliance, some reshape habit, and some alter judgment more deeply. Rules can protect people and create coordination, but they can also force people into unreasonable forms. Their effects depend on what they demand and how they are reinforced.\n\nAI can participate in this process as another source of structure and feedback. It does not only organise my content; it repeatedly demonstrates a way of moving thought forward. Something vague becomes a list, the list becomes a framework, the framework produces next steps, and the result looks complete. This rhythm is useful, but it is also easy to internalise. If I work through it constantly, I may begin to feel that every thought should be classified quickly, named cleanly, and moved toward an output. AI is not forcing me, yet it can still shape what I experience as clear, logical, and finished.\n\nThis may be why being summarised can feel uncomfortable even when the summary is not obviously false. A summary creates a portable version of a person that other people can circulate and respond to. When the version is clear and coherent, it may become easier to look at the summary than to keep looking at the person. Being misunderstood is pain"
+    "body": "The same compliant behaviour can therefore come from different internal paths. One person may not have the prohibited impulse at all. Another may have it and override it through a rule. The final output looks the same, but the underlying systems are not. This does not make behaviour unimportant. Behaviour protects or harms people, and external constraints are often necessary. It only means that behaviour alone may not reveal what had to be controlled on the way to it.\n\nRepeated override can also become training. A rule that first appears after an impulse may gradually enter earlier into attention and decision. It may become easier to apply, turn into habit, and eventually change which responses arise at all. But internalisation is not guaranteed or uniformly good. Some rules remain surface compliance, some reshape habit, and some alter judgment more deeply. Rules can protect people and create coordination, but they can also force people into unreasonable forms. Their effects depend on what they demand and how they are reinforced.\n\nAI can participate in this process as another source of structure and feedback. It does not only organise my content. It repeatedly demonstrates a way of moving thought forward. Something vague becomes a list, the list becomes a framework, the framework produces next steps, and the result looks complete. This rhythm is useful, but it is also easy to internalise. If I work through it constantly, I may begin to feel that every thought should be classified quickly, named cleanly, and moved toward an output. AI is not forcing me, yet it can still shape what I experience as clear, logical, and finished.\n\nThis may be why being summarised can feel uncomfortable even when the summary is not obviously false. A summary creates a portable version of a person that other people can circulate and respond to. When the version is clear and coherent, it may become easier to look at the summary than to keep looking at the person. Being misunderstood is pain"
   },
   {
-    "id": 96,
+    "id": 95,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Memory Compresses Time, but the Self Is Changed by Passing Through It",
@@ -776,23 +768,23 @@
     "body": "Memory turns continuous life into stages and stories, while the self may depend not only on what is remembered at the end but on the process of actually passing through time."
   },
   {
-    "id": 97,
+    "id": 96,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Memory Compresses Time, but the Self Is Changed by Passing Through It (2)",
     "anchor": "memory-time-self",
-    "body": "Life does not arrive already divided into chapters. While I am living it, one day follows another and many changes have no visible border. Only later do I describe one period as high school, another as university, one year as a turning point, or one city as the place where I changed. Memory helps create those divisions because it cannot preserve continuous life at the same resolution forever.\n\nThe compression seems to have a temporal gradient. Recent experience still carries temperature, tone, small details, and unresolved feeling. As time recedes, a year becomes a few scenes, a place becomes an atmosphere, and a relationship becomes a story I know how to tell. Distant life was not originally made of those keywords. Memory has folded many ordinary days into a smaller number of stages that are easier to hold.\n\nThis is useful. If every past moment remained equally vivid, moving through the present might become impossible. But compression also narrows. A year remembered as painful still contained ordinary afternoons and moments of humour; a city remembered as important also contained boredom, repetition, and tired days. Old photographs, messages, and notes can feel strange because they reopen details that no longer fit the cleaner version I later formed. They reveal that the period was messier and more alive than the chapter title suggests.\n\nThis makes me think of the self less as a fixed point and more as a trajectory. The version of me at each moment is not identical to the next, but the versions do not appear independently. Experience, memory, language, relationships, and bodily states update the system gradually. The future me is not a stranger who suddenly replaces the present one. He is what this current system becomes after passing through many small changes.\n\nThe path between two versions may matter more than their similarity. The person I was ten years ago and the person I am now may look quite different, yet each change grew out of what came before. Another p"
+    "body": "Life does not arrive already divided into chapters. While I am living it, one day follows another and many changes have no visible border. Only later do I describe one period as high school, another as university, one year as a turning point, or one city as the place where I changed. Memory helps create those divisions because it cannot preserve continuous life at the same resolution forever.\n\nThe compression seems to have a temporal gradient. Recent experience still carries temperature, tone, small details, and unresolved feeling. As time recedes, a year becomes a few scenes, a place becomes an atmosphere, and a relationship becomes a story I know how to tell. Distant life was not originally made of those keywords. Memory has folded many ordinary days into a smaller number of stages that are easier to hold.\n\nThis is useful. If every past moment remained equally vivid, moving through the present might become impossible. But compression also narrows. A year remembered as painful still contained ordinary afternoons and moments of humour. A city remembered as important also contained boredom, repetition, and tired days. Old photographs, messages, and notes can feel strange because they reopen details that no longer fit the cleaner version I later formed. They reveal that the period was messier and more alive than the chapter title suggests.\n\nThis makes me think of the self less as a fixed point and more as a trajectory. The version of me at each moment is not identical to the next, but the versions do not appear independently. Experience, memory, language, relationships, and bodily states update the system gradually. The future me is not a stranger who suddenly replaces the present one. He is what this current system becomes after passing through many small changes.\n\nThe path between two versions may matter more than their similarity. The person I was ten years ago and the person I am now may look quite different, yet each change grew out of what came before. Another p"
   },
   {
-    "id": 98,
+    "id": 97,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Memory Compresses Time, but the Self Is Changed by Passing Through It (3)",
     "anchor": "memory-time-self",
-    "body": "This does not mean pain is inherently valuable. Much pain only harms, and not every injury produces growth. I do not want to turn suffering into a requirement for a meaningful life. The thought experiment asks a narrower question: if the self is partly the path by which one state becomes another, can a perfect memory of the path replace having moved through it? The person after the jump knows the road and feels that he walked it, but he was not gradually changed by each step.\n\nThat is why I remain uncertain about the pill. I might still choose to avoid the pain. I only understand better why preserving the ending may not preserve everything. Memory compresses time into stages and stories so the past can be held and narrated, but the self may also be formed by the continuous passage that no later account can contain in full. What I remember afterward is a chapter. What I lived was a line, and part of who I became may lie in having moved along it."
+    "body": "I do not think pain is valuable simply because it is pain. The question is narrower. If the self is partly the path by which one state becomes another, can a perfect memory of that path replace having moved through it? The person after the jump knows the road and feels that he walked it, but he was not gradually changed by each step.\n\nThat is why I remain uncertain about the pill. I might still choose to avoid the pain. What bothers me is that the person who remembers the whole period may still not be quite the same as the person who actually passed through it. I am not sure whether memory can preserve that difference."
   },
   {
-    "id": 99,
+    "id": 98,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Satisfaction Is Not a Fixed Reward",
@@ -800,39 +792,39 @@
     "body": "Satisfaction may be understood as a changing feedback process shaped by timing, interpretation, habit, and individual difference rather than as a fixed reward attached to an activity."
   },
   {
-    "id": 100,
+    "id": 99,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Satisfaction Is Not a Fixed Reward (2)",
     "anchor": "satisfaction-signal",
-    "body": "I sometimes wonder whether happiness can be understood partly through satisfaction. This is not meant as a complete definition. Happiness may also involve meaning, relationships, value, security, and many other things. But satisfaction becomes more useful to think with once it is not reduced to immediate pleasure. It can come from eating something good, finishing a difficult task, delaying a reward, controlling an impulse, helping someone, finding a bargain, or feeling that I made a sound decision.\n\nDelayed gratification is therefore not simply the rejection of satisfaction. A person may value the later reward, but may also gain something from waiting, planning, self-control, or becoming the kind of person who can keep a commitment. Immediate and delayed gratification can be different satisfaction curves rather than moral opposites. What appears more rational may itself feel satisfying because it produces a stronger, steadier, or longer-lasting return in that person's system.\n\nI find it useful to think of satisfaction as an internal feedback signal, without claiming that it is one specific biological quantity. Activities can produce signals with different intensities, delays, durations, and meanings. The same activity can feel rewarding to one person and empty to another, or change for the same person across stages of life. The external behaviour alone does not reveal the return generated inside the person.\n\nBuying discounted products is a small example. One person may see the search as wasted time: the money saved does not justify the attention spent. Another person may enjoy comparing options, waiting, finding the right moment, and feeling that resources were used well. The discount is then not only a financial outcome. The process itself produces a small sense of skill, control, and victory. For the first person, an hour of searching is mainly a cost; for the second, part of that hour is also the return.\n\nThis changes how I think about opportunity cost. Money and"
+    "body": "I sometimes wonder whether happiness can be understood partly through satisfaction. This is not meant as a complete definition. Happiness may also involve meaning, relationships, value, security, and many other things. But satisfaction becomes more useful to think with once it is not reduced to immediate pleasure. It can come from eating something good, finishing a difficult task, delaying a reward, controlling an impulse, helping someone, finding a bargain, or feeling that I made a sound decision.\n\nDelayed gratification is therefore not simply the rejection of satisfaction. A person may value the later reward, but may also gain something from waiting, planning, self-control, or becoming the kind of person who can keep a commitment. Immediate and delayed gratification can be different satisfaction curves rather than moral opposites. What appears more rational may itself feel satisfying because it produces a stronger, steadier, or longer-lasting return in that person's system.\n\nI find it useful to think of satisfaction as an internal feedback signal, without claiming that it is one specific biological quantity. Activities can produce signals with different intensities, delays, durations, and meanings. The same activity can feel rewarding to one person and empty to another, or change for the same person across stages of life. The external behaviour alone does not reveal the return generated inside the person.\n\nBuying discounted products is a small example. One person may see the search as wasted time because the money saved does not justify the attention spent. Another person may enjoy comparing options, waiting, finding the right moment, and feeling that resources were used well. The discount is then not only a financial outcome. The process itself produces a small sense of skill, control, and victory. For the first person, an hour of searching is mainly a cost. For the second, part of that hour is also the return.\n\nThis changes how I think about opportunity cost. Mo"
+  },
+  {
+    "id": 100,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Satisfaction Is Not a Fixed Reward (3)",
+    "anchor": "satisfaction-signal",
+    "body": "I increasingly think of satisfaction less as a fixed reward attached to an activity and more as something that changes with behaviour, timing, interpretation, and history. The same activity can return something very different to different people, or to the same person at different times. That makes me curious about how much of everyday satisfaction is something we can gradually learn to notice, shape, or build."
   },
   {
     "id": 101,
     "route": "/fragments",
     "page": "Fragments",
-    "title": "Satisfaction Is Not a Fixed Reward (3)",
-    "anchor": "satisfaction-signal",
-    "body": "There are limits. Some conditions are simply damaging, and poverty, illness, oppression, or chronic stress cannot be solved by reinterpretation. Strong stimulation also changes the system that receives it. When rewards arrive quickly and intensely, the old high point can become a new baseline, making ordinary experience feel flat and increasing the amount required for the same effect. Satisfaction is therefore shaped not only by what is obtained, but by sequence, contrast, adaptation, and the process of obtaining it.\n\nI increasingly think satisfaction is less like a fixed number attached to an object and more like a changing feedback process generated through behaviour, time, interpretation, and individual history. External conditions remain essential, but people do not receive happiness from the world in a simple linear way. The system adapts, compares, learns, and assigns meaning. One part of living well may therefore be finding not only stronger sources of satisfaction, but more ways for ordinary activity to produce small and sustainable signals that make life feel worth continuing."
+    "title": "Oysters and Black Truffle Toast at Queen Victoria Market",
+    "anchor": "queen-victoria-market-toast-oysters",
+    "body": "A Melbourne food memory from my last day of exchange, with oysters, lemon juice, and black truffle toast at Queen Victoria Market."
   },
   {
     "id": 102,
     "route": "/fragments",
     "page": "Fragments",
-    "title": "Oysters and Black Truffle Toast at Queen Victoria Market",
+    "title": "Oysters and Black Truffle Toast at Queen Victoria Market (2)",
     "anchor": "queen-victoria-market-toast-oysters",
-    "body": "A Melbourne food memory from my last day before leaving exchange: oysters with lemon juice and black truffle toast at Queen Victoria Market."
+    "body": "Queen Victoria Market in Melbourne gave me one of those food memories I still think about after leaving the city. The oysters were fresh, cold, and clean, and a squeeze of lemon made the taste even sharper and clearer. The black truffle toast was unexpectedly good too. It was warm, rich, fragrant, and straightforward.\n\nWhat fixes it in my memory is that I went with my sister on my last day of the Melbourne exchange. It was as much about the timing as the food, a final market morning and a final meal before leaving, something simple that ended up tied to the whole exchange. It is one of the things I still miss about Melbourne."
   },
   {
     "id": 103,
-    "route": "/fragments",
-    "page": "Fragments",
-    "title": "Oysters and Black Truffle Toast at Queen Victoria Market (2)",
-    "anchor": "queen-victoria-market-toast-oysters",
-    "body": "Queen Victoria Market in Melbourne gave me one of those food memories that stayed with me after I left the city. The oysters were fresh, cold, and clean, and a squeeze of lemon made the taste even sharper and clearer. The black truffle toast was unexpectedly good too: warm, rich, fragrant, and straightforward.\n\nWhat fixes it in my memory is that I went with my sister on my last day of the Melbourne exchange. It was as much about the timing as the food, a final market morning and a final meal before leaving, something simple that ended up tied to the whole exchange. It is one of the things I still miss about Melbourne."
-  },
-  {
-    "id": 104,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Chaoshan Beef Hot Pot in Guangzhou",
@@ -840,7 +832,7 @@
     "body": "A Guangzhou food memory with my father: springy beef balls, tender diaolong beef, and a clean flavour I preferred eating without sauce."
   },
   {
-    "id": 105,
+    "id": 104,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Chaoshan Beef Hot Pot in Guangzhou (2)",
@@ -848,7 +840,7 @@
     "body": "When I travelled to Guangzhou with my father, we went for Chaoshan beef hot pot. The meal stayed with me partly because the food was good and partly because it became one of the moments attached to that trip with him.\n\nI especially liked the beef balls and diaolong, a tender sliced cut commonly served in Chaoshan hot pot. The beef balls were springy and strongly beefy, while the diaolong was softer and cleaner in flavour. I usually ate both without dipping sauce because I preferred tasting the beef and broth directly rather than covering them with something stronger."
   },
   {
-    "id": 106,
+    "id": 105,
     "route": "/fragments",
     "page": "Fragments",
     "title": "AI-Generated Kitten Videos and Manufactured Cuteness",
@@ -856,31 +848,31 @@
     "body": "AI-generated kitten videos are a good example of synthetic content still reaching human senses and triggering real emotional responses."
   },
   {
-    "id": 107,
+    "id": 106,
     "route": "/fragments",
     "page": "Fragments",
     "title": "AI-Generated Kitten Videos and Manufactured Cuteness (2)",
     "anchor": "ai-generated-kitten-videos",
-    "body": "I have seen a lot of AI-generated videos on social media where kittens interact with people, along with more surreal ones, like a plush watermelon being opened to reveal little kittens inside. I find them very cute, and clearly plenty of other people do too.\n\nWhat interests me is not just that they are cute, but that they show generative content triggering real emotion. The kittens are not real in the usual sense, yet the videos still reach human perception through softness, smallness, eye contact, movement, care, and surprise, and those signals are enough to move people.\n\nThat is part of what makes this kind of content valuable: it can create things that touch the senses even when the objects are synthetic. It also calls for some caution, because the same ability can be abused. If generated content can reliably press emotional buttons, it can also be used to manipulate attention, sympathy, desire, or belief. So the value of generative content is not only about how realistic it is; often it lies in producing emotionally meaningful sensory patterns, and precisely because those patterns work on people, they need to be handled with care."
+    "body": "I have seen a lot of AI-generated videos on social media where kittens interact with people, along with more surreal ones, like a plush watermelon being opened to reveal little kittens inside. I find them very cute, and clearly plenty of other people do too.\n\nWhat interests me is not just that they are cute, but that they show generative content triggering real emotion. The kittens are not real in the usual sense, yet the videos still reach human perception through softness, smallness, eye contact, movement, care, and surprise, and those signals are enough to move people.\n\nThat is part of what interests me about this kind of content. The objects are synthetic, but the response they produce is not. The same mechanism can also be used more deliberately to steer attention or emotion, which makes the boundary between harmless manufactured cuteness and manipulation worth thinking about."
+  },
+  {
+    "id": 107,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "A Conversation About Identity",
+    "anchor": "identity-interview-reflection",
+    "body": "After taking part in an interview about growing up in Shanghai with Taiwanese family roots, I found it easier to think of identity as layered rather than confused."
   },
   {
     "id": 108,
     "route": "/fragments",
     "page": "Fragments",
-    "title": "A Conversation About Identity",
+    "title": "A Conversation About Identity (2)",
     "anchor": "identity-interview-reflection",
-    "body": "After taking part in an interview about growing up between Shanghai and Taiwanese family roots, I found a clearer way to describe identity: not confused, but layered."
+    "body": "I once took part in an interview about identity and about growing up with a Taiwanese family background while living mostly in Shanghai. I had not planned to write about it publicly, but the conversation helped me organize a lot of scattered feelings that had sat in the background for a long time.\n\nWhat I took from the conversation was not a dramatic conclusion but a quieter one. Identity does not have to be a single answer. It can be made of several layers at once, where I grew up, where my family comes from, the languages and habits that shaped me, the places that feel familiar, and the way I introduce myself in different rooms.\n\nThe interview helped me see that this is not really confusion so much as a layered structure, where different parts become more visible in different situations. Sometimes Shanghai is the most natural answer. Sometimes my Taiwanese family roots matter more, and neither cancels the other. The conversation gave me a calmer way to look back at my background without forcing it into one simple label."
   },
   {
     "id": 109,
-    "route": "/fragments",
-    "page": "Fragments",
-    "title": "A Conversation About Identity (2)",
-    "anchor": "identity-interview-reflection",
-    "body": "I once took part in an interview about identity and about growing up with a Taiwanese family background while living mostly in Shanghai. I had not planned to write about it publicly, but the conversation helped me organize a lot of scattered feelings that had sat in the background for a long time.\n\nWhat stayed with me was not a dramatic conclusion but a quieter one: identity does not have to be a single answer. It can be made of several layers at once, where I grew up, where my family comes from, the languages and habits that shaped me, the places that feel familiar, and the way I introduce myself in different rooms.\n\nThe interview helped me see that this is not really confusion so much as a layered structure, where different parts become more visible in different situations. Sometimes Shanghai is the most natural answer; sometimes the Taiwanese family roots matter more, and neither layer cancels the other. That is why the conversation meant something to me: it gave me a calmer way to look back at my background without forcing it into one simple label."
-  },
-  {
-    "id": 110,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Napier Seaside with My Mother",
@@ -888,15 +880,15 @@
     "body": "My mother used to drive me from Hastings or Havelock North to Napier, and somehow that seaside became attached to her."
   },
   {
-    "id": 111,
+    "id": 110,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Napier Seaside with My Mother (2)",
     "anchor": "napier-seaside-with-my-mother",
-    "body": "Napier seaside is one of the places I connect with my mother. She lives around Hastings and Havelock North, and when I went back to New Zealand she would sometimes drive me to Napier. It was not a big trip, just a short drive to the water.\n\nI still remember it quite clearly: the car ride, the road, arriving near the sea, walking for a while, maybe not even talking much. It was ordinary, but it was one of the few things we did together there again and again.\n\nMy family's connection with New Zealand is a little scattered. My sister studied there, my mother stayed for her, and later that area became part of my mother's own life too. For me the country was never only a travel destination; it was also where part of my family was living without me. So when she drove me to Napier, it felt like I was briefly stepping into that part of her life.\n\nI don't remember Napier as just a beautiful seaside so much as somewhere my mother brought me, and maybe that is enough."
+    "body": "Napier seaside is one of the places I connect with my mother. She lives around Hastings and Havelock North, and when I went back to New Zealand she would sometimes drive me to Napier. It was not a big trip, just a short drive to the water.\n\nI still remember it quite clearly: the car ride, the road, arriving near the sea, walking for a while, maybe not even talking much. It was ordinary, but it was one of the few things we did together there again and again.\n\nMy family's connection with New Zealand is a little scattered. My sister studied there, my mother stayed for her, and later that area became part of my mother's own life too. For me the country was never only a travel destination. It was also where part of my family was living without me. So when she drove me to Napier, it felt like I was briefly stepping into that part of her life.\n\nI don't remember Napier as just a beautiful seaside so much as somewhere my mother brought me, and maybe that is enough."
   },
   {
-    "id": 112,
+    "id": 111,
     "route": "/fragments",
     "page": "Fragments",
     "title": "My Mother’s Cooking Across Places",
@@ -904,7 +896,7 @@
     "body": "A memory of my mother’s cooking, from home in Shanghai to later visits in New Zealand, and how food can carry the feeling of home across places."
   },
   {
-    "id": 113,
+    "id": 112,
     "route": "/fragments",
     "page": "Fragments",
     "title": "My Mother’s Cooking Across Places (2)",
@@ -912,7 +904,7 @@
     "body": "My mother has always been good at making food that is both healthy and genuinely good. When we were still living together in Shanghai, this felt completely normal. She cooked at home and I ate what she made, and at the time I did not think of it as anything worth remembering. It was just part of home.\n\nLater, after life became more scattered and she spent more time in New Zealand, her cooking started to feel different. Visiting her there, a meal she had made was no longer just a normal meal; it became a small return to something familiar. The food itself matters, of course, usually clean, warm, and carefully made, but what I remember more is the continuity. The same person who cooked for us in Shanghai was now cooking in another country, at another stage of life, and the taste still carried something from before.\n\nThat is what makes it feel like home. Home is not fixed in one city or one apartment or one period of life; sometimes it shows up through a repeated act, someone still cooking for you and still caring whether you have eaten well. I do not get to eat my mother's cooking often now, and maybe that is why I notice it more when I do."
   },
   {
-    "id": 114,
+    "id": 113,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Trying Golf with My Mother in New Zealand",
@@ -920,7 +912,7 @@
     "body": "A small New Zealand memory: my mother liked golf and brought me along a few times, even though I never felt very natural at it."
   },
   {
-    "id": 115,
+    "id": 114,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Trying Golf with My Mother in New Zealand (2)",
@@ -928,7 +920,7 @@
     "body": "When I visited my mother in New Zealand, she sometimes brought me along to play golf. It is one of her hobbies, and I could tell she enjoyed the whole rhythm of it: the open grass, the slow walking, choosing a club, taking her time before a shot. It suited her.\n\nI tried a few times, but I never felt I had much talent for it. I could hit the ball, just not the way good players do, where it lifts cleanly and draws a nice curve through the air; mine was usually more practical than pretty, and sometimes not even practical. Still, I liked going with her, not because I had suddenly taken to golf, but because it was something she had made part of her life there, and for a few afternoons I got to be inside it too."
   },
   {
-    "id": 116,
+    "id": 115,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Racket Games with the SLR Lab",
@@ -936,7 +928,7 @@
     "body": "A small SLR Lab memory: our PI took me and another RA to play badminton and table tennis, and the lab felt a little warmer because of it."
   },
   {
-    "id": 117,
+    "id": 116,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Racket Games with the SLR Lab (2)",
@@ -944,7 +936,7 @@
     "body": "One time the PI of our SLR Lab took me and another RA out to play badminton and table tennis. It was not a serious sports day. We played, missed shots, picked up balls, laughed a bit, and drifted between the two games in the slightly messy way small group outings usually go.\n\nI liked it because it made the lab feel like more than papers, meetings, and tasks. Those things matter, but a lab also has a feeling to it, and you can tell whether people are just working in the same place or whether there is some actual warmth around the work. That afternoon tipped it towards the second, nothing dramatic, just a good lab atmosphere showing up on an ordinary day."
   },
   {
-    "id": 118,
+    "id": 117,
     "route": "/fragments",
     "page": "Fragments",
     "title": "The Sea in My Early Hong Kong Years",
@@ -952,15 +944,15 @@
     "body": "Kennedy Town's waterfront belonged to my early HKU years, when the sea was close enough to become part of ordinary student life rather than a destination."
   },
   {
-    "id": 119,
+    "id": 118,
     "route": "/fragments",
     "page": "Fragments",
     "title": "The Sea in My Early Hong Kong Years (2)",
     "anchor": "kennedy-town-seaside-hku-years",
-    "body": "I have not been to Kennedy Town's waterfront much lately, which feels strange because it was much more present during my first years at HKU. I lived closer to that side of the city then, and the sea was somewhere I could reach without turning the visit into a plan.\n\nI do not remember every walk clearly now; much of the routine has probably settled into a general feeling. Hong Kong can be dense, fast, and pressed together, and walking toward the water changed the scale of the city. The buildings ended, the space opened, and the movement of the sea gave my attention somewhere else to go. Part of the familiarity may also have come from New Zealand, where time by the coast was already tied to my mother and family.\n\nWhat I remember is not one dramatic view, but the irregular waves, the space beyond the buildings, and the relief of reaching something wide at the edge of a crowded city. I do not live the same student rhythm now, and I visit less often, but when I think of my early years in Hong Kong, the sea remains somewhere in the background."
+    "body": "I have not been to Kennedy Town's waterfront much lately, which feels strange because it was much more present during my first years at HKU. I lived closer to that side of the city then, and the sea was somewhere I could reach without turning the visit into a plan.\n\nI do not remember every walk clearly now. Much of the routine has probably settled into a general feeling. Hong Kong can be dense, fast, and pressed together, and walking toward the water changed the scale of the city. The buildings ended, the space opened, and the movement of the sea gave my attention somewhere else to go. Part of the familiarity may also have come from New Zealand, where time by the coast was already tied to my mother and family.\n\nWhat I remember is not one dramatic view, but the irregular waves, the space beyond the buildings, and the relief of reaching something wide at the edge of a crowded city. I do not live the same student rhythm now, and I visit less often, but when I think of my early years in Hong Kong, the sea remains somewhere in the background."
   },
   {
-    "id": 120,
+    "id": 119,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Ferry Rides Across Sydney Harbour",
@@ -968,15 +960,15 @@
     "body": "A Sydney memory of crossing the harbour by public ferry, moving between landmarks, residential shores, commuters, open water, and sunset."
   },
   {
-    "id": 121,
+    "id": 120,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Ferry Rides Across Sydney Harbour (2)",
     "anchor": "sydney-harbour-ferry-rides",
-    "body": "One of my strongest memories of Sydney is not standing at a landmark but moving through the harbour by ferry. The public ferries were inexpensive, so we used them repeatedly to travel between different stops. Seeing the city from the water made it feel less like a fixed map and more like a sequence of changing views.\n\nSome routes passed the Opera House and Harbour Bridge, where the city looked as beautiful as its photographs suggest. Other stretches were quieter, with residential neighbourhoods and houses close to the water. On one evening ferry, commuters in work clothes left the boat in an orderly line and walked home along the harbour. For a moment I felt as though I were watching someone else's ordinary routine from outside: work in the city, a ferry across the water, and home at the end of the route.\n\nSunset brought the bridge, Opera House, water, and light into the same moving scene. Sydney stayed with me through that movement rather than through one perfect viewpoint. The ferry let the city change gradually around me, one shore and one crossing at a time."
+    "body": "One of my strongest memories of Sydney is not standing at a landmark but moving through the harbour by ferry. The public ferries were inexpensive, so we used them repeatedly to travel between different stops. Seeing the city from the water made it feel less like a fixed map and more like a sequence of changing views.\n\nSome routes passed the Opera House and Harbour Bridge, where the city looked as beautiful as its photographs suggest. Other stretches were quieter, with residential neighbourhoods and houses close to the water. On one evening ferry, commuters in work clothes left the boat in an orderly line and walked home along the harbour. For a moment I felt as though I were watching someone else's ordinary routine from outside. Work in the city, a ferry across the water, and home at the end of the route.\n\nSunset brought the bridge, Opera House, water, and light into the same moving scene. What I remember most is that movement rather than one perfect viewpoint. The ferry let the city change gradually around me, one shore and one crossing at a time."
   },
   {
-    "id": 122,
+    "id": 121,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Gold Coast, Water, and the City Line",
@@ -984,15 +976,15 @@
     "body": "A Gold Coast memory of being on the water, looking down from above, and seeing a city stretched directly along the beach."
   },
   {
-    "id": 123,
+    "id": 122,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Gold Coast, Water, and the City Line (2)",
     "anchor": "gold-coast-water-and-city-line",
-    "body": "Gold Coast is one of the places where I remember the sea as something I entered rather than only looked at. We went kayaking, jet skiing, snorkelling, and parasailing. What stayed with me was the physical side of it: speed, wind, noise, and the feeling that the water had moved from the background into the activity itself.\n\nI also remember going up to an observation deck and seeing the coast from above. The city looked like a long line pressed against the beach, with towers, sand, water, and sunlight arranged beside one another. In many cities the waterfront feels like one district among others. On the Gold Coast, the whole urban shape seemed organised around the edge of the sea.\n\nI liked the combination of density and holiday atmosphere. It was possible to stand inside a high-rise city while still feeling that the beach determined its rhythm. When I think of the Gold Coast now, I remember the water from two positions: being carried across it and later looking down at the same coastline from high above."
+    "body": "Gold Coast is one of the places where I remember the sea as something I entered rather than only looked at. We went kayaking, jet skiing, snorkelling, and parasailing. What I remember most is the physical side of it, especially the speed, wind, noise, and the feeling that the water had moved from the background into the activity itself.\n\nI also remember going up to an observation deck and seeing the coast from above. The city looked like a long line pressed against the beach, with towers, sand, water, and sunlight arranged beside one another. In many cities the waterfront feels like one district among others. On the Gold Coast, the whole urban shape seemed organised around the edge of the sea.\n\nI liked the combination of density and holiday atmosphere. It was possible to stand inside a high-rise city while still feeling that the beach determined its rhythm. When I think of the Gold Coast now, I remember both being carried across the water and later looking down at the same coastline from high above."
   },
   {
-    "id": 124,
+    "id": 123,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Road Trip Along the Great Ocean Road",
@@ -1000,15 +992,15 @@
     "body": "A Melbourne exchange memory of friends renting a car for the Great Ocean Road, where the people and the hours in between the viewpoints mattered as much as the coast."
   },
   {
-    "id": 125,
+    "id": 124,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Road Trip Along the Great Ocean Road (2)",
     "anchor": "great-ocean-road-melbourne-friends",
-    "body": "The easiest thing to say about the Great Ocean Road is that it was beautiful, but the road matters to me because of the people who took me there. During my Melbourne exchange, friends rented a car and brought us along. Without them, it might have remained a place I knew I should visit. Because of them, it became part of my life during that semester.\n\nThe day included long hours in the car, stops whenever someone noticed a view, photographs, conversation, tiredness, and the repeated decision to continue to the next place. A few months earlier, I had not known the people beside me. Exchange friendships can form quickly because everyone is living inside a temporary period and knows that the same arrangement will not last. Ordinary days together can therefore carry more weight than they seem to at the time.\n\nThe coastline kept changing through cliffs, open water, small stops, and famous viewpoints, but I do not remember the trip as one clean image. I remember movement: the road, the car, the people, and the feeling that Melbourne had become more than a university term. The Great Ocean Road stays with me not only as a scenic route, but as one of the days that made the exchange feel fully lived."
+    "body": "The easiest thing to say about the Great Ocean Road is that it was beautiful, but the road matters to me because of the people who took me there. During my Melbourne exchange, friends rented a car and brought us along. Without them, it might have remained a place I knew I should visit. Because of them, it became part of my life during that semester.\n\nThe day included long hours in the car, stops whenever someone noticed a view, photographs, conversation, tiredness, and the repeated decision to continue to the next place. A few months earlier, I had not known the people beside me. Exchange friendships can form quickly because everyone is living inside a temporary period and knows that the same arrangement will not last. Ordinary days together can therefore carry more weight than they seem to at the time.\n\nThe coastline kept changing through cliffs, open water, small stops, and famous viewpoints, but I do not remember the trip as one clean image. I remember the movement of the road, the car, the people, and the feeling that Melbourne had become more than a university term. When I think about the exchange, that day is part of why Melbourne feels like more than a university term."
   },
   {
-    "id": 126,
+    "id": 125,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Birthday Somewhere Along Taiwan’s East Coast",
@@ -1016,15 +1008,15 @@
     "body": "A family road trip along Taiwan’s east coast, with my father driving, seaside cafés along the road, and one of my birthdays folded into the journey."
   },
   {
-    "id": 127,
+    "id": 126,
     "route": "/fragments",
     "page": "Fragments",
     "title": "A Birthday Somewhere Along Taiwan’s East Coast (2)",
     "anchor": "taiwan-east-coast-family-road-trip",
-    "body": "One of my happiest recent family memories is a road trip along Taiwan's east coast. It was the four of us, my father, my mother, my sister, and me. My father drove, and we made our way down the eastern side of the island, stopping in different places along the way. I do not remember every exact turn now, and maybe that is fine, because what stayed with me is not the route as a record but the feeling of being together in one car.\n\nThat kind of full family time has become rare. Everyone is in different places now, with different lives and schedules, so when we are all together for a trip, even ordinary things start to feel memorable. The east coast had a lot of sea. We would drive, catch the water, stop somewhere, and sometimes find one of those small cafés near the coast, each with its own style, and sit down with a coffee, look out at the sea, and then keep going.\n\nThere was nothing dramatic about those stops, and that is exactly why I liked them. They were not arranged to become important memories; they became important because they were simple, repeated, and shared. My birthday fell somewhere inside the trip too, which made the whole thing feel warmer, not a formal celebration but a birthday folded into a moving family journey, somewhere between the sea, the road, and coffee by the coast. When I think back to it, I do not picture a single landmark first. I remember my father driving, the four of us together, and Taiwan's east coast passing by outside the window."
+    "body": "One of my happiest recent family memories is a road trip along Taiwan's east coast. It was the four of us, my father, my mother, my sister, and me. My father drove, and we made our way down the eastern side of the island, stopping in different places along the way. I do not remember every exact turn now, and maybe that is fine. What I remember most is the feeling of the four of us being together in one car.\n\nThat kind of full family time has become rare. Everyone is in different places now, with different lives and schedules, so when we are all together for a trip, even ordinary things start to feel memorable. The east coast had a lot of sea. We would drive, catch the water, stop somewhere, and sometimes find one of those small cafés near the coast, each with its own style, and sit down with a coffee, look out at the sea, and then keep going.\n\nThere was nothing dramatic about those stops, and that is exactly why I liked them. They were not arranged to become important memories. They became important because they were simple, repeated, and shared. My birthday fell somewhere inside the trip too, which made the whole thing feel warmer, not a formal celebration but a birthday folded into a moving family journey, somewhere between the sea, the road, and coffee by the coast. When I think back to it, I do not picture a single landmark first. I remember my father driving, the four of us together, and Taiwan's east coast passing by outside the window."
   },
   {
-    "id": 128,
+    "id": 127,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Athens, Ruins, and a Rare Family Trip",
@@ -1032,15 +1024,15 @@
     "body": "A rare family trip to Greece, remembered through the heat of Athens, ancient stone, long days of walking, and simple meals afterward."
   },
   {
-    "id": 129,
+    "id": 128,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Athens, Ruins, and a Rare Family Trip (2)",
     "anchor": "athens-ruins-and-family-trip",
-    "body": "Our family trip to Greece stayed with me partly because the four of us rarely have two uninterrupted weeks together now. We spent most of the time around Athens, walking through the city, visiting historical sites, and eating together. The place felt different from cities I knew because the past was not contained in a museum; it remained visible in the stone, streets, and landscape around ordinary life.\n\nThe ruins were the clearest expression of that feeling. At the Acropolis, I was not only looking at an old building but standing beside something connected to a much longer line of human history. The columns, exposed stone, open air, heat, and scale made the site feel almost unreal. My mother especially liked the carved female figures used in place of columns. I did not retain the name at the time, but I remember their shapes standing against the sky.\n\nThe food kept the trip from feeling only grand or historical. I remember Greek salad, fried calamari, halloumi, and other simple meals after hours of walking. What stays with me is the combination: ancient places during the day, satisfying food afterward, and my family together throughout it. Greece made the world feel older and wider than the life I usually moved through."
+    "body": "Our family trip to Greece stayed with me partly because the four of us rarely have two uninterrupted weeks together now. We spent most of the time around Athens, walking through the city, visiting historical sites, and eating together. The place felt different from cities I knew because the past was not contained in a museum. It remained visible in the stone, streets, and landscape around ordinary life.\n\nThe ruins were the clearest expression of that feeling. At the Acropolis, I was not only looking at an old building but standing beside something connected to a much longer line of human history. The columns, exposed stone, open air, heat, and scale made the site feel almost unreal. My mother especially liked the carved female figures used in place of columns. I did not retain the name at the time, but I remember their shapes standing against the sky.\n\nThe food kept the trip from feeling only grand or historical. I remember Greek salad, fried calamari, halloumi, and other simple meals after hours of walking. I mostly remember the combination of ancient places during the day, satisfying food afterward, and my family together throughout it. Greece made the world feel older and wider than the life I usually moved through."
   },
   {
-    "id": 130,
+    "id": 129,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Swimming in the Mediterranean",
@@ -1048,31 +1040,31 @@
     "body": "A day in Greece when the Mediterranean stopped being a name from maps and history and became water I could physically enter."
   },
   {
-    "id": 131,
+    "id": 130,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Swimming in the Mediterranean (2)",
     "anchor": "swimming-in-the-mediterranean",
-    "body": "One of my clearest memories from Greece is swimming in the Mediterranean. We went out by boat, with the sun above us, open water around us, and my family nearby. The day did not have much of a plot, but it stayed with me more clearly than many carefully planned sights.\n\nBefore that trip, the Mediterranean had mostly been a name from maps, history, and photographs of Greece. Then I was in the water rather than looking at it from the shore. I think it was the only time I swam there, which may be why the memory feels so fixed. The place became physical rather than only visual: it had temperature, movement, distance, and contact with my body.\n\nWe spent time on the boat, rested in the sun, swam, and let the day pass without needing to make it mean anything. When I think of Greece, I remember the ruins and streets, but I also remember entering a sea that I had previously known only as a name."
+    "body": "One of my clearest memories from Greece is swimming in the Mediterranean. We went out by boat, with the sun above us, open water around us, and my family nearby. The day did not have much of a plot, but it stayed with me more clearly than many carefully planned sights.\n\nBefore that trip, the Mediterranean had mostly been a name from maps, history, and photographs of Greece. Then I was in the water rather than looking at it from the shore. I think it was the only time I swam there, which may be why the memory feels so fixed. The place became physical rather than only visual. It had temperature, movement, distance, and contact with my body.\n\nWe spent time on the boat, rested in the sun, swam, and let the day pass without needing to make it mean anything. When I think of Greece, I remember the ruins and streets, but I also remember entering a sea that I had previously known only as a name."
+  },
+  {
+    "id": 131,
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Rainy Days as Permission to Stay In",
+    "anchor": "rainy-days-permission-to-stay-in",
+    "body": "A small daily feeling about how rain makes staying indoors feel less like avoidance and more like something the world has quietly allowed."
   },
   {
     "id": 132,
     "route": "/fragments",
     "page": "Fragments",
-    "title": "Rainy Days as Permission to Stay In",
+    "title": "Rainy Days as Permission to Stay In (2)",
     "anchor": "rainy-days-permission-to-stay-in",
-    "body": "A small daily feeling: rain makes staying indoors feel less like avoidance and more like something the world has quietly allowed."
+    "body": "I do not actually like rainy days that much. Rain is inconvenient. The ground gets wet, the sky turns grey, and going anywhere becomes a little more annoying. But there is one thing I do like about it, which is that it gives me a reason not to go out.\n\nOn a sunny day, staying inside can feel like wasting the day. Even if nobody says anything, there is a small pressure to do something, meet someone, walk somewhere, make proper use of the weather. Rain takes that pressure away. It makes staying in feel less like a personal choice and more like the natural thing to do, and the room becomes enough, not because I suddenly love being cooped up but because the outside has stopped demanding anything. So maybe it is not the rain I like, but the excuse it gives me."
   },
   {
     "id": 133,
-    "route": "/fragments",
-    "page": "Fragments",
-    "title": "Rainy Days as Permission to Stay In (2)",
-    "anchor": "rainy-days-permission-to-stay-in",
-    "body": "I do not actually like rainy days that much. Rain is inconvenient: the ground gets wet, the sky turns grey, and going anywhere becomes a little more annoying. But there is one thing I do like about it, which is that it gives me a reason not to go out.\n\nOn a sunny day, staying inside can feel like wasting the day. Even if nobody says anything, there is a small pressure to do something, meet someone, walk somewhere, make proper use of the weather. Rain takes that pressure away. It makes staying in feel less like a personal choice and more like the natural thing to do, and the room becomes enough, not because I suddenly love being cooped up but because the outside has stopped demanding anything. So maybe it is not the rain I like, but the excuse it gives me."
-  },
-  {
-    "id": 134,
     "route": "/fragments",
     "page": "Fragments",
     "title": "The Mental Map of a Small Room",
@@ -1080,15 +1072,15 @@
     "body": "A small-room memory about mess, order, and why a space can feel familiar even when it does not look perfectly tidy from the outside."
   },
   {
-    "id": 135,
+    "id": 134,
     "route": "/fragments",
     "page": "Fragments",
     "title": "The Mental Map of a Small Room (2)",
     "anchor": "mental-map-of-small-room",
-    "body": "My mother sometimes says my room is messy, and she is probably not entirely wrong. From the outside it can look like things are scattered everywhere. But to me the room is not simply messy, because I usually know where everything is; there is a map of it in my head.\n\nThat map is not visible to anyone else. A book on one side, a cable somewhere else, a camera lens near the window, some small thing on the desk. It may not look organized in the usual sense, but I know the routes, and I know where my hand should go when I need something. That is why small rooms can feel intimate to me. In a small space every object is close enough to become part of the mental map; the room may be crowded, but it is navigable, with a kind of personal order that only fully makes sense from inside my own habits.\n\nA larger space is more comfortable in an obvious way, but it can also feel less close, the things more spread out and the relationship between me and the objects around me less clear. So when I say my room is not really messy, I do not mean it is objectively tidy. I mean it has a structure I can feel, a little private, a little inefficient, maybe not very presentable, but still mine."
+    "body": "My mother sometimes says my room is messy, and she is probably not entirely wrong. From the outside it can look like things are scattered everywhere. But to me the room is not simply messy, because I usually know where everything is. There is a map of it in my head.\n\nThat map is not visible to anyone else. A book on one side, a cable somewhere else, a camera lens near the window, some small thing on the desk. It may not look organized in the usual sense, but I know the routes, and I know where my hand should go when I need something. That is why small rooms can feel intimate to me. In a small space every object is close enough to become part of the mental map. The room may be crowded, but it is navigable, with a kind of personal order that only fully makes sense from inside my own habits.\n\nA larger space is more comfortable in an obvious way, but it can also feel less close, the things more spread out and the relationship between me and the objects around me less clear. So when I say my room is not really messy, I do not mean it is objectively tidy. I mean it has a structure I can feel, a little private, a little inefficient, maybe not very presentable, but still mine."
   },
   {
-    "id": 136,
+    "id": 135,
     "route": "/fragments",
     "page": "Fragments",
     "title": "My First Camera and Another Way of Seeing",
@@ -1096,15 +1088,15 @@
     "body": "A memory of my Nikon Zfc, the apartment window, long lenses, travel photos, and how a camera gave me another way to look at the world."
   },
   {
-    "id": 137,
+    "id": 136,
     "route": "/fragments",
     "page": "Fragments",
     "title": "My First Camera and Another Way of Seeing (2)",
     "anchor": "first-camera-another-way-of-seeing",
-    "body": "My Nikon Zfc was my first real camera. At the start I did not even need to go far; I would stand in the apartment and shoot through the small window, trying different angles, looking for things outside that I would not normally notice. After I got a longer lens it became even more interesting, since the lens could pull distant things closer and turn a random view out the window into something worth looking at.\n\nThat was probably when photography began to change my relationship with going out. The camera gave me a reason to walk more, to look around more, and later to travel with a slightly different kind of attention, not only going somewhere but also looking for frames. My mother has said that people should use their eyes to see the world instead of always taking photos, and I think she is right. There are things the eyes take in directly that a photo cannot replace, the scale of a place, the air, the movement, the feeling of being there.\n\nBut I think the camera offers another kind of seeing rather than a copy of the eyes. It cuts the world differently, notices details I might have passed over, and lets me return to a moment later and see it again from a distance. Sometimes a photo is valuable not because it is beautiful but because it proves I once looked at the world from that exact angle. That is what the camera gave me, not a replacement for experience but another layer of it."
+    "body": "My Nikon Zfc was my first real camera. At the start I did not even need to go far. I would stand in the apartment and shoot through the small window, trying different angles and looking for things outside that I would not normally notice. After I got a longer lens it became even more interesting, since the lens could pull distant things closer and turn a random view out the window into something worth looking at.\n\nThat was probably when photography began to change my relationship with going out. The camera gave me a reason to walk more, to look around more, and later to travel with a slightly different kind of attention, not only going somewhere but also looking for frames. My mother has said that people should use their eyes to see the world instead of always taking photos, and I think she is right. There are things the eyes take in directly that a photo cannot replace, the scale of a place, the air, the movement, the feeling of being there.\n\nBut I think the camera offers another kind of seeing rather than a copy of the eyes. It cuts the world differently, notices details I might have passed over, and lets me return to a moment later and see it again from a distance. Sometimes a photo is valuable not because it is beautiful but because it proves I once looked at the world from that exact angle. That is what the camera gave me, not a replacement for experience but another layer of it."
   },
   {
-    "id": 138,
+    "id": 137,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Music That Became More Spacious",
@@ -1112,15 +1104,15 @@
     "body": "A small reflection on how my music taste moved from stronger beats and rap-like rhythm toward slower, wider, more atmospheric sound."
   },
   {
-    "id": 139,
+    "id": 138,
     "route": "/fragments",
     "page": "Fragments",
     "title": "Music That Became More Spacious (2)",
     "anchor": "music-that-became-more-spacious",
-    "body": "My music taste has changed quite a bit. In high school I was more drawn to music with strong rhythm, EDM and rap and beats that moved quickly and gave a direct kind of energy. I still understand why I liked it; that kind of music pushes you forward, and it is useful when you want intensity or speed or just a clear hit of momentum.\n\nThese days I find myself drawn to music that feels more spacious. Not music without rhythm, since rhythm still matters, but something slower, wider, and more atmospheric. Sometimes it is purely instrumental, and sometimes it still has lyrics, like Lana Del Rey's Young and Beautiful, where what I like is not only the words but the whole feeling behind them, the slow movement, the large background, the sense that the song opens up a space rather than just driving a beat.\n\nI do not think this means my old taste was wrong. Different stages of life just seem to call for different sound structures. EDM still works for exercise, because the body wants energy and repetition, but when I am not exercising I usually want music that leaves me more room to think or feel. Maybe that is the change: I used to want music to move me forward, and now I also want it to give me space."
+    "body": "My music taste has changed quite a bit. In high school I was more drawn to music with strong rhythm, EDM and rap and beats that moved quickly and gave a direct kind of energy. I still understand why I liked it. That kind of music pushes you forward, and it is useful when you want intensity or speed or just a clear hit of momentum.\n\nThese days I find myself drawn to music that feels more spacious. Not music without rhythm, since rhythm still matters, but something slower, wider, and more atmospheric. Sometimes it is purely instrumental, and sometimes it still has lyrics, like Lana Del Rey's Young and Beautiful, where what I like is not only the words but the whole feeling behind them, the slow movement, the large background, the sense that the song opens up a space rather than just driving a beat.\n\nI do not think this means my old taste was wrong. Different stages of life just seem to call for different sound structures. EDM still works for exercise, because the body wants energy and repetition, but when I am not exercising I usually want music that leaves me more room to think or feel. Maybe that is the change. I used to want music to move me forward, and now I also want it to give me space."
   },
   {
-    "id": 140,
+    "id": 139,
     "route": "/cv",
     "page": "CV",
     "title": "Han-yu Wang",
@@ -1128,31 +1120,31 @@
     "body": "Applied AI undergraduate, University of Hong Kong whenry6688@gmail.com (mailto:whenry6688@gmail.com) &middot; henryw.me (https://www.henryw.me/) &middot; LinkedIn (https://www.linkedin.com/in/henrywhy/) &middot; GitHub (https://github.com/henryhyw/)"
   },
   {
-    "id": 141,
+    "id": 140,
     "route": "/cv",
     "page": "CV",
     "title": "Profile",
     "anchor": "profile",
-    "body": "Fourth-year Applied Artificial Intelligence student at the University of Hong Kong, working at the intersection of cognitive science and AI. My research examines how people form and use representations, what internal mechanisms support language-model behaviour, and how AI assistance changes human thinking and agency. I am a part-time research assistant at HKU's SLR Lab and a Cloud, Data & AI consulting intern at PwC, where I evaluate enterprise AI systems and build traceable document and data workflows."
+    "body": "Fourth-year Applied Artificial Intelligence student at the University of Hong Kong. My research examines how people form and use representations, what internal mechanisms support language-model behaviour, and how AI assistance changes human thinking and agency. I am a part-time research assistant at HKU's SLR Lab and a Cloud, Data & AI consulting intern at PwC, where I evaluate enterprise AI systems and build traceable document and data workflows."
+  },
+  {
+    "id": 141,
+    "route": "/cv",
+    "page": "CV",
+    "title": "Education",
+    "anchor": "education",
+    "body": "University of Hong Kong Sep 2022 – Present BASc in Applied Artificial Intelligence Coursework across machine learning, deep learning, data science, algorithms, and the mathematics behind them. Dean's Honours List, Student Peer Advisor, and Staff–Student Consultative Committee representative. University of Melbourne Feb 2025 – Jun 2025 Semester exchange, HKU Worldwide Student Exchange Optimisation, Machine Learning, Principles of Finance. Shanghai High School International Division Sep 2017 – Jun 2022 International Baccalaureate Diploma Computer science, mathematics, economics, physics. Led the Coding Club and co-founded the SHSID Musix Board."
   },
   {
     "id": 142,
     "route": "/cv",
     "page": "CV",
-    "title": "Education",
-    "anchor": "education",
-    "body": "University of Hong Kong Sep 2022 – Present BASc in Applied Artificial Intelligence Coursework across machine learning, deep learning, data science, algorithms, and the mathematics behind them. Dean's Honours List; Student Peer Advisor; Staff–Student Consultative Committee representative. University of Melbourne Feb 2025 – Jun 2025 Semester exchange, HKU Worldwide Student Exchange Optimisation, Machine Learning, Principles of Finance. Shanghai High School International Division Sep 2017 – Jun 2022 International Baccalaureate Diploma Computer science, mathematics, economics, physics. Led the Coding Club; co-founded the SHSID Musix Board."
+    "title": "Experience",
+    "anchor": "experience",
+    "body": "Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Evaluated enterprise AI and retrieval workflows. Built a document-ingestion pipeline that preserves cross-page structure through retrieval, translated legacy ETL logic into traceable test cases, and researched digital-asset infrastructure and risk. Student Research Assistant May 2024 – Present Speech, Language & Reading Lab, HKU Built computational models of human learning and transfer to test which mechanisms can explain behaviour and whether experimental designs can distinguish them. Digital Transformation Intern Aug 2024 – Dec 2024 HSBC, Hong Kong Mapped product and distribution data across markets. Built an Excel/VBA workflow for UI component mapping and reviewed personal-banking AI use cases from workflow, data, and control angles. Student Research Assistant Jul 2024 – Apr 2025 Psychometrics & Data Science Lab, HKU Built an AI-supported education platform using generative AI, retrieval, NLP, and recommendation to support assessment and personalised study suggestions. Web Developer, Digital Content Support Jun 2023 – Dec 2023 Kiwiview International Limited, New Zealand Designed, developed, deployed, and maintained the company website, and produced branding and content for travel programmes."
   },
   {
     "id": 143,
-    "route": "/cv",
-    "page": "CV",
-    "title": "Experience",
-    "anchor": "experience",
-    "body": "Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Evaluated enterprise AI and retrieval workflows; built a document-ingestion pipeline that preserves cross-page structure through retrieval; translated legacy ETL logic into traceable test cases; and researched digital-asset infrastructure and risk. Student Research Assistant May 2024 – Present Speech, Language & Reading Lab, HKU Built computational models of human learning and transfer to test which mechanisms can explain behaviour and whether experimental designs can distinguish them. Digital Transformation Intern Aug 2024 – Dec 2024 HSBC, Hong Kong Mapped product and distribution data across markets; built an Excel/VBA workflow for UI component mapping; reviewed personal-banking AI use cases from workflow, data, and control angles. Student Research Assistant Jul 2024 – Apr 2025 Psychometrics & Data Science Lab, HKU Built an AI-supported education platform using generative AI, retrieval, NLP, and recommendation to support assessment and personalised study suggestions. Web Developer, Digital Content Support Jun 2023 – Dec 2023 Kiwiview International Limited, New Zealand Designed, developed, deployed, and maintained the company website, and produced branding and content for travel programmes."
-  },
-  {
-    "id": 144,
     "route": "/cv",
     "page": "CV",
     "title": "Publications & Preprints",
@@ -1160,7 +1152,7 @@
     "body": "Human-AI interaction and collaboration Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation (https://arxiv.org/abs/2606.26502) H. Wang Under review; arXiv:2606.26502 When Structure Settles Thought: The Costs of Fitted Structure in AI-Assisted Writing (https://philpapers.org/rec/WANWSS) H. Wang Under review; PhilPapers Human learning and computational cognition The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization? H. Wang , S. M. K. Lee Under review Functional Encoding and Representational Binding in Componential Transfer S. M. K. Lee, H. Wang Under review When Does a Smooth Learning Curve Mean Smooth Learning? Representational Format, Identifiability, and the Bounded Averaging Artifact H. Wang Under review Language models, behavior, and interpretability Priors Persist Through Suppression: A Stroop Paradigm for Lexical Override (https://arxiv.org/abs/2606.07555) H. Wang Under review; arXiv:2606.07555 BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval (https://arxiv.org/abs/2407.12883) H. Su*, H. Yen*, M. Xia*, W. Shi, N. Muennighoff, H. Wang , H. Liu, Q. Shi, Z. S. Siegel, M. Tang, R. Sun, J. Yoon, S. O. Arik, D. Chen, T. Yu ICLR 2025 Spotlight; arXiv:2407.12883 Han-yu Wang (Henry) Last updated July 2026"
   },
   {
-    "id": 145,
+    "id": 144,
     "route": "/home",
     "page": "Home",
     "title": "What Henry is currently doing",
