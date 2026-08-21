@@ -6,7 +6,7 @@
     "page": "About",
     "title": "About Me",
     "anchor": "",
-    "body": "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I have also spent extended periods in Melbourne and Hawke's Bay , New Zealand, through exchange, travel, and family. I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. I like working with things that are still taking shape, gradually finding and building structure as I understand them better. For the academic and professional record in one place, visit my CV → In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. A lot of my time also goes into building things. Some began at work or in research, while others started because I wanted something that did not exist yet. At PwC, I have worked on how AI systems are scoped, tested, explained, and fitted into existing workflows. I keep them on the Builds page, together with work from companies, research labs, coursework, and things I built on my own, including several projects from secondary school. I also use this website as an experiment in representation. An About page is always a selection. It turns a life, a body of work, and a set of changing interests into one route through them. I am interested in what happens when that route can respond to the person reading it. Search and explore that idea in different ways. Search finds the original pages and passages closest to your question. follows an angle across the site and composes the relevant material into a source-linked page. I like travelling, though I usually remember particular scenes more than destinations. I remember crossing Sydney Harbour by ferry at sunset, driving along Taiwan 's east coast with my family, standing among the ruins of Athens in the heat, swimming in the Mediterranean, and walking beside the sea after a dense day. Melbourne feels different because I lived there for a semester and the city became part of my routine. When I'm not working, I often end up near the water. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , Kennedy Town Praya became part of my early university years. Elsewhere, it may be a ferry, a harbour, or a long walk along the shore.",
+    "body": "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I have also spent extended periods in Melbourne and Hawke's Bay , New Zealand, through exchange, travel, and family. I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. I like working with things that are still taking shape, gradually finding and building structure as I understand them better. For the academic and professional record in one place, visit my CV → In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. A lot of my time also goes into building things. Some began at work or in research, while others started because I wanted something that did not exist yet. At PwC, I have worked on how AI systems are scoped, tested, explained, and fitted into existing workflows. I keep them on the Builds page, together with work from companies, research labs, coursework, and things I built on my own, including several projects from secondary school. I also use this website to explore a more responsive way of representing a person. A traditional static site offers one fixed path through its material, even though visitors arrive with different questions, interests, and contexts. Here, AI can reorganise the same underlying material around the angle each visitor brings, while keeping the original sources visible. I like travelling, though I usually remember particular scenes more than destinations. I remember crossing Sydney Harbour by ferry at sunset, driving along Taiwan 's east coast with my family, standing among the ruins of Athens in the heat, swimming in the Mediterranean, and walking beside the sea after a dense day. Melbourne feels different because I lived there for a semester and the city became part of my routine. When I'm not working, I often end up near the water. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , Kennedy Town Praya became part of my early university years. Elsewhere, it may be a ferry, a harbour, or a long walk along the shore. Being near the sea gives me a sense of space that dense days often remove.",
     "parts": [
       "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I have also spent extended periods in Melbourne and Hawke's Bay , New Zealand, through exchange, travel, and family.",
       "I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. I like working with things that are still taking shape, gradually finding and building structure as I understand them better.",
@@ -14,8 +14,7 @@
       "In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes.",
       "A lot of my time also goes into building things. Some began at work or in research, while others started because I wanted something that did not exist yet. At PwC, I have worked on how AI systems are scoped, tested, explained, and fitted into existing workflows.",
       "I keep them on the Builds page, together with work from companies, research labs, coursework, and things I built on my own, including several projects from secondary school.",
-      "I also use this website as an experiment in representation. An About page is always a selection. It turns a life, a body of work, and a set of changing interests into one route through them. I am interested in what happens when that route can respond to the person reading it.",
-      "Search and explore that idea in different ways. Search finds the original pages and passages closest to your question. follows an angle across the site and composes the relevant material into a source-linked page.",
+      "I also use this website to explore a more responsive way of representing a person. A traditional static site offers one fixed path through its material, even though visitors arrive with different questions, interests, and contexts. Here, AI can reorganise the same underlying material around the angle each visitor brings, while keeping the original sources visible.",
       "I like travelling, though I usually remember particular scenes more than destinations. I remember crossing Sydney Harbour by ferry at sunset, driving along Taiwan 's east coast with my family, standing among the ruins of Athens in the heat, swimming in the Mediterranean, and walking beside the sea after a dense day. Melbourne feels different because I lived there for a semester and the city became part of my routine.",
       "When I'm not working, I often end up near the water. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , Kennedy Town Praya became part of my early university years. Elsewhere, it may be a ferry, a harbour, or a long walk along the shore. Being near the sea gives me a sense of space that dense days often remove.",
       "Fragments is where I keep unfinished thoughts and notes from everyday life. They include ideas about AI, memory, language, and identity, along with travel, family, food, and other things I wanted to remember."
@@ -36,23 +35,6 @@
   },
   {
     "id": 1,
-    "source_id": "about:section:begin-with-what-you-want-to-understand",
-    "route": "/about",
-    "page": "About",
-    "title": "Begin with what you want to understand",
-    "anchor": "begin-with-what-you-want-to-understand",
-    "body": "Search and explore that idea in different ways. Search finds the original pages and passages closest to your question. follows an angle across the site and composes the relevant material into a source-linked page. Search and Ask Find what is already here Start with a question or a few words. Find a passage directly or receive a cited answer. Open Search ↗ See the site from your angle Start with a theme, question, or perspective. AI composes a focused page while keeping its source material visible.",
-    "parts": [
-      "Search and explore that idea in different ways. Search finds the original pages and passages closest to your question. follows an angle across the site and composes the relevant material into a source-linked page. Search and Ask Find what is already here Start with a question or a few words. Find a passage directly or receive a cited answer. Open Search ↗ See the site from your angle Start with a theme, question, or perspective. AI composes a focused page while keeping its source material visible."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "media": []
-  },
-  {
-    "id": 2,
     "source_id": "about:section:outside-work-and-research",
     "route": "/about",
     "page": "About",
@@ -70,7 +52,7 @@
     "media": []
   },
   {
-    "id": 3,
+    "id": 2,
     "source_id": "education:overview",
     "route": "/education",
     "page": "Education",
@@ -87,7 +69,7 @@
     "media": []
   },
   {
-    "id": 4,
+    "id": 3,
     "source_id": "education:the-university-of-hong-kong",
     "route": "/education",
     "page": "Education",
@@ -104,7 +86,7 @@
     "media": []
   },
   {
-    "id": 5,
+    "id": 4,
     "source_id": "education:the-university-of-melbourne",
     "route": "/education",
     "page": "Education",
@@ -121,7 +103,7 @@
     "media": []
   },
   {
-    "id": 6,
+    "id": 5,
     "source_id": "education:shanghai-high-school-international-division",
     "route": "/education",
     "page": "Education",
@@ -138,7 +120,7 @@
     "media": []
   },
   {
-    "id": 7,
+    "id": 6,
     "source_id": "education:havelock-north-high-school",
     "route": "/education",
     "page": "Education",
@@ -155,7 +137,7 @@
     "media": []
   },
   {
-    "id": 8,
+    "id": 7,
     "source_id": "experience:overview",
     "route": "/experience",
     "page": "Experience",
@@ -172,17 +154,17 @@
     "media": []
   },
   {
-    "id": 9,
+    "id": 8,
     "source_id": "experience:pwc",
     "route": "/experience",
     "page": "Experience",
     "title": "Cloud, Data & AI Consulting Intern",
     "anchor": "work-pwc",
-    "body": "At PwC, I work on AI systems for financial-services and public-sector engagements, from problem framing to prototyping and evaluation. I built an LLM-assisted pipeline to reverse-engineer legacy ETL logic into traceable data lineage, business rules, and test scenarios for migration work. For a public-enquiry RAG system, I built a knowledge-base ingestion pipeline that preserves document structure and developed a DeepEval framework for classification, retrieval, and response quality. I evaluated enterprise document-processing systems and built workflows to recover information lost during preprocessing and support rule-based document review. I also reviewed Ethereum and stablecoin infrastructure risks for a banking engagement.",
+    "body": "At PwC, I work on AI systems for financial-services and public-sector engagements, from problem framing to prototyping and evaluation. I built an AI-assisted workflow that translated legacy data-processing logic into traceable data lineage, business rules, and migration tests. For a public-enquiry AI assistant, I built a document preparation workflow that kept cross-page rules and references connected. I also developed an evaluation framework for source selection and answer quality. I evaluated enterprise document-processing systems and built workflows to recover information lost during preprocessing and support rule-based document review. I also reviewed Ethereum and stablecoin infrastructure risks for a banking engagement.",
     "parts": [
       "At PwC, I work on AI systems for financial-services and public-sector engagements, from problem framing to prototyping and evaluation.",
-      "I built an LLM-assisted pipeline to reverse-engineer legacy ETL logic into traceable data lineage, business rules, and test scenarios for migration work.",
-      "For a public-enquiry RAG system, I built a knowledge-base ingestion pipeline that preserves document structure and developed a DeepEval framework for classification, retrieval, and response quality.",
+      "I built an AI-assisted workflow that translated legacy data-processing logic into traceable data lineage, business rules, and migration tests.",
+      "For a public-enquiry AI assistant, I built a document preparation workflow that kept cross-page rules and references connected. I also developed an evaluation framework for source selection and answer quality.",
       "I evaluated enterprise document-processing systems and built workflows to recover information lost during preprocessing and support rule-based document review.",
       "I also reviewed Ethereum and stablecoin infrastructure risks for a banking engagement."
     ],
@@ -195,6 +177,8 @@
         "src": "/assets/img/PwC.png"
       }
     ],
+    "component_description": "The original Experience entry for “Cloud, Data & AI Consulting Intern”, including the organisation, role, location, and complete account of the work.",
+    "narrative_guidance": "Explain the specific responsibility or outcome that answers the visitor. Treat the component as the complete source record for that experience.",
     "entity": {
       "kind": "experience",
       "id": "pwc",
@@ -206,7 +190,7 @@
     }
   },
   {
-    "id": 10,
+    "id": 9,
     "source_id": "experience:slr",
     "route": "/experience",
     "page": "Experience",
@@ -226,6 +210,8 @@
         "src": "/assets/img/hku.jpeg"
       }
     ],
+    "component_description": "The original Experience entry for “Part-time Student Research Assistant”, including the organisation, role, location, and complete account of the work.",
+    "narrative_guidance": "Explain the specific responsibility or outcome that answers the visitor. Treat the component as the complete source record for that experience.",
     "entity": {
       "kind": "experience",
       "id": "slr",
@@ -237,7 +223,7 @@
     }
   },
   {
-    "id": 11,
+    "id": 10,
     "source_id": "experience:hsbc",
     "route": "/experience",
     "page": "Experience",
@@ -258,6 +244,8 @@
         "src": "/assets/img/hsbc.png"
       }
     ],
+    "component_description": "The original Experience entry for “Digital Transformation Intern”, including the organisation, role, location, and complete account of the work.",
+    "narrative_guidance": "Explain the specific responsibility or outcome that answers the visitor. Treat the component as the complete source record for that experience.",
     "entity": {
       "kind": "experience",
       "id": "hsbc",
@@ -269,15 +257,15 @@
     }
   },
   {
-    "id": 12,
+    "id": 11,
     "source_id": "experience:pds",
     "route": "/experience",
     "page": "Experience",
     "title": "Part-time Student Research Assistant",
     "anchor": "work-pds",
-    "body": "At the PDS Lab, I worked on applying generative AI and retrieval methods to personalised learning. I built a full-stack education platform with separate interfaces for learners, instructors, and administrators, supporting question-bank management, assessment workflows, AI-assisted feedback, and personalised study recommendations.",
+    "body": "At the PDS Lab, I used generative AI and personalised recommendations to help learners receive questions and study materials suited to their progress. I built a full-stack education platform with separate interfaces for learners, instructors, and administrators, supporting question-bank management, assessment workflows, AI-assisted feedback, and personalised study recommendations.",
     "parts": [
-      "At the PDS Lab, I worked on applying generative AI and retrieval methods to personalised learning.",
+      "At the PDS Lab, I used generative AI and personalised recommendations to help learners receive questions and study materials suited to their progress.",
       "I built a full-stack education platform with separate interfaces for learners, instructors, and administrators, supporting question-bank management, assessment workflows, AI-assisted feedback, and personalised study recommendations."
     ],
     "view_kind": "experience",
@@ -289,6 +277,8 @@
         "src": "/assets/img/hku.jpeg"
       }
     ],
+    "component_description": "The original Experience entry for “Part-time Student Research Assistant”, including the organisation, role, location, and complete account of the work.",
+    "narrative_guidance": "Explain the specific responsibility or outcome that answers the visitor. Treat the component as the complete source record for that experience.",
     "entity": {
       "kind": "experience",
       "id": "pds",
@@ -300,7 +290,7 @@
     }
   },
   {
-    "id": 13,
+    "id": 12,
     "source_id": "experience:kiwiview",
     "route": "/experience",
     "page": "Experience",
@@ -320,6 +310,8 @@
         "src": "/assets/img/kiwiview.png"
       }
     ],
+    "component_description": "The original Experience entry for “Web Developer, Digital Content Support”, including the organisation, role, location, and complete account of the work.",
+    "narrative_guidance": "Explain the specific responsibility or outcome that answers the visitor. Treat the component as the complete source record for that experience.",
     "entity": {
       "kind": "experience",
       "id": "kiwiview",
@@ -331,15 +323,15 @@
     }
   },
   {
-    "id": 14,
+    "id": 13,
     "source_id": "research:overview",
     "route": "/research",
     "page": "Research",
     "title": "Research I've Been Part Of",
     "anchor": "",
-    "body": "My research looks at cognition across people, AI systems, and the interaction between them. How do people form representations that support memory, generalisation, and transfer? What internal structures and computations produce the behaviour of AI models? And when people work with AI, how does the tool change what they attend to, practise, understand, and decide? I study human-AI interaction as a cognitive and design problem. As AI enters learning, writing, work, and decision-making, parts of the cognitive work can move between the person and the tool. I want to understand how that changes what people attend to, practise, understand, remember, and decide, and how systems can be designed to support the development of their own knowledge and judgment. On the human side, I study how people learn, represent, and use knowledge. I use experiments and computational models to ask how experience changes internal representations, how those representations support memory, concepts, generalisation, reasoning, and action, and how knowledge continues to change as it is used in new situations. Some of this work is conducted as a part-time research assistant at HKU's SLR Lab , with Dr. On the AI side, I study what models learn and how that learning gives rise to behaviour. I look at what information is represented internally, how it is used during a task, and how internal computation produces the capabilities and failures we observe. I use behavioural tests and causal interventions when they help answer those questions. The three areas are closely connected in my work. Cognitive models give me ways to think about how knowledge can be represented and used, while AI models provide another kind of learned system in which those questions can be studied. Human-AI interaction brings the two together because the model becomes part of the environment in which a person learns, reasons, writes, and decides. Human-AI interaction and collaboration --> Human-AI interaction and collaboration",
+    "body": "My research asks how people learn, how AI systems arrive at their behaviour, and what changes when people think and work with AI. I study how experience becomes knowledge, how that knowledge carries into new situations, what AI models learn internally, and how AI tools shape attention, practice, understanding, memory, and judgment. I study human-AI interaction as a cognitive and design problem. As AI enters learning, writing, work, and decision-making, parts of the cognitive work can move between the person and the tool. I want to understand how that changes what people attend to, practise, understand, remember, and decide, and how systems can be designed to support the development of their own knowledge and judgment. On the human side, I study how people learn, represent, and use knowledge. I use experiments and computational models to ask how experience changes internal representations, how those representations support memory, concepts, generalisation, reasoning, and action, and how knowledge continues to change as it is used in new situations. Some of this work is conducted as a part-time research assistant at HKU's SLR Lab , with Dr. On the AI side, I study what models learn and how that learning gives rise to behaviour. I look at what information is represented internally, how it is used during a task, and how internal computation produces the capabilities and failures we observe. I use behavioural tests and causal interventions when they help answer those questions. The three areas are closely connected in my work. Cognitive models give me ways to think about how knowledge can be represented and used, while AI models provide another kind of learned system in which those questions can be studied. Human-AI interaction brings the two together because the model becomes part of the environment in which a person learns, reasons, writes, and decides. Human-AI interaction and collaboration --> Human-AI interaction and collaboration",
     "parts": [
-      "My research looks at cognition across people, AI systems, and the interaction between them. How do people form representations that support memory, generalisation, and transfer? What internal structures and computations produce the behaviour of AI models? And when people work with AI, how does the tool change what they attend to, practise, understand, and decide? I study human-AI interaction as a cognitive and design problem. As AI enters learning, writing, work, and decision-making, parts of the cognitive work can move between the person and the tool. I want to understand how that changes what people attend to, practise, understand, remember, and decide, and how systems can be designed to support the development of their own knowledge and judgment. On the human side, I study how people learn, represent, and use knowledge.",
+      "My research asks how people learn, how AI systems arrive at their behaviour, and what changes when people think and work with AI. I study how experience becomes knowledge, how that knowledge carries into new situations, what AI models learn internally, and how AI tools shape attention, practice, understanding, memory, and judgment. I study human-AI interaction as a cognitive and design problem. As AI enters learning, writing, work, and decision-making, parts of the cognitive work can move between the person and the tool. I want to understand how that changes what people attend to, practise, understand, remember, and decide, and how systems can be designed to support the development of their own knowledge and judgment. On the human side, I study how people learn, represent, and use knowledge.",
       "I use experiments and computational models to ask how experience changes internal representations, how those representations support memory, concepts, generalisation, reasoning, and action, and how knowledge continues to change as it is used in new situations. Some of this work is conducted as a part-time research assistant at HKU's SLR Lab , with Dr. On the AI side, I study what models learn and how that learning gives rise to behaviour. I look at what information is represented internally, how it is used during a task, and how internal computation produces the capabilities and failures we observe. I use behavioural tests and causal interventions when they help answer those questions. The three areas are closely connected in my work.",
       "Cognitive models give me ways to think about how knowledge can be represented and used, while AI models provide another kind of learned system in which those questions can be studied. Human-AI interaction brings the two together because the model becomes part of the environment in which a person learns, reasons, writes, and decides. Human-AI interaction and collaboration --> Human-AI interaction and collaboration"
     ],
@@ -350,7 +342,7 @@
     "media": []
   },
   {
-    "id": 15,
+    "id": 14,
     "source_id": "research:fittedAssistance",
     "route": "/research",
     "page": "Research",
@@ -366,6 +358,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original Research entry for “Fitted Structure and Epistemic Settlement in AI-Assisted Writing”, including its publication details, full explanation, and research figures where available.",
+    "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
     "entity": {
       "kind": "publication",
       "id": "fittedAssistance",
@@ -381,7 +375,7 @@
     }
   },
   {
-    "id": 16,
+    "id": 15,
     "source_id": "research:humansDisengage",
     "route": "/research",
     "page": "Research",
@@ -413,6 +407,8 @@
         "src": "/assets/img/disengage_fig5.png"
       }
     ],
+    "component_description": "The original Research entry for “Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation”, including its publication details, full explanation, and research figures where available.",
+    "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
     "entity": {
       "kind": "publication",
       "id": "humansDisengage",
@@ -432,7 +428,7 @@
     }
   },
   {
-    "id": 17,
+    "id": 16,
     "source_id": "research:transfer",
     "route": "/research",
     "page": "Research",
@@ -465,6 +461,8 @@
         "src": "/assets/img/transfer_fig5.png"
       }
     ],
+    "component_description": "The original Research entry for “The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization?”, including its publication details, full explanation, and research figures where available.",
+    "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
     "entity": {
       "kind": "publication",
       "id": "transfer",
@@ -475,7 +473,7 @@
     }
   },
   {
-    "id": 18,
+    "id": 17,
     "source_id": "research:encoding",
     "route": "/research",
     "page": "Research",
@@ -507,6 +505,8 @@
         "src": "/assets/img/binding_fig5.png"
       }
     ],
+    "component_description": "The original Research entry for “Functional Encoding and Representational Binding in Componential Transfer”, including its publication details, full explanation, and research figures where available.",
+    "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
     "entity": {
       "kind": "publication",
       "id": "encoding",
@@ -517,15 +517,15 @@
     }
   },
   {
-    "id": 19,
+    "id": 18,
     "source_id": "research:priorsPersist",
     "route": "/research",
     "page": "Research",
     "title": "Persistent Priors, Preserved Targets: A Stroop-Style Paradigm for Lexical Override",
     "anchor": "priorsPersist",
-    "body": "If a language model is told that, within a document, doctor means forest , it can answer forest when queried. The question is whether the established doctor &rarr; hospital association has been removed or merely overridden. Across 11 open-weight models, the prior association continues to influence behaviour, with stronger original associations producing more leakage. Causal analysis shows that the override depends jointly on the definition's subject, its new target, and the queried word. Successful override is supported by maintaining the contextual target, rather than by suppressing the prior association itself.",
+    "body": "If a language model is told that, within a document, doctor means forest , it can answer forest when queried. The question is whether the established doctor → hospital association has been removed or merely overridden. Across 11 open-weight models, the prior association continues to influence behaviour, with stronger original associations producing more leakage. Causal analysis shows that the override depends jointly on the definition's subject, its new target, and the queried word. Successful override is supported by maintaining the contextual target, rather than by suppressing the prior association itself.",
     "parts": [
-      "If a language model is told that, within a document, doctor means forest , it can answer forest when queried. The question is whether the established doctor &rarr; hospital association has been removed or merely overridden. Across 11 open-weight models, the prior association continues to influence behaviour, with stronger original associations producing more leakage. Causal analysis shows that the override depends jointly on the definition's subject, its new target, and the queried word. Successful override is supported by maintaining the contextual target, rather than by suppressing the prior association itself."
+      "If a language model is told that, within a document, doctor means forest , it can answer forest when queried. The question is whether the established doctor → hospital association has been removed or merely overridden. Across 11 open-weight models, the prior association continues to influence behaviour, with stronger original associations producing more leakage. Causal analysis shows that the override depends jointly on the definition's subject, its new target, and the queried word. Successful override is supported by maintaining the contextual target, rather than by suppressing the prior association itself."
     ],
     "view_kind": "publication",
     "presentations": [
@@ -549,6 +549,8 @@
         "src": "/assets/img/priors_fig7_evidence.png"
       }
     ],
+    "component_description": "The original Research entry for “Persistent Priors, Preserved Targets: A Stroop-Style Paradigm for Lexical Override”, including its publication details, full explanation, and research figures where available.",
+    "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
     "entity": {
       "kind": "publication",
       "id": "priorsPersist",
@@ -568,7 +570,7 @@
     }
   },
   {
-    "id": 20,
+    "id": 19,
     "source_id": "research:bright",
     "route": "/research",
     "page": "Research",
@@ -597,6 +599,8 @@
         "src": "/assets/img/BRIGHT5.png"
       }
     ],
+    "component_description": "The original Research entry for “BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval”, including its publication details, full explanation, and research figures where available.",
+    "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
     "entity": {
       "kind": "publication",
       "id": "bright",
@@ -616,15 +620,15 @@
     }
   },
   {
-    "id": 21,
+    "id": 20,
     "source_id": "projects:overview",
     "route": "/projects",
-    "page": "Projects",
+    "page": "Builds",
     "title": "Things I've Built",
     "anchor": "",
-    "body": "Most of these started with a vague need rather than a fully defined problem. The structure took shape as I built, and kept changing through actual use and conversations with the people they were for. Professional and lab work --> Professional and lab work July 2026 - August 2026",
+    "body": "Most of these started with a vague need. Their structure took shape as I built, then kept changing through actual use and conversations with the people they were for. Professional and lab work --> Professional and lab work July 2026 - August 2026",
     "parts": [
-      "Most of these started with a vague need rather than a fully defined problem. The structure took shape as I built, and kept changing through actual use and conversations with the people they were for. Professional and lab work --> Professional and lab work July 2026 - August 2026"
+      "Most of these started with a vague need. Their structure took shape as I built, then kept changing through actual use and conversations with the people they were for. Professional and lab work --> Professional and lab work July 2026 - August 2026"
     ],
     "view_kind": "prose",
     "presentations": [
@@ -633,10 +637,10 @@
     "media": []
   },
   {
-    "id": 22,
+    "id": 21,
     "source_id": "projects:insurance",
     "route": "/playbook",
-    "page": "Projects",
+    "page": "Insurance Product Configuration Engine",
     "title": "Insurance Product Configuration Engine",
     "anchor": "",
     "body": "On HSBC's insurance digital-transformation team, I worked on a recurring configuration problem across dozens of products and multiple markets. Each product needed a different set of screens and fields. The rules were spread across business requirements, design libraries, and engineering documents, so they were difficult to compare and easy to let drift. I reorganised them into three linked libraries and a set of decision tables. An Excel and VBA engine then used a product specification to generate the exact UI components required for that product. The tool went through four versions and included a built-in tutorial so the team could maintain it after I left.",
@@ -646,8 +650,7 @@
     ],
     "view_kind": "project",
     "presentations": [
-      "cite",
-      "component"
+      "cite"
     ],
     "media": [
       {
@@ -662,19 +665,20 @@
       "route": "/playbook",
       "anchor": "",
       "mediaMode": "logo",
+      "logoHeight": "5vh",
       "richBlock": "interactive.insurance.rule-engine"
     }
   },
   {
-    "id": 23,
+    "id": 22,
     "source_id": "projects:pds",
     "route": "/projects",
-    "page": "Projects",
+    "page": "Builds",
     "title": "Advancing Generative AI in Personalized Learning",
     "anchor": "pds",
-    "body": "Jinsong Chen, I built a full-stack adaptive learning portal with separate interfaces for learners, instructors, and administrators, using generative AI, retrieval, and recommendation to personalise study resources.",
+    "body": "Jinsong Chen, I built an education platform where instructors can create assessments, understand each learner’s progress, and use AI to recommend suitable questions and study resources.",
     "parts": [
-      "Jinsong Chen, I built a full-stack adaptive learning portal with separate interfaces for learners, instructors, and administrators, using generative AI, retrieval, and recommendation to personalise study resources."
+      "Jinsong Chen, I built an education platform where instructors can create assessments, understand each learner’s progress, and use AI to recommend suitable questions and study resources."
     ],
     "view_kind": "project",
     "presentations": [
@@ -695,6 +699,8 @@
         "src": "/assets/img/PDS_Screenshot4.png"
       }
     ],
+    "component_description": "The original project entry for “Advancing Generative AI in Personalized Learning”, including its full project account and original visual material where available.",
+    "narrative_guidance": "Explain which design decision, technical approach, or result matters to the visitor before showing the complete project source.",
     "entity": {
       "kind": "project",
       "id": "pds",
@@ -703,26 +709,26 @@
       "route": "/projects",
       "anchor": "pds",
       "mediaMode": "gallery",
+      "logoHeight": "",
       "richBlock": ""
     }
   },
   {
-    "id": 24,
+    "id": 23,
     "source_id": "projects:pwcRag",
     "route": "/ragflow-pipeline",
-    "page": "Projects",
-    "title": "A Structure-Preserving RAG Ingestion Pipeline",
+    "page": "Building Reliable AI Answers from Complex Documents",
+    "title": "Building Reliable AI Answers from Complex Documents",
     "anchor": "",
-    "body": "At PwC, I helped shape a recommended ingestion architecture for a public-enquiry RAG system. The system needed to retrieve complete rules and decision paths from complex public documents while fitting the client’s infrastructure, operating cost, maintenance needs, and preference to keep the AI stack to one model. I compared architecture options and built a controlled POC around the main document risks. Standard PDF parsing could split tables at page boundaries, detach notes from the sentences they qualified, and leave flowcharts outside the searchable text. Retrieval could then surface a plausible fragment with a missing condition. The resulting design combined MinerU for structured text and tables, one visual-language model for flowcharts, and deterministic rules for cross-page references. The recommendation brought the requirements, cost and infrastructure analysis, POC evidence, technical tradeoffs, and implementation path into one consulting package.",
+    "body": "The system needed to answer public enquiries from complex documents while keeping complete rules and decision paths together. The recommendation also had to fit the client’s infrastructure, operating cost, maintenance needs, and preference for one AI model. I compared architecture options and built a controlled proof of concept around the main document risks. Page boundaries could divide tables, separate notes from the sentences they qualified, and leave flowcharts outside the searchable text. Any of those breaks could lead the system to retrieve a plausible passage with a missing condition. The resulting design used MinerU for structured text and tables, one visual language model for flowcharts, and explicit rules for cross-page references. The final recommendation brought requirements, cost and infrastructure analysis, test evidence, technical tradeoffs, and an implementation path into one consulting package.",
     "parts": [
-      "At PwC, I helped shape a recommended ingestion architecture for a public-enquiry RAG system. The system needed to retrieve complete rules and decision paths from complex public documents while fitting the client’s infrastructure, operating cost, maintenance needs, and preference to keep the AI stack to one model.",
-      "I compared architecture options and built a controlled POC around the main document risks. Standard PDF parsing could split tables at page boundaries, detach notes from the sentences they qualified, and leave flowcharts outside the searchable text. Retrieval could then surface a plausible fragment with a missing condition.",
-      "The resulting design combined MinerU for structured text and tables, one visual-language model for flowcharts, and deterministic rules for cross-page references. The recommendation brought the requirements, cost and infrastructure analysis, POC evidence, technical tradeoffs, and implementation path into one consulting package."
+      "The system needed to answer public enquiries from complex documents while keeping complete rules and decision paths together. The recommendation also had to fit the client’s infrastructure, operating cost, maintenance needs, and preference for one AI model.",
+      "I compared architecture options and built a controlled proof of concept around the main document risks. Page boundaries could divide tables, separate notes from the sentences they qualified, and leave flowcharts outside the searchable text. Any of those breaks could lead the system to retrieve a plausible passage with a missing condition.",
+      "The resulting design used MinerU for structured text and tables, one visual language model for flowcharts, and explicit rules for cross-page references. The final recommendation brought requirements, cost and infrastructure analysis, test evidence, technical tradeoffs, and an implementation path into one consulting package."
     ],
     "view_kind": "project",
     "presentations": [
-      "cite",
-      "component"
+      "cite"
     ],
     "media": [
       {
@@ -733,28 +739,28 @@
       "kind": "project",
       "id": "pwcRag",
       "period": "July 2026 - August 2026",
-      "subtitle": "Keeps document structure intact so retrieval returns complete evidence",
+      "subtitle": "Keeping rules, notes, tables, and flowcharts connected from PDF to answer",
       "route": "/ragflow-pipeline",
       "anchor": "",
       "mediaMode": "logo",
+      "logoHeight": "6vh",
       "richBlock": "interactive.rag.reference-linking"
     }
   },
   {
-    "id": 25,
+    "id": 24,
     "source_id": "projects:scrollytelling",
     "route": "/scrollytelling",
-    "page": "Projects",
+    "page": "Interactive Scrollytelling Deck",
     "title": "Interactive Scrollytelling Deck",
     "anchor": "",
-    "body": "A schema-driven scrollytelling engine with a pluggable D3 chart library, originally built for a data-heavy course presentation and later separated into reusable machinery.",
+    "body": "A reusable storytelling engine where a compact scene description controls charts, maps, and flows as the reader moves through an argument.",
     "parts": [
-      "A schema-driven scrollytelling engine with a pluggable D3 chart library, originally built for a data-heavy course presentation and later separated into reusable machinery."
+      "A reusable storytelling engine where a compact scene description controls charts, maps, and flows as the reader moves through an argument."
     ],
     "view_kind": "project",
     "presentations": [
-      "cite",
-      "component"
+      "cite"
     ],
     "media": [
       {
@@ -777,23 +783,24 @@
       "kind": "project",
       "id": "scrollytelling",
       "period": "November 2025 – December 2025",
-      "subtitle": "A Schema-Driven Scrollytelling Engine with a Pluggable D3 Chart Library",
+      "subtitle": "A reusable engine for stories where charts change as the reader moves",
       "route": "/scrollytelling",
       "anchor": "",
       "mediaMode": "gallery",
+      "logoHeight": "",
       "richBlock": "interactive.scrollytelling.chart-explorer"
     }
   },
   {
-    "id": 26,
+    "id": 25,
     "source_id": "projects:stride",
     "route": "/projects",
-    "page": "Projects",
+    "page": "Builds",
     "title": "Stride Support",
     "anchor": "stride",
-    "body": "An on-device customer-support copilot with MCP tools and a local language model, grounded in the customer's actual orders.",
+    "body": "An on-device support assistant that answers from a customer’s actual orders, handles common support tasks, and adjusts its tone to the customer’s sentiment.",
     "parts": [
-      "An on-device customer-support copilot with MCP tools and a local language model, grounded in the customer's actual orders."
+      "An on-device support assistant that answers from a customer’s actual orders, handles common support tasks, and adjusts its tone to the customer’s sentiment."
     ],
     "view_kind": "project",
     "presentations": [
@@ -814,55 +821,58 @@
         "src": "/assets/img/stride_past_orders.png"
       }
     ],
+    "component_description": "The original project entry for “Stride Support”, including its full project account and original visual material where available.",
+    "narrative_guidance": "Explain which design decision, technical approach, or result matters to the visitor before showing the complete project source.",
     "entity": {
       "kind": "project",
       "id": "stride",
       "period": "September 2025 – December 2025",
-      "subtitle": "Customer Support Copilot with MCP Tools and Local LLM",
+      "subtitle": "Private, order-aware customer support that runs on the user’s device",
       "route": "/projects",
       "anchor": "stride",
       "mediaMode": "gallery",
+      "logoHeight": "",
       "richBlock": ""
     }
   },
   {
-    "id": 27,
+    "id": 26,
     "source_id": "projects:searchstory",
     "route": "/searchstory",
-    "page": "Projects",
+    "page": "An AI Interface for Exploring a Personal Archive",
     "title": "An AI Interface for Exploring a Personal Archive",
     "anchor": "",
-    "body": "An AI interface that lets visitors search the whole site, ask grounded questions, and compose source-linked views from one shared retrieval layer.",
+    "body": "An AI interface for exploring one person through search, answers with citations, and Views whose dated snapshots preserve different perspectives over time.",
     "parts": [
-      "An AI interface that lets visitors search the whole site, ask grounded questions, and compose source-linked views from one shared retrieval layer."
+      "An AI interface for exploring one person through search, answers with citations, and Views whose dated snapshots preserve different perspectives over time."
     ],
     "view_kind": "project",
     "presentations": [
-      "cite",
-      "component"
+      "cite"
     ],
     "media": [],
     "entity": {
       "kind": "project",
       "id": "searchstory",
       "period": "June 2026 - Present",
-      "subtitle": "Site-Wide Search, Grounded Answers, and Composed Views from One Source Library",
+      "subtitle": "Search, cited answers, and composed Views built from Henry’s original site",
       "route": "/searchstory",
       "anchor": "",
       "mediaMode": "gallery",
+      "logoHeight": "",
       "richBlock": "interactive.search.embedding-map"
     }
   },
   {
-    "id": 28,
+    "id": 27,
     "source_id": "projects:congentra",
     "route": "/projects",
-    "page": "Projects",
+    "page": "Builds",
     "title": "Congentra",
     "anchor": "congentra",
-    "body": "A platform that helps teachers assess whether students understand and can explain the work they submit, without attempting to detect AI use.",
+    "body": "A platform that helps teachers assess whether students understand and can explain submitted work through targeted oral questions and a compact evidence file.",
     "parts": [
-      "A platform that helps teachers assess whether students understand and can explain the work they submit, without attempting to detect AI use."
+      "A platform that helps teachers assess whether students understand and can explain submitted work through targeted oral questions and a compact evidence file."
     ],
     "view_kind": "project",
     "presentations": [
@@ -901,6 +911,8 @@
         "src": "/assets/img/congentra_9.png"
       }
     ],
+    "component_description": "The original project entry for “Congentra”, including its full project account and original visual material where available.",
+    "narrative_guidance": "Explain which design decision, technical approach, or result matters to the visitor before showing the complete project source.",
     "entity": {
       "kind": "project",
       "id": "congentra",
@@ -909,14 +921,15 @@
       "route": "/projects",
       "anchor": "congentra",
       "mediaMode": "gallery",
+      "logoHeight": "",
       "richBlock": ""
     }
   },
   {
-    "id": 29,
+    "id": 28,
     "source_id": "projects:lexaday",
     "route": "/lexaday",
-    "page": "Projects",
+    "page": "Lexaday",
     "title": "Lexaday",
     "anchor": "",
     "body": "A daily vocabulary coach built around word roots, generated visual mnemonics, and spaced review.",
@@ -925,8 +938,7 @@
     ],
     "view_kind": "project",
     "presentations": [
-      "cite",
-      "component"
+      "cite"
     ],
     "media": [
       {
@@ -953,14 +965,15 @@
       "route": "/lexaday",
       "anchor": "",
       "mediaMode": "gallery",
+      "logoHeight": "",
       "richBlock": ""
     }
   },
   {
-    "id": 30,
+    "id": 29,
     "source_id": "projects:dealtracker",
     "route": "/dealtracker",
-    "page": "Projects",
+    "page": "Dealtracker",
     "title": "Dealtracker",
     "anchor": "",
     "body": "A personal deal hunter that monitors sale pages, applies saved filters, and sends short email digests only for new matches.",
@@ -969,8 +982,7 @@
     ],
     "view_kind": "project",
     "presentations": [
-      "cite",
-      "component"
+      "cite"
     ],
     "media": [
       {
@@ -988,15 +1000,16 @@
       "route": "/dealtracker",
       "anchor": "",
       "mediaMode": "gallery",
+      "logoHeight": "",
       "richBlock": ""
     }
   },
   {
-    "id": 31,
+    "id": 30,
     "source_id": "projects:early",
     "route": "/early",
-    "page": "Projects",
-    "title": "My Early Projects in Secondary School",
+    "page": "How I Started Building with Code",
+    "title": "How I Started Building with Code",
     "anchor": "",
     "body": "Secondary-school projects tracing how Henry first learned to program, including downloaders, browser extensions, automation scripts, and Econographer.",
     "parts": [
@@ -1004,8 +1017,7 @@
     ],
     "view_kind": "project",
     "presentations": [
-      "cite",
-      "component"
+      "cite"
     ],
     "media": [
       {
@@ -1032,21 +1044,20 @@
       "route": "/early",
       "anchor": "",
       "mediaMode": "gallery",
+      "logoHeight": "",
       "richBlock": ""
     }
   },
   {
-    "id": 32,
+    "id": 31,
     "source_id": "travels:overview",
     "route": "/travels",
     "page": "Travels",
     "title": "Where I've Wandered",
     "anchor": "",
-    "body": "I keep finding excuses to be somewhere new. This globe holds the places that stayed with me. Give it a spin, and tap a point to see where I stood. Drag to spin · pinch to zoom · tap a point Henry has travelled to and visited these places: Taipei, Taiwan; New Taipei, Taiwan; Yilan, Taiwan; Hualien, Taiwan; Taitung, Taiwan; Tainan, Taiwan; Shanghai, China; Beijing, China; Nanjing, Jiangsu, China; Guangzhou, Guangdong, China; Shenzhen, Guangdong, China; Hong Kong, Hong Kong SAR; Bangkok, Thailand; Phuket, Thailand; Athens, Greece; Barcelona, Catalonia, Spain; Lisbon, Portugal; New York, New York, United States; Washington, DC, United States; Arlington, Virginia, United States; Niagara Falls, New York, United States; Cambridge, Massachusetts, United States; Sydney, New South Wales, Australia; Melbourne, Victoria, Australia; Great Ocean Road, Victoria, Australia; Port Campbell, Victoria, Australia; Warrnambool, Victoria, Australia; Gold Coast, Queensland, Australia; Auckland, Auckland Region, New Zealand; Waimarama, Hawke's Bay, New Zealand; Napier, Hawke's Bay, New Zealand; Te Mata Peak, Hawke's Bay, New Zealand; Rotorua, Bay of Plenty, New Zealand; Taupō, Waikato, New Zealand; Waitomo, Waikato, New Zealand; Wellington, New Zealand.",
+    "body": "I keep finding excuses to be somewhere new. This globe holds the places that stayed with me. Give it a spin, and tap a point to see where I stood. Drag to spin · pinch to zoom · tap a point",
     "parts": [
-      "I keep finding excuses to be somewhere new. This globe holds the places that stayed with me. Give it a spin, and tap a point to see where I stood.",
-      "Drag to spin · pinch to zoom · tap a point Henry has travelled to and visited these places: Taipei, Taiwan; New Taipei, Taiwan; Yilan, Taiwan; Hualien, Taiwan; Taitung, Taiwan; Tainan, Taiwan; Shanghai, China; Beijing, China; Nanjing, Jiangsu, China; Guangzhou, Guangdong, China; Shenzhen, Guangdong, China; Hong Kong, Hong Kong SAR; Bangkok, Thailand; Phuket, Thailand; Athens, Greece; Barcelona, Catalonia, Spain; Lisbon, Portugal; New York, New York, United States; Washington, DC, United States; Arlington, Virginia, United States; Niagara Falls, New York, United States; Cambridge, Massachusetts, United States; Sydney, New South Wales, Australia; Melbourne, Victoria, Australia; Great Ocean Road, Victoria, Australia; Port Campbell, Victoria, Australia; Warrnambool, Victoria, Australia; Gold Coast, Queensland, Australia; Auckland, Auckland Region, New Zealand; Waimarama, Hawke's Bay, New",
-      "Zealand; Napier, Hawke's Bay, New Zealand; Te Mata Peak, Hawke's Bay, New Zealand; Rotorua, Bay of Plenty, New Zealand; Taupō, Waikato, New Zealand; Waitomo, Waikato, New Zealand; Wellington, New Zealand."
+      "I keep finding excuses to be somewhere new. This globe holds the places that stayed with me. Give it a spin, and tap a point to see where I stood. Drag to spin · pinch to zoom · tap a point"
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1055,10 +1066,10 @@
     "media": []
   },
   {
-    "id": 33,
+    "id": 32,
     "source_id": "playbook:overview",
     "route": "/playbook",
-    "page": "Omni Playbook",
+    "page": "Insurance Product Configuration Engine",
     "title": "Insurance Product Configuration Engine",
     "anchor": "",
     "body": "Packing for a trip follows a set of conditional rules, even if we rarely describe it that way. A beach trip calls for swimwear. Water sports add a snorkel. A ski trip produces a different list. A few answers determine what belongs in the bag. At HSBC I built an engine for a much larger version of the same problem. The interactive example below uses packing rules instead of confidential insurance data, but the underlying logic is the same. First it shows the problem. Then it lets you operate the rule system yourself.",
@@ -1072,15 +1083,32 @@
     "media": []
   },
   {
-    "id": 34,
+    "id": 33,
     "source_id": "playbook:first-the-problem",
     "route": "/playbook",
-    "page": "Omni Playbook",
+    "page": "Insurance Product Configuration Engine",
     "title": "First, the problem",
     "anchor": "first-the-problem",
-    "body": "One banking app supports many insurance products, and each product requires a different combination of screens and fields. A travel policy asks for trip dates, a motor policy asks about the vehicle, and some fields appear only after an earlier answer makes them relevant. The same logic must work across dozens of products and multiple markets. The rules were spread across business requirements, design libraries, and engineering implementation. Each team understood one part, but there was no shared representation connecting a product specification to the screens the app should display. As the sources changed, they could drift out of sync.",
+    "body": "One banking app supports many insurance products, and each product requires a different combination of screens and fields. A travel policy asks for trip dates, a motor policy asks about the vehicle, and some fields appear only after an earlier answer makes them relevant. The same logic must work across dozens of products and multiple markets. The rules were spread across business requirements, design libraries, and engineering implementation. Each team understood one part, yet nothing connected a product specification to the screens the app should display. As the sources changed, they could drift out of sync.",
     "parts": [
-      "One banking app supports many insurance products, and each product requires a different combination of screens and fields. A travel policy asks for trip dates, a motor policy asks about the vehicle, and some fields appear only after an earlier answer makes them relevant. The same logic must work across dozens of products and multiple markets. The rules were spread across business requirements, design libraries, and engineering implementation. Each team understood one part, but there was no shared representation connecting a product specification to the screens the app should display. As the sources changed, they could drift out of sync."
+      "One banking app supports many insurance products, and each product requires a different combination of screens and fields. A travel policy asks for trip dates, a motor policy asks about the vehicle, and some fields appear only after an earlier answer makes them relevant. The same logic must work across dozens of products and multiple markets. The rules were spread across business requirements, design libraries, and engineering implementation. Each team understood one part, yet nothing connected a product specification to the screens the app should display. As the sources changed, they could drift out of sync."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "media": []
+  },
+  {
+    "id": 34,
+    "source_id": "playbook:the-idea",
+    "route": "/playbook",
+    "page": "Insurance Product Configuration Engine",
+    "title": "The idea",
+    "anchor": "the-idea",
+    "body": "I separated the information into three linked libraries, with each part maintained by the team closest to it. Requirements What information does the product require? The business fields and their allowed values. Components What can the interface display? The reusable screens and UI components. Rules Which components apply under each set of conditions? The decision tables connecting specifications to interface blocks. Keeping these libraries separate allowed business rules and interface components to change independently. The configuration tables connected them at runtime. Given a product's answers, the engine selected the required components.",
+    "parts": [
+      "I separated the information into three linked libraries, with each part maintained by the team closest to it. Requirements What information does the product require? The business fields and their allowed values. Components What can the interface display? The reusable screens and UI components. Rules Which components apply under each set of conditions? The decision tables connecting specifications to interface blocks. Keeping these libraries separate allowed business rules and interface components to change independently. The configuration tables connected them at runtime. Given a product's answers, the engine selected the required components."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1090,26 +1118,9 @@
   },
   {
     "id": 35,
-    "source_id": "playbook:the-idea",
-    "route": "/playbook",
-    "page": "Omni Playbook",
-    "title": "The idea",
-    "anchor": "the-idea",
-    "body": "I separated the information into three linked libraries, with each part maintained by the team closest to it. Spec What information does the product require? The business fields and their allowed values. Components What can the interface display? The reusable screens and UI components. Config Which components apply under each set of conditions? The decision tables connecting specifications to interface blocks. Keeping these libraries separate allowed business rules and interface components to change independently. The configuration tables connected them at runtime. Given a product's answers, the engine selected the required components.",
-    "parts": [
-      "I separated the information into three linked libraries, with each part maintained by the team closest to it. Spec What information does the product require? The business fields and their allowed values. Components What can the interface display? The reusable screens and UI components. Config Which components apply under each set of conditions? The decision tables connecting specifications to interface blocks. Keeping these libraries separate allowed business rules and interface components to change independently. The configuration tables connected them at runtime. Given a product's answers, the engine selected the required components."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "media": []
-  },
-  {
-    "id": 36,
     "source_id": "playbook:try-it",
     "route": "/playbook",
-    "page": "Omni Playbook",
+    "page": "Insurance Product Configuration Engine",
     "title": "Try it",
     "anchor": "try-it",
     "body": "This demo uses the same logic with a familiar example. Describe the trip, watch each decision table evaluate the answers, and see the final packing list assemble itself.",
@@ -1123,15 +1134,15 @@
     "media": []
   },
   {
-    "id": 37,
-    "source_id": "playbook:what-this-really-was",
+    "id": 36,
+    "source_id": "playbook:from-the-packing-demo-to-the-production-tool",
     "route": "/playbook",
-    "page": "Omni Playbook",
-    "title": "What this really was",
-    "anchor": "what-this-really-was",
-    "body": "The production version ran in Excel with a VBA engine of roughly 32 KB. It included a small notation for conditional follow-up fields, decision tables with wildcard matching and right-side overrides, and a dynamic form that non-technical users could complete without editing the underlying code. I developed four versions and added an embedded tutorial so another team member could maintain the tool after my internship. The packing demo replaces confidential insurance data, but the mechanism is the same. It converts fragmented business logic into a shared representation that people can inspect and a computer can execute.",
+    "page": "Insurance Product Configuration Engine",
+    "title": "From the packing demo to the production tool",
+    "anchor": "from-the-packing-demo-to-the-production-tool",
+    "body": "The production version ran in Excel with a VBA engine of roughly 32 KB. It included a small notation for conditional follow-up fields, decision tables with wildcard matching and right-side overrides, and a dynamic form that kept the underlying code separate from what non-technical users completed. I developed four versions and added an embedded tutorial so another team member could maintain the tool after my internship. The packing demo uses familiar data to show the same mechanism. It converts fragmented business logic into one shared structure that people can inspect and a computer can execute.",
     "parts": [
-      "The production version ran in Excel with a VBA engine of roughly 32 KB. It included a small notation for conditional follow-up fields, decision tables with wildcard matching and right-side overrides, and a dynamic form that non-technical users could complete without editing the underlying code. I developed four versions and added an embedded tutorial so another team member could maintain the tool after my internship. The packing demo replaces confidential insurance data, but the mechanism is the same. It converts fragmented business logic into a shared representation that people can inspect and a computer can execute."
+      "The production version ran in Excel with a VBA engine of roughly 32 KB. It included a small notation for conditional follow-up fields, decision tables with wildcard matching and right-side overrides, and a dynamic form that kept the underlying code separate from what non-technical users completed. I developed four versions and added an embedded tutorial so another team member could maintain the tool after my internship. The packing demo uses familiar data to show the same mechanism. It converts fragmented business logic into one shared structure that people can inspect and a computer can execute."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1140,7 +1151,7 @@
     "media": []
   },
   {
-    "id": 38,
+    "id": 37,
     "source_id": "lexaday:overview",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1157,7 +1168,7 @@
     "media": []
   },
   {
-    "id": 39,
+    "id": 38,
     "source_id": "lexaday:a-small-lesson-generated-fresh-each-morning",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1174,7 +1185,7 @@
     "media": []
   },
   {
-    "id": 40,
+    "id": 39,
     "source_id": "lexaday:the-learning-loop",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1191,7 +1202,7 @@
     "media": []
   },
   {
-    "id": 41,
+    "id": 40,
     "source_id": "lexaday:pick",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1208,7 +1219,7 @@
     "media": []
   },
   {
-    "id": 42,
+    "id": 41,
     "source_id": "lexaday:write",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1225,7 +1236,7 @@
     "media": []
   },
   {
-    "id": 43,
+    "id": 42,
     "source_id": "lexaday:imagine",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1242,7 +1253,7 @@
     "media": []
   },
   {
-    "id": 44,
+    "id": 43,
     "source_id": "lexaday:send",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1259,7 +1270,7 @@
     "media": []
   },
   {
-    "id": 45,
+    "id": 44,
     "source_id": "lexaday:what-the-reader-receives",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1276,7 +1287,7 @@
     "media": []
   },
   {
-    "id": 46,
+    "id": 45,
     "source_id": "lexaday:how-it-is-packaged",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1293,7 +1304,7 @@
     "media": []
   },
   {
-    "id": 47,
+    "id": 46,
     "source_id": "dealtracker:overview",
     "route": "/dealtracker",
     "page": "Dealtracker",
@@ -1310,15 +1321,15 @@
     "media": []
   },
   {
-    "id": 48,
+    "id": 47,
     "source_id": "dealtracker:from-noisy-sale-pages-to-a-short-inbox-digest",
     "route": "/dealtracker",
     "page": "Dealtracker",
     "title": "From noisy sale pages to a short inbox digest",
     "anchor": "from-noisy-sale-pages-to-a-short-inbox-digest",
-    "body": "Choose the stores, define the brands, sizes, gender, and minimum discount, and let a scheduled job scan the sale pages. The result is not another catalogue. It is a short list of new products that meet the saved criteria. 2 Australian stores 7 brands I track 29-39% minimum discount",
+    "body": "Choose the stores, define the brands, sizes, gender, and minimum discount, and let a scheduled job scan the sale pages. The result is a short list of new products that meet the saved criteria. 2 Australian stores 7 brands I track 29-39% minimum discount",
     "parts": [
-      "Choose the stores, define the brands, sizes, gender, and minimum discount, and let a scheduled job scan the sale pages. The result is not another catalogue. It is a short list of new products that meet the saved criteria. 2 Australian stores 7 brands I track 29-39% minimum discount"
+      "Choose the stores, define the brands, sizes, gender, and minimum discount, and let a scheduled job scan the sale pages. The result is a short list of new products that meet the saved criteria. 2 Australian stores 7 brands I track 29-39% minimum discount"
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1327,7 +1338,7 @@
     "media": []
   },
   {
-    "id": 49,
+    "id": 48,
     "source_id": "dealtracker:the-email-output",
     "route": "/dealtracker",
     "page": "Dealtracker",
@@ -1344,7 +1355,7 @@
     "media": []
   },
   {
-    "id": 50,
+    "id": 49,
     "source_id": "dealtracker:what-happens-behind-the-email",
     "route": "/dealtracker",
     "page": "Dealtracker",
@@ -1361,15 +1372,15 @@
     "media": []
   },
   {
-    "id": 51,
+    "id": 50,
     "source_id": "dealtracker:the-control-layer",
     "route": "/dealtracker",
     "page": "Dealtracker",
     "title": "The control layer",
     "anchor": "the-control-layer",
-    "body": "Dealtracker also checks the monitored inbox for a reset command. Sending that command clears the saved history and establishes a new baseline without requiring me to edit the script or the data file. Specific filters Each retailer uses a different URL and filter format, so the scraper builds requests in the form that each store expects. Human-friendly output The digest is designed for a quick decision, with brand sections, product cards, prices, discounts, and direct links. Low-maintenance memory A small history file stores previously seen products and prevents the same sale from being announced repeatedly.",
+    "body": "Dealtracker also checks the monitored inbox for a reset command. Sending that command clears the saved history and establishes a new baseline through the same email workflow. Specific filters Each retailer uses a different URL and filter format, so the scraper builds requests in the form that each store expects. Human-friendly output The digest is designed for a quick decision, with brand sections, product cards, prices, discounts, and direct links. Low-maintenance memory A small history file stores previously seen products and prevents the same sale from being announced repeatedly.",
     "parts": [
-      "Dealtracker also checks the monitored inbox for a reset command. Sending that command clears the saved history and establishes a new baseline without requiring me to edit the script or the data file. Specific filters Each retailer uses a different URL and filter format, so the scraper builds requests in the form that each store expects. Human-friendly output The digest is designed for a quick decision, with brand sections, product cards, prices, discounts, and direct links. Low-maintenance memory A small history file stores previously seen products and prevents the same sale from being announced repeatedly."
+      "Dealtracker also checks the monitored inbox for a reset command. Sending that command clears the saved history and establishes a new baseline through the same email workflow. Specific filters Each retailer uses a different URL and filter format, so the scraper builds requests in the form that each store expects. Human-friendly output The digest is designed for a quick decision, with brand sections, product cards, prices, discounts, and direct links. Low-maintenance memory A small history file stores previously seen products and prevents the same sale from being announced repeatedly."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1378,7 +1389,7 @@
     "media": []
   },
   {
-    "id": 52,
+    "id": 51,
     "source_id": "scrollytelling:overview",
     "route": "/scrollytelling",
     "page": "Scrollytelling Engine",
@@ -1395,15 +1406,32 @@
     "media": []
   },
   {
-    "id": 53,
-    "source_id": "scrollytelling:a-scene-is-just-data",
+    "id": 52,
+    "source_id": "scrollytelling:describe-a-scene-once-then-let-the-engine-build-it",
     "route": "/scrollytelling",
     "page": "Scrollytelling Engine",
-    "title": "A scene is just data",
-    "anchor": "a-scene-is-just-data",
-    "body": "Each example below is rendered by the same builders used in the full deck. A scene specifies a figure type and a small set of properties. The registry selects the matching builder, renders the figure, and applies its entrance animation. Choose a chart type to see the schema and the result together. Once a builder exists in the registry, most new scenes can be added through a small data object rather than new rendering code.",
+    "title": "Describe a scene once, then let the engine build it",
+    "anchor": "describe-a-scene-once-then-let-the-engine-build-it",
+    "body": "Each example below uses the same rendering system as the full deck. A small scene description names the chart and the content it needs. The engine selects the right renderer, builds the visual, and adds its entrance motion. Choose a chart type to see the description and result together. Once the engine knows a chart type, a new scene can be added with a small data object.",
     "parts": [
-      "Each example below is rendered by the same builders used in the full deck. A scene specifies a figure type and a small set of properties. The registry selects the matching builder, renders the figure, and applies its entrance animation. Choose a chart type to see the schema and the result together. Once a builder exists in the registry, most new scenes can be added through a small data object rather than new rendering code."
+      "Each example below uses the same rendering system as the full deck. A small scene description names the chart and the content it needs. The engine selects the right renderer, builds the visual, and adds its entrance motion. Choose a chart type to see the description and result together. Once the engine knows a chart type, a new scene can be added with a small data object."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "media": []
+  },
+  {
+    "id": 53,
+    "source_id": "scrollytelling:see-it-as-a-story",
+    "route": "/scrollytelling",
+    "page": "Scrollytelling Engine",
+    "title": "See it as a story",
+    "anchor": "see-it-as-a-story",
+    "body": "The examples above show the engine's visual vocabulary. The embedded deck below is the course presentation for which the system was originally built. Scroll inside the frame to see how fixed visuals, changing text, and animated data work together across a full narrative.",
+    "parts": [
+      "The examples above show the engine's visual vocabulary. The embedded deck below is the course presentation for which the system was originally built. Scroll inside the frame to see how fixed visuals, changing text, and animated data work together across a full narrative."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1413,14 +1441,14 @@
   },
   {
     "id": 54,
-    "source_id": "scrollytelling:see-it-as-a-story",
+    "source_id": "scrollytelling:under-the-hood",
     "route": "/scrollytelling",
     "page": "Scrollytelling Engine",
-    "title": "See it as a story",
-    "anchor": "see-it-as-a-story",
-    "body": "The examples above show the engine's visual vocabulary. The embedded deck below is the course presentation for which the system was originally built. Scroll inside the frame to see how fixed visuals, changing text, and animated data work together across a full narrative. Open it fullscreen &nearr;",
+    "title": "Under the hood",
+    "anchor": "under-the-hood",
+    "body": "Scene descriptions Each scene is a small object containing its section background, navigation label, and figures. Shared settings control layout, typography, and reveal timing. Reusable chart builders The figure type selects a builder for text, line charts, ridge plots, scatter plots, heatmaps, geographic maps, Sankey diagrams, chord diagrams, and other formats. Background manager Each section can use its own looping video layer, managed separately from the scene markup. Runs as a static site The engine uses plain ES modules with D3, d3-sankey, and TopoJSON loaded from CDNs. It runs directly on a static host.",
     "parts": [
-      "The examples above show the engine's visual vocabulary. The embedded deck below is the course presentation for which the system was originally built. Scroll inside the frame to see how fixed visuals, changing text, and animated data work together across a full narrative. Open it fullscreen &nearr;"
+      "Scene descriptions Each scene is a small object containing its section background, navigation label, and figures. Shared settings control layout, typography, and reveal timing. Reusable chart builders The figure type selects a builder for text, line charts, ridge plots, scatter plots, heatmaps, geographic maps, Sankey diagrams, chord diagrams, and other formats. Background manager Each section can use its own looping video layer, managed separately from the scene markup. Runs as a static site The engine uses plain ES modules with D3, d3-sankey, and TopoJSON loaded from CDNs. It runs directly on a static host."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1430,14 +1458,15 @@
   },
   {
     "id": 55,
-    "source_id": "scrollytelling:under-the-hood",
-    "route": "/scrollytelling",
-    "page": "Scrollytelling Engine",
-    "title": "Under the hood",
-    "anchor": "under-the-hood",
-    "body": "Declarative slides Each scene is defined as an object containing its section background, navigation label, and figures. Shared tokens control layout, typography, and reveal timing. A figure registry A figure's type selects a builder for text, line charts, ridge plots, scatter plots, heatmaps, geographic maps, Sankey diagrams, chord diagrams, and other formats. Background manager Each section can use its own looping video layer, managed separately from the scene markup. Zero build The engine uses plain ES modules with D3, d3-sankey, and TopoJSON loaded from CDNs. It can run on a static host without a compilation step.",
+    "source_id": "early:overview",
+    "route": "/early",
+    "page": "How I Started Building with Code",
+    "title": "How I Started Building with Code",
+    "anchor": "",
+    "body": "This page collects the projects I built during junior high and high school, arranged roughly in the order in which I made them. Some of the ideas were naive, and a few crossed legal or ethical boundaries that I did not understand clearly at the time. I have kept them here, including the parts I now see differently.",
     "parts": [
-      "Declarative slides Each scene is defined as an object containing its section background, navigation label, and figures. Shared tokens control layout, typography, and reveal timing. A figure registry A figure's type selects a builder for text, line charts, ridge plots, scatter plots, heatmaps, geographic maps, Sankey diagrams, chord diagrams, and other formats. Background manager Each section can use its own looping video layer, managed separately from the scene markup. Zero build The engine uses plain ES modules with D3, d3-sankey, and TopoJSON loaded from CDNs. It can run on a static host without a compilation step."
+      "This page collects the projects I built during junior high and high school, arranged roughly in the order in which I made them.",
+      "Some of the ideas were naive, and a few crossed legal or ethical boundaries that I did not understand clearly at the time. I have kept them here, including the parts I now see differently."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1447,135 +1476,326 @@
   },
   {
     "id": 56,
-    "source_id": "early:overview",
-    "route": "/early",
-    "page": "Early CS Adventure",
-    "title": "My Early Adventures in Computer Science",
-    "anchor": "",
-    "body": "This page collects the projects I built during junior high and high school, arranged roughly in the order in which I made them. Some of the ideas were naive, and a few crossed legal or ethical boundaries that I did not understand clearly at the time. I have kept them here, including the parts I now see differently.",
-    "parts": [
-      "This page collects the projects I built during junior high and high school, arranged roughly in the order in which I made them. Some of the ideas were naive, and a few crossed legal or ethical boundaries that I did not understand clearly at the time. I have kept them here, including the parts I now see differently."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "media": []
-  },
-  {
-    "id": 57,
     "source_id": "early:how-it-started",
     "route": "/early",
-    "page": "Early CS Adventure",
+    "page": "How I Started Building with Code",
     "title": "How it started",
     "anchor": "how-it-started",
     "body": "I became interested in computer science at thirteen, during my first year of junior high school. A teacher showed the class how a batch script could create folders automatically. It was a small demonstration, but it changed my idea of what a computer could do. Instead of only using software, I could write instructions and make the machine carry them out. I began teaching myself Java and Python and built simple desktop programs, including a contact notebook and a number-guessing game with user accounts and a text-file history. These screenshots show the contact notebook, one of the first applications I completed.",
     "parts": [
-      "I became interested in computer science at thirteen, during my first year of junior high school. A teacher showed the class how a batch script could create folders automatically. It was a small demonstration, but it changed my idea of what a computer could do. Instead of only using software, I could write instructions and make the machine carry them out. I began teaching myself Java and Python and built simple desktop programs, including a contact notebook and a number-guessing game with user accounts and a text-file history. These screenshots show the contact notebook, one of the first applications I completed."
+      "I became interested in computer science at thirteen, during my first year of junior high school. A teacher showed the class how a batch script could create folders automatically. It was a small demonstration, but it changed my idea of what a computer could do. Instead of only using software, I could write instructions and make the machine carry them out. I began teaching myself Java and Python and built simple desktop programs, including a contact notebook and a number-guessing game with user accounts and a text-file history.",
+      "These screenshots show the contact notebook, one of the first applications I completed."
     ],
-    "view_kind": "prose",
+    "view_kind": "early-project",
     "presentations": [
-      "cite"
+      "cite",
+      "component"
     ],
-    "media": []
+    "media": [
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/contactnotebook1.jpg.webp",
+        "fullSrc": "/assets/img/contactnotebook1.jpg",
+        "alt": "Contact Notebook Screenshot 1"
+      },
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/contactnotebook2.jpg.webp",
+        "fullSrc": "/assets/img/contactnotebook2.jpg",
+        "alt": "Contact Notebook Screenshot 2"
+      }
+    ],
+    "component_description": "A complete section from Henry’s secondary-school computing archive titled “How it started”, with its original explanation and any screenshots or video demonstration kept together.",
+    "narrative_guidance": "Treat this as formative archival evidence. Use it when the visitor asks about Henry’s secondary-school years, the development of his technical interests, or the specific problem and domain represented here. For a broad account of his projects, use the archive’s signature project as the formative example and include this source only when it adds a distinct connection.",
+    "entity": {
+      "kind": "early-project",
+      "id": "how-it-started",
+      "period": "Secondary school",
+      "signature": false
+    }
   },
   {
-    "id": 58,
+    "id": 57,
     "source_id": "early:batch-downloading-scientific-american-episodes",
     "route": "/early",
-    "page": "Early CS Adventure",
+    "page": "How I Started Building with Code",
     "title": "Batch Downloading Scientific American Episodes",
     "anchor": "batch-downloading-scientific-american-episodes",
     "body": "In my first year of junior high school, I started using Scientific American podcasts to practise English. I listened on an MP3 player that could also display images and text, so I built a desktop application that downloaded episode audio, transcripts, and images in batches. A simple account system recorded which episodes each user had downloaded and allowed the application to continue from the previous stopping point. These screenshots show the downloader and its account interface.",
     "parts": [
-      "In my first year of junior high school, I started using Scientific American podcasts to practise English. I listened on an MP3 player that could also display images and text, so I built a desktop application that downloaded episode audio, transcripts, and images in batches. A simple account system recorded which episodes each user had downloaded and allowed the application to continue from the previous stopping point. These screenshots show the downloader and its account interface."
+      "In my first year of junior high school, I started using Scientific American podcasts to practise English. I listened on an MP3 player that could also display images and text, so I built a desktop application that downloaded episode audio, transcripts, and images in batches. A simple account system recorded which episodes each user had downloaded and allowed the application to continue from the previous stopping point.",
+      "These screenshots show the downloader and its account interface."
     ],
-    "view_kind": "prose",
+    "view_kind": "early-project",
     "presentations": [
-      "cite"
+      "cite",
+      "component"
     ],
-    "media": []
+    "media": [
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/safetcher1.jpg.webp",
+        "fullSrc": "/assets/img/safetcher1.jpg",
+        "alt": "SA Fetcher Screenshot 1"
+      },
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/safetcher2.jpg.webp",
+        "fullSrc": "/assets/img/safetcher2.jpg",
+        "alt": "SA Fetcher Screenshot 2"
+      },
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/safetcher3.jpg.webp",
+        "fullSrc": "/assets/img/safetcher3.jpg",
+        "alt": "SA Fetcher Screenshot 3"
+      },
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/safetcher4.jpg.webp",
+        "fullSrc": "/assets/img/safetcher4.jpg",
+        "alt": "SA Fetcher Screenshot 4"
+      }
+    ],
+    "component_description": "A complete section from Henry’s secondary-school computing archive titled “Batch Downloading Scientific American Episodes”, with its original explanation and any screenshots or video demonstration kept together.",
+    "narrative_guidance": "Treat this as formative archival evidence. Use it when the visitor asks about Henry’s secondary-school years, the development of his technical interests, or the specific problem and domain represented here. For a broad account of his projects, use the archive’s signature project as the formative example and include this source only when it adds a distinct connection.",
+    "entity": {
+      "kind": "early-project",
+      "id": "batch-downloading-scientific-american-episodes",
+      "period": "Secondary school",
+      "signature": false
+    }
   },
   {
-    "id": 59,
+    "id": 58,
     "source_id": "early:chrome-extension-experiments",
     "route": "/early",
-    "page": "Early CS Adventure",
+    "page": "How I Started Building with Code",
     "title": "Chrome Extension Experiments",
     "anchor": "chrome-extension-experiments",
     "body": "In my second year of junior high school, I began experimenting with Chrome extensions. Small browser tools could change how a website behaved without requiring a full standalone application, and I wanted to understand how they worked. I learned how to build and publish extensions and made several of my own: Easy QR Code : Generates a QR code for the current page and converts custom text or links into QR codes. Page Muter : Mutes audio or video in the current tab. Image Fetcher : Downloads images from the current page in a batch. SA Fetcher : A simplified browser-extension version of the earlier Scientific American downloader. WeChat Spamming : Automated repeated messages in WeChat as a prank tool. I would not publish a tool like this now, but at the time it taught me how browser automation could interact with a live interface. These screenshots show the developer dashboard and several of the extensions.",
     "parts": [
-      "In my second year of junior high school, I began experimenting with Chrome extensions. Small browser tools could change how a website behaved without requiring a full standalone application, and I wanted to understand how they worked. I learned how to build and publish extensions and made several of my own: Easy QR Code : Generates a QR code for the current page and converts custom text or links into QR codes. Page Muter : Mutes audio or video in the current tab. Image Fetcher : Downloads images from the current page in a batch. SA Fetcher : A simplified browser-extension version of the earlier Scientific American downloader. WeChat Spamming : Automated repeated messages in WeChat as a prank tool. I would not publish a tool like this now, but at the time it taught me how browser automation could interact with a live interface.",
+      "In my second year of junior high school, I began experimenting with Chrome extensions. Small browser tools could change how a website behaved without requiring a full standalone application, and I wanted to understand how they worked. I learned how to build and publish extensions and made several of my own:",
+      "Easy QR Code : Generates a QR code for the current page and converts custom text or links into QR codes.",
+      "Page Muter : Mutes audio or video in the current tab.",
+      "Image Fetcher : Downloads images from the current page in a batch.",
+      "SA Fetcher : A simplified browser-extension version of the earlier Scientific American downloader.",
+      "WeChat Spamming : Automated repeated messages in WeChat as a prank tool. I would not publish a tool like this now, but at the time it taught me how browser automation could interact with a live interface.",
       "These screenshots show the developer dashboard and several of the extensions."
     ],
-    "view_kind": "prose",
+    "view_kind": "early-project",
     "presentations": [
-      "cite"
+      "cite",
+      "component"
     ],
-    "media": []
+    "media": [
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/chromeextension1.png.webp",
+        "fullSrc": "/assets/img/chromeextension1.png",
+        "alt": "Chrome Extension Screenshot 1"
+      },
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/chromeextension2.png.webp",
+        "fullSrc": "/assets/img/chromeextension2.png",
+        "alt": "Chrome Extension Screenshot 2"
+      },
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/chromeextension3.png.webp",
+        "fullSrc": "/assets/img/chromeextension3.png",
+        "alt": "Chrome Extension Screenshot 3"
+      }
+    ],
+    "component_description": "A complete section from Henry’s secondary-school computing archive titled “Chrome Extension Experiments”, with its original explanation and any screenshots or video demonstration kept together.",
+    "narrative_guidance": "Treat this as formative archival evidence. Use it when the visitor asks about Henry’s secondary-school years, the development of his technical interests, or the specific problem and domain represented here. For a broad account of his projects, use the archive’s signature project as the formative example and include this source only when it adds a distinct connection.",
+    "entity": {
+      "kind": "early-project",
+      "id": "chrome-extension-experiments",
+      "period": "Secondary school",
+      "signature": false
+    }
   },
   {
-    "id": 60,
+    "id": 59,
     "source_id": "early:music-streaming-hacks",
     "route": "/early",
-    "page": "Early CS Adventure",
+    "page": "How I Started Building with Code",
     "title": "Music Streaming Hacks",
     "anchor": "music-streaming-hacks",
     "body": "In my first year of high school, I spent several months building a program that downloaded paid music from Chinese streaming services without authorisation. I did not understand the legal and ethical implications clearly when I started. Once I did, I shut the service down. I am not proud of the infringement, but I have kept the project here because it was part of my early programming work. I researched how the services exposed media URLs and built an interface that accepted a song-page link from QQ Music, NetEase Cloud Music, KuGou, or KuWo. It could download individual tracks at different quality levels and process multiple pages from an artist catalogue. I also built an account system and restricted some functions to selected users. Technically, it was the most complex application I had attempted at that point. Ethically, it was a project I should not have released. I closed the service after about six months. By then, more than four hundred accounts had been created and the system had processed thousands of downloads. I no longer treat those numbers as a measure of success. I now think about the project mainly in terms of permission, platform rules, and the responsibility involved in releasing software for other people to use. These screenshots show the Simplified Chinese interface used by the original audience.",
     "parts": [
-      "In my first year of high school, I spent several months building a program that downloaded paid music from Chinese streaming services without authorisation. I did not understand the legal and ethical implications clearly when I started. Once I did, I shut the service down. I am not proud of the infringement, but I have kept the project here because it was part of my early programming work. I researched how the services exposed media URLs and built an interface that accepted a song-page link from QQ Music, NetEase Cloud Music, KuGou, or KuWo. It could download individual tracks at different quality levels and process multiple pages from an artist catalogue. I also built an account system and restricted some functions to selected users. Technically, it was the most complex application I had attempted at that point. Ethically, it was a project I should not have released.",
-      "I closed the service after about six months. By then, more than four hundred accounts had been created and the system had processed thousands of downloads. I no longer treat those numbers as a measure of success. I now think about the project mainly in terms of permission, platform rules, and the responsibility involved in releasing software for other people to use. These screenshots show the Simplified Chinese interface used by the original audience."
+      "In my first year of high school, I spent several months building a program that downloaded paid music from Chinese streaming services without authorisation. I did not understand the legal and ethical implications clearly when I started. Once I did, I shut the service down. I am not proud of the infringement, but I have kept the project here because it was part of my early programming work.",
+      "I researched how the services exposed media URLs and built an interface that accepted a song-page link from QQ Music, NetEase Cloud Music, KuGou, or KuWo. It could download individual tracks at different quality levels and process multiple pages from an artist catalogue. I also built an account system and restricted some functions to selected users. Technically, it was the most complex application I had attempted at that point. Ethically, it was a project I should not have released.",
+      "I closed the service after about six months. By then, more than four hundred accounts had been created and the system had processed thousands of downloads. I no longer treat those numbers as a measure of success. I now think about the project mainly in terms of permission, platform rules, and the responsibility involved in releasing software for other people to use.",
+      "These screenshots show the Simplified Chinese interface used by the original audience."
     ],
-    "view_kind": "prose",
+    "view_kind": "early-project",
     "presentations": [
-      "cite"
+      "cite",
+      "component"
     ],
-    "media": []
+    "media": [
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/musicdownloader1.jpg.webp",
+        "fullSrc": "/assets/img/musicdownloader1.jpg",
+        "alt": "Music Downloader Screenshot 1"
+      },
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/musicdownloader2.jpg.webp",
+        "fullSrc": "/assets/img/musicdownloader2.jpg",
+        "alt": "Music Downloader Screenshot 2"
+      },
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/musicdownloader3.jpg.webp",
+        "fullSrc": "/assets/img/musicdownloader3.jpg",
+        "alt": "Music Downloader Screenshot 3"
+      },
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/musicdownloader4.jpg.webp",
+        "fullSrc": "/assets/img/musicdownloader4.jpg",
+        "alt": "Music Downloader Screenshot 4"
+      },
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/musicdownloader5.jpg.webp",
+        "fullSrc": "/assets/img/musicdownloader5.jpg",
+        "alt": "Music Downloader Screenshot 5"
+      },
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/musicdownloader6.jpg.webp",
+        "fullSrc": "/assets/img/musicdownloader6.jpg",
+        "alt": "Music Downloader Screenshot 6"
+      },
+      {
+        "kind": "image",
+        "src": "/assets/img/gallery-thumbs/musicdownloader7.jpg.webp",
+        "fullSrc": "/assets/img/musicdownloader7.jpg",
+        "alt": "Music Downloader Screenshot 7"
+      }
+    ],
+    "component_description": "A complete section from Henry’s secondary-school computing archive titled “Music Streaming Hacks”, with its original explanation and any screenshots or video demonstration kept together.",
+    "narrative_guidance": "Treat this as formative archival evidence. Use it when the visitor asks about Henry’s secondary-school years, the development of his technical interests, or the specific problem and domain represented here. For a broad account of his projects, use the archive’s signature project as the formative example and include this source only when it adds a distinct connection.",
+    "entity": {
+      "kind": "early-project",
+      "id": "music-streaming-hacks",
+      "period": "Secondary school",
+      "signature": false
+    }
   },
   {
-    "id": 61,
+    "id": 60,
     "source_id": "early:building-kiwiviews-website",
     "route": "/early",
-    "page": "Early CS Adventure",
+    "page": "How I Started Building with Code",
     "title": "Building Kiwiview's Website",
     "anchor": "building-kiwiviews-website",
     "body": "In my second year of high school, I began building a website for Kiwiview International Limited, a New Zealand company co-owned by my parents and a local business partner. The company was new, and they gave me the opportunity to design and develop its first website. I taught myself HTML, CSS, JavaScript, and SQL, then deployed the site to an IIS server on Tencent Cloud. The deployment was difficult for me at the time, but working through it taught me how the browser, server, database, domain, and hosting environment fit together.",
     "parts": [
-      "In my second year of high school, I began building a website for Kiwiview International Limited, a New Zealand company co-owned by my parents and a local business partner. The company was new, and they gave me the opportunity to design and develop its first website. I taught myself HTML, CSS, JavaScript, and SQL, then deployed the site to an IIS server on Tencent Cloud. The deployment was difficult for me at the time, but working through it taught me how the browser, server, database, domain, and hosting environment fit together."
+      "In my second year of high school, I began building a website for Kiwiview International Limited, a New Zealand company co-owned by my parents and a local business partner. The company was new, and they gave me the opportunity to design and develop its first website.",
+      "I taught myself HTML, CSS, JavaScript, and SQL, then deployed the site to an IIS server on Tencent Cloud. The deployment was difficult for me at the time, but working through it taught me how the browser, server, database, domain, and hosting environment fit together."
     ],
-    "view_kind": "prose",
+    "view_kind": "early-project",
     "presentations": [
-      "cite"
+      "cite",
+      "component"
     ],
-    "media": []
+    "media": [],
+    "component_description": "A complete section from Henry’s secondary-school computing archive titled “Building Kiwiview's Website”, with its original explanation and any screenshots or video demonstration kept together.",
+    "narrative_guidance": "Treat this as formative archival evidence. Use it when the visitor asks about Henry’s secondary-school years, the development of his technical interests, or the specific problem and domain represented here. For a broad account of his projects, use the archive’s signature project as the formative example and include this source only when it adds a distinct connection.",
+    "entity": {
+      "kind": "early-project",
+      "id": "building-kiwiviews-website",
+      "period": "Secondary school",
+      "signature": false
+    }
+  },
+  {
+    "id": 61,
+    "source_id": "early:simple-automation",
+    "route": "/early",
+    "page": "How I Started Building with Code",
+    "title": "Simple Automation",
+    "anchor": "simple-automation",
+    "body": "In my third year of high school, our school ran online mental-arithmetic and 24-point games. I built a script that recognised the questions on screen, solved them algorithmically, and entered the answers automatically. I treated it as a technical automation experiment rather than a fair way to compete, and I recorded the runs to document how the pipeline worked. The script combined screen recognition, problem-solving logic, and automated input, and continued until the game timer ended. These videos show the script solving both types of problem.",
+    "parts": [
+      "In my third year of high school, our school ran online mental-arithmetic and 24-point games. I built a script that recognised the questions on screen, solved them algorithmically, and entered the answers automatically. I treated it as a technical automation experiment rather than a fair way to compete, and I recorded the runs to document how the pipeline worked.",
+      "The script combined screen recognition, problem-solving logic, and automated input, and continued until the game timer ended.",
+      "These videos show the script solving both types of problem."
+    ],
+    "view_kind": "early-project",
+    "presentations": [
+      "cite",
+      "component"
+    ],
+    "media": [
+      {
+        "kind": "video",
+        "src": "/assets/vid/24.mp4"
+      },
+      {
+        "kind": "video",
+        "src": "/assets/vid/mentalmath.mp4"
+      }
+    ],
+    "component_description": "A complete section from Henry’s secondary-school computing archive titled “Simple Automation”, with its original explanation and any screenshots or video demonstration kept together.",
+    "narrative_guidance": "Treat this as formative archival evidence. Use it when the visitor asks about Henry’s secondary-school years, the development of his technical interests, or the specific problem and domain represented here. For a broad account of his projects, use the archive’s signature project as the formative example and include this source only when it adds a distinct connection.",
+    "entity": {
+      "kind": "early-project",
+      "id": "simple-automation",
+      "period": "Secondary school",
+      "signature": false
+    }
   },
   {
     "id": 62,
-    "source_id": "early:simple-automation",
+    "source_id": "early:econographer-an-economics-graphs-generator",
     "route": "/early",
-    "page": "Early CS Adventure",
-    "title": "Simple Automation",
-    "anchor": "simple-automation",
-    "body": "In my third year of high school, our school ran online mental-arithmetic and 24-point games. I built a script that recognised the questions on screen, solved them algorithmically, and entered the answers automatically. I treated it as a technical automation experiment rather than a fair way to compete, and I recorded the runs to document how the pipeline worked. The script combined screen recognition, problem-solving logic, and automated input, and continued until the game timer ended. These videos show the script solving both types of problem. Your browser does not support the video tag. Your browser does not support the video tag.",
+    "page": "How I Started Building with Code",
+    "title": "Econographer, an Economics Graphs Generator",
+    "anchor": "econographer-an-economics-graphs-generator",
+    "body": "In my third year of high school, I wondered whether the diagrams used in economics classes could be generated instead of drawn manually. I could not find a tool that matched the AP and IB diagrams we needed, so I built one. Econographer is a Microsoft Word add-in for generating common economics graphs. Users can choose the graph type and adjust labels, curves, equilibrium points, and other elements before inserting the result into a document. The video below demonstrates the complete workflow.",
     "parts": [
-      "In my third year of high school, our school ran online mental-arithmetic and 24-point games. I built a script that recognised the questions on screen, solved them algorithmically, and entered the answers automatically. I treated it as a technical automation experiment rather than a fair way to compete, and I recorded the runs to document how the pipeline worked. The script combined screen recognition, problem-solving logic, and automated input, and continued until the game timer ended. These videos show the script solving both types of problem. Your browser does not support the video tag. Your browser does not support the video tag."
+      "In my third year of high school, I wondered whether the diagrams used in economics classes could be generated instead of drawn manually. I could not find a tool that matched the AP and IB diagrams we needed, so I built one.",
+      "Econographer is a Microsoft Word add-in for generating common economics graphs. Users can choose the graph type and adjust labels, curves, equilibrium points, and other elements before inserting the result into a document.",
+      "The video below demonstrates the complete workflow."
     ],
-    "view_kind": "prose",
+    "view_kind": "early-project",
     "presentations": [
-      "cite"
+      "cite",
+      "component"
     ],
-    "media": []
+    "media": [
+      {
+        "kind": "video",
+        "src": "/assets/vid/econographer.mp4"
+      }
+    ],
+    "component_description": "A complete section from Henry’s secondary-school computing archive titled “Econographer, an Economics Graphs Generator”, with its original explanation and any screenshots or video demonstration kept together.",
+    "narrative_guidance": "This is the signature project in Henry’s secondary-school computing archive. Use it for questions about early technical interests, economics software, visual tools, or a broad project story where one formative example helps show the longer trajectory. In a broad story, place it after the more recent representative work.",
+    "entity": {
+      "kind": "early-project",
+      "id": "econographer-an-economics-graphs-generator",
+      "period": "Secondary school",
+      "signature": true
+    }
   },
   {
     "id": 63,
-    "source_id": "early:econographer-an-economics-graphs-generator",
-    "route": "/early",
-    "page": "Early CS Adventure",
-    "title": "Econographer, an Economics Graphs Generator",
-    "anchor": "econographer-an-economics-graphs-generator",
-    "body": "In my third year of high school, I wondered whether the diagrams used in economics classes could be generated instead of drawn manually. I could not find a tool that matched the AP and IB diagrams we needed, so I built one. Econographer is a Microsoft Word add-in for generating common economics graphs. Users can choose the graph type and adjust labels, curves, equilibrium points, and other elements before inserting the result into a document. The video below demonstrates the complete workflow. Your browser does not support the video tag.",
+    "source_id": "searchstory:overview",
+    "route": "/searchstory",
+    "page": "An AI Interface for Exploring a Personal Archive",
+    "title": "An AI Interface for Exploring a Personal Archive",
+    "anchor": "",
+    "body": "This project gives visitors three ways to explore the same personal site. Search moves across the whole site, highlights relevant passages, and opens the original page at the right place. Ask turns the most useful passages into an answer with citations, then offers follow-up questions the site can also support. View composes material from across the site around a chosen angle and preserves the result as a focused page that keeps its original sources visible. The same search foundation keeps all three experiences connected to Henry’s original material.",
     "parts": [
-      "In my third year of high school, I wondered whether the diagrams used in economics classes could be generated instead of drawn manually. I could not find a tool that matched the AP and IB diagrams we needed, so I built one. Econographer is a Microsoft Word add-in for generating common economics graphs. Users can choose the graph type and adjust labels, curves, equilibrium points, and other elements before inserting the result into a document. The video below demonstrates the complete workflow. Your browser does not support the video tag."
+      "This project gives visitors three ways to explore the same personal site. Search moves across the whole site, highlights relevant passages, and opens the original page at the right place. Ask turns the most useful passages into an answer with citations, then offers follow-up questions the site can also support. View composes material from across the site around a chosen angle and preserves the result as a focused page that keeps its original sources visible. The same search foundation keeps all three experiences connected to Henry’s original material."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1585,14 +1805,14 @@
   },
   {
     "id": 64,
-    "source_id": "searchstory:overview",
+    "source_id": "searchstory:search-turns-the-whole-site-into-one-navigable-space",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
-    "title": "An AI Interface for Exploring a Personal Archive",
-    "anchor": "",
-    "body": "This project gives visitors three ways to explore the same personal site. Search moves across the whole site, highlights relevant passages, and opens the original page at the right place. Ask turns the most useful passages into a cited response, then offers grounded follow-up questions that can carry the inquiry further. composes material from across the site around a chosen angle and preserves the result as a source-linked page. One retrieval system keeps all three experiences connected to the original material.",
+    "title": "Search turns the whole site into one navigable space",
+    "anchor": "search-turns-the-whole-site-into-one-navigable-space",
+    "body": "A visitor can search across projects, research, fragments, travel, and About from one place. Each result shows the relevant passage, highlights the match, and can open the original page at its precise location. Behind Search, the site is divided into passages and each passage is represented by its meaning. This numerical representation is called an embedding. Search, Ask, and View all use it to find relevant material. The map below compresses those embeddings into two or three dimensions so relationships across pages become visible. Add a question to see where it lands and which passages gather around it.",
     "parts": [
-      "This project gives visitors three ways to explore the same personal site. Search moves across the whole site, highlights relevant passages, and opens the original page at the right place. Ask turns the most useful passages into a cited response, then offers grounded follow-up questions that can carry the inquiry further. composes material from across the site around a chosen angle and preserves the result as a source-linked page. One retrieval system keeps all three experiences connected to the original material."
+      "A visitor can search across projects, research, fragments, travel, and About from one place. Each result shows the relevant passage, highlights the match, and can open the original page at its precise location. Behind Search, the site is divided into passages and each passage is represented by its meaning. This numerical representation is called an embedding. Search, Ask, and View all use it to find relevant material. The map below compresses those embeddings into two or three dimensions so relationships across pages become visible. Add a question to see where it lands and which passages gather around it."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1602,14 +1822,14 @@
   },
   {
     "id": 65,
-    "source_id": "searchstory:search-turns-the-whole-site-into-one-navigable-space",
+    "source_id": "searchstory:finding-the-right-material-before-ai-writes",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
-    "title": "Search turns the whole site into one navigable space",
-    "anchor": "search-turns-the-whole-site-into-one-navigable-space",
-    "body": "A visitor can search across projects, research, fragments, travel, and About from one place. Each result shows the relevant passage, highlights the match, and can open the original page at its precise location. To make this possible, each build divides the site into passages and converts each one into a 384-dimensional embedding. Search, Ask, and share this representation of the site. The map below projects it into two or three dimensions, making clusters and connections across different pages visible. Add a query to see where it lands and which passages gather around it.",
+    "title": "Finding the right material before AI writes",
+    "anchor": "finding-the-right-material-before-ai-writes",
+    "body": "Search looks for two kinds of connection. Shared words are especially useful for names, project titles, and exact phrases. Shared meaning helps when a visitor describes the same idea in different language. The site combines both result lists, then removes passages with only a weak connection to the request. In retrieval terminology, these are lexical search, semantic search, reciprocal-rank fusion, and a relevance threshold. This first step gives each AI feature a focused set of original material. Ask uses it to answer a question, while View uses a broader selection to build a connected reading path. Live retrieval experiment Compare word matching, meaning matching, and the combined results. Then adjust how relevant a passage must be to remain.",
     "parts": [
-      "A visitor can search across projects, research, fragments, travel, and About from one place. Each result shows the relevant passage, highlights the match, and can open the original page at its precise location. To make this possible, each build divides the site into passages and converts each one into a 384-dimensional embedding. Search, Ask, and share this representation of the site. The map below projects it into two or three dimensions, making clusters and connections across different pages visible. Add a query to see where it lands and which passages gather around it."
+      "Search looks for two kinds of connection. Shared words are especially useful for names, project titles, and exact phrases. Shared meaning helps when a visitor describes the same idea in different language. The site combines both result lists, then removes passages with only a weak connection to the request. In retrieval terminology, these are lexical search, semantic search, reciprocal-rank fusion, and a relevance threshold. This first step gives each AI feature a focused set of original material. Ask uses it to answer a question, while View uses a broader selection to build a connected reading path. Live retrieval experiment Compare word matching, meaning matching, and the combined results. Then adjust how relevant a passage must be to remain."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1619,14 +1839,14 @@
   },
   {
     "id": 66,
-    "source_id": "searchstory:one-retrieval-layer-decides-what-each-experience-should-use",
+    "source_id": "searchstory:ask-turns-those-passages-into-an-answer-you-can-trace",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
-    "title": "One retrieval layer decides what each experience should use",
-    "anchor": "one-retrieval-layer-decides-what-each-experience-should-use",
-    "body": "Semantic similarity is useful for paraphrases, while exact word matching remains stronger for names, project titles, and literal phrases. The production retriever keeps both signals. Weighted reciprocal-rank fusion combines their result lists, then a relevance floor removes material that is too weakly connected to the request. This retrieval step is the common foundation of the AI features. It reduces the index to the passages needed for the current request. That selected set becomes the working context for Ask and . Live retrieval experiment Run one query through the lexical, semantic, and fused rankers, then move the relevance floor.",
+    "title": "Ask turns those passages into an answer you can trace",
+    "anchor": "ask-turns-those-passages-into-an-answer-you-can-trace",
+    "body": "Ask gives a direct response to a visitor’s question, keeps citations beside the answer, and proposes follow-up questions that the same site material can support. A visitor can move from a concise explanation into the original pages or continue the inquiry while keeping its context. This pattern is known as retrieval-augmented generation, or RAG. The site gathers relevant passages before a language model writes, numbers them for citation, and asks the model to stay within that evidence. The answer is generated through Cloudflare and returned with links to the pages it used. When the site has too little relevant material, the response says so.",
     "parts": [
-      "Semantic similarity is useful for paraphrases, while exact word matching remains stronger for names, project titles, and literal phrases. The production retriever keeps both signals. Weighted reciprocal-rank fusion combines their result lists, then a relevance floor removes material that is too weakly connected to the request. This retrieval step is the common foundation of the AI features. It reduces the index to the passages needed for the current request. That selected set becomes the working context for Ask and . Live retrieval experiment Run one query through the lexical, semantic, and fused rankers, then move the relevance floor."
+      "Ask gives a direct response to a visitor’s question, keeps citations beside the answer, and proposes follow-up questions that the same site material can support. A visitor can move from a concise explanation into the original pages or continue the inquiry while keeping its context. This pattern is known as retrieval-augmented generation, or RAG. The site gathers relevant passages before a language model writes, numbers them for citation, and asks the model to stay within that evidence. The answer is generated through Cloudflare and returned with links to the pages it used. When the site has too little relevant material, the response says so."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1636,28 +1856,11 @@
   },
   {
     "id": 67,
-    "source_id": "searchstory:ask-turns-those-passages-into-a-grounded-conversation",
+    "source_id": "searchstory:find",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
-    "title": "Ask turns those passages into a grounded conversation",
-    "anchor": "ask-turns-those-passages-into-a-grounded-conversation",
-    "body": "Ask gives a direct response to a visitor&rsquo;s question, keeps citations beside the answer, and proposes follow-up questions that the site can also support. A visitor can move from a concise explanation into the original pages or continue the inquiry without losing its context. Underneath, a retrieval-augmented generation pipeline gathers the relevant material and places numbered passages inside a grounded prompt. A language model running through an edge worker writes from that context and returns its source references. When the source library has too little evidence, the response says so.",
-    "parts": [
-      "Ask gives a direct response to a visitor&rsquo;s question, keeps citations beside the answer, and proposes follow-up questions that the site can also support. A visitor can move from a concise explanation into the original pages or continue the inquiry without losing its context. Underneath, a retrieval-augmented generation pipeline gathers the relevant material and places numbered passages inside a grounded prompt. A language model running through an edge worker writes from that context and returns its source references. When the source library has too little evidence, the response says so."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "media": []
-  },
-  {
-    "id": 68,
-    "source_id": "searchstory:retrieve",
-    "route": "/searchstory",
-    "page": "An AI Interface for Exploring a Personal Archive",
-    "title": "Retrieve",
-    "anchor": "retrieve",
+    "title": "Find",
+    "anchor": "find",
     "body": "Find the passages that can support the question.",
     "parts": [
       "Find the passages that can support the question."
@@ -1669,15 +1872,32 @@
     "media": []
   },
   {
-    "id": 69,
-    "source_id": "searchstory:ground",
+    "id": 68,
+    "source_id": "searchstory:set-the-scope",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
-    "title": "Ground",
-    "anchor": "ground",
-    "body": "Place the selected evidence inside a constrained prompt.",
+    "title": "Set the scope",
+    "anchor": "set-the-scope",
+    "body": "Give the model a clear set of passages it can use.",
     "parts": [
-      "Place the selected evidence inside a constrained prompt."
+      "Give the model a clear set of passages it can use."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "media": []
+  },
+  {
+    "id": 69,
+    "source_id": "searchstory:write",
+    "route": "/searchstory",
+    "page": "An AI Interface for Exploring a Personal Archive",
+    "title": "Write",
+    "anchor": "write",
+    "body": "Turn the selected material into a direct response.",
+    "parts": [
+      "Turn the selected material into a direct response."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1687,23 +1907,6 @@
   },
   {
     "id": 70,
-    "source_id": "searchstory:generate",
-    "route": "/searchstory",
-    "page": "An AI Interface for Exploring a Personal Archive",
-    "title": "Generate",
-    "anchor": "generate",
-    "body": "Write the response through a language model at the edge.",
-    "parts": [
-      "Write the response through a language model at the edge."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "media": []
-  },
-  {
-    "id": 71,
     "source_id": "searchstory:cite",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1720,15 +1923,33 @@
     "media": []
   },
   {
-    "id": 72,
-    "source_id": "searchstory:reshapes-the-site-around-a-chosen-angle",
+    "id": 71,
+    "source_id": "searchstory:view-reshapes-the-site-around-a-chosen-angle",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
-    "title": "reshapes the site around a chosen angle",
-    "anchor": "reshapes-the-site-around-a-chosen-angle",
-    "body": "A visitor can begin with a question, theme, or perspective and receive a focused path through the site. gathers a wider set of material, chooses the useful sources, and organises them into a sequence that develops the chosen angle. Its narrative explains how the pieces connect while original components remain visible as source material. A project demo, travel gallery, research entry, or excerpt can keep its own visual form. The finished page and its sources are preserved as a dated snapshot with a permanent link that can be revisited or shared. Compose from the same source library",
+    "title": "View reshapes the site around a chosen angle",
+    "anchor": "view-reshapes-the-site-around-a-chosen-angle",
+    "body": "A visitor can begin with a question, theme, or perspective and receive a focused path through the site. View gathers a wider set of material, chooses the useful sources, and organises them into a sequence that develops the chosen angle. Its narrative explains how the pieces connect while original components remain visible as source material. A project demo, travel gallery, research entry, or excerpt can keep its own visual form. The finished page and its sources are preserved as a dated snapshot with a permanent link that can be revisited or shared. Each saved View is one slice of a person seen from a particular angle at a particular moment. Two visitors can begin with different perspectives and bring different parts of the same life into focus. The same perspective can also produce a different slice later as the site and the person change. Together, these dated pages create a record across both viewpoint and time, turning a personal archive into a dynamic, interactive representation that can keep evolving while preserving its earlier forms.",
     "parts": [
-      "A visitor can begin with a question, theme, or perspective and receive a focused path through the site. gathers a wider set of material, chooses the useful sources, and organises them into a sequence that develops the chosen angle. Its narrative explains how the pieces connect while original components remain visible as source material. A project demo, travel gallery, research entry, or excerpt can keep its own visual form. The finished page and its sources are preserved as a dated snapshot with a permanent link that can be revisited or shared. Compose from the same source library"
+      "A visitor can begin with a question, theme, or perspective and receive a focused path through the site. View gathers a wider set of material, chooses the useful sources, and organises them into a sequence that develops the chosen angle. Its narrative explains how the pieces connect while original components remain visible as source material. A project demo, travel gallery, research entry, or excerpt can keep its own visual form. The finished page and its sources are preserved as a dated snapshot with a permanent link that can be revisited or shared. Each saved View is one slice of a person seen from a particular angle at a particular moment. Two visitors can begin with different perspectives and bring different parts of the same life into focus. The same perspective can also produce a different slice later as the site and the person change.",
+      "Together, these dated pages create a record across both viewpoint and time, turning a personal archive into a dynamic, interactive representation that can keep evolving while preserving its earlier forms."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "media": []
+  },
+  {
+    "id": 72,
+    "source_id": "searchstory:what-happens-on-your-device-and-what-happens-in-the-cloud",
+    "route": "/searchstory",
+    "page": "An AI Interface for Exploring a Personal Archive",
+    "title": "What happens on your device and what happens in the cloud",
+    "anchor": "what-happens-on-your-device-and-what-happens-in-the-cloud",
+    "body": "Prepared with the site The site’s passages, meaning representations, and map are prepared when the site is built, so the material being searched remains stable and inspectable. Searched on your device Your browser compares words and meaning locally, then opens the original page at the matching location. Written through Cloudflare Ask and View send the selected material to an answer model through Cloudflare, with a parallel service for visitors in mainland China. Saved with its sources Answers keep their citations. Saved Views keep their narrative, original components, creation time, and links back to the site. Search the site Ask a question Compose a View",
+    "parts": [
+      "Prepared with the site The site’s passages, meaning representations, and map are prepared when the site is built, so the material being searched remains stable and inspectable. Searched on your device Your browser compares words and meaning locally, then opens the original page at the matching location. Written through Cloudflare Ask and View send the selected material to an answer model through Cloudflare, with a parallel service for visitors in mainland China. Saved with its sources Answers keep their citations. Saved Views keep their narrative, original components, creation time, and links back to the site. Search the site Ask a question Compose a View"
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1738,14 +1959,15 @@
   },
   {
     "id": 73,
-    "source_id": "searchstory:see-henry-from-an-angle-you-choose",
-    "route": "/searchstory",
-    "page": "An AI Interface for Exploring a Personal Archive",
-    "title": "See Henry from an angle you choose",
-    "anchor": "see-henry-from-an-angle-you-choose",
-    "body": "Describe a question, theme, or perspective. AI will retrieve the relevant pieces and turn them into a focused .",
+    "source_id": "ragflow-pipeline:overview",
+    "route": "/ragflow-pipeline",
+    "page": "Building Reliable AI Answers from Complex Documents",
+    "title": "Building Reliable AI Answers from Complex Documents",
+    "anchor": "",
+    "body": "This project began with a practical requirement. When someone asks an AI assistant about a public rule or service, the answer needs the complete condition, qualification, or decision path. A missing note or broken table can change the meaning of the answer. Complex source documents made that difficult. Standard PDF reading tools could split a merged table, break a table or paragraph at a page boundary, detach a note from the sentence it qualified, or leave a flowchart outside the searchable text. An AI system could then find a passage that sounded relevant while missing the condition needed to interpret it correctly. I designed a document preparation workflow that repaired those relationships before the material reached the AI assistant. MinerU extracted structured text and tables. A custom linker reconnected notes with the sentences they qualified. Mermaid turned each flowchart into searchable text while preserving its decisions and branches. Technically, this forms a structure-preserving ingestion pipeline for retrieval-augmented generation, or RAG. The stages below follow one controlled test document through the full process.",
     "parts": [
-      "Describe a question, theme, or perspective. AI will retrieve the relevant pieces and turn them into a focused ."
+      "This project began with a practical requirement. When someone asks an AI assistant about a public rule or service, the answer needs the complete condition, qualification, or decision path. A missing note or broken table can change the meaning of the answer. Complex source documents made that difficult. Standard PDF reading tools could split a merged table, break a table or paragraph at a page boundary, detach a note from the sentence it qualified, or leave a flowchart outside the searchable text. An AI system could then find a passage that sounded relevant while missing the condition needed to interpret it correctly. I designed a document preparation workflow that repaired those relationships before the material reached the AI assistant. MinerU extracted structured text and tables. A custom linker reconnected notes with the sentences they qualified.",
+      "Mermaid turned each flowchart into searchable text while preserving its decisions and branches. Technically, this forms a structure-preserving ingestion pipeline for retrieval-augmented generation, or RAG. The stages below follow one controlled test document through the full process."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1755,14 +1977,15 @@
   },
   {
     "id": 74,
-    "source_id": "searchstory:the-browser-handles-retrieval-and-edge-models-handle-generation",
-    "route": "/searchstory",
-    "page": "An AI Interface for Exploring a Personal Archive",
-    "title": "The browser handles retrieval and edge models handle generation",
-    "anchor": "the-browser-handles-retrieval-and-edge-models-handle-generation",
-    "body": "Built once Passages, embeddings, and the semantic map are prepared during the site build, keeping the source library stable and inspectable. Retrieved locally Search performs lexical and vector ranking directly in the browser, then opens the original page at the matching location. Generated at the edge Ask and send grounded generation requests through Cloudflare, with a parallel endpoint for visitors in mainland China. Preserved with context Answers retain citations. Permanent retain their composed narrative, source components, creation time, and original links. Search the site ↗ Ask a question ↗ Compose a ↗",
+    "source_id": "ragflow-pipeline:designing-the-recommendation-around-the-client",
+    "route": "/ragflow-pipeline",
+    "page": "Building Reliable AI Answers from Complex Documents",
+    "title": "Designing the recommendation around the client",
+    "anchor": "designing-the-recommendation-around-the-client",
+    "body": "The recommendation needed to work beyond the prototype. I compared possible designs against the client’s existing infrastructure, operating cost, implementation effort, and the people who would run and maintain the system. The client also preferred an AI setup built around one model. I tested whether one visual-language model should read both tables and flowcharts. The proof of concept supported a leaner division of work. MinerU handled structured text and tables, one visual-language model handled visual material such as flowcharts, and explicit rules repaired cross-page references that needed predictable matching. The final recommendation brought together the requirements, cost and infrastructure analysis, proof-of-concept evidence, technical tradeoffs, and a practical path from prototype to implementation. The result was a complete consulting recommendation as well as a working technical design. The source document contains 13 cross-page references. The linker reconnects each cited sentence with its matching note before chunking. This changes the retrieval result directly. A question about the rule now returns one chunk containing both the statement and the qualification needed to interpret it.",
     "parts": [
-      "Built once Passages, embeddings, and the semantic map are prepared during the site build, keeping the source library stable and inspectable. Retrieved locally Search performs lexical and vector ranking directly in the browser, then opens the original page at the matching location. Generated at the edge Ask and send grounded generation requests through Cloudflare, with a parallel endpoint for visitors in mainland China. Preserved with context Answers retain citations. Permanent retain their composed narrative, source components, creation time, and original links. Search the site ↗ Ask a question ↗ Compose a ↗"
+      "The recommendation needed to work beyond the prototype. I compared possible designs against the client’s existing infrastructure, operating cost, implementation effort, and the people who would run and maintain the system. The client also preferred an AI setup built around one model. I tested whether one visual-language model should read both tables and flowcharts. The proof of concept supported a leaner division of work. MinerU handled structured text and tables, one visual-language model handled visual material such as flowcharts, and explicit rules repaired cross-page references that needed predictable matching. The final recommendation brought together the requirements, cost and infrastructure analysis, proof-of-concept evidence, technical tradeoffs, and a practical path from prototype to implementation.",
+      "The result was a complete consulting recommendation as well as a working technical design. The source document contains 13 cross-page references. The linker reconnects each cited sentence with its matching note before chunking. This changes the retrieval result directly. A question about the rule now returns one chunk containing both the statement and the qualification needed to interpret it."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1772,15 +1995,14 @@
   },
   {
     "id": 75,
-    "source_id": "ragflow-pipeline:overview",
+    "source_id": "ragflow-pipeline:testing-the-recommendation-against-alternatives",
     "route": "/ragflow-pipeline",
-    "page": "A Structure-Preserving RAG Ingestion Pipeline",
-    "title": "A Structure-Preserving RAG Ingestion Pipeline",
-    "anchor": "",
-    "body": "This project began with a practical requirement for a public-enquiry RAG system. When someone asks about a rule or service, retrieval needs to return the complete condition, qualification, or decision path that an answer depends on. The source documents made that difficult. Standard PDF parsing could split a merged table, break a table or paragraph at a page boundary, detach a note from the sentence it qualified, or leave a flowchart outside the searchable text. Once those relationships were lost during ingestion, retrieval could surface a plausible fragment with a missing condition or an incomplete decision path. I designed and built an ingestion pipeline that preserved or reconstructed those relationships before chunking. MinerU extracted structured text and tables. A small custom linker attached cross-page notes to the sentences they qualified, while Mermaid gave each flowchart a searchable text representation. The resulting chunks carried complete evidence into retrieval. The stages below follow a controlled test document through each transformation and explain the decisions behind the final pipeline.",
+    "page": "Building Reliable AI Answers from Complex Documents",
+    "title": "Testing the recommendation against alternatives",
+    "anchor": "testing-the-recommendation-against-alternatives",
+    "body": "I compared the alternatives against requirements drawn from the documents and the intended deployment. The solution needed to keep relationships across pages, make diagram content searchable, fit the existing RAGFlow workflow, and justify its infrastructure and operating cost.",
     "parts": [
-      "This project began with a practical requirement for a public-enquiry RAG system. When someone asks about a rule or service, retrieval needs to return the complete condition, qualification, or decision path that an answer depends on. The source documents made that difficult. Standard PDF parsing could split a merged table, break a table or paragraph at a page boundary, detach a note from the sentence it qualified, or leave a flowchart outside the searchable text. Once those relationships were lost during ingestion, retrieval could surface a plausible fragment with a missing condition or an incomplete decision path. I designed and built an ingestion pipeline that preserved or reconstructed those relationships before chunking. MinerU extracted structured text and tables.",
-      "A small custom linker attached cross-page notes to the sentences they qualified, while Mermaid gave each flowchart a searchable text representation. The resulting chunks carried complete evidence into retrieval. The stages below follow a controlled test document through each transformation and explain the decisions behind the final pipeline."
+      "I compared the alternatives against requirements drawn from the documents and the intended deployment. The solution needed to keep relationships across pages, make diagram content searchable, fit the existing RAGFlow workflow, and justify its infrastructure and operating cost."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1790,15 +2012,14 @@
   },
   {
     "id": 76,
-    "source_id": "ragflow-pipeline:from-client-constraints-to-a-recommended-architecture",
-    "route": "/ragflow-pipeline",
-    "page": "A Structure-Preserving RAG Ingestion Pipeline",
-    "title": "From client constraints to a recommended architecture",
-    "anchor": "from-client-constraints-to-a-recommended-architecture",
-    "body": "Because this was consulting work, technical performance was one part of the decision. I compared possible architectures against the client&rsquo;s infrastructure, operating cost, implementation complexity, and the people who would need to run and maintain the system. One important constraint was a preference to keep the AI stack to a single model. That constraint shaped where AI was useful and where a deterministic method was stronger. I examined whether tables and flowcharts should share one visual-language route. The POC supported a leaner division of work. MinerU handled structured text and tables, one visual-language model handled visual material such as flowcharts, and explicit rules repaired cross-page references that needed predictable matching. The recommended solution therefore came from the requirements, architecture and cost analysis, and the POC results together. The deliverable covered the proposed stack, the role of each component, the tradeoffs behind the choice, the evidence from testing, and a practical path from prototype to implementation. The source document contains 13 cross-page references. The linker reconnects each cited sentence with its matching note before chunking. This changes the retrieval result directly. A question about the rule now returns one chunk containing both the statement and the qualification needed to interpret it.",
+    "source_id": "fragments:overview",
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "Fragments",
+    "anchor": "",
+    "body": "Fragments is where I keep thoughts and moments that I feel deserve a place in my memory. Many grow out of ideas I explore in my free time and gradually take shape as I think them through. Others come from places, conversations, memories, or small things I notice in everyday life. I write them down before they fade.",
     "parts": [
-      "Because this was consulting work, technical performance was one part of the decision. I compared possible architectures against the client&rsquo;s infrastructure, operating cost, implementation complexity, and the people who would need to run and maintain the system. One important constraint was a preference to keep the AI stack to a single model. That constraint shaped where AI was useful and where a deterministic method was stronger. I examined whether tables and flowcharts should share one visual-language route. The POC supported a leaner division of work. MinerU handled structured text and tables, one visual-language model handled visual material such as flowcharts, and explicit rules repaired cross-page references that needed predictable matching. The recommended solution therefore came from the requirements, architecture and cost analysis, and the POC results together.",
-      "The deliverable covered the proposed stack, the role of each component, the tradeoffs behind the choice, the evidence from testing, and a practical path from prototype to implementation. The source document contains 13 cross-page references. The linker reconnects each cited sentence with its matching note before chunking. This changes the retrieval result directly. A question about the rule now returns one chunk containing both the statement and the qualification needed to interpret it."
+      "Fragments is where I keep thoughts and moments that I feel deserve a place in my memory. Many grow out of ideas I explore in my free time and gradually take shape as I think them through. Others come from places, conversations, memories, or small things I notice in everyday life. I write them down before they fade."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1808,40 +2029,6 @@
   },
   {
     "id": 77,
-    "source_id": "ragflow-pipeline:testing-the-recommendation-against-alternatives",
-    "route": "/ragflow-pipeline",
-    "page": "A Structure-Preserving RAG Ingestion Pipeline",
-    "title": "Testing the recommendation against alternatives",
-    "anchor": "testing-the-recommendation-against-alternatives",
-    "body": "I compared the alternatives against requirements drawn from the documents and the intended deployment. The pipeline needed to preserve relationships across pages, make diagram content searchable, remain compatible with the downstream RAGFlow workflow, and justify its added infrastructure and operating cost.",
-    "parts": [
-      "I compared the alternatives against requirements drawn from the documents and the intended deployment. The pipeline needed to preserve relationships across pages, make diagram content searchable, remain compatible with the downstream RAGFlow workflow, and justify its added infrastructure and operating cost."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "media": []
-  },
-  {
-    "id": 78,
-    "source_id": "fragments:overview",
-    "route": "/fragments",
-    "page": "Fragments",
-    "title": "Fragments",
-    "anchor": "",
-    "body": "Fragments is where I keep things I want to return to. Some are thoughts still taking shape. Others come from places, memories, conversations, or small things in everyday life that stayed with me. I write them down while they are still on my mind.",
-    "parts": [
-      "Fragments is where I keep things I want to return to. Some are thoughts still taking shape. Others come from places, memories, conversations, or small things in everyday life that stayed with me. I write them down while they are still on my mind."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "media": []
-  },
-  {
-    "id": 79,
     "source_id": "fragments:the-projection-of-thought",
     "route": "/fragments",
     "page": "Fragments",
@@ -1863,6 +2050,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “The Projection of Thought”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "the-projection-of-thought",
@@ -1870,7 +2059,7 @@
     }
   },
   {
-    "id": 80,
+    "id": 78,
     "source_id": "fragments:rebuilding-another-state-inside-me",
     "route": "/fragments",
     "page": "Fragments",
@@ -1892,6 +2081,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Rebuilding Another State Inside Me”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "rebuilding-another-state-inside-me",
@@ -1899,7 +2090,7 @@
     }
   },
   {
-    "id": 81,
+    "id": 79,
     "source_id": "fragments:visible-part-of-the-mind",
     "route": "/fragments",
     "page": "Fragments",
@@ -1918,6 +2109,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “The Visible Part of the Mind”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "visible-part-of-the-mind",
@@ -1925,7 +2118,7 @@
     }
   },
   {
-    "id": 82,
+    "id": 80,
     "source_id": "fragments:understanding-before-definition",
     "route": "/fragments",
     "page": "Fragments",
@@ -1943,6 +2136,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Before Defining Understanding”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "understanding-before-definition",
@@ -1950,7 +2145,7 @@
     }
   },
   {
-    "id": 83,
+    "id": 81,
     "source_id": "fragments:expression-recording",
     "route": "/fragments",
     "page": "Fragments",
@@ -1971,6 +2166,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Expression, Recording, and the Compressed Version of Thought”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "expression-recording",
@@ -1978,7 +2175,7 @@
     }
   },
   {
-    "id": 84,
+    "id": 82,
     "source_id": "fragments:rich-traces-and-open-paths",
     "route": "/fragments",
     "page": "Fragments",
@@ -1999,6 +2196,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Rich Traces and Open Paths”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "rich-traces-and-open-paths",
@@ -2006,7 +2205,7 @@
     }
   },
   {
-    "id": 85,
+    "id": 83,
     "source_id": "fragments:labels-goals-rules",
     "route": "/fragments",
     "page": "Fragments",
@@ -2031,6 +2230,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Labels, Goals, and Rules as Ways of Shaping People”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "labels-goals-rules",
@@ -2038,7 +2239,7 @@
     }
   },
   {
-    "id": 86,
+    "id": 84,
     "source_id": "fragments:memory-time-self",
     "route": "/fragments",
     "page": "Fragments",
@@ -2061,6 +2262,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Memory Compresses Time, but the Self Is Changed by Passing Through It”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "memory-time-self",
@@ -2068,7 +2271,7 @@
     }
   },
   {
-    "id": 87,
+    "id": 85,
     "source_id": "fragments:satisfaction-signal",
     "route": "/fragments",
     "page": "Fragments",
@@ -2090,6 +2293,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Satisfaction Is Not a Fixed Reward”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "satisfaction-signal",
@@ -2097,7 +2302,7 @@
     }
   },
   {
-    "id": 88,
+    "id": 86,
     "source_id": "fragments:queen-victoria-market-toast-oysters",
     "route": "/fragments",
     "page": "Fragments",
@@ -2113,6 +2318,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Oysters and Black Truffle Toast at Queen Victoria Market”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "queen-victoria-market-toast-oysters",
@@ -2120,7 +2327,7 @@
     }
   },
   {
-    "id": 89,
+    "id": 87,
     "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
     "route": "/fragments",
     "page": "Fragments",
@@ -2136,6 +2343,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Chaoshan Beef Hot Pot in Guangzhou”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "guangzhou-chaoshan-beef-hot-pot",
@@ -2143,7 +2352,7 @@
     }
   },
   {
-    "id": 90,
+    "id": 88,
     "source_id": "fragments:ai-generated-kitten-videos",
     "route": "/fragments",
     "page": "Fragments",
@@ -2160,6 +2369,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “AI-Generated Kitten Videos and Manufactured Cuteness”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "ai-generated-kitten-videos",
@@ -2167,7 +2378,7 @@
     }
   },
   {
-    "id": 91,
+    "id": 89,
     "source_id": "fragments:identity-interview-reflection",
     "route": "/fragments",
     "page": "Fragments",
@@ -2184,6 +2395,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “A Conversation About Identity”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "identity-interview-reflection",
@@ -2191,7 +2404,7 @@
     }
   },
   {
-    "id": 92,
+    "id": 90,
     "source_id": "fragments:napier-seaside-with-my-mother",
     "route": "/fragments",
     "page": "Fragments",
@@ -2209,6 +2422,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Napier Seaside with My Mother”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "napier-seaside-with-my-mother",
@@ -2216,7 +2431,7 @@
     }
   },
   {
-    "id": 93,
+    "id": 91,
     "source_id": "fragments:mothers-cooking-across-places",
     "route": "/fragments",
     "page": "Fragments",
@@ -2233,6 +2448,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “My Mother’s Cooking Across Places”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "mothers-cooking-across-places",
@@ -2240,7 +2457,7 @@
     }
   },
   {
-    "id": 94,
+    "id": 92,
     "source_id": "fragments:golf-with-my-mother-in-new-zealand",
     "route": "/fragments",
     "page": "Fragments",
@@ -2256,6 +2473,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Trying Golf with My Mother in New Zealand”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "golf-with-my-mother-in-new-zealand",
@@ -2263,7 +2482,7 @@
     }
   },
   {
-    "id": 95,
+    "id": 93,
     "source_id": "fragments:slr-lab-racket-games",
     "route": "/fragments",
     "page": "Fragments",
@@ -2279,6 +2498,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Racket Games with the SLR Lab”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "slr-lab-racket-games",
@@ -2286,7 +2507,7 @@
     }
   },
   {
-    "id": 96,
+    "id": 94,
     "source_id": "fragments:kennedy-town-seaside-hku-years",
     "route": "/fragments",
     "page": "Fragments",
@@ -2303,6 +2524,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “The Sea in My Early Hong Kong Years”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "kennedy-town-seaside-hku-years",
@@ -2310,7 +2533,7 @@
     }
   },
   {
-    "id": 97,
+    "id": 95,
     "source_id": "fragments:sydney-harbour-ferry-rides",
     "route": "/fragments",
     "page": "Fragments",
@@ -2327,6 +2550,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Ferry Rides Across Sydney Harbour”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "sydney-harbour-ferry-rides",
@@ -2334,7 +2559,7 @@
     }
   },
   {
-    "id": 98,
+    "id": 96,
     "source_id": "fragments:gold-coast-water-and-city-line",
     "route": "/fragments",
     "page": "Fragments",
@@ -2351,6 +2576,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Gold Coast, Water, and the City Line”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "gold-coast-water-and-city-line",
@@ -2358,7 +2585,7 @@
     }
   },
   {
-    "id": 99,
+    "id": 97,
     "source_id": "fragments:great-ocean-road-melbourne-friends",
     "route": "/fragments",
     "page": "Fragments",
@@ -2375,6 +2602,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “A Road Trip Along the Great Ocean Road”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "great-ocean-road-melbourne-friends",
@@ -2382,7 +2611,7 @@
     }
   },
   {
-    "id": 100,
+    "id": 98,
     "source_id": "fragments:taiwan-east-coast-family-road-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -2399,6 +2628,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “A Birthday Somewhere Along Taiwan’s East Coast”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "taiwan-east-coast-family-road-trip",
@@ -2406,7 +2637,7 @@
     }
   },
   {
-    "id": 101,
+    "id": 99,
     "source_id": "fragments:athens-ruins-and-family-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -2423,6 +2654,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Athens, Ruins, and a Rare Family Trip”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "athens-ruins-and-family-trip",
@@ -2430,7 +2663,7 @@
     }
   },
   {
-    "id": 102,
+    "id": 100,
     "source_id": "fragments:swimming-in-the-mediterranean",
     "route": "/fragments",
     "page": "Fragments",
@@ -2447,6 +2680,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Swimming in the Mediterranean”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "swimming-in-the-mediterranean",
@@ -2454,7 +2689,7 @@
     }
   },
   {
-    "id": 103,
+    "id": 101,
     "source_id": "fragments:rainy-days-permission-to-stay-in",
     "route": "/fragments",
     "page": "Fragments",
@@ -2470,6 +2705,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Rainy Days as Permission to Stay In”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "rainy-days-permission-to-stay-in",
@@ -2477,7 +2714,7 @@
     }
   },
   {
-    "id": 104,
+    "id": 102,
     "source_id": "fragments:mental-map-of-small-room",
     "route": "/fragments",
     "page": "Fragments",
@@ -2494,6 +2731,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “The Mental Map of a Small Room”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "mental-map-of-small-room",
@@ -2501,7 +2740,7 @@
     }
   },
   {
-    "id": 105,
+    "id": 103,
     "source_id": "fragments:first-camera-another-way-of-seeing",
     "route": "/fragments",
     "page": "Fragments",
@@ -2518,6 +2757,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “My First Camera and Another Way of Seeing”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "first-camera-another-way-of-seeing",
@@ -2525,7 +2766,7 @@
     }
   },
   {
-    "id": 106,
+    "id": 104,
     "source_id": "fragments:music-that-became-more-spacious",
     "route": "/fragments",
     "page": "Fragments",
@@ -2542,6 +2783,8 @@
       "component"
     ],
     "media": [],
+    "component_description": "The original collapsible Fragment titled “Music That Became More Spacious”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
     "entity": {
       "kind": "fragment",
       "id": "music-that-became-more-spacious",
@@ -2549,7 +2792,7 @@
     }
   },
   {
-    "id": 107,
+    "id": 105,
     "source_id": "cv:profile",
     "route": "/cv",
     "page": "CV",
@@ -2566,7 +2809,7 @@
     "media": []
   },
   {
-    "id": 108,
+    "id": 106,
     "source_id": "cv:education",
     "route": "/cv",
     "page": "CV",
@@ -2583,7 +2826,7 @@
     "media": []
   },
   {
-    "id": 109,
+    "id": 107,
     "source_id": "cv:experience",
     "route": "/cv",
     "page": "CV",
@@ -2601,7 +2844,7 @@
     "media": []
   },
   {
-    "id": 110,
+    "id": 108,
     "source_id": "cv:publications-preprints",
     "route": "/cv",
     "page": "CV",
@@ -2619,7 +2862,7 @@
     "media": []
   },
   {
-    "id": 111,
+    "id": 109,
     "source_id": "about:gallery",
     "route": "/about",
     "page": "About",
@@ -2930,13 +3173,15 @@
         "alt": "gc"
       }
     ],
+    "component_description": "The complete About gallery as a browsable visual record of places, travel, and moments from Henry’s life.",
+    "narrative_guidance": "Use the gallery when its photographs provide direct visual evidence. Explain the place, period, or pattern the visitor should notice.",
     "entity": {
       "kind": "gallery",
       "id": "about-gallery"
     }
   },
   {
-    "id": 112,
+    "id": 110,
     "source_id": "home:currently",
     "route": "/home",
     "page": "Home",
