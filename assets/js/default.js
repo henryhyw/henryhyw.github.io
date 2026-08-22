@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     
     const applyListeners = () => {
-        document.querySelectorAll('div.scroll-container img').forEach(img => {
+        document.querySelectorAll('div.scroll-container img, img[data-full-src]').forEach(img => {
             if (boundImages.has(img)) return;
             boundImages.add(img);
             img.addEventListener('click', () => {

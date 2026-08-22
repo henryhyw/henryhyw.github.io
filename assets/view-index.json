@@ -25,6 +25,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": [
         {
           "src": "/assets/img/henry.jpg"
@@ -51,6 +52,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -68,6 +70,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -85,6 +88,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -102,6 +106,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -119,6 +124,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -136,6 +142,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -153,6 +160,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -174,6 +182,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [
         {
           "src": "/assets/img/PwC.png"
@@ -207,6 +216,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [
         {
           "src": "/assets/img/hku.jpeg"
@@ -241,6 +251,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [
         {
           "src": "/assets/img/hsbc.png"
@@ -274,6 +285,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [
         {
           "src": "/assets/img/hku.jpeg"
@@ -307,6 +319,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [
         {
           "src": "/assets/img/kiwiview.png"
@@ -341,6 +354,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -348,19 +362,21 @@
       "source_id": "research:fittedAssistance",
       "route": "/research",
       "page": "Research",
-      "title": "Fitted Structure and Epistemic Settlement in AI-Assisted Writing",
+      "title": "Early Epistemic Settlement in AI-Assisted Writing",
       "anchor": "structure-settles-thought",
-      "body": "When writing functions as inquiry, organising material helps determine what a writer comes to think. A language model can supply a complete ordering fitted to material that is still being organised, making an epistemic settlement usable before the writer's inquiry reaches the same point. Once writing can proceed from that settlement, reopening the organising difficulty competes for limited attention with an available path forward, so continuing can be resource-rational. What remains unfinished may appear as shallow uptake, route shaping, or foreclosed reach. These differ in what later inquiry can reconstruct. An existing ordering provides a target for recovering its support, a reachable but untried alternative offers a weaker anchor, and a possibility that never became reachable leaves no determinate candidate from the earlier episode.",
+      "body": "Writing often changes the problem as you work through it. Moving an objection can expose an overbroad claim, which changes the transition you need and can make another distinction relevant. This paper asks what happens when AI supplies an organization that already works while that process is still underway. I call this early epistemic settlement, because local resolution becomes available before the writer's own construction reaches the same point. What changes next depends on what the unfinished work was doing. AI may make one already available route easier to continue, or it may let the writing move on before another possibility has fully taken shape. The relations carried forward from that settlement can then shape later writing, while later work can still deepen, revise, or reorganize them. The paper uses these differences to ask when faster resolution simply saves effort and when the unfinished construction was itself part of the inquiry.",
       "parts": [
-        "When writing functions as inquiry, organising material helps determine what a writer comes to think. A language model can supply a complete ordering fitted to material that is still being organised, making an epistemic settlement usable before the writer's inquiry reaches the same point. Once writing can proceed from that settlement, reopening the organising difficulty competes for limited attention with an available path forward, so continuing can be resource-rational. What remains unfinished may appear as shallow uptake, route shaping, or foreclosed reach. These differ in what later inquiry can reconstruct. An existing ordering provides a target for recovering its support, a reachable but untried alternative offers a weaker anchor, and a possibility that never became reachable leaves no determinate candidate from the earlier episode."
+        "Writing often changes the problem as you work through it. Moving an objection can expose an overbroad claim, which changes the transition you need and can make another distinction relevant. This paper asks what happens when AI supplies an organization that already works while that process is still underway. I call this early epistemic settlement, because local resolution becomes available before the writer's own construction reaches the same point. What changes next depends on what the unfinished work was doing. AI may make one already available route easier to continue, or it may let the writing move on before another possibility has fully taken shape. The relations carried forward from that settlement can then shape later writing, while later work can still deepen, revise, or reorganize them.",
+        "The paper uses these differences to ask when faster resolution simply saves effort and when the unfinished construction was itself part of the inquiry."
       ],
       "view_kind": "publication",
       "presentations": [
         "cite",
         "component"
       ],
+      "priority": 5,
       "media": [],
-      "component_description": "The original Research entry for “Fitted Structure and Epistemic Settlement in AI-Assisted Writing”, including its publication details, full explanation, and research figures where available.",
+      "component_description": "The original Research entry for “Early Epistemic Settlement in AI-Assisted Writing”, including its publication details, full explanation, and research figures where available.",
       "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
       "entity": {
         "kind": "publication",
@@ -392,6 +408,7 @@
         "cite",
         "component"
       ],
+      "priority": 3,
       "media": [
         {
           "src": "/assets/img/disengage_fig1.png"
@@ -446,6 +463,7 @@
         "cite",
         "component"
       ],
+      "priority": 4,
       "media": [
         {
           "src": "/assets/img/transfer_fig1.png"
@@ -490,6 +508,7 @@
         "cite",
         "component"
       ],
+      "priority": 3,
       "media": [
         {
           "src": "/assets/img/binding_fig1.png"
@@ -534,6 +553,7 @@
         "cite",
         "component"
       ],
+      "priority": 2,
       "media": [
         {
           "src": "/assets/img/priors_fig1_paradigm.png"
@@ -587,6 +607,7 @@
         "cite",
         "component"
       ],
+      "priority": 3,
       "media": [
         {
           "src": "/assets/img/BRIGHT1.png"
@@ -636,6 +657,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -655,6 +677,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 4,
       "media": [
         {
           "src": "/assets/img/hsbc.png"
@@ -688,6 +711,7 @@
         "cite",
         "component"
       ],
+      "priority": 1,
       "media": [
         {
           "src": "/assets/img/PDS_Screenshot1.png"
@@ -734,6 +758,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 4,
       "media": [
         {
           "src": "/assets/img/PwC.png"
@@ -766,6 +791,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 3,
       "media": [
         {
           "src": "/assets/img/scrolly_engine_1.png"
@@ -811,6 +837,7 @@
         "cite",
         "component"
       ],
+      "priority": 3,
       "media": [
         {
           "src": "/assets/img/stride_ui_overview.png"
@@ -854,6 +881,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 5,
       "media": [],
       "entity": {
         "kind": "project",
@@ -883,6 +911,7 @@
         "cite",
         "component"
       ],
+      "priority": 2,
       "media": [
         {
           "src": "/assets/img/congentra_0.png"
@@ -944,6 +973,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 2,
       "media": [
         {
           "src": "/assets/img/lexaday_gallery_305.png"
@@ -988,6 +1018,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 2,
       "media": [
         {
           "src": "/assets/img/dealtracker_arcteryx_email.png"
@@ -1023,6 +1054,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 1,
       "media": [
         {
           "src": "/assets/img/econographer1.png"
@@ -1067,6 +1099,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1084,6 +1117,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1101,6 +1135,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1118,6 +1153,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1135,6 +1171,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1152,6 +1189,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1169,6 +1207,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1186,6 +1225,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1203,6 +1243,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1220,6 +1261,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1237,6 +1279,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1254,6 +1297,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1271,6 +1315,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1288,6 +1333,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1305,6 +1351,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1322,6 +1369,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1339,6 +1387,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1356,6 +1405,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1373,6 +1423,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1390,6 +1441,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1407,6 +1459,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1424,6 +1477,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1441,6 +1495,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1458,6 +1513,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1467,15 +1523,16 @@
       "page": "Public views",
       "title": "See Henry through your own lens",
       "anchor": "",
-      "body": "See Henry through your own lens A View brings together material from across Henry’s site around one perspective and links back to every original page it uses. It can begin with a question, a theme you want to understand, or an angle you want to follow. The Views visitors choose to share live here. Describe an angle that feels distinctly yours Tell us what you want to understand about Henry. AI will connect the relevant pieces into a focused View. Shared Views See how other visitors have looked across Henry’s work, experiences, and ideas.",
+      "body": "See Henry through your own lens A View brings together material from across Henry’s site around one perspective and links back to every original page it uses. It can begin with a question, a theme you want to understand, or an angle you want to follow. The Views visitors choose to share live here. Describe an angle that feels distinctly yours Tell us what you want to understand about Henry. AI will connect the relevant pieces into a focused View. Public Views See how other visitors have looked across Henry’s work, experiences, and ideas.",
       "parts": [
         "See Henry through your own lens A View brings together material from across Henry’s site around one perspective and links back to every original page it uses. It can begin with a question, a theme you want to understand, or an angle you want to follow. The Views visitors choose to share live here. Describe an angle that feels distinctly yours Tell us what you want to understand about Henry. AI will connect the relevant pieces into a focused View.",
-        "Shared Views See how other visitors have looked across Henry’s work, experiences, and ideas."
+        "Public Views See how other visitors have looked across Henry’s work, experiences, and ideas."
       ],
       "view_kind": "prose",
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1494,6 +1551,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1513,6 +1571,7 @@
         "cite",
         "component"
       ],
+      "priority": 0,
       "media": [
         {
           "kind": "image",
@@ -1553,6 +1612,7 @@
         "cite",
         "component"
       ],
+      "priority": 0,
       "media": [
         {
           "kind": "image",
@@ -1610,6 +1670,7 @@
         "cite",
         "component"
       ],
+      "priority": 0,
       "media": [
         {
           "kind": "image",
@@ -1658,6 +1719,7 @@
         "cite",
         "component"
       ],
+      "priority": 0,
       "media": [
         {
           "kind": "image",
@@ -1728,6 +1790,7 @@
         "cite",
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "A complete section from Henry’s secondary-school computing archive titled “Building Kiwiview's Website”, with its original explanation and any screenshots or video demonstration kept together.",
       "narrative_guidance": "Treat this as formative archival evidence. Use it when the visitor asks about Henry’s secondary-school years, the development of his technical interests, or the specific problem and domain represented here. For a broad account of his projects, use the archive’s signature project as the formative example and include this source only when it adds a distinct connection.",
@@ -1756,6 +1819,7 @@
         "cite",
         "component"
       ],
+      "priority": 0,
       "media": [
         {
           "kind": "video",
@@ -1793,6 +1857,7 @@
         "cite",
         "component"
       ],
+      "priority": 0,
       "media": [
         {
           "kind": "video",
@@ -1824,6 +1889,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1842,6 +1908,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1860,6 +1927,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1877,6 +1945,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1894,6 +1963,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1911,6 +1981,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1928,6 +1999,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1945,6 +2017,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1962,6 +2035,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1980,6 +2054,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -1999,6 +2074,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -2017,6 +2093,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -2035,6 +2112,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -2053,6 +2131,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -2070,6 +2149,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -2087,6 +2167,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -2111,6 +2192,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “The Projection of Thought”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2142,6 +2224,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Rebuilding Another State Inside Me”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2170,6 +2253,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “The Visible Part of the Mind”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2197,6 +2281,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Before Defining Understanding”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2227,6 +2312,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Expression, Recording, and the Compressed Version of Thought”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2257,6 +2343,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Rich Traces and Open Paths”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2291,6 +2378,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Labels, Goals, and Rules as Ways of Shaping People”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2323,6 +2411,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Memory Compresses Time, but the Self Is Changed by Passing Through It”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2354,6 +2443,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Satisfaction Is Not a Fixed Reward”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2379,6 +2469,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Oysters and Black Truffle Toast at Queen Victoria Market”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2404,6 +2495,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Chaoshan Beef Hot Pot in Guangzhou”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2430,6 +2522,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “AI-Generated Kitten Videos and Manufactured Cuteness”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2456,6 +2549,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “A Conversation About Identity”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2483,6 +2577,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Napier Seaside with My Mother”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2509,6 +2604,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “My Mother’s Cooking Across Places”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2534,6 +2630,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Trying Golf with My Mother in New Zealand”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2559,6 +2656,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Racket Games with the SLR Lab”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2585,6 +2683,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “The Sea in My Early Hong Kong Years”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2611,6 +2710,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Ferry Rides Across Sydney Harbour”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2637,6 +2737,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Gold Coast, Water, and the City Line”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2663,6 +2764,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “A Road Trip Along the Great Ocean Road”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2689,6 +2791,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “A Birthday Somewhere Along Taiwan’s East Coast”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2715,6 +2818,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Athens, Ruins, and a Rare Family Trip”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2741,6 +2845,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Swimming in the Mediterranean”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2766,6 +2871,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Rainy Days as Permission to Stay In”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2792,6 +2898,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “The Mental Map of a Small Room”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2818,6 +2925,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “My First Camera and Another Way of Seeing”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2844,6 +2952,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [],
       "component_description": "The original collapsible Fragment titled “Music That Became More Spacious”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
       "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
@@ -2868,6 +2977,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -2885,6 +2995,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -2903,6 +3014,7 @@
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -2912,15 +3024,16 @@
       "page": "CV",
       "title": "Publications & Preprints",
       "anchor": "publications-preprints",
-      "body": "Human-AI interaction and collaboration Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation H. Wang Under review; arXiv:2606. 26502 Fitted Structure and Epistemic Settlement in AI-Assisted Writing H. Wang Under review; PhilPapers Human learning and computational cognition The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization? Lee Under review Functional Encoding and Representational Binding in Componential Transfer S. Wang Under review When Does a Smooth Learning Curve Mean Smooth Learning? Representational Format, Identifiability, and the Bounded Averaging Artifact H. Wang Under review Language models, behavior, and interpretability Persistent Priors, Preserved Targets: A Stroop-Style Paradigm for Lexical Override H. Wang Under review; arXiv:2606. 07555 BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval H. Yu ICLR 2025 Spotlight; arXiv:2407. 12883 Han-yu Wang (Henry) Last updated August 2026",
+      "body": "Human-AI interaction and collaboration Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation H. Wang Under review; arXiv:2606. 26502 Early Epistemic Settlement in AI-Assisted Writing H. Wang Under review; PhilPapers Human learning and computational cognition The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization? Lee Under review Functional Encoding and Representational Binding in Componential Transfer S. Wang Under review When Does a Smooth Learning Curve Mean Smooth Learning? Representational Format, Identifiability, and the Bounded Averaging Artifact H. Wang Under review Language models, behavior, and interpretability Persistent Priors, Preserved Targets: A Stroop-Style Paradigm for Lexical Override H. Wang Under review; arXiv:2606. 07555 BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval H. Yu ICLR 2025 Spotlight; arXiv:2407. 12883 Han-yu Wang (Henry) Last updated August 2026",
       "parts": [
-        "Human-AI interaction and collaboration Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation H. Wang Under review; arXiv:2606. 26502 Fitted Structure and Epistemic Settlement in AI-Assisted Writing H. Wang Under review; PhilPapers Human learning and computational cognition The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization? Lee Under review Functional Encoding and Representational Binding in Componential Transfer S. Wang Under review When Does a Smooth Learning Curve Mean Smooth Learning? Representational Format, Identifiability, and the Bounded Averaging Artifact H. Wang Under review Language models, behavior, and interpretability Persistent Priors, Preserved Targets: A Stroop-Style Paradigm for Lexical Override H. Wang Under review; arXiv:2606.",
+        "Human-AI interaction and collaboration Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation H. Wang Under review; arXiv:2606. 26502 Early Epistemic Settlement in AI-Assisted Writing H. Wang Under review; PhilPapers Human learning and computational cognition The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization? Lee Under review Functional Encoding and Representational Binding in Componential Transfer S. Wang Under review When Does a Smooth Learning Curve Mean Smooth Learning? Representational Format, Identifiability, and the Bounded Averaging Artifact H. Wang Under review Language models, behavior, and interpretability Persistent Priors, Preserved Targets: A Stroop-Style Paradigm for Lexical Override H. Wang Under review; arXiv:2606.",
         "07555 BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval H. Yu ICLR 2025 Spotlight; arXiv:2407. 12883 Han-yu Wang (Henry) Last updated August 2026"
       ],
       "view_kind": "prose",
       "presentations": [
         "cite"
       ],
+      "priority": 0,
       "media": []
     },
     {
@@ -2938,6 +3051,7 @@
       "presentations": [
         "component"
       ],
+      "priority": 0,
       "media": [
         {
           "src": "/assets/gallery/previews/athens1.jpg.webp",
