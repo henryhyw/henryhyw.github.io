@@ -1458,6 +1458,24 @@
   },
   {
     "id": 55,
+    "source_id": "views:overview",
+    "route": "/views",
+    "page": "Public views",
+    "title": "See Henry through your own lens",
+    "anchor": "",
+    "body": "See Henry through your own lens A View brings together material from across Henry’s site around one perspective and links back to every original page it uses. It can begin with a question, a theme you want to understand, or an angle you want to follow. The Views visitors choose to share live here. Create your own View Choose an angle that feels distinctly yours Describe what you want to understand about Henry. AI will connect the relevant pieces into a focused View. Shared Views See how other visitors have looked across Henry’s work, experiences, and ideas.",
+    "parts": [
+      "See Henry through your own lens A View brings together material from across Henry’s site around one perspective and links back to every original page it uses. It can begin with a question, a theme you want to understand, or an angle you want to follow. The Views visitors choose to share live here. Create your own View Choose an angle that feels distinctly yours Describe what you want to understand about Henry. AI will connect the relevant pieces into a focused View.",
+      "Shared Views See how other visitors have looked across Henry’s work, experiences, and ideas."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "media": []
+  },
+  {
+    "id": 56,
     "source_id": "early:overview",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1475,7 +1493,7 @@
     "media": []
   },
   {
-    "id": 56,
+    "id": 57,
     "source_id": "early:how-it-started",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1515,7 +1533,7 @@
     }
   },
   {
-    "id": 57,
+    "id": 58,
     "source_id": "early:batch-downloading-scientific-american-episodes",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1567,7 +1585,7 @@
     }
   },
   {
-    "id": 58,
+    "id": 59,
     "source_id": "early:chrome-extension-experiments",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1618,7 +1636,7 @@
     }
   },
   {
-    "id": 59,
+    "id": 60,
     "source_id": "early:music-streaming-hacks",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1690,7 +1708,7 @@
     }
   },
   {
-    "id": 60,
+    "id": 61,
     "source_id": "early:building-kiwiviews-website",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1717,7 +1735,7 @@
     }
   },
   {
-    "id": 61,
+    "id": 62,
     "source_id": "early:simple-automation",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1754,7 +1772,7 @@
     }
   },
   {
-    "id": 62,
+    "id": 63,
     "source_id": "early:econographer-an-economics-graphs-generator",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1787,7 +1805,7 @@
     }
   },
   {
-    "id": 63,
+    "id": 64,
     "source_id": "searchstory:overview",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1804,7 +1822,7 @@
     "media": []
   },
   {
-    "id": 64,
+    "id": 65,
     "source_id": "searchstory:search-turns-the-whole-site-into-one-navigable-space",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1821,7 +1839,7 @@
     "media": []
   },
   {
-    "id": 65,
+    "id": 66,
     "source_id": "searchstory:finding-the-right-material-before-ai-writes",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1838,7 +1856,7 @@
     "media": []
   },
   {
-    "id": 66,
+    "id": 67,
     "source_id": "searchstory:ask-turns-those-passages-into-an-answer-you-can-trace",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1855,7 +1873,7 @@
     "media": []
   },
   {
-    "id": 67,
+    "id": 68,
     "source_id": "searchstory:find",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1872,7 +1890,7 @@
     "media": []
   },
   {
-    "id": 68,
+    "id": 69,
     "source_id": "searchstory:set-the-scope",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1889,7 +1907,7 @@
     "media": []
   },
   {
-    "id": 69,
+    "id": 70,
     "source_id": "searchstory:write",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1906,7 +1924,7 @@
     "media": []
   },
   {
-    "id": 70,
+    "id": 71,
     "source_id": "searchstory:cite",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1923,7 +1941,7 @@
     "media": []
   },
   {
-    "id": 71,
+    "id": 72,
     "source_id": "searchstory:view-reshapes-the-site-around-a-chosen-angle",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1941,7 +1959,7 @@
     "media": []
   },
   {
-    "id": 72,
+    "id": 73,
     "source_id": "searchstory:what-happens-on-your-device-and-what-happens-in-the-cloud",
     "route": "/searchstory",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1958,7 +1976,7 @@
     "media": []
   },
   {
-    "id": 73,
+    "id": 74,
     "source_id": "ragflow-pipeline:overview",
     "route": "/ragflow-pipeline",
     "page": "Building Reliable AI Answers from Complex Documents",
@@ -1976,7 +1994,7 @@
     "media": []
   },
   {
-    "id": 74,
+    "id": 75,
     "source_id": "ragflow-pipeline:designing-the-recommendation-around-the-client",
     "route": "/ragflow-pipeline",
     "page": "Building Reliable AI Answers from Complex Documents",
@@ -1994,7 +2012,7 @@
     "media": []
   },
   {
-    "id": 75,
+    "id": 76,
     "source_id": "ragflow-pipeline:testing-the-recommendation-against-alternatives",
     "route": "/ragflow-pipeline",
     "page": "Building Reliable AI Answers from Complex Documents",
@@ -2011,7 +2029,7 @@
     "media": []
   },
   {
-    "id": 76,
+    "id": 77,
     "source_id": "fragments:overview",
     "route": "/fragments",
     "page": "Fragments",
@@ -2028,7 +2046,7 @@
     "media": []
   },
   {
-    "id": 77,
+    "id": 78,
     "source_id": "fragments:the-projection-of-thought",
     "route": "/fragments",
     "page": "Fragments",
@@ -2059,7 +2077,7 @@
     }
   },
   {
-    "id": 78,
+    "id": 79,
     "source_id": "fragments:rebuilding-another-state-inside-me",
     "route": "/fragments",
     "page": "Fragments",
@@ -2090,7 +2108,7 @@
     }
   },
   {
-    "id": 79,
+    "id": 80,
     "source_id": "fragments:visible-part-of-the-mind",
     "route": "/fragments",
     "page": "Fragments",
@@ -2118,7 +2136,7 @@
     }
   },
   {
-    "id": 80,
+    "id": 81,
     "source_id": "fragments:understanding-before-definition",
     "route": "/fragments",
     "page": "Fragments",
@@ -2145,7 +2163,7 @@
     }
   },
   {
-    "id": 81,
+    "id": 82,
     "source_id": "fragments:expression-recording",
     "route": "/fragments",
     "page": "Fragments",
@@ -2175,7 +2193,7 @@
     }
   },
   {
-    "id": 82,
+    "id": 83,
     "source_id": "fragments:rich-traces-and-open-paths",
     "route": "/fragments",
     "page": "Fragments",
@@ -2205,7 +2223,7 @@
     }
   },
   {
-    "id": 83,
+    "id": 84,
     "source_id": "fragments:labels-goals-rules",
     "route": "/fragments",
     "page": "Fragments",
@@ -2239,7 +2257,7 @@
     }
   },
   {
-    "id": 84,
+    "id": 85,
     "source_id": "fragments:memory-time-self",
     "route": "/fragments",
     "page": "Fragments",
@@ -2271,7 +2289,7 @@
     }
   },
   {
-    "id": 85,
+    "id": 86,
     "source_id": "fragments:satisfaction-signal",
     "route": "/fragments",
     "page": "Fragments",
@@ -2302,7 +2320,7 @@
     }
   },
   {
-    "id": 86,
+    "id": 87,
     "source_id": "fragments:queen-victoria-market-toast-oysters",
     "route": "/fragments",
     "page": "Fragments",
@@ -2327,7 +2345,7 @@
     }
   },
   {
-    "id": 87,
+    "id": 88,
     "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
     "route": "/fragments",
     "page": "Fragments",
@@ -2352,7 +2370,7 @@
     }
   },
   {
-    "id": 88,
+    "id": 89,
     "source_id": "fragments:ai-generated-kitten-videos",
     "route": "/fragments",
     "page": "Fragments",
@@ -2378,7 +2396,7 @@
     }
   },
   {
-    "id": 89,
+    "id": 90,
     "source_id": "fragments:identity-interview-reflection",
     "route": "/fragments",
     "page": "Fragments",
@@ -2404,7 +2422,7 @@
     }
   },
   {
-    "id": 90,
+    "id": 91,
     "source_id": "fragments:napier-seaside-with-my-mother",
     "route": "/fragments",
     "page": "Fragments",
@@ -2431,7 +2449,7 @@
     }
   },
   {
-    "id": 91,
+    "id": 92,
     "source_id": "fragments:mothers-cooking-across-places",
     "route": "/fragments",
     "page": "Fragments",
@@ -2457,7 +2475,7 @@
     }
   },
   {
-    "id": 92,
+    "id": 93,
     "source_id": "fragments:golf-with-my-mother-in-new-zealand",
     "route": "/fragments",
     "page": "Fragments",
@@ -2482,7 +2500,7 @@
     }
   },
   {
-    "id": 93,
+    "id": 94,
     "source_id": "fragments:slr-lab-racket-games",
     "route": "/fragments",
     "page": "Fragments",
@@ -2507,7 +2525,7 @@
     }
   },
   {
-    "id": 94,
+    "id": 95,
     "source_id": "fragments:kennedy-town-seaside-hku-years",
     "route": "/fragments",
     "page": "Fragments",
@@ -2533,7 +2551,7 @@
     }
   },
   {
-    "id": 95,
+    "id": 96,
     "source_id": "fragments:sydney-harbour-ferry-rides",
     "route": "/fragments",
     "page": "Fragments",
@@ -2559,7 +2577,7 @@
     }
   },
   {
-    "id": 96,
+    "id": 97,
     "source_id": "fragments:gold-coast-water-and-city-line",
     "route": "/fragments",
     "page": "Fragments",
@@ -2585,7 +2603,7 @@
     }
   },
   {
-    "id": 97,
+    "id": 98,
     "source_id": "fragments:great-ocean-road-melbourne-friends",
     "route": "/fragments",
     "page": "Fragments",
@@ -2611,7 +2629,7 @@
     }
   },
   {
-    "id": 98,
+    "id": 99,
     "source_id": "fragments:taiwan-east-coast-family-road-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -2637,7 +2655,7 @@
     }
   },
   {
-    "id": 99,
+    "id": 100,
     "source_id": "fragments:athens-ruins-and-family-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -2663,7 +2681,7 @@
     }
   },
   {
-    "id": 100,
+    "id": 101,
     "source_id": "fragments:swimming-in-the-mediterranean",
     "route": "/fragments",
     "page": "Fragments",
@@ -2689,7 +2707,7 @@
     }
   },
   {
-    "id": 101,
+    "id": 102,
     "source_id": "fragments:rainy-days-permission-to-stay-in",
     "route": "/fragments",
     "page": "Fragments",
@@ -2714,7 +2732,7 @@
     }
   },
   {
-    "id": 102,
+    "id": 103,
     "source_id": "fragments:mental-map-of-small-room",
     "route": "/fragments",
     "page": "Fragments",
@@ -2740,7 +2758,7 @@
     }
   },
   {
-    "id": 103,
+    "id": 104,
     "source_id": "fragments:first-camera-another-way-of-seeing",
     "route": "/fragments",
     "page": "Fragments",
@@ -2766,7 +2784,7 @@
     }
   },
   {
-    "id": 104,
+    "id": 105,
     "source_id": "fragments:music-that-became-more-spacious",
     "route": "/fragments",
     "page": "Fragments",
@@ -2792,7 +2810,7 @@
     }
   },
   {
-    "id": 105,
+    "id": 106,
     "source_id": "cv:profile",
     "route": "/cv",
     "page": "CV",
@@ -2809,7 +2827,7 @@
     "media": []
   },
   {
-    "id": 106,
+    "id": 107,
     "source_id": "cv:education",
     "route": "/cv",
     "page": "CV",
@@ -2826,7 +2844,7 @@
     "media": []
   },
   {
-    "id": 107,
+    "id": 108,
     "source_id": "cv:experience",
     "route": "/cv",
     "page": "CV",
@@ -2844,7 +2862,7 @@
     "media": []
   },
   {
-    "id": 108,
+    "id": 109,
     "source_id": "cv:publications-preprints",
     "route": "/cv",
     "page": "CV",
@@ -2862,7 +2880,7 @@
     "media": []
   },
   {
-    "id": 109,
+    "id": 110,
     "source_id": "about:gallery",
     "route": "/about",
     "page": "About",
@@ -3181,7 +3199,7 @@
     }
   },
   {
-    "id": 110,
+    "id": 111,
     "source_id": "home:currently",
     "route": "/home",
     "page": "Home",
