@@ -362,11 +362,11 @@
       "page": "Research",
       "title": "Research I've Been Part Of",
       "anchor": "",
-      "body": "My research asks how people learn, how AI systems arrive at their behaviour, and what changes when people think and work with AI. I study how experience becomes knowledge, how that knowledge carries into new situations, what AI models learn internally, and how AI tools shape attention, practice, understanding, memory, and judgment. I study human-AI interaction as a cognitive and design problem. As AI enters learning, writing, work, and decision-making, parts of the cognitive work can move between the person and the tool. I want to understand how that changes what people attend to, practise, understand, remember, and decide, and how systems can be designed to support the development of their own knowledge and judgment. On the human side, I study how people learn, represent, and use knowledge. I use experiments and computational models to ask how experience changes internal representations, how those representations support memory, concepts, generalisation, reasoning, and action, and how knowledge continues to change as it is used in new situations. Some of this work is conducted as a part-time research assistant at HKU's SLR Lab , with Dr. On the AI side, I study what models learn and how that learning gives rise to behaviour. I look at what information is represented internally, how it is used during a task, and how internal computation produces the capabilities and failures we observe. I use behavioural tests and causal interventions when they help answer those questions. The three areas are closely connected in my work. Cognitive models give me ways to think about how knowledge can be represented and used, while AI models provide another kind of learned system in which those questions can be studied. Human-AI interaction brings the two together because the model becomes part of the environment in which a person learns, reasons, writes, and decides. Human-AI interaction and collaboration --> Human-AI interaction and collaboration",
+      "body": "My research asks how people learn, how AI systems arrive at their behaviour, and what changes when people think and work with AI. I study how experience becomes knowledge, how that knowledge carries into new situations, what AI models learn internally, and how AI tools shape attention, practice, understanding, memory, and judgment. I study human-AI interaction as a cognitive and design problem. As AI enters learning, writing, work, and decision-making, parts of the cognitive work can move between the person and the tool. I want to understand how that changes what people attend to, practise, understand, remember, and decide, and how systems can be designed to support the development of their own knowledge and judgment. On the human side, I study how people learn, represent, and use knowledge. I use experiments and computational models to ask how experience changes internal representations, how those representations support memory, concepts, generalisation, reasoning, and action, and how knowledge continues to change as it is used in new situations. Some of this work is conducted as a part-time research assistant at HKU's SLR Lab , with Dr. On the AI side, I study what models learn and how that learning gives rise to behaviour. I look at what information is represented internally, how it is used during a task, and how internal computation produces the capabilities and failures we observe. I use behavioural tests and causal interventions when they help answer those questions. The three areas are closely connected in my work. Cognitive models give me ways to think about how knowledge can be represented and used, while AI models provide another kind of learned system in which those questions can be studied. Human-AI interaction brings the two together because the model becomes part of the environment in which a person learns, reasons, writes, and decides.",
       "parts": [
         "My research asks how people learn, how AI systems arrive at their behaviour, and what changes when people think and work with AI. I study how experience becomes knowledge, how that knowledge carries into new situations, what AI models learn internally, and how AI tools shape attention, practice, understanding, memory, and judgment. I study human-AI interaction as a cognitive and design problem. As AI enters learning, writing, work, and decision-making, parts of the cognitive work can move between the person and the tool. I want to understand how that changes what people attend to, practise, understand, remember, and decide, and how systems can be designed to support the development of their own knowledge and judgment. On the human side, I study how people learn, represent, and use knowledge.",
         "I use experiments and computational models to ask how experience changes internal representations, how those representations support memory, concepts, generalisation, reasoning, and action, and how knowledge continues to change as it is used in new situations. Some of this work is conducted as a part-time research assistant at HKU's SLR Lab , with Dr. On the AI side, I study what models learn and how that learning gives rise to behaviour. I look at what information is represented internally, how it is used during a task, and how internal computation produces the capabilities and failures we observe. I use behavioural tests and causal interventions when they help answer those questions. The three areas are closely connected in my work.",
-        "Cognitive models give me ways to think about how knowledge can be represented and used, while AI models provide another kind of learned system in which those questions can be studied. Human-AI interaction brings the two together because the model becomes part of the environment in which a person learns, reasons, writes, and decides. Human-AI interaction and collaboration --> Human-AI interaction and collaboration"
+        "Cognitive models give me ways to think about how knowledge can be represented and used, while AI models provide another kind of learned system in which those questions can be studied. Human-AI interaction brings the two together because the model becomes part of the environment in which a person learns, reasons, writes, and decides."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -412,6 +412,148 @@
     },
     {
       "id": 16,
+      "source_id": "research:transfer",
+      "route": "/research",
+      "page": "Research",
+      "title": "The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization?",
+      "anchor": "transfer",
+      "body": "Transfer experiments are used as mechanism tests, with responses to prototypes, novel combinations, or distant items taken as evidence for particular accounts of generalization. The diagnostic value of a transfer condition is not intrinsic to its label; it depends on whether the candidate mechanisms make sufficiently different predictions in that task and whether the planned observations can recover that divergence. I formalise this prospective property as the resolving power of a transfer design: candidate separation quantifies how far each pair of mechanisms diverges, candidate recovery quantifies whether a planned response schedule can discriminate them under finite and noisy observation, and condition-level analysis localises where the information arises. The framework is released as tide, an open-source Python toolkit for prospective design audit and revision, together with a web application.",
+      "parts": [
+        "Transfer experiments are used as mechanism tests, with responses to prototypes, novel combinations, or distant items taken as evidence for particular accounts of generalization. The diagnostic value of a transfer condition is not intrinsic to its label; it depends on whether the candidate mechanisms make sufficiently different predictions in that task and whether the planned observations can recover that divergence. I formalise this prospective property as the resolving power of a transfer design: candidate separation quantifies how far each pair of mechanisms diverges, candidate recovery quantifies whether a planned response schedule can discriminate them under finite and noisy observation, and condition-level analysis localises where the information arises.",
+        "The framework is released as tide, an open-source Python toolkit for prospective design audit and revision, together with a web application."
+      ],
+      "view_kind": "publication",
+      "presentations": [
+        "cite",
+        "component"
+      ],
+      "priority": 4,
+      "media": [
+        {
+          "src": "/assets/img/transfer_fig1.png"
+        },
+        {
+          "src": "/assets/img/transfer_fig2.png"
+        },
+        {
+          "src": "/assets/img/transfer_fig3.png"
+        },
+        {
+          "src": "/assets/img/transfer_fig4.png"
+        },
+        {
+          "src": "/assets/img/transfer_fig5.png"
+        }
+      ],
+      "component_description": "The original Research entry for “The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization?”, including its publication details, full explanation, and research figures where available.",
+      "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
+      "entity": {
+        "kind": "publication",
+        "id": "transfer",
+        "period": "September 2025 - June 2026",
+        "status": "Under review",
+        "authors": "Han-yu Wang, Stephen M. K. Lee",
+        "links": []
+      }
+    },
+    {
+      "id": 17,
+      "source_id": "research:encoding",
+      "route": "/research",
+      "page": "Research",
+      "title": "Functional Encoding and Representational Binding in Componential Transfer",
+      "anchor": "encoding",
+      "body": "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We separate transfer into two representational questions. Functional encoding asks whether a useful component enters the representation that drives the response. Representational binding asks whether that component remains available as a reusable part or becomes fused with the whole stimulus. One model, held fixed across artificial orthography, Chinese character learning, and artificial grammar, shows that tests preserving a trained component primarily probe encoding, while tests recombining components probe binding. A continuous binding parameter accounts for patterns that earlier theories attributed to two separate systems.",
+      "parts": [
+        "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We separate transfer into two representational questions. Functional encoding asks whether a useful component enters the representation that drives the response. Representational binding asks whether that component remains available as a reusable part or becomes fused with the whole stimulus. One model, held fixed across artificial orthography, Chinese character learning, and artificial grammar, shows that tests preserving a trained component primarily probe encoding, while tests recombining components probe binding. A continuous binding parameter accounts for patterns that earlier theories attributed to two separate systems."
+      ],
+      "view_kind": "publication",
+      "presentations": [
+        "cite",
+        "component"
+      ],
+      "priority": 3,
+      "media": [
+        {
+          "src": "/assets/img/binding_fig1.png"
+        },
+        {
+          "src": "/assets/img/binding_fig2.png"
+        },
+        {
+          "src": "/assets/img/binding_fig3.png"
+        },
+        {
+          "src": "/assets/img/binding_fig4.png"
+        },
+        {
+          "src": "/assets/img/binding_fig5.png"
+        }
+      ],
+      "component_description": "The original Research entry for “Functional Encoding and Representational Binding in Componential Transfer”, including its publication details, full explanation, and research figures where available.",
+      "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
+      "entity": {
+        "kind": "publication",
+        "id": "encoding",
+        "period": "July 2025 - June 2026",
+        "status": "Under review",
+        "authors": "Stephen M. K. Lee, Han-yu Wang",
+        "links": []
+      }
+    },
+    {
+      "id": 18,
+      "source_id": "research:bright",
+      "route": "/research",
+      "page": "Research",
+      "title": "BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval",
+      "anchor": "bright",
+      "body": "Most retrieval benchmarks can be solved largely through keyword or surface-semantic matching. BRIGHT tests whether a retriever can identify documents whose relevance becomes clear only after reasoning about the query. The benchmark contains 1,384 real queries across economics, psychology, mathematics, and coding. Strong retrievers that perform well on conventional benchmarks decline sharply on BRIGHT, while adding explicit query reasoning improves retrieval and downstream question answering. The results show that reasoning-intensive retrieval remains a substantially different challenge from ordinary semantic matching.",
+      "parts": [
+        "Most retrieval benchmarks can be solved largely through keyword or surface-semantic matching. BRIGHT tests whether a retriever can identify documents whose relevance becomes clear only after reasoning about the query. The benchmark contains 1,384 real queries across economics, psychology, mathematics, and coding. Strong retrievers that perform well on conventional benchmarks decline sharply on BRIGHT, while adding explicit query reasoning improves retrieval and downstream question answering. The results show that reasoning-intensive retrieval remains a substantially different challenge from ordinary semantic matching."
+      ],
+      "view_kind": "publication",
+      "presentations": [
+        "cite",
+        "component"
+      ],
+      "priority": 3,
+      "media": [
+        {
+          "src": "/assets/img/BRIGHT1.png"
+        },
+        {
+          "src": "/assets/img/BRIGHT2.png"
+        },
+        {
+          "src": "/assets/img/BRIGHT4.png"
+        },
+        {
+          "src": "/assets/img/BRIGHT5.png"
+        }
+      ],
+      "component_description": "The original Research entry for “BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval”, including its publication details, full explanation, and research figures where available.",
+      "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
+      "entity": {
+        "kind": "publication",
+        "id": "bright",
+        "period": "December 2023 - May 2024",
+        "status": "ICLR 2025 Spotlight",
+        "authors": "Hongjin Su*, Howard Yen*, Mengzhou Xia*, Weijia Shi, Niklas Muennighoff, Han-yu Wang, Haisu Liu, Quan Shi, Zachary S. Siegel, Michael Tang, Ruoxi Sun, Jinsung Yoon, Sercan O. Arik, Danqi Chen, Tao Yu",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2407.12883"
+          },
+          {
+            "label": "Project page",
+            "url": "https://brightbenchmark.github.io/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
       "source_id": "research:humansDisengage",
       "route": "/research",
       "page": "Research",
@@ -465,98 +607,7 @@
       }
     },
     {
-      "id": 17,
-      "source_id": "research:transfer",
-      "route": "/research",
-      "page": "Research",
-      "title": "The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization?",
-      "anchor": "transfer",
-      "body": "Transfer experiments are used as mechanism tests, with responses to prototypes, novel combinations, or distant items taken as evidence for particular accounts of generalization. The diagnostic value of a transfer condition is not intrinsic to its label; it depends on whether the candidate mechanisms make sufficiently different predictions in that task and whether the planned observations can recover that divergence. I formalise this prospective property as the resolving power of a transfer design: candidate separation quantifies how far each pair of mechanisms diverges, candidate recovery quantifies whether a planned response schedule can discriminate them under finite and noisy observation, and condition-level analysis localises where the information arises. The framework is released as tide, an open-source Python toolkit for prospective design audit and revision, together with a web application.",
-      "parts": [
-        "Transfer experiments are used as mechanism tests, with responses to prototypes, novel combinations, or distant items taken as evidence for particular accounts of generalization. The diagnostic value of a transfer condition is not intrinsic to its label; it depends on whether the candidate mechanisms make sufficiently different predictions in that task and whether the planned observations can recover that divergence. I formalise this prospective property as the resolving power of a transfer design: candidate separation quantifies how far each pair of mechanisms diverges, candidate recovery quantifies whether a planned response schedule can discriminate them under finite and noisy observation, and condition-level analysis localises where the information arises.",
-        "The framework is released as tide, an open-source Python toolkit for prospective design audit and revision, together with a web application."
-      ],
-      "view_kind": "publication",
-      "presentations": [
-        "cite",
-        "component"
-      ],
-      "priority": 4,
-      "media": [
-        {
-          "src": "/assets/img/transfer_fig1.png"
-        },
-        {
-          "src": "/assets/img/transfer_fig2.png"
-        },
-        {
-          "src": "/assets/img/transfer_fig3.png"
-        },
-        {
-          "src": "/assets/img/transfer_fig4.png"
-        },
-        {
-          "src": "/assets/img/transfer_fig5.png"
-        }
-      ],
-      "component_description": "The original Research entry for “The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization?”, including its publication details, full explanation, and research figures where available.",
-      "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
-      "entity": {
-        "kind": "publication",
-        "id": "transfer",
-        "period": "September 2025 - June 2026",
-        "status": "Under review",
-        "authors": "Han-yu Wang, Stephen M. K. Lee",
-        "links": []
-      }
-    },
-    {
-      "id": 18,
-      "source_id": "research:encoding",
-      "route": "/research",
-      "page": "Research",
-      "title": "Functional Encoding and Representational Binding in Componential Transfer",
-      "anchor": "encoding",
-      "body": "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We separate transfer into two representational questions. Functional encoding asks whether a useful component enters the representation that drives the response. Representational binding asks whether that component remains available as a reusable part or becomes fused with the whole stimulus. One model, held fixed across artificial orthography, Chinese character learning, and artificial grammar, shows that tests preserving a trained component primarily probe encoding, while tests recombining components probe binding. A continuous binding parameter accounts for patterns that earlier theories attributed to two separate systems.",
-      "parts": [
-        "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We separate transfer into two representational questions. Functional encoding asks whether a useful component enters the representation that drives the response. Representational binding asks whether that component remains available as a reusable part or becomes fused with the whole stimulus. One model, held fixed across artificial orthography, Chinese character learning, and artificial grammar, shows that tests preserving a trained component primarily probe encoding, while tests recombining components probe binding. A continuous binding parameter accounts for patterns that earlier theories attributed to two separate systems."
-      ],
-      "view_kind": "publication",
-      "presentations": [
-        "cite",
-        "component"
-      ],
-      "priority": 3,
-      "media": [
-        {
-          "src": "/assets/img/binding_fig1.png"
-        },
-        {
-          "src": "/assets/img/binding_fig2.png"
-        },
-        {
-          "src": "/assets/img/binding_fig3.png"
-        },
-        {
-          "src": "/assets/img/binding_fig4.png"
-        },
-        {
-          "src": "/assets/img/binding_fig5.png"
-        }
-      ],
-      "component_description": "The original Research entry for “Functional Encoding and Representational Binding in Componential Transfer”, including its publication details, full explanation, and research figures where available.",
-      "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
-      "entity": {
-        "kind": "publication",
-        "id": "encoding",
-        "period": "July 2025 - June 2026",
-        "status": "Under review",
-        "authors": "Stephen M. K. Lee, Han-yu Wang",
-        "links": []
-      }
-    },
-    {
-      "id": 19,
+      "id": 20,
       "source_id": "research:priorsPersist",
       "route": "/research",
       "page": "Research",
@@ -610,66 +661,15 @@
       }
     },
     {
-      "id": 20,
-      "source_id": "research:bright",
-      "route": "/research",
-      "page": "Research",
-      "title": "BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval",
-      "anchor": "bright",
-      "body": "Most retrieval benchmarks can be solved largely through keyword or surface-semantic matching. BRIGHT tests whether a retriever can identify documents whose relevance becomes clear only after reasoning about the query. The benchmark contains 1,384 real queries across economics, psychology, mathematics, and coding. Strong retrievers that perform well on conventional benchmarks decline sharply on BRIGHT, while adding explicit query reasoning improves retrieval and downstream question answering. The results show that reasoning-intensive retrieval remains a substantially different challenge from ordinary semantic matching.",
-      "parts": [
-        "Most retrieval benchmarks can be solved largely through keyword or surface-semantic matching. BRIGHT tests whether a retriever can identify documents whose relevance becomes clear only after reasoning about the query. The benchmark contains 1,384 real queries across economics, psychology, mathematics, and coding. Strong retrievers that perform well on conventional benchmarks decline sharply on BRIGHT, while adding explicit query reasoning improves retrieval and downstream question answering. The results show that reasoning-intensive retrieval remains a substantially different challenge from ordinary semantic matching."
-      ],
-      "view_kind": "publication",
-      "presentations": [
-        "cite",
-        "component"
-      ],
-      "priority": 3,
-      "media": [
-        {
-          "src": "/assets/img/BRIGHT1.png"
-        },
-        {
-          "src": "/assets/img/BRIGHT2.png"
-        },
-        {
-          "src": "/assets/img/BRIGHT4.png"
-        },
-        {
-          "src": "/assets/img/BRIGHT5.png"
-        }
-      ],
-      "component_description": "The original Research entry for “BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval”, including its publication details, full explanation, and research figures where available.",
-      "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
-      "entity": {
-        "kind": "publication",
-        "id": "bright",
-        "period": "December 2023 - May 2024",
-        "status": "ICLR 2025 Spotlight",
-        "authors": "Hongjin Su*, Howard Yen*, Mengzhou Xia*, Weijia Shi, Niklas Muennighoff, Han-yu Wang, Haisu Liu, Quan Shi, Zachary S. Siegel, Michael Tang, Ruoxi Sun, Jinsung Yoon, Sercan O. Arik, Danqi Chen, Tao Yu",
-        "links": [
-          {
-            "label": "Paper",
-            "url": "https://arxiv.org/abs/2407.12883"
-          },
-          {
-            "label": "Project page",
-            "url": "https://brightbenchmark.github.io/"
-          }
-        ]
-      }
-    },
-    {
       "id": 21,
       "source_id": "projects:overview",
       "route": "/projects",
       "page": "Builds",
       "title": "Things I've Built",
       "anchor": "",
-      "body": "Most of these started with a vague need. Their structure took shape as I built, then kept changing through actual use and conversations with the people they were for. On my own time --> On my own time",
+      "body": "Most of these started with a vague need. Their structure took shape as I built, then kept changing through actual use and conversations with the people they were for.",
       "parts": [
-        "Most of these started with a vague need. Their structure took shape as I built, then kept changing through actual use and conversations with the people they were for. On my own time --> On my own time"
+        "Most of these started with a vague need. Their structure took shape as I built, then kept changing through actual use and conversations with the people they were for."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -680,6 +680,35 @@
     },
     {
       "id": 22,
+      "source_id": "projects:searchstory",
+      "route": "/aipersonalarchive",
+      "page": "An AI Interface for Exploring a Personal Archive",
+      "title": "An AI Interface for Exploring a Personal Archive",
+      "anchor": "",
+      "body": "An AI interface for exploring one person through search, answers with citations, and Views whose dated snapshots preserve different perspectives over time.",
+      "parts": [
+        "An AI interface for exploring one person through search, answers with citations, and Views whose dated snapshots preserve different perspectives over time."
+      ],
+      "view_kind": "project",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 5,
+      "media": [],
+      "entity": {
+        "kind": "project",
+        "id": "searchstory",
+        "period": "June 2026 - Present",
+        "subtitle": "Search, cited answers, and composed Views built from Henry’s original site",
+        "route": "/aipersonalarchive",
+        "anchor": "",
+        "mediaMode": "gallery",
+        "logoHeight": "",
+        "richBlock": "interactive.search.embedding-map"
+      }
+    },
+    {
+      "id": 23,
       "source_id": "projects:insurance",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -711,51 +740,6 @@
         "mediaMode": "logo",
         "logoHeight": "5vh",
         "richBlock": "interactive.insurance.rule-engine"
-      }
-    },
-    {
-      "id": 23,
-      "source_id": "projects:pds",
-      "route": "/projects",
-      "page": "Builds",
-      "title": "Advancing Generative AI in Personalized Learning",
-      "anchor": "pds",
-      "body": "Jinsong Chen, I built a full-stack education platform for learners, instructors, and administrators. It supports question banks, assessments, and progress analytics, then uses generative AI, retrieval, and recommendation to suggest questions and study resources suited to each learner's progress. I built the platform with Vue. js, Flask, and Firestore.",
-      "parts": [
-        "Jinsong Chen, I built a full-stack education platform for learners, instructors, and administrators. It supports question banks, assessments, and progress analytics, then uses generative AI, retrieval, and recommendation to suggest questions and study resources suited to each learner's progress. I built the platform with Vue. js, Flask, and Firestore."
-      ],
-      "view_kind": "project",
-      "presentations": [
-        "cite",
-        "component"
-      ],
-      "priority": 1,
-      "media": [
-        {
-          "src": "/assets/img/PDS_Screenshot1.png"
-        },
-        {
-          "src": "/assets/img/PDS_Screenshot2.png"
-        },
-        {
-          "src": "/assets/img/PDS_Screenshot3.png"
-        },
-        {
-          "src": "/assets/img/PDS_Screenshot4.png"
-        }
-      ],
-      "component_description": "The original project entry for “Advancing Generative AI in Personalized Learning”, including its full project account and original visual material where available.",
-      "narrative_guidance": "Explain which design decision, technical approach, or result matters to the visitor before showing the complete project source.",
-      "entity": {
-        "kind": "project",
-        "id": "pds",
-        "period": "July 2024 - April 2025",
-        "subtitle": "A Full-Stack Adaptive Learning Portal with Vue, Flask, and Firestore",
-        "route": "/projects",
-        "anchor": "pds",
-        "mediaMode": "gallery",
-        "logoHeight": "",
-        "richBlock": ""
       }
     },
     {
@@ -841,6 +825,42 @@
     },
     {
       "id": 26,
+      "source_id": "projects:dealtracker",
+      "route": "/dealtracker",
+      "page": "Dealtracker",
+      "title": "Dealtracker",
+      "anchor": "",
+      "body": "Dealtracker monitors sale pages for products that match my saved preferences. It applies brand, gender, size, and minimum-discount filters, normalises inconsistent product names across stores, and compares each result with a local history file so the same deal is not announced repeatedly. When a scheduled check finds a new match, it sends a concise Gmail digest grouped by brand, with product images, original and sale prices, discount percentages, and direct links.",
+      "parts": [
+        "Dealtracker monitors sale pages for products that match my saved preferences. It applies brand, gender, size, and minimum-discount filters, normalises inconsistent product names across stores, and compares each result with a local history file so the same deal is not announced repeatedly. When a scheduled check finds a new match, it sends a concise Gmail digest grouped by brand, with product images, original and sale prices, discount percentages, and direct links."
+      ],
+      "view_kind": "project",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 2,
+      "media": [
+        {
+          "src": "/assets/img/dealtracker_arcteryx_email.png"
+        },
+        {
+          "src": "/assets/img/dealtracker_patagonia_email.png"
+        }
+      ],
+      "entity": {
+        "kind": "project",
+        "id": "dealtracker",
+        "period": "February 2025 - June 2025",
+        "subtitle": "A Personal Deal Hunter with Filters and Email Digests",
+        "route": "/dealtracker",
+        "anchor": "",
+        "mediaMode": "gallery",
+        "logoHeight": "",
+        "richBlock": ""
+      }
+    },
+    {
+      "id": 27,
       "source_id": "projects:stride",
       "route": "/projects",
       "page": "Builds",
@@ -882,35 +902,6 @@
         "mediaMode": "gallery",
         "logoHeight": "",
         "richBlock": ""
-      }
-    },
-    {
-      "id": 27,
-      "source_id": "projects:searchstory",
-      "route": "/aipersonalarchive",
-      "page": "An AI Interface for Exploring a Personal Archive",
-      "title": "An AI Interface for Exploring a Personal Archive",
-      "anchor": "",
-      "body": "An AI interface for exploring one person through search, answers with citations, and Views whose dated snapshots preserve different perspectives over time.",
-      "parts": [
-        "An AI interface for exploring one person through search, answers with citations, and Views whose dated snapshots preserve different perspectives over time."
-      ],
-      "view_kind": "project",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "entity": {
-        "kind": "project",
-        "id": "searchstory",
-        "period": "June 2026 - Present",
-        "subtitle": "Search, cited answers, and composed Views built from Henry’s original site",
-        "route": "/aipersonalarchive",
-        "anchor": "",
-        "mediaMode": "gallery",
-        "logoHeight": "",
-        "richBlock": "interactive.search.embedding-map"
       }
     },
     {
@@ -1023,35 +1014,44 @@
     },
     {
       "id": 30,
-      "source_id": "projects:dealtracker",
-      "route": "/dealtracker",
-      "page": "Dealtracker",
-      "title": "Dealtracker",
-      "anchor": "",
-      "body": "Dealtracker monitors sale pages for products that match my saved preferences. It applies brand, gender, size, and minimum-discount filters, normalises inconsistent product names across stores, and compares each result with a local history file so the same deal is not announced repeatedly. When a scheduled check finds a new match, it sends a concise Gmail digest grouped by brand, with product images, original and sale prices, discount percentages, and direct links.",
+      "source_id": "projects:pds",
+      "route": "/projects",
+      "page": "Builds",
+      "title": "Advancing Generative AI in Personalized Learning",
+      "anchor": "pds",
+      "body": "Jinsong Chen, I built a full-stack education platform for learners, instructors, and administrators. It supports question banks, assessments, and progress analytics, then uses generative AI, retrieval, and recommendation to suggest questions and study resources suited to each learner's progress. I built the platform with Vue. js, Flask, and Firestore.",
       "parts": [
-        "Dealtracker monitors sale pages for products that match my saved preferences. It applies brand, gender, size, and minimum-discount filters, normalises inconsistent product names across stores, and compares each result with a local history file so the same deal is not announced repeatedly. When a scheduled check finds a new match, it sends a concise Gmail digest grouped by brand, with product images, original and sale prices, discount percentages, and direct links."
+        "Jinsong Chen, I built a full-stack education platform for learners, instructors, and administrators. It supports question banks, assessments, and progress analytics, then uses generative AI, retrieval, and recommendation to suggest questions and study resources suited to each learner's progress. I built the platform with Vue. js, Flask, and Firestore."
       ],
       "view_kind": "project",
       "presentations": [
-        "cite"
+        "cite",
+        "component"
       ],
-      "priority": 2,
+      "priority": 1,
       "media": [
         {
-          "src": "/assets/img/dealtracker_arcteryx_email.png"
+          "src": "/assets/img/PDS_Screenshot1.png"
         },
         {
-          "src": "/assets/img/dealtracker_patagonia_email.png"
+          "src": "/assets/img/PDS_Screenshot2.png"
+        },
+        {
+          "src": "/assets/img/PDS_Screenshot3.png"
+        },
+        {
+          "src": "/assets/img/PDS_Screenshot4.png"
         }
       ],
+      "component_description": "The original project entry for “Advancing Generative AI in Personalized Learning”, including its full project account and original visual material where available.",
+      "narrative_guidance": "Explain which design decision, technical approach, or result matters to the visitor before showing the complete project source.",
       "entity": {
         "kind": "project",
-        "id": "dealtracker",
-        "period": "February 2025 - June 2025",
-        "subtitle": "A Personal Deal Hunter with Filters and Email Digests",
-        "route": "/dealtracker",
-        "anchor": "",
+        "id": "pds",
+        "period": "July 2024 - April 2025",
+        "subtitle": "A Full-Stack Adaptive Learning Portal with Vue, Flask, and Firestore",
+        "route": "/projects",
+        "anchor": "pds",
         "mediaMode": "gallery",
         "logoHeight": "",
         "richBlock": ""
