@@ -665,9 +665,9 @@
     "page": "Builds",
     "title": "Things I've Built",
     "anchor": "",
-    "body": "Most of these started with a vague need. Their structure took shape as I built, then kept changing through actual use and conversations with the people they were for. Professional and lab work --> Professional and lab work",
+    "body": "Most of these started with a vague need. Their structure took shape as I built, then kept changing through actual use and conversations with the people they were for. On my own time --> On my own time",
     "parts": [
-      "Most of these started with a vague need. Their structure took shape as I built, then kept changing through actual use and conversations with the people they were for. Professional and lab work --> Professional and lab work"
+      "Most of these started with a vague need. Their structure took shape as I built, then kept changing through actual use and conversations with the people they were for. On my own time --> On my own time"
     ],
     "view_kind": "prose",
     "presentations": [
@@ -885,7 +885,7 @@
   {
     "id": 27,
     "source_id": "projects:searchstory",
-    "route": "/searchstory",
+    "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "An AI Interface for Exploring a Personal Archive",
     "anchor": "",
@@ -904,7 +904,7 @@
       "id": "searchstory",
       "period": "June 2026 - Present",
       "subtitle": "Search, cited answers, and composed Views built from Henry’s original site",
-      "route": "/searchstory",
+      "route": "/aipersonalarchive",
       "anchor": "",
       "mediaMode": "gallery",
       "logoHeight": "",
@@ -1891,8 +1891,8 @@
   },
   {
     "id": 65,
-    "source_id": "searchstory:overview",
-    "route": "/searchstory",
+    "source_id": "aipersonalarchive:overview",
+    "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "An AI Interface for Exploring a Personal Archive",
     "anchor": "",
@@ -1910,8 +1910,8 @@
   },
   {
     "id": 66,
-    "source_id": "searchstory:search-turns-the-whole-site-into-one-navigable-space",
-    "route": "/searchstory",
+    "source_id": "aipersonalarchive:search-turns-the-whole-site-into-one-navigable-space",
+    "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Search turns the whole site into one navigable space",
     "anchor": "search-turns-the-whole-site-into-one-navigable-space",
@@ -1931,8 +1931,8 @@
   },
   {
     "id": 67,
-    "source_id": "searchstory:seeing-the-archive-as-a-space",
-    "route": "/searchstory",
+    "source_id": "aipersonalarchive:seeing-the-archive-as-a-space",
+    "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Seeing the archive as a space",
     "anchor": "seeing-the-archive-as-a-space",
@@ -1950,8 +1950,8 @@
   },
   {
     "id": 68,
-    "source_id": "searchstory:ask-brings-related-passages-into-one-answer",
-    "route": "/searchstory",
+    "source_id": "aipersonalarchive:ask-brings-related-passages-into-one-answer",
+    "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Ask brings related passages into one answer",
     "anchor": "ask-brings-related-passages-into-one-answer",
@@ -1968,8 +1968,8 @@
   },
   {
     "id": 69,
-    "source_id": "searchstory:find",
-    "route": "/searchstory",
+    "source_id": "aipersonalarchive:find",
+    "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Find",
     "anchor": "find",
@@ -1986,8 +1986,8 @@
   },
   {
     "id": 70,
-    "source_id": "searchstory:set-the-scope",
-    "route": "/searchstory",
+    "source_id": "aipersonalarchive:set-the-scope",
+    "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Set the scope",
     "anchor": "set-the-scope",
@@ -2004,8 +2004,8 @@
   },
   {
     "id": 71,
-    "source_id": "searchstory:write",
-    "route": "/searchstory",
+    "source_id": "aipersonalarchive:write",
+    "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Write",
     "anchor": "write",
@@ -2022,8 +2022,8 @@
   },
   {
     "id": 72,
-    "source_id": "searchstory:cite",
-    "route": "/searchstory",
+    "source_id": "aipersonalarchive:cite",
+    "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Cite",
     "anchor": "cite",
@@ -2040,8 +2040,8 @@
   },
   {
     "id": 73,
-    "source_id": "searchstory:view-reorganises-the-site-around-a-question",
-    "route": "/searchstory",
+    "source_id": "aipersonalarchive:view-reorganises-the-site-around-a-question",
+    "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "View reorganises the site around a question",
     "anchor": "view-reorganises-the-site-around-a-question",
@@ -2059,8 +2059,8 @@
   },
   {
     "id": 74,
-    "source_id": "searchstory:keeping-a-view",
-    "route": "/searchstory",
+    "source_id": "aipersonalarchive:keeping-a-view",
+    "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Keeping a View",
     "anchor": "keeping-a-view",
