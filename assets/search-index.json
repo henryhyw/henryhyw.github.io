@@ -1896,10 +1896,9 @@
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "An AI Interface for Exploring a Personal Archive",
     "anchor": "",
-    "body": "I built an AI interface for this website that lets visitors explore its material from the questions they bring. Search finds relevant passages across the site, Ask brings selected passages into cited answers, and View reorganises material from different sections into a page around a question, theme, or perspective. This gives visitors another way through the same material alongside the pages and sections I have organised myself. I originally organised the site into separate places for research, projects, work, education, travel, and things I write. That structure works well when someone wants to browse one area. Questions often cut across it. An interest such as learning may appear in my research, something I built, work I have done, and a fragment written somewhere else. A period of my life may be spread across education, travel, photographs, projects, and things I wrote around the same time. How can someone follow those connections without knowing in advance where each piece lives?",
+    "body": "This project turns my personal site into an evolving archive that can be explored through different questions and perspectives. New research, projects, experiences, photographs, and writing keep entering the site, so different questions can bring different parts of the same record together. Those perspectives can also be saved, leaving a record of how the archive was seen at different moments. Over time, I have added research, projects, work, travel, photographs, fragments, and other things to this site, and the material has spread across more pages and sections. I would sometimes remember that I had written about a company, a place, a project, or an idea, but not where I had put it. I wanted to type whatever I could remember, see the relevant passage, and jump straight back to it.",
     "parts": [
-      "I built an AI interface for this website that lets visitors explore its material from the questions they bring. Search finds relevant passages across the site, Ask brings selected passages into cited answers, and View reorganises material from different sections into a page around a question, theme, or perspective. This gives visitors another way through the same material alongside the pages and sections I have organised myself. I originally organised the site into separate places for research, projects, work, education, travel, and things I write. That structure works well when someone wants to browse one area. Questions often cut across it. An interest such as learning may appear in my research, something I built, work I have done, and a fragment written somewhere else.",
-      "A period of my life may be spread across education, travel, photographs, projects, and things I wrote around the same time. How can someone follow those connections without knowing in advance where each piece lives?"
+      "This project turns my personal site into an evolving archive that can be explored through different questions and perspectives. New research, projects, experiences, photographs, and writing keep entering the site, so different questions can bring different parts of the same record together. Those perspectives can also be saved, leaving a record of how the archive was seen at different moments. Over time, I have added research, projects, work, travel, photographs, fragments, and other things to this site, and the material has spread across more pages and sections. I would sometimes remember that I had written about a company, a place, a project, or an idea, but not where I had put it. I wanted to type whatever I could remember, see the relevant passage, and jump straight back to it."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1915,12 +1914,12 @@
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Search turns the whole site into one navigable space",
     "anchor": "search-turns-the-whole-site-into-one-navigable-space",
-    "body": "Search looks across the site’s indexed pages and returns relevant passages together with their original locations. A visitor can begin with a company, a project, a place, or a broader question without having to decide which section of the site is likely to contain it. A query such as HSBC can rely heavily on exact wording because the same name appears in the source material. A question about how learning connects different parts of my work is harder because the most relevant passages may express the idea without using the words in the question. Search therefore uses both lexical and semantic retrieval. Lexical retrieval looks for matching words and is useful when the wording itself matters, especially for names, titles, places, and technical terms. Semantic retrieval compares meaning, allowing a relevant passage to appear even when it uses different language. Semantic retrieval relies on embeddings. Each passage is represented numerically from its text, so passages with related meanings tend to have embeddings that are closer together. The query can be represented in the same way and compared with material across the site. Search combines this semantic comparison with lexical matching so that exact terms remain strong while related ideas can still appear. Compare word and meaning matches Try the same query across lexical and semantic retrieval and see what each one finds before the two rankings are combined. How Search works When the site is built, its public content is divided into searchable passages and embedded with all-MiniLM-L6-v2, a compact sentence-embedding model. The resulting passage embeddings are prepared in advance and shipped with the site. When someone searches, the browser uses the same model to embed the query. Semantic retrieval compares that query embedding with the stored passage embeddings using cosine similarity, which measures how closely the vectors align. Lexical retrieval runs alongside it using a TF-IDF-like score, which gives more weight to words that are informative across the site than to words that appear almost everywhere. Weighted reciprocal-rank fusion combines the two rankings according to where each passage appears in them rather than trying to compare the two scoring systems directly. Lexical results receive additional weight so that a precise name or phrase can remain prominent when semantic retrieval also finds broader matches. Search also applies a minimum semantic similarity before keeping a result.",
+    "body": "Search looks across the whole site and returns matching passages with a direct route back to where each one appears. I use it when I remember the thing I am looking for more clearly than where I put it. Visitors can search in the same way without first learning how the site is organised. If I search for HSBC, the name itself is already a strong clue because it appears directly in the text. But I often remember an idea more clearly than the words I used when I wrote it, and someone else may describe the same idea differently again. A relevant passage can have very little wording in common with the query. How can you find the right passage when you remember the idea but not the words? I use lexical matching to preserve strong signals from names, places, titles, technical terms, and other informative wording. For searches where the wording changes, semantic retrieval compares the meaning of the query with the meaning of each passage. Both are embedded in the same vector space, so passages can rank highly when their meanings are close even when they use different words. The lexical and semantic methods each produce a ranking. Weighted reciprocal-rank fusion combines their positions into the final order, with additional weight on lexical matches so a precise term such as HSBC stays prominent while broader conceptual searches can still reach related material. Compare word and meaning matches Try the same query across lexical and semantic retrieval and see what each one finds before the two rankings are combined. How Search works When the site is built, its public content is divided into searchable passages and embedded with all-MiniLM-L6-v2, a compact sentence-embedding model. The passage embeddings are prepared in advance and shipped with the site. At search time, the browser uses the same model to embed the query. Cosine similarity measures how closely that query aligns with each stored passage embedding. Lexical ranking runs alongside it with a TF-IDF-like score that gives more weight to informative words across the site. Weighted reciprocal-rank fusion combines the two rankings from their positions in each list. I give lexical results additional weight so precise names and phrases remain prominent alongside broader semantic matches. Search also applies a minimum semantic similarity. A ranking will produce an order even when all of its candidates are weak, so the threshold removes passages that fall below a useful level of relevance.",
     "parts": [
-      "Search looks across the site’s indexed pages and returns relevant passages together with their original locations. A visitor can begin with a company, a project, a place, or a broader question without having to decide which section of the site is likely to contain it. A query such as HSBC can rely heavily on exact wording because the same name appears in the source material. A question about how learning connects different parts of my work is harder because the most relevant passages may express the idea without using the words in the question. Search therefore uses both lexical and semantic retrieval. Lexical retrieval looks for matching words and is useful when the wording itself matters, especially for names, titles, places, and technical terms. Semantic retrieval compares meaning, allowing a relevant passage to appear even when it uses different language.",
-      "Semantic retrieval relies on embeddings. Each passage is represented numerically from its text, so passages with related meanings tend to have embeddings that are closer together. The query can be represented in the same way and compared with material across the site. Search combines this semantic comparison with lexical matching so that exact terms remain strong while related ideas can still appear. Compare word and meaning matches Try the same query across lexical and semantic retrieval and see what each one finds before the two rankings are combined. How Search works When the site is built, its public content is divided into searchable passages and embedded with all-MiniLM-L6-v2, a compact sentence-embedding model. The resulting passage embeddings are prepared in advance and shipped with the site. When someone searches, the browser uses the same model to embed the query.",
-      "Semantic retrieval compares that query embedding with the stored passage embeddings using cosine similarity, which measures how closely the vectors align. Lexical retrieval runs alongside it using a TF-IDF-like score, which gives more weight to words that are informative across the site than to words that appear almost everywhere. Weighted reciprocal-rank fusion combines the two rankings according to where each passage appears in them rather than trying to compare the two scoring systems directly. Lexical results receive additional weight so that a precise name or phrase can remain prominent when semantic retrieval also finds broader matches. Search also applies a minimum semantic similarity before keeping a result.",
-      "A ranking can always place something first even when very little on the site is relevant, so the threshold removes weak matches instead of filling the result list with increasingly distant material. The stored embeddings are quantised into 8-bit integers together with the scale needed for comparison, which reduces the amount of data the site needs to load. Because the passage embeddings are already prepared, only the visitor’s query has to be embedded at search time, and retrieval can run directly in the browser."
+      "Search looks across the whole site and returns matching passages with a direct route back to where each one appears. I use it when I remember the thing I am looking for more clearly than where I put it. Visitors can search in the same way without first learning how the site is organised. If I search for HSBC, the name itself is already a strong clue because it appears directly in the text. But I often remember an idea more clearly than the words I used when I wrote it, and someone else may describe the same idea differently again. A relevant passage can have very little wording in common with the query. How can you find the right passage when you remember the idea but not the words? I use lexical matching to preserve strong signals from names, places, titles, technical terms, and other informative wording.",
+      "For searches where the wording changes, semantic retrieval compares the meaning of the query with the meaning of each passage. Both are embedded in the same vector space, so passages can rank highly when their meanings are close even when they use different words. The lexical and semantic methods each produce a ranking. Weighted reciprocal-rank fusion combines their positions into the final order, with additional weight on lexical matches so a precise term such as HSBC stays prominent while broader conceptual searches can still reach related material. Compare word and meaning matches Try the same query across lexical and semantic retrieval and see what each one finds before the two rankings are combined. How Search works When the site is built, its public content is divided into searchable passages and embedded with all-MiniLM-L6-v2, a compact sentence-embedding model.",
+      "The passage embeddings are prepared in advance and shipped with the site. At search time, the browser uses the same model to embed the query. Cosine similarity measures how closely that query aligns with each stored passage embedding. Lexical ranking runs alongside it with a TF-IDF-like score that gives more weight to informative words across the site. Weighted reciprocal-rank fusion combines the two rankings from their positions in each list. I give lexical results additional weight so precise names and phrases remain prominent alongside broader semantic matches. Search also applies a minimum semantic similarity. A ranking will produce an order even when all of its candidates are weak, so the threshold removes passages that fall below a useful level of relevance.",
+      "The stored passage embeddings are quantised into 8-bit integers together with the scale needed for comparison, reducing how much data the site has to load. The passage embeddings are already available when someone searches, so the browser embeds the query and runs retrieval locally."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1936,10 +1935,10 @@
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Seeing the archive as a space",
     "anchor": "seeing-the-archive-as-a-space",
-    "body": "The embeddings used for Search also make it possible to look at the site’s material in another way. What would the archive look like if passages were arranged by meaning rather than by the page where I had placed them? UMAP reduces the high-dimensional passage embeddings to two or three dimensions so they can be drawn on a screen. The site prepares both projections during the build, with a seeded layout that keeps the arrangement stable unless the underlying material changes. Every dot represents a passage from the site. Material from Research, Builds, Work, Fragments, or another page can appear close together when their embeddings are similar. A question can also be added to the map to show roughly where it falls among those passages. The map is a visualisation of the embedding space. Search itself continues to compare queries with the original high-dimensional embeddings rather than the positions shown on the map.",
+    "body": "Once every passage had an embedding, I could use the same representations to compare passages with one another. What would a personal archive look like if its material were arranged by meaning instead of by page? I use UMAP to project the high-dimensional passage embeddings into two or three dimensions so they can be drawn on a screen. Both projections are prepared when the site is built, with a fixed seed that keeps the arrangement stable until the underlying material changes. Every dot represents a passage from the site. Research, projects, work, fragments, and other material can appear close together when their embeddings are similar, even when they live on different pages. A question can be added to the map as well, showing roughly where it falls among the material already there. The map is a lower-dimensional view of the embedding space. Search uses the original high-dimensional embeddings for retrieval.",
     "parts": [
-      "The embeddings used for Search also make it possible to look at the site’s material in another way. What would the archive look like if passages were arranged by meaning rather than by the page where I had placed them? UMAP reduces the high-dimensional passage embeddings to two or three dimensions so they can be drawn on a screen. The site prepares both projections during the build, with a seeded layout that keeps the arrangement stable unless the underlying material changes. Every dot represents a passage from the site. Material from Research, Builds, Work, Fragments, or another page can appear close together when their embeddings are similar. A question can also be added to the map to show roughly where it falls among those passages. The map is a visualisation of the embedding space.",
-      "Search itself continues to compare queries with the original high-dimensional embeddings rather than the positions shown on the map."
+      "Once every passage had an embedding, I could use the same representations to compare passages with one another. What would a personal archive look like if its material were arranged by meaning instead of by page? I use UMAP to project the high-dimensional passage embeddings into two or three dimensions so they can be drawn on a screen. Both projections are prepared when the site is built, with a fixed seed that keeps the arrangement stable until the underlying material changes. Every dot represents a passage from the site. Research, projects, work, fragments, and other material can appear close together when their embeddings are similar, even when they live on different pages. A question can be added to the map as well, showing roughly where it falls among the material already there. The map is a lower-dimensional view of the embedding space.",
+      "Search uses the original high-dimensional embeddings for retrieval."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1955,9 +1954,10 @@
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Ask brings related passages into one answer",
     "anchor": "ask-brings-related-passages-into-one-answer",
-    "body": "Search may return several useful passages from different parts of the site. If one part of an answer is in a project, another is in Research, and another appears somewhere else, the reader still has to work out how those pieces relate. Ask uses the same retrieval layer to select passages that can support the question. It sends those passages together with the question to the generation service through Cloudflare. The language model forms an answer from that material and attaches citations to the passages it uses, so the reader can move from the answer back into the site. This is retrieval-augmented generation, or RAG. Retrieval determines which parts of the site are available for a question, and generation uses that selected material to form the answer.",
+    "body": "As more material accumulated, the same idea began appearing in different parts of the site. Learning, for example, might turn up in my research, a project I had built, work I had done, and a fragment written months earlier. Search could find those pieces individually. Putting several of them around the same question offered another way to read the archive. I started asking questions of it myself. I had written or chosen every piece on the site, but I had rarely brought several of them together around a question that occurred to me later. Visitors had a more immediate use for the same idea. They could ask about my work, research, interests, or experiences and draw on material spread across several pages. What could a model say about a person after reading the parts of their archive that matter to a question? Ask retrieves the passages relevant to a question and sends them with the question to a language model through Cloudflare. The model writes from that material and cites the passages it draws on. Each citation opens the corresponding source on the site. Technically, this is retrieval-augmented generation, or RAG. Retrieval selects the passages that enter the context for a question. The language model writes from that context, and the citations connect the answer back to the material it used.",
     "parts": [
-      "Search may return several useful passages from different parts of the site. If one part of an answer is in a project, another is in Research, and another appears somewhere else, the reader still has to work out how those pieces relate. Ask uses the same retrieval layer to select passages that can support the question. It sends those passages together with the question to the generation service through Cloudflare. The language model forms an answer from that material and attaches citations to the passages it uses, so the reader can move from the answer back into the site. This is retrieval-augmented generation, or RAG. Retrieval determines which parts of the site are available for a question, and generation uses that selected material to form the answer."
+      "As more material accumulated, the same idea began appearing in different parts of the site. Learning, for example, might turn up in my research, a project I had built, work I had done, and a fragment written months earlier. Search could find those pieces individually. Putting several of them around the same question offered another way to read the archive. I started asking questions of it myself. I had written or chosen every piece on the site, but I had rarely brought several of them together around a question that occurred to me later. Visitors had a more immediate use for the same idea. They could ask about my work, research, interests, or experiences and draw on material spread across several pages. What could a model say about a person after reading the parts of their archive that matter to a question?",
+      "Ask retrieves the passages relevant to a question and sends them with the question to a language model through Cloudflare. The model writes from that material and cites the passages it draws on. Each citation opens the corresponding source on the site. Technically, this is retrieval-augmented generation, or RAG. Retrieval selects the passages that enter the context for a question. The language model writes from that context, and the citations connect the answer back to the material it used."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2027,9 +2027,9 @@
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Cite",
     "anchor": "cite",
-    "body": "Connect the answer back to the pages it came from. Ask can also suggest follow-up questions supported by the available material. A visitor can open one of the cited sources or continue with another question.",
+    "body": "Connect the answer back to the pages it came from.",
     "parts": [
-      "Connect the answer back to the pages it came from. Ask can also suggest follow-up questions supported by the available material. A visitor can open one of the cited sources or continue with another question."
+      "Connect the answer back to the pages it came from."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2045,10 +2045,10 @@
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "View reorganises the site around a question",
     "anchor": "view-reorganises-the-site-around-a-question",
-    "body": "Ask turns selected source material into an explanation. That is useful for many questions, but some parts of the site carry meaning in the form they already have. An interactive project is meant to be used. Photographs may make more sense together as a gallery. A fragment may matter partly because of the way it was originally written. What if those pieces could stay intact while the page around them changed? View gathers material from across the site around a question, theme, or perspective while keeping those pieces in the resulting page. Generated writing connects them, while a project demo remains interactive, photographs remain a gallery, and a fragment or research entry can retain the form it already has on the site. The site keeps a catalogue of reusable source blocks for projects, fragments, image groups, research entries, and interactive components. View selects and arranges those blocks, then generates the writing needed to connect them to the question and to one another. A question about learning could bring together research on human learning, a project that applies AI in education, an experience that shaped how I approached the problem, and a fragment written in another context. The question changes which pieces appear together without requiring all of them to be rewritten into the same form.",
+    "body": "Ask produces a text answer, but much of the material behind that answer already has a form of its own on the site. Projects have demos, photographs belong in galleries, fragments have their own writing, and research entries carry their own structure. Those pieces could become part of the answer itself. Could an answer become a page assembled from the projects, images, writing, and other material behind it? View starts with a question, theme, or perspective, retrieves a broader set of relevant material, and composes a page from the parts that matter to it. I made projects, research entries, fragments, image groups, and interactive components available as reusable blocks. The model selects and arranges those blocks, then writes the connective text between them. A project can appear as an interactive demo, photographs as a gallery, and a fragment beside material written years later. A question about learning can bring together research on human cognition, an education project, work where I dealt with related problems, and a fragment written in another context. Another perspective can reach into the same archive and bring a different combination into the page.",
     "parts": [
-      "Ask turns selected source material into an explanation. That is useful for many questions, but some parts of the site carry meaning in the form they already have. An interactive project is meant to be used. Photographs may make more sense together as a gallery. A fragment may matter partly because of the way it was originally written. What if those pieces could stay intact while the page around them changed? View gathers material from across the site around a question, theme, or perspective while keeping those pieces in the resulting page. Generated writing connects them, while a project demo remains interactive, photographs remain a gallery, and a fragment or research entry can retain the form it already has on the site. The site keeps a catalogue of reusable source blocks for projects, fragments, image groups, research entries, and interactive components.",
-      "View selects and arranges those blocks, then generates the writing needed to connect them to the question and to one another. A question about learning could bring together research on human learning, a project that applies AI in education, an experience that shaped how I approached the problem, and a fragment written in another context. The question changes which pieces appear together without requiring all of them to be rewritten into the same form."
+      "Ask produces a text answer, but much of the material behind that answer already has a form of its own on the site. Projects have demos, photographs belong in galleries, fragments have their own writing, and research entries carry their own structure. Those pieces could become part of the answer itself. Could an answer become a page assembled from the projects, images, writing, and other material behind it? View starts with a question, theme, or perspective, retrieves a broader set of relevant material, and composes a page from the parts that matter to it. I made projects, research entries, fragments, image groups, and interactive components available as reusable blocks. The model selects and arranges those blocks, then writes the connective text between them. A project can appear as an interactive demo, photographs as a gallery, and a fragment beside material written years later.",
+      "A question about learning can bring together research on human cognition, an education project, work where I dealt with related problems, and a fragment written in another context. Another perspective can reach into the same archive and bring a different combination into the page."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2059,16 +2059,15 @@
   },
   {
     "id": 74,
-    "source_id": "aipersonalarchive:keeping-a-view",
+    "source_id": "aipersonalarchive:views-over-time",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
-    "title": "Keeping a View",
-    "anchor": "keeping-a-view",
-    "body": "Two questions can produce different arrangements of the same archive. Keeping those arrangements makes it possible to return to a particular way of looking at the material later. A View can be saved with the question that produced it, the composition it created, the sources it used, and the time when it was made. It receives a permanent link, and the visitor can choose whether to add it to Shared Views. One person may follow the relationship between my research and the systems I build. Someone else may be interested in a place, a period of my life, or an idea that appears across otherwise separate pages. They begin with the same archive but bring different parts of it together. I use saved Views myself as well. I know the individual pieces because I chose what enters the site, but I do not always remember them in the combinations that a later question produces. A fragment may appear beside a research problem I began thinking about much later. A project may sit beside an experience that changes which part of the project draws my attention. Saving the View gives me a record of that particular way of looking at myself. The site also keeps changing. New research, projects, places, photographs, and fragments enter over time, so the same question may later draw on different material. An earlier View remains as a record of what that question brought together at that point. Shared Views keeps some of the readings that visitors choose to make public. Seeing them together shows how different questions can draw different connections from the same body of material. As the site grows, I want to see what people ask about, which parts of the archive those questions bring together, and whether some of those combinations change how I see the material myself. Search the site Ask a question Compose a View",
+    "title": "Views over time",
+    "anchor": "views-over-time",
+    "body": "I started saving Views that I wanted to return to. Different questions could produce very different arrangements of the same archive, and the archive itself kept growing as I added new work, research, places, photographs, and writing. What happens to the same perspective as the archive behind it keeps changing? A question asked months later has more material available to it. New pieces may enter the composition and meet older ones in new combinations. Views made around the same time can show different perspectives on the archive, while the same perspective revisited later can show how the archive has changed. When I save a View, I keep its question, composed page, sources, and timestamp together. It receives a permanent link, and its creator can choose whether to add it to Shared Views. I often reopen my own Views later. A fragment from one period may appear beside a research problem I started thinking about much later. A project may sit next to an experience that changes which part of it catches my attention. I know the pieces individually, but I may never have put that particular combination together myself.",
     "parts": [
-      "Two questions can produce different arrangements of the same archive. Keeping those arrangements makes it possible to return to a particular way of looking at the material later. A View can be saved with the question that produced it, the composition it created, the sources it used, and the time when it was made. It receives a permanent link, and the visitor can choose whether to add it to Shared Views. One person may follow the relationship between my research and the systems I build. Someone else may be interested in a place, a period of my life, or an idea that appears across otherwise separate pages. They begin with the same archive but bring different parts of it together. I use saved Views myself as well. I know the individual pieces because I chose what enters the site, but I do not always remember them in the combinations that a later question produces.",
-      "A fragment may appear beside a research problem I began thinking about much later. A project may sit beside an experience that changes which part of the project draws my attention. Saving the View gives me a record of that particular way of looking at myself. The site also keeps changing. New research, projects, places, photographs, and fragments enter over time, so the same question may later draw on different material. An earlier View remains as a record of what that question brought together at that point. Shared Views keeps some of the readings that visitors choose to make public. Seeing them together shows how different questions can draw different connections from the same body of material. As the site grows, I want to see what people ask about, which parts of the archive those questions bring together, and whether some of those combinations change how I see the material myself.",
-      "Search the site Ask a question Compose a View"
+      "I started saving Views that I wanted to return to. Different questions could produce very different arrangements of the same archive, and the archive itself kept growing as I added new work, research, places, photographs, and writing. What happens to the same perspective as the archive behind it keeps changing? A question asked months later has more material available to it. New pieces may enter the composition and meet older ones in new combinations. Views made around the same time can show different perspectives on the archive, while the same perspective revisited later can show how the archive has changed. When I save a View, I keep its question, composed page, sources, and timestamp together. It receives a permanent link, and its creator can choose whether to add it to Shared Views. I often reopen my own Views later.",
+      "A fragment from one period may appear beside a research problem I started thinking about much later. A project may sit next to an experience that changes which part of it catches my attention. I know the pieces individually, but I may never have put that particular combination together myself."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2079,6 +2078,25 @@
   },
   {
     "id": 75,
+    "source_id": "aipersonalarchive:what-the-archive-gives-back",
+    "route": "/aipersonalarchive",
+    "page": "An AI Interface for Exploring a Personal Archive",
+    "title": "What the archive gives back",
+    "anchor": "what-the-archive-gives-back",
+    "body": "Coming back through these Views has made the site useful to me in a way I did not plan at the start. Seeing familiar material regrouped around a later question can surface a connection I had never made explicit when I added the individual pieces. Visitors bring questions and perspectives I would not necessarily choose myself. Their Views can connect parts of the site I had approached separately and give me another way to look at material I already know. As the site grows, I can return to the same perspective and see what has changed, or compare different perspectives on the same period. Over time, those saved Views leave a record of both the archive and the different ways people have looked through it. The website now records what I make, do, and think, while also giving me new ways to return to that record as the archive and my own interests continue to change. Search the site Ask a question Compose a View",
+    "parts": [
+      "Coming back through these Views has made the site useful to me in a way I did not plan at the start. Seeing familiar material regrouped around a later question can surface a connection I had never made explicit when I added the individual pieces. Visitors bring questions and perspectives I would not necessarily choose myself. Their Views can connect parts of the site I had approached separately and give me another way to look at material I already know. As the site grows, I can return to the same perspective and see what has changed, or compare different perspectives on the same period. Over time, those saved Views leave a record of both the archive and the different ways people have looked through it. The website now records what I make, do, and think, while also giving me new ways to return to that record as the archive and my own interests continue to change.",
+      "Search the site Ask a question Compose a View"
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 0,
+    "media": []
+  },
+  {
+    "id": 76,
     "source_id": "ragflow-pipeline:overview",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2097,7 +2115,7 @@
     "media": []
   },
   {
-    "id": 76,
+    "id": 77,
     "source_id": "ragflow-pipeline:designing-the-recommendation-around-the-client",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2116,7 +2134,7 @@
     "media": []
   },
   {
-    "id": 77,
+    "id": 78,
     "source_id": "ragflow-pipeline:testing-the-recommendation-against-alternatives",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2134,7 +2152,7 @@
     "media": []
   },
   {
-    "id": 78,
+    "id": 79,
     "source_id": "fragments:overview",
     "route": "/fragments",
     "page": "Fragments",
@@ -2152,7 +2170,7 @@
     "media": []
   },
   {
-    "id": 79,
+    "id": 80,
     "source_id": "fragments:the-projection-of-thought",
     "route": "/fragments",
     "page": "Fragments",
@@ -2184,7 +2202,7 @@
     }
   },
   {
-    "id": 80,
+    "id": 81,
     "source_id": "fragments:rebuilding-another-state-inside-me",
     "route": "/fragments",
     "page": "Fragments",
@@ -2216,7 +2234,7 @@
     }
   },
   {
-    "id": 81,
+    "id": 82,
     "source_id": "fragments:visible-part-of-the-mind",
     "route": "/fragments",
     "page": "Fragments",
@@ -2245,7 +2263,7 @@
     }
   },
   {
-    "id": 82,
+    "id": 83,
     "source_id": "fragments:understanding-before-definition",
     "route": "/fragments",
     "page": "Fragments",
@@ -2273,7 +2291,7 @@
     }
   },
   {
-    "id": 83,
+    "id": 84,
     "source_id": "fragments:expression-recording",
     "route": "/fragments",
     "page": "Fragments",
@@ -2304,7 +2322,7 @@
     }
   },
   {
-    "id": 84,
+    "id": 85,
     "source_id": "fragments:rich-traces-and-open-paths",
     "route": "/fragments",
     "page": "Fragments",
@@ -2335,7 +2353,7 @@
     }
   },
   {
-    "id": 85,
+    "id": 86,
     "source_id": "fragments:labels-goals-rules",
     "route": "/fragments",
     "page": "Fragments",
@@ -2370,7 +2388,7 @@
     }
   },
   {
-    "id": 86,
+    "id": 87,
     "source_id": "fragments:memory-time-self",
     "route": "/fragments",
     "page": "Fragments",
@@ -2403,7 +2421,7 @@
     }
   },
   {
-    "id": 87,
+    "id": 88,
     "source_id": "fragments:satisfaction-signal",
     "route": "/fragments",
     "page": "Fragments",
@@ -2435,7 +2453,7 @@
     }
   },
   {
-    "id": 88,
+    "id": 89,
     "source_id": "fragments:queen-victoria-market-toast-oysters",
     "route": "/fragments",
     "page": "Fragments",
@@ -2461,7 +2479,7 @@
     }
   },
   {
-    "id": 89,
+    "id": 90,
     "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
     "route": "/fragments",
     "page": "Fragments",
@@ -2487,7 +2505,7 @@
     }
   },
   {
-    "id": 90,
+    "id": 91,
     "source_id": "fragments:ai-generated-kitten-videos",
     "route": "/fragments",
     "page": "Fragments",
@@ -2514,7 +2532,7 @@
     }
   },
   {
-    "id": 91,
+    "id": 92,
     "source_id": "fragments:identity-interview-reflection",
     "route": "/fragments",
     "page": "Fragments",
@@ -2541,7 +2559,7 @@
     }
   },
   {
-    "id": 92,
+    "id": 93,
     "source_id": "fragments:napier-seaside-with-my-mother",
     "route": "/fragments",
     "page": "Fragments",
@@ -2569,7 +2587,7 @@
     }
   },
   {
-    "id": 93,
+    "id": 94,
     "source_id": "fragments:mothers-cooking-across-places",
     "route": "/fragments",
     "page": "Fragments",
@@ -2596,7 +2614,7 @@
     }
   },
   {
-    "id": 94,
+    "id": 95,
     "source_id": "fragments:golf-with-my-mother-in-new-zealand",
     "route": "/fragments",
     "page": "Fragments",
@@ -2622,7 +2640,7 @@
     }
   },
   {
-    "id": 95,
+    "id": 96,
     "source_id": "fragments:slr-lab-racket-games",
     "route": "/fragments",
     "page": "Fragments",
@@ -2648,7 +2666,7 @@
     }
   },
   {
-    "id": 96,
+    "id": 97,
     "source_id": "fragments:kennedy-town-seaside-hku-years",
     "route": "/fragments",
     "page": "Fragments",
@@ -2675,7 +2693,7 @@
     }
   },
   {
-    "id": 97,
+    "id": 98,
     "source_id": "fragments:sydney-harbour-ferry-rides",
     "route": "/fragments",
     "page": "Fragments",
@@ -2702,7 +2720,7 @@
     }
   },
   {
-    "id": 98,
+    "id": 99,
     "source_id": "fragments:gold-coast-water-and-city-line",
     "route": "/fragments",
     "page": "Fragments",
@@ -2729,7 +2747,7 @@
     }
   },
   {
-    "id": 99,
+    "id": 100,
     "source_id": "fragments:great-ocean-road-melbourne-friends",
     "route": "/fragments",
     "page": "Fragments",
@@ -2756,7 +2774,7 @@
     }
   },
   {
-    "id": 100,
+    "id": 101,
     "source_id": "fragments:taiwan-east-coast-family-road-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -2783,7 +2801,7 @@
     }
   },
   {
-    "id": 101,
+    "id": 102,
     "source_id": "fragments:athens-ruins-and-family-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -2810,7 +2828,7 @@
     }
   },
   {
-    "id": 102,
+    "id": 103,
     "source_id": "fragments:swimming-in-the-mediterranean",
     "route": "/fragments",
     "page": "Fragments",
@@ -2837,7 +2855,7 @@
     }
   },
   {
-    "id": 103,
+    "id": 104,
     "source_id": "fragments:rainy-days-permission-to-stay-in",
     "route": "/fragments",
     "page": "Fragments",
@@ -2863,7 +2881,7 @@
     }
   },
   {
-    "id": 104,
+    "id": 105,
     "source_id": "fragments:mental-map-of-small-room",
     "route": "/fragments",
     "page": "Fragments",
@@ -2890,7 +2908,7 @@
     }
   },
   {
-    "id": 105,
+    "id": 106,
     "source_id": "fragments:first-camera-another-way-of-seeing",
     "route": "/fragments",
     "page": "Fragments",
@@ -2917,7 +2935,7 @@
     }
   },
   {
-    "id": 106,
+    "id": 107,
     "source_id": "fragments:music-that-became-more-spacious",
     "route": "/fragments",
     "page": "Fragments",
@@ -2944,7 +2962,7 @@
     }
   },
   {
-    "id": 107,
+    "id": 108,
     "source_id": "cv:profile",
     "route": "/cv",
     "page": "CV",
@@ -2962,7 +2980,7 @@
     "media": []
   },
   {
-    "id": 108,
+    "id": 109,
     "source_id": "cv:education",
     "route": "/cv",
     "page": "CV",
@@ -2980,7 +2998,7 @@
     "media": []
   },
   {
-    "id": 109,
+    "id": 110,
     "source_id": "cv:experience",
     "route": "/cv",
     "page": "CV",
@@ -2999,7 +3017,7 @@
     "media": []
   },
   {
-    "id": 110,
+    "id": 111,
     "source_id": "cv:publications-preprints",
     "route": "/cv",
     "page": "CV",
@@ -3018,7 +3036,7 @@
     "media": []
   },
   {
-    "id": 111,
+    "id": 112,
     "source_id": "about:gallery",
     "route": "/about",
     "page": "About",
@@ -3338,7 +3356,7 @@
     }
   },
   {
-    "id": 112,
+    "id": 113,
     "source_id": "home:currently",
     "route": "/home",
     "page": "Home",
