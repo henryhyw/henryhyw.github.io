@@ -55,11 +55,8 @@ document.addEventListener("DOMContentLoaded", function() {
   const music = document.getElementById("background-music");
 
   const songs = [
-    '/assets/aud/uletali_pticami_gordymi.mp3',
-    '/assets/aud/the_portrait.mp3',
-    '/assets/aud/asphyxia.mp3',
-    '/assets/aud/a_life_so_changed.mp3'
-    // Add more song paths here if needed
+    '/assets/aud/theme.mp3',
+    '/assets/aud/the_portrait.mp3'
   ];
 
   function getRandomSong() {
@@ -92,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const savedTime = localStorage.getItem("musicTime");
   const musicPlaying = localStorage.getItem("musicPlaying") === "true";
 
-  if (savedSong) {
+  if (savedSong && songs.includes(savedSong)) {
     console.log(`Restoring song: ${savedSong}`);
     music.src = savedSong;
     if (savedTime) {
