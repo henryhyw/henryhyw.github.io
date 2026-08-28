@@ -208,6 +208,10 @@ document.addEventListener("DOMContentLoaded", function() {
     clearHandoff();
   }
 
+  // Narration has the visitor's attention. Pause the shared music session so
+  // the summary and background music never compete for the same listener.
+  window.addEventListener('view-summary-play', pauseMusic);
+
   // Another tab started, paused, or advanced playback. Mirror the shared
   // state here without duplicating the audio. The icon always reflects the
   // global playback state, and the local element follows the leader's
