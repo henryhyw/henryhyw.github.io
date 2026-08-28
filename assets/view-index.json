@@ -75,7 +75,7 @@
       "media": []
     },
     {
-      "id": 3,
+      "id": 4,
       "source_id": "education:overview",
       "route": "/education",
       "page": "Education",
@@ -93,7 +93,7 @@
       "media": []
     },
     {
-      "id": 4,
+      "id": 5,
       "source_id": "education:the-university-of-hong-kong",
       "route": "/education",
       "page": "Education",
@@ -111,7 +111,7 @@
       "media": []
     },
     {
-      "id": 5,
+      "id": 6,
       "source_id": "education:the-university-of-melbourne",
       "route": "/education",
       "page": "Education",
@@ -129,7 +129,7 @@
       "media": []
     },
     {
-      "id": 6,
+      "id": 7,
       "source_id": "education:shanghai-high-school-international-division",
       "route": "/education",
       "page": "Education",
@@ -147,7 +147,7 @@
       "media": []
     },
     {
-      "id": 7,
+      "id": 8,
       "source_id": "education:havelock-north-high-school",
       "route": "/education",
       "page": "Education",
@@ -165,7 +165,7 @@
       "media": []
     },
     {
-      "id": 8,
+      "id": 9,
       "source_id": "experience:overview",
       "route": "/experience",
       "page": "Experience",
@@ -183,7 +183,7 @@
       "media": []
     },
     {
-      "id": 9,
+      "id": 10,
       "source_id": "experience:pwc",
       "route": "/experience",
       "page": "Experience",
@@ -220,7 +220,7 @@
       }
     },
     {
-      "id": 10,
+      "id": 11,
       "source_id": "experience:slr",
       "route": "/experience",
       "page": "Experience",
@@ -254,7 +254,7 @@
       }
     },
     {
-      "id": 11,
+      "id": 12,
       "source_id": "experience:hsbc",
       "route": "/experience",
       "page": "Experience",
@@ -289,7 +289,7 @@
       }
     },
     {
-      "id": 12,
+      "id": 13,
       "source_id": "experience:pds",
       "route": "/experience",
       "page": "Experience",
@@ -323,7 +323,7 @@
       }
     },
     {
-      "id": 13,
+      "id": 14,
       "source_id": "experience:kiwiview",
       "route": "/experience",
       "page": "Experience",
@@ -357,7 +357,7 @@
       }
     },
     {
-      "id": 14,
+      "id": 15,
       "source_id": "research:overview",
       "route": "/research",
       "page": "Research",
@@ -377,7 +377,7 @@
       "media": []
     },
     {
-      "id": 15,
+      "id": 16,
       "source_id": "research:fittedAssistance",
       "route": "/research",
       "page": "Research",
@@ -413,7 +413,7 @@
       }
     },
     {
-      "id": 16,
+      "id": 17,
       "source_id": "research:transfer",
       "route": "/research",
       "page": "Research",
@@ -459,7 +459,7 @@
       }
     },
     {
-      "id": 17,
+      "id": 18,
       "source_id": "research:encoding",
       "route": "/research",
       "page": "Research",
@@ -504,7 +504,7 @@
       }
     },
     {
-      "id": 18,
+      "id": 19,
       "source_id": "research:bright",
       "route": "/research",
       "page": "Research",
@@ -555,7 +555,7 @@
       }
     },
     {
-      "id": 19,
+      "id": 20,
       "source_id": "research:humansDisengage",
       "route": "/research",
       "page": "Research",
@@ -609,7 +609,7 @@
       }
     },
     {
-      "id": 20,
+      "id": 21,
       "source_id": "research:priorsPersist",
       "route": "/research",
       "page": "Research",
@@ -663,7 +663,7 @@
       }
     },
     {
-      "id": 21,
+      "id": 22,
       "source_id": "projects:overview",
       "route": "/projects",
       "page": "Builds",
@@ -681,7 +681,7 @@
       "media": []
     },
     {
-      "id": 22,
+      "id": 23,
       "source_id": "projects:searchstory",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -710,7 +710,7 @@
       }
     },
     {
-      "id": 23,
+      "id": 24,
       "source_id": "projects:insurance",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -745,7 +745,7 @@
       }
     },
     {
-      "id": 24,
+      "id": 25,
       "source_id": "projects:pwcRag",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -781,7 +781,7 @@
       }
     },
     {
-      "id": 25,
+      "id": 26,
       "source_id": "projects:scrollytelling",
       "route": "/scrollytelling",
       "page": "Interactive Scrollytelling Deck",
@@ -826,7 +826,7 @@
       }
     },
     {
-      "id": 26,
+      "id": 27,
       "source_id": "projects:dealtracker",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -862,7 +862,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 28,
       "source_id": "projects:stride",
       "route": "/projects",
       "page": "Builds",
@@ -907,7 +907,7 @@
       }
     },
     {
-      "id": 28,
+      "id": 29,
       "source_id": "projects:congentra",
       "route": "/projects",
       "page": "Builds",
@@ -970,7 +970,7 @@
       }
     },
     {
-      "id": 29,
+      "id": 30,
       "source_id": "projects:lexaday",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1015,7 +1015,7 @@
       }
     },
     {
-      "id": 30,
+      "id": 31,
       "source_id": "projects:pds",
       "route": "/projects",
       "page": "Builds",
@@ -1060,7 +1060,7 @@
       }
     },
     {
-      "id": 31,
+      "id": 32,
       "source_id": "projects:early",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1105,7 +1105,7 @@
       }
     },
     {
-      "id": 32,
+      "id": 33,
       "source_id": "travels:overview",
       "route": "/travels",
       "page": "Travels",
@@ -1123,7 +1123,7 @@
       "media": []
     },
     {
-      "id": 33,
+      "id": 34,
       "source_id": "playbook:overview",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1141,7 +1141,7 @@
       "media": []
     },
     {
-      "id": 34,
+      "id": 35,
       "source_id": "playbook:first-the-problem",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1159,7 +1159,7 @@
       "media": []
     },
     {
-      "id": 35,
+      "id": 36,
       "source_id": "playbook:the-idea",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1177,7 +1177,7 @@
       "media": []
     },
     {
-      "id": 36,
+      "id": 37,
       "source_id": "playbook:try-it",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1195,7 +1195,7 @@
       "media": []
     },
     {
-      "id": 37,
+      "id": 38,
       "source_id": "playbook:from-the-packing-demo-to-the-production-tool",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1213,7 +1213,7 @@
       "media": []
     },
     {
-      "id": 38,
+      "id": 39,
       "source_id": "lexaday:overview",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1231,7 +1231,7 @@
       "media": []
     },
     {
-      "id": 39,
+      "id": 40,
       "source_id": "lexaday:a-small-lesson-generated-fresh-each-morning",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1249,7 +1249,7 @@
       "media": []
     },
     {
-      "id": 40,
+      "id": 41,
       "source_id": "lexaday:the-learning-loop",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1267,7 +1267,7 @@
       "media": []
     },
     {
-      "id": 41,
+      "id": 42,
       "source_id": "lexaday:pick",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1285,7 +1285,7 @@
       "media": []
     },
     {
-      "id": 42,
+      "id": 43,
       "source_id": "lexaday:write",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1303,7 +1303,7 @@
       "media": []
     },
     {
-      "id": 43,
+      "id": 44,
       "source_id": "lexaday:imagine",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1321,7 +1321,7 @@
       "media": []
     },
     {
-      "id": 44,
+      "id": 45,
       "source_id": "lexaday:send",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1339,7 +1339,7 @@
       "media": []
     },
     {
-      "id": 45,
+      "id": 46,
       "source_id": "lexaday:what-the-reader-receives",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1357,7 +1357,7 @@
       "media": []
     },
     {
-      "id": 46,
+      "id": 47,
       "source_id": "lexaday:how-it-is-packaged",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1375,7 +1375,7 @@
       "media": []
     },
     {
-      "id": 47,
+      "id": 48,
       "source_id": "dealtracker:overview",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1393,7 +1393,7 @@
       "media": []
     },
     {
-      "id": 48,
+      "id": 49,
       "source_id": "dealtracker:from-noisy-sale-pages-to-a-short-inbox-digest",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1411,7 +1411,7 @@
       "media": []
     },
     {
-      "id": 49,
+      "id": 50,
       "source_id": "dealtracker:the-email-output",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1429,7 +1429,7 @@
       "media": []
     },
     {
-      "id": 50,
+      "id": 51,
       "source_id": "dealtracker:what-happens-behind-the-email",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1447,7 +1447,7 @@
       "media": []
     },
     {
-      "id": 51,
+      "id": 52,
       "source_id": "dealtracker:the-control-layer",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1465,7 +1465,7 @@
       "media": []
     },
     {
-      "id": 52,
+      "id": 53,
       "source_id": "scrollytelling:overview",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1483,7 +1483,7 @@
       "media": []
     },
     {
-      "id": 53,
+      "id": 54,
       "source_id": "scrollytelling:describe-a-scene-once-then-let-the-engine-build-it",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1501,7 +1501,7 @@
       "media": []
     },
     {
-      "id": 54,
+      "id": 55,
       "source_id": "scrollytelling:see-it-as-a-story",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1519,7 +1519,7 @@
       "media": []
     },
     {
-      "id": 55,
+      "id": 56,
       "source_id": "scrollytelling:under-the-hood",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1537,7 +1537,7 @@
       "media": []
     },
     {
-      "id": 56,
+      "id": 57,
       "source_id": "views:overview",
       "route": "/views",
       "page": "Public views",
@@ -1556,7 +1556,7 @@
       "media": []
     },
     {
-      "id": 57,
+      "id": 58,
       "source_id": "early:overview",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1575,7 +1575,7 @@
       "media": []
     },
     {
-      "id": 58,
+      "id": 59,
       "source_id": "early:how-it-started",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1616,7 +1616,7 @@
       }
     },
     {
-      "id": 59,
+      "id": 60,
       "source_id": "early:batch-downloading-scientific-american-episodes",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1669,7 +1669,7 @@
       }
     },
     {
-      "id": 60,
+      "id": 61,
       "source_id": "early:chrome-extension-experiments",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1721,7 +1721,7 @@
       }
     },
     {
-      "id": 61,
+      "id": 62,
       "source_id": "early:music-streaming-hacks",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1794,7 +1794,7 @@
       }
     },
     {
-      "id": 62,
+      "id": 63,
       "source_id": "early:building-kiwiviews-website",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1822,7 +1822,7 @@
       }
     },
     {
-      "id": 63,
+      "id": 64,
       "source_id": "early:simple-automation",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1860,7 +1860,7 @@
       }
     },
     {
-      "id": 64,
+      "id": 65,
       "source_id": "early:econographer-an-economics-graphs-generator",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1894,7 +1894,7 @@
       }
     },
     {
-      "id": 65,
+      "id": 66,
       "source_id": "aipersonalarchive:overview",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -1914,7 +1914,7 @@
       "media": []
     },
     {
-      "id": 66,
+      "id": 67,
       "source_id": "aipersonalarchive:search-turns-the-whole-site-into-one-navigable-space",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -1935,7 +1935,7 @@
       "media": []
     },
     {
-      "id": 67,
+      "id": 68,
       "source_id": "aipersonalarchive:seeing-the-archive-as-a-space",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -1954,7 +1954,7 @@
       "media": []
     },
     {
-      "id": 68,
+      "id": 69,
       "source_id": "aipersonalarchive:ask-brings-related-passages-into-one-answer",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -1973,7 +1973,7 @@
       "media": []
     },
     {
-      "id": 69,
+      "id": 70,
       "source_id": "aipersonalarchive:find",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -1991,7 +1991,7 @@
       "media": []
     },
     {
-      "id": 70,
+      "id": 71,
       "source_id": "aipersonalarchive:set-the-scope",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2009,7 +2009,7 @@
       "media": []
     },
     {
-      "id": 71,
+      "id": 72,
       "source_id": "aipersonalarchive:write",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2027,7 +2027,7 @@
       "media": []
     },
     {
-      "id": 72,
+      "id": 73,
       "source_id": "aipersonalarchive:cite",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2045,7 +2045,7 @@
       "media": []
     },
     {
-      "id": 73,
+      "id": 74,
       "source_id": "aipersonalarchive:view-reorganises-the-site-around-a-question",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2064,7 +2064,7 @@
       "media": []
     },
     {
-      "id": 74,
+      "id": 75,
       "source_id": "aipersonalarchive:views-over-time",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2083,7 +2083,7 @@
       "media": []
     },
     {
-      "id": 75,
+      "id": 76,
       "source_id": "aipersonalarchive:what-the-archive-gives-back",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2101,7 +2101,7 @@
       "media": []
     },
     {
-      "id": 76,
+      "id": 77,
       "source_id": "ragflow-pipeline:overview",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2120,7 +2120,7 @@
       "media": []
     },
     {
-      "id": 77,
+      "id": 78,
       "source_id": "ragflow-pipeline:designing-the-recommendation-around-the-client",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2139,7 +2139,7 @@
       "media": []
     },
     {
-      "id": 78,
+      "id": 79,
       "source_id": "ragflow-pipeline:testing-the-recommendation-against-alternatives",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2157,7 +2157,7 @@
       "media": []
     },
     {
-      "id": 79,
+      "id": 80,
       "source_id": "fragments:overview",
       "route": "/fragments",
       "page": "Fragments",
@@ -2175,7 +2175,7 @@
       "media": []
     },
     {
-      "id": 80,
+      "id": 81,
       "source_id": "fragments:the-projection-of-thought",
       "route": "/fragments",
       "page": "Fragments",
@@ -2207,7 +2207,7 @@
       }
     },
     {
-      "id": 81,
+      "id": 82,
       "source_id": "fragments:rebuilding-another-state-inside-me",
       "route": "/fragments",
       "page": "Fragments",
@@ -2239,7 +2239,7 @@
       }
     },
     {
-      "id": 82,
+      "id": 83,
       "source_id": "fragments:visible-part-of-the-mind",
       "route": "/fragments",
       "page": "Fragments",
@@ -2268,7 +2268,7 @@
       }
     },
     {
-      "id": 83,
+      "id": 84,
       "source_id": "fragments:understanding-before-definition",
       "route": "/fragments",
       "page": "Fragments",
@@ -2296,7 +2296,7 @@
       }
     },
     {
-      "id": 84,
+      "id": 85,
       "source_id": "fragments:expression-recording",
       "route": "/fragments",
       "page": "Fragments",
@@ -2327,7 +2327,7 @@
       }
     },
     {
-      "id": 85,
+      "id": 86,
       "source_id": "fragments:rich-traces-and-open-paths",
       "route": "/fragments",
       "page": "Fragments",
@@ -2358,7 +2358,7 @@
       }
     },
     {
-      "id": 86,
+      "id": 87,
       "source_id": "fragments:labels-goals-rules",
       "route": "/fragments",
       "page": "Fragments",
@@ -2393,7 +2393,7 @@
       }
     },
     {
-      "id": 87,
+      "id": 88,
       "source_id": "fragments:memory-time-self",
       "route": "/fragments",
       "page": "Fragments",
@@ -2426,7 +2426,7 @@
       }
     },
     {
-      "id": 88,
+      "id": 89,
       "source_id": "fragments:satisfaction-signal",
       "route": "/fragments",
       "page": "Fragments",
@@ -2458,7 +2458,7 @@
       }
     },
     {
-      "id": 89,
+      "id": 90,
       "source_id": "fragments:queen-victoria-market-toast-oysters",
       "route": "/fragments",
       "page": "Fragments",
@@ -2484,7 +2484,7 @@
       }
     },
     {
-      "id": 90,
+      "id": 91,
       "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
       "route": "/fragments",
       "page": "Fragments",
@@ -2510,7 +2510,7 @@
       }
     },
     {
-      "id": 91,
+      "id": 92,
       "source_id": "fragments:ai-generated-kitten-videos",
       "route": "/fragments",
       "page": "Fragments",
@@ -2537,7 +2537,7 @@
       }
     },
     {
-      "id": 92,
+      "id": 93,
       "source_id": "fragments:identity-interview-reflection",
       "route": "/fragments",
       "page": "Fragments",
@@ -2564,7 +2564,7 @@
       }
     },
     {
-      "id": 93,
+      "id": 94,
       "source_id": "fragments:napier-seaside-with-my-mother",
       "route": "/fragments",
       "page": "Fragments",
@@ -2592,7 +2592,7 @@
       }
     },
     {
-      "id": 94,
+      "id": 95,
       "source_id": "fragments:mothers-cooking-across-places",
       "route": "/fragments",
       "page": "Fragments",
@@ -2619,7 +2619,7 @@
       }
     },
     {
-      "id": 95,
+      "id": 96,
       "source_id": "fragments:golf-with-my-mother-in-new-zealand",
       "route": "/fragments",
       "page": "Fragments",
@@ -2645,7 +2645,7 @@
       }
     },
     {
-      "id": 96,
+      "id": 97,
       "source_id": "fragments:slr-lab-racket-games",
       "route": "/fragments",
       "page": "Fragments",
@@ -2671,7 +2671,7 @@
       }
     },
     {
-      "id": 97,
+      "id": 98,
       "source_id": "fragments:kennedy-town-seaside-hku-years",
       "route": "/fragments",
       "page": "Fragments",
@@ -2698,7 +2698,7 @@
       }
     },
     {
-      "id": 98,
+      "id": 99,
       "source_id": "fragments:sydney-harbour-ferry-rides",
       "route": "/fragments",
       "page": "Fragments",
@@ -2725,7 +2725,7 @@
       }
     },
     {
-      "id": 99,
+      "id": 100,
       "source_id": "fragments:gold-coast-water-and-city-line",
       "route": "/fragments",
       "page": "Fragments",
@@ -2752,7 +2752,7 @@
       }
     },
     {
-      "id": 100,
+      "id": 101,
       "source_id": "fragments:great-ocean-road-melbourne-friends",
       "route": "/fragments",
       "page": "Fragments",
@@ -2779,7 +2779,7 @@
       }
     },
     {
-      "id": 101,
+      "id": 102,
       "source_id": "fragments:taiwan-east-coast-family-road-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -2806,7 +2806,7 @@
       }
     },
     {
-      "id": 102,
+      "id": 103,
       "source_id": "fragments:athens-ruins-and-family-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -2833,7 +2833,7 @@
       }
     },
     {
-      "id": 103,
+      "id": 104,
       "source_id": "fragments:swimming-in-the-mediterranean",
       "route": "/fragments",
       "page": "Fragments",
@@ -2860,7 +2860,7 @@
       }
     },
     {
-      "id": 104,
+      "id": 105,
       "source_id": "fragments:rainy-days-permission-to-stay-in",
       "route": "/fragments",
       "page": "Fragments",
@@ -2886,7 +2886,7 @@
       }
     },
     {
-      "id": 105,
+      "id": 106,
       "source_id": "fragments:mental-map-of-small-room",
       "route": "/fragments",
       "page": "Fragments",
@@ -2913,7 +2913,7 @@
       }
     },
     {
-      "id": 106,
+      "id": 107,
       "source_id": "fragments:first-camera-another-way-of-seeing",
       "route": "/fragments",
       "page": "Fragments",
@@ -2940,7 +2940,7 @@
       }
     },
     {
-      "id": 107,
+      "id": 108,
       "source_id": "fragments:music-that-became-more-spacious",
       "route": "/fragments",
       "page": "Fragments",
@@ -2967,7 +2967,7 @@
       }
     },
     {
-      "id": 108,
+      "id": 109,
       "source_id": "cv:profile",
       "route": "/cv",
       "page": "CV",
@@ -2985,7 +2985,7 @@
       "media": []
     },
     {
-      "id": 109,
+      "id": 110,
       "source_id": "cv:education",
       "route": "/cv",
       "page": "CV",
@@ -3003,7 +3003,7 @@
       "media": []
     },
     {
-      "id": 110,
+      "id": 111,
       "source_id": "cv:experience",
       "route": "/cv",
       "page": "CV",
@@ -3022,7 +3022,7 @@
       "media": []
     },
     {
-      "id": 111,
+      "id": 112,
       "source_id": "cv:publications-preprints",
       "route": "/cv",
       "page": "CV",
@@ -3041,7 +3041,7 @@
       "media": []
     },
     {
-      "id": 112,
+      "id": 113,
       "source_id": "about:gallery",
       "route": "/about",
       "page": "About",
