@@ -113,7 +113,12 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "entity": {
+        "kind": "education",
+        "id": "the-university-of-hong-kong",
+        "period": "September 2022 - Present"
+      }
     },
     {
       "id": 6,
@@ -132,7 +137,12 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "entity": {
+        "kind": "education",
+        "id": "the-university-of-melbourne",
+        "period": "February 2025 - June 2025"
+      }
     },
     {
       "id": 7,
@@ -151,7 +161,12 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "entity": {
+        "kind": "education",
+        "id": "shanghai-high-school-international-division",
+        "period": "September 2017 - June 2022"
+      }
     },
     {
       "id": 8,
@@ -170,7 +185,12 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "entity": {
+        "kind": "education",
+        "id": "havelock-north-high-school",
+        "period": "July 2019 - August 2019"
+      }
     },
     {
       "id": 9,
