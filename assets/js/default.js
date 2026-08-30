@@ -59,6 +59,34 @@ document.addEventListener("DOMContentLoaded", function() {
     '/assets/aud/the_portrait.mp3'
   ];
 
+  // theme.mp3 is mastered about 12 dB louder than the_portrait. Scale it down
+  // so every background track sits at the same perceived level.
+  const SONG_VOLUME = {
+    '/assets/aud/theme.mp3': 0.25,
+  };
+
+  function applySongVolume(song) {
+    const key = SONG_VOLUME[song] != null ? song : normalizeSongPath(song);
+    const level = SONG_VOLUME[key];
+    music.volume = typeof level === 'number' ? level : 1;
+  }
+
+  // Summary narration ducks the background music instead of pausing it: the
+  // voice stays clearly audible, then the music returns to its own level when
+  // the narration pauses or ends.
+  const DUCK_FACTOR = 0.3;
+  const DUCK_FLOOR = 0.06;
+  function duckMusic() {
+    if (music.paused) return;
+    const level = SONG_VOLUME[currentSongPath] != null ? SONG_VOLUME[currentSongPath] : 1;
+    music.volume = Math.max(DUCK_FLOOR, level * DUCK_FACTOR);
+  }
+  function restoreMusic() {
+    applySongVolume(currentSongPath || music.src);
+  }
+  window.addEventListener('view-summary-play', duckMusic);
+  window.addEventListener('view-summary-pause', restoreMusic);
+
   // Cross-tab coordination: the site's music state lives in localStorage and
   // every tab mirrors it, but only one tab actually plays at a time. When the
   // playing tab closes, it leaves a handoff so one remaining tab can take over;
@@ -134,6 +162,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (song && currentSongPath !== song) {
       currentSongPath = song;
       music.src = song;
+      applySongVolume(song);
     }
     if (typeof time === "number" && isFinite(time)) {
       try {
@@ -172,6 +201,7 @@ document.addEventListener("DOMContentLoaded", function() {
       currentSongPath = song;
       music.src = song;
     }
+    applySongVolume(currentSongPath || music.src);
     if (typeof time === "number" && isFinite(time)) {
       try {
         music.currentTime = time;
@@ -207,10 +237,6 @@ document.addEventListener("DOMContentLoaded", function() {
     stopTicking();
     clearHandoff();
   }
-
-  // Narration has the visitor's attention. Pause the shared music session so
-  // the summary and background music never compete for the same listener.
-  window.addEventListener('view-summary-play', pauseMusic);
 
   // Another tab started, paused, or advanced playback. Mirror the shared
   // state here without duplicating the audio. The icon always reflects the
