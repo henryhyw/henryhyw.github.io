@@ -3928,6 +3928,7 @@
       ],
       "allowedPresentation": "interactive",
       "component": "TravelGlobe",
+      "componentFamily": "travel-globe",
       "media": [
         {
           "src": "/assets/travel/previews/travel-taipei.jpg.webp",
@@ -4108,6 +4109,1194 @@
           "src": "/assets/travel/previews/travel-wellington.jpg.webp",
           "fullSrc": "/assets/travel/travel-wellington.jpg",
           "alt": "Wellington"
+        }
+      ],
+      "variants": [
+        {
+          "id": "interactive.travels.place.taipei",
+          "title": "Taipei, Taiwan",
+          "description": "Open Henry’s Travels globe with Taipei, Taiwan selected.",
+          "componentDescription": "The Travels globe focused on Taipei, Taiwan, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Taipei itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "taipei",
+          "topics": [
+            "Taipei",
+            "Taipei, Taiwan",
+            "臺北，臺灣"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-taipei.jpg.webp",
+              "fullSrc": "/assets/travel/travel-taipei.jpg",
+              "alt": "Taipei"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "taipei",
+            "focus_place": {
+              "local": "臺北，臺灣",
+              "en": "Taipei",
+              "label": "Taipei, Taiwan",
+              "coord": [
+                121.56,
+                25.03
+              ],
+              "img": "/assets/travel/travel-taipei.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.new-taipei",
+          "title": "New Taipei, Taiwan",
+          "description": "Open Henry’s Travels globe with New Taipei, Taiwan selected.",
+          "componentDescription": "The Travels globe focused on New Taipei, Taiwan, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when New Taipei itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "new-taipei",
+          "topics": [
+            "New Taipei",
+            "New Taipei, Taiwan",
+            "新北，臺灣"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-new-taipei.jpg.webp",
+              "fullSrc": "/assets/travel/travel-new-taipei.jpg",
+              "alt": "New Taipei"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "new-taipei",
+            "focus_place": {
+              "local": "新北，臺灣",
+              "en": "New Taipei",
+              "label": "New Taipei, Taiwan",
+              "coord": [
+                121.84,
+                25.11
+              ],
+              "img": "/assets/travel/travel-new-taipei.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.yilan",
+          "title": "Yilan, Taiwan",
+          "description": "Open Henry’s Travels globe with Yilan, Taiwan selected.",
+          "componentDescription": "The Travels globe focused on Yilan, Taiwan, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Yilan itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "yilan",
+          "topics": [
+            "Yilan",
+            "Yilan, Taiwan",
+            "宜蘭，臺灣"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-yilan.jpg.webp",
+              "fullSrc": "/assets/travel/travel-yilan.jpg",
+              "alt": "Yilan"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "yilan",
+            "focus_place": {
+              "local": "宜蘭，臺灣",
+              "en": "Yilan",
+              "label": "Yilan, Taiwan",
+              "coord": [
+                121.84,
+                24.5
+              ],
+              "img": "/assets/travel/travel-yilan.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.hualien",
+          "title": "Hualien, Taiwan",
+          "description": "Open Henry’s Travels globe with Hualien, Taiwan selected.",
+          "componentDescription": "The Travels globe focused on Hualien, Taiwan, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Hualien itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "hualien",
+          "topics": [
+            "Hualien",
+            "Hualien, Taiwan",
+            "花蓮，臺灣"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-hualien.jpg.webp",
+              "fullSrc": "/assets/travel/travel-hualien.jpg",
+              "alt": "Hualien"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "hualien",
+            "focus_place": {
+              "local": "花蓮，臺灣",
+              "en": "Hualien",
+              "label": "Hualien, Taiwan",
+              "coord": [
+                121.5,
+                23.83
+              ],
+              "img": "/assets/travel/travel-hualien.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.taitung",
+          "title": "Taitung, Taiwan",
+          "description": "Open Henry’s Travels globe with Taitung, Taiwan selected.",
+          "componentDescription": "The Travels globe focused on Taitung, Taiwan, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Taitung itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "taitung",
+          "topics": [
+            "Taitung",
+            "Taitung, Taiwan",
+            "臺東，臺灣"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-taitung.jpg.webp",
+              "fullSrc": "/assets/travel/travel-taitung.jpg",
+              "alt": "Taitung"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "taitung",
+            "focus_place": {
+              "local": "臺東，臺灣",
+              "en": "Taitung",
+              "label": "Taitung, Taiwan",
+              "coord": [
+                121.01,
+                22.62
+              ],
+              "img": "/assets/travel/travel-taitung.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.tainan",
+          "title": "Tainan, Taiwan",
+          "description": "Open Henry’s Travels globe with Tainan, Taiwan selected.",
+          "componentDescription": "The Travels globe focused on Tainan, Taiwan, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Tainan itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "tainan",
+          "topics": [
+            "Tainan",
+            "Tainan, Taiwan",
+            "臺南，臺灣"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-tainan.jpg.webp",
+              "fullSrc": "/assets/travel/travel-tainan.jpg",
+              "alt": "Tainan"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "tainan",
+            "focus_place": {
+              "local": "臺南，臺灣",
+              "en": "Tainan",
+              "label": "Tainan, Taiwan",
+              "coord": [
+                120.23,
+                22.99
+              ],
+              "img": "/assets/travel/travel-tainan.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.shanghai",
+          "title": "Shanghai, China",
+          "description": "Open Henry’s Travels globe with Shanghai, China selected.",
+          "componentDescription": "The Travels globe focused on Shanghai, China, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Shanghai itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "shanghai",
+          "topics": [
+            "Shanghai",
+            "Shanghai, China",
+            "上海，中国"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-shanghai.jpg.webp",
+              "fullSrc": "/assets/travel/travel-shanghai.jpg",
+              "alt": "Shanghai"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "shanghai",
+            "focus_place": {
+              "local": "上海，中国",
+              "en": "Shanghai",
+              "label": "Shanghai, China",
+              "coord": [
+                121.47,
+                31.23
+              ],
+              "img": "/assets/travel/travel-shanghai.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.beijing",
+          "title": "Beijing, China",
+          "description": "Open Henry’s Travels globe with Beijing, China selected.",
+          "componentDescription": "The Travels globe focused on Beijing, China, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Beijing itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "beijing",
+          "topics": [
+            "Beijing",
+            "Beijing, China",
+            "北京，中国"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-beijing.jpg.webp",
+              "fullSrc": "/assets/travel/travel-beijing.jpg",
+              "alt": "Beijing"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "beijing",
+            "focus_place": {
+              "local": "北京，中国",
+              "en": "Beijing",
+              "label": "Beijing, China",
+              "coord": [
+                116.41,
+                39.9
+              ],
+              "img": "/assets/travel/travel-beijing.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.nanjing",
+          "title": "Nanjing, Jiangsu, China",
+          "description": "Open Henry’s Travels globe with Nanjing, Jiangsu, China selected.",
+          "componentDescription": "The Travels globe focused on Nanjing, Jiangsu, China, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Nanjing itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "nanjing",
+          "topics": [
+            "Nanjing",
+            "Nanjing, Jiangsu, China",
+            "南京，江苏，中国"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-nanjing.jpg.webp",
+              "fullSrc": "/assets/travel/travel-nanjing.jpg",
+              "alt": "Nanjing"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "nanjing",
+            "focus_place": {
+              "local": "南京，江苏，中国",
+              "en": "Nanjing",
+              "label": "Nanjing, Jiangsu, China",
+              "coord": [
+                118.8,
+                32.06
+              ],
+              "img": "/assets/travel/travel-nanjing.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.guangzhou",
+          "title": "Guangzhou, Guangdong, China",
+          "description": "Open Henry’s Travels globe with Guangzhou, Guangdong, China selected.",
+          "componentDescription": "The Travels globe focused on Guangzhou, Guangdong, China, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Guangzhou itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "guangzhou",
+          "topics": [
+            "Guangzhou",
+            "Guangzhou, Guangdong, China",
+            "广州，广东，中国"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-guangzhou.jpg.webp",
+              "fullSrc": "/assets/travel/travel-guangzhou.jpg",
+              "alt": "Guangzhou"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "guangzhou",
+            "focus_place": {
+              "local": "广州，广东，中国",
+              "en": "Guangzhou",
+              "label": "Guangzhou, Guangdong, China",
+              "coord": [
+                113.26,
+                23.13
+              ],
+              "img": "/assets/travel/travel-guangzhou.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.shenzhen",
+          "title": "Shenzhen, Guangdong, China",
+          "description": "Open Henry’s Travels globe with Shenzhen, Guangdong, China selected.",
+          "componentDescription": "The Travels globe focused on Shenzhen, Guangdong, China, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Shenzhen itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "shenzhen",
+          "topics": [
+            "Shenzhen",
+            "Shenzhen, Guangdong, China",
+            "深圳，广东，中国"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-shenzhen.jpg.webp",
+              "fullSrc": "/assets/travel/travel-shenzhen.jpg",
+              "alt": "Shenzhen"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "shenzhen",
+            "focus_place": {
+              "local": "深圳，广东，中国",
+              "en": "Shenzhen",
+              "label": "Shenzhen, Guangdong, China",
+              "coord": [
+                113.94,
+                22.52
+              ],
+              "img": "/assets/travel/travel-shenzhen.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.hong-kong",
+          "title": "Hong Kong, Hong Kong SAR",
+          "description": "Open Henry’s Travels globe with Hong Kong, Hong Kong SAR selected.",
+          "componentDescription": "The Travels globe focused on Hong Kong, Hong Kong SAR, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Hong Kong itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "hong-kong",
+          "topics": [
+            "Hong Kong",
+            "Hong Kong, Hong Kong SAR",
+            "香港，香港特別行政區"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-hong-kong.jpg.webp",
+              "fullSrc": "/assets/travel/travel-hong-kong.jpg",
+              "alt": "Hong Kong"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "hong-kong",
+            "focus_place": {
+              "local": "香港，香港特別行政區",
+              "en": "Hong Kong",
+              "label": "Hong Kong, Hong Kong SAR",
+              "coord": [
+                114.13,
+                22.28
+              ],
+              "img": "/assets/travel/travel-hong-kong.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.bangkok",
+          "title": "Bangkok, Thailand",
+          "description": "Open Henry’s Travels globe with Bangkok, Thailand selected.",
+          "componentDescription": "The Travels globe focused on Bangkok, Thailand, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Bangkok itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "bangkok",
+          "topics": [
+            "Bangkok",
+            "Bangkok, Thailand",
+            "กรุงเทพฯ ประเทศไทย"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-bangkok.jpg.webp",
+              "fullSrc": "/assets/travel/travel-bangkok.jpg",
+              "alt": "Bangkok"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "bangkok",
+            "focus_place": {
+              "local": "กรุงเทพฯ ประเทศไทย",
+              "en": "Bangkok",
+              "label": "Bangkok, Thailand",
+              "coord": [
+                100.5,
+                13.76
+              ],
+              "img": "/assets/travel/travel-bangkok.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.phuket",
+          "title": "Phuket, Thailand",
+          "description": "Open Henry’s Travels globe with Phuket, Thailand selected.",
+          "componentDescription": "The Travels globe focused on Phuket, Thailand, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Phuket itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "phuket",
+          "topics": [
+            "Phuket",
+            "Phuket, Thailand",
+            "ภูเก็ต ประเทศไทย"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-phuket.jpg.webp",
+              "fullSrc": "/assets/travel/travel-phuket.jpg",
+              "alt": "Phuket"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "phuket",
+            "focus_place": {
+              "local": "ภูเก็ต ประเทศไทย",
+              "en": "Phuket",
+              "label": "Phuket, Thailand",
+              "coord": [
+                98.3,
+                7.81
+              ],
+              "img": "/assets/travel/travel-phuket.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.athens",
+          "title": "Athens, Greece",
+          "description": "Open Henry’s Travels globe with Athens, Greece selected.",
+          "componentDescription": "The Travels globe focused on Athens, Greece, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Athens itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "athens",
+          "topics": [
+            "Athens",
+            "Athens, Greece",
+            "Αθήνα, Ελλάδα"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-athens.jpg.webp",
+              "fullSrc": "/assets/travel/travel-athens.jpg",
+              "alt": "Athens"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "athens",
+            "focus_place": {
+              "local": "Αθήνα, Ελλάδα",
+              "en": "Athens",
+              "label": "Athens, Greece",
+              "coord": [
+                23.74,
+                37.98
+              ],
+              "img": "/assets/travel/travel-athens.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.barcelona",
+          "title": "Barcelona, Catalonia, Spain",
+          "description": "Open Henry’s Travels globe with Barcelona, Catalonia, Spain selected.",
+          "componentDescription": "The Travels globe focused on Barcelona, Catalonia, Spain, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Barcelona itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "barcelona",
+          "topics": [
+            "Barcelona",
+            "Barcelona, Catalonia, Spain",
+            "Barcelona, Cataluña, España"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-barcelona.jpg.webp",
+              "fullSrc": "/assets/travel/travel-barcelona.jpg",
+              "alt": "Barcelona"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "barcelona",
+            "focus_place": {
+              "local": "Barcelona, Cataluña, España",
+              "en": "Barcelona",
+              "label": "Barcelona, Catalonia, Spain",
+              "coord": [
+                2.17,
+                41.39
+              ],
+              "img": "/assets/travel/travel-barcelona.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.lisbon",
+          "title": "Lisbon, Portugal",
+          "description": "Open Henry’s Travels globe with Lisbon, Portugal selected.",
+          "componentDescription": "The Travels globe focused on Lisbon, Portugal, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Lisbon itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "lisbon",
+          "topics": [
+            "Lisbon",
+            "Lisbon, Portugal",
+            "Lisboa, Portugal"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-lisbon.jpg.webp",
+              "fullSrc": "/assets/travel/travel-lisbon.jpg",
+              "alt": "Lisbon"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "lisbon",
+            "focus_place": {
+              "local": "Lisboa, Portugal",
+              "en": "Lisbon",
+              "label": "Lisbon, Portugal",
+              "coord": [
+                -9.14,
+                38.72
+              ],
+              "img": "/assets/travel/travel-lisbon.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.new-york",
+          "title": "New York, New York, United States",
+          "description": "Open Henry’s Travels globe with New York, New York, United States selected.",
+          "componentDescription": "The Travels globe focused on New York, New York, United States, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when New York itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "new-york",
+          "topics": [
+            "New York",
+            "New York, New York, United States"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-new-york.jpg.webp",
+              "fullSrc": "/assets/travel/travel-new-york.jpg",
+              "alt": "New York"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "new-york",
+            "focus_place": {
+              "en": "New York",
+              "label": "New York, New York, United States",
+              "coord": [
+                -74.01,
+                40.71
+              ],
+              "img": "/assets/travel/travel-new-york.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.washington-dc",
+          "title": "Washington, DC, United States",
+          "description": "Open Henry’s Travels globe with Washington, DC, United States selected.",
+          "componentDescription": "The Travels globe focused on Washington, DC, United States, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Washington, DC itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "washington-dc",
+          "topics": [
+            "Washington, DC",
+            "Washington, DC, United States"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-washington-dc.jpg.webp",
+              "fullSrc": "/assets/travel/travel-washington-dc.jpg",
+              "alt": "Washington, DC"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "washington-dc",
+            "focus_place": {
+              "en": "Washington, DC",
+              "label": "Washington, DC, United States",
+              "coord": [
+                -77.04,
+                38.91
+              ],
+              "img": "/assets/travel/travel-washington-dc.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.arlington",
+          "title": "Arlington, Virginia, United States",
+          "description": "Open Henry’s Travels globe with Arlington, Virginia, United States selected.",
+          "componentDescription": "The Travels globe focused on Arlington, Virginia, United States, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Arlington itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "arlington",
+          "topics": [
+            "Arlington",
+            "Arlington, Virginia, United States"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-arlington.jpg.webp",
+              "fullSrc": "/assets/travel/travel-arlington.jpg",
+              "alt": "Arlington"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "arlington",
+            "focus_place": {
+              "en": "Arlington",
+              "label": "Arlington, Virginia, United States",
+              "coord": [
+                -77.11,
+                38.88
+              ],
+              "img": "/assets/travel/travel-arlington.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.niagara-falls",
+          "title": "Niagara Falls, New York, United States",
+          "description": "Open Henry’s Travels globe with Niagara Falls, New York, United States selected.",
+          "componentDescription": "The Travels globe focused on Niagara Falls, New York, United States, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Niagara Falls itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "niagara-falls",
+          "topics": [
+            "Niagara Falls",
+            "Niagara Falls, New York, United States"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-niagara-falls.jpg.webp",
+              "fullSrc": "/assets/travel/travel-niagara-falls.jpg",
+              "alt": "Niagara Falls"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "niagara-falls",
+            "focus_place": {
+              "en": "Niagara Falls",
+              "label": "Niagara Falls, New York, United States",
+              "coord": [
+                -79.08,
+                43.09
+              ],
+              "img": "/assets/travel/travel-niagara-falls.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.cambridge",
+          "title": "Cambridge, Massachusetts, United States",
+          "description": "Open Henry’s Travels globe with Cambridge, Massachusetts, United States selected.",
+          "componentDescription": "The Travels globe focused on Cambridge, Massachusetts, United States, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Cambridge itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "cambridge",
+          "topics": [
+            "Cambridge",
+            "Cambridge, Massachusetts, United States"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-cambridge.jpg.webp",
+              "fullSrc": "/assets/travel/travel-cambridge.jpg",
+              "alt": "Cambridge"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "cambridge",
+            "focus_place": {
+              "en": "Cambridge",
+              "label": "Cambridge, Massachusetts, United States",
+              "coord": [
+                -71.11,
+                42.37
+              ],
+              "img": "/assets/travel/travel-cambridge.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.sydney",
+          "title": "Sydney, New South Wales, Australia",
+          "description": "Open Henry’s Travels globe with Sydney, New South Wales, Australia selected.",
+          "componentDescription": "The Travels globe focused on Sydney, New South Wales, Australia, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Sydney itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "sydney",
+          "topics": [
+            "Sydney",
+            "Sydney, New South Wales, Australia"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-sydney.jpg.webp",
+              "fullSrc": "/assets/travel/travel-sydney.jpg",
+              "alt": "Sydney"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "sydney",
+            "focus_place": {
+              "en": "Sydney",
+              "label": "Sydney, New South Wales, Australia",
+              "coord": [
+                151.21,
+                -33.87
+              ],
+              "img": "/assets/travel/travel-sydney.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.melbourne",
+          "title": "Melbourne, Victoria, Australia",
+          "description": "Open Henry’s Travels globe with Melbourne, Victoria, Australia selected.",
+          "componentDescription": "The Travels globe focused on Melbourne, Victoria, Australia, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Melbourne itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "melbourne",
+          "topics": [
+            "Melbourne",
+            "Melbourne, Victoria, Australia"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-melbourne.jpg.webp",
+              "fullSrc": "/assets/travel/travel-melbourne.jpg",
+              "alt": "Melbourne"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "melbourne",
+            "focus_place": {
+              "en": "Melbourne",
+              "label": "Melbourne, Victoria, Australia",
+              "coord": [
+                144.96,
+                -37.81
+              ],
+              "img": "/assets/travel/travel-melbourne.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.great-ocean-road",
+          "title": "Great Ocean Road, Victoria, Australia",
+          "description": "Open Henry’s Travels globe with Great Ocean Road, Victoria, Australia selected.",
+          "componentDescription": "The Travels globe focused on Great Ocean Road, Victoria, Australia, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Great Ocean Road itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "great-ocean-road",
+          "topics": [
+            "Great Ocean Road",
+            "Great Ocean Road, Victoria, Australia"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-great-ocean-road.jpg.webp",
+              "fullSrc": "/assets/travel/travel-great-ocean-road.jpg",
+              "alt": "Great Ocean Road"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "great-ocean-road",
+            "focus_place": {
+              "en": "Great Ocean Road",
+              "label": "Great Ocean Road, Victoria, Australia",
+              "coord": [
+                143.86,
+                -38.67
+              ],
+              "img": "/assets/travel/travel-great-ocean-road.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.port-campbell",
+          "title": "Port Campbell, Victoria, Australia",
+          "description": "Open Henry’s Travels globe with Port Campbell, Victoria, Australia selected.",
+          "componentDescription": "The Travels globe focused on Port Campbell, Victoria, Australia, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Port Campbell itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "port-campbell",
+          "topics": [
+            "Port Campbell",
+            "Port Campbell, Victoria, Australia"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-port-campbell.jpg.webp",
+              "fullSrc": "/assets/travel/travel-port-campbell.jpg",
+              "alt": "Port Campbell"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "port-campbell",
+            "focus_place": {
+              "en": "Port Campbell",
+              "label": "Port Campbell, Victoria, Australia",
+              "coord": [
+                143.1,
+                -38.67
+              ],
+              "img": "/assets/travel/travel-port-campbell.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.warrnambool",
+          "title": "Warrnambool, Victoria, Australia",
+          "description": "Open Henry’s Travels globe with Warrnambool, Victoria, Australia selected.",
+          "componentDescription": "The Travels globe focused on Warrnambool, Victoria, Australia, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Warrnambool itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "warrnambool",
+          "topics": [
+            "Warrnambool",
+            "Warrnambool, Victoria, Australia"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-warrnambool.jpg.webp",
+              "fullSrc": "/assets/travel/travel-warrnambool.jpg",
+              "alt": "Warrnambool"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "warrnambool",
+            "focus_place": {
+              "en": "Warrnambool",
+              "label": "Warrnambool, Victoria, Australia",
+              "coord": [
+                142.48,
+                -38.4
+              ],
+              "img": "/assets/travel/travel-warrnambool.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.gold-coast",
+          "title": "Gold Coast, Queensland, Australia",
+          "description": "Open Henry’s Travels globe with Gold Coast, Queensland, Australia selected.",
+          "componentDescription": "The Travels globe focused on Gold Coast, Queensland, Australia, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Gold Coast itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "gold-coast",
+          "topics": [
+            "Gold Coast",
+            "Gold Coast, Queensland, Australia"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-gold-coast.jpg.webp",
+              "fullSrc": "/assets/travel/travel-gold-coast.jpg",
+              "alt": "Gold Coast"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "gold-coast",
+            "focus_place": {
+              "en": "Gold Coast",
+              "label": "Gold Coast, Queensland, Australia",
+              "coord": [
+                153.43,
+                -28.01
+              ],
+              "img": "/assets/travel/travel-gold-coast.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.auckland",
+          "title": "Auckland, Auckland Region, New Zealand",
+          "description": "Open Henry’s Travels globe with Auckland, Auckland Region, New Zealand selected.",
+          "componentDescription": "The Travels globe focused on Auckland, Auckland Region, New Zealand, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Auckland itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "auckland",
+          "topics": [
+            "Auckland",
+            "Auckland, Auckland Region, New Zealand"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-auckland.jpg.webp",
+              "fullSrc": "/assets/travel/travel-auckland.jpg",
+              "alt": "Auckland"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "auckland",
+            "focus_place": {
+              "en": "Auckland",
+              "label": "Auckland, Auckland Region, New Zealand",
+              "coord": [
+                174.76,
+                -36.85
+              ],
+              "img": "/assets/travel/travel-auckland.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.waimarama",
+          "title": "Waimarama, Hawke's Bay, New Zealand",
+          "description": "Open Henry’s Travels globe with Waimarama, Hawke's Bay, New Zealand selected.",
+          "componentDescription": "The Travels globe focused on Waimarama, Hawke's Bay, New Zealand, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Waimarama itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "waimarama",
+          "topics": [
+            "Waimarama",
+            "Waimarama, Hawke's Bay, New Zealand"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-waimarama.jpg.webp",
+              "fullSrc": "/assets/travel/travel-waimarama.jpg",
+              "alt": "Waimarama"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "waimarama",
+            "focus_place": {
+              "en": "Waimarama",
+              "label": "Waimarama, Hawke's Bay, New Zealand",
+              "coord": [
+                176.99,
+                -39.82
+              ],
+              "img": "/assets/travel/travel-waimarama.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.napier",
+          "title": "Napier, Hawke's Bay, New Zealand",
+          "description": "Open Henry’s Travels globe with Napier, Hawke's Bay, New Zealand selected.",
+          "componentDescription": "The Travels globe focused on Napier, Hawke's Bay, New Zealand, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Napier itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "napier",
+          "topics": [
+            "Napier",
+            "Napier, Hawke's Bay, New Zealand"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-napier.jpg.webp",
+              "fullSrc": "/assets/travel/travel-napier.jpg",
+              "alt": "Napier"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "napier",
+            "focus_place": {
+              "en": "Napier",
+              "label": "Napier, Hawke's Bay, New Zealand",
+              "coord": [
+                176.89,
+                -39.48
+              ],
+              "img": "/assets/travel/travel-napier.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.te-mata-peak",
+          "title": "Te Mata Peak, Hawke's Bay, New Zealand",
+          "description": "Open Henry’s Travels globe with Te Mata Peak, Hawke's Bay, New Zealand selected.",
+          "componentDescription": "The Travels globe focused on Te Mata Peak, Hawke's Bay, New Zealand, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Te Mata Peak itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "te-mata-peak",
+          "topics": [
+            "Te Mata Peak",
+            "Te Mata Peak, Hawke's Bay, New Zealand"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-te-mata.jpg.webp",
+              "fullSrc": "/assets/travel/travel-te-mata.jpg",
+              "alt": "Te Mata Peak"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "te-mata-peak",
+            "focus_place": {
+              "en": "Te Mata Peak",
+              "label": "Te Mata Peak, Hawke's Bay, New Zealand",
+              "coord": [
+                176.83,
+                -39.66
+              ],
+              "img": "/assets/travel/travel-te-mata.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.rotorua",
+          "title": "Rotorua, Bay of Plenty, New Zealand",
+          "description": "Open Henry’s Travels globe with Rotorua, Bay of Plenty, New Zealand selected.",
+          "componentDescription": "The Travels globe focused on Rotorua, Bay of Plenty, New Zealand, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Rotorua itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "rotorua",
+          "topics": [
+            "Rotorua",
+            "Rotorua, Bay of Plenty, New Zealand"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-rotorua.jpg.webp",
+              "fullSrc": "/assets/travel/travel-rotorua.jpg",
+              "alt": "Rotorua"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "rotorua",
+            "focus_place": {
+              "en": "Rotorua",
+              "label": "Rotorua, Bay of Plenty, New Zealand",
+              "coord": [
+                176.25,
+                -38.14
+              ],
+              "img": "/assets/travel/travel-rotorua.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.taupo",
+          "title": "Taupō, Waikato, New Zealand",
+          "description": "Open Henry’s Travels globe with Taupō, Waikato, New Zealand selected.",
+          "componentDescription": "The Travels globe focused on Taupō, Waikato, New Zealand, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Taupō itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "taupo",
+          "topics": [
+            "Taupō",
+            "Taupō, Waikato, New Zealand"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-taupo.jpg.webp",
+              "fullSrc": "/assets/travel/travel-taupo.jpg",
+              "alt": "Taupō"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "taupo",
+            "focus_place": {
+              "en": "Taupō",
+              "label": "Taupō, Waikato, New Zealand",
+              "coord": [
+                176.07,
+                -38.69
+              ],
+              "img": "/assets/travel/travel-taupo.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.waitomo",
+          "title": "Waitomo, Waikato, New Zealand",
+          "description": "Open Henry’s Travels globe with Waitomo, Waikato, New Zealand selected.",
+          "componentDescription": "The Travels globe focused on Waitomo, Waikato, New Zealand, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Waitomo itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "waitomo",
+          "topics": [
+            "Waitomo",
+            "Waitomo, Waikato, New Zealand"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-waitomo.jpg.webp",
+              "fullSrc": "/assets/travel/travel-waitomo.jpg",
+              "alt": "Waitomo"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "waitomo",
+            "focus_place": {
+              "en": "Waitomo",
+              "label": "Waitomo, Waikato, New Zealand",
+              "coord": [
+                175.1,
+                -38.26
+              ],
+              "img": "/assets/travel/travel-waitomo.jpg"
+            }
+          }
+        },
+        {
+          "id": "interactive.travels.place.wellington",
+          "title": "Wellington, New Zealand",
+          "description": "Open Henry’s Travels globe with Wellington, New Zealand selected.",
+          "componentDescription": "The Travels globe focused on Wellington, New Zealand, with its pin selected and location photograph open. Visitors can still rotate the globe or choose another place.",
+          "narrativeGuidance": "Use this focused city state when Wellington itself contributes material evidence. Pair it with a personal, study, work, research, project, or reflection source when explaining what the place meant to Henry.",
+          "anchor": "wellington",
+          "topics": [
+            "Wellington",
+            "Wellington, New Zealand"
+          ],
+          "media": [
+            {
+              "src": "/assets/travel/previews/travel-wellington.jpg.webp",
+              "fullSrc": "/assets/travel/travel-wellington.jpg",
+              "alt": "Wellington"
+            }
+          ],
+          "entity": {
+            "kind": "travel-place",
+            "id": "wellington",
+            "focus_place": {
+              "en": "Wellington",
+              "label": "Wellington, New Zealand",
+              "coord": [
+                174.78,
+                -41.29
+              ],
+              "img": "/assets/travel/travel-wellington.jpg"
+            }
+          }
         }
       ],
       "entity": {
