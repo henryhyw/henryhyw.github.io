@@ -70,12 +70,52 @@ document.addEventListener("DOMContentLoaded", function() {
   const DUCK_FACTOR = 0.3;
   const DUCK_FLOOR = 0.06;
   let narrationSource = null;
+  let songVolumeFadeFrame = null;
 
-  function applySongVolume(song) {
+  function songLevel(song) {
     const key = SONG_VOLUME[song] != null ? song : normalizeSongPath(song);
     const configured = SONG_VOLUME[key];
-    const level = typeof configured === 'number' ? configured : 1;
-    music.volume = narrationSource ? Math.max(DUCK_FLOOR, level * DUCK_FACTOR) : level;
+    return typeof configured === 'number' ? configured : 1;
+  }
+
+  function targetSongVolume(song) {
+    const level = songLevel(song);
+    return narrationSource ? Math.max(DUCK_FLOOR, level * DUCK_FACTOR) : level;
+  }
+
+  function cancelSongVolumeFade() {
+    if (songVolumeFadeFrame) cancelAnimationFrame(songVolumeFadeFrame);
+    songVolumeFadeFrame = null;
+  }
+
+  function fadeSongVolume(target, duration, easing) {
+    cancelSongVolumeFade();
+    const from = music.volume;
+    const started = performance.now();
+    const ease = (progress) => {
+      if (easing === 'inOut') {
+        return progress < 0.5
+          ? 4 * progress * progress * progress
+          : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+      }
+      return 1 - Math.pow(1 - progress, 3);
+    };
+    const step = (now) => {
+      const progress = Math.min(1, (now - started) / duration);
+      const eased = ease(progress);
+      music.volume = from + (target - from) * eased;
+      if (progress < 1) {
+        songVolumeFadeFrame = requestAnimationFrame(step);
+        return;
+      }
+      songVolumeFadeFrame = null;
+    };
+    songVolumeFadeFrame = requestAnimationFrame(step);
+  }
+
+  function applySongVolume(song) {
+    cancelSongVolumeFade();
+    music.volume = targetSongVolume(song);
   }
 
   // Summary narration ducks the background music instead of pausing it: the
@@ -84,12 +124,12 @@ document.addEventListener("DOMContentLoaded", function() {
   function duckMusic(event) {
     narrationSource = event.detail || true;
     if (music.paused) return;
-    applySongVolume(currentSongPath || music.src);
+    fadeSongVolume(targetSongVolume(currentSongPath || music.src), 320, 'out');
   }
   function restoreMusic(event) {
     if (event.detail && narrationSource && event.detail !== narrationSource) return;
     narrationSource = null;
-    applySongVolume(currentSongPath || music.src);
+    fadeSongVolume(targetSongVolume(currentSongPath || music.src), 500, 'inOut');
   }
   window.addEventListener('view-summary-play', duckMusic);
   window.addEventListener('view-summary-pause', restoreMusic);
