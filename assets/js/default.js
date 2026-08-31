@@ -65,23 +65,30 @@ document.addEventListener("DOMContentLoaded", function() {
     '/assets/aud/theme.mp3': 0.25,
   };
 
+  // Narration state is part of every volume calculation so a song change or
+  // cross-tab handoff cannot accidentally restore full volume mid-sentence.
+  const DUCK_FACTOR = 0.3;
+  const DUCK_FLOOR = 0.06;
+  let narrationSource = null;
+
   function applySongVolume(song) {
     const key = SONG_VOLUME[song] != null ? song : normalizeSongPath(song);
-    const level = SONG_VOLUME[key];
-    music.volume = typeof level === 'number' ? level : 1;
+    const configured = SONG_VOLUME[key];
+    const level = typeof configured === 'number' ? configured : 1;
+    music.volume = narrationSource ? Math.max(DUCK_FLOOR, level * DUCK_FACTOR) : level;
   }
 
   // Summary narration ducks the background music instead of pausing it: the
   // voice stays clearly audible, then the music returns to its own level when
   // the narration pauses or ends.
-  const DUCK_FACTOR = 0.3;
-  const DUCK_FLOOR = 0.06;
-  function duckMusic() {
+  function duckMusic(event) {
+    narrationSource = event.detail || true;
     if (music.paused) return;
-    const level = SONG_VOLUME[currentSongPath] != null ? SONG_VOLUME[currentSongPath] : 1;
-    music.volume = Math.max(DUCK_FLOOR, level * DUCK_FACTOR);
+    applySongVolume(currentSongPath || music.src);
   }
-  function restoreMusic() {
+  function restoreMusic(event) {
+    if (event.detail && narrationSource && event.detail !== narrationSource) return;
+    narrationSource = null;
     applySongVolume(currentSongPath || music.src);
   }
   window.addEventListener('view-summary-play', duckMusic);
