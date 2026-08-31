@@ -2948,6 +2948,37 @@
   },
   {
     "id": 103,
+    "source_id": "fragments:tomatoes-of-august-29",
+    "route": "/fragments",
+    "page": "Fragments",
+    "title": "The Tomatoes of August 29",
+    "anchor": "tomatoes-of-august-29",
+    "description": "On August 29, I opened the fridge before leaving home and saw the tomatoes my father had given me two weeks earlier. We had met in Shenzhen while he was there for work. I had hesitated when he first offered them because I rarely eat fruit and always find washing it inconvenient. He listened, washed a box himself, and gave it to me ready to carry back to Hong Kong. Half of them were already gone.",
+    "body": "On August 29, I opened the fridge before leaving home and saw the tomatoes my father had given me two weeks earlier. We had met in Shenzhen while he was there for work. I had hesitated when he first offered them because I rarely eat fruit and always find washing it inconvenient. He listened, washed a box himself, and gave it to me ready to carry back to Hong Kong. Half of them were already gone. As I ate a few more, I suddenly realised that once I finished them, this small physical trace of the weekend would disappear. I took a photograph before eating the rest. I first thought I was recording one ordinary detail. When I began speaking about it, the tomatoes opened the whole weekend again. On the first afternoon, my father had spent some time near Nantou Ancient City and was waiting for me at a Starbucks. I had meant to join him after lunch with a friend, but reaching the café required another stop or two on the metro, so we met at the station instead. It felt insignificant at the time. Later, I imagined that if I had gone, the café might have become somewhere I could return to on a difficult day. I could sit alone where we had once sat together, and the place would feel slightly less anonymous. Because I never went, it never became ours. Still, its absence remained. Sometimes what did not happen leaves its own location in memory. The clearest image came from the end of the trip. We were taking trains in opposite directions. My father entered his carriage and waved to me through the glass. I watched him, but I did not wave back clearly. I had become conscious of the people around me and let that small self-consciousness interrupt something simple. Soon afterward, an unwelcome thought appeared. What if this were the last time we saw each other? I had no reason to believe it, yet the question gave the scene a frightening finality. For a while, I reduced the memory to one accusation. He waved, and I did not. When I let the whole scene return, I could also see that I had stayed there watching him until the train left. I had still been present for the goodbye. Another detail returned later. On an earlier trip, I had told my father that his snoring made it difficult for me to sleep and that we should book twin beds. By the time we met in Shenzhen, he had remembered. When the hotel offered us a different room, the first thing he checked was whether it still had two beds. The sentence was small and practical. It moved me because I had never needed to remind him. The tomatoes carried the same kind of care.",
+    "parts": [
+      "On August 29, I opened the fridge before leaving home and saw the tomatoes my father had given me two weeks earlier. We had met in Shenzhen while he was there for work. I had hesitated when he first offered them because I rarely eat fruit and always find washing it inconvenient. He listened, washed a box himself, and gave it to me ready to carry back to Hong Kong. Half of them were already gone. As I ate a few more, I suddenly realised that once I finished them, this small physical trace of the weekend would disappear. I took a photograph before eating the rest.",
+      "I first thought I was recording one ordinary detail. When I began speaking about it, the tomatoes opened the whole weekend again. On the first afternoon, my father had spent some time near Nantou Ancient City and was waiting for me at a Starbucks. I had meant to join him after lunch with a friend, but reaching the café required another stop or two on the metro, so we met at the station instead. It felt insignificant at the time. Later, I imagined that if I had gone, the café might have become somewhere I could return to on a difficult day. I could sit alone where we had once sat together, and the place would feel slightly less anonymous. Because I never went, it never became ours. Still, its absence remained. Sometimes what did not happen leaves its own location in memory.",
+      "The clearest image came from the end of the trip. We were taking trains in opposite directions. My father entered his carriage and waved to me through the glass. I watched him, but I did not wave back clearly. I had become conscious of the people around me and let that small self-consciousness interrupt something simple. Soon afterward, an unwelcome thought appeared. What if this were the last time we saw each other? I had no reason to believe it, yet the question gave the scene a frightening finality. For a while, I reduced the memory to one accusation. He waved, and I did not. When I let the whole scene return, I could also see that I had stayed there watching him until the train left. I had still been present for the goodbye.",
+      "Another detail returned later. On an earlier trip, I had told my father that his snoring made it difficult for me to sleep and that we should book twin beds. By the time we met in Shenzhen, he had remembered. When the hotel offered us a different room, the first thing he checked was whether it still had two beds. The sentence was small and practical. It moved me because I had never needed to remind him. The tomatoes carried the same kind of care. I had named a small difficulty, and he quietly removed it for me. I was trying so hard to preserve details about my father that I almost missed the evidence that he had been preserving details about me too.",
+      "When I tried to write the weekend down, the memories would not settle into a single feeling. Affection sat beside embarrassment. Gratitude kept turning into regret. The tomatoes led me back to the café I never entered, then to the station, then to the hotel room, then to the quiet realisation that my father had remembered something about me without being asked. I wanted the words to hold all of this without making the memory feel finished. It still changes each time I return to it.",
+      "The photograph still shows a few tomatoes in a box. It cannot contain the weekend or explain my relationship with my father. It gives me a way back into both. Someday another room, another train, or a small act of care may change what I notice in this story. On August 29, the tomatoes brought me back once. For now, that is where I am leaving them."
+    ],
+    "view_kind": "fragment",
+    "presentations": [
+      "component"
+    ],
+    "priority": 0,
+    "media": [],
+    "component_description": "The original collapsible Fragment titled “The Tomatoes of August 29”. It opens from its teaser into Henry’s complete writing while preserving the original Fragment design.",
+    "narrative_guidance": "Introduce the idea or memory contained in the Fragment, explain how it supports the visitor’s angle, and let the full component serve as the original source.",
+    "entity": {
+      "kind": "fragment",
+      "id": "tomatoes-of-august-29",
+      "teaser": "A box of tomatoes my father washed for me reopened a weekend in Shenzhen and the quiet ways we remember one another."
+    }
+  },
+  {
+    "id": 104,
     "source_id": "fragments:athens-ruins-and-family-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -2975,7 +3006,7 @@
     }
   },
   {
-    "id": 104,
+    "id": 105,
     "source_id": "fragments:swimming-in-the-mediterranean",
     "route": "/fragments",
     "page": "Fragments",
@@ -3003,7 +3034,7 @@
     }
   },
   {
-    "id": 105,
+    "id": 106,
     "source_id": "fragments:rainy-days-permission-to-stay-in",
     "route": "/fragments",
     "page": "Fragments",
@@ -3030,7 +3061,7 @@
     }
   },
   {
-    "id": 106,
+    "id": 107,
     "source_id": "fragments:mental-map-of-small-room",
     "route": "/fragments",
     "page": "Fragments",
@@ -3058,7 +3089,7 @@
     }
   },
   {
-    "id": 107,
+    "id": 108,
     "source_id": "fragments:first-camera-another-way-of-seeing",
     "route": "/fragments",
     "page": "Fragments",
@@ -3086,7 +3117,7 @@
     }
   },
   {
-    "id": 108,
+    "id": 109,
     "source_id": "fragments:music-that-became-more-spacious",
     "route": "/fragments",
     "page": "Fragments",
@@ -3114,7 +3145,7 @@
     }
   },
   {
-    "id": 109,
+    "id": 110,
     "source_id": "cv:profile",
     "route": "/cv",
     "page": "CV",
@@ -3133,7 +3164,7 @@
     "media": []
   },
   {
-    "id": 110,
+    "id": 111,
     "source_id": "cv:education",
     "route": "/cv",
     "page": "CV",
@@ -3152,7 +3183,7 @@
     "media": []
   },
   {
-    "id": 111,
+    "id": 112,
     "source_id": "cv:experience",
     "route": "/cv",
     "page": "CV",
@@ -3172,7 +3203,7 @@
     "media": []
   },
   {
-    "id": 112,
+    "id": 113,
     "source_id": "cv:publications-preprints",
     "route": "/cv",
     "page": "CV",
@@ -3192,7 +3223,7 @@
     "media": []
   },
   {
-    "id": 113,
+    "id": 114,
     "source_id": "about:gallery",
     "route": "/about",
     "page": "About",
@@ -3513,7 +3544,7 @@
     }
   },
   {
-    "id": 114,
+    "id": 115,
     "source_id": "home:currently",
     "route": "/home",
     "page": "Home",
