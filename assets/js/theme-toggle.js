@@ -81,8 +81,8 @@ function initThemeToggle() {
 
         const isDarkMode = document.body.classList.contains('dark-mode');
         const iframeSrc = isDarkMode
-            ? 'https://lookerstudio.google.com/embed/reporting/fa45582a-0947-4aa9-a259-df74aaaf38a1/page/EkW8D'
-            : 'https://lookerstudio.google.com/embed/reporting/4a46ee2f-a660-48a5-8717-eea7cd8eaaa2/page/EkW8D';
+            ? 'https://lookerstudio.google.com/embed/reporting/fa45582a-0947-4aa9-a259-df74aaaf38a1/page/EkW8D?hl=en'
+            : 'https://lookerstudio.google.com/embed/reporting/4a46ee2f-a660-48a5-8717-eea7cd8eaaa2/page/EkW8D?hl=en';
 
         trafficContainer.innerHTML = '';
         trafficContainer.classList.add('traffic-report-wrapper');
