@@ -510,7 +510,14 @@
       "period": "September 2025 - June 2026",
       "status": "Under review",
       "authors": "Han-yu Wang, Stephen M. K. Lee",
-      "links": []
+      "links": [
+        {
+          "label": "Try the tide audit",
+          "url": "https://huggingface.co/spaces/project-tide/tide-audit",
+          "presentation": "resource",
+          "iconSrc": "/assets/img/huggingface.svg"
+        }
+      ]
     }
   },
   {
