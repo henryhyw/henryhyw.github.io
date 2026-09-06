@@ -747,10 +747,10 @@
     "page": "SlidePoise",
     "title": "SlidePoise",
     "anchor": "",
-    "description": "SlidePoise is an open-source presentation system that helps Codex plan, design, build, and review a complete PowerPoint presentation. You bring the audience, source material, data, images, and visual references. The Agent develops the argument, plans the deck, explores each slide through free-form image generation, interprets the selected compositions, and reviews the presentation as a whole.",
-    "body": "SlidePoise is an open-source presentation system that helps Codex plan, design, build, and review a complete PowerPoint presentation. You bring the audience, source material, data, images, and visual references. The Agent develops the argument, plans the deck, explores each slide through free-form image generation, interprets the selected compositions, and reviews the presentation as a whole. OpenCV measures the page, while local tools build native text, charts, tables, and shapes. I separated semantic and visual judgement from pixel measurement. This architecture gives the Agent room to work beyond fixed templates while keeping reconstruction traceable.",
+    "description": "SlidePoise is an open-source presentation system for Codex. The Agent develops the argument, plans the deck, and explores each slide through image generation. OpenCV measures the selected designs, while local tools construct native PowerPoint objects. The Agent then reviews the actual renders across the deck.",
+    "body": "SlidePoise is an open-source presentation system for Codex. The Agent develops the argument, plans the deck, and explores each slide through image generation. OpenCV measures the selected designs, while local tools construct native PowerPoint objects. The Agent then reviews the actual renders across the deck. Separating judgement from measurement keeps layouts free from fixed templates and makes reconstruction traceable.",
     "parts": [
-      "SlidePoise is an open-source presentation system that helps Codex plan, design, build, and review a complete PowerPoint presentation. You bring the audience, source material, data, images, and visual references. The Agent develops the argument, plans the deck, explores each slide through free-form image generation, interprets the selected compositions, and reviews the presentation as a whole. OpenCV measures the page, while local tools build native text, charts, tables, and shapes. I separated semantic and visual judgement from pixel measurement. This architecture gives the Agent room to work beyond fixed templates while keeping reconstruction traceable."
+      "SlidePoise is an open-source presentation system for Codex. The Agent develops the argument, plans the deck, and explores each slide through image generation. OpenCV measures the selected designs, while local tools construct native PowerPoint objects. The Agent then reviews the actual renders across the deck. Separating judgement from measurement keeps layouts free from fixed templates and makes reconstruction traceable."
     ],
     "view_kind": "project",
     "presentations": [
@@ -766,7 +766,7 @@
       "kind": "project",
       "id": "slidepoise",
       "period": "September 2026 - Present",
-      "subtitle": "A complete presentation workflow for Codex",
+      "subtitle": "Presentation planning, free-form design, and native PowerPoint",
       "route": "/slidepoise/docs/site/",
       "anchor": "",
       "mediaMode": "hero",
