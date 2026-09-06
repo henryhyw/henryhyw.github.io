@@ -727,10 +727,10 @@
       "page": "SlidePoise",
       "title": "SlidePoise",
       "anchor": "",
-      "description": "SlidePoise is an open-source Codex skill that turns AI-generated slide designs into editable PowerPoint. You plan the content with the Agent and provide the data, images, or design references it should use. Image generation explores layouts beyond fixed templates. The Agent identifies the text, charts, and artwork, OpenCV measures their geometry, and local tools build the presentation.",
-      "body": "SlidePoise is an open-source Codex skill that turns AI-generated slide designs into editable PowerPoint. You plan the content with the Agent and provide the data, images, or design references it should use. Image generation explores layouts beyond fixed templates. The Agent identifies the text, charts, and artwork, OpenCV measures their geometry, and local tools build the presentation. I separated visual exploration from construction so a fixed slide template would not dictate the design. The Agent decides what the elements mean and how they relate. Measurement tools supply geometry, while the Agent reviews the rendered slides for consistency.",
+      "description": "SlidePoise is an open-source Codex skill for creating editable PowerPoint presentations from free-form AI-generated designs. You bring the audience, content, data, images, and visual references. The Agent develops the argument and composition, identifies the objects in the selected design, and reviews the finished deck.",
+      "body": "SlidePoise is an open-source Codex skill for creating editable PowerPoint presentations from free-form AI-generated designs. You bring the audience, content, data, images, and visual references. The Agent develops the argument and composition, identifies the objects in the selected design, and reviews the finished deck. OpenCV supplies pixel measurements, while local tools build native text, charts, tables, and shapes. I designed the system around a clear division of labour. The Agent makes semantic and visual decisions. Computer vision handles geometry. A fixed template does not dictate the composition. Each reconstructed object can be traced to an Agent interpretation and a measured region.",
       "parts": [
-        "SlidePoise is an open-source Codex skill that turns AI-generated slide designs into editable PowerPoint. You plan the content with the Agent and provide the data, images, or design references it should use. Image generation explores layouts beyond fixed templates. The Agent identifies the text, charts, and artwork, OpenCV measures their geometry, and local tools build the presentation. I separated visual exploration from construction so a fixed slide template would not dictate the design. The Agent decides what the elements mean and how they relate. Measurement tools supply geometry, while the Agent reviews the rendered slides for consistency."
+        "SlidePoise is an open-source Codex skill for creating editable PowerPoint presentations from free-form AI-generated designs. You bring the audience, content, data, images, and visual references. The Agent develops the argument and composition, identifies the objects in the selected design, and reviews the finished deck. OpenCV supplies pixel measurements, while local tools build native text, charts, tables, and shapes. I designed the system around a clear division of labour. The Agent makes semantic and visual decisions. Computer vision handles geometry. A fixed template does not dictate the composition. Each reconstructed object can be traced to an Agent interpretation and a measured region."
       ],
       "view_kind": "project",
       "presentations": [
@@ -746,7 +746,7 @@
         "kind": "project",
         "id": "slidepoise",
         "period": "September 2026 - Present",
-        "subtitle": "AI-generated designs, built into PowerPoint",
+        "subtitle": "Free-form slide design, reconstructed in PowerPoint",
         "route": "/slidepoise/docs/site/",
         "anchor": "",
         "mediaMode": "hero",
