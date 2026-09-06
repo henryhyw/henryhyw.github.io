@@ -727,10 +727,10 @@
       "page": "SlidePoise",
       "title": "SlidePoise",
       "anchor": "",
-      "description": "SlidePoise is an open-source Codex skill for creating editable PowerPoint presentations from free-form AI-generated designs. You bring the audience, content, data, images, and visual references. The Agent develops the argument and composition, identifies the objects in the selected design, and reviews the finished deck.",
-      "body": "SlidePoise is an open-source Codex skill for creating editable PowerPoint presentations from free-form AI-generated designs. You bring the audience, content, data, images, and visual references. The Agent develops the argument and composition, identifies the objects in the selected design, and reviews the finished deck. OpenCV supplies pixel measurements, while local tools build native text, charts, tables, and shapes. I designed the system around a clear division of labour. The Agent makes semantic and visual decisions. Computer vision handles geometry. A fixed template does not dictate the composition. Each reconstructed object can be traced to an Agent interpretation and a measured region.",
+      "description": "SlidePoise is an open-source presentation system that helps Codex plan, design, build, and review a complete PowerPoint presentation. You bring the audience, source material, data, images, and visual references. The Agent develops the argument, plans the deck, explores each slide through free-form image generation, interprets the selected compositions, and reviews the presentation as a whole.",
+      "body": "SlidePoise is an open-source presentation system that helps Codex plan, design, build, and review a complete PowerPoint presentation. You bring the audience, source material, data, images, and visual references. The Agent develops the argument, plans the deck, explores each slide through free-form image generation, interprets the selected compositions, and reviews the presentation as a whole. OpenCV measures the page, while local tools build native text, charts, tables, and shapes. I separated semantic and visual judgement from pixel measurement. This architecture gives the Agent room to work beyond fixed templates while keeping reconstruction traceable.",
       "parts": [
-        "SlidePoise is an open-source Codex skill for creating editable PowerPoint presentations from free-form AI-generated designs. You bring the audience, content, data, images, and visual references. The Agent develops the argument and composition, identifies the objects in the selected design, and reviews the finished deck. OpenCV supplies pixel measurements, while local tools build native text, charts, tables, and shapes. I designed the system around a clear division of labour. The Agent makes semantic and visual decisions. Computer vision handles geometry. A fixed template does not dictate the composition. Each reconstructed object can be traced to an Agent interpretation and a measured region."
+        "SlidePoise is an open-source presentation system that helps Codex plan, design, build, and review a complete PowerPoint presentation. You bring the audience, source material, data, images, and visual references. The Agent develops the argument, plans the deck, explores each slide through free-form image generation, interprets the selected compositions, and reviews the presentation as a whole. OpenCV measures the page, while local tools build native text, charts, tables, and shapes. I separated semantic and visual judgement from pixel measurement. This architecture gives the Agent room to work beyond fixed templates while keeping reconstruction traceable."
       ],
       "view_kind": "project",
       "presentations": [
@@ -746,7 +746,7 @@
         "kind": "project",
         "id": "slidepoise",
         "period": "September 2026 - Present",
-        "subtitle": "Free-form slide design, reconstructed in PowerPoint",
+        "subtitle": "A complete presentation workflow for Codex",
         "route": "/slidepoise/docs/site/",
         "anchor": "",
         "mediaMode": "hero",
@@ -786,6 +786,43 @@
     },
     {
       "id": 25,
+      "source_id": "projects:pwcItOps",
+      "route": "/ai-it-operations",
+      "page": "AI for IT Operations",
+      "title": "AI for IT Operations",
+      "anchor": "",
+      "description": "Knowledge Management serves the platform’s RAG question-answering assistant. Acquisition begins with unanswered user questions and model-predicted knowledge gaps. Related questions are clustered into coverage objectives. Seed discovery and focused crawling find authoritative evidence, using the original questions as minimum coverage and the objective to guide broader acquisition.",
+      "body": "Knowledge Management serves the platform’s RAG question-answering assistant. Acquisition begins with unanswered user questions and model-predicted knowledge gaps. Related questions are clustered into coverage objectives. Seed discovery and focused crawling find authoritative evidence, using the original questions as minimum coverage and the objective to guide broader acquisition. Approved content passes through an ingestion pipeline for extraction, normalisation, deduplication, and chunking. A Source Registry keeps accepted snapshots, monitoring state, and provenance mappings to the Knowledge Base. Source changes trigger assessment for follow-up retrieval, replacement, deletion, or no action, with human approval before changes are committed. Browser Control interprets natural-language tickets and opens a dedicated application tab. I chose a browser extension after comparing cloud browsers and local Playwright services because one add-on could both control the tab and show interaction cards beside the work. It runs in the operator’s existing Chrome or Edge environment, keeping sign-in, internal access, MFA, and manual intervention in the same browser. Reasoning and task state stay in a central FastAPI and LangGraph service, with Playwright actions reaching the extension through a Chrome DevTools Protocol relay. Manual sign-in, multi-factor authentication, and approval are part of the task flow. The operator can pause, resume, take over, or stop the agent. After human input, the agent continues from the current page, verifies the result, and records the actions and outcome with the ticket.",
+      "parts": [
+        "Knowledge Management serves the platform’s RAG question-answering assistant. Acquisition begins with unanswered user questions and model-predicted knowledge gaps. Related questions are clustered into coverage objectives. Seed discovery and focused crawling find authoritative evidence, using the original questions as minimum coverage and the objective to guide broader acquisition.",
+        "Approved content passes through an ingestion pipeline for extraction, normalisation, deduplication, and chunking. A Source Registry keeps accepted snapshots, monitoring state, and provenance mappings to the Knowledge Base. Source changes trigger assessment for follow-up retrieval, replacement, deletion, or no action, with human approval before changes are committed.",
+        "Browser Control interprets natural-language tickets and opens a dedicated application tab. I chose a browser extension after comparing cloud browsers and local Playwright services because one add-on could both control the tab and show interaction cards beside the work. It runs in the operator’s existing Chrome or Edge environment, keeping sign-in, internal access, MFA, and manual intervention in the same browser. Reasoning and task state stay in a central FastAPI and LangGraph service, with Playwright actions reaching the extension through a Chrome DevTools Protocol relay.",
+        "Manual sign-in, multi-factor authentication, and approval are part of the task flow. The operator can pause, resume, take over, or stop the agent. After human input, the agent continues from the current page, verifies the result, and records the actions and outcome with the ticket."
+      ],
+      "view_kind": "project",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [
+        {
+          "src": "/assets/img/PwC.png"
+        }
+      ],
+      "entity": {
+        "kind": "project",
+        "id": "pwcItOps",
+        "period": "August 2026 - September 2026",
+        "subtitle": "Knowledge management and browser control for IT support",
+        "route": "/ai-it-operations",
+        "anchor": "",
+        "mediaMode": "logo",
+        "logoHeight": "6vh",
+        "richBlock": "interactive.it-ops.knowledge"
+      }
+    },
+    {
+      "id": 26,
       "source_id": "projects:insurance",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -821,81 +858,7 @@
       }
     },
     {
-      "id": 26,
-      "source_id": "projects:pwcItOps",
-      "route": "/ai-it-operations",
-      "page": "AI for IT Operations",
-      "title": "AI for IT Operations",
-      "anchor": "",
-      "description": "Knowledge Management serves the platform’s RAG question-answering assistant. Acquisition begins with unanswered user questions and model-predicted knowledge gaps. Related questions are clustered into coverage objectives. Seed discovery and focused crawling find authoritative evidence, using the original questions as minimum coverage and the objective to guide broader acquisition.",
-      "body": "Knowledge Management serves the platform’s RAG question-answering assistant. Acquisition begins with unanswered user questions and model-predicted knowledge gaps. Related questions are clustered into coverage objectives. Seed discovery and focused crawling find authoritative evidence, using the original questions as minimum coverage and the objective to guide broader acquisition. Approved content passes through an ingestion pipeline for extraction, normalisation, deduplication, and chunking. A Source Registry keeps accepted snapshots, monitoring state, and provenance mappings to the Knowledge Base. Source changes trigger assessment for follow-up retrieval, replacement, deletion, or no action, with human approval before changes are committed. Browser Control interprets natural-language tickets and opens a dedicated application tab. I chose a browser extension after comparing cloud browsers and local Playwright services because one add-on could both control the tab and show interaction cards beside the work. It runs in the operator’s existing Chrome or Edge environment, keeping sign-in, internal access, MFA, and manual intervention in the same browser. Reasoning and task state stay in a central FastAPI and LangGraph service, with Playwright actions reaching the extension through a Chrome DevTools Protocol relay. Manual sign-in, multi-factor authentication, and approval are part of the task flow. The operator can pause, resume, take over, or stop the agent. After human input, the agent continues from the current page, verifies the result, and records the actions and outcome with the ticket.",
-      "parts": [
-        "Knowledge Management serves the platform’s RAG question-answering assistant. Acquisition begins with unanswered user questions and model-predicted knowledge gaps. Related questions are clustered into coverage objectives. Seed discovery and focused crawling find authoritative evidence, using the original questions as minimum coverage and the objective to guide broader acquisition.",
-        "Approved content passes through an ingestion pipeline for extraction, normalisation, deduplication, and chunking. A Source Registry keeps accepted snapshots, monitoring state, and provenance mappings to the Knowledge Base. Source changes trigger assessment for follow-up retrieval, replacement, deletion, or no action, with human approval before changes are committed.",
-        "Browser Control interprets natural-language tickets and opens a dedicated application tab. I chose a browser extension after comparing cloud browsers and local Playwright services because one add-on could both control the tab and show interaction cards beside the work. It runs in the operator’s existing Chrome or Edge environment, keeping sign-in, internal access, MFA, and manual intervention in the same browser. Reasoning and task state stay in a central FastAPI and LangGraph service, with Playwright actions reaching the extension through a Chrome DevTools Protocol relay.",
-        "Manual sign-in, multi-factor authentication, and approval are part of the task flow. The operator can pause, resume, take over, or stop the agent. After human input, the agent continues from the current page, verifies the result, and records the actions and outcome with the ticket."
-      ],
-      "view_kind": "project",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 4,
-      "media": [
-        {
-          "src": "/assets/img/PwC.png"
-        }
-      ],
-      "entity": {
-        "kind": "project",
-        "id": "pwcItOps",
-        "period": "August 2026 - September 2026",
-        "subtitle": "Knowledge Management and Browser Control for IT support",
-        "route": "/ai-it-operations",
-        "anchor": "",
-        "mediaMode": "logo",
-        "logoHeight": "6vh",
-        "richBlock": "interactive.it-ops.knowledge"
-      }
-    },
-    {
       "id": 27,
-      "source_id": "projects:pwcRag",
-      "route": "/ragflow-pipeline",
-      "page": "A Structure-Preserving RAG Ingestion Pipeline",
-      "title": "A Structure-Preserving RAG Ingestion Pipeline",
-      "anchor": "",
-      "description": "The architectural risk appeared before retrieval began. If ingestion separated a rule from its qualification or reduced a flowchart to disconnected text, no later ranking or generation step could reliably restore the missing relationship. I designed three processing paths that converged before chunking.",
-      "body": "The architectural risk appeared before retrieval began. If ingestion separated a rule from its qualification or reduced a flowchart to disconnected text, no later ranking or generation step could reliably restore the missing relationship. I designed three processing paths that converged before chunking. MinerU handled text and tables, deterministic linking reconnected Notes and Remarks across pages, and a visual-language model converted flowchart nodes and branches into searchable Mermaid. RAGFlow then received consistent, self-contained evidence units. This division followed the structure of the documents. Predictable references stayed on a rule-based path that was easy to verify. Visual reasoning was reserved for diagrams whose meaning depended on edges and branches. That made the pipeline easier to test, maintain, and operate. A controlled five-page document with 13 cross-page references showed that the relationships survived into retrieval. I combined that evidence with the client's infrastructure, cost, implementation effort, and preference to operate one AI model where possible. The recommendation explained the architecture, what the tests established, and the work needed to implement it.",
-      "parts": [
-        "The architectural risk appeared before retrieval began. If ingestion separated a rule from its qualification or reduced a flowchart to disconnected text, no later ranking or generation step could reliably restore the missing relationship.",
-        "I designed three processing paths that converged before chunking. MinerU handled text and tables, deterministic linking reconnected Notes and Remarks across pages, and a visual-language model converted flowchart nodes and branches into searchable Mermaid. RAGFlow then received consistent, self-contained evidence units.",
-        "This division followed the structure of the documents. Predictable references stayed on a rule-based path that was easy to verify. Visual reasoning was reserved for diagrams whose meaning depended on edges and branches. That made the pipeline easier to test, maintain, and operate.",
-        "A controlled five-page document with 13 cross-page references showed that the relationships survived into retrieval. I combined that evidence with the client's infrastructure, cost, implementation effort, and preference to operate one AI model where possible. The recommendation explained the architecture, what the tests established, and the work needed to implement it."
-      ],
-      "view_kind": "project",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 4,
-      "media": [
-        {
-          "src": "/assets/img/PwC.png"
-        }
-      ],
-      "entity": {
-        "kind": "project",
-        "id": "pwcRag",
-        "period": "July 2026 - August 2026",
-        "subtitle": "Keeping an AI answer connected to the rule and its exceptions",
-        "route": "/ragflow-pipeline",
-        "anchor": "",
-        "mediaMode": "logo",
-        "logoHeight": "6vh",
-        "richBlock": "interactive.rag.reference-linking"
-      }
-    },
-    {
-      "id": 28,
       "source_id": "projects:scrollytelling",
       "route": "/scrollytelling",
       "page": "Interactive Scrollytelling Deck",
@@ -941,6 +904,43 @@
       }
     },
     {
+      "id": 28,
+      "source_id": "projects:pwcRag",
+      "route": "/ragflow-pipeline",
+      "page": "A Structure-Preserving RAG Ingestion Pipeline",
+      "title": "A Structure-Preserving RAG Ingestion Pipeline",
+      "anchor": "",
+      "description": "The architectural risk appeared before retrieval began. If ingestion separated a rule from its qualification or reduced a flowchart to disconnected text, no later ranking or generation step could reliably restore the missing relationship. I designed three processing paths that converged before chunking.",
+      "body": "The architectural risk appeared before retrieval began. If ingestion separated a rule from its qualification or reduced a flowchart to disconnected text, no later ranking or generation step could reliably restore the missing relationship. I designed three processing paths that converged before chunking. MinerU handled text and tables, deterministic linking reconnected Notes and Remarks across pages, and a visual-language model converted flowchart nodes and branches into searchable Mermaid. RAGFlow then received consistent, self-contained evidence units. This division followed the structure of the documents. Predictable references stayed on a rule-based path that was easy to verify. Visual reasoning was reserved for diagrams whose meaning depended on edges and branches. That made the pipeline easier to test, maintain, and operate. A controlled five-page document with 13 cross-page references showed that the relationships survived into retrieval. I combined that evidence with the client's infrastructure, cost, implementation effort, and preference to operate one AI model where possible. The recommendation explained the architecture, what the tests established, and the work needed to implement it.",
+      "parts": [
+        "The architectural risk appeared before retrieval began. If ingestion separated a rule from its qualification or reduced a flowchart to disconnected text, no later ranking or generation step could reliably restore the missing relationship.",
+        "I designed three processing paths that converged before chunking. MinerU handled text and tables, deterministic linking reconnected Notes and Remarks across pages, and a visual-language model converted flowchart nodes and branches into searchable Mermaid. RAGFlow then received consistent, self-contained evidence units.",
+        "This division followed the structure of the documents. Predictable references stayed on a rule-based path that was easy to verify. Visual reasoning was reserved for diagrams whose meaning depended on edges and branches. That made the pipeline easier to test, maintain, and operate.",
+        "A controlled five-page document with 13 cross-page references showed that the relationships survived into retrieval. I combined that evidence with the client's infrastructure, cost, implementation effort, and preference to operate one AI model where possible. The recommendation explained the architecture, what the tests established, and the work needed to implement it."
+      ],
+      "view_kind": "project",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [
+        {
+          "src": "/assets/img/PwC.png"
+        }
+      ],
+      "entity": {
+        "kind": "project",
+        "id": "pwcRag",
+        "period": "July 2026 - August 2026",
+        "subtitle": "Keeping an AI answer connected to the rule and its exceptions",
+        "route": "/ragflow-pipeline",
+        "anchor": "",
+        "mediaMode": "logo",
+        "logoHeight": "6vh",
+        "richBlock": "interactive.rag.reference-linking"
+      }
+    },
+    {
       "id": 29,
       "source_id": "projects:dealtracker",
       "route": "/dealtracker",
@@ -969,7 +969,7 @@
         "kind": "project",
         "id": "dealtracker",
         "period": "February 2025 - June 2025",
-        "subtitle": "A Personal Deal Hunter with Filters and Email Digests",
+        "subtitle": "A scheduled deal hunter with personal filters and email digests",
         "route": "/dealtracker",
         "anchor": "",
         "mediaMode": "gallery",
@@ -1025,70 +1025,6 @@
     },
     {
       "id": 31,
-      "source_id": "projects:congentra",
-      "route": "/projects",
-      "page": "Builds",
-      "title": "Congentra",
-      "anchor": "congentra",
-      "description": "A submitted assignment gives a teacher the finished work. A conversation can reveal how well the student understands it. I'm building Congentra to make that follow-up possible without scheduling an individual oral examination for everyone. It reads the assignment and submission, asks targeted questions, and records the student's spoken responses asynchronously.",
-      "body": "A submitted assignment gives a teacher the finished work. A conversation can reveal how well the student understands it. I'm building Congentra to make that follow-up possible without scheduling an individual oral examination for everyone. It reads the assignment and submission, asks targeted questions, and records the student's spoken responses asynchronously. The teacher reviews the work, questions, responses, and a compact evidence summary together, with the student's own explanations available to inform their judgement.",
-      "parts": [
-        "A submitted assignment gives a teacher the finished work. A conversation can reveal how well the student understands it. I'm building Congentra to make that follow-up possible without scheduling an individual oral examination for everyone. It reads the assignment and submission, asks targeted questions, and records the student's spoken responses asynchronously. The teacher reviews the work, questions, responses, and a compact evidence summary together, with the student's own explanations available to inform their judgement."
-      ],
-      "view_kind": "project",
-      "presentations": [
-        "cite",
-        "component"
-      ],
-      "priority": 2,
-      "media": [
-        {
-          "src": "/assets/img/congentra_0.png"
-        },
-        {
-          "src": "/assets/img/congentra_1.png"
-        },
-        {
-          "src": "/assets/img/congentra_2.png"
-        },
-        {
-          "src": "/assets/img/congentra_3.png"
-        },
-        {
-          "src": "/assets/img/congentra_4.png"
-        },
-        {
-          "src": "/assets/img/congentra_5.png"
-        },
-        {
-          "src": "/assets/img/congentra_6.png"
-        },
-        {
-          "src": "/assets/img/congentra_7.png"
-        },
-        {
-          "src": "/assets/img/congentra_8.png"
-        },
-        {
-          "src": "/assets/img/congentra_9.png"
-        }
-      ],
-      "component_description": "The original project entry for “Congentra”, including its full project account and original visual material where available.",
-      "narrative_guidance": "Explain which design decision, technical approach, or result matters to the visitor before showing the complete project source.",
-      "entity": {
-        "kind": "project",
-        "id": "congentra",
-        "period": "February 2026 – Present",
-        "subtitle": "Spoken follow-ups that help teachers assess understanding",
-        "route": "/projects",
-        "anchor": "congentra",
-        "mediaMode": "gallery",
-        "logoHeight": "",
-        "richBlock": ""
-      }
-    },
-    {
-      "id": 32,
       "source_id": "projects:lexaday",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1134,7 +1070,7 @@
       }
     },
     {
-      "id": 33,
+      "id": 32,
       "source_id": "projects:early",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1171,7 +1107,7 @@
         "kind": "project",
         "id": "early",
         "period": "September 2017 - June 2022",
-        "subtitle": "Downloaders, Browser Extensions, and an Economics Graph Generator",
+        "subtitle": "Downloaders, browser extensions, and an economics graph generator",
         "route": "/early",
         "anchor": "",
         "mediaMode": "gallery",
@@ -1180,7 +1116,7 @@
       }
     },
     {
-      "id": 34,
+      "id": 33,
       "source_id": "travels:overview",
       "route": "/travels",
       "page": "Travels",
@@ -1199,7 +1135,7 @@
       "media": []
     },
     {
-      "id": 35,
+      "id": 34,
       "source_id": "playbook:overview",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1218,7 +1154,7 @@
       "media": []
     },
     {
-      "id": 36,
+      "id": 35,
       "source_id": "playbook:first-the-problem",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1237,7 +1173,7 @@
       "media": []
     },
     {
-      "id": 37,
+      "id": 36,
       "source_id": "playbook:the-idea",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1257,7 +1193,7 @@
       "media": []
     },
     {
-      "id": 38,
+      "id": 37,
       "source_id": "playbook:try-it",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1276,7 +1212,7 @@
       "media": []
     },
     {
-      "id": 39,
+      "id": 38,
       "source_id": "playbook:from-the-packing-demo-to-the-production-tool",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1295,7 +1231,7 @@
       "media": []
     },
     {
-      "id": 40,
+      "id": 39,
       "source_id": "lexaday:overview",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1314,7 +1250,7 @@
       "media": []
     },
     {
-      "id": 41,
+      "id": 40,
       "source_id": "lexaday:a-small-lesson-generated-fresh-each-morning",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1333,7 +1269,7 @@
       "media": []
     },
     {
-      "id": 42,
+      "id": 41,
       "source_id": "lexaday:the-learning-loop",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1352,7 +1288,7 @@
       "media": []
     },
     {
-      "id": 43,
+      "id": 42,
       "source_id": "lexaday:pick",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1371,7 +1307,7 @@
       "media": []
     },
     {
-      "id": 44,
+      "id": 43,
       "source_id": "lexaday:write",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1390,7 +1326,7 @@
       "media": []
     },
     {
-      "id": 45,
+      "id": 44,
       "source_id": "lexaday:imagine",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1409,7 +1345,7 @@
       "media": []
     },
     {
-      "id": 46,
+      "id": 45,
       "source_id": "lexaday:send",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1428,7 +1364,7 @@
       "media": []
     },
     {
-      "id": 47,
+      "id": 46,
       "source_id": "lexaday:what-the-reader-receives",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1447,7 +1383,7 @@
       "media": []
     },
     {
-      "id": 48,
+      "id": 47,
       "source_id": "lexaday:how-it-is-packaged",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1466,7 +1402,7 @@
       "media": []
     },
     {
-      "id": 49,
+      "id": 48,
       "source_id": "dealtracker:overview",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1485,7 +1421,7 @@
       "media": []
     },
     {
-      "id": 50,
+      "id": 49,
       "source_id": "dealtracker:from-noisy-sale-pages-to-a-short-inbox-digest",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1504,7 +1440,7 @@
       "media": []
     },
     {
-      "id": 51,
+      "id": 50,
       "source_id": "dealtracker:the-email-output",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1523,7 +1459,7 @@
       "media": []
     },
     {
-      "id": 52,
+      "id": 51,
       "source_id": "dealtracker:what-happens-behind-the-email",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1543,7 +1479,7 @@
       "media": []
     },
     {
-      "id": 53,
+      "id": 52,
       "source_id": "dealtracker:the-control-layer",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1562,7 +1498,7 @@
       "media": []
     },
     {
-      "id": 54,
+      "id": 53,
       "source_id": "scrollytelling:overview",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1581,7 +1517,7 @@
       "media": []
     },
     {
-      "id": 55,
+      "id": 54,
       "source_id": "scrollytelling:see-it-as-a-story",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1600,7 +1536,7 @@
       "media": []
     },
     {
-      "id": 56,
+      "id": 55,
       "source_id": "scrollytelling:describe-a-scene-once-then-let-the-engine-build-it",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1619,7 +1555,7 @@
       "media": []
     },
     {
-      "id": 57,
+      "id": 56,
       "source_id": "scrollytelling:under-the-hood",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1638,7 +1574,7 @@
       "media": []
     },
     {
-      "id": 58,
+      "id": 57,
       "source_id": "views:overview",
       "route": "/views",
       "page": "Public views",
@@ -1658,7 +1594,7 @@
       "media": []
     },
     {
-      "id": 59,
+      "id": 58,
       "source_id": "early:overview",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1679,7 +1615,7 @@
       "media": []
     },
     {
-      "id": 60,
+      "id": 59,
       "source_id": "early:how-it-started",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1721,7 +1657,7 @@
       }
     },
     {
-      "id": 61,
+      "id": 60,
       "source_id": "early:batch-downloading-scientific-american-episodes",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1774,7 +1710,7 @@
       }
     },
     {
-      "id": 62,
+      "id": 61,
       "source_id": "early:chrome-extension-experiments",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1827,7 +1763,7 @@
       }
     },
     {
-      "id": 63,
+      "id": 62,
       "source_id": "early:music-streaming-hacks",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1901,7 +1837,7 @@
       }
     },
     {
-      "id": 64,
+      "id": 63,
       "source_id": "early:building-kiwiviews-website",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1930,7 +1866,7 @@
       }
     },
     {
-      "id": 65,
+      "id": 64,
       "source_id": "early:simple-automation",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1968,7 +1904,7 @@
       }
     },
     {
-      "id": 66,
+      "id": 65,
       "source_id": "early:econographer-an-economics-graphs-generator",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -2004,7 +1940,7 @@
       }
     },
     {
-      "id": 67,
+      "id": 66,
       "source_id": "aipersonalarchive:overview",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2024,7 +1960,7 @@
       "media": []
     },
     {
-      "id": 68,
+      "id": 67,
       "source_id": "aipersonalarchive:search-turns-the-whole-site-into-one-navigable-space",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2045,7 +1981,7 @@
       "media": []
     },
     {
-      "id": 69,
+      "id": 68,
       "source_id": "aipersonalarchive:seeing-the-archive-as-a-space",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2065,7 +2001,7 @@
       "media": []
     },
     {
-      "id": 70,
+      "id": 69,
       "source_id": "aipersonalarchive:ask-brings-related-passages-into-one-answer",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2085,7 +2021,7 @@
       "media": []
     },
     {
-      "id": 71,
+      "id": 70,
       "source_id": "aipersonalarchive:find",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2104,7 +2040,7 @@
       "media": []
     },
     {
-      "id": 72,
+      "id": 71,
       "source_id": "aipersonalarchive:set-the-scope",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2123,7 +2059,7 @@
       "media": []
     },
     {
-      "id": 73,
+      "id": 72,
       "source_id": "aipersonalarchive:write",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2142,7 +2078,7 @@
       "media": []
     },
     {
-      "id": 74,
+      "id": 73,
       "source_id": "aipersonalarchive:cite",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2161,7 +2097,7 @@
       "media": []
     },
     {
-      "id": 75,
+      "id": 74,
       "source_id": "aipersonalarchive:view-reorganises-the-site-around-a-question",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2181,7 +2117,7 @@
       "media": []
     },
     {
-      "id": 76,
+      "id": 75,
       "source_id": "aipersonalarchive:views-over-time",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2200,7 +2136,7 @@
       "media": []
     },
     {
-      "id": 77,
+      "id": 76,
       "source_id": "aipersonalarchive:what-the-archive-gives-back",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2219,7 +2155,7 @@
       "media": []
     },
     {
-      "id": 78,
+      "id": 77,
       "source_id": "ragflow-pipeline:overview",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2239,7 +2175,7 @@
       "media": []
     },
     {
-      "id": 79,
+      "id": 78,
       "source_id": "ragflow-pipeline:an-architecture-shaped-by-the-documents",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2259,7 +2195,7 @@
       "media": []
     },
     {
-      "id": 80,
+      "id": 79,
       "source_id": "ragflow-pipeline:evidence-behind-the-architecture",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2278,7 +2214,7 @@
       "media": []
     },
     {
-      "id": 81,
+      "id": 80,
       "source_id": "ai-it-operations:overview",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2297,7 +2233,7 @@
       "media": []
     },
     {
-      "id": 82,
+      "id": 81,
       "source_id": "ai-it-operations:knowledge-management",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2316,7 +2252,7 @@
       "media": []
     },
     {
-      "id": 83,
+      "id": 82,
       "source_id": "ai-it-operations:where-does-the-assistant-need-more-knowledge",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2336,7 +2272,7 @@
       "media": []
     },
     {
-      "id": 84,
+      "id": 83,
       "source_id": "ai-it-operations:finding-the-material-that-will-help",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2356,7 +2292,7 @@
       "media": []
     },
     {
-      "id": 85,
+      "id": 84,
       "source_id": "ai-it-operations:what-happens-when-the-guidance-changes",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2376,7 +2312,7 @@
       "media": []
     },
     {
-      "id": 86,
+      "id": 85,
       "source_id": "ai-it-operations:from-a-source-to-maintained-knowledge",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2396,7 +2332,7 @@
       "media": []
     },
     {
-      "id": 87,
+      "id": 86,
       "source_id": "ai-it-operations:browser-control",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2415,7 +2351,7 @@
       "media": []
     },
     {
-      "id": 88,
+      "id": 87,
       "source_id": "ai-it-operations:turning-the-request-into-actions",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2434,7 +2370,7 @@
       "media": []
     },
     {
-      "id": 89,
+      "id": 88,
       "source_id": "ai-it-operations:why-a-browser-extension",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2453,7 +2389,7 @@
       "media": []
     },
     {
-      "id": 90,
+      "id": 89,
       "source_id": "ai-it-operations:a-place-to-start-intervene-and-look-back",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2472,7 +2408,7 @@
       "media": []
     },
     {
-      "id": 91,
+      "id": 90,
       "source_id": "ai-it-operations:from-planning-to-a-browser-action",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2491,7 +2427,7 @@
       "media": []
     },
     {
-      "id": 92,
+      "id": 91,
       "source_id": "fragments:overview",
       "route": "/fragments",
       "page": "Fragments",
@@ -2510,7 +2446,7 @@
       "media": []
     },
     {
-      "id": 93,
+      "id": 92,
       "source_id": "fragments:the-projection-of-thought",
       "route": "/fragments",
       "page": "Fragments",
@@ -2543,7 +2479,7 @@
       }
     },
     {
-      "id": 94,
+      "id": 93,
       "source_id": "fragments:rebuilding-another-state-inside-me",
       "route": "/fragments",
       "page": "Fragments",
@@ -2576,7 +2512,7 @@
       }
     },
     {
-      "id": 95,
+      "id": 94,
       "source_id": "fragments:visible-part-of-the-mind",
       "route": "/fragments",
       "page": "Fragments",
@@ -2606,7 +2542,7 @@
       }
     },
     {
-      "id": 96,
+      "id": 95,
       "source_id": "fragments:understanding-before-definition",
       "route": "/fragments",
       "page": "Fragments",
@@ -2635,7 +2571,7 @@
       }
     },
     {
-      "id": 97,
+      "id": 96,
       "source_id": "fragments:expression-recording",
       "route": "/fragments",
       "page": "Fragments",
@@ -2667,7 +2603,7 @@
       }
     },
     {
-      "id": 98,
+      "id": 97,
       "source_id": "fragments:rich-traces-and-open-paths",
       "route": "/fragments",
       "page": "Fragments",
@@ -2699,7 +2635,7 @@
       }
     },
     {
-      "id": 99,
+      "id": 98,
       "source_id": "fragments:labels-goals-rules",
       "route": "/fragments",
       "page": "Fragments",
@@ -2735,7 +2671,7 @@
       }
     },
     {
-      "id": 100,
+      "id": 99,
       "source_id": "fragments:memory-time-self",
       "route": "/fragments",
       "page": "Fragments",
@@ -2769,7 +2705,7 @@
       }
     },
     {
-      "id": 101,
+      "id": 100,
       "source_id": "fragments:satisfaction-signal",
       "route": "/fragments",
       "page": "Fragments",
@@ -2802,7 +2738,7 @@
       }
     },
     {
-      "id": 102,
+      "id": 101,
       "source_id": "fragments:queen-victoria-market-toast-oysters",
       "route": "/fragments",
       "page": "Fragments",
@@ -2829,7 +2765,7 @@
       }
     },
     {
-      "id": 103,
+      "id": 102,
       "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
       "route": "/fragments",
       "page": "Fragments",
@@ -2856,7 +2792,7 @@
       }
     },
     {
-      "id": 104,
+      "id": 103,
       "source_id": "fragments:ai-generated-kitten-videos",
       "route": "/fragments",
       "page": "Fragments",
@@ -2884,7 +2820,7 @@
       }
     },
     {
-      "id": 105,
+      "id": 104,
       "source_id": "fragments:identity-interview-reflection",
       "route": "/fragments",
       "page": "Fragments",
@@ -2912,7 +2848,7 @@
       }
     },
     {
-      "id": 106,
+      "id": 105,
       "source_id": "fragments:napier-seaside-with-my-mother",
       "route": "/fragments",
       "page": "Fragments",
@@ -2941,7 +2877,7 @@
       }
     },
     {
-      "id": 107,
+      "id": 106,
       "source_id": "fragments:mothers-cooking-across-places",
       "route": "/fragments",
       "page": "Fragments",
@@ -2969,7 +2905,7 @@
       }
     },
     {
-      "id": 108,
+      "id": 107,
       "source_id": "fragments:golf-with-my-mother-in-new-zealand",
       "route": "/fragments",
       "page": "Fragments",
@@ -2996,7 +2932,7 @@
       }
     },
     {
-      "id": 109,
+      "id": 108,
       "source_id": "fragments:slr-lab-racket-games",
       "route": "/fragments",
       "page": "Fragments",
@@ -3023,7 +2959,7 @@
       }
     },
     {
-      "id": 110,
+      "id": 109,
       "source_id": "fragments:kennedy-town-seaside-hku-years",
       "route": "/fragments",
       "page": "Fragments",
@@ -3051,7 +2987,7 @@
       }
     },
     {
-      "id": 111,
+      "id": 110,
       "source_id": "fragments:sydney-harbour-ferry-rides",
       "route": "/fragments",
       "page": "Fragments",
@@ -3079,7 +3015,7 @@
       }
     },
     {
-      "id": 112,
+      "id": 111,
       "source_id": "fragments:gold-coast-water-and-city-line",
       "route": "/fragments",
       "page": "Fragments",
@@ -3107,7 +3043,7 @@
       }
     },
     {
-      "id": 113,
+      "id": 112,
       "source_id": "fragments:great-ocean-road-melbourne-friends",
       "route": "/fragments",
       "page": "Fragments",
@@ -3135,7 +3071,7 @@
       }
     },
     {
-      "id": 114,
+      "id": 113,
       "source_id": "fragments:taiwan-east-coast-family-road-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -3163,7 +3099,7 @@
       }
     },
     {
-      "id": 115,
+      "id": 114,
       "source_id": "fragments:tomatoes-of-august-29",
       "route": "/fragments",
       "page": "Fragments",
@@ -3194,7 +3130,7 @@
       }
     },
     {
-      "id": 116,
+      "id": 115,
       "source_id": "fragments:athens-ruins-and-family-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -3222,7 +3158,7 @@
       }
     },
     {
-      "id": 117,
+      "id": 116,
       "source_id": "fragments:swimming-in-the-mediterranean",
       "route": "/fragments",
       "page": "Fragments",
@@ -3250,7 +3186,7 @@
       }
     },
     {
-      "id": 118,
+      "id": 117,
       "source_id": "fragments:rainy-days-permission-to-stay-in",
       "route": "/fragments",
       "page": "Fragments",
@@ -3277,7 +3213,7 @@
       }
     },
     {
-      "id": 119,
+      "id": 118,
       "source_id": "fragments:mental-map-of-small-room",
       "route": "/fragments",
       "page": "Fragments",
@@ -3305,7 +3241,7 @@
       }
     },
     {
-      "id": 120,
+      "id": 119,
       "source_id": "fragments:first-camera-another-way-of-seeing",
       "route": "/fragments",
       "page": "Fragments",
@@ -3333,7 +3269,7 @@
       }
     },
     {
-      "id": 121,
+      "id": 120,
       "source_id": "fragments:music-that-became-more-spacious",
       "route": "/fragments",
       "page": "Fragments",
@@ -3361,7 +3297,7 @@
       }
     },
     {
-      "id": 122,
+      "id": 121,
       "source_id": "cv:profile",
       "route": "/cv",
       "page": "CV",
@@ -3380,7 +3316,7 @@
       "media": []
     },
     {
-      "id": 123,
+      "id": 122,
       "source_id": "cv:education",
       "route": "/cv",
       "page": "CV",
@@ -3399,7 +3335,7 @@
       "media": []
     },
     {
-      "id": 124,
+      "id": 123,
       "source_id": "cv:experience",
       "route": "/cv",
       "page": "CV",
@@ -3419,7 +3355,7 @@
       "media": []
     },
     {
-      "id": 125,
+      "id": 124,
       "source_id": "cv:publications-preprints",
       "route": "/cv",
       "page": "CV",
@@ -3439,7 +3375,7 @@
       "media": []
     },
     {
-      "id": 126,
+      "id": 125,
       "source_id": "about:gallery",
       "route": "/about",
       "page": "About",
