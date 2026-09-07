@@ -1,103 +1,6 @@
 [
   {
     "id": 0,
-    "source_id": "about:root:about-me",
-    "route": "/about",
-    "page": "About",
-    "title": "About Me",
-    "anchor": "",
-    "description": "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I have also spent extended periods in Melbourne and Hawke's Bay , New Zealand, through exchange, travel, and family. I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. Alongside my studies, I'm currently working in AI consulting at PwC.",
-    "body": "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I have also spent extended periods in Melbourne and Hawke's Bay , New Zealand, through exchange, travel, and family. I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. Alongside my studies, I'm currently working in AI consulting at PwC. I like working with things that are still taking shape, gradually finding and building structure as I understand them better. In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research. At PwC, I have used AI to help people work with complex information, understand existing systems, and make better decisions. The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles. When I'm not working, I often end up near the water. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , Kennedy Town Praya became part of my early university years. Elsewhere, it may be a ferry, a harbour, or a long walk along the shore. Being near the sea gives me a sense of space that dense days often remove. I like travelling, though I tend to remember it through particular moments. I often keep something from them, perhaps a photograph or a few words written down. Coming across it later can take me back to the people I was with and the way the place felt. It also leaves a trace of who I was at the time. I also find myself thinking about all sorts of things.",
-    "parts": [
-      "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I have also spent extended periods in Melbourne and Hawke's Bay , New Zealand, through exchange, travel, and family.",
-      "I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. Alongside my studies, I'm currently working in AI consulting at PwC.",
-      "I like working with things that are still taking shape, gradually finding and building structure as I understand them better.",
-      "In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes.",
-      "I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research. At PwC, I have used AI to help people work with complex information, understand existing systems, and make better decisions.",
-      "The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles.",
-      "When I'm not working, I often end up near the water. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , Kennedy Town Praya became part of my early university years. Elsewhere, it may be a ferry, a harbour, or a long walk along the shore. Being near the sea gives me a sense of space that dense days often remove.",
-      "I like travelling, though I tend to remember it through particular moments. I often keep something from them, perhaps a photograph or a few words written down. Coming across it later can take me back to the people I was with and the way the place felt. It also leaves a trace of who I was at the time.",
-      "I also find myself thinking about all sorts of things. As AI becomes part of how we write and remember, our own thoughts and the memories tied to people, places, and feelings seem especially worth keeping. I use Fragments to record them, often while the thoughts are still taking shape. They include ideas about AI, memory, language, and identity, along with travel, family, food, and other things I wanted to remember."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "priority": 0,
-    "media": [
-      {
-        "src": "/assets/img/henry.jpg"
-      }
-    ],
-    "entity": {
-      "kind": "about",
-      "id": "about-me"
-    }
-  },
-  {
-    "id": 1,
-    "source_id": "about:section:how-i-research-and-build",
-    "route": "/about",
-    "page": "About",
-    "title": "How I Research and Build",
-    "anchor": "how-i-research-and-build",
-    "description": "In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later.",
-    "body": "In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research. At PwC, I have used AI to help people work with complex information, understand existing systems, and make better decisions. The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles.",
-    "parts": [
-      "In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research.",
-      "At PwC, I have used AI to help people work with complex information, understand existing systems, and make better decisions. The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "priority": 0,
-    "media": []
-  },
-  {
-    "id": 2,
-    "source_id": "about:section:outside-work",
-    "route": "/about",
-    "page": "About",
-    "title": "Outside Work",
-    "anchor": "outside-work",
-    "description": "When I'm not working, I often end up near the water. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , Kennedy Town Praya became part of my early university years. Elsewhere, it may be a ferry, a harbour, or a long walk along the shore. Being near the sea gives me a sense of space that dense days often remove.",
-    "body": "When I'm not working, I often end up near the water. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , Kennedy Town Praya became part of my early university years. Elsewhere, it may be a ferry, a harbour, or a long walk along the shore. Being near the sea gives me a sense of space that dense days often remove. I like travelling, though I tend to remember it through particular moments. I often keep something from them, perhaps a photograph or a few words written down. Coming across it later can take me back to the people I was with and the way the place felt. It also leaves a trace of who I was at the time. Travels Follow the places I've lived in, travelled through, and remembered ↗ I also find myself thinking about all sorts of things. As AI becomes part of how we write and remember, our own thoughts and the memories tied to people, places, and feelings seem especially worth keeping. I use Fragments to record them, often while the thoughts are still taking shape. They include ideas about AI, memory, language, and identity, along with travel, family, food, and other things I wanted to remember.",
-    "parts": [
-      "When I'm not working, I often end up near the water. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , Kennedy Town Praya became part of my early university years. Elsewhere, it may be a ferry, a harbour, or a long walk along the shore. Being near the sea gives me a sense of space that dense days often remove. I like travelling, though I tend to remember it through particular moments. I often keep something from them, perhaps a photograph or a few words written down. Coming across it later can take me back to the people I was with and the way the place felt. It also leaves a trace of who I was at the time. Travels Follow the places I've lived in, travelled through, and remembered ↗ I also find myself thinking about all sorts of things.",
-      "As AI becomes part of how we write and remember, our own thoughts and the memories tied to people, places, and feelings seem especially worth keeping. I use Fragments to record them, often while the thoughts are still taking shape. They include ideas about AI, memory, language, and identity, along with travel, family, food, and other things I wanted to remember."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "priority": 0,
-    "media": []
-  },
-  {
-    "id": 3,
-    "source_id": "about:contact",
-    "route": "/about",
-    "page": "About",
-    "title": "Say Hello",
-    "anchor": "say-hello",
-    "description": "If you want to get in touch, I'd be glad to hear from you. For personal messages, write to me at whenry6688@gmail.com . For academic matters, reach me at henry.why@connect.hku.hk .",
-    "body": "If you want to get in touch, I'd be glad to hear from you. For personal messages, write to me at whenry6688@gmail.com . For academic matters, reach me at henry.why@connect.hku.hk .",
-    "parts": [
-      "If you want to get in touch, I'd be glad to hear from you.",
-      "For personal messages, write to me at whenry6688@gmail.com .",
-      "For academic matters, reach me at henry.why@connect.hku.hk ."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "priority": 0,
-    "media": [],
-    "search_only": true
-  },
-  {
-    "id": 4,
     "source_id": "education:overview",
     "route": "/education",
     "page": "Education",
@@ -116,7 +19,7 @@
     "media": []
   },
   {
-    "id": 5,
+    "id": 1,
     "source_id": "education:the-university-of-hong-kong",
     "route": "/education",
     "page": "Education",
@@ -140,7 +43,7 @@
     }
   },
   {
-    "id": 6,
+    "id": 2,
     "source_id": "education:the-university-of-melbourne",
     "route": "/education",
     "page": "Education",
@@ -164,7 +67,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 3,
     "source_id": "education:shanghai-high-school-international-division",
     "route": "/education",
     "page": "Education",
@@ -188,7 +91,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 4,
     "source_id": "education:havelock-north-high-school",
     "route": "/education",
     "page": "Education",
@@ -212,7 +115,7 @@
     }
   },
   {
-    "id": 9,
+    "id": 5,
     "source_id": "experience:overview",
     "route": "/experience",
     "page": "Experience",
@@ -231,7 +134,7 @@
     "media": []
   },
   {
-    "id": 10,
+    "id": 6,
     "source_id": "experience:pwc",
     "route": "/experience",
     "page": "Experience",
@@ -269,7 +172,7 @@
     }
   },
   {
-    "id": 11,
+    "id": 7,
     "source_id": "experience:slr",
     "route": "/experience",
     "page": "Experience",
@@ -304,7 +207,7 @@
     }
   },
   {
-    "id": 12,
+    "id": 8,
     "source_id": "experience:hsbc",
     "route": "/experience",
     "page": "Experience",
@@ -340,7 +243,7 @@
     }
   },
   {
-    "id": 13,
+    "id": 9,
     "source_id": "experience:kiwiview",
     "route": "/experience",
     "page": "Experience",
@@ -375,7 +278,7 @@
     }
   },
   {
-    "id": 14,
+    "id": 10,
     "source_id": "research:overview",
     "route": "/research",
     "page": "Research",
@@ -396,7 +299,7 @@
     "media": []
   },
   {
-    "id": 15,
+    "id": 11,
     "source_id": "research:fittedAssistance",
     "route": "/research",
     "page": "Research",
@@ -432,7 +335,7 @@
     }
   },
   {
-    "id": 16,
+    "id": 12,
     "source_id": "research:transfer",
     "route": "/research",
     "page": "Research",
@@ -486,7 +389,7 @@
     }
   },
   {
-    "id": 17,
+    "id": 13,
     "source_id": "research:encoding",
     "route": "/research",
     "page": "Research",
@@ -532,7 +435,7 @@
     }
   },
   {
-    "id": 18,
+    "id": 14,
     "source_id": "research:bright",
     "route": "/research",
     "page": "Research",
@@ -584,7 +487,7 @@
     }
   },
   {
-    "id": 19,
+    "id": 15,
     "source_id": "research:humansDisengage",
     "route": "/research",
     "page": "Research",
@@ -639,7 +542,7 @@
     }
   },
   {
-    "id": 20,
+    "id": 16,
     "source_id": "research:priorsPersist",
     "route": "/research",
     "page": "Research",
@@ -694,7 +597,7 @@
     }
   },
   {
-    "id": 21,
+    "id": 17,
     "source_id": "projects:overview",
     "route": "/projects",
     "page": "Builds",
@@ -713,16 +616,16 @@
     "media": []
   },
   {
-    "id": 22,
+    "id": 18,
     "source_id": "projects:slidepoise",
     "route": "/slidepoise/docs/site/",
     "page": "SlidePoise",
     "title": "SlidePoise",
     "anchor": "",
-    "description": "SlidePoise is an open-source presentation system for Codex. The Agent develops the argument, plans the deck, and explores each slide through image generation. OpenCV measures the selected designs, while local tools construct native PowerPoint objects. The Agent then reviews the actual renders across the deck.",
-    "body": "SlidePoise is an open-source presentation system for Codex. The Agent develops the argument, plans the deck, and explores each slide through image generation. OpenCV measures the selected designs, while local tools construct native PowerPoint objects. The Agent then reviews the actual renders across the deck. Separating judgement from measurement keeps layouts free from fixed templates and makes reconstruction traceable.",
+    "description": "AI slide tools often become predictable when every page begins from a template. Image generation offers much more visual freedom, yet a finished image is difficult to edit or rebuild as a real presentation. I built SlidePoise around that tension.",
+    "body": "AI slide tools often become predictable when every page begins from a template. Image generation offers much more visual freedom, yet a finished image is difficult to edit or rebuild as a real presentation. I built SlidePoise around that tension. Codex reasons about the argument and semantic structure of the deck, while an image model explores the visual structure of each slide without fixing every element in advance. Once a direction is chosen, pixel-level measurement recovers precise geometry and semantic grouping decides which elements belong together. Local tools reconstruct the design as native PowerPoint objects, then Codex reviews the rendered deck and refines it. The result combines open-ended visual exploration with an editable and traceable presentation.",
     "parts": [
-      "SlidePoise is an open-source presentation system for Codex. The Agent develops the argument, plans the deck, and explores each slide through image generation. OpenCV measures the selected designs, while local tools construct native PowerPoint objects. The Agent then reviews the actual renders across the deck. Separating judgement from measurement keeps layouts free from fixed templates and makes reconstruction traceable."
+      "AI slide tools often become predictable when every page begins from a template. Image generation offers much more visual freedom, yet a finished image is difficult to edit or rebuild as a real presentation. I built SlidePoise around that tension. Codex reasons about the argument and semantic structure of the deck, while an image model explores the visual structure of each slide without fixing every element in advance. Once a direction is chosen, pixel-level measurement recovers precise geometry and semantic grouping decides which elements belong together. Local tools reconstruct the design as native PowerPoint objects, then Codex reviews the rendered deck and refines it. The result combines open-ended visual exploration with an editable and traceable presentation."
     ],
     "view_kind": "project",
     "presentations": [
@@ -747,16 +650,16 @@
     }
   },
   {
-    "id": 23,
+    "id": 19,
     "source_id": "projects:searchstory",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "An AI Interface for Exploring a Personal Archive",
     "anchor": "",
-    "description": "I wanted visitors to explore the connections in this site without having to follow its menu. Search finds original passages, Ask answers a question with citations, and View composes a page around what the visitor wants to understand. Answers and Views can be heard in a model trained on my voice. A saved View preserves its text, illustrations, narration, and sources as a dated perspective on the archive.",
-    "body": "I wanted visitors to explore the connections in this site without having to follow its menu. Search finds original passages, Ask answers a question with citations, and View composes a page around what the visitor wants to understand. Answers and Views can be heard in a model trained on my voice. A saved View preserves its text, illustrations, narration, and sources as a dated perspective on the archive.",
+    "description": "This site contains projects, research, experiences, and fragments that connect in ways a menu cannot fully show. I wanted each visitor to begin with their own curiosity. Search finds original passages and opens their precise locations. Ask turns relevant material into a cited answer. View goes further by composing a focused reading path around a question, theme, or perspective while keeping the sources visible.",
+    "body": "This site contains projects, research, experiences, and fragments that connect in ways a menu cannot fully show. I wanted each visitor to begin with their own curiosity. Search finds original passages and opens their precise locations. Ask turns relevant material into a cited answer. View goes further by composing a focused reading path around a question, theme, or perspective while keeping the sources visible. I added narration in a model trained on my voice so the archive can be read or heard. Saving a View preserves its writing, illustrations, narration, sources, and date, turning one exploration into a durable perspective on a changing personal archive.",
     "parts": [
-      "I wanted visitors to explore the connections in this site without having to follow its menu. Search finds original passages, Ask answers a question with citations, and View composes a page around what the visitor wants to understand. Answers and Views can be heard in a model trained on my voice. A saved View preserves its text, illustrations, narration, and sources as a dated perspective on the archive."
+      "This site contains projects, research, experiences, and fragments that connect in ways a menu cannot fully show. I wanted each visitor to begin with their own curiosity. Search finds original passages and opens their precise locations. Ask turns relevant material into a cited answer. View goes further by composing a focused reading path around a question, theme, or perspective while keeping the sources visible. I added narration in a model trained on my voice so the archive can be read or heard. Saving a View preserves its writing, illustrations, narration, sources, and date, turning one exploration into a durable perspective on a changing personal archive."
     ],
     "view_kind": "project",
     "presentations": [
@@ -777,7 +680,7 @@
     }
   },
   {
-    "id": 24,
+    "id": 20,
     "source_id": "projects:pwcItOps",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -814,7 +717,7 @@
     }
   },
   {
-    "id": 25,
+    "id": 21,
     "source_id": "projects:insurance",
     "route": "/playbook",
     "page": "Insurance Product Configuration Engine",
@@ -850,16 +753,16 @@
     }
   },
   {
-    "id": 26,
+    "id": 22,
     "source_id": "projects:scrollytelling",
     "route": "/scrollytelling",
     "page": "Interactive Scrollytelling Deck",
     "title": "Interactive Scrollytelling Deck",
     "anchor": "",
-    "description": "I built this for a course presentation that relied on maps and charts. I wanted the audience to see each relationship as I explained it, so the deck unfolds as a scrolling web page. Charts draw into view alongside the text, giving each part of the argument its own moment. Keeping the content separate from the code that drew and animated it also made the work reusable.",
-    "body": "I built this for a course presentation that relied on maps and charts. I wanted the audience to see each relationship as I explained it, so the deck unfolds as a scrolling web page. Charts draw into view alongside the text, giving each part of the argument its own moment. Keeping the content separate from the code that drew and animated it also made the work reusable. New scenes can use the same D3 chart builders, layout, and timing with their own text and data.",
+    "description": "A conventional slide deck asked the audience to take in a complete chart while I was still explaining its first relationship. For a course presentation built around maps and data, I made the argument unfold as a scrolling web page. Text, annotations, and D3 charts enter when they become relevant, so each part of the evidence receives its own moment.",
+    "body": "A conventional slide deck asked the audience to take in a complete chart while I was still explaining its first relationship. For a course presentation built around maps and data, I made the argument unfold as a scrolling web page. Text, annotations, and D3 charts enter when they become relevant, so each part of the evidence receives its own moment. I separated the presentation content from the code that draws and animates it, then described each scene through a schema and a reusable renderer registry. The finished deck became one instance of a broader engine that can stage new stories with different text, data, charts, and timing.",
     "parts": [
-      "I built this for a course presentation that relied on maps and charts. I wanted the audience to see each relationship as I explained it, so the deck unfolds as a scrolling web page. Charts draw into view alongside the text, giving each part of the argument its own moment. Keeping the content separate from the code that drew and animated it also made the work reusable. New scenes can use the same D3 chart builders, layout, and timing with their own text and data."
+      "A conventional slide deck asked the audience to take in a complete chart while I was still explaining its first relationship. For a course presentation built around maps and data, I made the argument unfold as a scrolling web page. Text, annotations, and D3 charts enter when they become relevant, so each part of the evidence receives its own moment. I separated the presentation content from the code that draws and animates it, then described each scene through a schema and a reusable renderer registry. The finished deck became one instance of a broader engine that can stage new stories with different text, data, charts, and timing."
     ],
     "view_kind": "project",
     "presentations": [
@@ -896,7 +799,7 @@
     }
   },
   {
-    "id": 27,
+    "id": 23,
     "source_id": "projects:pwcRag",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -933,16 +836,16 @@
     }
   },
   {
-    "id": 28,
+    "id": 24,
     "source_id": "projects:dealtracker",
     "route": "/dealtracker",
     "page": "Dealtracker",
     "title": "Dealtracker",
     "anchor": "",
-    "description": "While on exchange in Melbourne, I wanted to keep an eye on outdoor clothing sales without repeatedly checking long product pages. Dealtracker checks two stores against my brand, size, gender, and discount preferences, then emails the new matches. It normalises product data across stores and keeps a local history, so an item can stay on sale for weeks without appearing in every digest.",
-    "body": "While on exchange in Melbourne, I wanted to keep an eye on outdoor clothing sales without repeatedly checking long product pages. Dealtracker checks two stores against my brand, size, gender, and discount preferences, then emails the new matches. It normalises product data across stores and keeps a local history, so an item can stay on sale for weeks without appearing in every digest. The email includes photos, prices, discounts, and links so I can decide what deserves a closer look.",
+    "description": "While on exchange in Melbourne, I wanted to follow outdoor-clothing sales without reopening long product pages every few days. I built Dealtracker to check two stores on a schedule and judge each listing against my brand, size, gender, and discount preferences. Because the stores describe products differently, the system first normalises their data into one structure.",
+    "body": "While on exchange in Melbourne, I wanted to follow outdoor-clothing sales without reopening long product pages every few days. I built Dealtracker to check two stores on a schedule and judge each listing against my brand, size, gender, and discount preferences. Because the stores describe products differently, the system first normalises their data into one structure. It then compares new matches with a local history, so an item that remains on sale appears once instead of filling every digest. The email gives me the photograph, price, discount, and link needed to decide what deserves a closer look.",
     "parts": [
-      "While on exchange in Melbourne, I wanted to keep an eye on outdoor clothing sales without repeatedly checking long product pages. Dealtracker checks two stores against my brand, size, gender, and discount preferences, then emails the new matches. It normalises product data across stores and keeps a local history, so an item can stay on sale for weeks without appearing in every digest. The email includes photos, prices, discounts, and links so I can decide what deserves a closer look."
+      "While on exchange in Melbourne, I wanted to follow outdoor-clothing sales without reopening long product pages every few days. I built Dealtracker to check two stores on a schedule and judge each listing against my brand, size, gender, and discount preferences. Because the stores describe products differently, the system first normalises their data into one structure. It then compares new matches with a local history, so an item that remains on sale appears once instead of filling every digest. The email gives me the photograph, price, discount, and link needed to decide what deserves a closer look."
     ],
     "view_kind": "project",
     "presentations": [
@@ -970,16 +873,16 @@
     }
   },
   {
-    "id": 29,
+    "id": 25,
     "source_id": "projects:stride",
     "route": "/projects",
     "page": "Builds",
     "title": "Stride Support",
     "anchor": "stride",
-    "description": "In Stride Support, a conversation can refer to the order you have selected and use tools to look up products, handle complaints, make recommendations, or check store policies. The assistant has the context to respond to that particular request. Everything runs locally through LM Studio.",
-    "body": "In Stride Support, a conversation can refer to the order you have selected and use tools to look up products, handle complaints, make recommendations, or check store policies. The assistant has the context to respond to that particular request. Everything runs locally through LM Studio. A React interface supplies the order details, while FastAPI connects the local LLM to five Model Context Protocol (MCP) tool servers that provide the information and actions it needs. A semantic gate filters unrelated requests, and a fine-tuned mBERT classifier detects sentiment.",
+    "description": "Customer-support questions make sense only when the assistant knows which order the person means and which actions are available. I built Stride Support around that context. Selecting an order in the React interface gives the conversation its working object, while FastAPI connects a local LLM to five Model Context Protocol (MCP) tool servers for product search, recommendations, complaints, orders, and store policy.",
+    "body": "Customer-support questions make sense only when the assistant knows which order the person means and which actions are available. I built Stride Support around that context. Selecting an order in the React interface gives the conversation its working object, while FastAPI connects a local LLM to five Model Context Protocol (MCP) tool servers for product search, recommendations, complaints, orders, and store policy. A semantic gate keeps unrelated requests away from the tool pipeline, and a fine-tuned mBERT classifier adds sentiment to the decision. Everything runs locally through LM Studio, showing how a small on-device model can become useful when the interface and tools give it the right boundaries.",
     "parts": [
-      "In Stride Support, a conversation can refer to the order you have selected and use tools to look up products, handle complaints, make recommendations, or check store policies. The assistant has the context to respond to that particular request. Everything runs locally through LM Studio. A React interface supplies the order details, while FastAPI connects the local LLM to five Model Context Protocol (MCP) tool servers that provide the information and actions it needs. A semantic gate filters unrelated requests, and a fine-tuned mBERT classifier detects sentiment."
+      "Customer-support questions make sense only when the assistant knows which order the person means and which actions are available. I built Stride Support around that context. Selecting an order in the React interface gives the conversation its working object, while FastAPI connects a local LLM to five Model Context Protocol (MCP) tool servers for product search, recommendations, complaints, orders, and store policy. A semantic gate keeps unrelated requests away from the tool pipeline, and a fine-tuned mBERT classifier adds sentiment to the decision. Everything runs locally through LM Studio, showing how a small on-device model can become useful when the interface and tools give it the right boundaries."
     ],
     "view_kind": "project",
     "presentations": [
@@ -1016,16 +919,16 @@
     }
   },
   {
-    "id": 30,
+    "id": 26,
     "source_id": "projects:lexaday",
     "route": "/lexaday",
     "page": "Lexaday",
     "title": "Lexaday",
     "anchor": "",
-    "description": "I built Lexaday to teach related words together and bring them back for review. Each daily email introduces a word root with examples and a generated visual mnemonic. Earlier roots return at increasing intervals through spaced repetition, with a separate progress record for each learner. GitHub Actions runs the lesson generation, saves the updated progress, and delivers the email on schedule.",
-    "body": "I built Lexaday to teach related words together and bring them back for review. Each daily email introduces a word root with examples and a generated visual mnemonic. Earlier roots return at increasing intervals through spaced repetition, with a separate progress record for each learner. GitHub Actions runs the lesson generation, saves the updated progress, and delivers the email on schedule.",
+    "description": "Memorising isolated vocabulary made it easy to miss the structure shared by related words. I built Lexaday around word roots, so one daily lesson can connect several words through a common idea. A generated visual mnemonic gives the root a memorable scene, while examples show how it travels across different words.",
+    "body": "Memorising isolated vocabulary made it easy to miss the structure shared by related words. I built Lexaday around word roots, so one daily lesson can connect several words through a common idea. A generated visual mnemonic gives the root a memorable scene, while examples show how it travels across different words. Earlier roots return at increasing intervals through spaced repetition, with a separate progress record for each learner. GitHub Actions runs the generation, updates that learner’s schedule, and sends the lesson by email, turning a small personal learning method into a system that keeps itself moving.",
     "parts": [
-      "I built Lexaday to teach related words together and bring them back for review. Each daily email introduces a word root with examples and a generated visual mnemonic. Earlier roots return at increasing intervals through spaced repetition, with a separate progress record for each learner. GitHub Actions runs the lesson generation, saves the updated progress, and delivers the email on schedule."
+      "Memorising isolated vocabulary made it easy to miss the structure shared by related words. I built Lexaday around word roots, so one daily lesson can connect several words through a common idea. A generated visual mnemonic gives the root a memorable scene, while examples show how it travels across different words. Earlier roots return at increasing intervals through spaced repetition, with a separate progress record for each learner. GitHub Actions runs the generation, updates that learner’s schedule, and sends the lesson by email, turning a small personal learning method into a system that keeps itself moving."
     ],
     "view_kind": "project",
     "presentations": [
@@ -1062,16 +965,16 @@
     }
   },
   {
-    "id": 31,
+    "id": 27,
     "source_id": "projects:early",
     "route": "/early",
     "page": "How I Started Building with Code",
     "title": "How I Started Building with Code",
     "anchor": "",
-    "description": "These projects trace how I first learned to program during secondary school. I built a downloader for Scientific American audio and transcripts, several Chrome extensions, the first website for Kiwiview International Limited, small automation scripts, and Econographer, a Microsoft Word add-in for drawing economics diagrams.",
-    "body": "These projects trace how I first learned to program during secondary school. I built a downloader for Scientific American audio and transcripts, several Chrome extensions, the first website for Kiwiview International Limited, small automation scripts, and Econographer, a Microsoft Word add-in for drawing economics diagrams. Some of the projects were naive, and a few raised legal or ethical questions that I understood only later. I keep them here, including the parts I now see differently.",
+    "description": "I learned to program by making small things that solved whatever problem had captured my attention. That led to a downloader for Scientific American audio and transcripts, several Chrome extensions, the first website for Kiwiview International Limited, automation scripts, and Econographer, a Microsoft Word add-in for drawing economics diagrams.",
+    "body": "I learned to program by making small things that solved whatever problem had captured my attention. That led to a downloader for Scientific American audio and transcripts, several Chrome extensions, the first website for Kiwiview International Limited, automation scripts, and Econographer, a Microsoft Word add-in for drawing economics diagrams. Each project pushed me into a new layer of the computer, from browser behaviour to document tooling and interface design. Some ideas were naive, and a few raised legal or ethical questions that I understood only later. I keep that uneven history visible because it shows both the energy that started the work and the judgement that developed through it.",
     "parts": [
-      "These projects trace how I first learned to program during secondary school. I built a downloader for Scientific American audio and transcripts, several Chrome extensions, the first website for Kiwiview International Limited, small automation scripts, and Econographer, a Microsoft Word add-in for drawing economics diagrams. Some of the projects were naive, and a few raised legal or ethical questions that I understood only later. I keep them here, including the parts I now see differently."
+      "I learned to program by making small things that solved whatever problem had captured my attention. That led to a downloader for Scientific American audio and transcripts, several Chrome extensions, the first website for Kiwiview International Limited, automation scripts, and Econographer, a Microsoft Word add-in for drawing economics diagrams. Each project pushed me into a new layer of the computer, from browser behaviour to document tooling and interface design. Some ideas were naive, and a few raised legal or ethical questions that I understood only later. I keep that uneven history visible because it shows both the energy that started the work and the judgement that developed through it."
     ],
     "view_kind": "project",
     "presentations": [
@@ -1108,7 +1011,7 @@
     }
   },
   {
-    "id": 32,
+    "id": 28,
     "source_id": "travels:overview",
     "route": "/travels",
     "page": "Travels",
@@ -1127,7 +1030,7 @@
     "media": []
   },
   {
-    "id": 33,
+    "id": 29,
     "source_id": "playbook:overview",
     "route": "/playbook",
     "page": "Insurance Product Configuration Engine",
@@ -1146,7 +1049,7 @@
     "media": []
   },
   {
-    "id": 34,
+    "id": 30,
     "source_id": "playbook:first-the-problem",
     "route": "/playbook",
     "page": "Insurance Product Configuration Engine",
@@ -1165,7 +1068,7 @@
     "media": []
   },
   {
-    "id": 35,
+    "id": 31,
     "source_id": "playbook:the-idea",
     "route": "/playbook",
     "page": "Insurance Product Configuration Engine",
@@ -1185,7 +1088,7 @@
     "media": []
   },
   {
-    "id": 36,
+    "id": 32,
     "source_id": "playbook:try-it",
     "route": "/playbook",
     "page": "Insurance Product Configuration Engine",
@@ -1204,7 +1107,7 @@
     "media": []
   },
   {
-    "id": 37,
+    "id": 33,
     "source_id": "playbook:from-the-packing-demo-to-the-production-tool",
     "route": "/playbook",
     "page": "Insurance Product Configuration Engine",
@@ -1223,7 +1126,7 @@
     "media": []
   },
   {
-    "id": 38,
+    "id": 34,
     "source_id": "lexaday:overview",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1242,7 +1145,7 @@
     "media": []
   },
   {
-    "id": 39,
+    "id": 35,
     "source_id": "lexaday:a-small-lesson-generated-fresh-each-morning",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1261,7 +1164,7 @@
     "media": []
   },
   {
-    "id": 40,
+    "id": 36,
     "source_id": "lexaday:the-learning-loop",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1280,7 +1183,7 @@
     "media": []
   },
   {
-    "id": 41,
+    "id": 37,
     "source_id": "lexaday:pick",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1299,7 +1202,7 @@
     "media": []
   },
   {
-    "id": 42,
+    "id": 38,
     "source_id": "lexaday:write",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1318,7 +1221,7 @@
     "media": []
   },
   {
-    "id": 43,
+    "id": 39,
     "source_id": "lexaday:imagine",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1337,7 +1240,7 @@
     "media": []
   },
   {
-    "id": 44,
+    "id": 40,
     "source_id": "lexaday:send",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1356,7 +1259,7 @@
     "media": []
   },
   {
-    "id": 45,
+    "id": 41,
     "source_id": "lexaday:what-the-reader-receives",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1375,7 +1278,7 @@
     "media": []
   },
   {
-    "id": 46,
+    "id": 42,
     "source_id": "lexaday:how-it-is-packaged",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1394,7 +1297,7 @@
     "media": []
   },
   {
-    "id": 47,
+    "id": 43,
     "source_id": "dealtracker:overview",
     "route": "/dealtracker",
     "page": "Dealtracker",
@@ -1413,7 +1316,7 @@
     "media": []
   },
   {
-    "id": 48,
+    "id": 44,
     "source_id": "dealtracker:from-noisy-sale-pages-to-a-short-inbox-digest",
     "route": "/dealtracker",
     "page": "Dealtracker",
@@ -1432,7 +1335,7 @@
     "media": []
   },
   {
-    "id": 49,
+    "id": 45,
     "source_id": "dealtracker:the-email-output",
     "route": "/dealtracker",
     "page": "Dealtracker",
@@ -1451,7 +1354,7 @@
     "media": []
   },
   {
-    "id": 50,
+    "id": 46,
     "source_id": "dealtracker:what-happens-behind-the-email",
     "route": "/dealtracker",
     "page": "Dealtracker",
@@ -1471,7 +1374,7 @@
     "media": []
   },
   {
-    "id": 51,
+    "id": 47,
     "source_id": "dealtracker:the-control-layer",
     "route": "/dealtracker",
     "page": "Dealtracker",
@@ -1490,7 +1393,7 @@
     "media": []
   },
   {
-    "id": 52,
+    "id": 48,
     "source_id": "scrollytelling:overview",
     "route": "/scrollytelling",
     "page": "Scrollytelling Engine",
@@ -1509,7 +1412,7 @@
     "media": []
   },
   {
-    "id": 53,
+    "id": 49,
     "source_id": "scrollytelling:see-it-as-a-story",
     "route": "/scrollytelling",
     "page": "Scrollytelling Engine",
@@ -1528,7 +1431,7 @@
     "media": []
   },
   {
-    "id": 54,
+    "id": 50,
     "source_id": "scrollytelling:describe-a-scene-once-then-let-the-engine-build-it",
     "route": "/scrollytelling",
     "page": "Scrollytelling Engine",
@@ -1547,7 +1450,7 @@
     "media": []
   },
   {
-    "id": 55,
+    "id": 51,
     "source_id": "scrollytelling:under-the-hood",
     "route": "/scrollytelling",
     "page": "Scrollytelling Engine",
@@ -1566,7 +1469,7 @@
     "media": []
   },
   {
-    "id": 56,
+    "id": 52,
     "source_id": "views:overview",
     "route": "/views",
     "page": "Public views",
@@ -1586,7 +1489,7 @@
     "media": []
   },
   {
-    "id": 57,
+    "id": 53,
     "source_id": "early:overview",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1607,7 +1510,7 @@
     "media": []
   },
   {
-    "id": 58,
+    "id": 54,
     "source_id": "early:how-it-started",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1649,7 +1552,7 @@
     }
   },
   {
-    "id": 59,
+    "id": 55,
     "source_id": "early:batch-downloading-scientific-american-episodes",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1702,7 +1605,7 @@
     }
   },
   {
-    "id": 60,
+    "id": 56,
     "source_id": "early:chrome-extension-experiments",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1755,7 +1658,7 @@
     }
   },
   {
-    "id": 61,
+    "id": 57,
     "source_id": "early:music-streaming-hacks",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1829,7 +1732,7 @@
     }
   },
   {
-    "id": 62,
+    "id": 58,
     "source_id": "early:building-kiwiviews-website",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1858,7 +1761,7 @@
     }
   },
   {
-    "id": 63,
+    "id": 59,
     "source_id": "early:simple-automation",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1896,7 +1799,7 @@
     }
   },
   {
-    "id": 64,
+    "id": 60,
     "source_id": "early:econographer-an-economics-graphs-generator",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1932,7 +1835,7 @@
     }
   },
   {
-    "id": 65,
+    "id": 61,
     "source_id": "aipersonalarchive:overview",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1952,7 +1855,7 @@
     "media": []
   },
   {
-    "id": 66,
+    "id": 62,
     "source_id": "aipersonalarchive:search-turns-the-whole-site-into-one-navigable-space",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1973,7 +1876,7 @@
     "media": []
   },
   {
-    "id": 67,
+    "id": 63,
     "source_id": "aipersonalarchive:seeing-the-archive-as-a-space",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1993,7 +1896,7 @@
     "media": []
   },
   {
-    "id": 68,
+    "id": 64,
     "source_id": "aipersonalarchive:ask-brings-related-passages-into-one-answer",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -2013,7 +1916,7 @@
     "media": []
   },
   {
-    "id": 69,
+    "id": 65,
     "source_id": "aipersonalarchive:find",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -2032,7 +1935,7 @@
     "media": []
   },
   {
-    "id": 70,
+    "id": 66,
     "source_id": "aipersonalarchive:set-the-scope",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -2051,7 +1954,7 @@
     "media": []
   },
   {
-    "id": 71,
+    "id": 67,
     "source_id": "aipersonalarchive:write",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -2070,7 +1973,7 @@
     "media": []
   },
   {
-    "id": 72,
+    "id": 68,
     "source_id": "aipersonalarchive:cite",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -2089,7 +1992,7 @@
     "media": []
   },
   {
-    "id": 73,
+    "id": 69,
     "source_id": "aipersonalarchive:view-reorganises-the-site-around-a-question",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -2109,7 +2012,7 @@
     "media": []
   },
   {
-    "id": 74,
+    "id": 70,
     "source_id": "aipersonalarchive:views-over-time",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -2128,7 +2031,7 @@
     "media": []
   },
   {
-    "id": 75,
+    "id": 71,
     "source_id": "aipersonalarchive:what-the-archive-gives-back",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -2147,17 +2050,17 @@
     "media": []
   },
   {
-    "id": 76,
+    "id": 72,
     "source_id": "ragflow-pipeline:overview",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
     "title": "A Structure-Preserving RAG Ingestion Pipeline",
     "anchor": "",
-    "description": "Keeping rules and their conditions together when preparing PDFs for an AI assistant At PwC, I helped design how a public-enquiry system reads the rules published in complex PDFs. It used retrieval-augmented generation (RAG), giving a language model relevant passages to answer each question, so the quality of those passages mattered before the model began to write.",
-    "body": "Keeping rules and their conditions together when preparing PDFs for an AI assistant At PwC, I helped design how a public-enquiry system reads the rules published in complex PDFs. It used retrieval-augmented generation (RAG), giving a language model relevant passages to answer each question, so the quality of those passages mattered before the model began to write. If a rule is qualified by a note several pages later, reading the sentence alone can produce the wrong answer. The same problem appears when a table crosses a page break or a flowchart expresses a decision through its branches, because the relationship between the pieces is part of the meaning. Ordinary parsing and chunking could separate those pieces even though a person reading the PDF could follow them. My work on the knowledge-base ingestion pipeline focused on preserving those relationships before the documents were divided into searchable chunks. A retrieved rule would then arrive with the qualifications needed to interpret it.",
+    "description": "Keeping rules and their conditions together when preparing PDFs for an AI assistant At PwC, I worked on the document pipeline behind a public-enquiry assistant. When someone asked a question, the system used retrieval-augmented generation (RAG) to find relevant passages from published rules and place them in front of a language model before it wrote an answer.",
+    "body": "Keeping rules and their conditions together when preparing PDFs for an AI assistant At PwC, I worked on the document pipeline behind a public-enquiry assistant. When someone asked a question, the system used retrieval-augmented generation (RAG) to find relevant passages from published rules and place them in front of a language model before it wrote an answer. The answer could only be as complete as the evidence that arrived with the question. The difficult cases did not necessarily look broken. A sentence could state a rule clearly, then point to a note four pages later that limited when the rule applied. A table could continue across a page break. A flowchart could contain every relevant word, while the arrows between those words carried the actual decision. A parser might recover all the visible content and still lose the relationship that changed its meaning. This shifted my attention away from extraction accuracy alone. The knowledge-base ingestion pipeline had to repair the connections a careful human reader would follow across the page before the documents were divided into searchable chunks. Then, when the assistant retrieved a rule, its qualifications could travel with it.",
     "parts": [
-      "Keeping rules and their conditions together when preparing PDFs for an AI assistant At PwC, I helped design how a public-enquiry system reads the rules published in complex PDFs. It used retrieval-augmented generation (RAG), giving a language model relevant passages to answer each question, so the quality of those passages mattered before the model began to write. If a rule is qualified by a note several pages later, reading the sentence alone can produce the wrong answer. The same problem appears when a table crosses a page break or a flowchart expresses a decision through its branches, because the relationship between the pieces is part of the meaning. Ordinary parsing and chunking could separate those pieces even though a person reading the PDF could follow them.",
-      "My work on the knowledge-base ingestion pipeline focused on preserving those relationships before the documents were divided into searchable chunks. A retrieved rule would then arrive with the qualifications needed to interpret it."
+      "Keeping rules and their conditions together when preparing PDFs for an AI assistant At PwC, I worked on the document pipeline behind a public-enquiry assistant. When someone asked a question, the system used retrieval-augmented generation (RAG) to find relevant passages from published rules and place them in front of a language model before it wrote an answer. The answer could only be as complete as the evidence that arrived with the question. The difficult cases did not necessarily look broken. A sentence could state a rule clearly, then point to a note four pages later that limited when the rule applied. A table could continue across a page break. A flowchart could contain every relevant word, while the arrows between those words carried the actual decision. A parser might recover all the visible content and still lose the relationship that changed its meaning.",
+      "This shifted my attention away from extraction accuracy alone. The knowledge-base ingestion pipeline had to repair the connections a careful human reader would follow across the page before the documents were divided into searchable chunks. Then, when the assistant retrieved a rule, its qualifications could travel with it."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2167,17 +2070,18 @@
     "media": []
   },
   {
-    "id": 77,
-    "source_id": "ragflow-pipeline:an-architecture-shaped-by-the-documents",
+    "id": 73,
+    "source_id": "ragflow-pipeline:why-one-pdf-needed-several-ways-of-reading",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
-    "title": "An architecture shaped by the documents",
-    "anchor": "an-architecture-shaped-by-the-documents",
-    "description": "MinerU, a structured PDF parser, handled text and table layout, leaving the relationships it missed for custom processing. For an explicit reference such as Note (4), I could locate the matching note with a rule-based linker and check that it had been reattached correctly.",
-    "body": "MinerU, a structured PDF parser, handled text and table layout, leaving the relationships it missed for custom processing. For an explicit reference such as Note (4), I could locate the matching note with a rule-based linker and check that it had been reattached correctly. Flowcharts called for visual interpretation, so I used a vision-language model (VLM) to reconstruct their nodes, labels, and branches as Mermaid, a text-based diagram format. The resulting material could enter the same RAGFlow chunking and retrieval process. Sending every page through the VLM would have introduced costs and maintenance work the client would continue to bear after implementation. The architecture had to fit its existing infrastructure, and the team preferred to operate a single AI model where possible. I reserved the VLM for flowcharts, where the connections between shapes carried information that text extraction lost. Text, tables, and explicit references could be handled with more predictable methods whose output was easier to check. I tested these choices together in a proof of concept, then used the results, infrastructure requirements, and operating costs to develop the client recommendation. The pipeline below shows where each repair happens and how its effect carries through to the answer. Across the test document's 13 cross-page references, the linker places each note beside the sentence that cites it before chunking. The retrieval check then returns the rule and its qualification together.",
+    "title": "Why one PDF needed several ways of reading",
+    "anchor": "why-one-pdf-needed-several-ways-of-reading",
+    "description": "I started by looking at what each kind of document element asked a reader to understand. Paragraphs and tables mostly depended on order and layout. A reference such as Note (4) depended on finding the matching note elsewhere in the section. A flowchart depended on seeing which shape led to which branch. Treating all three as the same extraction problem would have hidden those differences.",
+    "body": "I started by looking at what each kind of document element asked a reader to understand. Paragraphs and tables mostly depended on order and layout. A reference such as Note (4) depended on finding the matching note elsewhere in the section. A flowchart depended on seeing which shape led to which branch. Treating all three as the same extraction problem would have hidden those differences. For ordinary text and tables, I began with MinerU. It is a PDF parser that turns the visual layout of a page into structured text while keeping features such as rows, columns, and reading order. It handled much of the document well, which left a smaller and more meaningful set of failures to repair. The cross-page notes were explicit enough to repair with rules. When a sentence ended in (4), a linker could search the relevant section for Note (4), bring the two pieces together, and leave a trail that was easy to inspect. Flowcharts needed a different kind of reading. I used a vision-language model (VLM) to follow their shapes and arrows, then record the reconstructed diagram as Mermaid, a text format that preserves nodes and connections. Both results could then enter RAGFlow, the retrieval platform used in the proof of concept. It would have been simpler on paper to send every page through the VLM. In practice, that choice would increase cost, make more of the pipeline probabilistic, and leave the client with more model-dependent behaviour to maintain. I reserved visual reasoning for the places where layout carried meaning that deterministic methods could not recover. The rest stayed on a path whose output was easier to verify. I brought these paths together in a five-page test document, then followed the repaired relationships through chunking, retrieval, and the final answer. The stages below let you open that path one step at a time. The test results, the client’s existing infrastructure, and the ongoing operating cost all informed the recommendation. Across the test document's 13 cross-page references, the linker places each note beside the sentence that cites it before chunking. The retrieval check then returns the rule and its qualification together.",
     "parts": [
-      "MinerU, a structured PDF parser, handled text and table layout, leaving the relationships it missed for custom processing. For an explicit reference such as Note (4), I could locate the matching note with a rule-based linker and check that it had been reattached correctly. Flowcharts called for visual interpretation, so I used a vision-language model (VLM) to reconstruct their nodes, labels, and branches as Mermaid, a text-based diagram format. The resulting material could enter the same RAGFlow chunking and retrieval process. Sending every page through the VLM would have introduced costs and maintenance work the client would continue to bear after implementation. The architecture had to fit its existing infrastructure, and the team preferred to operate a single AI model where possible.",
-      "I reserved the VLM for flowcharts, where the connections between shapes carried information that text extraction lost. Text, tables, and explicit references could be handled with more predictable methods whose output was easier to check. I tested these choices together in a proof of concept, then used the results, infrastructure requirements, and operating costs to develop the client recommendation. The pipeline below shows where each repair happens and how its effect carries through to the answer. Across the test document's 13 cross-page references, the linker places each note beside the sentence that cites it before chunking. The retrieval check then returns the rule and its qualification together."
+      "I started by looking at what each kind of document element asked a reader to understand. Paragraphs and tables mostly depended on order and layout. A reference such as Note (4) depended on finding the matching note elsewhere in the section. A flowchart depended on seeing which shape led to which branch. Treating all three as the same extraction problem would have hidden those differences. For ordinary text and tables, I began with MinerU. It is a PDF parser that turns the visual layout of a page into structured text while keeping features such as rows, columns, and reading order. It handled much of the document well, which left a smaller and more meaningful set of failures to repair. The cross-page notes were explicit enough to repair with rules.",
+      "When a sentence ended in (4), a linker could search the relevant section for Note (4), bring the two pieces together, and leave a trail that was easy to inspect. Flowcharts needed a different kind of reading. I used a vision-language model (VLM) to follow their shapes and arrows, then record the reconstructed diagram as Mermaid, a text format that preserves nodes and connections. Both results could then enter RAGFlow, the retrieval platform used in the proof of concept. It would have been simpler on paper to send every page through the VLM. In practice, that choice would increase cost, make more of the pipeline probabilistic, and leave the client with more model-dependent behaviour to maintain. I reserved visual reasoning for the places where layout carried meaning that deterministic methods could not recover. The rest stayed on a path whose output was easier to verify.",
+      "I brought these paths together in a five-page test document, then followed the repaired relationships through chunking, retrieval, and the final answer. The stages below let you open that path one step at a time. The test results, the client’s existing infrastructure, and the ongoing operating cost all informed the recommendation. Across the test document's 13 cross-page references, the linker places each note beside the sentence that cites it before chunking. The retrieval check then returns the rule and its qualification together."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2187,16 +2091,16 @@
     "media": []
   },
   {
-    "id": 78,
-    "source_id": "ragflow-pipeline:evidence-behind-the-architecture",
+    "id": 74,
+    "source_id": "ragflow-pipeline:what-i-tested-before-recommending-it",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
-    "title": "Evidence behind the architecture",
-    "anchor": "evidence-behind-the-architecture",
-    "description": "To judge the pipeline, I checked whether retrieval returned a rule with its qualification as well as whether the parsed document looked intact. The controlled document made those checks repeatable. I also compared alternative parsing and image-based approaches to understand what each could preserve, and what extra processing would still be needed in the client's RAGFlow workflow.",
-    "body": "To judge the pipeline, I checked whether retrieval returned a rule with its qualification as well as whether the parsed document looked intact. The controlled document made those checks repeatable. I also compared alternative parsing and image-based approaches to understand what each could preserve, and what extra processing would still be needed in the client's RAGFlow workflow.",
+    "title": "What I tested before recommending it",
+    "anchor": "what-i-tested-before-recommending-it",
+    "description": "A parsed page can look convincing while the assistant still retrieves incomplete evidence. I therefore checked the end of the path as well as the beginning. The important question was whether a user’s query brought back the rule together with the note that changed how it should be applied. Keeping the document fixed made that check repeatable after every repair.",
+    "body": "A parsed page can look convincing while the assistant still retrieves incomplete evidence. I therefore checked the end of the path as well as the beginning. The important question was whether a user’s query brought back the rule together with the note that changed how it should be applied. Keeping the document fixed made that check repeatable after every repair. I also tried multi-page OCR, image-based retrieval, and three ways of representing flowcharts to see where each approach helped and where it quietly dropped a relationship.",
     "parts": [
-      "To judge the pipeline, I checked whether retrieval returned a rule with its qualification as well as whether the parsed document looked intact. The controlled document made those checks repeatable. I also compared alternative parsing and image-based approaches to understand what each could preserve, and what extra processing would still be needed in the client's RAGFlow workflow."
+      "A parsed page can look convincing while the assistant still retrieves incomplete evidence. I therefore checked the end of the path as well as the beginning. The important question was whether a user’s query brought back the rule together with the note that changed how it should be applied. Keeping the document fixed made that check repeatable after every repair. I also tried multi-page OCR, image-based retrieval, and three ways of representing flowcharts to see where each approach helped and where it quietly dropped a relationship."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2206,16 +2110,17 @@
     "media": []
   },
   {
-    "id": 79,
+    "id": 75,
     "source_id": "ai-it-operations:overview",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
     "title": "AI for IT Operations",
     "anchor": "",
-    "description": "Knowledge Management and Browser Control for IT support At PwC, I worked on an AI platform for IT support teams, where a simple request can leave someone with quite a lot to do. Giving a colleague access to a workspace means finding the right account and changing its permissions. Helping with a broken application may mean searching through documentation before knowing what to try.",
-    "body": "Knowledge Management and Browser Control for IT support At PwC, I worked on an AI platform for IT support teams, where a simple request can leave someone with quite a lot to do. Giving a colleague access to a workspace means finding the right account and changing its permissions. Helping with a broken application may mean searching through documentation before knowing what to try. I built two parts of the platform to help with this work. Knowledge Management finds and maintains the material used by the question-answering assistant. Browser Control lets an operator hand a ticket to an AI agent that works through the application in their browser.",
+    "description": "Knowledge Management and Browser Control for IT support At PwC, I worked on an AI platform that could support two sides of IT operations. It could answer technical questions from a maintained body of evidence, and it could carry out service tickets inside the browser where an operator already had access to the relevant business applications.",
+    "body": "Knowledge Management and Browser Control for IT support At PwC, I worked on an AI platform that could support two sides of IT operations. It could answer technical questions from a maintained body of evidence, and it could carry out service tickets inside the browser where an operator already had access to the relevant business applications. A request to give a colleague access might require finding the right account, changing its permissions, and stopping for multi-factor authentication. A question about a broken application might first expose a gap in the available guidance. I built two connected parts around those needs. Knowledge Management uses AI to identify missing questions, group related gaps into research objectives, find authoritative starting pages, and steer focused crawling towards useful evidence. Browser Control lets an operator hand a natural-language ticket to an AI agent, watch it work in a separate browser tab, and intervene whenever human judgement or authentication is needed.",
     "parts": [
-      "Knowledge Management and Browser Control for IT support At PwC, I worked on an AI platform for IT support teams, where a simple request can leave someone with quite a lot to do. Giving a colleague access to a workspace means finding the right account and changing its permissions. Helping with a broken application may mean searching through documentation before knowing what to try. I built two parts of the platform to help with this work. Knowledge Management finds and maintains the material used by the question-answering assistant. Browser Control lets an operator hand a ticket to an AI agent that works through the application in their browser."
+      "Knowledge Management and Browser Control for IT support At PwC, I worked on an AI platform that could support two sides of IT operations. It could answer technical questions from a maintained body of evidence, and it could carry out service tickets inside the browser where an operator already had access to the relevant business applications. A request to give a colleague access might require finding the right account, changing its permissions, and stopping for multi-factor authentication. A question about a broken application might first expose a gap in the available guidance. I built two connected parts around those needs. Knowledge Management uses AI to identify missing questions, group related gaps into research objectives, find authoritative starting pages, and steer focused crawling towards useful evidence.",
+      "Browser Control lets an operator hand a natural-language ticket to an AI agent, watch it work in a separate browser tab, and intervene whenever human judgement or authentication is needed."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2225,7 +2130,7 @@
     "media": []
   },
   {
-    "id": 80,
+    "id": 76,
     "source_id": "ai-it-operations:knowledge-management",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2244,7 +2149,7 @@
     "media": []
   },
   {
-    "id": 81,
+    "id": 77,
     "source_id": "ai-it-operations:where-does-the-assistant-need-more-knowledge",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2264,7 +2169,7 @@
     "media": []
   },
   {
-    "id": 82,
+    "id": 78,
     "source_id": "ai-it-operations:finding-the-material-that-will-help",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2284,7 +2189,7 @@
     "media": []
   },
   {
-    "id": 83,
+    "id": 79,
     "source_id": "ai-it-operations:what-happens-when-the-guidance-changes",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2304,7 +2209,7 @@
     "media": []
   },
   {
-    "id": 84,
+    "id": 80,
     "source_id": "ai-it-operations:from-a-source-to-maintained-knowledge",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2324,7 +2229,7 @@
     "media": []
   },
   {
-    "id": 85,
+    "id": 81,
     "source_id": "ai-it-operations:browser-control",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2343,7 +2248,7 @@
     "media": []
   },
   {
-    "id": 86,
+    "id": 82,
     "source_id": "ai-it-operations:turning-the-request-into-actions",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2362,7 +2267,7 @@
     "media": []
   },
   {
-    "id": 87,
+    "id": 83,
     "source_id": "ai-it-operations:why-a-browser-extension",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2381,7 +2286,7 @@
     "media": []
   },
   {
-    "id": 88,
+    "id": 84,
     "source_id": "ai-it-operations:a-place-to-start-intervene-and-look-back",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2400,7 +2305,7 @@
     "media": []
   },
   {
-    "id": 89,
+    "id": 85,
     "source_id": "ai-it-operations:from-planning-to-a-browser-action",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2419,7 +2324,29 @@
     "media": []
   },
   {
-    "id": 90,
+    "id": 86,
+    "source_id": "ai-it-operations:where-judgement-changes-hands",
+    "route": "/ai-it-operations",
+    "page": "AI for IT Operations",
+    "title": "Where judgement changes hands",
+    "anchor": "where-judgement-changes-hands",
+    "description": "Reasoning, structured guidance, deterministic execution, and human responsibility across the same workflow. Building these two parts made me see the boundary as something that moves with the kind of uncertainty in front of the system. Early in a search, nobody knows which wording will uncover the best documentation. During a browser task, the next page may look different from the one the agent expected.",
+    "body": "Reasoning, structured guidance, deterministic execution, and human responsibility across the same workflow. Building these two parts made me see the boundary as something that moves with the kind of uncertainty in front of the system. Early in a search, nobody knows which wording will uncover the best documentation. During a browser task, the next page may look different from the one the agent expected. These are useful places for AI reasoning because the system has to interpret meaning, connect partial information, and revise a plan as new evidence appears. In Knowledge Management, that reasoning begins well before a crawler opens a page. AI suggests questions the existing library may be unable to answer, groups related gaps into a shared research objective, and searches for authoritative seed pages. During focused crawling, it judges which links remain relevant, which source is likely to add new information, and when an uncovered question calls for another seed search. The original questions stay in place as coverage requirements, while page limits, time limits, and diminishing information give the exploration a defined boundary. Once a source has been chosen, more of the work can become predictable. Extraction, normalisation, deduplication, chunking, and provenance mapping follow the same rules each time. Source monitoring begins in the same way. The system revisits a known URL, extracts its main content, normalises it, and compares it with the accepted snapshot. An unchanged page stops there. When the words have changed, AI returns to judge what the difference means for the knowledge derived from that page. Browser Control moves between these modes more frequently. The agent interprets the ticket and the current page, chooses a next action, then receives a fresh observation after Playwright and the browser extension carry out the click or form entry. The action itself is structured and recorded. Deciding which action serves the request depends on reasoning. Sign-in and multi-factor authentication return control to the operator, and a consequential change is prepared for approval before submission. The agent can do the repetitive navigation and adapt to the interface, while a person remains responsible for the point at which the business system is changed. These relationships form gradients. AI reasoning still works inside tool schemas, coverage requirements, task history, and operational limits. Deterministic steps still depend on earlier judgements about which source or action deserves to enter them.",
+    "parts": [
+      "Reasoning, structured guidance, deterministic execution, and human responsibility across the same workflow. Building these two parts made me see the boundary as something that moves with the kind of uncertainty in front of the system. Early in a search, nobody knows which wording will uncover the best documentation. During a browser task, the next page may look different from the one the agent expected. These are useful places for AI reasoning because the system has to interpret meaning, connect partial information, and revise a plan as new evidence appears. In Knowledge Management, that reasoning begins well before a crawler opens a page. AI suggests questions the existing library may be unable to answer, groups related gaps into a shared research objective, and searches for authoritative seed pages.",
+      "During focused crawling, it judges which links remain relevant, which source is likely to add new information, and when an uncovered question calls for another seed search. The original questions stay in place as coverage requirements, while page limits, time limits, and diminishing information give the exploration a defined boundary. Once a source has been chosen, more of the work can become predictable. Extraction, normalisation, deduplication, chunking, and provenance mapping follow the same rules each time. Source monitoring begins in the same way. The system revisits a known URL, extracts its main content, normalises it, and compares it with the accepted snapshot. An unchanged page stops there. When the words have changed, AI returns to judge what the difference means for the knowledge derived from that page. Browser Control moves between these modes more frequently.",
+      "The agent interprets the ticket and the current page, chooses a next action, then receives a fresh observation after Playwright and the browser extension carry out the click or form entry. The action itself is structured and recorded. Deciding which action serves the request depends on reasoning. Sign-in and multi-factor authentication return control to the operator, and a consequential change is prepared for approval before submission. The agent can do the repetitive navigation and adapt to the interface, while a person remains responsible for the point at which the business system is changed. These relationships form gradients. AI reasoning still works inside tool schemas, coverage requirements, task history, and operational limits. Deterministic steps still depend on earlier judgements about which source or action deserves to enter them.",
+      "I used structure to narrow the space of possible decisions as the work moved closer to a lasting consequence. People enter where context, authority, or accountability cannot be delegated safely. This gives the agent room to explore and adapt while keeping the resulting knowledge and actions inspectable."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 0,
+    "media": []
+  },
+  {
+    "id": 87,
     "source_id": "fragments:overview",
     "route": "/fragments",
     "page": "Fragments",
@@ -2438,7 +2365,7 @@
     "media": []
   },
   {
-    "id": 91,
+    "id": 88,
     "source_id": "fragments:the-projection-of-thought",
     "route": "/fragments",
     "page": "Fragments",
@@ -2471,7 +2398,7 @@
     }
   },
   {
-    "id": 92,
+    "id": 89,
     "source_id": "fragments:rebuilding-another-state-inside-me",
     "route": "/fragments",
     "page": "Fragments",
@@ -2504,7 +2431,7 @@
     }
   },
   {
-    "id": 93,
+    "id": 90,
     "source_id": "fragments:visible-part-of-the-mind",
     "route": "/fragments",
     "page": "Fragments",
@@ -2534,7 +2461,7 @@
     }
   },
   {
-    "id": 94,
+    "id": 91,
     "source_id": "fragments:understanding-before-definition",
     "route": "/fragments",
     "page": "Fragments",
@@ -2563,7 +2490,7 @@
     }
   },
   {
-    "id": 95,
+    "id": 92,
     "source_id": "fragments:expression-recording",
     "route": "/fragments",
     "page": "Fragments",
@@ -2595,7 +2522,7 @@
     }
   },
   {
-    "id": 96,
+    "id": 93,
     "source_id": "fragments:rich-traces-and-open-paths",
     "route": "/fragments",
     "page": "Fragments",
@@ -2627,7 +2554,7 @@
     }
   },
   {
-    "id": 97,
+    "id": 94,
     "source_id": "fragments:labels-goals-rules",
     "route": "/fragments",
     "page": "Fragments",
@@ -2663,7 +2590,7 @@
     }
   },
   {
-    "id": 98,
+    "id": 95,
     "source_id": "fragments:memory-time-self",
     "route": "/fragments",
     "page": "Fragments",
@@ -2697,7 +2624,7 @@
     }
   },
   {
-    "id": 99,
+    "id": 96,
     "source_id": "fragments:satisfaction-signal",
     "route": "/fragments",
     "page": "Fragments",
@@ -2730,7 +2657,7 @@
     }
   },
   {
-    "id": 100,
+    "id": 97,
     "source_id": "fragments:queen-victoria-market-toast-oysters",
     "route": "/fragments",
     "page": "Fragments",
@@ -2757,7 +2684,7 @@
     }
   },
   {
-    "id": 101,
+    "id": 98,
     "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
     "route": "/fragments",
     "page": "Fragments",
@@ -2784,7 +2711,7 @@
     }
   },
   {
-    "id": 102,
+    "id": 99,
     "source_id": "fragments:ai-generated-kitten-videos",
     "route": "/fragments",
     "page": "Fragments",
@@ -2812,7 +2739,7 @@
     }
   },
   {
-    "id": 103,
+    "id": 100,
     "source_id": "fragments:identity-interview-reflection",
     "route": "/fragments",
     "page": "Fragments",
@@ -2840,7 +2767,7 @@
     }
   },
   {
-    "id": 104,
+    "id": 101,
     "source_id": "fragments:napier-seaside-with-my-mother",
     "route": "/fragments",
     "page": "Fragments",
@@ -2869,7 +2796,7 @@
     }
   },
   {
-    "id": 105,
+    "id": 102,
     "source_id": "fragments:mothers-cooking-across-places",
     "route": "/fragments",
     "page": "Fragments",
@@ -2897,7 +2824,7 @@
     }
   },
   {
-    "id": 106,
+    "id": 103,
     "source_id": "fragments:golf-with-my-mother-in-new-zealand",
     "route": "/fragments",
     "page": "Fragments",
@@ -2924,7 +2851,7 @@
     }
   },
   {
-    "id": 107,
+    "id": 104,
     "source_id": "fragments:slr-lab-racket-games",
     "route": "/fragments",
     "page": "Fragments",
@@ -2951,7 +2878,7 @@
     }
   },
   {
-    "id": 108,
+    "id": 105,
     "source_id": "fragments:kennedy-town-seaside-hku-years",
     "route": "/fragments",
     "page": "Fragments",
@@ -2979,7 +2906,7 @@
     }
   },
   {
-    "id": 109,
+    "id": 106,
     "source_id": "fragments:sydney-harbour-ferry-rides",
     "route": "/fragments",
     "page": "Fragments",
@@ -3007,7 +2934,7 @@
     }
   },
   {
-    "id": 110,
+    "id": 107,
     "source_id": "fragments:gold-coast-water-and-city-line",
     "route": "/fragments",
     "page": "Fragments",
@@ -3035,7 +2962,7 @@
     }
   },
   {
-    "id": 111,
+    "id": 108,
     "source_id": "fragments:great-ocean-road-melbourne-friends",
     "route": "/fragments",
     "page": "Fragments",
@@ -3063,7 +2990,7 @@
     }
   },
   {
-    "id": 112,
+    "id": 109,
     "source_id": "fragments:taiwan-east-coast-family-road-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -3091,7 +3018,7 @@
     }
   },
   {
-    "id": 113,
+    "id": 110,
     "source_id": "fragments:tomatoes-of-august-29",
     "route": "/fragments",
     "page": "Fragments",
@@ -3122,7 +3049,7 @@
     }
   },
   {
-    "id": 114,
+    "id": 111,
     "source_id": "fragments:athens-ruins-and-family-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -3150,7 +3077,7 @@
     }
   },
   {
-    "id": 115,
+    "id": 112,
     "source_id": "fragments:swimming-in-the-mediterranean",
     "route": "/fragments",
     "page": "Fragments",
@@ -3178,7 +3105,7 @@
     }
   },
   {
-    "id": 116,
+    "id": 113,
     "source_id": "fragments:rainy-days-permission-to-stay-in",
     "route": "/fragments",
     "page": "Fragments",
@@ -3205,7 +3132,7 @@
     }
   },
   {
-    "id": 117,
+    "id": 114,
     "source_id": "fragments:mental-map-of-small-room",
     "route": "/fragments",
     "page": "Fragments",
@@ -3233,7 +3160,7 @@
     }
   },
   {
-    "id": 118,
+    "id": 115,
     "source_id": "fragments:first-camera-another-way-of-seeing",
     "route": "/fragments",
     "page": "Fragments",
@@ -3261,7 +3188,7 @@
     }
   },
   {
-    "id": 119,
+    "id": 116,
     "source_id": "fragments:music-that-became-more-spacious",
     "route": "/fragments",
     "page": "Fragments",
@@ -3289,7 +3216,7 @@
     }
   },
   {
-    "id": 120,
+    "id": 117,
     "source_id": "cv:profile",
     "route": "/cv",
     "page": "CV",
@@ -3308,7 +3235,7 @@
     "media": []
   },
   {
-    "id": 121,
+    "id": 118,
     "source_id": "cv:education",
     "route": "/cv",
     "page": "CV",
@@ -3327,7 +3254,7 @@
     "media": []
   },
   {
-    "id": 122,
+    "id": 119,
     "source_id": "cv:experience",
     "route": "/cv",
     "page": "CV",
@@ -3347,7 +3274,7 @@
     "media": []
   },
   {
-    "id": 123,
+    "id": 120,
     "source_id": "cv:publications-preprints",
     "route": "/cv",
     "page": "CV",
@@ -3367,7 +3294,7 @@
     "media": []
   },
   {
-    "id": 124,
+    "id": 121,
     "source_id": "about:gallery",
     "route": "/about",
     "page": "About",
@@ -3688,7 +3615,7 @@
     }
   },
   {
-    "id": 125,
+    "id": 122,
     "source_id": "home:currently",
     "route": "/home",
     "page": "Home",
