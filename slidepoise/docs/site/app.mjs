@@ -571,9 +571,10 @@ function closeArtifact() {
   motion.finished.then(() => { if (state.artifactMotion === motion) dialog.close(); }).catch(() => {});
 }
 
-async function openArtifact({ title, description = '', url, trigger = document.activeElement, crop = null, render = null, canvas = null }) {
+async function openArtifact({ title, description = '', url, trigger = document.activeElement, crop = null, render = null, canvas = null, architecture = false }) {
   if (!url) return;
   const dialog = byId('artifact-dialog');
+  dialog.classList.toggle('is-architecture', architecture);
   const opening = !dialog.open;
   state.artifactMotion?.cancel();
   if (opening) state.artifactTrigger = trigger;
@@ -861,3 +862,90 @@ async function start() {
   }
 }
 start();
+
+
+// Finished examples introduce the product before its technical walkthrough.
+const overviewExamples = {
+  consulting: {
+    label: 'Consulting example',
+    caption: 'An evidence-led presentation with editable text, tables and a native PowerPoint chart.',
+    alt: 'A consulting presentation with editable text, a table and a native PowerPoint chart',
+  },
+  editorial: {
+    label: 'Editorial example',
+    caption: 'Five slides share a visual language, with text and original illustrations kept as separate objects.',
+    alt: 'Five editorial slides with an editable heading and a separate paper collage illustration',
+  },
+};
+let overviewActive = 'editorial';
+function selectOverview(key, keyboard = false) {
+  overviewActive = key;
+  const example = overviewExamples[key];
+  document.querySelectorAll('[data-overview]').forEach(button => {
+    const selected = button.dataset.overview === key;
+    button.setAttribute('aria-selected', String(selected));
+    button.tabIndex = selected ? 0 : -1;
+  });
+  document.querySelectorAll('[data-overview-image]').forEach(image => {
+    const selected = image.dataset.overviewImage === key;
+    image.classList.toggle('is-active', selected);
+    image.setAttribute('aria-hidden', String(!selected));
+    image.alt = selected ? example.alt : '';
+  });
+  byId('overview-artwork').setAttribute('aria-labelledby', `overview-${key}-tab`);
+  byId('overview-enlarge').classList.toggle('is-keyboard-change', keyboard);
+  byId('overview-caption').textContent = example.caption;
+  for (const id of ['overview-enlarge', 'overview-expand']) byId(id).setAttribute('aria-label', `Enlarge ${example.label}`);
+}
+for (const button of document.querySelectorAll('[data-overview]')) {
+  button.addEventListener('click', event => selectOverview(button.dataset.overview, event.detail === 0));
+  button.addEventListener('keydown', event => {
+    if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+    event.preventDefault();
+    const key = event.key === 'Home' ? 'consulting' : event.key === 'End' ? 'editorial' : overviewActive === 'consulting' ? 'editorial' : 'consulting';
+    selectOverview(key, true);
+    byId(`overview-${key}-tab`).focus();
+  });
+}
+for (const id of ['overview-enlarge', 'overview-expand']) {
+  byId(id)?.addEventListener('click', event => {
+    const example = overviewExamples[overviewActive];
+    openArtifact({ title: example.label, description: example.caption, url: new URL(`/assets/img/projects/slidepoise-${overviewActive}.webp`, location.href).href, trigger: event.currentTarget });
+  });
+}
+
+for (const button of document.querySelectorAll('[data-open-architecture]')) {
+  button.addEventListener('click', event => openArtifact({
+    title: 'SlidePoise architecture',
+    architecture: true,
+    url: new URL('/assets/img/projects/slidepoise-architecture-v1.svg', location.href).href,
+    trigger: event.currentTarget,
+  }));
+}
+
+
+// The whole composition, including its selectors and caption, fits below the header.
+// Measuring the controls also accounts for font loading and wrapped mobile labels.
+const overview = document.querySelector('.overview');
+const overviewHeader = document.querySelector('.site-header');
+const overviewNavigation = overview?.querySelector('.overview-heading');
+const overviewCaption = overview?.querySelector('figcaption');
+let overviewFrame = 0;
+function fitOverview() {
+  cancelAnimationFrame(overviewFrame);
+  overviewFrame = requestAnimationFrame(() => {
+    if (!overview || !overviewHeader || !overviewNavigation || !overviewCaption) return;
+    const navigationStyle = getComputedStyle(overviewNavigation);
+    const controlsHeight = overviewNavigation.getBoundingClientRect().height
+      + parseFloat(navigationStyle.marginTop) + parseFloat(navigationStyle.marginBottom)
+      + overviewCaption.getBoundingClientRect().height;
+    const headerHeight = overviewHeader.getBoundingClientRect().height;
+    document.documentElement.style.setProperty('--overview-header-height', `${Math.ceil(headerHeight)}px`);
+    overview.style.setProperty('--overview-controls-height', `${Math.ceil(controlsHeight)}px`);
+  });
+}
+const overviewObserver = new ResizeObserver(fitOverview);
+for (const element of [overviewHeader, overviewNavigation, overviewCaption]) if (element) overviewObserver.observe(element);
+window.addEventListener('resize', fitOverview, { passive: true });
+window.visualViewport?.addEventListener('resize', fitOverview, { passive: true });
+fitOverview();

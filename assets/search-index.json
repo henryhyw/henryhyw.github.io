@@ -649,7 +649,10 @@
     "priority": 5,
     "media": [
       {
-        "src": "/assets/img/slidepoise-architecture.png"
+        "src": "/assets/img/projects/slidepoise-consulting.webp"
+      },
+      {
+        "src": "/assets/img/projects/slidepoise-editorial.webp"
       }
     ],
     "entity": {
@@ -1363,10 +1366,10 @@
     "page": "Dealtracker",
     "title": "A shortlist in my inbox",
     "anchor": "from-noisy-sale-pages-to-a-short-inbox-digest",
-    "description": "I set the brands, sizes, gender, and minimum discounts I wanted to track. A scheduled job checks selected stores against those filters, turning their sale listings into a shortlist. The configuration shown here covers two Australian retailers and seven brands. 2 Australian stores 7 brands I track 29-39% minimum discount",
-    "body": "I set the brands, sizes, gender, and minimum discounts I wanted to track. A scheduled job checks selected stores against those filters, turning their sale listings into a shortlist. The configuration shown here covers two Australian retailers and seven brands. 2 Australian stores 7 brands I track 29-39% minimum discount",
+    "description": "I set the brands, sizes, gender, and minimum discounts I wanted to track. A scheduled job checks selected stores against those filters, turning their sale listings into a shortlist. The configuration shown here covers two Australian retailers and seven brands. 2 Australian stores 7 brands I track 29-39% minimum discount 02 The digest",
+    "body": "I set the brands, sizes, gender, and minimum discounts I wanted to track. A scheduled job checks selected stores against those filters, turning their sale listings into a shortlist. The configuration shown here covers two Australian retailers and seven brands. 2 Australian stores 7 brands I track 29-39% minimum discount 02 The digest",
     "parts": [
-      "I set the brands, sizes, gender, and minimum discounts I wanted to track. A scheduled job checks selected stores against those filters, turning their sale listings into a shortlist. The configuration shown here covers two Australian retailers and seven brands. 2 Australian stores 7 brands I track 29-39% minimum discount"
+      "I set the brands, sizes, gender, and minimum discounts I wanted to track. A scheduled job checks selected stores against those filters, turning their sale listings into a shortlist. The configuration shown here covers two Australian retailers and seven brands. 2 Australian stores 7 brands I track 29-39% minimum discount 02 The digest"
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1383,10 +1386,10 @@
     "page": "Dealtracker",
     "title": "Enough information to decide",
     "anchor": "the-email-output",
-    "description": "I wanted to be able to assess a match before opening the store’s page. The digest groups items by brand and sorts them by discount, showing a photograph and the original and sale prices beside each product link. The examples below show how that information comes together in the email. Arc'teryx and The North Face digest Patagonia and Icebreaker digest",
-    "body": "I wanted to be able to assess a match before opening the store’s page. The digest groups items by brand and sorts them by discount, showing a photograph and the original and sale prices beside each product link. The examples below show how that information comes together in the email. Arc'teryx and The North Face digest Patagonia and Icebreaker digest",
+    "description": "I wanted to be able to assess a match before opening the store’s page. The digest groups items by brand and sorts them by discount, showing a photograph and the original and sale prices beside each product link. The examples below show how that information comes together in the email. Arc'teryx and The North Face digest Patagonia and Icebreaker digest 03 Collection",
+    "body": "I wanted to be able to assess a match before opening the store’s page. The digest groups items by brand and sorts them by discount, showing a photograph and the original and sale prices beside each product link. The examples below show how that information comes together in the email. Arc'teryx and The North Face digest Patagonia and Icebreaker digest 03 Collection",
     "parts": [
-      "I wanted to be able to assess a match before opening the store’s page. The digest groups items by brand and sorts them by discount, showing a photograph and the original and sale prices beside each product link. The examples below show how that information comes together in the email. Arc'teryx and The North Face digest Patagonia and Icebreaker digest"
+      "I wanted to be able to assess a match before opening the store’s page. The digest groups items by brand and sorts them by discount, showing a photograph and the original and sale prices beside each product link. The examples below show how that information comes together in the email. Arc'teryx and The North Face digest Patagonia and Icebreaker digest 03 Collection"
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1506,9 +1509,9 @@
     "title": "Keeping the scenes consistent",
     "anchor": "under-the-hood",
     "description": "Shared settings control layout, typography, and reveal timing across a deck. Individual scenes supply their own background, navigation label, and rendering properties. This keeps the presentation consistent while allowing each chart to express the relationships its part of the story needs.",
-    "body": "Shared settings control layout, typography, and reveal timing across a deck. Individual scenes supply their own background, navigation label, and rendering properties. This keeps the presentation consistent while allowing each chart to express the relationships its part of the story needs. The builder library covers text, line charts, ridge plots, scatter plots, heatmaps, geographic maps, Sankey diagrams, and chord diagrams. A background manager handles the looping video layers behind them. The engine runs as plain ES modules, with D3, d3-sankey, and TopoJSON loaded from CDNs, so a finished presentation can be published on a static host. Open the full presentation Read the source on GitHub",
+    "body": "Shared settings control layout, typography, and reveal timing across a deck. Individual scenes supply their own background, navigation label, and rendering properties. This keeps the presentation consistent while allowing each chart to express the relationships its part of the story needs. The builder library covers text, line charts, ridge plots, scatter plots, heatmaps, geographic maps, Sankey diagrams, and chord diagrams. A background manager handles the looping video layers behind them. The engine runs as plain ES modules, with D3, d3-sankey, and TopoJSON loaded from CDNs, so a finished presentation can be published on a static host.",
     "parts": [
-      "Shared settings control layout, typography, and reveal timing across a deck. Individual scenes supply their own background, navigation label, and rendering properties. This keeps the presentation consistent while allowing each chart to express the relationships its part of the story needs. The builder library covers text, line charts, ridge plots, scatter plots, heatmaps, geographic maps, Sankey diagrams, and chord diagrams. A background manager handles the looping video layers behind them. The engine runs as plain ES modules, with D3, d3-sankey, and TopoJSON loaded from CDNs, so a finished presentation can be published on a static host. Open the full presentation Read the source on GitHub"
+      "Shared settings control layout, typography, and reveal timing across a deck. Individual scenes supply their own background, navigation label, and rendering properties. This keeps the presentation consistent while allowing each chart to express the relationships its part of the story needs. The builder library covers text, line charts, ridge plots, scatter plots, heatmaps, geographic maps, Sankey diagrams, and chord diagrams. A background manager handles the looping video layers behind them. The engine runs as plain ES modules, with D3, d3-sankey, and TopoJSON loaded from CDNs, so a finished presentation can be published on a static host."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1896,13 +1899,12 @@
     "source_id": "aipersonalarchive:overview",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
-    "title": "An AI Interface for Exploring a Personal Archive",
+    "title": "AI Personal Archive",
     "anchor": "",
     "description": "Helping visitors find and connect the work, research and ideas on this site The material on this site is organised into projects, research, photographs, and writing. A question about how I think or work can cross all of those sections. This project uses AI to make that question a way into the archive, bringing relevant material together while keeping its original context accessible.",
-    "body": "Helping visitors find and connect the work, research and ideas on this site The material on this site is organised into projects, research, photographs, and writing. A question about how I think or work can cross all of those sections. This project uses AI to make that question a way into the archive, bringing relevant material together while keeping its original context accessible. As the site grew, I could remember a company, a place, or an idea without remembering which page held it. Search gave me and visitors a way to find those things again. I also wanted visitors to be able to ask a question and get a direct answer, even when the relevant material was spread across several pages. That became the purpose of Ask. Using it myself later opened up another possibility, exploring what familiar pieces might say together when read around a new question. I used the public material already on the site as the basis for that exploration. The text is indexed as passages that retain their original page and location. Projects, photographs, and interactive pieces also keep their own form, so the interface can return a passage or bring the original work into a new reading. Three experiences use that shared material. Search opens an original passage in context. Ask brings passages together into an answer with citations. View composes a reading path that includes the original work alongside an explanation of how it relates to the question. Each offers a different depth of exploration, from finding a particular item to reading across the archive. Try a question below, or keep reading to see the decisions behind Search, Ask, and View.",
+    "body": "Helping visitors find and connect the work, research and ideas on this site The material on this site is organised into projects, research, photographs, and writing. A question about how I think or work can cross all of those sections. This project uses AI to make that question a way into the archive, bringing relevant material together while keeping its original context accessible.",
     "parts": [
-      "Helping visitors find and connect the work, research and ideas on this site The material on this site is organised into projects, research, photographs, and writing. A question about how I think or work can cross all of those sections. This project uses AI to make that question a way into the archive, bringing relevant material together while keeping its original context accessible. As the site grew, I could remember a company, a place, or an idea without remembering which page held it. Search gave me and visitors a way to find those things again. I also wanted visitors to be able to ask a question and get a direct answer, even when the relevant material was spread across several pages. That became the purpose of Ask. Using it myself later opened up another possibility, exploring what familiar pieces might say together when read around a new question.",
-      "I used the public material already on the site as the basis for that exploration. The text is indexed as passages that retain their original page and location. Projects, photographs, and interactive pieces also keep their own form, so the interface can return a passage or bring the original work into a new reading. Three experiences use that shared material. Search opens an original passage in context. Ask brings passages together into an answer with citations. View composes a reading path that includes the original work alongside an explanation of how it relates to the question. Each offers a different depth of exploration, from finding a particular item to reading across the archive. Try a question below, or keep reading to see the decisions behind Search, Ask, and View."
+      "Helping visitors find and connect the work, research and ideas on this site The material on this site is organised into projects, research, photographs, and writing. A question about how I think or work can cross all of those sections. This project uses AI to make that question a way into the archive, bringing relevant material together while keeping its original context accessible."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1914,19 +1916,16 @@
   },
   {
     "id": 62,
-    "source_id": "aipersonalarchive:search-turns-the-whole-site-into-one-navigable-space",
+    "source_id": "aipersonalarchive:one-archive-three-ways-to-explore",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
-    "title": "Search turns the whole site into one navigable space",
-    "anchor": "search-turns-the-whole-site-into-one-navigable-space",
-    "description": "When I remembered something I had written, finding its page was only part of getting back to it. The relevant passage could be well down a long collection or project page. I made Search show the matching text and open its precise location, keeping the surrounding context within reach. Visitors can use the same route into the archive without first learning how I organised it.",
-    "body": "When I remembered something I had written, finding its page was only part of getting back to it. The relevant passage could be well down a long collection or project page. I made Search show the matching text and open its precise location, keeping the surrounding context within reach. Visitors can use the same route into the archive without first learning how I organised it. Try a name or idea below and follow a result to its source. Remembering a name and remembering an idea gave Search different problems to solve. A query for HSBC supplies a precise term that appears in the text. A question about translating business requirements into software may point to the same project without sharing much of its wording. Someone encountering the work for the first time might describe it differently again. I combined lexical and semantic retrieval so both kinds of query could lead to the same source. Lexical matching scores the words shared by the query and a passage, preserving useful signals from names and technical terms. Semantic retrieval compares their embeddings, numerical representations produced by the same sentence-embedding model. Passages with related meanings can then be found even when they share little wording with the question. Because these methods produce scores on different scales, I combine their rankings using weighted reciprocal-rank fusion, which scores a passage by its position in each list. Giving lexical matches extra weight keeps precise names prominent while allowing a broadly phrased question to find material whose wording is quite different. Compare word and meaning matches Try the same query across lexical and semantic retrieval and see what each one finds before the two rankings are combined. How Search works The published material changes when I update the site, so its embeddings can be prepared during the build and reused for subsequent searches. I use all-MiniLM-L6-v2, a compact sentence-embedding model, to represent each passage as a 384-dimensional vector. Each passage retains its original page and location. Quantising the vectors into 8-bit integers, together with the scale needed for comparison, reduces the data shipped with the site. At search time, the browser uses the same model to embed the query. Cosine similarity measures how closely that query aligns with each stored passage embedding. Lexical ranking runs alongside it with a TF-IDF-like score that gives more weight to informative words across the site.",
+    "title": "One archive, three ways to explore",
+    "anchor": "one-archive-three-ways-to-explore",
+    "description": "As the site grew, I could remember a company, a place, or an idea without remembering which page held it. Search gave me and visitors a way to find those things again. I also wanted visitors to be able to ask a question and get a direct answer, even when the relevant material was spread across several pages. That became the purpose of Ask.",
+    "body": "As the site grew, I could remember a company, a place, or an idea without remembering which page held it. Search gave me and visitors a way to find those things again. I also wanted visitors to be able to ask a question and get a direct answer, even when the relevant material was spread across several pages. That became the purpose of Ask. Using it myself later opened up another possibility, exploring what familiar pieces might say together when read around a new question. I used the public material already on the site as the basis for that exploration. The text is indexed as passages that retain their original page and location. Projects, photographs, and interactive pieces also keep their own form, so the interface can return a passage or bring the original work into a new reading. Three experiences use that shared material. Search opens an original passage in context. Ask brings passages together into an answer with citations. View composes a reading path that includes the original work alongside an explanation of how it relates to the question. Each needs a different way of selecting and presenting the material, so I gave them distinct processing paths over the same archive.",
     "parts": [
-      "When I remembered something I had written, finding its page was only part of getting back to it. The relevant passage could be well down a long collection or project page. I made Search show the matching text and open its precise location, keeping the surrounding context within reach. Visitors can use the same route into the archive without first learning how I organised it. Try a name or idea below and follow a result to its source. Remembering a name and remembering an idea gave Search different problems to solve. A query for HSBC supplies a precise term that appears in the text. A question about translating business requirements into software may point to the same project without sharing much of its wording. Someone encountering the work for the first time might describe it differently again.",
-      "I combined lexical and semantic retrieval so both kinds of query could lead to the same source. Lexical matching scores the words shared by the query and a passage, preserving useful signals from names and technical terms. Semantic retrieval compares their embeddings, numerical representations produced by the same sentence-embedding model. Passages with related meanings can then be found even when they share little wording with the question. Because these methods produce scores on different scales, I combine their rankings using weighted reciprocal-rank fusion, which scores a passage by its position in each list. Giving lexical matches extra weight keeps precise names prominent while allowing a broadly phrased question to find material whose wording is quite different.",
-      "Compare word and meaning matches Try the same query across lexical and semantic retrieval and see what each one finds before the two rankings are combined. How Search works The published material changes when I update the site, so its embeddings can be prepared during the build and reused for subsequent searches. I use all-MiniLM-L6-v2, a compact sentence-embedding model, to represent each passage as a 384-dimensional vector. Each passage retains its original page and location. Quantising the vectors into 8-bit integers, together with the scale needed for comparison, reduces the data shipped with the site. At search time, the browser uses the same model to embed the query. Cosine similarity measures how closely that query aligns with each stored passage embedding. Lexical ranking runs alongside it with a TF-IDF-like score that gives more weight to informative words across the site.",
-      "With passage embeddings already available, the browser can embed the query and run retrieval locally without sending it to a search API or incurring a per-query fee. A ranking will always put something first, including when the archive has little to offer a query. I tested realistic searches alongside deliberately unrelated ones to see where a useful similarity threshold might sit. In that small test set, unrelated examples stayed at or below about 0. 22, most genuine matches scored above 0. 45, and a few useful matches fell near 0. 24 to retain those weaker relevant matches while filtering out clearly unrelated results. I also tried e5-small, whose scores occupied a narrower range. That made an absolute threshold less useful, and its recall did not improve enough to justify the trade-off.",
-      "I kept MiniLM because the clearer separation in these tests gave me a more useful basis for deciding which semantic matches to show."
+      "As the site grew, I could remember a company, a place, or an idea without remembering which page held it. Search gave me and visitors a way to find those things again. I also wanted visitors to be able to ask a question and get a direct answer, even when the relevant material was spread across several pages. That became the purpose of Ask. Using it myself later opened up another possibility, exploring what familiar pieces might say together when read around a new question. I used the public material already on the site as the basis for that exploration. The text is indexed as passages that retain their original page and location. Projects, photographs, and interactive pieces also keep their own form, so the interface can return a passage or bring the original work into a new reading. Three experiences use that shared material. Search opens an original passage in context.",
+      "Ask brings passages together into an answer with citations. View composes a reading path that includes the original work alongside an explanation of how it relates to the question. Each needs a different way of selecting and presenting the material, so I gave them distinct processing paths over the same archive."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1938,6 +1937,30 @@
   },
   {
     "id": 63,
+    "source_id": "aipersonalarchive:search-turns-the-whole-site-into-one-navigable-space",
+    "route": "/aipersonalarchive",
+    "page": "An AI Interface for Exploring a Personal Archive",
+    "title": "Search turns the whole site into one navigable space",
+    "anchor": "search-turns-the-whole-site-into-one-navigable-space",
+    "description": "When I remembered something I had written, finding its page was only part of getting back to it. The relevant passage could be well down a long collection or project page. I made Search show the matching text and open its precise location, keeping the surrounding context within reach. Visitors can use the same route into the archive without first learning how I organised it.",
+    "body": "When I remembered something I had written, finding its page was only part of getting back to it. The relevant passage could be well down a long collection or project page. I made Search show the matching text and open its precise location, keeping the surrounding context within reach. Visitors can use the same route into the archive without first learning how I organised it. Try a name or idea here and follow a result to its source. Remembering a name and remembering an idea gave Search different problems to solve. A query for HSBC supplies a precise term that appears in the text. A question about translating business requirements into software may point to the same project without sharing much of its wording. Someone encountering the work for the first time might describe it differently again. I combined lexical and semantic retrieval so both kinds of query could lead to the same source. Lexical matching scores the words shared by the query and a passage, preserving useful signals from names and technical terms. Semantic retrieval compares their embeddings, numerical representations produced by the same sentence-embedding model. Passages with related meanings can then be found even when they share little wording with the question. Because these methods produce scores on different scales, I combine their rankings using weighted reciprocal-rank fusion, which scores a passage by its position in each list. Giving lexical matches extra weight keeps precise names prominent while allowing a broadly phrased question to find material whose wording is quite different. How Search works The published material changes when I update the site, so its embeddings can be prepared during the build and reused for subsequent searches. I use all-MiniLM-L6-v2, a compact sentence-embedding model, to represent each passage as a 384-dimensional vector. Each passage retains its original page and location. Quantising the vectors into 8-bit integers, together with the scale needed for comparison, reduces the data shipped with the site. At search time, the browser uses the same model to embed the query. Cosine similarity measures how closely that query aligns with each stored passage embedding. Lexical ranking runs alongside it with a TF-IDF-like score that gives more weight to informative words across the site. With passage embeddings already available, the browser can embed the query and run retrieval locally without sending it to a search API or incurring a per-query fee. A ranking will always put something first, including when the archive has little to offer a query.",
+    "parts": [
+      "When I remembered something I had written, finding its page was only part of getting back to it. The relevant passage could be well down a long collection or project page. I made Search show the matching text and open its precise location, keeping the surrounding context within reach. Visitors can use the same route into the archive without first learning how I organised it. Try a name or idea here and follow a result to its source. Remembering a name and remembering an idea gave Search different problems to solve. A query for HSBC supplies a precise term that appears in the text. A question about translating business requirements into software may point to the same project without sharing much of its wording. Someone encountering the work for the first time might describe it differently again.",
+      "I combined lexical and semantic retrieval so both kinds of query could lead to the same source. Lexical matching scores the words shared by the query and a passage, preserving useful signals from names and technical terms. Semantic retrieval compares their embeddings, numerical representations produced by the same sentence-embedding model. Passages with related meanings can then be found even when they share little wording with the question. Because these methods produce scores on different scales, I combine their rankings using weighted reciprocal-rank fusion, which scores a passage by its position in each list. Giving lexical matches extra weight keeps precise names prominent while allowing a broadly phrased question to find material whose wording is quite different.",
+      "How Search works The published material changes when I update the site, so its embeddings can be prepared during the build and reused for subsequent searches. I use all-MiniLM-L6-v2, a compact sentence-embedding model, to represent each passage as a 384-dimensional vector. Each passage retains its original page and location. Quantising the vectors into 8-bit integers, together with the scale needed for comparison, reduces the data shipped with the site. At search time, the browser uses the same model to embed the query. Cosine similarity measures how closely that query aligns with each stored passage embedding. Lexical ranking runs alongside it with a TF-IDF-like score that gives more weight to informative words across the site.",
+      "With passage embeddings already available, the browser can embed the query and run retrieval locally without sending it to a search API or incurring a per-query fee. A ranking will always put something first, including when the archive has little to offer a query. I tested realistic searches alongside deliberately unrelated ones to see where a useful similarity threshold might sit. In that small test set, unrelated examples stayed at or below about 0. 22, most genuine matches scored above 0. 45, and a few useful matches fell near 0. 24 to retain those weaker relevant matches while filtering out clearly unrelated results. I also tried e5-small, whose scores occupied a narrower range. That made an absolute threshold less useful, and its recall did not improve enough to justify the trade-off.",
+      "I kept MiniLM because the clearer separation in these tests gave me a more useful basis for deciding which semantic matches to show. Compare word and meaning matches Try the same query across lexical and semantic retrieval and see what each one finds before the two rankings are combined."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 5,
+    "media": [],
+    "selected": true
+  },
+  {
+    "id": 64,
     "source_id": "aipersonalarchive:seeing-the-archive-as-a-space",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1958,17 +1981,17 @@
     "selected": true
   },
   {
-    "id": 64,
+    "id": 65,
     "source_id": "aipersonalarchive:ask-brings-related-passages-into-one-answer",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Ask brings related passages into one answer",
     "anchor": "ask-brings-related-passages-into-one-answer",
     "description": "I wanted visitors to be able to ask a question about my work and get a useful answer straight away. A question such as how I use AI could draw on several projects, leaving someone to find and read each page before putting the answer together. I developed Ask to bring that material into one direct response.",
-    "body": "I wanted visitors to be able to ask a question about my work and get a useful answer straight away. A question such as how I use AI could draw on several projects, leaving someone to find and read each page before putting the answer together. I developed Ask to bring that material into one direct response. To answer across several pages, a language model has to select what matters and explain how it relates to the question. I kept citations alongside that explanation so visitors could check its interpretation against the original work. The answer gives them a quick way to understand something, and the sources give them somewhere to continue if they want more detail. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, which requests the model’s answer. This is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published fragments, using retrieval to bring relevant fragments forward. Keeping that broader context available helps with questions that connect several parts of the archive. The example below shows a cited answer, its sources, and suggested questions for continuing the exploration. The material supplied to the model sets the scope of what it can draw on. Its answer is a reading of that record, and the source links let visitors inspect the original wording and context for themselves. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice.",
+    "body": "I wanted visitors to be able to ask a question about my work and get a useful answer straight away. A question such as how I use AI could draw on several projects, leaving someone to find and read each page before putting the answer together. I developed Ask to bring that material into one direct response. To answer across several pages, a language model has to select what matters and explain how it relates to the question. I kept citations alongside that explanation so visitors could check its interpretation against the original work. The answer gives them a quick way to understand something, and the sources give them somewhere to continue if they want more detail. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, which requests the model’s answer. This is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published fragments, using retrieval to bring relevant fragments forward. Keeping that broader context available helps with questions that connect several parts of the archive. The example shows a cited answer, its sources, and suggested questions for continuing the exploration. The material supplied to the model sets the scope of what it can draw on. Its answer is a reading of that record, and the source links let visitors inspect the original wording and context for themselves. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice.",
     "parts": [
       "I wanted visitors to be able to ask a question about my work and get a useful answer straight away. A question such as how I use AI could draw on several projects, leaving someone to find and read each page before putting the answer together. I developed Ask to bring that material into one direct response. To answer across several pages, a language model has to select what matters and explain how it relates to the question. I kept citations alongside that explanation so visitors could check its interpretation against the original work. The answer gives them a quick way to understand something, and the sources give them somewhere to continue if they want more detail. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, which requests the model’s answer. This is retrieval-augmented generation, or RAG.",
-      "The current version supplies the main site material and the published fragments, using retrieval to bring relevant fragments forward. Keeping that broader context available helps with questions that connect several parts of the archive. The example below shows a cited answer, its sources, and suggested questions for continuing the exploration. The material supplied to the model sets the scope of what it can draw on. Its answer is a reading of that record, and the source links let visitors inspect the original wording and context for themselves. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice."
+      "The current version supplies the main site material and the published fragments, using retrieval to bring relevant fragments forward. Keeping that broader context available helps with questions that connect several parts of the archive. The example shows a cited answer, its sources, and suggested questions for continuing the exploration. The material supplied to the model sets the scope of what it can draw on. Its answer is a reading of that record, and the source links let visitors inspect the original wording and context for themselves. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1979,7 +2002,7 @@
     "selected": true
   },
   {
-    "id": 65,
+    "id": 66,
     "source_id": "aipersonalarchive:find",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -1999,7 +2022,7 @@
     "selected": true
   },
   {
-    "id": 66,
+    "id": 67,
     "source_id": "aipersonalarchive:set-the-scope",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -2019,7 +2042,7 @@
     "selected": true
   },
   {
-    "id": 67,
+    "id": 68,
     "source_id": "aipersonalarchive:write",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -2039,7 +2062,7 @@
     "selected": true
   },
   {
-    "id": 68,
+    "id": 69,
     "source_id": "aipersonalarchive:cite",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
@@ -2059,17 +2082,17 @@
     "selected": true
   },
   {
-    "id": 69,
+    "id": 70,
     "source_id": "aipersonalarchive:view-reorganises-the-site-around-a-question",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "View reorganises the site around a question",
     "anchor": "view-reorganises-the-site-around-a-question",
     "description": "Much of what I wanted to bring together already had a form worth reading or using. A project might have an interactive demo, photographs might belong in a gallery, and a fragment might express something in wording that mattered. An Ask answer could describe and cite those pieces.",
-    "body": "Much of what I wanted to bring together already had a form worth reading or using. A project might have an interactive demo, photographs might belong in a gallery, and a fragment might express something in wording that mattered. An Ask answer could describe and cite those pieces. Bringing them into the response itself would let someone explore a connection through the work, trying the demo or looking through the photographs as they read. This led to View, a response that takes the form of a composed page. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s original interaction can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View ↗ To make that possible, I registered projects, research entries, fragments, image groups, and interactive components as reusable blocks. The model can select and arrange the relevant blocks, with their original source material intact, and write the text that connects them. Separating the source components from the new narrative lets the same work appear in different readings without having to recreate its demo or rewrite the fragment each time. A question about learning might bring together work on human cognition, an education project, and a fragment written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The composition changes which relationships come into view, while the original material remains available to explore. A generated illustration gives the page a visual interpretation of its question and perspective. Visitors can also listen to the summary in an AI voice trained on my recordings, the same voice used for Ask answers.",
+    "body": "Much of what I wanted to bring together already had a form worth reading or using. A project might have an interactive demo, photographs might belong in a gallery, and a fragment might express something in wording that mattered. An Ask answer could describe and cite those pieces. Bringing them into the response itself would let someone explore a connection through the work, trying the demo or looking through the photographs as they read. This led to View, a response that takes the form of a composed page. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s original interaction can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View To make that possible, I registered projects, research entries, fragments, image groups, and interactive components as reusable blocks. The model can select and arrange the relevant blocks, with their original source material intact, and write the text that connects them. Separating the source components from the new narrative lets the same work appear in different readings without having to recreate its demo or rewrite the fragment each time. A question about learning might bring together work on human cognition, an education project, and a fragment written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The composition changes which relationships come into view, while the original material remains available to explore. A generated illustration gives the page a visual interpretation of its question and perspective. Visitors can also listen to the summary in an AI voice trained on my recordings, the same voice used for Ask answers.",
     "parts": [
       "Much of what I wanted to bring together already had a form worth reading or using. A project might have an interactive demo, photographs might belong in a gallery, and a fragment might express something in wording that mattered. An Ask answer could describe and cite those pieces. Bringing them into the response itself would let someone explore a connection through the work, trying the demo or looking through the photographs as they read. This led to View, a response that takes the form of a composed page. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s original interaction can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with.",
-      "Compose a View ↗ To make that possible, I registered projects, research entries, fragments, image groups, and interactive components as reusable blocks. The model can select and arrange the relevant blocks, with their original source material intact, and write the text that connects them. Separating the source components from the new narrative lets the same work appear in different readings without having to recreate its demo or rewrite the fragment each time. A question about learning might bring together work on human cognition, an education project, and a fragment written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The composition changes which relationships come into view, while the original material remains available to explore.",
+      "Compose a View To make that possible, I registered projects, research entries, fragments, image groups, and interactive components as reusable blocks. The model can select and arrange the relevant blocks, with their original source material intact, and write the text that connects them. Separating the source components from the new narrative lets the same work appear in different readings without having to recreate its demo or rewrite the fragment each time. A question about learning might bring together work on human cognition, an education project, and a fragment written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The composition changes which relationships come into view, while the original material remains available to explore.",
       "A generated illustration gives the page a visual interpretation of its question and perspective. Visitors can also listen to the summary in an AI voice trained on my recordings, the same voice used for Ask answers."
     ],
     "view_kind": "prose",
@@ -2081,17 +2104,17 @@
     "selected": true
   },
   {
-    "id": 70,
+    "id": 71,
     "source_id": "aipersonalarchive:views-over-time",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Views over time",
     "anchor": "views-over-time",
     "description": "I began saving Views that I wanted to return to. A question could produce an arrangement of the archive worth keeping, and asking it again later would happen against a collection that had grown. Preserving the reading meant keeping both the perspective and the material available when it was composed. There are two comparisons I find useful here.",
-    "body": "I began saving Views that I wanted to return to. A question could produce an arrangement of the archive worth keeping, and asking it again later would happen against a collection that had grown. Preserving the reading meant keeping both the perspective and the material available when it was composed. There are two comparisons I find useful here. Different questions asked around the same time can reveal different relationships within the same archive. Returning to one question months later can show how new work or writing changes the context of older pieces. A saved View gives each reading a place in that history. A saved View keeps the question, composed page, illustrations, narration, sources, and creation date together as a snapshot. It receives a permanent link, and its creator can choose whether to include it in Shared Views. The examples below preserve the archive as it was read at those moments. A new View might place a familiar fragment beside a research problem I began thinking about years after writing it. A project may appear alongside a more recent experience that changes which part of it catches my attention. The earlier saved reading stays as it was, making it possible to compare how those pieces were understood at different points.",
+    "body": "I began saving Views that I wanted to return to. A question could produce an arrangement of the archive worth keeping, and asking it again later would happen against a collection that had grown. Preserving the reading meant keeping both the perspective and the material available when it was composed. There are two comparisons I find useful here. Different questions asked around the same time can reveal different relationships within the same archive. Returning to one question months later can show how new work or writing changes the context of older pieces. A saved View gives each reading a place in that history. A saved View keeps the question, composed page, illustrations, narration, sources, and creation date together as a snapshot. It receives a permanent link, and its creator can choose whether to include it in Shared Views. The examples preserve the archive as it was read at those moments. A new View might place a familiar fragment beside a research problem I began thinking about years after writing it. A project may appear alongside a more recent experience that changes which part of it catches my attention. The earlier saved reading stays as it was, making it possible to compare how those pieces were understood at different points.",
     "parts": [
       "I began saving Views that I wanted to return to. A question could produce an arrangement of the archive worth keeping, and asking it again later would happen against a collection that had grown. Preserving the reading meant keeping both the perspective and the material available when it was composed. There are two comparisons I find useful here. Different questions asked around the same time can reveal different relationships within the same archive. Returning to one question months later can show how new work or writing changes the context of older pieces. A saved View gives each reading a place in that history. A saved View keeps the question, composed page, illustrations, narration, sources, and creation date together as a snapshot. It receives a permanent link, and its creator can choose whether to include it in Shared Views.",
-      "The examples below preserve the archive as it was read at those moments. A new View might place a familiar fragment beside a research problem I began thinking about years after writing it. A project may appear alongside a more recent experience that changes which part of it catches my attention. The earlier saved reading stays as it was, making it possible to compare how those pieces were understood at different points."
+      "The examples preserve the archive as it was read at those moments. A new View might place a familiar fragment beside a research problem I began thinking about years after writing it. A project may appear alongside a more recent experience that changes which part of it catches my attention. The earlier saved reading stays as it was, making it possible to compare how those pieces were understood at different points."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2102,12 +2125,12 @@
     "selected": true
   },
   {
-    "id": 71,
-    "source_id": "aipersonalarchive:what-the-archive-gives-back",
+    "id": 72,
+    "source_id": "aipersonalarchive:what-the-case-gives-back",
     "route": "/aipersonalarchive",
     "page": "An AI Interface for Exploring a Personal Archive",
     "title": "Returning to my own archive",
-    "anchor": "what-the-archive-gives-back",
+    "anchor": "what-the-case-gives-back",
     "description": "Returning to these readings has changed what I can get from keeping an archive. A piece of writing records what I could articulate at the time. A later question can place it beside work or an experience that helps me understand it differently. The original piece remains, along with a record of how I came to read it later. Visitors extend that exploration with questions and perspectives I might never choose myself.",
     "body": "Returning to these readings has changed what I can get from keeping an archive. A piece of writing records what I could articulate at the time. A later question can place it beside work or an experience that helps me understand it differently. The original piece remains, along with a record of how I came to read it later. Visitors extend that exploration with questions and perspectives I might never choose myself. Their Views can bring together parts of the site I usually think about separately. If they choose to share a reading, I and other visitors can return to the perspective they brought to the material. I want the site to support that continuing exchange between what I record and what I come to understand through it. Projects, experiences, photographs, and writing preserve parts of my life as they happen. The readings preserve ways of looking across that material, leaving room for new questions to change what I notice in it.",
     "parts": [
@@ -2123,7 +2146,7 @@
     "selected": true
   },
   {
-    "id": 72,
+    "id": 73,
     "source_id": "ragflow-pipeline:overview",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2144,7 +2167,7 @@
     "selected": false
   },
   {
-    "id": 73,
+    "id": 74,
     "source_id": "ragflow-pipeline:why-one-pdf-needed-several-ways-of-reading",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2166,7 +2189,7 @@
     "selected": false
   },
   {
-    "id": 74,
+    "id": 75,
     "source_id": "ragflow-pipeline:what-i-tested-before-recommending-it",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2186,7 +2209,7 @@
     "selected": false
   },
   {
-    "id": 75,
+    "id": 76,
     "source_id": "ai-it-operations:overview",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2206,7 +2229,7 @@
     "selected": true
   },
   {
-    "id": 76,
+    "id": 77,
     "source_id": "ai-it-operations:knowledge-management",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2227,7 +2250,7 @@
     "selected": true
   },
   {
-    "id": 77,
+    "id": 78,
     "source_id": "ai-it-operations:where-does-the-assistant-need-more-knowledge",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2248,7 +2271,7 @@
     "selected": true
   },
   {
-    "id": 78,
+    "id": 79,
     "source_id": "ai-it-operations:finding-the-material-that-will-help",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2269,7 +2292,7 @@
     "selected": true
   },
   {
-    "id": 79,
+    "id": 80,
     "source_id": "ai-it-operations:what-happens-when-the-guidance-changes",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2291,17 +2314,17 @@
     "selected": true
   },
   {
-    "id": 80,
+    "id": 81,
     "source_id": "ai-it-operations:from-a-source-to-maintained-knowledge",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
     "title": "Processing and maintaining source material",
     "anchor": "from-a-source-to-maintained-knowledge",
     "description": "The crawler research covered Crawl4AI Adaptive, SiteOne, Mdream/crawl, Browsertrix, and Firecrawl OSS across Azure, SAP, ServiceNow, and Oracle documentation. The results informed the separation between deciding what knowledge to acquire and the mechanics of fetching and processing pages.",
-    "body": "The crawler research covered Crawl4AI Adaptive, SiteOne, Mdream/crawl, Browsertrix, and Firecrawl OSS across Azure, SAP, ServiceNow, and Oracle documentation. The results informed the separation between deciding what knowledge to acquire and the mechanics of fetching and processing pages. For each candidate page, the acquisition agent assesses relevance to the objective, source authority, overlap with material already collected, and likely information gain. Seed discovery supplies new starting URLs when the existing crawl cannot cover a question. The agent retains the original questions alongside the broader objective, allowing coverage to be checked as the search proceeds. Approved material passes through a shared ingestion and update pipeline for extraction, normalisation, deduplication, chunking, and indexing. Provenance records connect the searchable chunks to their source. The pipeline updates the Knowledge Base and Source Registry together for additions, replacements, and removals. The accepted snapshot is the baseline for monitoring. It advances when a reviewed update is applied to the knowledge base, so later comparisons remain tied to the guidance the assistant is using. Source fetching, normalisation, comparison, and record updates use conventional system logic. AI assesses what a detected change means for the linked knowledge. Knowledge Base Source Registry Searchable knowledge stays linked to its accepted source material",
+    "body": "The crawler research covered Crawl4AI Adaptive, SiteOne, Mdream/crawl, Browsertrix, and Firecrawl OSS across Azure, SAP, ServiceNow, and Oracle documentation. The results informed the separation between deciding what knowledge to acquire and the mechanics of fetching and processing pages. For each candidate page, the acquisition agent assesses relevance to the objective, source authority, overlap with material already collected, and likely information gain. Seed discovery supplies new starting URLs when the existing crawl cannot cover a question. The agent retains the original questions alongside the broader objective, allowing coverage to be checked as the search proceeds. Approved material passes through a shared ingestion and update pipeline for extraction, normalisation, deduplication, chunking, and indexing. Provenance records connect the searchable chunks to their source. The pipeline updates the Knowledge Base and Source Registry together for additions, replacements, and removals. The accepted snapshot is the baseline for monitoring. It advances when a reviewed update is applied to the knowledge base, so later comparisons remain tied to the guidance the assistant is using. Source fetching, normalisation, comparison, and record updates use conventional system logic. AI assesses what a detected change means for the linked knowledge. Knowledge Base Source Registry Searchable knowledge stays linked to its accepted source material 02 Browser agent",
     "parts": [
       "The crawler research covered Crawl4AI Adaptive, SiteOne, Mdream/crawl, Browsertrix, and Firecrawl OSS across Azure, SAP, ServiceNow, and Oracle documentation. The results informed the separation between deciding what knowledge to acquire and the mechanics of fetching and processing pages. For each candidate page, the acquisition agent assesses relevance to the objective, source authority, overlap with material already collected, and likely information gain. Seed discovery supplies new starting URLs when the existing crawl cannot cover a question. The agent retains the original questions alongside the broader objective, allowing coverage to be checked as the search proceeds. Approved material passes through a shared ingestion and update pipeline for extraction, normalisation, deduplication, chunking, and indexing. Provenance records connect the searchable chunks to their source.",
-      "The pipeline updates the Knowledge Base and Source Registry together for additions, replacements, and removals. The accepted snapshot is the baseline for monitoring. It advances when a reviewed update is applied to the knowledge base, so later comparisons remain tied to the guidance the assistant is using. Source fetching, normalisation, comparison, and record updates use conventional system logic. AI assesses what a detected change means for the linked knowledge. Knowledge Base Source Registry Searchable knowledge stays linked to its accepted source material"
+      "The pipeline updates the Knowledge Base and Source Registry together for additions, replacements, and removals. The accepted snapshot is the baseline for monitoring. It advances when a reviewed update is applied to the knowledge base, so later comparisons remain tied to the guidance the assistant is using. Source fetching, normalisation, comparison, and record updates use conventional system logic. AI assesses what a detected change means for the linked knowledge. Knowledge Base Source Registry Searchable knowledge stays linked to its accepted source material 02 Browser agent"
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2312,7 +2335,7 @@
     "selected": true
   },
   {
-    "id": 81,
+    "id": 82,
     "source_id": "ai-it-operations:browser-control",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2333,7 +2356,7 @@
     "selected": true
   },
   {
-    "id": 82,
+    "id": 83,
     "source_id": "ai-it-operations:turning-the-request-into-actions",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2353,7 +2376,7 @@
     "selected": true
   },
   {
-    "id": 83,
+    "id": 84,
     "source_id": "ai-it-operations:why-a-browser-extension",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2374,7 +2397,7 @@
     "selected": true
   },
   {
-    "id": 84,
+    "id": 85,
     "source_id": "ai-it-operations:a-place-to-start-intervene-and-look-back",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2394,16 +2417,16 @@
     "selected": true
   },
   {
-    "id": 85,
+    "id": 86,
     "source_id": "ai-it-operations:from-planning-to-a-browser-action",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
     "title": "The browser agent’s execution loop",
     "anchor": "from-planning-to-a-browser-action",
     "description": "A FastAPI service manages browser tasks. LangGraph retains the request, page observations, action history, and human decisions as the planner moves between steps. Pausing for approval or manual input preserves the same task so it can resume afterwards. Playwright sends structured actions through a relay to the browser extension.",
-    "body": "A FastAPI service manages browser tasks. LangGraph retains the request, page observations, action history, and human decisions as the planner moves between steps. Pausing for approval or manual input preserves the same task so it can resume afterwards. Playwright sends structured actions through a relay to the browser extension. The extension uses the Chrome DevTools Protocol to read and control the dedicated tab, then returns the resulting page state to the cloud agent. The operator’s machine needs the extension, with the automation service and reasoning hosted centrally. Request + current page Agent decision Browser action Read the resulting page, then decide what to do next",
+    "body": "A FastAPI service manages browser tasks. LangGraph retains the request, page observations, action history, and human decisions as the planner moves between steps. Pausing for approval or manual input preserves the same task so it can resume afterwards. Playwright sends structured actions through a relay to the browser extension. The extension uses the Chrome DevTools Protocol to read and control the dedicated tab, then returns the resulting page state to the cloud agent. The operator’s machine needs the extension, with the automation service and reasoning hosted centrally. Request + current page Agent decision Browser action Read the resulting page, then decide what to do next 03 Judgement",
     "parts": [
-      "A FastAPI service manages browser tasks. LangGraph retains the request, page observations, action history, and human decisions as the planner moves between steps. Pausing for approval or manual input preserves the same task so it can resume afterwards. Playwright sends structured actions through a relay to the browser extension. The extension uses the Chrome DevTools Protocol to read and control the dedicated tab, then returns the resulting page state to the cloud agent. The operator’s machine needs the extension, with the automation service and reasoning hosted centrally. Request + current page Agent decision Browser action Read the resulting page, then decide what to do next"
+      "A FastAPI service manages browser tasks. LangGraph retains the request, page observations, action history, and human decisions as the planner moves between steps. Pausing for approval or manual input preserves the same task so it can resume afterwards. Playwright sends structured actions through a relay to the browser extension. The extension uses the Chrome DevTools Protocol to read and control the dedicated tab, then returns the resulting page state to the cloud agent. The operator’s machine needs the extension, with the automation service and reasoning hosted centrally. Request + current page Agent decision Browser action Read the resulting page, then decide what to do next 03 Judgement"
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2414,7 +2437,7 @@
     "selected": true
   },
   {
-    "id": 86,
+    "id": 87,
     "source_id": "ai-it-operations:where-judgement-changes-hands",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2435,7 +2458,7 @@
     "selected": true
   },
   {
-    "id": 87,
+    "id": 88,
     "source_id": "fragments:overview",
     "route": "/fragments",
     "page": "Fragments",
@@ -2455,7 +2478,7 @@
     "selected": false
   },
   {
-    "id": 88,
+    "id": 89,
     "source_id": "fragments:the-projection-of-thought",
     "route": "/fragments",
     "page": "Fragments",
@@ -2489,7 +2512,7 @@
     "selected": false
   },
   {
-    "id": 89,
+    "id": 90,
     "source_id": "fragments:rebuilding-another-state-inside-me",
     "route": "/fragments",
     "page": "Fragments",
@@ -2523,7 +2546,7 @@
     "selected": false
   },
   {
-    "id": 90,
+    "id": 91,
     "source_id": "fragments:visible-part-of-the-mind",
     "route": "/fragments",
     "page": "Fragments",
@@ -2554,7 +2577,7 @@
     "selected": false
   },
   {
-    "id": 91,
+    "id": 92,
     "source_id": "fragments:understanding-before-definition",
     "route": "/fragments",
     "page": "Fragments",
@@ -2584,7 +2607,7 @@
     "selected": false
   },
   {
-    "id": 92,
+    "id": 93,
     "source_id": "fragments:expression-recording",
     "route": "/fragments",
     "page": "Fragments",
@@ -2617,7 +2640,7 @@
     "selected": false
   },
   {
-    "id": 93,
+    "id": 94,
     "source_id": "fragments:rich-traces-and-open-paths",
     "route": "/fragments",
     "page": "Fragments",
@@ -2650,7 +2673,7 @@
     "selected": false
   },
   {
-    "id": 94,
+    "id": 95,
     "source_id": "fragments:labels-goals-rules",
     "route": "/fragments",
     "page": "Fragments",
@@ -2687,7 +2710,7 @@
     "selected": false
   },
   {
-    "id": 95,
+    "id": 96,
     "source_id": "fragments:memory-time-self",
     "route": "/fragments",
     "page": "Fragments",
@@ -2722,7 +2745,7 @@
     "selected": false
   },
   {
-    "id": 96,
+    "id": 97,
     "source_id": "fragments:satisfaction-signal",
     "route": "/fragments",
     "page": "Fragments",
@@ -2756,7 +2779,7 @@
     "selected": false
   },
   {
-    "id": 97,
+    "id": 98,
     "source_id": "fragments:queen-victoria-market-toast-oysters",
     "route": "/fragments",
     "page": "Fragments",
@@ -2784,7 +2807,7 @@
     "selected": false
   },
   {
-    "id": 98,
+    "id": 99,
     "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
     "route": "/fragments",
     "page": "Fragments",
@@ -2812,7 +2835,7 @@
     "selected": false
   },
   {
-    "id": 99,
+    "id": 100,
     "source_id": "fragments:ai-generated-kitten-videos",
     "route": "/fragments",
     "page": "Fragments",
@@ -2841,7 +2864,7 @@
     "selected": false
   },
   {
-    "id": 100,
+    "id": 101,
     "source_id": "fragments:identity-interview-reflection",
     "route": "/fragments",
     "page": "Fragments",
@@ -2870,7 +2893,7 @@
     "selected": false
   },
   {
-    "id": 101,
+    "id": 102,
     "source_id": "fragments:napier-seaside-with-my-mother",
     "route": "/fragments",
     "page": "Fragments",
@@ -2900,7 +2923,7 @@
     "selected": false
   },
   {
-    "id": 102,
+    "id": 103,
     "source_id": "fragments:mothers-cooking-across-places",
     "route": "/fragments",
     "page": "Fragments",
@@ -2929,7 +2952,7 @@
     "selected": false
   },
   {
-    "id": 103,
+    "id": 104,
     "source_id": "fragments:golf-with-my-mother-in-new-zealand",
     "route": "/fragments",
     "page": "Fragments",
@@ -2957,7 +2980,7 @@
     "selected": false
   },
   {
-    "id": 104,
+    "id": 105,
     "source_id": "fragments:slr-lab-racket-games",
     "route": "/fragments",
     "page": "Fragments",
@@ -2985,7 +3008,7 @@
     "selected": false
   },
   {
-    "id": 105,
+    "id": 106,
     "source_id": "fragments:kennedy-town-seaside-hku-years",
     "route": "/fragments",
     "page": "Fragments",
@@ -3014,7 +3037,7 @@
     "selected": false
   },
   {
-    "id": 106,
+    "id": 107,
     "source_id": "fragments:sydney-harbour-ferry-rides",
     "route": "/fragments",
     "page": "Fragments",
@@ -3043,7 +3066,7 @@
     "selected": false
   },
   {
-    "id": 107,
+    "id": 108,
     "source_id": "fragments:gold-coast-water-and-city-line",
     "route": "/fragments",
     "page": "Fragments",
@@ -3072,7 +3095,7 @@
     "selected": false
   },
   {
-    "id": 108,
+    "id": 109,
     "source_id": "fragments:great-ocean-road-melbourne-friends",
     "route": "/fragments",
     "page": "Fragments",
@@ -3101,7 +3124,7 @@
     "selected": false
   },
   {
-    "id": 109,
+    "id": 110,
     "source_id": "fragments:taiwan-east-coast-family-road-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -3130,7 +3153,7 @@
     "selected": false
   },
   {
-    "id": 110,
+    "id": 111,
     "source_id": "fragments:tomatoes-of-august-29",
     "route": "/fragments",
     "page": "Fragments",
@@ -3162,7 +3185,7 @@
     "selected": false
   },
   {
-    "id": 111,
+    "id": 112,
     "source_id": "fragments:athens-ruins-and-family-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -3191,7 +3214,7 @@
     "selected": false
   },
   {
-    "id": 112,
+    "id": 113,
     "source_id": "fragments:swimming-in-the-mediterranean",
     "route": "/fragments",
     "page": "Fragments",
@@ -3220,7 +3243,7 @@
     "selected": false
   },
   {
-    "id": 113,
+    "id": 114,
     "source_id": "fragments:rainy-days-permission-to-stay-in",
     "route": "/fragments",
     "page": "Fragments",
@@ -3248,7 +3271,7 @@
     "selected": false
   },
   {
-    "id": 114,
+    "id": 115,
     "source_id": "fragments:mental-map-of-small-room",
     "route": "/fragments",
     "page": "Fragments",
@@ -3277,7 +3300,7 @@
     "selected": false
   },
   {
-    "id": 115,
+    "id": 116,
     "source_id": "fragments:first-camera-another-way-of-seeing",
     "route": "/fragments",
     "page": "Fragments",
@@ -3306,7 +3329,7 @@
     "selected": false
   },
   {
-    "id": 116,
+    "id": 117,
     "source_id": "fragments:music-that-became-more-spacious",
     "route": "/fragments",
     "page": "Fragments",
@@ -3335,7 +3358,7 @@
     "selected": false
   },
   {
-    "id": 117,
+    "id": 118,
     "source_id": "cv:profile",
     "route": "/cv",
     "page": "CV",
@@ -3355,7 +3378,7 @@
     "selected": false
   },
   {
-    "id": 118,
+    "id": 119,
     "source_id": "cv:education",
     "route": "/cv",
     "page": "CV",
@@ -3375,7 +3398,7 @@
     "selected": false
   },
   {
-    "id": 119,
+    "id": 120,
     "source_id": "cv:experience",
     "route": "/cv",
     "page": "CV",
@@ -3396,7 +3419,7 @@
     "selected": false
   },
   {
-    "id": 120,
+    "id": 121,
     "source_id": "cv:publications-preprints",
     "route": "/cv",
     "page": "CV",
@@ -3417,7 +3440,7 @@
     "selected": false
   },
   {
-    "id": 121,
+    "id": 122,
     "source_id": "about:root:about-me",
     "route": "/about",
     "page": "About",
@@ -3453,7 +3476,7 @@
     "selected": false
   },
   {
-    "id": 122,
+    "id": 123,
     "source_id": "about:section:how-i-research-and-build",
     "route": "/about",
     "page": "About",
@@ -3474,7 +3497,7 @@
     "selected": false
   },
   {
-    "id": 123,
+    "id": 124,
     "source_id": "about:section:outside-work",
     "route": "/about",
     "page": "About",
@@ -3495,7 +3518,7 @@
     "selected": false
   },
   {
-    "id": 124,
+    "id": 125,
     "source_id": "about:contact",
     "route": "/about",
     "page": "About",
@@ -3518,7 +3541,7 @@
     "selected": false
   },
   {
-    "id": 125,
+    "id": 126,
     "source_id": "about:gallery",
     "route": "/about",
     "page": "About",
@@ -3840,16 +3863,17 @@
     "selected": false
   },
   {
-    "id": 126,
+    "id": 127,
     "source_id": "home:currently",
     "route": "/home",
     "page": "Home",
     "title": "What Henry is currently doing",
     "anchor": "currently",
-    "description": "Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong.",
-    "body": "Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong. Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later. Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking.",
+    "description": "Henry is developing SlidePoise, an open-source Codex Framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI Personal Archive, the Search, Ask and View experiences on his personal website. Visitors can find original passages, ask for cited answers and compose a reading path around their own questions.",
+    "body": "Henry is developing SlidePoise, an open-source Codex Framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI Personal Archive, the Search, Ask and View experiences on his personal website. Visitors can find original passages, ask for cited answers and compose a reading path around their own questions. Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong. Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later. Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking.",
     "parts": [
-      "Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong. Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later. Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking."
+      "Henry is developing SlidePoise, an open-source Codex Framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI Personal Archive, the Search, Ask and View experiences on his personal website. Visitors can find original passages, ask for cited answers and compose a reading path around their own questions. Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong. Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later.",
+      "Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking."
     ],
     "view_kind": "prose",
     "presentations": [
