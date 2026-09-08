@@ -624,10 +624,10 @@
       "page": "SlidePoise",
       "title": "SlidePoise",
       "anchor": "",
-      "description": "AI slide tools often become predictable when every page begins from a template. Image generation offers much more visual freedom, yet a finished image is difficult to edit or rebuild as a real presentation. I built SlidePoise around that tension.",
-      "body": "AI slide tools often become predictable when every page begins from a template. Image generation offers much more visual freedom, yet a finished image is difficult to edit or rebuild as a real presentation. I built SlidePoise around that tension. Codex reasons about the argument and semantic structure of the deck, while an image model explores the visual structure of each slide without fixing every element in advance. Once a direction is chosen, pixel-level measurement recovers precise geometry and semantic grouping decides which elements belong together. Local tools reconstruct the design as native PowerPoint objects, then Codex reviews the rendered deck and refines it. The result combines open-ended visual exploration with an editable and traceable presentation.",
+      "description": "SlidePoise lets Codex plan and design a complete presentation without forcing every page into a template. The Agent owns the argument and semantic structure while image generation explores the composition. OpenCV measures the chosen design, and a local runtime rebuilds it with native PowerPoint objects and the original icons, logos, or components selected for the slide.",
+      "body": "SlidePoise lets Codex plan and design a complete presentation without forcing every page into a template. The Agent owns the argument and semantic structure while image generation explores the composition. OpenCV measures the chosen design, and a local runtime rebuilds it with native PowerPoint objects and the original icons, logos, or components selected for the slide. This gives the model room to design while keeping the final deck editable, inspectable, and consistent.",
       "parts": [
-        "AI slide tools often become predictable when every page begins from a template. Image generation offers much more visual freedom, yet a finished image is difficult to edit or rebuild as a real presentation. I built SlidePoise around that tension. Codex reasons about the argument and semantic structure of the deck, while an image model explores the visual structure of each slide without fixing every element in advance. Once a direction is chosen, pixel-level measurement recovers precise geometry and semantic grouping decides which elements belong together. Local tools reconstruct the design as native PowerPoint objects, then Codex reviews the rendered deck and refines it. The result combines open-ended visual exploration with an editable and traceable presentation."
+        "SlidePoise lets Codex plan and design a complete presentation without forcing every page into a template. The Agent owns the argument and semantic structure while image generation explores the composition. OpenCV measures the chosen design, and a local runtime rebuilds it with native PowerPoint objects and the original icons, logos, or components selected for the slide. This gives the model room to design while keeping the final deck editable, inspectable, and consistent."
       ],
       "view_kind": "project",
       "presentations": [
@@ -643,7 +643,7 @@
         "kind": "project",
         "id": "slidepoise",
         "period": "September 2026 - Present",
-        "subtitle": "Presentation planning, free-form design, and native PowerPoint",
+        "subtitle": "Argument-led design, measured reconstruction, and native PowerPoint",
         "route": "/slidepoise/docs/site/",
         "anchor": "",
         "mediaMode": "hero",
