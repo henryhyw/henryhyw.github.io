@@ -18,7 +18,8 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "selected": false
     },
     {
       "id": 1,
@@ -42,7 +43,8 @@
         "kind": "education",
         "id": "the-university-of-hong-kong",
         "period": "September 2022 - Present"
-      }
+      },
+      "selected": false
     },
     {
       "id": 2,
@@ -66,7 +68,8 @@
         "kind": "education",
         "id": "the-university-of-melbourne",
         "period": "February 2025 - June 2025"
-      }
+      },
+      "selected": false
     },
     {
       "id": 3,
@@ -90,7 +93,8 @@
         "kind": "education",
         "id": "shanghai-high-school-international-division",
         "period": "September 2017 - June 2022"
-      }
+      },
+      "selected": false
     },
     {
       "id": 4,
@@ -114,7 +118,8 @@
         "kind": "education",
         "id": "havelock-north-high-school",
         "period": "July 2019 - August 2019"
-      }
+      },
+      "selected": false
     },
     {
       "id": 5,
@@ -133,7 +138,8 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "selected": false
     },
     {
       "id": 6,
@@ -171,7 +177,8 @@
         "location": "Central, Hong Kong",
         "companionRichBlock": "interactive.rag.reference-linking",
         "companionSourceId": "projects:pwcRag"
-      }
+      },
+      "selected": false
     },
     {
       "id": 7,
@@ -206,7 +213,8 @@
         "location": "Pokfulam, Hong Kong",
         "companionRichBlock": "",
         "companionSourceId": ""
-      }
+      },
+      "selected": false
     },
     {
       "id": 8,
@@ -242,7 +250,8 @@
         "location": "Central, Hong Kong",
         "companionRichBlock": "interactive.insurance.rule-engine",
         "companionSourceId": "projects:insurance"
-      }
+      },
+      "selected": false
     },
     {
       "id": 9,
@@ -277,7 +286,8 @@
         "location": "Napier, New Zealand",
         "companionRichBlock": "",
         "companionSourceId": ""
-      }
+      },
+      "selected": false
     },
     {
       "id": 10,
@@ -297,7 +307,8 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "selected": false
     },
     {
       "id": 11,
@@ -333,7 +344,8 @@
             "url": "https://philpapers.org/rec/WANWSS"
           }
         ]
-      }
+      },
+      "selected": true
     },
     {
       "id": 12,
@@ -353,7 +365,7 @@
         "cite",
         "component"
       ],
-      "priority": 4,
+      "priority": 5,
       "media": [
         {
           "src": "/assets/img/transfer_fig1.png"
@@ -387,7 +399,8 @@
             "iconSrc": "/assets/img/huggingface.svg"
           }
         ]
-      }
+      },
+      "selected": true
     },
     {
       "id": 13,
@@ -406,7 +419,7 @@
         "cite",
         "component"
       ],
-      "priority": 3,
+      "priority": 5,
       "media": [
         {
           "src": "/assets/img/binding_fig1.png"
@@ -433,7 +446,8 @@
         "status": "Under review",
         "authors": "Stephen M. K. Lee, Han-yu Wang",
         "links": []
-      }
+      },
+      "selected": true
     },
     {
       "id": 14,
@@ -452,7 +466,7 @@
         "cite",
         "component"
       ],
-      "priority": 3,
+      "priority": 5,
       "media": [
         {
           "src": "/assets/img/BRIGHT1.png"
@@ -485,7 +499,8 @@
             "url": "https://brightbenchmark.github.io/"
           }
         ]
-      }
+      },
+      "selected": true
     },
     {
       "id": 15,
@@ -538,7 +553,8 @@
             "url": "https://www.henryw.me/humans-disengage-page/"
           }
         ]
-      }
+      },
+      "selected": false
     },
     {
       "id": 16,
@@ -593,7 +609,8 @@
             "url": "https://www.henryw.me/priors-persist-through-suppression-page/"
           }
         ]
-      }
+      },
+      "selected": false
     },
     {
       "id": 17,
@@ -612,7 +629,8 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "selected": false
     },
     {
       "id": 18,
@@ -646,7 +664,8 @@
         "mediaMode": "hero",
         "logoHeight": "",
         "richBlock": ""
-      }
+      },
+      "selected": true
     },
     {
       "id": 19,
@@ -676,7 +695,8 @@
         "mediaMode": "gallery",
         "logoHeight": "",
         "richBlock": "interactive.search.embedding-map"
-      }
+      },
+      "selected": true
     },
     {
       "id": 20,
@@ -697,7 +717,7 @@
       "presentations": [
         "cite"
       ],
-      "priority": 4,
+      "priority": 5,
       "media": [
         {
           "src": "/assets/img/PwC.png"
@@ -713,7 +733,8 @@
         "mediaMode": "logo",
         "logoHeight": "6vh",
         "richBlock": "interactive.it-ops.knowledge"
-      }
+      },
+      "selected": true
     },
     {
       "id": 21,
@@ -733,7 +754,7 @@
       "presentations": [
         "cite"
       ],
-      "priority": 4,
+      "priority": 5,
       "media": [
         {
           "src": "/assets/img/hsbc.png"
@@ -749,7 +770,8 @@
         "mediaMode": "logo",
         "logoHeight": "5vh",
         "richBlock": "interactive.insurance.rule-engine"
-      }
+      },
+      "selected": true
     },
     {
       "id": 22,
@@ -795,7 +817,8 @@
         "mediaMode": "gallery",
         "logoHeight": "",
         "richBlock": "interactive.scrollytelling.chart-explorer"
-      }
+      },
+      "selected": false
     },
     {
       "id": 23,
@@ -832,7 +855,8 @@
         "mediaMode": "logo",
         "logoHeight": "6vh",
         "richBlock": "interactive.rag.reference-linking"
-      }
+      },
+      "selected": false
     },
     {
       "id": 24,
@@ -869,7 +893,8 @@
         "mediaMode": "gallery",
         "logoHeight": "",
         "richBlock": ""
-      }
+      },
+      "selected": false
     },
     {
       "id": 25,
@@ -915,7 +940,8 @@
         "mediaMode": "gallery",
         "logoHeight": "",
         "richBlock": ""
-      }
+      },
+      "selected": false
     },
     {
       "id": 26,
@@ -961,7 +987,8 @@
         "mediaMode": "gallery",
         "logoHeight": "",
         "richBlock": ""
-      }
+      },
+      "selected": false
     },
     {
       "id": 27,
@@ -1007,7 +1034,8 @@
         "mediaMode": "gallery",
         "logoHeight": "",
         "richBlock": ""
-      }
+      },
+      "selected": false
     },
     {
       "id": 28,
@@ -1026,7 +1054,8 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "selected": false
     },
     {
       "id": 29,
@@ -1044,8 +1073,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 30,
@@ -1063,8 +1093,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 31,
@@ -1082,8 +1113,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 32,
@@ -1101,8 +1133,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 33,
@@ -1121,8 +1154,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 34,
@@ -1140,8 +1174,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 2,
+      "media": [],
+      "selected": false
     },
     {
       "id": 35,
@@ -1159,8 +1194,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 2,
+      "media": [],
+      "selected": false
     },
     {
       "id": 36,
@@ -1178,8 +1214,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 2,
+      "media": [],
+      "selected": false
     },
     {
       "id": 37,
@@ -1197,8 +1234,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 2,
+      "media": [],
+      "selected": false
     },
     {
       "id": 38,
@@ -1216,8 +1254,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 2,
+      "media": [],
+      "selected": false
     },
     {
       "id": 39,
@@ -1235,8 +1274,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 2,
+      "media": [],
+      "selected": false
     },
     {
       "id": 40,
@@ -1254,8 +1294,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 2,
+      "media": [],
+      "selected": false
     },
     {
       "id": 41,
@@ -1273,8 +1314,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 2,
+      "media": [],
+      "selected": false
     },
     {
       "id": 42,
@@ -1292,8 +1334,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 2,
+      "media": [],
+      "selected": false
     },
     {
       "id": 43,
@@ -1311,8 +1354,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 2,
+      "media": [],
+      "selected": false
     },
     {
       "id": 44,
@@ -1330,8 +1374,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 2,
+      "media": [],
+      "selected": false
     },
     {
       "id": 45,
@@ -1349,8 +1394,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 2,
+      "media": [],
+      "selected": false
     },
     {
       "id": 46,
@@ -1369,8 +1415,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 2,
+      "media": [],
+      "selected": false
     },
     {
       "id": 47,
@@ -1388,8 +1435,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 2,
+      "media": [],
+      "selected": false
     },
     {
       "id": 48,
@@ -1408,8 +1456,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 3,
+      "media": [],
+      "selected": false
     },
     {
       "id": 49,
@@ -1427,8 +1476,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 3,
+      "media": [],
+      "selected": false
     },
     {
       "id": 50,
@@ -1446,8 +1496,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 3,
+      "media": [],
+      "selected": false
     },
     {
       "id": 51,
@@ -1465,8 +1516,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 3,
+      "media": [],
+      "selected": false
     },
     {
       "id": 52,
@@ -1486,7 +1538,8 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "selected": false
     },
     {
       "id": 53,
@@ -1505,8 +1558,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 1,
+      "media": [],
+      "selected": false
     },
     {
       "id": 54,
@@ -1526,7 +1580,7 @@
         "cite",
         "component"
       ],
-      "priority": 0,
+      "priority": 1,
       "media": [
         {
           "kind": "image",
@@ -1548,7 +1602,8 @@
         "id": "how-it-started",
         "period": "Secondary school",
         "signature": false
-      }
+      },
+      "selected": false
     },
     {
       "id": 55,
@@ -1567,7 +1622,7 @@
         "cite",
         "component"
       ],
-      "priority": 0,
+      "priority": 1,
       "media": [
         {
           "kind": "image",
@@ -1601,7 +1656,8 @@
         "id": "batch-downloading-scientific-american-episodes",
         "period": "Secondary school",
         "signature": false
-      }
+      },
+      "selected": false
     },
     {
       "id": 56,
@@ -1626,7 +1682,7 @@
         "cite",
         "component"
       ],
-      "priority": 0,
+      "priority": 1,
       "media": [
         {
           "kind": "image",
@@ -1654,7 +1710,8 @@
         "id": "chrome-extension-experiments",
         "period": "Secondary school",
         "signature": false
-      }
+      },
+      "selected": false
     },
     {
       "id": 57,
@@ -1676,7 +1733,7 @@
         "cite",
         "component"
       ],
-      "priority": 0,
+      "priority": 1,
       "media": [
         {
           "kind": "image",
@@ -1728,7 +1785,8 @@
         "id": "music-streaming-hacks",
         "period": "Secondary school",
         "signature": false
-      }
+      },
+      "selected": false
     },
     {
       "id": 58,
@@ -1748,7 +1806,7 @@
         "cite",
         "component"
       ],
-      "priority": 0,
+      "priority": 1,
       "media": [],
       "component_description": "A complete section from Henry’s secondary-school computing archive titled “Building Kiwiview's website”, with its original explanation and any screenshots or video demonstration kept together.",
       "narrative_guidance": "Treat this as formative archival evidence. Use it when the visitor asks about Henry’s secondary-school years, the development of his technical interests, or the specific problem and domain represented here. For a broad account of his projects, use the archive’s signature project as the formative example and include this source only when it adds a distinct connection.",
@@ -1757,7 +1815,8 @@
         "id": "building-kiwiviews-website",
         "period": "Secondary school",
         "signature": false
-      }
+      },
+      "selected": false
     },
     {
       "id": 59,
@@ -1777,7 +1836,7 @@
         "cite",
         "component"
       ],
-      "priority": 0,
+      "priority": 1,
       "media": [
         {
           "kind": "video",
@@ -1795,7 +1854,8 @@
         "id": "simple-automation",
         "period": "Secondary school",
         "signature": false
-      }
+      },
+      "selected": false
     },
     {
       "id": 60,
@@ -1816,7 +1876,7 @@
         "cite",
         "component"
       ],
-      "priority": 0,
+      "priority": 1,
       "media": [
         {
           "kind": "video",
@@ -1830,7 +1890,8 @@
         "id": "econographer-an-economics-graphs-generator",
         "period": "Secondary school",
         "signature": true
-      }
+      },
+      "selected": false
     },
     {
       "id": 61,
@@ -1849,8 +1910,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 62,
@@ -1872,8 +1934,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 63,
@@ -1892,8 +1955,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 64,
@@ -1912,8 +1976,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 65,
@@ -1931,8 +1996,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 66,
@@ -1950,8 +2016,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 67,
@@ -1969,8 +2036,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 68,
@@ -1988,8 +2056,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 69,
@@ -2009,8 +2078,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 70,
@@ -2029,8 +2099,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 71,
@@ -2049,8 +2120,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 72,
@@ -2069,8 +2141,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 4,
+      "media": [],
+      "selected": false
     },
     {
       "id": 73,
@@ -2090,8 +2163,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 4,
+      "media": [],
+      "selected": false
     },
     {
       "id": 74,
@@ -2109,8 +2183,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 4,
+      "media": [],
+      "selected": false
     },
     {
       "id": 75,
@@ -2128,8 +2203,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 76,
@@ -2148,8 +2224,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 77,
@@ -2168,8 +2245,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 78,
@@ -2188,8 +2266,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 79,
@@ -2209,8 +2288,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 80,
@@ -2229,8 +2309,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 81,
@@ -2249,8 +2330,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 82,
@@ -2268,8 +2350,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 83,
@@ -2288,8 +2371,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 84,
@@ -2307,8 +2391,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 85,
@@ -2326,8 +2411,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 86,
@@ -2346,8 +2432,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 0,
-      "media": []
+      "priority": 5,
+      "media": [],
+      "selected": true
     },
     {
       "id": 87,
@@ -2366,7 +2453,8 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "selected": false
     },
     {
       "id": 88,
@@ -2399,7 +2487,8 @@
         "kind": "fragment",
         "id": "the-projection-of-thought",
         "teaser": "When thought becomes language, a layered and moving state is projected onto a more stable surface, and that surface can begin guiding the thought in return."
-      }
+      },
+      "selected": false
     },
     {
       "id": 89,
@@ -2432,7 +2521,8 @@
         "kind": "fragment",
         "id": "rebuilding-another-state-inside-me",
         "teaser": "Empathy may be less like receiving another person's feeling directly and more like reconstructing a corresponding state inside my own system from the signals they make available."
-      }
+      },
+      "selected": false
     },
     {
       "id": 90,
@@ -2462,7 +2552,8 @@
         "kind": "fragment",
         "id": "visible-part-of-the-mind",
         "teaser": "Consciousness may not reveal the whole mind, but the part that becomes reachable through the attention, language, mood, and needs of the current moment."
-      }
+      },
+      "selected": false
     },
     {
       "id": 91,
@@ -2491,7 +2582,8 @@
         "kind": "fragment",
         "id": "understanding-before-definition",
         "teaser": "Before deciding whether a person or a machine understands, it may be better to separate the different abilities and experiences that the word has gathered together."
-      }
+      },
+      "selected": false
     },
     {
       "id": 92,
@@ -2523,7 +2615,8 @@
         "kind": "fragment",
         "id": "expression-recording",
         "teaser": "Expression makes thought usable, and recording lets it persist, but the version that survives can also become the structure from which later thought continues."
-      }
+      },
+      "selected": false
     },
     {
       "id": 93,
@@ -2555,7 +2648,8 @@
         "kind": "fragment",
         "id": "rich-traces-and-open-paths",
         "teaser": "Richer traces can help AI reconstruct where a thought came from, but even a detailed record may leave the most important direction genuinely undecided."
-      }
+      },
+      "selected": false
     },
     {
       "id": 94,
@@ -2591,7 +2685,8 @@
         "kind": "fragment",
         "id": "labels-goals-rules",
         "teaser": "Labels, goals, and rules reduce complex people to forms that can be read and acted on, then return as expectations and training signals that help shape what those people become."
-      }
+      },
+      "selected": false
     },
     {
       "id": 95,
@@ -2625,7 +2720,8 @@
         "kind": "fragment",
         "id": "memory-time-self",
         "teaser": "Memory turns continuous life into stages and stories, while the self may depend not only on what is remembered at the end but on the process of actually passing through time."
-      }
+      },
+      "selected": false
     },
     {
       "id": 96,
@@ -2658,7 +2754,8 @@
         "kind": "fragment",
         "id": "satisfaction-signal",
         "teaser": "Satisfaction may be understood as a changing feedback process shaped by timing, interpretation, habit, and individual difference rather than as a fixed reward attached to an activity."
-      }
+      },
+      "selected": false
     },
     {
       "id": 97,
@@ -2685,7 +2782,8 @@
         "kind": "fragment",
         "id": "queen-victoria-market-toast-oysters",
         "teaser": "A Melbourne food memory from my last day of exchange, with oysters, lemon juice, and black truffle toast at Queen Victoria Market."
-      }
+      },
+      "selected": false
     },
     {
       "id": 98,
@@ -2712,7 +2810,8 @@
         "kind": "fragment",
         "id": "guangzhou-chaoshan-beef-hot-pot",
         "teaser": "A Guangzhou food memory with my father: springy beef balls, tender diaolong beef, and a clean flavour I preferred eating without sauce."
-      }
+      },
+      "selected": false
     },
     {
       "id": 99,
@@ -2740,7 +2839,8 @@
         "kind": "fragment",
         "id": "ai-generated-kitten-videos",
         "teaser": "AI-generated kitten videos are a good example of synthetic content still reaching human senses and triggering real emotional responses."
-      }
+      },
+      "selected": false
     },
     {
       "id": 100,
@@ -2768,7 +2868,8 @@
         "kind": "fragment",
         "id": "identity-interview-reflection",
         "teaser": "After taking part in an interview about growing up in Shanghai with Taiwanese family roots, I found it easier to think of identity as layered rather than confused."
-      }
+      },
+      "selected": false
     },
     {
       "id": 101,
@@ -2797,7 +2898,8 @@
         "kind": "fragment",
         "id": "napier-seaside-with-my-mother",
         "teaser": "My mother used to drive me from Hastings or Havelock North to Napier, and somehow that seaside became attached to her."
-      }
+      },
+      "selected": false
     },
     {
       "id": 102,
@@ -2825,7 +2927,8 @@
         "kind": "fragment",
         "id": "mothers-cooking-across-places",
         "teaser": "A memory of my mother’s cooking, from home in Shanghai to later visits in New Zealand, and how food can carry the feeling of home across places."
-      }
+      },
+      "selected": false
     },
     {
       "id": 103,
@@ -2852,7 +2955,8 @@
         "kind": "fragment",
         "id": "golf-with-my-mother-in-new-zealand",
         "teaser": "A small New Zealand memory: my mother liked golf and brought me along a few times, even though I never felt very natural at it."
-      }
+      },
+      "selected": false
     },
     {
       "id": 104,
@@ -2879,7 +2983,8 @@
         "kind": "fragment",
         "id": "slr-lab-racket-games",
         "teaser": "A small SLR Lab memory: our PI took me and another RA to play badminton and table tennis, and the lab felt a little warmer because of it."
-      }
+      },
+      "selected": false
     },
     {
       "id": 105,
@@ -2907,7 +3012,8 @@
         "kind": "fragment",
         "id": "kennedy-town-seaside-hku-years",
         "teaser": "Kennedy Town's waterfront belonged to my early HKU years, when the sea was close enough to become part of ordinary student life rather than a destination."
-      }
+      },
+      "selected": false
     },
     {
       "id": 106,
@@ -2935,7 +3041,8 @@
         "kind": "fragment",
         "id": "sydney-harbour-ferry-rides",
         "teaser": "A Sydney memory of crossing the harbour by public ferry, moving between landmarks, residential shores, commuters, open water, and sunset."
-      }
+      },
+      "selected": false
     },
     {
       "id": 107,
@@ -2963,7 +3070,8 @@
         "kind": "fragment",
         "id": "gold-coast-water-and-city-line",
         "teaser": "A Gold Coast memory of being on the water, looking down from above, and seeing a city stretched directly along the beach."
-      }
+      },
+      "selected": false
     },
     {
       "id": 108,
@@ -2991,7 +3099,8 @@
         "kind": "fragment",
         "id": "great-ocean-road-melbourne-friends",
         "teaser": "A Melbourne exchange memory of friends renting a car for the Great Ocean Road, where the people and the hours in between the viewpoints mattered as much as the coast."
-      }
+      },
+      "selected": false
     },
     {
       "id": 109,
@@ -3019,7 +3128,8 @@
         "kind": "fragment",
         "id": "taiwan-east-coast-family-road-trip",
         "teaser": "A family road trip along Taiwan’s east coast, with my father driving, seaside cafés along the road, and one of my birthdays folded into the journey."
-      }
+      },
+      "selected": false
     },
     {
       "id": 110,
@@ -3050,7 +3160,8 @@
         "kind": "fragment",
         "id": "tomatoes-of-august-29",
         "teaser": "A box of tomatoes my father washed for me reopened a weekend in Shenzhen and the quiet ways we remember one another."
-      }
+      },
+      "selected": false
     },
     {
       "id": 111,
@@ -3078,7 +3189,8 @@
         "kind": "fragment",
         "id": "athens-ruins-and-family-trip",
         "teaser": "A rare family trip to Greece, remembered through the heat of Athens, ancient stone, long days of walking, and simple meals afterward."
-      }
+      },
+      "selected": false
     },
     {
       "id": 112,
@@ -3106,7 +3218,8 @@
         "kind": "fragment",
         "id": "swimming-in-the-mediterranean",
         "teaser": "A day in Greece when the Mediterranean stopped being a name from maps and history and became water I could physically enter."
-      }
+      },
+      "selected": false
     },
     {
       "id": 113,
@@ -3133,7 +3246,8 @@
         "kind": "fragment",
         "id": "rainy-days-permission-to-stay-in",
         "teaser": "A small daily feeling about how rain makes staying indoors feel less like avoidance and more like something the world has quietly allowed."
-      }
+      },
+      "selected": false
     },
     {
       "id": 114,
@@ -3161,7 +3275,8 @@
         "kind": "fragment",
         "id": "mental-map-of-small-room",
         "teaser": "A small-room memory about mess, order, and why a space can feel familiar even when it does not look perfectly tidy from the outside."
-      }
+      },
+      "selected": false
     },
     {
       "id": 115,
@@ -3189,7 +3304,8 @@
         "kind": "fragment",
         "id": "first-camera-another-way-of-seeing",
         "teaser": "A memory of my Nikon Zfc, the apartment window, long lenses, travel photos, and how a camera gave me another way to look at the world."
-      }
+      },
+      "selected": false
     },
     {
       "id": 116,
@@ -3217,7 +3333,8 @@
         "kind": "fragment",
         "id": "music-that-became-more-spacious",
         "teaser": "A small reflection on how my music taste moved from stronger beats and rap-like rhythm toward slower, wider, more atmospheric sound."
-      }
+      },
+      "selected": false
     },
     {
       "id": 117,
@@ -3236,7 +3353,8 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "selected": false
     },
     {
       "id": 118,
@@ -3255,7 +3373,8 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "selected": false
     },
     {
       "id": 119,
@@ -3275,7 +3394,8 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "selected": false
     },
     {
       "id": 120,
@@ -3295,7 +3415,8 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "selected": false
     },
     {
       "id": 121,
@@ -3330,7 +3451,8 @@
       "entity": {
         "kind": "about",
         "id": "about-me"
-      }
+      },
+      "selected": false
     },
     {
       "id": 122,
@@ -3350,7 +3472,8 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "selected": false
     },
     {
       "id": 123,
@@ -3370,7 +3493,8 @@
         "cite"
       ],
       "priority": 0,
-      "media": []
+      "media": [],
+      "selected": false
     },
     {
       "id": 125,
@@ -3691,7 +3815,8 @@
       "entity": {
         "kind": "gallery",
         "id": "about-gallery"
-      }
+      },
+      "selected": false
     }
   ],
   "rich_blocks": [
@@ -3909,11 +4034,12 @@
     },
     {
       "id": "interactive.it-ops.browser",
+      "priority": 6,
       "kind": "interactive",
       "title": "An agent handles a workspace-access ticket",
       "description": "Hand a natural-language ticket to AI and follow its work in a separate application tab.",
       "componentDescription": "An interactive service desk dashboard, separate application tab, and floating browser-extension card from Henry’s PwC Browser Control work. Each ticket opens the application immediately. Visitors watch the agent translate the request into actions, pause, take over and edit, or approve the prepared change. The tickets also include a laptop request and an application sign-in. Resolved tickets retain the full action and decision history in the dashboard until the page is refreshed. The extension connects cloud reasoning to the operator’s existing browser.",
-      "narrativeGuidance": "Use it to explain browser agents, service-desk automation, or human intervention. Introduce the access request and show where the agent acts, where the operator decides, and how the task continues.",
+      "narrativeGuidance": "A high-priority hands-on example for Views about AI engineering, enterprise automation, or human control of agents. Readers can follow an access ticket from a service desk into a separate application, watch the agent fill the form, then pause, take over, or approve the change. It makes the division between cloud reasoning, browser actions, and operator decisions visible. Introduce the ticket and invite the reader to try an intervention before explaining what it shows. Use only when these actions help answer the reader’s question.",
       "activationTopics": [
         "browser control",
         "browser agent",
