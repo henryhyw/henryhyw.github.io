@@ -12,49 +12,9 @@
       "sha256": "582fe4c782078e79896583a1672300709c23ae58b6005d2827130b80f1122db9"
     },
     {
-      "path": "docs/site/__pycache__/build.cpython-310.pyc",
-      "bytes": 8085,
-      "sha256": "555c05bead43085341a8e4839f83a3598ec9fdcc3d693ffd8b1000054e00d0f8"
-    },
-    {
-      "path": "docs/site/__pycache__/build.cpython-312.pyc",
-      "bytes": 34310,
-      "sha256": "3513240e9304e79a0f02e0b52226b89dfd4658fc081d7dfcefa10603f0a89c8a"
-    },
-    {
-      "path": "docs/site/__pycache__/extract_objects.cpython-312.pyc",
-      "bytes": 22565,
-      "sha256": "085b5ef8c5a76e1d8763f6802d4b5a0f61224f450792bb806a9ef74190ed5734"
-    },
-    {
-      "path": "docs/site/__pycache__/test_build.cpython-310.pyc",
-      "bytes": 6430,
-      "sha256": "ce5f0e4d959b5206b649afa6ecc4f5a583744efd64ef491b9036e8a70df739c1"
-    },
-    {
-      "path": "docs/site/__pycache__/test_build.cpython-312-pytest-9.1.1.pyc",
-      "bytes": 23327,
-      "sha256": "153fe7fc425bbb29e6a9be156cf13c79cfca9337404b02552cd28f2e972d1f79"
-    },
-    {
-      "path": "docs/site/__pycache__/test_build.cpython-312.pyc",
-      "bytes": 23213,
-      "sha256": "9238e8fea12012f8cae9ca956067f7c9174cf26e6d01a031b980b3adacdc3637"
-    },
-    {
-      "path": "docs/site/__pycache__/test_objects.cpython-312-pytest-9.1.1.pyc",
-      "bytes": 10938,
-      "sha256": "4c97c481e5d379a0e9bf3c55fa19c36b2cc321c251f3a80d2b0595911eccb041"
-    },
-    {
-      "path": "docs/site/__pycache__/test_objects.cpython-312.pyc",
-      "bytes": 10824,
-      "sha256": "9399672d0aa45015e54f9faeb1a27f0c90b3c65a5cb7bac65a63b2395e30331a"
-    },
-    {
       "path": "docs/site/app.mjs",
-      "bytes": 43838,
-      "sha256": "ce36040caa5381123310eea411e7120b67d35b260d78d9153fe405652ce34624"
+      "bytes": 44205,
+      "sha256": "ee517e9c8502094f8b1581a471d88627819942ce226623fb0e9f4846ffd03a3d"
     },
     {
       "path": "docs/site/architecture.png",
@@ -68,18 +28,18 @@
     },
     {
       "path": "docs/site/assets/file-search-line.svg",
-      "bytes": 715,
-      "sha256": "1f68c121fff9efc279a49115e3a7a17bd484872abf99681c930aac86e2c4900b"
+      "bytes": 716,
+      "sha256": "2197185ec61b5119cc341ddc332cfcdbc17e7a28c5025db15888aad9c1939a59"
     },
     {
       "path": "docs/site/assets/shield-check-line.svg",
-      "bytes": 581,
-      "sha256": "d357acefbd5eb7e7b3f0af35e2b468caee6d6d6dbaaeb03d0a9cb59035ee9e8f"
+      "bytes": 582,
+      "sha256": "73e17515f49a4d415cfbc4500f702892aa98f83adcc57277ced13eaea4ae9243"
     },
     {
       "path": "docs/site/assets/user-star-line.svg",
-      "bytes": 502,
-      "sha256": "2f034934ef9b717c90a3f7253ba62c4aeab82d26962599f5956d2ac9c9ff661a"
+      "bytes": 503,
+      "sha256": "83034d02a7c18e04b81f02744b725b4cbf03d32b6a75b8df68be89512928feea"
     },
     {
       "path": "docs/site/build.py",
@@ -223,8 +183,8 @@
     },
     {
       "path": "docs/site/console-demo/index.html",
-      "bytes": 5178,
-      "sha256": "697619fc6cc4aa91b4a13bd4f62e277b7eb176aa7c549df78b35ab4f11bf4605"
+      "bytes": 5172,
+      "sha256": "cfe9c99ee27eb01bd483a39c92520f2556cf46718056eec40ad14a4ccdcaec7b"
     },
     {
       "path": "docs/site/console-demo/mark.svg",
@@ -248,8 +208,8 @@
     },
     {
       "path": "docs/site/index.html",
-      "bytes": 21560,
-      "sha256": "bb64eb10c4f15165d8c0a77b56692c28da84e1987215be5cfc71163afaff4e50"
+      "bytes": 21563,
+      "sha256": "2186350ece7e7652c85c4799a818b7310f0cdd26332d452c0d4328504e64a916"
     },
     {
       "path": "docs/site/mark.svg",
@@ -378,8 +338,8 @@
     },
     {
       "path": "docs/site/styles.css",
-      "bytes": 59257,
-      "sha256": "ba3f698c2d65eae6e71cb4d9f136cd1a7024c20f6acf6a45b70ecf752dbfd6e9"
+      "bytes": 59512,
+      "sha256": "d2b1f29c4b2f7a1bd61a2b520045f11f2a922ca794505d24f5e642ea08efb2d5"
     },
     {
       "path": "docs/site/test_build.py",
@@ -394,7 +354,7 @@
     {
       "path": "examples/consulting-ai-transformation/assets/s01-recommendation-objects.json",
       "bytes": 21045,
-      "sha256": "f068cc1b3dabdf284719a688750f01f854bced231c308bbcb3fde61b089bc25f"
+      "sha256": "914daf653b8eabd2533643677235a554612efe4037c5b4e44c92411430cc80c4"
     },
     {
       "path": "examples/consulting-ai-transformation/assets/s01-recommendation-render.png",
@@ -414,12 +374,12 @@
     {
       "path": "examples/consulting-ai-transformation/assets/s02-opportunities-objects.json",
       "bytes": 16217,
-      "sha256": "0f36b4aa18ef865b68b7bd5bae93adeb86b083775caf6b3e17535aaf587f847f"
+      "sha256": "e3b078d10c1ec743924efb92753c7d8b3710fcd5744560addb425499e33fa995"
     },
     {
       "path": "examples/consulting-ai-transformation/assets/s02-opportunities-render.png",
-      "bytes": 179887,
-      "sha256": "fae91eef16ff0387afe6346f16b2827cbb3b75dc061482351145de7c844be5c4"
+      "bytes": 179724,
+      "sha256": "dd0e32533a4a2dc5c3fa4b8ec67e0b0cbb6dc42c4b775ae37504daae84f3d546"
     },
     {
       "path": "examples/consulting-ai-transformation/assets/s02-opportunities-semantic.png",
@@ -434,7 +394,7 @@
     {
       "path": "examples/consulting-ai-transformation/assets/s03-operating-model-objects.json",
       "bytes": 17913,
-      "sha256": "8323a5e6d55912534cd1529c569f9e7b4cae4ad167337b84ff604017ec7e370b"
+      "sha256": "3410146d63c7a55502373f26f96f005fe660b4edc6bf14de672252a94d3ad718"
     },
     {
       "path": "examples/consulting-ai-transformation/assets/s03-operating-model-render.png",
@@ -453,18 +413,18 @@
     },
     {
       "path": "examples/consulting-ai-transformation/assets/s04-delivery-roadmap-objects.json",
-      "bytes": 21382,
-      "sha256": "093f7c74751ff02b2add3817148997da80ee9f315e79a3e371af5b3cbe901be3"
+      "bytes": 21353,
+      "sha256": "28617bd16635aef690a32f43d33fe1c14a1e9b7a6b473c291047a486433f9baa"
     },
     {
       "path": "examples/consulting-ai-transformation/assets/s04-delivery-roadmap-render.png",
-      "bytes": 175819,
-      "sha256": "fd1dc67add7e34d62e36c85d2cb9651f33acd3c3bb5a7cb754805c65e5719d5b"
+      "bytes": 175777,
+      "sha256": "79dda343bc4f424c182da8989b1ca75e8bc7741a20724008a71b7a5c0c174e12"
     },
     {
       "path": "examples/consulting-ai-transformation/assets/s04-delivery-roadmap-semantic.png",
-      "bytes": 1803457,
-      "sha256": "9688c37c4c5022b2e124538844d1029e5968fc3e4410cbf35fbcf5491bdd8725"
+      "bytes": 1807628,
+      "sha256": "21e0fcfdb76e9a383364a05d4787d88d590b2ea3bbc7fe2fe6cab95aeea72a55"
     },
     {
       "path": "examples/consulting-ai-transformation/assets/s04-delivery-roadmap-target.png",
@@ -474,7 +434,7 @@
     {
       "path": "examples/consulting-ai-transformation/assets/s05-investment-decision-objects.json",
       "bytes": 21631,
-      "sha256": "95b6f5480b0dfe9f607c8f69274ac1b1ccae7d2b9827732c6cfa39359d7b2080"
+      "sha256": "257b09998acf77550e3b85a31c2336b6ca1de515a0db023d6bdb648062796aa6"
     },
     {
       "path": "examples/consulting-ai-transformation/assets/s05-investment-decision-render.png",
@@ -494,7 +454,7 @@
     {
       "path": "examples/consulting-ai-transformation/deliverables/presentation.pptx",
       "bytes": 483796,
-      "sha256": "144791ea004117d3e65ce944e93f02a1c721cc38eb3b1c8214ec25095ee2790d"
+      "sha256": "638f70392a6eea2919d908ab1a558bd4f26221661df02ee0cdc5a1b795769c71"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s01-recommendation/work/generation-request-assets-used.json",
@@ -509,7 +469,7 @@
     {
       "path": "examples/consulting-ai-transformation/run/slides/s01-recommendation/work/reconstruction/constructor-scene.json",
       "bytes": 45180,
-      "sha256": "059719d8e8eecbdc6facf3e8a77931e45b0843ccfd1f92fdc8c3a1f9acc80116"
+      "sha256": "8cdeb8e5fc77290c858114241fc2ff0038b5a55aad50e5d8a40ad504c330c077"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s01-recommendation/work/reconstruction/measurement/debug_overlay.png",
@@ -518,8 +478,8 @@
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s01-recommendation/work/reconstruction/measurement/slide_entities.json",
-      "bytes": 214818,
-      "sha256": "ace370192d12d2ad6afe59d6e058636797c5449f30d6c4a5f857dfdb16801ab3"
+      "bytes": 215034,
+      "sha256": "458bd571ba34c59becd0c3a9dba3d51ef7818233a36557b4826e76fd90445c7d"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s01-recommendation/work/semantic-map.json",
@@ -533,8 +493,8 @@
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s02-opportunities/deliverables/comparison.png",
-      "bytes": 2003975,
-      "sha256": "6bd770be74d72331cf9ced97272909361929ebe59a11f44dcc1d41d4acac3bbb"
+      "bytes": 2003944,
+      "sha256": "19ddbc7d59b401e88b60e504ea6eb57aab6256a5a5592535ae7673368bf1f0b3"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s02-opportunities/work/generation-request-assets-used.json",
@@ -548,8 +508,8 @@
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s02-opportunities/work/reconstruction/constructor-scene.json",
-      "bytes": 44845,
-      "sha256": "621770a01b111d0b2aac742db9455d5fb972f1643d7fa9715e39bdaf68611d94"
+      "bytes": 44848,
+      "sha256": "4c2944fcfb95eb080bb8bb68429bf3486961d5f05f0c0f8f748a67c97a5a820d"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s02-opportunities/work/reconstruction/measurement/debug_overlay.png",
@@ -558,13 +518,13 @@
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s02-opportunities/work/reconstruction/measurement/slide_entities.json",
-      "bytes": 226474,
-      "sha256": "6dc2c27f9b9e630fdc12a633dc8d8e822584f3281ecf435408e13b61c968cf82"
+      "bytes": 226693,
+      "sha256": "e6c8f4f680eda3dbf0738106d0f76c388576ac032440328372db332166cac0a3"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s02-opportunities/work/semantic-map.json",
-      "bytes": 36887,
-      "sha256": "13f5ed1dad2105a11c6a74de7d91cc213fa4f47253e1496ed43606dc365b6bf8"
+      "bytes": 36890,
+      "sha256": "cef981d17b39419738a7197e7ce10f987e8e5061bfadbf54af587c3fb5579afa"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s02-opportunities/work/slide-intent.json",
@@ -584,7 +544,7 @@
     {
       "path": "examples/consulting-ai-transformation/run/slides/s03-operating-model/work/reconstruction/constructor-scene.json",
       "bytes": 48540,
-      "sha256": "7cf464552de80cf5d63a5384983961ac8425e8032f69965eb4249f4064d59d20"
+      "sha256": "50708e5a4a44e47407b702c515d8f72962c55f187a56ff1a374be5d159fcb8ef"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s03-operating-model/work/reconstruction/measurement/debug_overlay.png",
@@ -593,8 +553,8 @@
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s03-operating-model/work/reconstruction/measurement/slide_entities.json",
-      "bytes": 185185,
-      "sha256": "fd381a552663ee4525f26a689f2b2387548d638d4ea966ffee0cdaa77c3de854"
+      "bytes": 185401,
+      "sha256": "a50fa6a4e0123827bee9726229dad855a6546224dcdf006c8420844d22fb4094"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s03-operating-model/work/semantic-map.json",
@@ -618,23 +578,23 @@
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s04-delivery-roadmap/work/reconstruction/constructor-scene.json",
-      "bytes": 51666,
-      "sha256": "f20660255fab053ade43ed2c344610624fbc1b10534d7295daf28a9c7eb62838"
+      "bytes": 51664,
+      "sha256": "0d62736078635ca656ae1d60a6621f512d66be5dfa3cf36aebdf97cddb3f521e"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s04-delivery-roadmap/work/reconstruction/measurement/debug_overlay.png",
-      "bytes": 1908405,
-      "sha256": "f68f0c1a7ae29b4c7a9f1b6342ab58a9de213139fbfe92c7b0aac82fa0be2891"
+      "bytes": 1908467,
+      "sha256": "2c9bc502b7b13c830ca101331826ecd9e94de751592a803becc3598c0450816b"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s04-delivery-roadmap/work/reconstruction/measurement/slide_entities.json",
-      "bytes": 243640,
-      "sha256": "ef179ace3d13953fcce497f313449b5d2b22ec009b5d0fc89e4039409c71aef5"
+      "bytes": 244085,
+      "sha256": "b9d39fa8320a20c5bbddacc7293c75ed90d28e71627c4e25e9bed514dcd18d1d"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s04-delivery-roadmap/work/semantic-map.json",
-      "bytes": 42714,
-      "sha256": "51a9689ec52dead2386f90b9ce6038e4b97d2e4e3cf8fd3a6ad701222152a220"
+      "bytes": 42853,
+      "sha256": "3c60c3b923178de2b326e5f85a40aaf62c64ac6474db2f3a71e97a27a45e91bb"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s04-delivery-roadmap/work/slide-intent.json",
@@ -649,7 +609,7 @@
     {
       "path": "examples/consulting-ai-transformation/run/slides/s05-investment-decision/work/reconstruction/constructor-scene.json",
       "bytes": 56735,
-      "sha256": "5dd5b90e437f11ba6878a91721d86710771886e7e3fc22fd4ef7f0d0acedcb6e"
+      "sha256": "fd270ece75b019ad0f71a0709c1b4d5e4b4099293ec5e7a8933328b97e4b8e26"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s05-investment-decision/work/reconstruction/measurement/debug_overlay.png",
@@ -658,8 +618,8 @@
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s05-investment-decision/work/reconstruction/measurement/slide_entities.json",
-      "bytes": 336252,
-      "sha256": "a5f8ae5f2f24693c70033b2419a904945f1cb82b34206932bc06b21e12850142"
+      "bytes": 336468,
+      "sha256": "4399a8e2dfed4398fa6db145c8fb0b31091c5be70908775259e73f08d107b895"
     },
     {
       "path": "examples/consulting-ai-transformation/run/slides/s05-investment-decision/work/semantic-map.json",
@@ -673,18 +633,18 @@
     },
     {
       "path": "examples/consulting-ai-transformation/run/work/cross-slide-calibration-review.json",
-      "bytes": 12037,
-      "sha256": "125dbfd0b5bb7f1fb40623f518e8125813bba34d5e08a06c3a95c02473d3d2d8"
+      "bytes": 12201,
+      "sha256": "d98123c35703cd3f092846a7a1771c153a8e67649a7d4364c2be4b106c43a058"
     },
     {
       "path": "examples/consulting-ai-transformation/run/work/deck-outline.json",
-      "bytes": 14906,
-      "sha256": "8881e4741e8623124b432ff5d1bdf6a20270504745c8b3be74c09743b1cab0ad"
+      "bytes": 15001,
+      "sha256": "82103ddbb50ceae55852b54528b9267ce2066e2fe254c66d515aabe81ea98f38"
     },
     {
       "path": "examples/consulting-ai-transformation/run/work/deck-review.json",
-      "bytes": 5418,
-      "sha256": "549b27da39c222b45f1c74758238962316bd8799d18485c78206b940c40c51b3"
+      "bytes": 5608,
+      "sha256": "acb7f424062a28f46876067a52df95819ed541fa2960238c6efc3935f1f80f43"
     },
     {
       "path": "examples/consulting-ai-transformation/run/work/native-edit-proof/comparison.png",
@@ -699,7 +659,7 @@
     {
       "path": "examples/consulting-ai-transformation/showcase.json",
       "bytes": 8207,
-      "sha256": "52dac50e48cedc7a6fbdfd5f81a1304dfd9567b2d31d9ba325caa0da02eeb93f"
+      "sha256": "90a2499ed81c68bedfdf0ad85ea2aa7d1a1db8d97298aa4ce21de9711b11c77a"
     },
     {
       "path": "examples/personal-thinking-system/assets/s01-opening-objects.json",
@@ -833,8 +793,8 @@
     },
     {
       "path": "examples/personal-thinking-system/run/slides/s01-opening/work/slide-intent.json",
-      "bytes": 1277,
-      "sha256": "e1d48083f4958bdd9f72fcceb404ca14c8468ece41d787a7a2cf2841bca3f275"
+      "bytes": 1276,
+      "sha256": "8b310d4ddfb7ab7390ed8226c8b9be1f01afebf22ae80abdd7fcdf6c66dbc3fd"
     },
     {
       "path": "examples/personal-thinking-system/run/slides/s02-question/work/imagegen-prompt.txt",
@@ -863,8 +823,8 @@
     },
     {
       "path": "examples/personal-thinking-system/run/slides/s02-question/work/slide-intent.json",
-      "bytes": 1444,
-      "sha256": "173bab303c7d850f6a69f88a36a0e173e42316100dc6aa68f7b71a145e1cbc0f"
+      "bytes": 1443,
+      "sha256": "554dd9e0c0a7bf420d5546311c1f7c0feb339c360d30eae9d1c0c72a76c0bd46"
     },
     {
       "path": "examples/personal-thinking-system/run/slides/s03-practice/work/imagegen-prompt.txt",
@@ -893,8 +853,8 @@
     },
     {
       "path": "examples/personal-thinking-system/run/slides/s03-practice/work/slide-intent.json",
-      "bytes": 1514,
-      "sha256": "e8bfda57e2641de7ab4eff9ae067965ce23d1488062e0fd99601344fea8057a0"
+      "bytes": 1513,
+      "sha256": "08d992b737356c4d9a3337dfdc70666885b112cd81f49a930c2b349ddd7cf24c"
     },
     {
       "path": "examples/personal-thinking-system/run/slides/s04-trace/deliverables/comparison.png",
@@ -928,8 +888,8 @@
     },
     {
       "path": "examples/personal-thinking-system/run/slides/s04-trace/work/slide-intent.json",
-      "bytes": 1624,
-      "sha256": "267794ab3a362d8e2157baf069f53e3f343dcfde7c5435cabde4d815e1049b71"
+      "bytes": 1623,
+      "sha256": "2337832d3cc1bc04a11a42653cd26f9f93739d82cb7f2e1a53dcb8eb79b6b75a"
     },
     {
       "path": "examples/personal-thinking-system/run/slides/s05-close/work/imagegen-prompt.txt",
@@ -958,13 +918,13 @@
     },
     {
       "path": "examples/personal-thinking-system/run/slides/s05-close/work/slide-intent.json",
-      "bytes": 1408,
-      "sha256": "bdfd26442bf0dbe709a87e46ec441e9294d7ed29084aa4acf41c7060404d880b"
+      "bytes": 1407,
+      "sha256": "9c6be6f72b5d5f64b12ea852090df3f25f470909d8e200fb1c017cba4a829301"
     },
     {
       "path": "examples/personal-thinking-system/run/work/deck-outline.json",
-      "bytes": 4524,
-      "sha256": "538c2a126b2d9995e09b63c3f22fe51858ed9322bc32371cff526672c24b1ce9"
+      "bytes": 4523,
+      "sha256": "63bb8834d56ec2789f6d354c1063573f88b495d7244e0f5cdc22fd0b2a7ee90d"
     },
     {
       "path": "examples/personal-thinking-system/run/work/deck-review.json",
@@ -978,8 +938,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 299,
-      "sha256": "fc5bbb802cb51a4a2604d939c1811261372781f92b531c1c128cc3314fe19395"
+      "bytes": 158,
+      "sha256": "a04a26215c6c97528b6887cd1592f896b8b69b3a24acda8302db085317cd8fc3"
     }
   ]
 }
