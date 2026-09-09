@@ -148,14 +148,15 @@
       "page": "Experience",
       "title": "Cloud, Data & AI Consulting Intern",
       "anchor": "work-pwc",
-      "description": "At PwC, I work on AI systems for financial-services and public-sector engagements. I help define the problem, build prototypes, and evaluate how well they work. I built an LLM-assisted pipeline to reverse-engineer legacy ETL logic into traceable data lineage, business rules, and test scenarios for migration work.",
-      "body": "At PwC, I work on AI systems for financial-services and public-sector engagements. I help define the problem, build prototypes, and evaluate how well they work. I built an LLM-assisted pipeline to reverse-engineer legacy ETL logic into traceable data lineage, business rules, and test scenarios for migration work. For a public-enquiry RAG system, I built a structure-preserving knowledge-base ingestion pipeline that kept cross-page rules, notes, tables, and flowcharts connected through chunking and retrieval. I also developed a DeepEval framework for classification, retrieval, and response quality. I evaluated enterprise document-processing systems and built workflows to recover information lost during preprocessing and support rule-based document review. I also reviewed Ethereum and stablecoin infrastructure risks for a banking engagement.",
+      "description": "At PwC, I work on AI and data systems for financial-services and public-sector clients, combining solution architecture with hands-on development. I translate business needs into technical requirements and evaluate how existing tools can work together within the client’s constraints.",
+      "body": "At PwC, I work on AI and data systems for financial-services and public-sector clients, combining solution architecture with hands-on development. I translate business needs into technical requirements and evaluate how existing tools can work together within the client’s constraints. Through rapid prototyping, I build and run end-to-end proofs of concept to test the proposed solution against real workflows and refine the design. I designed how an IT assistant identifies gaps in its technical knowledge, acquires relevant guidance and keeps its sources current. I also developed an AI agent that carries out service tickets in an operator’s browser, with review, intervention and handover built into the workflow. For a public-enquiry assistant, I evaluated and integrated document-processing tools into a structure-preserving RAG ingestion pipeline. It keeps page-spanning content, complex tables, references and flowcharts connected through chunking and retrieval. I also developed a DeepEval framework for classification, retrieval and response quality. I built an LLM-assisted pipeline to reverse-engineer legacy ETL logic into traceable data lineage, business rules and test scenarios for migration work. I evaluated enterprise document-processing systems and built workflows to recover information lost during preprocessing and support rule-based document review. I reviewed Ethereum and stablecoin infrastructure risks for a banking engagement.",
       "parts": [
-        "At PwC, I work on AI systems for financial-services and public-sector engagements. I help define the problem, build prototypes, and evaluate how well they work.",
-        "I built an LLM-assisted pipeline to reverse-engineer legacy ETL logic into traceable data lineage, business rules, and test scenarios for migration work.",
-        "For a public-enquiry RAG system, I built a structure-preserving knowledge-base ingestion pipeline that kept cross-page rules, notes, tables, and flowcharts connected through chunking and retrieval. I also developed a DeepEval framework for classification, retrieval, and response quality.",
+        "At PwC, I work on AI and data systems for financial-services and public-sector clients, combining solution architecture with hands-on development. I translate business needs into technical requirements and evaluate how existing tools can work together within the client’s constraints. Through rapid prototyping, I build and run end-to-end proofs of concept to test the proposed solution against real workflows and refine the design.",
+        "I designed how an IT assistant identifies gaps in its technical knowledge, acquires relevant guidance and keeps its sources current. I also developed an AI agent that carries out service tickets in an operator’s browser, with review, intervention and handover built into the workflow.",
+        "For a public-enquiry assistant, I evaluated and integrated document-processing tools into a structure-preserving RAG ingestion pipeline. It keeps page-spanning content, complex tables, references and flowcharts connected through chunking and retrieval. I also developed a DeepEval framework for classification, retrieval and response quality.",
+        "I built an LLM-assisted pipeline to reverse-engineer legacy ETL logic into traceable data lineage, business rules and test scenarios for migration work.",
         "I evaluated enterprise document-processing systems and built workflows to recover information lost during preprocessing and support rule-based document review.",
-        "I also reviewed Ethereum and stablecoin infrastructure risks for a banking engagement."
+        "I reviewed Ethereum and stablecoin infrastructure risks for a banking engagement."
       ],
       "view_kind": "experience",
       "presentations": [
@@ -187,11 +188,12 @@
       "page": "Experience",
       "title": "Part-time Student Research Assistant",
       "anchor": "work-slr",
-      "description": "Stephen Lee on computational models of human learning and cognition. I study how people form and use knowledge from experience and how learned representations support behaviour across tasks and situations. I develop computational models, analyse behavioural data, and use modelling to connect experimental results to possible cognitive processes.",
-      "body": "Stephen Lee on computational models of human learning and cognition. I study how people form and use knowledge from experience and how learned representations support behaviour across tasks and situations. I develop computational models, analyse behavioural data, and use modelling to connect experimental results to possible cognitive processes. My work has included generalisation, transfer, and explicit and implicit learning.",
+      "description": "Stephen Lee on computational models of human learning and cognition, studying how people form knowledge through experience and how learned representations support behaviour across tasks and situations. I develop computational models to examine possible cognitive processes behind experimental results. My work has included generalisation, transfer, and explicit and implicit learning.",
+      "body": "Stephen Lee on computational models of human learning and cognition, studying how people form knowledge through experience and how learned representations support behaviour across tasks and situations. I develop computational models to examine possible cognitive processes behind experimental results. My work has included generalisation, transfer, and explicit and implicit learning. I analyse behavioural data and connect patterns in learning and performance to the representations and processes proposed by the models.",
       "parts": [
-        "Stephen Lee on computational models of human learning and cognition. I study how people form and use knowledge from experience and how learned representations support behaviour across tasks and situations.",
-        "I develop computational models, analyse behavioural data, and use modelling to connect experimental results to possible cognitive processes. My work has included generalisation, transfer, and explicit and implicit learning."
+        "Stephen Lee on computational models of human learning and cognition, studying how people form knowledge through experience and how learned representations support behaviour across tasks and situations.",
+        "I develop computational models to examine possible cognitive processes behind experimental results. My work has included generalisation, transfer, and explicit and implicit learning.",
+        "I analyse behavioural data and connect patterns in learning and performance to the representations and processes proposed by the models."
       ],
       "view_kind": "experience",
       "presentations": [
@@ -223,12 +225,12 @@
       "page": "Experience",
       "title": "Digital Transformation Intern",
       "anchor": "work-hsbc",
-      "description": "At HSBC, I worked on a mapping problem across business, design, and engineering for multi-market insurance products. I consolidated product and distribution information across markets, then built an Excel/VBA configuration engine that mapped product specifications through business scenarios and decision tables to UI-component requirements. This allowed configurations to be regenerated as requirements changed.",
-      "body": "At HSBC, I worked on a mapping problem across business, design, and engineering for multi-market insurance products. I consolidated product and distribution information across markets, then built an Excel/VBA configuration engine that mapped product specifications through business scenarios and decision tables to UI-component requirements. This allowed configurations to be regenerated as requirements changed. I also evaluated AI use cases in banking, focusing on data readiness, controls, and where human review needed to remain in the workflow.",
+      "description": "At HSBC, I connected business requirements, design libraries and engineering configuration for insurance products across markets. My work made the rules behind an app’s screens and fields explicit, so teams could generate configurations and update them as requirements changed.",
+      "body": "At HSBC, I connected business requirements, design libraries and engineering configuration for insurance products across markets. My work made the rules behind an app’s screens and fields explicit, so teams could generate configurations and update them as requirements changed. I consolidated product and distribution information across markets, then built an Excel/VBA configuration engine that maps product specifications through business scenarios and decision tables to UI-component requirements. The team can maintain these mapping libraries and regenerate configurations when the underlying requirements change. I evaluated AI use cases in banking, considering data readiness, controls and where human review needed to remain in the workflow.",
       "parts": [
-        "At HSBC, I worked on a mapping problem across business, design, and engineering for multi-market insurance products.",
-        "I consolidated product and distribution information across markets, then built an Excel/VBA configuration engine that mapped product specifications through business scenarios and decision tables to UI-component requirements. This allowed configurations to be regenerated as requirements changed.",
-        "I also evaluated AI use cases in banking, focusing on data readiness, controls, and where human review needed to remain in the workflow."
+        "At HSBC, I connected business requirements, design libraries and engineering configuration for insurance products across markets. My work made the rules behind an app’s screens and fields explicit, so teams could generate configurations and update them as requirements changed.",
+        "I consolidated product and distribution information across markets, then built an Excel/VBA configuration engine that maps product specifications through business scenarios and decision tables to UI-component requirements. The team can maintain these mapping libraries and regenerate configurations when the underlying requirements change.",
+        "I evaluated AI use cases in banking, considering data readiness, controls and where human review needed to remain in the workflow."
       ],
       "view_kind": "experience",
       "presentations": [
@@ -260,11 +262,12 @@
       "page": "Experience",
       "title": "Web Developer, Digital Content Support",
       "anchor": "work-kiwiview",
-      "description": "At Kiwiview, I designed, developed, deployed, and maintained the company's website. I also created website copy, branding materials, and promotional content for its study-tour and travel programmes.",
-      "body": "At Kiwiview, I designed, developed, deployed, and maintained the company's website. I also created website copy, branding materials, and promotional content for its study-tour and travel programmes.",
+      "description": "At Kiwiview, I developed the company’s website and digital content, bringing its study-tour and travel programmes into a coherent online presence. I designed, developed, deployed and maintained the company website. I created website copy, branding materials and promotional content for its study-tour and travel programmes.",
+      "body": "At Kiwiview, I developed the company’s website and digital content, bringing its study-tour and travel programmes into a coherent online presence. I designed, developed, deployed and maintained the company website. I created website copy, branding materials and promotional content for its study-tour and travel programmes.",
       "parts": [
-        "At Kiwiview, I designed, developed, deployed, and maintained the company's website.",
-        "I also created website copy, branding materials, and promotional content for its study-tour and travel programmes."
+        "At Kiwiview, I developed the company’s website and digital content, bringing its study-tour and travel programmes into a coherent online presence.",
+        "I designed, developed, deployed and maintained the company website.",
+        "I created website copy, branding materials and promotional content for its study-tour and travel programmes."
       ],
       "view_kind": "experience",
       "presentations": [
@@ -312,53 +315,16 @@
     },
     {
       "id": 11,
-      "source_id": "research:fittedAssistance",
-      "route": "/research",
-      "page": "Research",
-      "title": "Early Epistemic Settlement in AI-Assisted Writing",
-      "anchor": "structure-settles-thought",
-      "description": "Working out how to organise a passage can change what a writer understands and what the argument needs to explain. AI can supply a structure that meets the passage's current demands while the writer's own work towards a resolution is still unfinished. I call this early epistemic settlement. The writer can then move on without completing work that might have changed the problem itself.",
-      "body": "Working out how to organise a passage can change what a writer understands and what the argument needs to explain. AI can supply a structure that meets the passage's current demands while the writer's own work towards a resolution is still unfinished. I call this early epistemic settlement. The writer can then move on without completing work that might have changed the problem itself. Where the writer already has the connections needed to construct several arrangements, AI can complete one while the others still need work. In other cases, another arrangement becomes possible only as the writer forms further connections. A supplied resolution can remove the need for the work that would have made this alternative possible. The paper also asks what happens when an AI-supplied structure and the writer's continued work lead to the same wording. The supporting reasons and limits the writer has worked through can still differ, changing what they can defend or develop later. AI suggestions can help develop this understanding when the writer works through them while the question is still unresolved.",
-      "parts": [
-        "Working out how to organise a passage can change what a writer understands and what the argument needs to explain. AI can supply a structure that meets the passage's current demands while the writer's own work towards a resolution is still unfinished. I call this early epistemic settlement. The writer can then move on without completing work that might have changed the problem itself. Where the writer already has the connections needed to construct several arrangements, AI can complete one while the others still need work. In other cases, another arrangement becomes possible only as the writer forms further connections. A supplied resolution can remove the need for the work that would have made this alternative possible. The paper also asks what happens when an AI-supplied structure and the writer's continued work lead to the same wording.",
-        "The supporting reasons and limits the writer has worked through can still differ, changing what they can defend or develop later. AI suggestions can help develop this understanding when the writer works through them while the question is still unresolved."
-      ],
-      "view_kind": "publication",
-      "presentations": [
-        "cite",
-        "component"
-      ],
-      "priority": 5,
-      "media": [],
-      "component_description": "The original Research entry for “Early Epistemic Settlement in AI-Assisted Writing”, including its publication details, full explanation, and research figures where available.",
-      "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
-      "entity": {
-        "kind": "publication",
-        "id": "fittedAssistance",
-        "period": "June 2026 - Present",
-        "status": "Under review",
-        "authors": "Han-yu Wang",
-        "links": [
-          {
-            "label": "Paper",
-            "url": "https://philpapers.org/rec/WANWSS"
-          }
-        ]
-      },
-      "selected": true
-    },
-    {
-      "id": 12,
       "source_id": "research:transfer",
       "route": "/research",
       "page": "Research",
       "title": "The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization?",
       "anchor": "transfer",
-      "description": "Transfer experiments are used as mechanism tests, with responses to prototypes, novel combinations, or distant items taken as evidence for particular accounts of generalization. The diagnostic value of a transfer condition is not intrinsic to its label; it depends on whether the candidate mechanisms make sufficiently different predictions in that task and whether the planned observations can recover that divergence.",
-      "body": "Transfer experiments are used as mechanism tests, with responses to prototypes, novel combinations, or distant items taken as evidence for particular accounts of generalization. The diagnostic value of a transfer condition is not intrinsic to its label; it depends on whether the candidate mechanisms make sufficiently different predictions in that task and whether the planned observations can recover that divergence. I formalise this prospective property as the resolving power of a transfer design: candidate separation quantifies how far each pair of mechanisms diverges, candidate recovery quantifies whether a planned response schedule can discriminate them under finite and noisy observation, and condition-level analysis localises where the information arises. The framework is released as tide, an open-source Python toolkit for prospective design audit and revision, together with a web application.",
+      "description": "We developed a framework for designing transfer experiments around explicit accounts of how people learn. Its candidate space separates how information is represented from how experience produces a response.",
+      "body": "We developed a framework for designing transfer experiments around explicit accounts of how people learn. Its candidate space separates how information is represented from how experience produces a response. Crossing representation geometries with rule, prototype and exemplar policies lets us construct matched accounts, generate their predictions on the same task, and extend the space with intermediate or custom candidates. These predictions guide changes to the experiment before participant data are collected. Candidate separation locates the conditions in which accounts diverge, while candidate recovery estimates what the planned observations can reveal. Applying the framework to categorisation and artificial orthography shows how changing test items or response measures opens up different mechanism contrasts. The open-source TIDE (Transfer-design Identifiability and Diagnosticity Evaluation) toolkit and interactive app let researchers compare candidate pairs, inspect where the evidence comes from, and revise their designs.",
       "parts": [
-        "Transfer experiments are used as mechanism tests, with responses to prototypes, novel combinations, or distant items taken as evidence for particular accounts of generalization. The diagnostic value of a transfer condition is not intrinsic to its label; it depends on whether the candidate mechanisms make sufficiently different predictions in that task and whether the planned observations can recover that divergence. I formalise this prospective property as the resolving power of a transfer design: candidate separation quantifies how far each pair of mechanisms diverges, candidate recovery quantifies whether a planned response schedule can discriminate them under finite and noisy observation, and condition-level analysis localises where the information arises.",
-        "The framework is released as tide, an open-source Python toolkit for prospective design audit and revision, together with a web application."
+        "We developed a framework for designing transfer experiments around explicit accounts of how people learn. Its candidate space separates how information is represented from how experience produces a response. Crossing representation geometries with rule, prototype and exemplar policies lets us construct matched accounts, generate their predictions on the same task, and extend the space with intermediate or custom candidates. These predictions guide changes to the experiment before participant data are collected. Candidate separation locates the conditions in which accounts diverge, while candidate recovery estimates what the planned observations can reveal. Applying the framework to categorisation and artificial orthography shows how changing test items or response measures opens up different mechanism contrasts.",
+        "The open-source TIDE (Transfer-design Identifiability and Diagnosticity Evaluation) toolkit and interactive app let researchers compare candidate pairs, inspect where the evidence comes from, and revise their designs."
       ],
       "view_kind": "publication",
       "presentations": [
@@ -368,19 +334,16 @@
       "priority": 5,
       "media": [
         {
-          "src": "/assets/img/transfer_fig1.png"
+          "src": "/assets/img/research/tide-20260909/fig1_overview.svg"
         },
         {
-          "src": "/assets/img/transfer_fig2.png"
+          "src": "/assets/img/research/tide-20260909/fig2_machine.svg"
         },
         {
-          "src": "/assets/img/transfer_fig3.png"
+          "src": "/assets/img/research/tide-20260909/fig3_structure.svg"
         },
         {
-          "src": "/assets/img/transfer_fig4.png"
-        },
-        {
-          "src": "/assets/img/transfer_fig5.png"
+          "src": "/assets/img/research/tide-20260909/fig_plane.svg"
         }
       ],
       "component_description": "The original Research entry for “The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization?”, including its publication details, full explanation, and research figures where available.",
@@ -393,7 +356,7 @@
         "authors": "Han-yu Wang, Stephen M. K. Lee",
         "links": [
           {
-            "label": "Try the tide audit",
+            "label": "Explore transfer designs",
             "url": "https://huggingface.co/spaces/project-tide/tide-audit",
             "presentation": "resource",
             "iconSrc": "/assets/img/huggingface.svg"
@@ -403,54 +366,7 @@
       "selected": true
     },
     {
-      "id": 13,
-      "source_id": "research:encoding",
-      "route": "/research",
-      "page": "Research",
-      "title": "Functional Encoding and Representational Binding in Componential Transfer",
-      "anchor": "encoding",
-      "description": "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We separate transfer into two representational questions. Functional encoding asks whether a useful component enters the representation that drives the response. Representational binding asks whether that component remains available as a reusable part or becomes fused with the whole stimulus.",
-      "body": "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We separate transfer into two representational questions. Functional encoding asks whether a useful component enters the representation that drives the response. Representational binding asks whether that component remains available as a reusable part or becomes fused with the whole stimulus. One model, held fixed across artificial orthography, Chinese character learning, and artificial grammar, shows that tests preserving a trained component primarily probe encoding, while tests recombining components probe binding. A continuous binding parameter accounts for patterns that earlier theories attributed to two separate systems.",
-      "parts": [
-        "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We separate transfer into two representational questions. Functional encoding asks whether a useful component enters the representation that drives the response. Representational binding asks whether that component remains available as a reusable part or becomes fused with the whole stimulus. One model, held fixed across artificial orthography, Chinese character learning, and artificial grammar, shows that tests preserving a trained component primarily probe encoding, while tests recombining components probe binding. A continuous binding parameter accounts for patterns that earlier theories attributed to two separate systems."
-      ],
-      "view_kind": "publication",
-      "presentations": [
-        "cite",
-        "component"
-      ],
-      "priority": 5,
-      "media": [
-        {
-          "src": "/assets/img/binding_fig1.png"
-        },
-        {
-          "src": "/assets/img/binding_fig2.png"
-        },
-        {
-          "src": "/assets/img/binding_fig3.png"
-        },
-        {
-          "src": "/assets/img/binding_fig4.png"
-        },
-        {
-          "src": "/assets/img/binding_fig5.png"
-        }
-      ],
-      "component_description": "The original Research entry for “Functional Encoding and Representational Binding in Componential Transfer”, including its publication details, full explanation, and research figures where available.",
-      "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
-      "entity": {
-        "kind": "publication",
-        "id": "encoding",
-        "period": "July 2025 - June 2026",
-        "status": "Under review",
-        "authors": "Stephen M. K. Lee, Han-yu Wang",
-        "links": []
-      },
-      "selected": true
-    },
-    {
-      "id": 14,
+      "id": 12,
       "source_id": "research:bright",
       "route": "/research",
       "page": "Research",
@@ -503,6 +419,90 @@
       "selected": true
     },
     {
+      "id": 13,
+      "source_id": "research:fittedAssistance",
+      "route": "/research",
+      "page": "Research",
+      "title": "Early Epistemic Settlement in AI-Assisted Writing",
+      "anchor": "structure-settles-thought",
+      "description": "Working out how to organise a passage can change what a writer understands and what the argument needs to explain. AI can supply a structure that meets the passage's current demands while the writer's own work towards a resolution is still unfinished. I call this early epistemic settlement. The writer can then move on without completing work that might have changed the problem itself.",
+      "body": "Working out how to organise a passage can change what a writer understands and what the argument needs to explain. AI can supply a structure that meets the passage's current demands while the writer's own work towards a resolution is still unfinished. I call this early epistemic settlement. The writer can then move on without completing work that might have changed the problem itself. Where the writer already has the connections needed to construct several arrangements, AI can complete one while the others still need work. In other cases, another arrangement becomes possible only as the writer forms further connections. A supplied resolution can remove the need for the work that would have made this alternative possible. The paper also asks what happens when an AI-supplied structure and the writer's continued work lead to the same wording. The supporting reasons and limits the writer has worked through can still differ, changing what they can defend or develop later. AI suggestions can help develop this understanding when the writer works through them while the question is still unresolved.",
+      "parts": [
+        "Working out how to organise a passage can change what a writer understands and what the argument needs to explain. AI can supply a structure that meets the passage's current demands while the writer's own work towards a resolution is still unfinished. I call this early epistemic settlement. The writer can then move on without completing work that might have changed the problem itself. Where the writer already has the connections needed to construct several arrangements, AI can complete one while the others still need work. In other cases, another arrangement becomes possible only as the writer forms further connections. A supplied resolution can remove the need for the work that would have made this alternative possible. The paper also asks what happens when an AI-supplied structure and the writer's continued work lead to the same wording.",
+        "The supporting reasons and limits the writer has worked through can still differ, changing what they can defend or develop later. AI suggestions can help develop this understanding when the writer works through them while the question is still unresolved."
+      ],
+      "view_kind": "publication",
+      "presentations": [
+        "cite",
+        "component"
+      ],
+      "priority": 5,
+      "media": [],
+      "component_description": "The original Research entry for “Early Epistemic Settlement in AI-Assisted Writing”, including its publication details, full explanation, and research figures where available.",
+      "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
+      "entity": {
+        "kind": "publication",
+        "id": "fittedAssistance",
+        "period": "June 2026 - Present",
+        "status": "Under review",
+        "authors": "Han-yu Wang",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://philpapers.org/rec/WANWSS"
+          }
+        ]
+      },
+      "selected": true
+    },
+    {
+      "id": 14,
+      "source_id": "research:encoding",
+      "route": "/research",
+      "page": "Research",
+      "title": "Functional Encoding and Representational Binding in Componential Transfer",
+      "anchor": "encoding",
+      "description": "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We separate transfer into two representational questions. Functional encoding asks whether a useful component enters the representation that drives the response. Representational binding asks whether that component remains available as a reusable part or becomes fused with the whole stimulus.",
+      "body": "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We separate transfer into two representational questions. Functional encoding asks whether a useful component enters the representation that drives the response. Representational binding asks whether that component remains available as a reusable part or becomes fused with the whole stimulus. One model, held fixed across artificial orthography, Chinese character learning, and artificial grammar, shows that tests preserving a trained component primarily probe encoding, while tests recombining components probe binding. A continuous binding parameter accounts for patterns that earlier theories attributed to two separate systems.",
+      "parts": [
+        "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We separate transfer into two representational questions. Functional encoding asks whether a useful component enters the representation that drives the response. Representational binding asks whether that component remains available as a reusable part or becomes fused with the whole stimulus. One model, held fixed across artificial orthography, Chinese character learning, and artificial grammar, shows that tests preserving a trained component primarily probe encoding, while tests recombining components probe binding. A continuous binding parameter accounts for patterns that earlier theories attributed to two separate systems."
+      ],
+      "view_kind": "publication",
+      "presentations": [
+        "cite",
+        "component"
+      ],
+      "priority": 5,
+      "media": [
+        {
+          "src": "/assets/img/binding_fig1.png"
+        },
+        {
+          "src": "/assets/img/binding_fig2.png"
+        },
+        {
+          "src": "/assets/img/binding_fig3.png"
+        },
+        {
+          "src": "/assets/img/binding_fig4.png"
+        },
+        {
+          "src": "/assets/img/binding_fig5.png"
+        }
+      ],
+      "component_description": "The original Research entry for “Functional Encoding and Representational Binding in Componential Transfer”, including its publication details, full explanation, and research figures where available.",
+      "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
+      "entity": {
+        "kind": "publication",
+        "id": "encoding",
+        "period": "July 2025 - June 2026",
+        "status": "Under review",
+        "authors": "Stephen M. K. Lee, Han-yu Wang",
+        "links": []
+      },
+      "selected": true
+    },
+    {
       "id": 15,
       "source_id": "research:humansDisengage",
       "route": "/research",
@@ -523,16 +523,16 @@
       "priority": 3,
       "media": [
         {
-          "src": "/assets/img/disengage_20260909_fig1.png"
+          "src": "/assets/img/research/disengage-20260909/figure_1.svg"
         },
         {
-          "src": "/assets/img/disengage_20260909_fig2.png"
+          "src": "/assets/img/research/disengage-20260909/figure_2.svg"
         },
         {
-          "src": "/assets/img/disengage_20260909_fig3.png"
+          "src": "/assets/img/research/disengage-20260909/figure_3.svg"
         },
         {
-          "src": "/assets/img/disengage_20260909_fig4.png"
+          "src": "/assets/img/research/disengage-20260909/figure_4.svg"
         }
       ],
       "component_description": "The original Research entry for “Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation”, including its publication details, full explanation, and research figures where available.",
@@ -547,10 +547,6 @@
           {
             "label": "Paper",
             "url": "https://arxiv.org/abs/2606.26502"
-          },
-          {
-            "label": "Project page",
-            "url": "https://www.henryw.me/humans-disengage-page/"
           }
         ]
       },
@@ -603,10 +599,6 @@
           {
             "label": "Paper",
             "url": "https://arxiv.org/abs/2606.07555"
-          },
-          {
-            "label": "Project page",
-            "url": "https://www.henryw.me/priors-persist-through-suppression-page/"
           }
         ]
       },
@@ -830,13 +822,13 @@
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
       "title": "A Structure-Preserving RAG Ingestion Pipeline",
       "anchor": "",
-      "description": "The architectural risk appeared before retrieval began. If ingestion separated a rule from its qualification or reduced a flowchart to disconnected text, no later ranking or generation step could reliably restore the missing relationship. I designed three processing paths that converged before chunking.",
-      "body": "The architectural risk appeared before retrieval began. If ingestion separated a rule from its qualification or reduced a flowchart to disconnected text, no later ranking or generation step could reliably restore the missing relationship. I designed three processing paths that converged before chunking. MinerU handled text and tables, deterministic linking reconnected Notes and Remarks across pages, and a visual-language model converted flowchart nodes and branches into searchable Mermaid. RAGFlow then received consistent, self-contained evidence units. This division followed the structure of the documents. Predictable references stayed on a rule-based path that was easy to verify. Visual reasoning was reserved for diagrams whose meaning depended on edges and branches. That made the pipeline easier to test, maintain, and operate. A controlled five-page document with 13 cross-page references showed that the relationships survived into retrieval. I combined that evidence with the client's infrastructure, cost, implementation effort, and preference to operate one AI model where possible. The recommendation explained the architecture, what the tests established, and the work needed to implement it.",
+      "description": "The architectural risk appeared before retrieval began. If ingestion separated a passage from the note it refers to or reduced a flowchart to disconnected text, no later ranking or generation step could reliably restore the missing relationship. MinerU rejoined paragraphs and tables across page breaks. Its OCR-based path recovered merged cells but missed nested tables in the tests.",
+      "body": "The architectural risk appeared before retrieval began. If ingestion separated a passage from the note it refers to or reduced a flowchart to disconnected text, no later ranking or generation step could reliably restore the missing relationship. MinerU rejoined paragraphs and tables across page breaks. Its OCR-based path recovered merged cells but missed nested tables in the tests. The built-in visual-language model recovered both as HTML. I then found that subsequent processing in the tested RAGFlow path discarded those tags, while LlamaIndex preserved the structure through indexing, retrieval and answer generation. Cross-page footnotes and remarks needed explicit linking. I wrote a Python linker that used reference labels and document context to attach each note to its citing text before chunking. For flowchart images, I chose Mermaid to represent nodes and branches as searchable text that could be rendered back for inspection. Later research showed that MinerU’s built-in VLM already supported this conversion, bringing tables and flowcharts into the same parser and model. A controlled five-page document let me repeat the checks across the full pipeline. The linker resolved all 13 cross-page references, and the reconstructed flowchart preserved every node, edge and label and supported correct answers to both test questions. I used this evidence alongside deployment and operating-cost analysis to develop the client recommendation, including its preference to operate fewer AI models.",
       "parts": [
-        "The architectural risk appeared before retrieval began. If ingestion separated a rule from its qualification or reduced a flowchart to disconnected text, no later ranking or generation step could reliably restore the missing relationship.",
-        "I designed three processing paths that converged before chunking. MinerU handled text and tables, deterministic linking reconnected Notes and Remarks across pages, and a visual-language model converted flowchart nodes and branches into searchable Mermaid. RAGFlow then received consistent, self-contained evidence units.",
-        "This division followed the structure of the documents. Predictable references stayed on a rule-based path that was easy to verify. Visual reasoning was reserved for diagrams whose meaning depended on edges and branches. That made the pipeline easier to test, maintain, and operate.",
-        "A controlled five-page document with 13 cross-page references showed that the relationships survived into retrieval. I combined that evidence with the client's infrastructure, cost, implementation effort, and preference to operate one AI model where possible. The recommendation explained the architecture, what the tests established, and the work needed to implement it."
+        "The architectural risk appeared before retrieval began. If ingestion separated a passage from the note it refers to or reduced a flowchart to disconnected text, no later ranking or generation step could reliably restore the missing relationship.",
+        "MinerU rejoined paragraphs and tables across page breaks. Its OCR-based path recovered merged cells but missed nested tables in the tests. The built-in visual-language model recovered both as HTML. I then found that subsequent processing in the tested RAGFlow path discarded those tags, while LlamaIndex preserved the structure through indexing, retrieval and answer generation.",
+        "Cross-page footnotes and remarks needed explicit linking. I wrote a Python linker that used reference labels and document context to attach each note to its citing text before chunking. For flowchart images, I chose Mermaid to represent nodes and branches as searchable text that could be rendered back for inspection. Later research showed that MinerU’s built-in VLM already supported this conversion, bringing tables and flowcharts into the same parser and model.",
+        "A controlled five-page document let me repeat the checks across the full pipeline. The linker resolved all 13 cross-page references, and the reconstructed flowchart preserved every node, edge and label and supported correct answers to both test questions. I used this evidence alongside deployment and operating-cost analysis to develop the client recommendation, including its preference to operate fewer AI models."
       ],
       "view_kind": "project",
       "presentations": [
@@ -852,7 +844,7 @@
         "kind": "project",
         "id": "pwcRag",
         "period": "July 2026 - August 2026",
-        "subtitle": "Keeping an AI answer connected to the rule and its exceptions",
+        "subtitle": "Preserving document structure through ingestion and retrieval",
         "route": "/ragflow-pipeline",
         "anchor": "",
         "mediaMode": "logo",
@@ -863,6 +855,50 @@
     },
     {
       "id": 24,
+      "source_id": "projects:stride",
+      "route": "/stride",
+      "page": "Stride Support",
+      "title": "Stride Support",
+      "anchor": "",
+      "description": "A support question often depends on a particular purchase. Stride Support lets the customer select an order and keeps its details available during the conversation, so the assistant can work with that context. Product lookup, recommendations, complaints, order checks, and policy questions are handled through five tool servers.",
+      "body": "A support question often depends on a particular purchase. Stride Support lets the customer select an order and keeps its details available during the conversation, so the assistant can work with that context. Product lookup, recommendations, complaints, order checks, and policy questions are handled through five tool servers. A FastAPI service exposes them to the model through Model Context Protocol (MCP), giving it access to the information and actions needed to respond. The React interface uses local model inference through LM Studio. A semantic gate checks whether a request concerns customer support, and a fine-tuned multilingual BERT (mBERT) classifier identifies sentiment.",
+      "parts": [
+        "A support question often depends on a particular purchase. Stride Support lets the customer select an order and keeps its details available during the conversation, so the assistant can work with that context. Product lookup, recommendations, complaints, order checks, and policy questions are handled through five tool servers. A FastAPI service exposes them to the model through Model Context Protocol (MCP), giving it access to the information and actions needed to respond. The React interface uses local model inference through LM Studio. A semantic gate checks whether a request concerns customer support, and a fine-tuned multilingual BERT (mBERT) classifier identifies sentiment."
+      ],
+      "view_kind": "project",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 3,
+      "media": [
+        {
+          "src": "/assets/img/stride_ui_overview.png"
+        },
+        {
+          "src": "/assets/img/stride_architecture.png"
+        },
+        {
+          "src": "/assets/img/stride_my_orders.png"
+        },
+        {
+          "src": "/assets/img/stride_past_orders.png"
+        }
+      ],
+      "entity": {
+        "kind": "project",
+        "id": "stride",
+        "period": "September 2025 – December 2025",
+        "subtitle": "An on-device assistant for orders, products, and support questions",
+        "route": "/stride",
+        "anchor": "",
+        "mediaMode": "gallery",
+        "logoHeight": "",
+        "richBlock": ""
+      },
+      "selected": false
+    },
+    {
+      "id": 25,
       "source_id": "projects:dealtracker",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -893,53 +929,6 @@
         "subtitle": "A scheduled deal hunter with personal filters and email digests",
         "route": "/dealtracker",
         "anchor": "",
-        "mediaMode": "gallery",
-        "logoHeight": "",
-        "richBlock": ""
-      },
-      "selected": false
-    },
-    {
-      "id": 25,
-      "source_id": "projects:stride",
-      "route": "/projects",
-      "page": "Builds",
-      "title": "Stride Support",
-      "anchor": "stride",
-      "description": "A support question often depends on a particular purchase. Stride Support lets the customer select an order and keeps its details available during the conversation, so the assistant can work with that context. Product lookup, recommendations, complaints, order checks, and policy questions are handled through five tool servers.",
-      "body": "A support question often depends on a particular purchase. Stride Support lets the customer select an order and keeps its details available during the conversation, so the assistant can work with that context. Product lookup, recommendations, complaints, order checks, and policy questions are handled through five tool servers. A FastAPI service exposes them to the model through Model Context Protocol (MCP), giving it access to the information and actions needed to respond. The React interface uses local model inference through LM Studio. A semantic gate checks whether a request concerns customer support, and a fine-tuned multilingual BERT (mBERT) classifier identifies sentiment.",
-      "parts": [
-        "A support question often depends on a particular purchase. Stride Support lets the customer select an order and keeps its details available during the conversation, so the assistant can work with that context. Product lookup, recommendations, complaints, order checks, and policy questions are handled through five tool servers. A FastAPI service exposes them to the model through Model Context Protocol (MCP), giving it access to the information and actions needed to respond. The React interface uses local model inference through LM Studio. A semantic gate checks whether a request concerns customer support, and a fine-tuned multilingual BERT (mBERT) classifier identifies sentiment."
-      ],
-      "view_kind": "project",
-      "presentations": [
-        "cite",
-        "component"
-      ],
-      "priority": 3,
-      "media": [
-        {
-          "src": "/assets/img/stride_ui_overview.png"
-        },
-        {
-          "src": "/assets/img/stride_architecture.png"
-        },
-        {
-          "src": "/assets/img/stride_my_orders.png"
-        },
-        {
-          "src": "/assets/img/stride_past_orders.png"
-        }
-      ],
-      "component_description": "The original project entry for “Stride Support”, including its full project account and original visual material where available.",
-      "narrative_guidance": "Explain which design decision, technical approach, or result matters to the visitor before showing the complete project source.",
-      "entity": {
-        "kind": "project",
-        "id": "stride",
-        "period": "September 2025 – December 2025",
-        "subtitle": "An on-device assistant for orders, products, and support questions",
-        "route": "/projects",
-        "anchor": "stride",
         "mediaMode": "gallery",
         "logoHeight": "",
         "richBlock": ""
@@ -1105,12 +1094,14 @@
       "source_id": "playbook:the-idea",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
-      "title": "Making the mapping inspectable",
+      "title": "Making the configuration rules reusable",
       "anchor": "the-idea",
-      "description": "The engine follows the mapping product specification → business scenarios → UI-component requirements . Decision tables express which specification values make a scenario apply and which components that scenario requires. The three libraries below separate the product information, available components, and rules that connect them.",
-      "body": "The engine follows the mapping product specification → business scenarios → UI-component requirements . Decision tables express which specification values make a scenario apply and which components that scenario requires. The three libraries below separate the product information, available components, and rules that connect them. Product specification The business fields, values, and conditional inputs that describe what the product requires. UI components The reusable screens, fields, and interface components available in the app. Decision tables The conditions that map specification values to the UI-component requirements for each business scenario. This separation lets a requirement, component, or rule be revised in its own library. Running the engine again evaluates the updated specification against the decision tables and produces the corresponding configuration.",
+      "description": "For a single product, someone could work through the requirements and write down the screens it needed. Across dozens of products, many of the same questions, conditions and design components recur. Maintaining a separate set of selection rules for every product would duplicate that logic. A shared change would then require finding and revising every copy of the rule.",
+      "body": "For a single product, someone could work through the requirements and write down the screens it needed. Across dozens of products, many of the same questions, conditions and design components recur. Maintaining a separate set of selection rules for every product would duplicate that logic. A shared change would then require finding and revising every copy of the rule. I organised the shared information into linked libraries, so each product could use the same definitions and rules. The libraries record what can vary between products, what the app can display, and the conditions that connect the two. This gave the team a place to maintain the knowledge used to produce a configuration, alongside the generated result. Product specification The questions, allowed values and conditional inputs used to describe a product's requirements. UI components The reusable screens, fields, and interface components available in the app. Decision tables The conditions that map specification values to the UI-component requirements for each business scenario. With those definitions in place, the engine can follow product specification → business scenarios → UI-component requirements . A product's specification supplies the values. The decision tables determine which scenarios those values satisfy and which components each scenario requires. The team can follow the same path backwards to see why a screen or field was selected. A new product can reuse the existing definitions with a different set of values. When a shared condition changes, the team can revise its decision table and regenerate the affected configurations. Keeping these rules outside the VBA code also makes that part of the engine accessible to the people maintaining the requirements.",
       "parts": [
-        "The engine follows the mapping product specification → business scenarios → UI-component requirements . Decision tables express which specification values make a scenario apply and which components that scenario requires. The three libraries below separate the product information, available components, and rules that connect them. Product specification The business fields, values, and conditional inputs that describe what the product requires. UI components The reusable screens, fields, and interface components available in the app. Decision tables The conditions that map specification values to the UI-component requirements for each business scenario. This separation lets a requirement, component, or rule be revised in its own library. Running the engine again evaluates the updated specification against the decision tables and produces the corresponding configuration."
+        "For a single product, someone could work through the requirements and write down the screens it needed. Across dozens of products, many of the same questions, conditions and design components recur. Maintaining a separate set of selection rules for every product would duplicate that logic. A shared change would then require finding and revising every copy of the rule. I organised the shared information into linked libraries, so each product could use the same definitions and rules. The libraries record what can vary between products, what the app can display, and the conditions that connect the two. This gave the team a place to maintain the knowledge used to produce a configuration, alongside the generated result. Product specification The questions, allowed values and conditional inputs used to describe a product's requirements.",
+        "UI components The reusable screens, fields, and interface components available in the app. Decision tables The conditions that map specification values to the UI-component requirements for each business scenario. With those definitions in place, the engine can follow product specification → business scenarios → UI-component requirements . A product's specification supplies the values. The decision tables determine which scenarios those values satisfy and which components each scenario requires. The team can follow the same path backwards to see why a screen or field was selected. A new product can reuse the existing definitions with a different set of values. When a shared condition changes, the team can revise its decision table and regenerate the affected configurations.",
+        "Keeping these rules outside the VBA code also makes that part of the engine accessible to the people maintaining the requirements."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -1148,10 +1139,9 @@
       "title": "Automating product configuration",
       "anchor": "from-the-packing-demo-to-the-production-tool",
       "description": "In the production Excel/VBA tool, users entered product specifications through a dynamic form, and the engine automatically applied the decision tables to generate the required UI-component configuration. The VBA engine was roughly 32 KB, with a small notation describing when follow-up fields should appear.",
-      "body": "In the production Excel/VBA tool, users entered product specifications through a dynamic form, and the engine automatically applied the decision tables to generate the required UI-component configuration. The VBA engine was roughly 32 KB, with a small notation describing when follow-up fields should appear. To handle both broad defaults and specific exceptions, the decision tables supported wildcard matching and right-side overrides, allowing specific cases to take precedence over general rules. Automating the mapping also made the rules easier to revisit. When a requirement changed, the team could update its specification or decision table and regenerate the configuration. The selected components could be traced back through the scenarios that required them. I developed four versions of the tool and included an embedded tutorial so the team could continue maintaining those rules after my internship.",
+      "body": "In the production Excel/VBA tool, users entered product specifications through a dynamic form, and the engine automatically applied the decision tables to generate the required UI-component configuration. The VBA engine was roughly 32 KB, with a small notation describing when follow-up fields should appear. To handle both broad defaults and specific exceptions, the decision tables supported wildcard matching and right-side overrides, allowing specific cases to take precedence over general rules. I developed four versions of the tool and included an embedded tutorial for colleagues maintaining the libraries and decision tables. The team could generate configurations through the form and update the shared logic through the libraries after my internship.",
       "parts": [
-        "In the production Excel/VBA tool, users entered product specifications through a dynamic form, and the engine automatically applied the decision tables to generate the required UI-component configuration. The VBA engine was roughly 32 KB, with a small notation describing when follow-up fields should appear. To handle both broad defaults and specific exceptions, the decision tables supported wildcard matching and right-side overrides, allowing specific cases to take precedence over general rules. Automating the mapping also made the rules easier to revisit. When a requirement changed, the team could update its specification or decision table and regenerate the configuration. The selected components could be traced back through the scenarios that required them.",
-        "I developed four versions of the tool and included an embedded tutorial so the team could continue maintaining those rules after my internship."
+        "In the production Excel/VBA tool, users entered product specifications through a dynamic form, and the engine automatically applied the decision tables to generate the required UI-component configuration. The VBA engine was roughly 32 KB, with a small notation describing when follow-up fields should appear. To handle both broad defaults and specific exceptions, the decision tables supported wildcard matching and right-side overrides, allowing specific cases to take precedence over general rules. I developed four versions of the tool and included an embedded tutorial for colleagues maintaining the libraries and decision tables. The team could generate configurations through the form and update the shared logic through the libraries after my internship."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -1308,10 +1298,10 @@
       "page": "Lexaday",
       "title": "The daily lesson",
       "anchor": "what-the-reader-receives",
-      "description": "The screenshot shows a complete email, with the new root and its examples followed by earlier material due for review. Receiving both together gives the learner one lesson to work through each day, with the timing already handled. One day's lesson, including the new root and earlier material due for review.",
-      "body": "The screenshot shows a complete email, with the new root and its examples followed by earlier material due for review. Receiving both together gives the learner one lesson to work through each day, with the timing already handled. One day's lesson, including the new root and earlier material due for review.",
+      "description": "The screenshot shows a complete email, with the new root and its examples followed by earlier material due for review. Receiving both together gives the learner one lesson to work through each day, with the timing already handled. I used GitHub Actions for the scheduled runs and a JSON file for each learner’s progress.",
+      "body": "The screenshot shows a complete email, with the new root and its examples followed by earlier material due for review. Receiving both together gives the learner one lesson to work through each day, with the timing already handled. I used GitHub Actions for the scheduled runs and a JSON file for each learner’s progress. The file stores the run count, introduction date, last review, and current interval for every root encountered. Saving it after a lesson gives the next run the history it needs to choose what comes next. The schedule determines which roots the learner receives, and the language and image models develop the material for those roots. The lesson can vary in its examples and illustrations while following a consistent review schedule. One day's lesson, including the new root and earlier material due for review.",
       "parts": [
-        "The screenshot shows a complete email, with the new root and its examples followed by earlier material due for review. Receiving both together gives the learner one lesson to work through each day, with the timing already handled. One day's lesson, including the new root and earlier material due for review."
+        "The screenshot shows a complete email, with the new root and its examples followed by earlier material due for review. Receiving both together gives the learner one lesson to work through each day, with the timing already handled. I used GitHub Actions for the scheduled runs and a JSON file for each learner’s progress. The file stores the run count, introduction date, last review, and current interval for every root encountered. Saving it after a lesson gives the next run the history it needs to choose what comes next. The schedule determines which roots the learner receives, and the language and image models develop the material for those roots. The lesson can vary in its examples and illustrations while following a consistent review schedule. One day's lesson, including the new root and earlier material due for review."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -1323,26 +1313,87 @@
     },
     {
       "id": 42,
-      "source_id": "lexaday:how-it-is-packaged",
-      "route": "/lexaday",
-      "page": "Lexaday",
-      "title": "Generation and delivery",
-      "anchor": "how-it-is-packaged",
-      "description": "I used GitHub Actions for the scheduled runs and a JSON file for each learner’s progress. The file stores the run count, introduction date, last review, and current interval for every root encountered. Saving it after a lesson gives the next run the history it needs to choose what comes next. This keeps two responsibilities separate.",
-      "body": "I used GitHub Actions for the scheduled runs and a JSON file for each learner’s progress. The file stores the run count, introduction date, last review, and current interval for every root encountered. Saving it after a lesson gives the next run the history it needs to choose what comes next. This keeps two responsibilities separate. The schedule determines which roots the learner receives, and the language and image models develop the material for those roots. The lesson can vary in its examples and illustrations while following a consistent review schedule.",
+      "source_id": "stride:overview",
+      "route": "/stride",
+      "page": "Stride Support",
+      "title": "Stride Support",
+      "anchor": "",
+      "description": "A local assistant that can work with your orders, products and support questions A useful support assistant needs the context behind a question and access to the records that can resolve it. For this course project, we built Stride Support around a local language model, a React interface and tools for working with orders, policies, products and complaints.",
+      "body": "A local assistant that can work with your orders, products and support questions A useful support assistant needs the context behind a question and access to the records that can resolve it. For this course project, we built Stride Support around a local language model, a React interface and tools for working with orders, policies, products and complaints. The conversation and the application share the customer’s selected order, so a follow-up can stay connected to the purchase it concerns.",
       "parts": [
-        "I used GitHub Actions for the scheduled runs and a JSON file for each learner’s progress. The file stores the run count, introduction date, last review, and current interval for every root encountered. Saving it after a lesson gives the next run the history it needs to choose what comes next. This keeps two responsibilities separate. The schedule determines which roots the learner receives, and the language and image models develop the material for those roots. The lesson can vary in its examples and illustrations while following a consistent review schedule."
+        "A local assistant that can work with your orders, products and support questions A useful support assistant needs the context behind a question and access to the records that can resolve it. For this course project, we built Stride Support around a local language model, a React interface and tools for working with orders, policies, products and complaints. The conversation and the application share the customer’s selected order, so a follow-up can stay connected to the purchase it concerns."
       ],
       "view_kind": "prose",
       "presentations": [
         "cite"
       ],
-      "priority": 2,
+      "priority": 3,
       "media": [],
       "selected": false
     },
     {
       "id": 43,
+      "source_id": "stride:keeping-the-order-in-context",
+      "route": "/stride",
+      "page": "Stride Support",
+      "title": "Keeping the order in context",
+      "anchor": "keeping-the-order-in-context",
+      "description": "” depends on which order the customer means. The interface lists ongoing and past orders and lets the customer select one. It sends that order’s status, items and delivery context with each message. Switching the selection changes the context supplied for the next turn. The backend also supplies the active customer’s identity to the relevant tools.",
+      "body": "” depends on which order the customer means. The interface lists ongoing and past orders and lets the customer select one. It sends that order’s status, items and delivery context with each message. Switching the selection changes the context supplied for the next turn. The backend also supplies the active customer’s identity to the relevant tools. This connects the visible selection to the records used during a response, allowing the assistant to check an order, discuss a return or add to a complaint without repeatedly asking the customer to type identifiers.",
+      "parts": [
+        "” depends on which order the customer means. The interface lists ongoing and past orders and lets the customer select one. It sends that order’s status, items and delivery context with each message. Switching the selection changes the context supplied for the next turn. The backend also supplies the active customer’s identity to the relevant tools. This connects the visible selection to the records used during a response, allowing the assistant to check an order, discuss a return or add to a complaint without repeatedly asking the customer to type identifiers."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 3,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 44,
+      "source_id": "stride:giving-the-model-access-to-the-application",
+      "route": "/stride",
+      "page": "Stride Support",
+      "title": "Giving the model access to the application",
+      "anchor": "giving-the-model-access-to-the-application",
+      "description": "The assistant can look up policy text, check stock, recommend products and work with complaint records. Five servers expose these capabilities through Model Context Protocol (MCP), which describes the tools and the inputs they accept. Each server owns a particular part of the support domain and reads the relevant SQLite records or policy documents.",
+      "body": "The assistant can look up policy text, check stock, recommend products and work with complaint records. Five servers expose these capabilities through Model Context Protocol (MCP), which describes the tools and the inputs they accept. Each server owns a particular part of the support domain and reads the relevant SQLite records or policy documents. A FastAPI service gathers those tool descriptions and makes them available to the local model through LM Studio’s OpenAI-compatible API. When the model requests a tool, the service dispatches the call and returns its result to the conversation. The model can then request another tool or compose its answer. The service limits the number of iterations and clamps count and limit arguments, keeping a multi-step request within a defined execution budget.",
+      "parts": [
+        "The assistant can look up policy text, check stock, recommend products and work with complaint records. Five servers expose these capabilities through Model Context Protocol (MCP), which describes the tools and the inputs they accept. Each server owns a particular part of the support domain and reads the relevant SQLite records or policy documents. A FastAPI service gathers those tool descriptions and makes them available to the local model through LM Studio’s OpenAI-compatible API. When the model requests a tool, the service dispatches the call and returns its result to the conversation. The model can then request another tool or compose its answer. The service limits the number of iterations and clamps count and limit arguments, keeping a multi-step request within a defined execution budget."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 3,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 45,
+      "source_id": "stride:matching-language-to-the-support-domain",
+      "route": "/stride",
+      "page": "Stride Support",
+      "title": "Matching language to the support domain",
+      "anchor": "matching-language-to-the-support-domain",
+      "description": "Customers describe products and policies in their own words. Hybrid retrieval combines BM25 word matching with BGE embeddings, numerical representations used to compare meaning. This lets product and policy search account for both exact terms and related descriptions. Recommendations also draw on purchase history, similar products and aggregated customer activity.",
+      "body": "Customers describe products and policies in their own words. Hybrid retrieval combines BM25 word matching with BGE embeddings, numerical representations used to compare meaning. This lets product and policy search account for both exact terms and related descriptions. Recommendations also draw on purchase history, similar products and aggregated customer activity. A semantic gate compares incoming questions with examples of the support tasks the system handles. For an unrelated request, it suggests questions connected to available tools. A separately fine-tuned multilingual BERT classifier supplies a sentiment cue to the response model. Keeping that signal separate makes it possible to evaluate sentiment classification independently of the model’s tool choices and answer quality. The repository includes separate evaluations for policy retrieval, tool routing and complete chatbot responses, alongside sentiment-model comparisons. This makes the stages of a support interaction inspectable, so an unsuitable answer can be traced to the retrieved material, the selected tool or the response itself.",
+      "parts": [
+        "Customers describe products and policies in their own words. Hybrid retrieval combines BM25 word matching with BGE embeddings, numerical representations used to compare meaning. This lets product and policy search account for both exact terms and related descriptions. Recommendations also draw on purchase history, similar products and aggregated customer activity. A semantic gate compares incoming questions with examples of the support tasks the system handles. For an unrelated request, it suggests questions connected to available tools. A separately fine-tuned multilingual BERT classifier supplies a sentiment cue to the response model. Keeping that signal separate makes it possible to evaluate sentiment classification independently of the model’s tool choices and answer quality.",
+        "The repository includes separate evaluations for policy retrieval, tool routing and complete chatbot responses, alongside sentiment-model comparisons. This makes the stages of a support interaction inspectable, so an unsuitable answer can be traced to the retrieved material, the selected tool or the response itself."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 3,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 46,
       "source_id": "dealtracker:overview",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1362,7 +1413,7 @@
       "selected": false
     },
     {
-      "id": 44,
+      "id": 47,
       "source_id": "dealtracker:from-noisy-sale-pages-to-a-short-inbox-digest",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1382,7 +1433,7 @@
       "selected": false
     },
     {
-      "id": 45,
+      "id": 48,
       "source_id": "dealtracker:the-email-output",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1402,7 +1453,7 @@
       "selected": false
     },
     {
-      "id": 46,
+      "id": 49,
       "source_id": "dealtracker:what-happens-behind-the-email",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1423,7 +1474,7 @@
       "selected": false
     },
     {
-      "id": 47,
+      "id": 50,
       "source_id": "dealtracker:the-control-layer",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1443,7 +1494,7 @@
       "selected": false
     },
     {
-      "id": 48,
+      "id": 51,
       "source_id": "scrollytelling:overview",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1464,7 +1515,7 @@
       "selected": false
     },
     {
-      "id": 49,
+      "id": 52,
       "source_id": "scrollytelling:see-it-as-a-story",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1484,7 +1535,7 @@
       "selected": false
     },
     {
-      "id": 50,
+      "id": 53,
       "source_id": "scrollytelling:describe-a-scene-once-then-let-the-engine-build-it",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1504,7 +1555,7 @@
       "selected": false
     },
     {
-      "id": 51,
+      "id": 54,
       "source_id": "scrollytelling:under-the-hood",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1524,7 +1575,7 @@
       "selected": false
     },
     {
-      "id": 52,
+      "id": 55,
       "source_id": "views:overview",
       "route": "/views",
       "page": "Public views",
@@ -1545,7 +1596,7 @@
       "selected": false
     },
     {
-      "id": 53,
+      "id": 56,
       "source_id": "early:overview",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1566,7 +1617,7 @@
       "selected": false
     },
     {
-      "id": 54,
+      "id": 57,
       "source_id": "early:how-it-started",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1609,7 +1660,7 @@
       "selected": false
     },
     {
-      "id": 55,
+      "id": 58,
       "source_id": "early:batch-downloading-scientific-american-episodes",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1663,7 +1714,7 @@
       "selected": false
     },
     {
-      "id": 56,
+      "id": 59,
       "source_id": "early:chrome-extension-experiments",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1717,7 +1768,7 @@
       "selected": false
     },
     {
-      "id": 57,
+      "id": 60,
       "source_id": "early:music-streaming-hacks",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1792,7 +1843,7 @@
       "selected": false
     },
     {
-      "id": 58,
+      "id": 61,
       "source_id": "early:building-kiwiviews-website",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1822,7 +1873,7 @@
       "selected": false
     },
     {
-      "id": 59,
+      "id": 62,
       "source_id": "early:simple-automation",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1861,7 +1912,7 @@
       "selected": false
     },
     {
-      "id": 60,
+      "id": 63,
       "source_id": "early:econographer-an-economics-graphs-generator",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1897,7 +1948,7 @@
       "selected": false
     },
     {
-      "id": 61,
+      "id": 64,
       "source_id": "aipersonalarchive:overview",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -1917,17 +1968,16 @@
       "selected": true
     },
     {
-      "id": 62,
+      "id": 65,
       "source_id": "aipersonalarchive:one-archive-three-ways-to-explore",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
       "title": "One archive, three ways to explore",
       "anchor": "one-archive-three-ways-to-explore",
-      "description": "As the site grew, I could remember a company, a place, or an idea without remembering which page held it. Search gave me and visitors a way to find those things again. I also wanted visitors to be able to ask a question and get a direct answer, even when the relevant material was spread across several pages. That became the purpose of Ask.",
-      "body": "As the site grew, I could remember a company, a place, or an idea without remembering which page held it. Search gave me and visitors a way to find those things again. I also wanted visitors to be able to ask a question and get a direct answer, even when the relevant material was spread across several pages. That became the purpose of Ask. Using it myself later opened up another possibility, exploring what familiar pieces might say together when read around a new question. I used the public material already on the site as the basis for that exploration. The text is indexed as passages that retain their original page and location. Projects, photographs, and interactive pieces also keep their own form, so the interface can return a passage or bring the original work into a new reading. Three experiences use that shared material. Search opens an original passage in context. Ask brings passages together into an answer with citations. View composes a reading path that includes the original work alongside an explanation of how it relates to the question. Each needs a different way of selecting and presenting the material, so I gave them distinct processing paths over the same archive.",
+      "description": "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. Using Ask myself led to View. Familiar pieces could suggest new connections when read around a question.",
+      "body": "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. Using Ask myself led to View. Familiar pieces could suggest new connections when read around a question. I wanted to give those connections room to develop, bringing projects, photographs and interactions into the reading in their original form. All three use the public material I publish. Each has its own path through that archive, while passages retain their original page and location.",
       "parts": [
-        "As the site grew, I could remember a company, a place, or an idea without remembering which page held it. Search gave me and visitors a way to find those things again. I also wanted visitors to be able to ask a question and get a direct answer, even when the relevant material was spread across several pages. That became the purpose of Ask. Using it myself later opened up another possibility, exploring what familiar pieces might say together when read around a new question. I used the public material already on the site as the basis for that exploration. The text is indexed as passages that retain their original page and location. Projects, photographs, and interactive pieces also keep their own form, so the interface can return a passage or bring the original work into a new reading. Three experiences use that shared material. Search opens an original passage in context.",
-        "Ask brings passages together into an answer with citations. View composes a reading path that includes the original work alongside an explanation of how it relates to the question. Each needs a different way of selecting and presenting the material, so I gave them distinct processing paths over the same archive."
+        "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. Using Ask myself led to View. Familiar pieces could suggest new connections when read around a question. I wanted to give those connections room to develop, bringing projects, photographs and interactions into the reading in their original form. All three use the public material I publish. Each has its own path through that archive, while passages retain their original page and location."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -1938,20 +1988,18 @@
       "selected": true
     },
     {
-      "id": 63,
-      "source_id": "aipersonalarchive:search-turns-the-whole-site-into-one-navigable-space",
+      "id": 66,
+      "source_id": "aipersonalarchive:find-a-passage-in-its-original-context",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
-      "title": "Search turns the whole site into one navigable space",
-      "anchor": "search-turns-the-whole-site-into-one-navigable-space",
-      "description": "When I remembered something I had written, finding its page was only part of getting back to it. The relevant passage could be well down a long collection or project page. I made Search show the matching text and open its precise location, keeping the surrounding context within reach. Visitors can use the same route into the archive without first learning how I organised it.",
-      "body": "When I remembered something I had written, finding its page was only part of getting back to it. The relevant passage could be well down a long collection or project page. I made Search show the matching text and open its precise location, keeping the surrounding context within reach. Visitors can use the same route into the archive without first learning how I organised it. Try a name or idea here and follow a result to its source. Remembering a name and remembering an idea gave Search different problems to solve. A query for HSBC supplies a precise term that appears in the text. A question about translating business requirements into software may point to the same project without sharing much of its wording. Someone encountering the work for the first time might describe it differently again. I combined lexical and semantic retrieval so both kinds of query could lead to the same source. Lexical matching scores the words shared by the query and a passage, preserving useful signals from names and technical terms. Semantic retrieval compares their embeddings, numerical representations produced by the same sentence-embedding model. Passages with related meanings can then be found even when they share little wording with the question. Because these methods produce scores on different scales, I combine their rankings using weighted reciprocal-rank fusion, which scores a passage by its position in each list. Giving lexical matches extra weight keeps precise names prominent while allowing a broadly phrased question to find material whose wording is quite different. How Search works The published material changes when I update the site, so its embeddings can be prepared during the build and reused for subsequent searches. I use all-MiniLM-L6-v2, a compact sentence-embedding model, to represent each passage as a 384-dimensional vector. Each passage retains its original page and location. Quantising the vectors into 8-bit integers, together with the scale needed for comparison, reduces the data shipped with the site. At search time, the browser uses the same model to embed the query. Cosine similarity measures how closely that query aligns with each stored passage embedding. Lexical ranking runs alongside it with a TF-IDF-like score that gives more weight to informative words across the site. With passage embeddings already available, the browser can embed the query and run retrieval locally without sending it to a search API or incurring a per-query fee. A ranking will always put something first, including when the archive has little to offer a query.",
+      "title": "Find a passage in its original context",
+      "anchor": "find-a-passage-in-its-original-context",
+      "description": "I wanted Search to take visitors straight to the passage they needed, including within long project pages and collections. Each result shows the matching text and opens its precise location. Try “explore” here, or use a name or idea you remember from the site.",
+      "body": "I wanted Search to take visitors straight to the passage they needed, including within long project pages and collections. Each result shows the matching text and opens its precise location. Try “explore” here, or use a name or idea you remember from the site. Names such as HSBC are useful word matches, while a question about translating business requirements into software may describe the same work in different language. I combined lexical retrieval, which matches words, with semantic retrieval, which looks for related meaning. When I build the site, a sentence-embedding model converts each passage into an embedding, a vector of numbers that represents its meaning. Related meanings tend to have similar vectors. At search time, the browser uses the same model to embed the query and compares it with those stored vectors. This lets each search run locally. Word matches still matter, especially for names and technical terms. I merge the two rankings with weighted reciprocal-rank fusion, giving precise word matches priority while retaining relevant semantic matches. The comparison shows what each method contributes. Model choice and relevance thresholds I use all-MiniLM-L6-v2, which produces 384-dimensional embeddings. I store their values as 8-bit integers with a per-vector scale to reduce the download. At query time, cosine similarity compares the vectors. Lexical ranking uses a TF-IDF-like score, giving informative words more weight. Reciprocal-rank fusion combines list positions because the two scoring systems use different scales. A ranking always has a first result, even for an unrelated query. I tested realistic searches alongside deliberately unrelated ones. In that set, unrelated examples scored at or below about 0. 22, most useful matches were above 0. 45, and a few relevant ones fell near 0. I set the semantic floor at 0. 24 to retain those weaker matches while excluding clearly unrelated results. Adjust the threshold in the comparison to see how many passages remain. Its scores occupied a narrower range, making an absolute threshold less useful, and recall did not improve enough to justify switching. MiniLM gave me a clearer separation between relevant and unrelated material in these tests. Search the archive Compare matches 02 Explore connections",
       "parts": [
-        "When I remembered something I had written, finding its page was only part of getting back to it. The relevant passage could be well down a long collection or project page. I made Search show the matching text and open its precise location, keeping the surrounding context within reach. Visitors can use the same route into the archive without first learning how I organised it. Try a name or idea here and follow a result to its source. Remembering a name and remembering an idea gave Search different problems to solve. A query for HSBC supplies a precise term that appears in the text. A question about translating business requirements into software may point to the same project without sharing much of its wording. Someone encountering the work for the first time might describe it differently again.",
-        "I combined lexical and semantic retrieval so both kinds of query could lead to the same source. Lexical matching scores the words shared by the query and a passage, preserving useful signals from names and technical terms. Semantic retrieval compares their embeddings, numerical representations produced by the same sentence-embedding model. Passages with related meanings can then be found even when they share little wording with the question. Because these methods produce scores on different scales, I combine their rankings using weighted reciprocal-rank fusion, which scores a passage by its position in each list. Giving lexical matches extra weight keeps precise names prominent while allowing a broadly phrased question to find material whose wording is quite different.",
-        "How Search works The published material changes when I update the site, so its embeddings can be prepared during the build and reused for subsequent searches. I use all-MiniLM-L6-v2, a compact sentence-embedding model, to represent each passage as a 384-dimensional vector. Each passage retains its original page and location. Quantising the vectors into 8-bit integers, together with the scale needed for comparison, reduces the data shipped with the site. At search time, the browser uses the same model to embed the query. Cosine similarity measures how closely that query aligns with each stored passage embedding. Lexical ranking runs alongside it with a TF-IDF-like score that gives more weight to informative words across the site.",
-        "With passage embeddings already available, the browser can embed the query and run retrieval locally without sending it to a search API or incurring a per-query fee. A ranking will always put something first, including when the archive has little to offer a query. I tested realistic searches alongside deliberately unrelated ones to see where a useful similarity threshold might sit. In that small test set, unrelated examples stayed at or below about 0. 22, most genuine matches scored above 0. 45, and a few useful matches fell near 0. 24 to retain those weaker relevant matches while filtering out clearly unrelated results. I also tried e5-small, whose scores occupied a narrower range. That made an absolute threshold less useful, and its recall did not improve enough to justify the trade-off.",
-        "I kept MiniLM because the clearer separation in these tests gave me a more useful basis for deciding which semantic matches to show. Compare word and meaning matches Try the same query across lexical and semantic retrieval and see what each one finds before the two rankings are combined."
+        "I wanted Search to take visitors straight to the passage they needed, including within long project pages and collections. Each result shows the matching text and opens its precise location. Try “explore” here, or use a name or idea you remember from the site. Names such as HSBC are useful word matches, while a question about translating business requirements into software may describe the same work in different language. I combined lexical retrieval, which matches words, with semantic retrieval, which looks for related meaning. When I build the site, a sentence-embedding model converts each passage into an embedding, a vector of numbers that represents its meaning. Related meanings tend to have similar vectors. At search time, the browser uses the same model to embed the query and compares it with those stored vectors. This lets each search run locally.",
+        "Word matches still matter, especially for names and technical terms. I merge the two rankings with weighted reciprocal-rank fusion, giving precise word matches priority while retaining relevant semantic matches. The comparison shows what each method contributes. Model choice and relevance thresholds I use all-MiniLM-L6-v2, which produces 384-dimensional embeddings. I store their values as 8-bit integers with a per-vector scale to reduce the download. At query time, cosine similarity compares the vectors. Lexical ranking uses a TF-IDF-like score, giving informative words more weight. Reciprocal-rank fusion combines list positions because the two scoring systems use different scales. A ranking always has a first result, even for an unrelated query. I tested realistic searches alongside deliberately unrelated ones. In that set, unrelated examples scored at or below about 0.",
+        "22, most useful matches were above 0. 45, and a few relevant ones fell near 0. I set the semantic floor at 0. 24 to retain those weaker matches while excluding clearly unrelated results. Adjust the threshold in the comparison to see how many passages remain. Its scores occupied a narrower range, making an absolute threshold less useful, and recall did not improve enough to justify switching. MiniLM gave me a clearer separation between relevant and unrelated material in these tests. Search the archive Compare matches 02 Explore connections"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -1962,17 +2010,17 @@
       "selected": true
     },
     {
-      "id": 64,
+      "id": 67,
       "source_id": "aipersonalarchive:seeing-the-archive-as-a-space",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
       "title": "Seeing the archive as a space",
       "anchor": "seeing-the-archive-as-a-space",
-      "description": "Placing related passages together, even when they live on different pages Once the passages had embeddings, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed.",
-      "body": "Placing related passages together, even when they live on different pages Once the passages had embeddings, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. I use UMAP to project the high-dimensional passage embeddings into two or three dimensions so they can be drawn on a screen. Both projections are prepared when the site is built, with a fixed seed that keeps the arrangement stable until the underlying material changes. Every dot represents a passage from the site. Research, projects, work, fragments, and other material can appear close together when their embeddings are similar, even when they live on different pages. A question can be added to the map as well, showing roughly where it falls among the material already there. The map is a lower-dimensional view of the embedding space. Search uses the original high-dimensional embeddings for retrieval.",
+      "description": "Once the passages had embeddings, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question.",
+      "body": "Once the passages had embeddings, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. I use UMAP to project the high-dimensional passage embeddings into two or three dimensions so they can be drawn on a screen. Both projections are prepared when the site is built, with a fixed seed that keeps the arrangement stable until the underlying material changes. Every dot represents a passage from the site. Research, projects, work, fragments, and other material can appear close together when their embeddings are similar, even when they live on different pages. A question can be added to the map as well, showing roughly where it falls among the material already there. The map is a lower-dimensional view of the embedding space. Search uses the original high-dimensional embeddings for retrieval.",
       "parts": [
-        "Placing related passages together, even when they live on different pages Once the passages had embeddings, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. I use UMAP to project the high-dimensional passage embeddings into two or three dimensions so they can be drawn on a screen. Both projections are prepared when the site is built, with a fixed seed that keeps the arrangement stable until the underlying material changes. Every dot represents a passage from the site.",
-        "Research, projects, work, fragments, and other material can appear close together when their embeddings are similar, even when they live on different pages. A question can be added to the map as well, showing roughly where it falls among the material already there. The map is a lower-dimensional view of the embedding space. Search uses the original high-dimensional embeddings for retrieval."
+        "Once the passages had embeddings, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. I use UMAP to project the high-dimensional passage embeddings into two or three dimensions so they can be drawn on a screen. Both projections are prepared when the site is built, with a fixed seed that keeps the arrangement stable until the underlying material changes. Every dot represents a passage from the site. Research, projects, work, fragments, and other material can appear close together when their embeddings are similar, even when they live on different pages.",
+        "A question can be added to the map as well, showing roughly where it falls among the material already there. The map is a lower-dimensional view of the embedding space. Search uses the original high-dimensional embeddings for retrieval."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -1983,7 +2031,7 @@
       "selected": true
     },
     {
-      "id": 65,
+      "id": 68,
       "source_id": "aipersonalarchive:ask-brings-related-passages-into-one-answer",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2004,7 +2052,7 @@
       "selected": true
     },
     {
-      "id": 66,
+      "id": 69,
       "source_id": "aipersonalarchive:find",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2024,7 +2072,7 @@
       "selected": true
     },
     {
-      "id": 67,
+      "id": 70,
       "source_id": "aipersonalarchive:set-the-scope",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2044,7 +2092,7 @@
       "selected": true
     },
     {
-      "id": 68,
+      "id": 71,
       "source_id": "aipersonalarchive:write",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2064,7 +2112,7 @@
       "selected": true
     },
     {
-      "id": 69,
+      "id": 72,
       "source_id": "aipersonalarchive:cite",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2084,7 +2132,7 @@
       "selected": true
     },
     {
-      "id": 70,
+      "id": 73,
       "source_id": "aipersonalarchive:view-reorganises-the-site-around-a-question",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2106,7 +2154,7 @@
       "selected": true
     },
     {
-      "id": 71,
+      "id": 74,
       "source_id": "aipersonalarchive:views-over-time",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2127,7 +2175,7 @@
       "selected": true
     },
     {
-      "id": 72,
+      "id": 75,
       "source_id": "aipersonalarchive:what-the-case-gives-back",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2148,17 +2196,16 @@
       "selected": true
     },
     {
-      "id": 73,
+      "id": 76,
       "source_id": "ragflow-pipeline:overview",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
       "title": "A Structure-Preserving RAG Ingestion Pipeline",
       "anchor": "",
-      "description": "Keeping rules and their conditions together when preparing PDFs for an AI assistant At PwC, I designed and built a knowledge-base ingestion pipeline that prepares complex PDFs for a public-enquiry AI assistant. The assistant uses retrieval-augmented generation (RAG), retrieving passages from published rules and supplying them to a language model to answer a question.",
-      "body": "Keeping rules and their conditions together when preparing PDFs for an AI assistant At PwC, I designed and built a knowledge-base ingestion pipeline that prepares complex PDFs for a public-enquiry AI assistant. The assistant uses retrieval-augmented generation (RAG), retrieving passages from published rules and supplying them to a language model to answer a question. My pipeline keeps each rule connected to the conditions and qualifications that determine how it applies, giving the answer the evidence it needs. Those relationships could span several pages. A sentence might refer to a later note, a table might continue over a page break, or a flowchart might express a decision through its branches. Extracting the words could still leave the assistant with incomplete evidence if parsing or chunking separated the pieces. I placed structural repair before chunking, the step that divides material into searchable passages. This gives the system a chance to recover a rule’s relationships while the surrounding document is still available. The repaired rule and its qualification can then be retrieved together.",
+      "description": "Preserving document structure when preparing PDFs for an AI assistant At PwC, I developed a knowledge-base ingestion pipeline for a public-enquiry AI assistant by evaluating and integrating existing tools around the client’s requirements. The assistant uses retrieval-augmented generation (RAG), finding relevant material in the client’s documents and supplying it to a language model to answer a question.",
+      "body": "Preserving document structure when preparing PDFs for an AI assistant At PwC, I developed a knowledge-base ingestion pipeline for a public-enquiry AI assistant by evaluating and integrating existing tools around the client’s requirements. The assistant uses retrieval-augmented generation (RAG), finding relevant material in the client’s documents and supplying it to a language model to answer a question. I focused on preserving the relationships that make this material meaningful, including table structure, cross-page references and the branches of a flowchart.",
       "parts": [
-        "Keeping rules and their conditions together when preparing PDFs for an AI assistant At PwC, I designed and built a knowledge-base ingestion pipeline that prepares complex PDFs for a public-enquiry AI assistant. The assistant uses retrieval-augmented generation (RAG), retrieving passages from published rules and supplying them to a language model to answer a question. My pipeline keeps each rule connected to the conditions and qualifications that determine how it applies, giving the answer the evidence it needs. Those relationships could span several pages. A sentence might refer to a later note, a table might continue over a page break, or a flowchart might express a decision through its branches. Extracting the words could still leave the assistant with incomplete evidence if parsing or chunking separated the pieces.",
-        "I placed structural repair before chunking, the step that divides material into searchable passages. This gives the system a chance to recover a rule’s relationships while the surrounding document is still available. The repaired rule and its qualification can then be retrieved together."
+        "Preserving document structure when preparing PDFs for an AI assistant At PwC, I developed a knowledge-base ingestion pipeline for a public-enquiry AI assistant by evaluating and integrating existing tools around the client’s requirements. The assistant uses retrieval-augmented generation (RAG), finding relevant material in the client’s documents and supplying it to a language model to answer a question. I focused on preserving the relationships that make this material meaningful, including table structure, cross-page references and the branches of a flowchart."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2169,18 +2216,36 @@
       "selected": false
     },
     {
-      "id": 74,
+      "id": 77,
+      "source_id": "ragflow-pipeline:understanding-the-client-requirements",
+      "route": "/ragflow-pipeline",
+      "page": "A Structure-Preserving RAG Ingestion Pipeline",
+      "title": "Understanding what the client needed",
+      "anchor": "understanding-the-client-requirements",
+      "description": "The task was to identify a practical way to prepare the client’s documents for a public-enquiry assistant. The requirements covered paragraphs and tables continuing across pages, complex table structures, references to distant notes and remarks, and flowcharts stored as images. Each affected whether the assistant could retrieve enough context to answer using the relevant document context.",
+      "body": "The task was to identify a practical way to prepare the client’s documents for a public-enquiry assistant. The requirements covered paragraphs and tables continuing across pages, complex table structures, references to distant notes and remarks, and flowcharts stored as images. Each affected whether the assistant could retrieve enough context to answer using the relevant document context. These functional requirements left the technical choices open. I needed to establish which existing tools could meet them, what additional processing was necessary, and how the combined solution would fit the client’s infrastructure and operating budget. I brought the cases together in a controlled five-page document, so comparisons used the same input and could follow the evidence through to an answer.",
+      "parts": [
+        "The task was to identify a practical way to prepare the client’s documents for a public-enquiry assistant. The requirements covered paragraphs and tables continuing across pages, complex table structures, references to distant notes and remarks, and flowcharts stored as images. Each affected whether the assistant could retrieve enough context to answer using the relevant document context. These functional requirements left the technical choices open. I needed to establish which existing tools could meet them, what additional processing was necessary, and how the combined solution would fit the client’s infrastructure and operating budget. I brought the cases together in a controlled five-page document, so comparisons used the same input and could follow the evidence through to an answer."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 78,
       "source_id": "ragflow-pipeline:why-one-pdf-needed-several-ways-of-reading",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
-      "title": "An architecture shaped by the documents",
+      "title": "Keeping a paragraph or table together across pages",
       "anchor": "why-one-pdf-needed-several-ways-of-reading",
-      "description": "The first question was which relationships a PDF parser could preserve and which needed further work. I tested MinerU, a structured PDF parser, against merged cells, a table split across pages, and an interrupted paragraph. It recovered those structures in the test document, giving the pipeline a useful starting point for text and tables. A reference such as Note (4) needed a different repair.",
-      "body": "The first question was which relationships a PDF parser could preserve and which needed further work. I tested MinerU, a structured PDF parser, against merged cells, a table split across pages, and an interrupted paragraph. It recovered those structures in the test document, giving the pipeline a useful starting point for text and tables. A reference such as Note (4) needed a different repair. Recognising the sentence and the note as text still left them several pages apart, where chunking could separate them. Their explicit reference gave me a relationship I could reconstruct and check. I wrote a rule-based linker to locate the matching note, repair splits in its text, and place it beside the sentence that cited it. In a flowchart, the words acquire meaning through the arrows and branches between them. OCR could recover the labels while losing the decision path. I compared it with descriptions and Mermaid diagrams produced by a vision-language model (VLM), which can interpret both images and text. Mermaid records nodes, labels, and branches in a text-based diagram format. In the controlled test, it preserved the complete flowchart and supported correct answers to both questions about it. These results supported a pipeline in which MinerU handled text and tables, explicit references were repaired by rules, and the VLM reconstructed flowcharts. The repaired material then entered RAGFlow for chunking, embedding, and retrieval. Each method addressed a particular loss of information before that loss could affect an answer. I also tested whether one VLM should handle tables as well as flowcharts. The recommendation had to account for the client’s existing infrastructure, operating budget, and maintenance needs, including a preference to operate one AI model where possible. Keeping text and tables with MinerU and using the VLM for flowcharts fitted the evidence from the tests while limiting the work assigned to the generative model. A controlled five-page document brought the known failure cases together. I followed the repaired content through chunking, retrieval, and answer generation, using the results alongside infrastructure, cost, and implementation analysis to develop the client recommendation. Open the stages below to inspect the processing steps and their evidence. Across the test document's 13 cross-page references, the linker places each note beside the sentence that cites it before chunking. The retrieval check then returns the rule and its qualification together.",
+      "description": "A page boundary can fall halfway through a paragraph or table. If extraction treats the next page as a fresh start, the resulting fragments may separate a passage from its continuation. I first tested how much an existing parser could recover. MinerU, a tool for converting PDFs into structured content, rejoined the interrupted paragraphs and tables in the test document.",
+      "body": "A page boundary can fall halfway through a paragraph or table. If extraction treats the next page as a fresh start, the resulting fragments may separate a passage from its continuation. I first tested how much an existing parser could recover. MinerU, a tool for converting PDFs into structured content, rejoined the interrupted paragraphs and tables in the test document. This requirement could be met within the parsing stage. The next check was whether that continuity would survive chunking, which divides the parsed content into searchable passages. A parser could reconstruct a table successfully, only for a later split to detach its rows from their context. I included this downstream behaviour in the selection criteria, checking both the reconstructed document and the passages produced from it.",
       "parts": [
-        "The first question was which relationships a PDF parser could preserve and which needed further work. I tested MinerU, a structured PDF parser, against merged cells, a table split across pages, and an interrupted paragraph. It recovered those structures in the test document, giving the pipeline a useful starting point for text and tables. A reference such as Note (4) needed a different repair. Recognising the sentence and the note as text still left them several pages apart, where chunking could separate them. Their explicit reference gave me a relationship I could reconstruct and check. I wrote a rule-based linker to locate the matching note, repair splits in its text, and place it beside the sentence that cited it. In a flowchart, the words acquire meaning through the arrows and branches between them. OCR could recover the labels while losing the decision path.",
-        "I compared it with descriptions and Mermaid diagrams produced by a vision-language model (VLM), which can interpret both images and text. Mermaid records nodes, labels, and branches in a text-based diagram format. In the controlled test, it preserved the complete flowchart and supported correct answers to both questions about it. These results supported a pipeline in which MinerU handled text and tables, explicit references were repaired by rules, and the VLM reconstructed flowcharts. The repaired material then entered RAGFlow for chunking, embedding, and retrieval. Each method addressed a particular loss of information before that loss could affect an answer. I also tested whether one VLM should handle tables as well as flowcharts.",
-        "The recommendation had to account for the client’s existing infrastructure, operating budget, and maintenance needs, including a preference to operate one AI model where possible. Keeping text and tables with MinerU and using the VLM for flowcharts fitted the evidence from the tests while limiting the work assigned to the generative model. A controlled five-page document brought the known failure cases together. I followed the repaired content through chunking, retrieval, and answer generation, using the results alongside infrastructure, cost, and implementation analysis to develop the client recommendation. Open the stages below to inspect the processing steps and their evidence. Across the test document's 13 cross-page references, the linker places each note beside the sentence that cites it before chunking. The retrieval check then returns the rule and its qualification together."
+        "A page boundary can fall halfway through a paragraph or table. If extraction treats the next page as a fresh start, the resulting fragments may separate a passage from its continuation. I first tested how much an existing parser could recover. MinerU, a tool for converting PDFs into structured content, rejoined the interrupted paragraphs and tables in the test document. This requirement could be met within the parsing stage. The next check was whether that continuity would survive chunking, which divides the parsed content into searchable passages. A parser could reconstruct a table successfully, only for a later split to detach its rows from their context. I included this downstream behaviour in the selection criteria, checking both the reconstructed document and the passages produced from it."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2191,16 +2256,81 @@
       "selected": false
     },
     {
-      "id": 75,
+      "id": 79,
+      "source_id": "ragflow-pipeline:complex-tables",
+      "route": "/ragflow-pipeline",
+      "page": "A Structure-Preserving RAG Ingestion Pipeline",
+      "title": "Preserving the structure inside a table",
+      "anchor": "complex-tables",
+      "description": "A merged cell can make one heading apply to several rows or columns. A nested table introduces a smaller set of relationships inside a single cell, such as the booking rules in this example. Flattening either into a sequence of words makes it harder to determine which condition governs which value.",
+      "body": "A merged cell can make one heading apply to several rows or columns. A nested table introduces a smaller set of relationships inside a single cell, such as the booking rules in this example. Flattening either into a sequence of words makes it harder to determine which condition governs which value. I tested both structures separately because success on merged cells would say little about a parser’s ability to recognise a table inside a table. MinerU’s OCR-based path, which recognises text and reconstructs layout, recovered the merged cells as HTML but missed the nested tables in the tests. Its built-in vision-language model (VLM), which interprets images as well as text, recovered both. HTML could express the resulting hierarchy explicitly through cells spanning rows or columns and tables contained within other cells. That result needed to survive the rest of the pipeline. In the RAGFlow path I tested, subsequent processing discarded the HTML tags. The parser’s output contained the relationships, but the material supplied for an answer had lost them. With LlamaIndex, a framework for organising content for retrieval, the structure remained available through indexing, retrieval and answer generation. I therefore selected MinerU’s built-in VLM with LlamaIndex, checking the evidence returned to the model as well as the parser’s output.",
+      "parts": [
+        "A merged cell can make one heading apply to several rows or columns. A nested table introduces a smaller set of relationships inside a single cell, such as the booking rules in this example. Flattening either into a sequence of words makes it harder to determine which condition governs which value. I tested both structures separately because success on merged cells would say little about a parser’s ability to recognise a table inside a table. MinerU’s OCR-based path, which recognises text and reconstructs layout, recovered the merged cells as HTML but missed the nested tables in the tests. Its built-in vision-language model (VLM), which interprets images as well as text, recovered both. HTML could express the resulting hierarchy explicitly through cells spanning rows or columns and tables contained within other cells. That result needed to survive the rest of the pipeline.",
+        "In the RAGFlow path I tested, subsequent processing discarded the HTML tags. The parser’s output contained the relationships, but the material supplied for an answer had lost them. With LlamaIndex, a framework for organising content for retrieval, the structure remained available through indexing, retrieval and answer generation. I therefore selected MinerU’s built-in VLM with LlamaIndex, checking the evidence returned to the model as well as the parser’s output."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 80,
+      "source_id": "ragflow-pipeline:notes",
+      "route": "/ragflow-pipeline",
+      "page": "A Structure-Preserving RAG Ingestion Pipeline",
+      "title": "Retrieving a passage with the note it refers to",
+      "anchor": "notes",
+      "description": "A sentence could cite Note (4) several pages before the note appeared. Extracting both passages accurately still left retrieval with two separate pieces. A question might match the citing passage closely while giving the search little reason to return the note it refers to. I needed to make their explicit reference part of the material being indexed.",
+      "body": "A sentence could cite Note (4) several pages before the note appeared. Extracting both passages accurately still left retrieval with two separate pieces. A question might match the citing passage closely while giving the search little reason to return the note it refers to. I needed to make their explicit reference part of the material being indexed. I considered linking the resulting chunks through metadata and attaching the note to its citing text immediately after parsing. The second approach was simpler to carry through retrieval. MinerU preserved the reference metadata, and the document’s surrounding context was still available at that point. A custom Python linker could resolve the relationship before chunk boundaries were set. Repeated note numbers meant that matching a label alone was insufficient. The linker used the relevant section, position and surrounding context, repaired fragmented notes, and normalised inconsistent labels. It then placed the note beside its citation and removed the duplicate standalone copy. Chunking could keep the passage and its linked note in one unit of evidence. The example connects a sentence on page 3 with its note on page 5. Across the controlled document, the linker resolved all 13 cross-page references. In the retrieval check, the passage containing both the passage and its linked note became the top result for the question it answered. Other approaches I tested Baidu Unlimited OCR offered a multi-page mode. In tests on difficult public government documents, it preserved much of the layout, while the relationship between a passage and a later note still needed explicit linking. Reading several pages together did not by itself establish which passages belonged together. I also examined image-based and multimodal retrieval. Keeping each page as an image retained its visual layout while leaving cross-page relationships separate. The RAGFlow path I evaluated converted images to text before embedding them. Linking the references in that text let me determine which pieces would be retrieved together.",
+      "parts": [
+        "A sentence could cite Note (4) several pages before the note appeared. Extracting both passages accurately still left retrieval with two separate pieces. A question might match the citing passage closely while giving the search little reason to return the note it refers to. I needed to make their explicit reference part of the material being indexed. I considered linking the resulting chunks through metadata and attaching the note to its citing text immediately after parsing. The second approach was simpler to carry through retrieval. MinerU preserved the reference metadata, and the document’s surrounding context was still available at that point. A custom Python linker could resolve the relationship before chunk boundaries were set. Repeated note numbers meant that matching a label alone was insufficient.",
+        "The linker used the relevant section, position and surrounding context, repaired fragmented notes, and normalised inconsistent labels. It then placed the note beside its citation and removed the duplicate standalone copy. Chunking could keep the passage and its linked note in one unit of evidence. The example connects a sentence on page 3 with its note on page 5. Across the controlled document, the linker resolved all 13 cross-page references. In the retrieval check, the passage containing both the passage and its linked note became the top result for the question it answered. Other approaches I tested Baidu Unlimited OCR offered a multi-page mode. In tests on difficult public government documents, it preserved much of the layout, while the relationship between a passage and a later note still needed explicit linking.",
+        "Reading several pages together did not by itself establish which passages belonged together. I also examined image-based and multimodal retrieval. Keeping each page as an image retained its visual layout while leaving cross-page relationships separate. The RAGFlow path I evaluated converted images to text before embedding them. Linking the references in that text let me determine which pieces would be retrieved together."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 81,
+      "source_id": "ragflow-pipeline:mermaid",
+      "route": "/ragflow-pipeline",
+      "page": "A Structure-Preserving RAG Ingestion Pipeline",
+      "title": "Making a flowchart’s decision logic searchable",
+      "anchor": "mermaid",
+      "description": "Many client documents used flowchart images to explain a procedure. An answer might depend on following a “Yes” branch through several conditions. OCR could recover the words in each box while losing the arrows that made them a decision. I also tested free-form VLM descriptions, which conveyed the overall process with varying levels of detail. I wanted a representation in which each branch could be inspected.",
+      "body": "Many client documents used flowchart images to explain a procedure. An answer might depend on following a “Yes” branch through several conditions. OCR could recover the words in each box while losing the arrows that made them a decision. I also tested free-form VLM descriptions, which conveyed the overall process with varying levels of detail. I wanted a representation in which each branch could be inspected. I chose Mermaid, a text-based diagram language that records nodes, connecting edges and branch labels. A VLM could convert the image into this representation, making its logic searchable alongside the document’s prose. Rendering the text back into a diagram also gave me a way to compare the reconstructed decisions with the original. In the controlled test, the reconstruction retained every node, edge and label and supported correct answers to both flowchart questions. Later in the research, I found that MinerU’s built-in VLM already supported converting flowcharts to Mermaid. It could select an appropriate representation for an image, including HTML for tables and Mermaid for flowcharts. This brought the two visual requirements into the same parser and model, fitting the client’s preference to keep the number of models they operated small.",
+      "parts": [
+        "Many client documents used flowchart images to explain a procedure. An answer might depend on following a “Yes” branch through several conditions. OCR could recover the words in each box while losing the arrows that made them a decision. I also tested free-form VLM descriptions, which conveyed the overall process with varying levels of detail. I wanted a representation in which each branch could be inspected. I chose Mermaid, a text-based diagram language that records nodes, connecting edges and branch labels. A VLM could convert the image into this representation, making its logic searchable alongside the document’s prose. Rendering the text back into a diagram also gave me a way to compare the reconstructed decisions with the original. In the controlled test, the reconstruction retained every node, edge and label and supported correct answers to both flowchart questions.",
+        "Later in the research, I found that MinerU’s built-in VLM already supported converting flowcharts to Mermaid. It could select an appropriate representation for an image, including HTML for tables and Mermaid for flowcharts. This brought the two visual requirements into the same parser and model, fitting the client’s preference to keep the number of models they operated small."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 82,
       "source_id": "ragflow-pipeline:what-i-tested-before-recommending-it",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
-      "title": "What I tested before recommending it",
+      "title": "Bringing the four requirements into one pipeline",
       "anchor": "what-i-tested-before-recommending-it",
-      "description": "The tests checked whether a query retrieved a rule together with its qualification, as well as whether parsing preserved the document’s structure. Keeping the input fixed made the checks repeatable after each repair. I also compared multi-page OCR, image-based retrieval, and three ways of representing flowcharts. The findings below explain what those alternatives preserved and where further processing was needed.",
-      "body": "The tests checked whether a query retrieved a rule together with its qualification, as well as whether parsing preserved the document’s structure. Keeping the input fixed made the checks repeatable after each repair. I also compared multi-page OCR, image-based retrieval, and three ways of representing flowcharts. The findings below explain what those alternatives preserved and where further processing was needed.",
+      "description": "The recommended architecture combined MinerU with its built-in VLM, a post-parsing reference linker, and LlamaIndex. Parsing recovered document continuity and represented tables and diagrams in structured text. The linker attached referenced notes and remarks before LlamaIndex formed chunks for retrieval.",
+      "body": "The recommended architecture combined MinerU with its built-in VLM, a post-parsing reference linker, and LlamaIndex. Parsing recovered document continuity and represented tables and diagrams in structured text. The linker attached referenced notes and remarks before LlamaIndex formed chunks for retrieval. An embedding model represented those chunks and the question as numerical vectors, allowing passages with related meanings to be found even when their wording differed. The answer model then received the retrieved evidence with its relationships intact. I integrated these components in a proof of concept and followed the controlled document through the full path, checking what reached the answer model after each processing choice. This exposed losses that a successful parsing preview had concealed and gave the client an end-to-end basis for choosing the tools. The recommendation also connected this design to operation. I separated GPU-backed parsing and visual interpretation from CPU orchestration, reference linking and indexing, then compared on-premises and private-cloud deployment. On-demand processing could release resources between ingestion jobs, with model start-up time affecting how quickly a new job began. Keeping the service running traded that delay for ongoing cost. These choices let the client assess the pipeline against its infrastructure, ingestion frequency and maintenance capacity.",
       "parts": [
-        "The tests checked whether a query retrieved a rule together with its qualification, as well as whether parsing preserved the document’s structure. Keeping the input fixed made the checks repeatable after each repair. I also compared multi-page OCR, image-based retrieval, and three ways of representing flowcharts. The findings below explain what those alternatives preserved and where further processing was needed."
+        "The recommended architecture combined MinerU with its built-in VLM, a post-parsing reference linker, and LlamaIndex. Parsing recovered document continuity and represented tables and diagrams in structured text. The linker attached referenced notes and remarks before LlamaIndex formed chunks for retrieval. An embedding model represented those chunks and the question as numerical vectors, allowing passages with related meanings to be found even when their wording differed. The answer model then received the retrieved evidence with its relationships intact. I integrated these components in a proof of concept and followed the controlled document through the full path, checking what reached the answer model after each processing choice. This exposed losses that a successful parsing preview had concealed and gave the client an end-to-end basis for choosing the tools.",
+        "The recommendation also connected this design to operation. I separated GPU-backed parsing and visual interpretation from CPU orchestration, reference linking and indexing, then compared on-premises and private-cloud deployment. On-demand processing could release resources between ingestion jobs, with model start-up time affecting how quickly a new job began. Keeping the service running traded that delay for ongoing cost. These choices let the client assess the pipeline against its infrastructure, ingestion frequency and maintenance capacity."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2211,7 +2341,29 @@
       "selected": false
     },
     {
-      "id": 76,
+      "id": 83,
+      "source_id": "ragflow-pipeline:judging-the-whole-solution",
+      "route": "/ragflow-pipeline",
+      "page": "A Structure-Preserving RAG Ingestion Pipeline",
+      "title": "Judging the whole solution",
+      "anchor": "judging-the-whole-solution",
+      "description": "Part of my role was deciding what would count as meeting a requirement. “Support complex tables” leaves several possibilities open. A tool might reproduce a table’s appearance, recover its hierarchy, or make that hierarchy available to the model answering a question. The client’s purpose determines which of these matters.",
+      "body": "Part of my role was deciding what would count as meeting a requirement. “Support complex tables” leaves several possibilities open. A tool might reproduce a table’s appearance, recover its hierarchy, or make that hierarchy available to the model answering a question. The client’s purpose determines which of these matters. I had to translate that purpose into checks detailed enough to guide a technical choice, while leaving room to discover how existing tools could satisfy it. Specifying a particular implementation too early would have narrowed the options before I understood them. I also needed to judge the combination of tools as a solution in its own right. A capability demonstrated by one component can disappear at its interface with the next, as the table structure did during downstream processing. That makes integration part of the evaluation itself. It affects where to intervene, too. Existing parsing capabilities covered several requirements, while reference linking called for a small piece of custom logic. The distinction depended on the relationship each requirement needed to preserve. It gave me a reason for every part I added and a way to test whether that addition worked. Operating constraints belong in the same reasoning. Ingestion frequency changes whether model start-up time or idle GPU cost is the more significant concern. A preference for fewer models affects the value of finding table and flowchart support within one parser. These dependencies mean a recommendation has to explain the conditions under which its choices make sense. I want the client to be able to see which decisions can remain in place as usage grows, and which should be revisited if its documents, workload or infrastructure change. That understanding is part of what the consulting work needs to deliver.",
+      "parts": [
+        "Part of my role was deciding what would count as meeting a requirement. “Support complex tables” leaves several possibilities open. A tool might reproduce a table’s appearance, recover its hierarchy, or make that hierarchy available to the model answering a question. The client’s purpose determines which of these matters. I had to translate that purpose into checks detailed enough to guide a technical choice, while leaving room to discover how existing tools could satisfy it. Specifying a particular implementation too early would have narrowed the options before I understood them. I also needed to judge the combination of tools as a solution in its own right. A capability demonstrated by one component can disappear at its interface with the next, as the table structure did during downstream processing. That makes integration part of the evaluation itself.",
+        "It affects where to intervene, too. Existing parsing capabilities covered several requirements, while reference linking called for a small piece of custom logic. The distinction depended on the relationship each requirement needed to preserve. It gave me a reason for every part I added and a way to test whether that addition worked. Operating constraints belong in the same reasoning. Ingestion frequency changes whether model start-up time or idle GPU cost is the more significant concern. A preference for fewer models affects the value of finding table and flowchart support within one parser. These dependencies mean a recommendation has to explain the conditions under which its choices make sense. I want the client to be able to see which decisions can remain in place as usage grows, and which should be revisited if its documents, workload or infrastructure change.",
+        "That understanding is part of what the consulting work needs to deliver."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 84,
       "source_id": "ai-it-operations:overview",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2231,7 +2383,7 @@
       "selected": true
     },
     {
-      "id": 77,
+      "id": 85,
       "source_id": "ai-it-operations:knowledge-management",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2252,7 +2404,7 @@
       "selected": true
     },
     {
-      "id": 78,
+      "id": 86,
       "source_id": "ai-it-operations:where-does-the-assistant-need-more-knowledge",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2273,7 +2425,7 @@
       "selected": true
     },
     {
-      "id": 79,
+      "id": 87,
       "source_id": "ai-it-operations:finding-the-material-that-will-help",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2294,7 +2446,7 @@
       "selected": true
     },
     {
-      "id": 80,
+      "id": 88,
       "source_id": "ai-it-operations:what-happens-when-the-guidance-changes",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2316,7 +2468,7 @@
       "selected": true
     },
     {
-      "id": 81,
+      "id": 89,
       "source_id": "ai-it-operations:from-a-source-to-maintained-knowledge",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2337,7 +2489,7 @@
       "selected": true
     },
     {
-      "id": 82,
+      "id": 90,
       "source_id": "ai-it-operations:browser-control",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2358,7 +2510,7 @@
       "selected": true
     },
     {
-      "id": 83,
+      "id": 91,
       "source_id": "ai-it-operations:turning-the-request-into-actions",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2378,7 +2530,7 @@
       "selected": true
     },
     {
-      "id": 84,
+      "id": 92,
       "source_id": "ai-it-operations:why-a-browser-extension",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2399,7 +2551,7 @@
       "selected": true
     },
     {
-      "id": 85,
+      "id": 93,
       "source_id": "ai-it-operations:a-place-to-start-intervene-and-look-back",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2419,7 +2571,7 @@
       "selected": true
     },
     {
-      "id": 86,
+      "id": 94,
       "source_id": "ai-it-operations:from-planning-to-a-browser-action",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2439,17 +2591,19 @@
       "selected": true
     },
     {
-      "id": 87,
+      "id": 95,
       "source_id": "ai-it-operations:where-judgement-changes-hands",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
-      "title": "Deciding what to automate",
+      "title": "What to automate, and how",
       "anchor": "where-judgement-changes-hands",
-      "description": "The roles of AI reasoning, system rules, and human oversight These projects required different kinds of judgment. A missing answer called for deciding what to research, while a service ticket called for interpreting the application’s current state. In both cases, I used AI where the next step depended on meaning and context.",
-      "body": "The roles of AI reasoning, system rules, and human oversight These projects required different kinds of judgment. A missing answer called for deciding what to research, while a service ticket called for interpreting the application’s current state. In both cases, I used AI where the next step depended on meaning and context. The surrounding system gave it specific questions to answer, evidence to inspect, and a record of what had already happened. The division becomes clearest at a source update or an application change. Comparing two document snapshots can be a repeatable operation, while deciding whether the difference invalidates existing guidance requires interpretation. Sending a browser action is also a defined operation, while deciding that it fulfils the ticket depends on the request and the page. Human review provides the authority to approve consequential changes, with the proposed work and its supporting evidence available for inspection. I want AI to take on more of the investigation and execution involved in IT support while making that work easier for people to follow. That depends on architecture as much as model capability. The source records, observation loop, and points of intervention determine whether a person can understand a proposal, correct it, and trust the system to continue from that correction.",
+      "description": "I wanted the system to take on both the repeated handling of documentation and the investigation needed when existing guidance fell short. Deciding what to delegate meant looking inside each task. Researching a question, proposing an update, accepting that update, and applying it are separate responsibilities. The system could take on the investigation and preparation while a person decided what guidance to accept.",
+      "body": "I wanted the system to take on both the repeated handling of documentation and the investigation needed when existing guidance fell short. Deciding what to delegate meant looking inside each task. Researching a question, proposing an update, accepting that update, and applying it are separate responsibilities. The system could take on the investigation and preparation while a person decided what guidance to accept. That division let AI do substantial work and gave the reviewer a concrete proposal with evidence to assess. Choosing to automate a task still leaves much of its design open. I also have to decide how much of the method to specify. A prompt can give a model an objective, evidence and criteria for judging its next step. A more structured workflow can prescribe stages and available tools while leaving particular decisions to the model. Where the inputs and procedure are already well defined, a script can execute the same logic each time. One workflow can use all of these, with different amounts of freedom in different decisions. In knowledge acquisition, I could specify what a useful search should achieve before knowing which pages it would need. The original questions define the coverage required, and the broader research objective gives the agent room to follow related evidence. Relevance, source authority and information gain guide its choices. This structure keeps the research connected to the missing knowledge while allowing the route through the documentation to emerge as the agent reads. I used prompted criteria where the model needed to weigh evidence, and system-enforced limits where the workflow needed a fixed boundary. Tool schemas define the actions the system can accept, and page and time limits bound execution. Predictable operations such as comparing normalised snapshots and updating source records belong in system logic. In source monitoring, that comparison determines whether there is a change for AI to assess at all. The model then reasons about its implications for the linked knowledge. This concentrates reasoning on the decision that needs interpretation. Human-in-the-loop design adds a choice about responsibility and context. A person can authorise a well-understood change, supply information the agent lacks, or correct its interpretation. Each requires the relevant evidence and a way to continue from the person's decision. I kept source changes connected to their affected passages, and retained task history and current page state when an operator intervened.",
       "parts": [
-        "The roles of AI reasoning, system rules, and human oversight These projects required different kinds of judgment. A missing answer called for deciding what to research, while a service ticket called for interpreting the application’s current state. In both cases, I used AI where the next step depended on meaning and context. The surrounding system gave it specific questions to answer, evidence to inspect, and a record of what had already happened. The division becomes clearest at a source update or an application change. Comparing two document snapshots can be a repeatable operation, while deciding whether the difference invalidates existing guidance requires interpretation. Sending a browser action is also a defined operation, while deciding that it fulfils the ticket depends on the request and the page.",
-        "Human review provides the authority to approve consequential changes, with the proposed work and its supporting evidence available for inspection. I want AI to take on more of the investigation and execution involved in IT support while making that work easier for people to follow. That depends on architecture as much as model capability. The source records, observation loop, and points of intervention determine whether a person can understand a proposal, correct it, and trust the system to continue from that correction."
+        "I wanted the system to take on both the repeated handling of documentation and the investigation needed when existing guidance fell short. Deciding what to delegate meant looking inside each task. Researching a question, proposing an update, accepting that update, and applying it are separate responsibilities. The system could take on the investigation and preparation while a person decided what guidance to accept. That division let AI do substantial work and gave the reviewer a concrete proposal with evidence to assess. Choosing to automate a task still leaves much of its design open. I also have to decide how much of the method to specify. A prompt can give a model an objective, evidence and criteria for judging its next step. A more structured workflow can prescribe stages and available tools while leaving particular decisions to the model.",
+        "Where the inputs and procedure are already well defined, a script can execute the same logic each time. One workflow can use all of these, with different amounts of freedom in different decisions. In knowledge acquisition, I could specify what a useful search should achieve before knowing which pages it would need. The original questions define the coverage required, and the broader research objective gives the agent room to follow related evidence. Relevance, source authority and information gain guide its choices. This structure keeps the research connected to the missing knowledge while allowing the route through the documentation to emerge as the agent reads. I used prompted criteria where the model needed to weigh evidence, and system-enforced limits where the workflow needed a fixed boundary.",
+        "Tool schemas define the actions the system can accept, and page and time limits bound execution. Predictable operations such as comparing normalised snapshots and updating source records belong in system logic. In source monitoring, that comparison determines whether there is a change for AI to assess at all. The model then reasons about its implications for the linked knowledge. This concentrates reasoning on the decision that needs interpretation. Human-in-the-loop design adds a choice about responsibility and context. A person can authorise a well-understood change, supply information the agent lacks, or correct its interpretation. Each requires the relevant evidence and a way to continue from the person's decision. I kept source changes connected to their affected passages, and retained task history and current page state when an operator intervened.",
+        "Those records make review and correction part of the workflow, so handing work back to AI preserves what the person has just contributed. How much structure to provide can also change as the work becomes better understood. Repeated cases may reveal a rule that can be written into guidance. If applying it still requires interpreting the situation, it can guide the model's judgement. If its conditions and exceptions can be stated precisely, it becomes a candidate for a decision table or script. I see this as part of developing the automation over time, making established knowledge reusable while keeping reasoning available where the next decision still depends on context."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2460,7 +2614,7 @@
       "selected": true
     },
     {
-      "id": 88,
+      "id": 96,
       "source_id": "fragments:overview",
       "route": "/fragments",
       "page": "Fragments",
@@ -2480,7 +2634,7 @@
       "selected": false
     },
     {
-      "id": 89,
+      "id": 97,
       "source_id": "fragments:the-projection-of-thought",
       "route": "/fragments",
       "page": "Fragments",
@@ -2514,7 +2668,7 @@
       "selected": false
     },
     {
-      "id": 90,
+      "id": 98,
       "source_id": "fragments:rebuilding-another-state-inside-me",
       "route": "/fragments",
       "page": "Fragments",
@@ -2548,7 +2702,7 @@
       "selected": false
     },
     {
-      "id": 91,
+      "id": 99,
       "source_id": "fragments:visible-part-of-the-mind",
       "route": "/fragments",
       "page": "Fragments",
@@ -2579,7 +2733,7 @@
       "selected": false
     },
     {
-      "id": 92,
+      "id": 100,
       "source_id": "fragments:understanding-before-definition",
       "route": "/fragments",
       "page": "Fragments",
@@ -2609,7 +2763,7 @@
       "selected": false
     },
     {
-      "id": 93,
+      "id": 101,
       "source_id": "fragments:expression-recording",
       "route": "/fragments",
       "page": "Fragments",
@@ -2642,7 +2796,7 @@
       "selected": false
     },
     {
-      "id": 94,
+      "id": 102,
       "source_id": "fragments:rich-traces-and-open-paths",
       "route": "/fragments",
       "page": "Fragments",
@@ -2675,7 +2829,7 @@
       "selected": false
     },
     {
-      "id": 95,
+      "id": 103,
       "source_id": "fragments:labels-goals-rules",
       "route": "/fragments",
       "page": "Fragments",
@@ -2712,7 +2866,7 @@
       "selected": false
     },
     {
-      "id": 96,
+      "id": 104,
       "source_id": "fragments:memory-time-self",
       "route": "/fragments",
       "page": "Fragments",
@@ -2747,7 +2901,7 @@
       "selected": false
     },
     {
-      "id": 97,
+      "id": 105,
       "source_id": "fragments:satisfaction-signal",
       "route": "/fragments",
       "page": "Fragments",
@@ -2781,7 +2935,7 @@
       "selected": false
     },
     {
-      "id": 98,
+      "id": 106,
       "source_id": "fragments:queen-victoria-market-toast-oysters",
       "route": "/fragments",
       "page": "Fragments",
@@ -2809,7 +2963,7 @@
       "selected": false
     },
     {
-      "id": 99,
+      "id": 107,
       "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
       "route": "/fragments",
       "page": "Fragments",
@@ -2837,7 +2991,7 @@
       "selected": false
     },
     {
-      "id": 100,
+      "id": 108,
       "source_id": "fragments:ai-generated-kitten-videos",
       "route": "/fragments",
       "page": "Fragments",
@@ -2866,7 +3020,7 @@
       "selected": false
     },
     {
-      "id": 101,
+      "id": 109,
       "source_id": "fragments:identity-interview-reflection",
       "route": "/fragments",
       "page": "Fragments",
@@ -2895,7 +3049,7 @@
       "selected": false
     },
     {
-      "id": 102,
+      "id": 110,
       "source_id": "fragments:napier-seaside-with-my-mother",
       "route": "/fragments",
       "page": "Fragments",
@@ -2925,7 +3079,7 @@
       "selected": false
     },
     {
-      "id": 103,
+      "id": 111,
       "source_id": "fragments:mothers-cooking-across-places",
       "route": "/fragments",
       "page": "Fragments",
@@ -2954,7 +3108,7 @@
       "selected": false
     },
     {
-      "id": 104,
+      "id": 112,
       "source_id": "fragments:golf-with-my-mother-in-new-zealand",
       "route": "/fragments",
       "page": "Fragments",
@@ -2982,7 +3136,7 @@
       "selected": false
     },
     {
-      "id": 105,
+      "id": 113,
       "source_id": "fragments:slr-lab-racket-games",
       "route": "/fragments",
       "page": "Fragments",
@@ -3010,7 +3164,7 @@
       "selected": false
     },
     {
-      "id": 106,
+      "id": 114,
       "source_id": "fragments:kennedy-town-seaside-hku-years",
       "route": "/fragments",
       "page": "Fragments",
@@ -3039,7 +3193,7 @@
       "selected": false
     },
     {
-      "id": 107,
+      "id": 115,
       "source_id": "fragments:sydney-harbour-ferry-rides",
       "route": "/fragments",
       "page": "Fragments",
@@ -3068,7 +3222,7 @@
       "selected": false
     },
     {
-      "id": 108,
+      "id": 116,
       "source_id": "fragments:gold-coast-water-and-city-line",
       "route": "/fragments",
       "page": "Fragments",
@@ -3097,7 +3251,7 @@
       "selected": false
     },
     {
-      "id": 109,
+      "id": 117,
       "source_id": "fragments:great-ocean-road-melbourne-friends",
       "route": "/fragments",
       "page": "Fragments",
@@ -3126,7 +3280,7 @@
       "selected": false
     },
     {
-      "id": 110,
+      "id": 118,
       "source_id": "fragments:taiwan-east-coast-family-road-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -3155,7 +3309,7 @@
       "selected": false
     },
     {
-      "id": 111,
+      "id": 119,
       "source_id": "fragments:tomatoes-of-august-29",
       "route": "/fragments",
       "page": "Fragments",
@@ -3187,7 +3341,7 @@
       "selected": false
     },
     {
-      "id": 112,
+      "id": 120,
       "source_id": "fragments:athens-ruins-and-family-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -3216,7 +3370,7 @@
       "selected": false
     },
     {
-      "id": 113,
+      "id": 121,
       "source_id": "fragments:swimming-in-the-mediterranean",
       "route": "/fragments",
       "page": "Fragments",
@@ -3245,7 +3399,7 @@
       "selected": false
     },
     {
-      "id": 114,
+      "id": 122,
       "source_id": "fragments:rainy-days-permission-to-stay-in",
       "route": "/fragments",
       "page": "Fragments",
@@ -3273,7 +3427,7 @@
       "selected": false
     },
     {
-      "id": 115,
+      "id": 123,
       "source_id": "fragments:mental-map-of-small-room",
       "route": "/fragments",
       "page": "Fragments",
@@ -3302,7 +3456,7 @@
       "selected": false
     },
     {
-      "id": 116,
+      "id": 124,
       "source_id": "fragments:first-camera-another-way-of-seeing",
       "route": "/fragments",
       "page": "Fragments",
@@ -3331,7 +3485,7 @@
       "selected": false
     },
     {
-      "id": 117,
+      "id": 125,
       "source_id": "fragments:music-that-became-more-spacious",
       "route": "/fragments",
       "page": "Fragments",
@@ -3360,7 +3514,7 @@
       "selected": false
     },
     {
-      "id": 118,
+      "id": 126,
       "source_id": "cv:profile",
       "route": "/cv",
       "page": "CV",
@@ -3380,7 +3534,7 @@
       "selected": false
     },
     {
-      "id": 119,
+      "id": 127,
       "source_id": "cv:education",
       "route": "/cv",
       "page": "CV",
@@ -3400,7 +3554,7 @@
       "selected": false
     },
     {
-      "id": 120,
+      "id": 128,
       "source_id": "cv:experience",
       "route": "/cv",
       "page": "CV",
@@ -3421,7 +3575,7 @@
       "selected": false
     },
     {
-      "id": 121,
+      "id": 129,
       "source_id": "cv:publications-preprints",
       "route": "/cv",
       "page": "CV",
@@ -3442,7 +3596,7 @@
       "selected": false
     },
     {
-      "id": 122,
+      "id": 130,
       "source_id": "about:root:about-me",
       "route": "/about",
       "page": "About",
@@ -3478,7 +3632,7 @@
       "selected": false
     },
     {
-      "id": 123,
+      "id": 131,
       "source_id": "about:section:how-i-research-and-build",
       "route": "/about",
       "page": "About",
@@ -3499,7 +3653,7 @@
       "selected": false
     },
     {
-      "id": 124,
+      "id": 132,
       "source_id": "about:section:outside-work",
       "route": "/about",
       "page": "About",
@@ -3520,7 +3674,7 @@
       "selected": false
     },
     {
-      "id": 126,
+      "id": 134,
       "source_id": "about:gallery",
       "route": "/about",
       "page": "About",

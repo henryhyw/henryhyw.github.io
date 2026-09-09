@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 936 264" role="img" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <title>Resolving power of a transfer design</title>
+  <desc>Design and candidate space, per-candidate predicted distributions, separation and recovery matrices, and the two corresponding routes for design revision.</desc>
+  <defs><marker id="ah" markerWidth="9" markerHeight="9" refX="6.5" refY="3" orient="auto"><path d="M0,0 L6.5,3 L0,6 Z" fill="#aeb4bc"/></marker></defs>
+  <rect x="0" y="0" width="936" height="264" fill="#ffffff"/>
+  <text x="40" y="26" font-size="14" font-weight="700" fill="#2c5f86">a<tspan dx="8" font-size="12.5" font-weight="600" fill="#1a1a1a">Design &amp; candidates</tspan></text>
+  <text x="308" y="26" font-size="14" font-weight="700" fill="#2c5f86">b<tspan dx="8" font-size="12.5" font-weight="600" fill="#1a1a1a">Predicted responses</tspan></text>
+  <text x="486" y="26" font-size="14" font-weight="700" fill="#2c5f86">c<tspan dx="8" font-size="12.5" font-weight="600" fill="#1a1a1a">Resolving power</tspan></text>
+  <text x="636" y="26" font-size="14" font-weight="700" fill="#2c5f86">d<tspan dx="8" font-size="12.5" font-weight="600" fill="#1a1a1a">Design revision</tspan></text>
+  <rect x="40" y="38" width="230" height="212" rx="6" fill="#ffffff" stroke="#dde1e6"/>
+  <rect x="308" y="38" width="140" height="212" rx="6" fill="#ffffff" stroke="#dde1e6"/>
+  <rect x="486" y="38" width="112" height="212" rx="6" fill="#ffffff" stroke="#dde1e6"/>
+  <rect x="636" y="38" width="260" height="212" rx="6" fill="#ffffff" stroke="#dde1e6"/>
+  <line x1="272" y1="144" x2="306" y2="144" stroke="#aeb4bc" stroke-width="1.5" marker-end="url(#ah)"/>
+  <line x1="450" y1="144" x2="484" y2="144" stroke="#aeb4bc" stroke-width="1.5" marker-end="url(#ah)"/>
+  <line x1="600" y1="144" x2="634" y2="144" stroke="#aeb4bc" stroke-width="1.5" marker-end="url(#ah)"/>
+  <g transform="translate(0,-7)">
+    <text x="56" y="58" font-size="10.5" fill="#6b7280" font-weight="600">Transfer design</text>
+    <text x="124.5" y="70" font-size="7.5" fill="#9aa1ab" text-anchor="middle">value</text>
+    <text x="151.5" y="70" font-size="7.5" fill="#9aa1ab" text-anchor="middle">context</text>
+    <text x="56" y="84" font-size="9.5" fill="#1a1a1a">trained</text><rect x="118" y="74" width="13" height="13" fill="#2b2f36"/><text x="124.5" y="84" font-size="9" fill="#fff" text-anchor="middle" font-weight="600">A</text><rect x="145" y="74" width="13" height="13" fill="#2b2f36"/><text x="151.5" y="84" font-size="9" fill="#fff" text-anchor="middle" font-weight="600">X</text><text x="166" y="84" font-size="8.5" fill="#6b7280">repeats training</text>
+  <text x="56" y="100" font-size="9.5" fill="#1a1a1a">preserved</text><rect x="118" y="90" width="13" height="13" fill="#2b2f36"/><text x="124.5" y="100" font-size="9" fill="#fff" text-anchor="middle" font-weight="600">A</text><rect x="145" y="90" width="13" height="13" fill="#fff" stroke="#2b2f36"/><text x="151.5" y="100" font-size="9" fill="#1a1a1a" text-anchor="middle" font-weight="600">Z</text><text x="166" y="100" font-size="8.5" fill="#6b7280">value, new context</text>
+  <text x="56" y="116" font-size="9.5" fill="#1a1a1a">recombined</text><rect x="118" y="106" width="13" height="13" fill="#2b2f36"/><text x="124.5" y="116" font-size="9" fill="#fff" text-anchor="middle" font-weight="600">A</text><rect x="145" y="106" width="13" height="13" fill="#2b2f36"/><text x="151.5" y="116" font-size="9" fill="#fff" text-anchor="middle" font-weight="600">Y</text><rect x="115.5" y="103.5" width="45.0" height="18" fill="none" stroke="#b9632b" stroke-width="1.2" stroke-dasharray="2.5 2"/><text x="166" y="116" font-size="8.5" fill="#b9632b">new combination</text>
+  <text x="56" y="132" font-size="9.5" fill="#1a1a1a">replaced</text><rect x="118" y="122" width="13" height="13" fill="#b9632b"/><text x="124.5" y="132" font-size="9" fill="#fff" text-anchor="middle" font-weight="600">C</text><rect x="145" y="122" width="13" height="13" fill="#2b2f36"/><text x="151.5" y="132" font-size="9" fill="#fff" text-anchor="middle" font-weight="600">X</text><text x="166" y="132" font-size="8.5" fill="#6b7280">novel value</text>
+    <line x1="56" y1="144" x2="254" y2="144" stroke="#ececef" stroke-width="1"/>
+    <text x="56" y="158" font-size="10.5" fill="#6b7280" font-weight="600">Candidate space</text>
+    <text x="108" y="172" font-size="9" fill="#6b7280" text-anchor="middle">rule</text>
+    <text x="150" y="172" font-size="9" fill="#6b7280" text-anchor="middle">proto</text>
+    <text x="192" y="172" font-size="9" fill="#6b7280" text-anchor="middle">exemp</text>
+    <text x="234" y="173" font-size="12" fill="#b3b9c0" text-anchor="middle">+</text>
+    <text x="56" y="192" font-size="9" fill="#6b7280">elem</text>
+    <text x="56" y="215" font-size="9" fill="#6b7280">conf</text>
+    <text x="56" y="239" font-size="12" fill="#b3b9c0">+</text>
+    <rect x="88"  y="178" width="40" height="21" fill="#f4f7fa" stroke="#c9ced4"/>
+    <rect x="130" y="178" width="40" height="21" fill="#f4f7fa" stroke="#c9ced4"/>
+    <rect x="172" y="178" width="40" height="21" fill="#f4f7fa" stroke="#c9ced4"/>
+    <rect x="88"  y="201" width="40" height="21" fill="#f4f7fa" stroke="#c9ced4"/>
+    <rect x="130" y="201" width="40" height="21" fill="#f4f7fa" stroke="#c9ced4"/>
+    <rect x="172" y="201" width="40" height="21" fill="#f4f7fa" stroke="#c9ced4"/>
+    <rect x="214" y="178" width="40" height="21" fill="#ffffff" stroke="#cdd2d8" stroke-dasharray="3 2"/>
+    <rect x="214" y="201" width="40" height="21" fill="#ffffff" stroke="#cdd2d8" stroke-dasharray="3 2"/>
+    <rect x="88"  y="224" width="40" height="21" fill="#ffffff" stroke="#cdd2d8" stroke-dasharray="3 2"/>
+    <rect x="130" y="224" width="40" height="21" fill="#ffffff" stroke="#cdd2d8" stroke-dasharray="3 2"/>
+    <rect x="172" y="224" width="40" height="21" fill="#ffffff" stroke="#cdd2d8" stroke-dasharray="3 2"/>
+    <rect x="214" y="224" width="40" height="21" fill="#ffffff" stroke="#cdd2d8" stroke-dasharray="3 2"/>
+  </g>
+  <g transform="translate(16.0,-2)"><text x="324" y="56" font-size="10" fill="#6b7280" font-weight="600">per candidate</text>
+  <text x="324" y="71" font-size="9.5" fill="#2c5f86" font-style="italic">p(&#183;) over classes</text>
+  <path d="M324.7,66 L326.7,63.2 L328.7,66" fill="none" stroke="#2c5f86" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="373" y="86" font-size="7.5" fill="#9aa1ab" text-anchor="middle">head</text>
+  <text x="354" y="96" font-size="8" fill="#6b7280" text-anchor="middle">h&#8321;</text>
+  <text x="392" y="96" font-size="8" fill="#6b7280" text-anchor="middle">h&#8322;</text>
+  <text transform="translate(318,167.0) rotate(-90)" font-size="7.5" fill="#9aa1ab" text-anchor="middle">test item</text>
+  <text x="333" y="120" font-size="8" fill="#6b7280" text-anchor="end">x&#8321;</text>
+  <rect x="340" y="98" width="28" height="38" fill="#f7f9fb" stroke="#e3e8ee" stroke-width="0.7"/><rect x="341.8" y="110.2" width="7" height="25.8" fill="#2c5f86"/><rect x="350.5" y="127.6" width="7" height="8.4" fill="#9cc0db"/><rect x="359.2" y="132.2" width="7" height="3.8" fill="#9cc0db"/>
+  <rect x="378" y="98" width="28" height="38" fill="#f7f9fb" stroke="#e3e8ee" stroke-width="0.7"/><rect x="379.8" y="131.4" width="7" height="4.6" fill="#9cc0db"/><rect x="388.5" y="129.2" width="7" height="6.8" fill="#9cc0db"/><rect x="397.2" y="109.4" width="7" height="26.6" fill="#2c5f86"/>
+  <text x="333" y="170" font-size="8" fill="#6b7280" text-anchor="end">x&#8322;</text>
+  <rect x="340" y="148" width="28" height="38" fill="#f7f9fb" stroke="#e3e8ee" stroke-width="0.7"/><rect x="341.8" y="176.5" width="7" height="9.5" fill="#9cc0db"/><rect x="350.5" y="165.1" width="7" height="20.9" fill="#2c5f86"/><rect x="359.2" y="178.4" width="7" height="7.6" fill="#9cc0db"/>
+  <rect x="378" y="148" width="28" height="38" fill="#f7f9fb" stroke="#e3e8ee" stroke-width="0.7"/><rect x="379.8" y="165.1" width="7" height="20.9" fill="#2c5f86"/><rect x="388.5" y="174.6" width="7" height="11.4" fill="#9cc0db"/><rect x="397.2" y="180.3" width="7" height="5.7" fill="#9cc0db"/>
+  <text x="333" y="220" font-size="8" fill="#6b7280" text-anchor="end">x&#8323;</text>
+  <rect x="340" y="198" width="28" height="38" fill="#f7f9fb" stroke="#e3e8ee" stroke-width="0.7"/><rect x="341.8" y="230.3" width="7" height="5.7" fill="#9cc0db"/><rect x="350.5" y="226.5" width="7" height="9.5" fill="#9cc0db"/><rect x="359.2" y="213.2" width="7" height="22.8" fill="#2c5f86"/>
+  <rect x="378" y="198" width="28" height="38" fill="#f7f9fb" stroke="#e3e8ee" stroke-width="0.7"/><rect x="379.8" y="220.8" width="7" height="15.2" fill="#9cc0db"/><rect x="388.5" y="218.9" width="7" height="17.1" fill="#2c5f86"/><rect x="397.2" y="230.3" width="7" height="5.7" fill="#9cc0db"/>
+  <text x="339" y="101" font-size="6.5" fill="#b3b9c0" text-anchor="end">1</text>
+  <text x="339" y="136" font-size="6.5" fill="#b3b9c0" text-anchor="end">0</text></g>
+  <g transform="translate(0,-2)">
+    <text x="509.3" y="58" font-size="10.5" fill="#6b7280" font-weight="600">separation</text><text x="561.3" y="58" font-size="10.5" fill="#6b7280" font-style="italic">D</text><text x="567.5" y="61.0" font-size="6.9" fill="#6b7280" font-style="italic">ab</text>
+    <g stroke="#fff" stroke-width="0.6"><rect x="506.0" y="64" width="12" height="12" fill="#f2f6fa"/><rect x="518.0" y="64" width="12" height="12" fill="#dce5ed"/><rect x="530.0" y="64" width="12" height="12" fill="#d6e1ea"/><rect x="542.0" y="64" width="12" height="12" fill="#5e85a3"/><rect x="554.0" y="64" width="12" height="12" fill="#4e799a"/><rect x="566.0" y="64" width="12" height="12" fill="#3f6d91"/><rect x="506.0" y="76" width="12" height="12" fill="#dce5ed"/><rect x="518.0" y="76" width="12" height="12" fill="#f2f6fa"/><rect x="530.0" y="76" width="12" height="12" fill="#e2eaf1"/><rect x="542.0" y="76" width="12" height="12" fill="#4e799a"/><rect x="554.0" y="76" width="12" height="12" fill="#3f6d91"/><rect x="566.0" y="76" width="12" height="12" fill="#5e85a3"/><rect x="506.0" y="88" width="12" height="12" fill="#d6e1ea"/><rect x="518.0" y="88" width="12" height="12" fill="#e2eaf1"/><rect x="530.0" y="88" width="12" height="12" fill="#f2f6fa"/><rect x="542.0" y="88" width="12" height="12" fill="#3f6d91"/><rect x="554.0" y="88" width="12" height="12" fill="#5e85a3"/><rect x="566.0" y="88" width="12" height="12" fill="#4e799a"/><rect x="506.0" y="100" width="12" height="12" fill="#5e85a3"/><rect x="518.0" y="100" width="12" height="12" fill="#4e799a"/><rect x="530.0" y="100" width="12" height="12" fill="#3f6d91"/><rect x="542.0" y="100" width="12" height="12" fill="#f2f6fa"/><rect x="554.0" y="100" width="12" height="12" fill="#dce5ed"/><rect x="566.0" y="100" width="12" height="12" fill="#d6e1ea"/><rect x="506.0" y="112" width="12" height="12" fill="#4e799a"/><rect x="518.0" y="112" width="12" height="12" fill="#3f6d91"/><rect x="530.0" y="112" width="12" height="12" fill="#5e85a3"/><rect x="542.0" y="112" width="12" height="12" fill="#dce5ed"/><rect x="554.0" y="112" width="12" height="12" fill="#f2f6fa"/><rect x="566.0" y="112" width="12" height="12" fill="#e2eaf1"/><rect x="506.0" y="124" width="12" height="12" fill="#3f6d91"/><rect x="518.0" y="124" width="12" height="12" fill="#5e85a3"/><rect x="530.0" y="124" width="12" height="12" fill="#4e799a"/><rect x="542.0" y="124" width="12" height="12" fill="#d6e1ea"/><rect x="554.0" y="124" width="12" height="12" fill="#e2eaf1"/><rect x="566.0" y="124" width="12" height="12" fill="#f2f6fa"/></g>
+    <rect x="541.5" y="63.5" width="13" height="13" fill="none" stroke="#b9632b" stroke-width="1.6"/>
+    <text x="513.6" y="156" font-size="10.5" fill="#6b7280" font-weight="600">recovery</text><text x="557.0" y="156" font-size="10.5" fill="#6b7280" font-style="italic">R</text><text x="563.3" y="159.0" font-size="6.9" fill="#6b7280" font-style="italic">ab</text>
+    <g stroke="#fff" stroke-width="0.6"><rect x="506.0" y="162" width="12" height="12" fill="#2c5f86"/><rect x="518.0" y="162" width="12" height="12" fill="#bfcfdc"/><rect x="530.0" y="162" width="12" height="12" fill="#abc0d0"/><rect x="542.0" y="162" width="12" height="12" fill="#34658b"/><rect x="554.0" y="162" width="12" height="12" fill="#38688d"/><rect x="566.0" y="162" width="12" height="12" fill="#34658b"/><rect x="506.0" y="174" width="12" height="12" fill="#bfcfdc"/><rect x="518.0" y="174" width="12" height="12" fill="#2c5f86"/><rect x="530.0" y="174" width="12" height="12" fill="#d2dee7"/><rect x="542.0" y="174" width="12" height="12" fill="#38688d"/><rect x="554.0" y="174" width="12" height="12" fill="#34658b"/><rect x="566.0" y="174" width="12" height="12" fill="#38688d"/><rect x="506.0" y="186" width="12" height="12" fill="#abc0d0"/><rect x="518.0" y="186" width="12" height="12" fill="#d2dee7"/><rect x="530.0" y="186" width="12" height="12" fill="#2c5f86"/><rect x="542.0" y="186" width="12" height="12" fill="#34658b"/><rect x="554.0" y="186" width="12" height="12" fill="#38688d"/><rect x="566.0" y="186" width="12" height="12" fill="#34658b"/><rect x="506.0" y="198" width="12" height="12" fill="#34658b"/><rect x="518.0" y="198" width="12" height="12" fill="#38688d"/><rect x="530.0" y="198" width="12" height="12" fill="#34658b"/><rect x="542.0" y="198" width="12" height="12" fill="#2c5f86"/><rect x="554.0" y="198" width="12" height="12" fill="#bfcfdc"/><rect x="566.0" y="198" width="12" height="12" fill="#abc0d0"/><rect x="506.0" y="210" width="12" height="12" fill="#38688d"/><rect x="518.0" y="210" width="12" height="12" fill="#34658b"/><rect x="530.0" y="210" width="12" height="12" fill="#38688d"/><rect x="542.0" y="210" width="12" height="12" fill="#bfcfdc"/><rect x="554.0" y="210" width="12" height="12" fill="#2c5f86"/><rect x="566.0" y="210" width="12" height="12" fill="#d2dee7"/><rect x="506.0" y="222" width="12" height="12" fill="#34658b"/><rect x="518.0" y="222" width="12" height="12" fill="#38688d"/><rect x="530.0" y="222" width="12" height="12" fill="#34658b"/><rect x="542.0" y="222" width="12" height="12" fill="#abc0d0"/><rect x="554.0" y="222" width="12" height="12" fill="#d2dee7"/><rect x="566.0" y="222" width="12" height="12" fill="#2c5f86"/></g>
+    <rect x="541.5" y="161.5" width="13" height="13" fill="none" stroke="#b9632b" stroke-width="1.6"/>
+  </g>
+  <line x1="654" y1="144" x2="878" y2="144" stroke="#ececef" stroke-width="1"/>
+  <text x="766.0" y="74" font-size="10.0" fill="#1a1a1a" text-anchor="middle" font-weight="600">predictions are too similar</text>
+  <text x="747.9" y="94" font-size="9.2" fill="#6b7280" font-weight="600">small</text><text x="772.4" y="94" font-size="9.2" fill="#6b7280" font-style="italic">D</text><text x="777.9" y="97.0" font-size="6.1" fill="#6b7280" font-style="italic">ab</text>
+  <text x="766.0" y="116" font-size="9.0" fill="#6b7280" text-anchor="middle">change manipulation or response measure</text>
+  <text x="766.0" y="166" font-size="9.8" fill="#1a1a1a" text-anchor="middle" font-weight="600">predictions differ</text>
+  <text x="766.0" y="181" font-size="9.4" fill="#1a1a1a" text-anchor="middle" font-weight="600">planned observations cannot</text>
+  <text x="766.0" y="196" font-size="9.4" fill="#1a1a1a" text-anchor="middle" font-weight="600">reliably distinguish them</text>
+  <text x="751.6" y="212" font-size="9.2" fill="#6b7280" font-weight="600">low</text><text x="768.6" y="212" font-size="9.2" fill="#6b7280" font-style="italic">R</text><text x="774.1" y="215.0" font-size="6.1" fill="#6b7280" font-style="italic">ab</text>
+  <text x="766.0" y="229" font-size="9.0" fill="#6b7280" text-anchor="middle">collect more observations where predictions differ</text>
+</svg>
