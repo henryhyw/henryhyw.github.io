@@ -31,7 +31,7 @@
     <section class="hero" aria-labelledby="hero-title">
       <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Open-source presentation framework for Codex</p>
       <h1 id="hero-title">Let the design follow<br>the argument.</h1>
-      <p class="hero-description">SlidePoise uses AI to develop your content, explore slide designs through image generation and build an editable PowerPoint. Your ideas, references and visual assets guide the presentation, with room to design beyond fixed templates.</p>
+      <p class="hero-description">Work with an AI Agent on the argument and connections between your ideas. Image generation explores their visual composition beyond fixed templates, guided by your references and assets. SlidePoise then reconstructs the chosen design as an editable PowerPoint.</p>
       <div class="hero-actions"><a class="button" href="#setup">Get SlidePoise</a><a class="quiet-link source-link" href="https://github.com/henryhyw/slidepoise" target="_blank" rel="noopener"><svg class="github-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.09c-3.14.68-3.8-1.33-3.8-1.33-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.63 1.22 3.27.93.1-.73.39-1.23.71-1.51-2.51-.29-5.15-1.26-5.15-5.57 0-1.23.44-2.24 1.16-3.03-.12-.28-.5-1.43.11-2.98 0 0 .95-.3 3.1 1.16a10.75 10.75 0 0 1 5.65 0c2.15-1.46 3.1-1.16 3.1-1.16.61 1.55.23 2.7.11 2.98.72.79 1.16 1.8 1.16 3.03 0 4.32-2.64 5.28-5.16 5.56.41.35.77 1.03.77 2.09v3.1c0 .3.2.65.78.54A11.25 11.25 0 0 0 12 .75Z"/></svg>View source</a></div>
     </section>
 
@@ -57,7 +57,7 @@
 
     <section id="philosophy" class="philosophy page-width" aria-labelledby="philosophy-title">
       <div class="section-heading architecture-heading"><h2 id="philosophy-title">How SlidePoise works</h2></div>
-      <p class="section-intro">Image generation gives the Agent room to explore a composition before committing to PowerPoint objects. To make the chosen design editable, the framework needs to recover both its meaning and its geometry. The Agent identifies text, charts and relationships, while OpenCV measures their positions and dimensions. Local tools use both to reconstruct the slide. Comparing the rendered PowerPoint with the design then reveals omissions or layout differences to correct.</p>
+      <p class="section-intro">The Agent develops what each slide needs to say and how its ideas relate. Image generation explores the composition, typography and imagery that express those ideas. To rebuild the chosen image in PowerPoint, the Agent identifies what each element represents and how it relates to the others, while OpenCV measures its geometry. Reconstruction tools combine this interpretation and measurement to create editable text, charts and diagrams.</p>
       <figure id="architecture" class="system-architecture">
         <button type="button" class="system-architecture-art" data-open-architecture aria-label="Enlarge SlidePoise architecture" aria-haspopup="dialog"><img src="/assets/img/projects/slidepoise-architecture-v1.svg?v=2" width="1600" height="1180" alt="SlidePoise architecture showing shared plans and visual assets, image generation, Agent interpretation, OpenCV measurement, editable PowerPoint and a review loop" loading="lazy" decoding="async"></button>
         <figcaption><span>System architecture</span><button type="button" data-open-architecture aria-label="Enlarge SlidePoise architecture" aria-haspopup="dialog"><span>Expand diagram</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12 3h5v5M17 3l-5.5 5.5M8 17H3v-5m0 5 5.5-5.5"/></svg></button></figcaption>
@@ -66,7 +66,7 @@
       <div id="walkthrough-loading" class="load-state" role="status">Loading the design example…</div>
       <div id="walkthrough" class="walkthrough" hidden>
         <article class="walkthrough-step">
-          <div class="walkthrough-heading"><div><h3>Plan the content. Explore the design.</h3></div></div>
+          <div class="walkthrough-heading"><div><h3>Plan the content and explore the design</h3></div></div>
           <div class="design-demonstration">
             <button id="walkthrough-brief" class="content-card argument-panel" type="button" aria-label="Open the slide brief" aria-haspopup="dialog"><span class="actor-label">Agent · Slide plan</span><strong id="walkthrough-message" class="argument-message"></strong><span id="walkthrough-decision" class="argument-decision"></span><span id="walkthrough-support" class="argument-support"></span><span class="evidence-note">Illustrative planning assumptions from the sample brief.</span></button>
             <span class="flow-connector" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 12h17m-5-5 5 5-5 5"/></svg></span>
@@ -74,7 +74,7 @@
           </div>
         </article>
         <article class="walkthrough-step reconstruction-step">
-          <div class="walkthrough-heading"><div><h3>Interpret the objects. Measure the pixels.</h3></div></div>
+          <div class="walkthrough-heading"><div><h3>Interpret the objects and measure their geometry</h3></div></div>
           <div class="reconstruction-demonstration">
             <button id="walkthrough-semantic-open" class="content-card reconstruction-evidence" type="button" aria-label="Enlarge the chart interpretation" aria-haspopup="dialog"><span class="actor-label">Agent · Chart interpretation</span><span id="walkthrough-semantic-crop" class="evidence-crop"><img id="walkthrough-semantic-image" alt="" loading="lazy" decoding="async"></span><span id="walkthrough-semantic-caption" class="evidence-caption"></span></button>
             <button id="walkthrough-measurement-open" class="content-card reconstruction-evidence" type="button" aria-label="Enlarge the chart measurements" aria-haspopup="dialog"><span class="actor-label">OpenCV · Pixel measurement</span><span id="walkthrough-measurement-crop" class="evidence-crop"><img id="walkthrough-measurement-image" alt="" loading="lazy" decoding="async"></span><span id="walkthrough-measurement-caption" class="evidence-caption"></span></button>
@@ -85,7 +85,7 @@
       <article class="asset-system" aria-labelledby="asset-system-title">
         <div class="walkthrough-heading asset-system-copy">
           <h3 id="asset-system-title">Define the visual language</h3>
-          <p>Recurring icons and logos need to remain recognisable across slides. I use a shared Library Set to hold those original assets alongside reusable PowerPoint components. The Agent supplies relevant assets when generating a design, then places the original files in the reconstructed slide. This lets the composition change while preserving the identity of the elements the deck shares.</p>
+          <p>Icons, logos and reusable PowerPoint components form a shared Library Set. The Agent uses these assets to guide image generation, then places their original files into the reconstructed slides. This gives the deck a consistent visual identity while allowing each slide to take the form its content needs.</p>
         </div>
         <figure class="asset-system-figure" aria-label="A Library Set supplies visual context to image generation and canonical assets to the reconstructed PowerPoint">
           <div class="asset-stage asset-library-stage">
@@ -119,7 +119,7 @@
       <article class="asset-system illustration-system" aria-labelledby="illustration-system-title">
         <div class="walkthrough-heading asset-system-copy">
           <div class="illustration-heading"><h3 id="illustration-system-title">Give small illustrations more detail</h3><div class="mode-controls" role="group" aria-label="Artwork view"><button type="button" data-artwork-view="compare" aria-pressed="true">Compare</button><button type="button" data-artwork-view="side-by-side" aria-pressed="false">Side by side</button></div></div>
-          <p>An illustration that occupies a small part of a generated slide may have too few pixels for a clear enlargement. The Agent can regenerate that artwork separately at higher resolution with a transparent background, check it against the design and place it back into the slide. The example below compares the original crop with the refined artwork.</p>
+          <p>A small illustration has only part of the generated slide’s pixel resolution. I added a refinement step that regenerates it separately at higher resolution on a transparent background, then places it back into the composition. Compare the paper collage below to see the additional detail.</p>
         </div>
         <div id="illustration-pair" class="illustration-comparison" hidden>
           <figure><div class="illustration-surface"><img src="assets/illustration-source.png" alt="A hand holding a handwritten paper fragment, cropped from the generated slide" width="412" height="383" loading="lazy"></div><figcaption><strong>Initial generation</strong><span>412 × 383 pixels</span></figcaption></figure>
@@ -147,7 +147,7 @@
 
     <section id="examples" class="samples page-width" aria-labelledby="examples-title">
       <div class="section-heading"><h2 id="examples-title">Sample presentations</h2></div>
-      <p class="section-intro">Open a presentation to compare its plan, generated designs and editable PowerPoint. You can inspect the element groups and OpenCV measurements used during reconstruction. The consulting proposal also shows how selected icons guide a composition and are placed as original SVG assets in the finished slides.</p>
+      <p class="section-intro">Explore the consulting and editorial decks to compare their plans, generated designs and editable PowerPoint slides. Select an object to inspect its structure, or open the element groups and OpenCV measurements to follow its reconstruction.</p>
       <div id="load-state" class="load-state" role="status">Loading the presentations…</div>
       <div class="samples-container">
         <div id="project-grid" class="sample-chooser" role="group" aria-label="Choose a sample presentation"></div>
