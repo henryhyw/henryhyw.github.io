@@ -922,7 +922,7 @@ for (const button of document.querySelectorAll('[data-overview]')) {
 for (const id of ['overview-enlarge', 'overview-expand']) {
   byId(id)?.addEventListener('click', event => {
     const example = overviewExamples[overviewActive];
-    openArtifact({ title: example.label, description: example.caption, url: new URL(`/assets/img/projects/slidepoise-${overviewActive}.webp`, location.href).href, trigger: event.currentTarget });
+    openArtifact({ title: example.label, description: example.caption, url: new URL(`/assets/img/projects/slidepoise-${overviewActive}.webp?v=20260911`, location.href).href, trigger: event.currentTarget });
   });
 }
 
@@ -930,7 +930,7 @@ for (const button of document.querySelectorAll('[data-open-architecture]')) {
   button.addEventListener('click', event => openArtifact({
     title: 'SlidePoise architecture',
     architecture: true,
-    url: new URL('/assets/img/projects/slidepoise-architecture-v1.svg', location.href).href,
+    url: new URL('/assets/img/projects/slidepoise-architecture-v1.svg?v=20260911', location.href).href,
     trigger: event.currentTarget,
   }));
 }

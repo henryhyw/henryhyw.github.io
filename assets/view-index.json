@@ -643,17 +643,17 @@
       "priority": 5,
       "media": [
         {
-          "src": "/assets/img/projects/slidepoise-consulting.webp"
+          "src": "/assets/img/projects/slidepoise-consulting.webp?v=20260911"
         },
         {
-          "src": "/assets/img/projects/slidepoise-editorial.webp"
+          "src": "/assets/img/projects/slidepoise-editorial.webp?v=20260911"
         }
       ],
       "entity": {
         "kind": "project",
         "id": "slidepoise",
         "period": "September 2026 - Present",
-        "subtitle": "Argument-led design, measured reconstruction, and native PowerPoint",
+        "subtitle": "Agentic Slide Generation Framework",
         "route": "/slidepoise/docs/site/",
         "anchor": "",
         "mediaMode": "hero",
@@ -1582,10 +1582,10 @@
       "page": "Public views",
       "title": "See Henry through your own lens",
       "anchor": "",
-      "description": "See Henry through your own lens Begin with a question, theme, or curiosity. AI searches Henry’s work, research, experiences, and fragments, then composes a focused View around your perspective. Each View keeps its original sources visible, and visitors can choose to share what they create here. Public Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas.",
-      "body": "See Henry through your own lens Begin with a question, theme, or curiosity. AI searches Henry’s work, research, experiences, and fragments, then composes a focused View around your perspective. Each View keeps its original sources visible, and visitors can choose to share what they create here. Public Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas.",
+      "description": "See Henry through your own lens About this project Begin with a question, theme, or curiosity. AI searches Henry’s work, research, experiences, and fragments, then composes a focused View around your perspective. Each View keeps its original sources visible, and visitors can choose to share what they create here. Public Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas.",
+      "body": "See Henry through your own lens About this project Begin with a question, theme, or curiosity. AI searches Henry’s work, research, experiences, and fragments, then composes a focused View around your perspective. Each View keeps its original sources visible, and visitors can choose to share what they create here. Public Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas.",
       "parts": [
-        "See Henry through your own lens Begin with a question, theme, or curiosity. AI searches Henry’s work, research, experiences, and fragments, then composes a focused View around your perspective. Each View keeps its original sources visible, and visitors can choose to share what they create here.",
+        "See Henry through your own lens About this project Begin with a question, theme, or curiosity. AI searches Henry’s work, research, experiences, and fragments, then composes a focused View around your perspective. Each View keeps its original sources visible, and visitors can choose to share what they create here.",
         "Public Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas."
       ],
       "view_kind": "prose",

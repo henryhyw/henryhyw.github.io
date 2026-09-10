@@ -641,17 +641,17 @@
     "priority": 5,
     "media": [
       {
-        "src": "/assets/img/projects/slidepoise-consulting.webp"
+        "src": "/assets/img/projects/slidepoise-consulting.webp?v=20260911"
       },
       {
-        "src": "/assets/img/projects/slidepoise-editorial.webp"
+        "src": "/assets/img/projects/slidepoise-editorial.webp?v=20260911"
       }
     ],
     "entity": {
       "kind": "project",
       "id": "slidepoise",
       "period": "September 2026 - Present",
-      "subtitle": "Argument-led design, measured reconstruction, and native PowerPoint",
+      "subtitle": "Agentic Slide Generation Framework",
       "route": "/slidepoise/docs/site/",
       "anchor": "",
       "mediaMode": "hero",
@@ -1580,10 +1580,10 @@
     "page": "Public views",
     "title": "See Henry through your own lens",
     "anchor": "",
-    "description": "See Henry through your own lens Begin with a question, theme, or curiosity. AI searches Henry’s work, research, experiences, and fragments, then composes a focused View around your perspective. Each View keeps its original sources visible, and visitors can choose to share what they create here. Public Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas.",
-    "body": "See Henry through your own lens Begin with a question, theme, or curiosity. AI searches Henry’s work, research, experiences, and fragments, then composes a focused View around your perspective. Each View keeps its original sources visible, and visitors can choose to share what they create here. Public Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas.",
+    "description": "See Henry through your own lens About this project Begin with a question, theme, or curiosity. AI searches Henry’s work, research, experiences, and fragments, then composes a focused View around your perspective. Each View keeps its original sources visible, and visitors can choose to share what they create here. Public Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas.",
+    "body": "See Henry through your own lens About this project Begin with a question, theme, or curiosity. AI searches Henry’s work, research, experiences, and fragments, then composes a focused View around your perspective. Each View keeps its original sources visible, and visitors can choose to share what they create here. Public Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas.",
     "parts": [
-      "See Henry through your own lens Begin with a question, theme, or curiosity. AI searches Henry’s work, research, experiences, and fragments, then composes a focused View around your perspective. Each View keeps its original sources visible, and visitors can choose to share what they create here.",
+      "See Henry through your own lens About this project Begin with a question, theme, or curiosity. AI searches Henry’s work, research, experiences, and fragments, then composes a focused View around your perspective. Each View keeps its original sources visible, and visitors can choose to share what they create here.",
       "Public Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas."
     ],
     "view_kind": "prose",
@@ -4069,11 +4069,11 @@
     "page": "Home",
     "title": "What Henry is currently doing",
     "anchor": "currently",
-    "description": "Henry is developing SlidePoise, an open-source Codex Framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI Personal Archive, the Search, Ask and View experiences on his personal website. Visitors can find original passages, ask for cited answers and compose a reading path around their own questions.",
-    "body": "Henry is developing SlidePoise, an open-source Codex Framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI Personal Archive, the Search, Ask and View experiences on his personal website. Visitors can find original passages, ask for cited answers and compose a reading path around their own questions. Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong. Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later. Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking.",
+    "description": "Henry is developing SlidePoise, an open-source agentic slide generation framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI Personal Archive, the Search, Ask and View experiences on his personal website. Visitors can find original passages, ask for cited answers and compose a reading path around their own questions.",
+    "body": "Henry is developing SlidePoise, an open-source agentic slide generation framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI Personal Archive, the Search, Ask and View experiences on his personal website. Visitors can find original passages, ask for cited answers and compose a reading path around their own questions. Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong. Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later. Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking.",
     "parts": [
-      "Henry is developing SlidePoise, an open-source Codex Framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI Personal Archive, the Search, Ask and View experiences on his personal website. Visitors can find original passages, ask for cited answers and compose a reading path around their own questions. Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong. Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later.",
-      "Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking."
+      "Henry is developing SlidePoise, an open-source agentic slide generation framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI Personal Archive, the Search, Ask and View experiences on his personal website. Visitors can find original passages, ask for cited answers and compose a reading path around their own questions. Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong.",
+      "Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later. Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking."
     ],
     "view_kind": "prose",
     "presentations": [
