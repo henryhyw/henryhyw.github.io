@@ -43,6 +43,19 @@ body[data-input="pointer"] button:not(.content-card):not(.design-image-open):act
 h1 { font-size: clamp(48px, 5.1vw, 70px); line-height: 1.04; margin-top: 20px; letter-spacing: -.055em; }
 .hero-description { max-width: 625px; margin: 20px auto 0; color: var(--muted); font-size: 15px; line-height: 1.6; text-wrap: pretty; }
 .hero-actions { display: flex; justify-content: center; align-items: center; gap: 26px; margin-top: 23px; }
+.designer-credit { display: inline-flex; align-items: baseline; gap: 10px; min-height: 44px; margin-top: 28px; padding: 7px 2px; color: #55534e; text-align: left; white-space: nowrap; transform-origin: left center; transition: color 180ms ease, transform 120ms var(--ease-out); }
+.designer-credit-label { color: #73716d; font-size: 10px; font-weight: 400; letter-spacing: .015em; }
+.designer-credit-name { font-family: Georgia, "Times New Roman", serif; font-size: 22px; font-style: italic; font-weight: 400; line-height: 1.15; letter-spacing: -.045em; }
+.designer-credit .designer-credit-arrow { align-self: center; width: 12px; height: 12px; margin-left: 2px; stroke-width: 1.25; color: #73716d; transition: transform 180ms var(--ease-out), color 180ms ease; }
+.designer-credit:focus-visible { outline-offset: 5px; }
+body[data-input="pointer"] .designer-credit:active { transform: scale(.98); }
+@media (hover: hover) and (pointer: fine) {
+  .designer-credit:hover { color: #36352f; }
+  .designer-credit:hover .designer-credit-arrow { color: #55534e; transform: translate(2px, -2px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .designer-credit, .designer-credit .designer-credit-arrow { transform: none !important; }
+}
 .section-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin-bottom: 26px; }
 .section-heading h2 { font-size: 28px; line-height: 1.25; letter-spacing: -.035em; }
 .section-heading > p { font-size: 12px; line-height: 1.6; color: var(--muted); flex-shrink: 0; }
@@ -151,9 +164,10 @@ body:has(dialog[open]) { overflow: hidden; }
 .noscript a { text-decoration: underline; }
 @media (hover: hover) and (pointer: fine) {
   .button:hover { background: #42444a; border-color: #42444a; }
-  .site-header nav > a:hover, .quiet-link:hover { color: #191a1d; }
+  .site-header nav > a:hover { color: #191a1d; }
+  .quiet-link:hover { color: #555b64; }
   .tool-button:hover:not(:disabled), .icon-button:hover:not(:disabled), .download-links a:hover { background: #e9edf4; color: #3d475c; }
-  .mode-controls button:hover:not([aria-pressed="true"]) { color: #3d4554; }
+  .mode-controls button:hover:not(:disabled):not([aria-pressed="true"]) { color: #3d4554; background: #e4e7eb; }
   .slide-thumb:hover img { border-color: #9ea9bd; }
 }
 
@@ -512,7 +526,6 @@ body[data-input="pointer"] .content-card:active { transform: scale(.994); backgr
 .artifact-crop.evidence-crop { margin: auto; width: min(100%, 960px); border: 0; flex-shrink: 0; }
 @media (hover: hover) and (pointer: fine) {
   .content-card:hover { background: #eef1f5; border-color: #c1cbd8; }
-  .content-card:hover .composition-image, .content-card:hover .evidence-crop { transform: scale(1.015); }
   .presentation-goal:hover, .outline-slide:hover { background: #f3f5f8; }
   .outline-slide:hover { border-color: #dce3ec; }
 }
@@ -600,7 +613,8 @@ body[data-input="keyboard"] .content-card, body[data-input="keyboard"] .content-
 .plan-error, .plan-loading { min-height: 170px; display: flex; align-items: center; color: #66758a; font-size: 12px; line-height: 1.7; }
 .brief-document { max-width: 900px; }
 @media (hover: hover) and (pointer: fine) {
-  .plan-page-option:hover { border-color: #a4b3c6; background: #eef2f7; }
+  .plan-page-option:hover:not([aria-pressed="true"]) { border-color: #a4b3c6; background: #eef2f7; }
+  .plan-page-option:hover[aria-pressed="true"] { background: #e4ecf6; }
   .plan-show-slide:hover { border-color: #a4b3c6; background: #e9eef5; }
 }
 @media (max-width: 900px) {
@@ -656,7 +670,7 @@ body[data-input="keyboard"] .content-card, body[data-input="keyboard"] .content-
 .reconstruction-layer { position: absolute; overflow: hidden; z-index: 3; pointer-events: none; }
 .reconstruction-box { position: absolute; pointer-events: auto; padding: 0; min-height: 0; border: 1px solid #5967c5a8; background: #5967c506; border-radius: 1px; cursor: pointer; }
 .reconstruction-layer[data-mode="measurements"] .reconstruction-box { border-color: transparent; background: transparent; }
-.reconstruction-box:hover, .reconstruction-box:focus-visible, .reconstruction-box[data-selected="true"] { background: #5967c51c; border: 2px solid #5967c5; outline: none; }
+.reconstruction-box:focus-visible, .reconstruction-box[data-selected="true"] { background: #5967c51c; border: 2px solid #5967c5; outline: none; }
 .reconstruction-box[data-dimmed="true"] { opacity: .2; }
 .reconstruction-panel { padding: 18px 22px; border-top: 1px solid var(--line); background: #fafafa; }
 .reconstruction-intro { font-size: 12px; line-height: 1.6; color: var(--muted); margin: 0 0 12px; }
@@ -785,9 +799,7 @@ body[data-input="keyboard"] .content-card, body[data-input="keyboard"] .content-
   -webkit-tap-highlight-color: transparent;
   transition: background-color 160ms ease, border-color 160ms ease, transform 120ms cubic-bezier(0.22, 1, 0.36, 1);
 }
-.demo-interaction-done:hover,
 .demo-interaction-done:focus-visible,
-.demo-interaction-open:hover,
 .demo-interaction-open:focus-visible {
   background: rgba(118, 118, 128, 0.17);
 }
@@ -888,7 +900,11 @@ body[data-input="keyboard"] .content-card, body[data-input="keyboard"] .content-
   .overview-thumbnail { flex-basis: auto; }
   .overview-tab-label { display: flex; align-items: baseline; gap: 7px; }
 }
-@media (hover: hover) and (pointer: fine) { .overview-tabs button:hover img { opacity: 1; } }
+@media (hover: hover) and (pointer: fine) {
+  .overview-tabs button:hover { color: var(--ink); }
+  .overview-tabs button:hover img { opacity: 1; }
+  .overview-tabs button:hover .overview-thumbnail { outline-color: #191a1d38; }
+}
 
 .product-introduction {
   min-height: calc(100svh - var(--overview-header-height, 76px));
@@ -977,7 +993,9 @@ body[data-input="keyboard"] .content-card, body[data-input="keyboard"] .content-
 .asset-icon-inspector > p { margin-top: 12px; padding-top: 10px; border-top: 1px solid #e6e8df; font-size: 11px; line-height: 1.6; color: #60685a; }
 .asset-decisions :focus-visible, .asset-source-options :focus-visible, .asset-icon-inspector :focus-visible { outline-color: #747971; }
 @media (hover:hover) and (pointer:fine) {
- .asset-library-item button:hover { background: #eaece3; border-color: #bcbeb5; }
+ .asset-library-item:not(.is-selected):not(.is-focused) button:hover { background: #eaece3; border-color: #bcbeb5; }
+ .asset-library-item.is-selected:not(.is-focused) button:hover { background: #ffe8d8; border-color: #dba789; }
+ .asset-library-item.is-focused button:hover { background: #ffd7bd; }
  .asset-result-link:hover > span { color: #222; }
 }
 @media (max-width: 700px) {
@@ -991,3 +1009,46 @@ body[data-input="keyboard"] .content-card, body[data-input="keyboard"] .content-
  .asset-library-grid { grid-column: 1 / -1; }.asset-library-item { flex-basis: 44px; }
 }
 @media (prefers-reduced-motion: reduce) { .asset-decisions *, .asset-source-options * { transition: none !important; } }
+
+/* Small changes in colour keep controls legible without moving the content. */
+.wordmark, .site-header nav > a, .quiet-link, .site-footer > a:last-child,
+.download-links a, .setup-details summary, .plan-disclosure > summary,
+.document-group > summary, .asset-source-options summary,
+.asset-source-options a, .asset-library-heading a, .asset-result-link > span {
+  transition: color 140ms ease, background-color 140ms ease;
+}
+.overview-thumbnail, .overview-artwork, .system-architecture-art {
+  outline: 1px solid transparent;
+  outline-offset: 3px;
+  transition: outline-color 140ms ease;
+}
+.overview-artwork:focus-visible, .system-architecture-art:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
+.slide-thumb img { transition: border-color 140ms ease; }
+.overview figcaption button { border-radius: 5px; }
+.demo-interaction-symbol { transition: background-color 140ms ease; }
+.comparison-divider > span { transition: color 140ms ease, background-color 140ms ease; }
+@media (hover: hover) and (pointer: fine) {
+  .wordmark:hover { color: #555b64; }
+  .site-footer > a:last-child:hover, .setup-details summary:hover { color: var(--ink); }
+  .install-command button:hover:not(:disabled) { background: #edf0f4; border-color: #bdc6d3; color: #3d475c; }
+  .plan-disclosure > summary:hover, .document-group > summary:hover { color: #263d5e; }
+  .reconstruction-groups button:hover:not(:disabled):not([aria-pressed="true"]),
+  .reconstruction-retry:hover:not(:disabled) { background: #eff1f6; border-color: #c1c9d5; }
+  .reconstruction-groups button:hover[aria-pressed="true"] { background: #e4e7fa; }
+  .overview-artwork:hover, .system-architecture-art:hover { outline-color: #191a1d38; }
+  .overview figcaption button:hover { color: var(--ink); background: #ededeb; }
+  .design-image-open:hover { background: #191a1d04; }
+  .comparison:has(.reveal:hover) .comparison-divider > span,
+  .artwork-comparison:has(.reveal:hover) .comparison-divider > span { color: #303b4b; background: #edf0f5; }
+  .reconstruction-box:hover:not([data-selected="true"]) { background: #5967c512; border-color: #5967c5; }
+  .demo-interaction-enter:hover .demo-interaction-symbol { background: #414146; }
+  .demo-interaction-enter:hover .demo-interaction-chevron { transform: translateX(2px); }
+  .demo-interaction-done:hover, .demo-interaction-open:hover { background: rgba(118,118,128,.17); }
+  .asset-source-options summary:hover { color: #555b50; }
+  .asset-source-options a:hover, .asset-library-heading a:hover { color: #676d63; }
+  .asset-cases button:hover:not(:disabled):not([aria-selected="true"]) { background: #e6e8e2; color: #3e443a; }
+  .asset-result-highlights > button:hover:not(.is-focused) { outline-color: #d85e2d; background: #ff9d4326; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .demo-interaction-enter:hover .demo-interaction-chevron { transform: none; }
+}
