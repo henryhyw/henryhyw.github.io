@@ -3674,6 +3674,31 @@
     },
     {
       "id": 134,
+      "source_id": "slidepoise:philosophy",
+      "route": "/slidepoise/docs/site/",
+      "page": "SlidePoise",
+      "title": "How SlidePoise works",
+      "anchor": "philosophy",
+      "description": "The Agent develops what each slide needs to say and how its ideas relate. Image generation explores the composition, typography and imagery that express those ideas. To rebuild the chosen image in PowerPoint, the Agent identifies what each element represents and how it relates to the others, while OpenCV measures its geometry.",
+      "body": "The Agent develops what each slide needs to say and how its ideas relate. Image generation explores the composition, typography and imagery that express those ideas. To rebuild the chosen image in PowerPoint, the Agent identifies what each element represents and how it relates to the others, while OpenCV measures its geometry. Reconstruction tools combine this interpretation and measurement to create editable text, charts and diagrams. The example below follows one slide through design, interpretation and measurement. Icons, logos and reusable PowerPoint components form a shared Library Set. The Agent uses these assets to guide image generation, then places their original files into the reconstructed slides. This gives the deck a consistent visual identity while allowing each slide to take the form its content needs. A small illustration has only part of the generated slide’s pixel resolution. I added a refinement step that regenerates it separately at higher resolution on a transparent background, then places it back into the composition. Compare the paper collage below to see the additional detail. The Agent checks the rendered slides together and adjusts recurring titles, labels, colours and spacing for consistency. Discuss the audience, content and design with Codex. The Agent plans the slides, develops the designs, builds the PowerPoint and reviews the result. Open a stage to inspect an example.",
+      "parts": [
+        "The Agent develops what each slide needs to say and how its ideas relate. Image generation explores the composition, typography and imagery that express those ideas. To rebuild the chosen image in PowerPoint, the Agent identifies what each element represents and how it relates to the others, while OpenCV measures its geometry. Reconstruction tools combine this interpretation and measurement to create editable text, charts and diagrams.",
+        "The example below follows one slide through design, interpretation and measurement.",
+        "Icons, logos and reusable PowerPoint components form a shared Library Set. The Agent uses these assets to guide image generation, then places their original files into the reconstructed slides. This gives the deck a consistent visual identity while allowing each slide to take the form its content needs.",
+        "A small illustration has only part of the generated slide’s pixel resolution. I added a refinement step that regenerates it separately at higher resolution on a transparent background, then places it back into the composition. Compare the paper collage below to see the additional detail.",
+        "The Agent checks the rendered slides together and adjusts recurring titles, labels, colours and spacing for consistency.",
+        "Discuss the audience, content and design with Codex. The Agent plans the slides, develops the designs, builds the PowerPoint and reviews the result. Open a stage to inspect an example."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 5,
+      "media": [],
+      "selected": true
+    },
+    {
+      "id": 135,
       "source_id": "about:gallery",
       "route": "/about",
       "page": "About",
