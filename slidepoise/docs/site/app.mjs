@@ -755,7 +755,7 @@ byId('walkthrough-native-open').addEventListener('click', async () => {
   const example = state.walkthrough;
   if (!example) return;
   selectDeck(example.deckIndex, example.slideId);
-  focusSection(byId('studio'), { replace: true });
+  focusSection(byId('studio-frame'), { replace: true });
   await state.objectLoad;
   if (state.deck?.id !== state.decks[example.deckIndex].id || state.deck.slides[state.slideIndex]?.id !== example.slideId || state.mode !== 'rebuilt') return;
   inspector.select(example.objectId, { focusCanvas: true });
@@ -768,7 +768,7 @@ byId('asset-result-link').addEventListener('click', event => {
   event.preventDefault();
   selectDeck(index, slideId);
   setMode('rebuilt');
-  focusSection(byId('studio'));
+  focusSection(byId('studio-frame'));
 });
 byId('previous-slide').addEventListener('click', () => selectSlide(state.slideIndex - 1));
 byId('next-slide').addEventListener('click', () => selectSlide(state.slideIndex + 1));
@@ -887,7 +887,8 @@ const overviewExamples = {
     alt: 'Five editorial slides with an editable heading and a separate paper collage illustration',
   },
 };
-let overviewActive = 'editorial';
+const requestedHero = new URLSearchParams(location.search).get('hero');
+let overviewActive = Object.hasOwn(overviewExamples, requestedHero) ? requestedHero : 'editorial';
 function selectOverview(key, keyboard = false) {
   overviewActive = key;
   const example = overviewExamples[key];
@@ -907,6 +908,7 @@ function selectOverview(key, keyboard = false) {
   byId('overview-caption').textContent = example.caption;
   for (const id of ['overview-enlarge', 'overview-expand']) byId(id).setAttribute('aria-label', `Enlarge ${example.label}`);
 }
+selectOverview(overviewActive);
 for (const button of document.querySelectorAll('[data-overview]')) {
   button.addEventListener('click', event => selectOverview(button.dataset.overview, event.detail === 0));
   button.addEventListener('keydown', event => {
