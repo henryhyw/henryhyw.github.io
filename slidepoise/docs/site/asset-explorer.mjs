@@ -6,7 +6,7 @@ if (root) {
   const tabs = [...root.querySelectorAll('[data-asset-case]')];
   const inspector = byId('asset-icon-inspector');
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
-  let examples, selected = 0, generation = 0, visible = false, previewTrigger, pinned = null;
+  let examples, selected = 0, generation = 0, playing = false, previewTrigger, pinned = null;
   const animations = new Set(), flights = new Set();
   const libraryFiles = [
     ['file-search', 'File search'], ['team', 'Team'], ['database-2', 'Database'],
@@ -47,7 +47,14 @@ if (root) {
     if (!response.ok) throw new Error('The recorded asset selections could not be loaded.');
     return response.json();
   }
+  function setPlaying(value) {
+    playing=value;
+    byId('asset-play').setAttribute('aria-label',value?'Stop animation':'Play asset selection and placement');
+    byId('asset-play-label').textContent=value?'Stop':'Play flow';
+    byId('asset-play-glyph').setAttribute('d',value?'M6 6h8v8H6Z':'m7 4 9 6-9 6Z');
+  }
   function stopMotion() {
+    setPlaying(false);
     generation++;
     animations.forEach(animation => animation.cancel()); animations.clear();
     flights.forEach(flight => flight.remove()); flights.clear();
@@ -71,20 +78,20 @@ if (root) {
     const animation=flight.animate([
       {transform:'translate(0,0) scale(1)',opacity:1},
       {transform:`translate(${dx}px,${dy}px) scale(${scale})`,opacity:1},
-    ],{duration:460,easing:'cubic-bezier(.22,.68,0,1)',fill:'forwards'});
+    ],{duration:900,easing:'cubic-bezier(.22,.68,0,1)',fill:'forwards'});
     animations.add(animation);
     await animation.finished.catch(() => {});
     animations.delete(animation);flight.remove();flights.delete(flight);
   }
-  async function replay() {
+  async function playFlow() {
     if (!examples) return;
     stopMotion();closePreview();
     if (reducedMotion.matches) return;
-    pinned=null;
+    pinned=null;setPlaying(true);
     const run=generation, example=examples[selected];
     byId('asset-case-decision').textContent=example.decision;
     // Wait for the real render so placement is always shown against the matching slide.
-    try { await byId('asset-result-image').decode(); } catch { return; }
+    try { await byId('asset-result-image').decode(); } catch { if(run===generation) stopMotion();return; }
     if (run !== generation) return;
     root.classList.add('is-playing');
     const choices=[...byId('asset-choices').children];
@@ -99,9 +106,9 @@ if (root) {
       choice.classList.add('is-arrived');
       await fly(icon.file,choice.querySelector('img'),target,run);
     }));
-    if (run===generation) root.classList.remove('is-playing');
+    if (run===generation) { root.classList.remove('is-playing');setPlaying(false); }
   }
-  function showCase(index, animate=true) {
+  function showCase(index) {
     stopMotion();closePreview();selected=index;pinned=null;
     tabs.forEach((tab,i) => { tab.setAttribute('aria-selected',String(i===index));tab.tabIndex=i===index?0:-1; });
     byId('asset-case-panel').setAttribute('aria-labelledby',tabs[index].id);
@@ -145,7 +152,6 @@ if (root) {
     });
     byId('asset-choices').replaceChildren(...choices);byId('asset-choices').style.setProperty('--asset-choice-count',choices.length);
     byId('asset-case-panel').setAttribute('aria-busy','false');
-    if (animate) replay();
   }
   tabs.forEach((tab,index)=>{
     tab.addEventListener('click',()=>showCase(index));
@@ -156,13 +162,11 @@ if (root) {
       showCase(next);tabs[next].focus();
     });
   });
-  byId('asset-replay').addEventListener('click',replay);
-  const observer=new IntersectionObserver(entries=>{
-    if (entries.some(entry=>entry.isIntersecting)) { visible=true;if(examples) replay();observer.disconnect(); }
-  },{threshold:.2});observer.observe(root);
+  byId('asset-play').addEventListener('click',()=>playing?stopMotion():playFlow());
   read(new URL('./assets/asset-selection-examples.json',import.meta.url)).then(async records=>{
     examples=await Promise.all(records.map(async example=>({...example,objects:(await read(new URL(`assets/${example.id}-objects.json`,base))).objects})));
-    showCase(selected,visible);
+    showCase(selected);
+    byId('asset-play').disabled=false;
   }).catch(()=>{
     stopMotion();byId('asset-case-panel').setAttribute('aria-busy','false');
     byId('asset-case-decision').textContent='The recorded choices could not be loaded. You can still open the sample slide.';

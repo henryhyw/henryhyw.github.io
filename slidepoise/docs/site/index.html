@@ -7,10 +7,10 @@
   <meta name="description" content="Work with AI to develop your content, explore layouts beyond fixed templates and create an editable PowerPoint using your visual references and assets.">
   <title>SlidePoise · AI presentation design</title>
   <link rel="icon" href="mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=829610c04a0e8cf1">
+  <link rel="stylesheet" href="styles.css?v=9ae511d9715caa8c">
   <link rel="stylesheet" href="object-inspector.css?v=3b4fd5fe7afe5851">
   <script type="module" src="app.mjs?v=25f3ebcb6c8779df"></script>
-  <script type="module" src="asset-explorer.mjs?v=b532d0a32a7c8baa"></script>
+  <script type="module" src="asset-explorer.mjs?v=aabac4bb62633d05"></script>
 </head>
 <body id="top">
   <a class="skip-link" href="#philosophy">Skip to content</a>
@@ -107,7 +107,7 @@
               <p id="asset-case-decision" class="asset-case-decision">Loading the recorded choices…</p>
             </div>
             <figure class="asset-result">
-              <div class="asset-result-heading"><span>Editable PowerPoint</span><button id="asset-replay" class="asset-replay" type="button" aria-label="Replay asset selection and placement"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 7a6 6 0 1 1 0 6M4 3v4h4"/></svg>Replay</button></div>
+              <div class="asset-result-heading"><span>Editable PowerPoint</span><button id="asset-play" class="asset-play" type="button" aria-label="Play asset selection and placement" disabled><span class="asset-play-symbol"><svg viewBox="0 0 20 20" aria-hidden="true"><path id="asset-play-glyph" d="m7 4 9 6-9 6Z"/></svg></span><span id="asset-play-label">Play flow</span></button></div>
               <a id="asset-result-link" class="asset-result-link" href="?deck=consulting-ai-transformation&amp;slide=s02-opportunities&amp;view=rebuilt#examples" data-sample-slide="s02-opportunities" aria-label="Inspect the pilot selection slide">
                 <img id="asset-result-image" src="../../examples/consulting-ai-transformation/assets/s02-opportunities-render.png" alt="The reconstructed pilot selection slide" loading="lazy" width="1600" height="900">
                 <span id="asset-result-highlights" class="asset-result-highlights" aria-hidden="true"></span>
