@@ -7,10 +7,10 @@
   <meta name="description" content="Work with AI to develop your content, explore layouts beyond fixed templates and create an editable PowerPoint using your visual references and assets.">
   <title>SlidePoise · AI presentation design</title>
   <link rel="icon" href="mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=e077c889d53e3084">
+  <link rel="stylesheet" href="styles.css?v=829610c04a0e8cf1">
   <link rel="stylesheet" href="object-inspector.css?v=3b4fd5fe7afe5851">
   <script type="module" src="app.mjs?v=25f3ebcb6c8779df"></script>
-  <script type="module" src="asset-explorer.mjs?v=8e71f78dbbb94d58"></script>
+  <script type="module" src="asset-explorer.mjs?v=b532d0a32a7c8baa"></script>
 </head>
 <body id="top">
   <a class="skip-link" href="#philosophy">Skip to content</a>
@@ -89,34 +89,38 @@
           <p>SlidePoise connects the Agent to built-in asset sources and your own Library Sets. It selects artwork to suit each slide’s content and style, uses it during design, and places the original files in PowerPoint.</p>
         </div>
         <div class="asset-decisions" id="asset-decisions">
-          <div class="asset-case-header"><span>Recorded selections · Consulting sample</span><div class="asset-cases" role="tablist" aria-label="Asset selection examples">
+          <div class="asset-case-header"><span>Slide intent</span><div class="asset-cases" role="tablist" aria-label="Asset selection examples">
             <button id="asset-case-0" role="tab" aria-selected="true" aria-controls="asset-case-panel" data-asset-case="0">Choose a pilot</button>
             <button id="asset-case-1" role="tab" aria-selected="false" aria-controls="asset-case-panel" data-asset-case="1" tabindex="-1">Explain a workflow</button>
             <button id="asset-case-2" role="tab" aria-selected="false" aria-controls="asset-case-panel" data-asset-case="2" tabindex="-1">Mark decision gates</button>
           </div></div>
           <div id="asset-case-panel" class="asset-case-panel" role="tabpanel" aria-labelledby="asset-case-0" aria-busy="true">
+            <div class="asset-library-stage">
+              <div class="asset-library-heading"><strong>Remix Icon</strong><span>Built-in library</span></div>
+              <div id="asset-library-grid" class="asset-library-grid" role="list" aria-label="Inspect icons in the library"></div>
+              <div class="asset-library-footer"><a href="https://remixicon.com/" target="_blank" rel="noopener">Full library</a><span id="asset-library-count" aria-live="polite"></span></div>
+            </div>
             <div class="asset-reasoning">
-              <p class="asset-label">Slide brief</p>
               <h4 id="asset-brief">Explain why research synthesis is the strongest first AI pilot.</h4>
-              <div class="asset-library">
-                <div class="asset-library-heading"><strong>Remix Icon</strong><span>Built-in source</span></div>
-                <div id="asset-library-grid" class="asset-library-grid" role="list" aria-label="Preview of icons available to the Agent"></div>
-                <div class="asset-library-footer"><span>Library preview</span><span id="asset-library-count" aria-live="polite"></span></div>
-              </div>
-              <p class="asset-label asset-choice-label">Selected by the Agent</p>
+              <p class="asset-label asset-choice-label">Agent selection</p>
               <div id="asset-choices" class="asset-choices"></div>
               <p id="asset-case-decision" class="asset-case-decision">Loading the recorded choices…</p>
             </div>
             <figure class="asset-result">
-              <div class="asset-result-heading"><span>In the PowerPoint</span><span>Original Remix Icon files</span></div>
+              <div class="asset-result-heading"><span>Editable PowerPoint</span><button id="asset-replay" class="asset-replay" type="button" aria-label="Replay asset selection and placement"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 7a6 6 0 1 1 0 6M4 3v4h4"/></svg>Replay</button></div>
               <a id="asset-result-link" class="asset-result-link" href="?deck=consulting-ai-transformation&amp;slide=s02-opportunities&amp;view=rebuilt#examples" data-sample-slide="s02-opportunities" aria-label="Inspect the pilot selection slide">
                 <img id="asset-result-image" src="../../examples/consulting-ai-transformation/assets/s02-opportunities-render.png" alt="The reconstructed pilot selection slide" loading="lazy" width="1600" height="900">
                 <span id="asset-result-highlights" class="asset-result-highlights" aria-hidden="true"></span>
                 <span class="asset-result-open">Inspect slide <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m8 5 5 5-5 5"/></svg></span>
               </a>
-              <figcaption id="asset-result-caption">The symbols support the recommendation. The chart and tables carry the evidence.</figcaption>
+              <figcaption>Recorded from the consulting sample</figcaption>
             </figure>
           </div>
+        </div>
+        <div id="asset-icon-inspector" class="asset-icon-inspector" popover="auto" role="dialog" aria-labelledby="asset-inspector-name">
+          <button id="asset-inspector-close" class="icon-button" type="button" aria-label="Close icon preview"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15"/></svg></button>
+          <div class="asset-inspector-art"><img id="asset-inspector-image" alt=""></div>
+          <strong id="asset-inspector-name"></strong><span>Remix Icon · SVG</span>
         </div>
         <details class="asset-sources"><summary>Where the Agent looks for assets <span aria-hidden="true">+</span></summary>
           <div class="asset-source-details">
