@@ -1,0 +1,17 @@
+{
+  "asset_id": "wikimedia-foundation",
+  "provider": "Wikimedia Commons",
+  "file_title": "File:Wikimedia Foundation logo - vertical.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_logo_-_vertical.svg",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Wikimedia_Foundation_logo_-_vertical.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "artist": "Logo and trademark of the Wikimedia Foundation, designed by Wikipedia user Neol\u016d (SVG version created by DarkEvil, revised by Philip Ronan and optimized by Zscout370 and Artem Karimov) Later revised by Wikimedia Foundation.",
+  "credit": "Wikimedia Foundation",
+  "license": "Public domain",
+  "license_url": "",
+  "attribution_required": "false",
+  "retrieved_at": "2026-09-10T07:26:10.960716+00:00",
+  "sha256": "27f2d9d83ae0b10beadb220fb7407f6ba8493af81f603e771b8e774a4f25db4c",
+  "persistence": "run_cache_only",
+  "selection_authority": "host_agent",
+  "selection_status": "selected_after_identity_license_and_visual_review"
+}

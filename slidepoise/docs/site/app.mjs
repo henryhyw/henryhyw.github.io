@@ -855,7 +855,7 @@ async function start() {
     }
     await walkthroughReady;
   } catch (error) {
-    byId('load-state').textContent = 'The presentations could not be loaded. Serve the repository over HTTP with its examples directory in place.';
+    byId('load-state').textContent = 'The sample presentations could not be loaded. Please reload the page.';
     console.error('Showcase unavailable', error);
   } finally {
     await restoreInitialFragment();
@@ -868,12 +868,12 @@ start();
 const overviewExamples = {
   consulting: {
     label: 'Consulting example',
-    caption: 'An evidence-led presentation with editable text, tables and a native PowerPoint chart.',
+    caption: 'An AI pilot recommendation with editable charts, tables and diagrams.',
     alt: 'A consulting presentation with editable text, a table and a native PowerPoint chart',
   },
   editorial: {
     label: 'Editorial example',
-    caption: 'Five slides share a visual language, with text and original illustrations kept as separate objects.',
+    caption: 'An editorial essay with editable text and photographic collage.',
     alt: 'Five editorial slides with an editable heading and a separate paper collage illustration',
   },
 };
