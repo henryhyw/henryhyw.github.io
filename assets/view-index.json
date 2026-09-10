@@ -2370,11 +2370,10 @@
       "page": "AI for IT Operations",
       "title": "AI for IT Operations",
       "anchor": "",
-      "description": "Maintaining technical knowledge and carrying out service requests Keeping an organisation’s technology running involves maintaining systems, investigating faults and supporting the people who use them. An IT team works across many products and has to keep up as their software and documentation change.",
-      "body": "Maintaining technical knowledge and carrying out service requests Keeping an organisation’s technology running involves maintaining systems, investigating faults and supporting the people who use them. An IT team works across many products and has to keep up as their software and documentation change. At PwC, I researched how AI could help with this work, including making technical knowledge easier to consult and automating tasks in existing applications. My work focused on two areas. One was the knowledge behind an assistant that answers IT questions. I designed a process for expanding and maintaining its knowledge base, using AI to research missing material and assess changes in the original documentation. The other was carrying out service requests. I built a browser agent that interprets a ticket and works through the relevant application, reading the page as it acts and involving the operator when the task needs their input.",
+      "description": "Maintaining technical knowledge and carrying out service requests At PwC, I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and carries out tasks in the applications the team already uses.",
+      "body": "Maintaining technical knowledge and carrying out service requests At PwC, I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and carries out tasks in the applications the team already uses.",
       "parts": [
-        "Maintaining technical knowledge and carrying out service requests Keeping an organisation’s technology running involves maintaining systems, investigating faults and supporting the people who use them. An IT team works across many products and has to keep up as their software and documentation change. At PwC, I researched how AI could help with this work, including making technical knowledge easier to consult and automating tasks in existing applications. My work focused on two areas. One was the knowledge behind an assistant that answers IT questions. I designed a process for expanding and maintaining its knowledge base, using AI to research missing material and assess changes in the original documentation. The other was carrying out service requests.",
-        "I built a browser agent that interprets a ticket and works through the relevant application, reading the page as it acts and involving the operator when the task needs their input."
+        "Maintaining technical knowledge and carrying out service requests At PwC, I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and carries out tasks in the applications the team already uses."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2386,6 +2385,26 @@
     },
     {
       "id": 85,
+      "source_id": "ai-it-operations:ai-in-it-operations",
+      "route": "/ai-it-operations",
+      "page": "AI for IT Operations",
+      "title": "Where AI can help in IT operations",
+      "anchor": "ai-in-it-operations",
+      "description": "Keeping an organisation’s technology running involves maintaining systems, investigating faults and supporting the people who use them. An IT team works across many products and has to keep up as their software and documentation change. At PwC, I researched how AI could help with this work, including making technical knowledge easier to consult and automating tasks in existing applications.",
+      "body": "Keeping an organisation’s technology running involves maintaining systems, investigating faults and supporting the people who use them. An IT team works across many products and has to keep up as their software and documentation change. At PwC, I researched how AI could help with this work, including making technical knowledge easier to consult and automating tasks in existing applications. My work focused on two areas. One was the knowledge behind an assistant that answers IT questions. I designed a process for expanding and maintaining its knowledge base, using AI to research missing material and assess changes in the original documentation. The other was carrying out service requests. I built a browser agent that interprets a ticket and works through the relevant application, reading the page as it acts and involving the operator when the task needs their input.",
+      "parts": [
+        "Keeping an organisation’s technology running involves maintaining systems, investigating faults and supporting the people who use them. An IT team works across many products and has to keep up as their software and documentation change. At PwC, I researched how AI could help with this work, including making technical knowledge easier to consult and automating tasks in existing applications. My work focused on two areas. One was the knowledge behind an assistant that answers IT questions. I designed a process for expanding and maintaining its knowledge base, using AI to research missing material and assess changes in the original documentation. The other was carrying out service requests. I built a browser agent that interprets a ticket and works through the relevant application, reading the page as it acts and involving the operator when the task needs their input."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 5,
+      "media": [],
+      "selected": true
+    },
+    {
+      "id": 86,
       "source_id": "ai-it-operations:knowledge-management",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2405,7 +2424,7 @@
       "selected": true
     },
     {
-      "id": 86,
+      "id": 87,
       "source_id": "ai-it-operations:where-does-the-assistant-need-more-knowledge",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2426,7 +2445,7 @@
       "selected": true
     },
     {
-      "id": 87,
+      "id": 88,
       "source_id": "ai-it-operations:researching-gaps-in-technical-guidance",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2447,7 +2466,7 @@
       "selected": true
     },
     {
-      "id": 88,
+      "id": 89,
       "source_id": "ai-it-operations:what-happens-when-the-guidance-changes",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2469,7 +2488,7 @@
       "selected": true
     },
     {
-      "id": 89,
+      "id": 90,
       "source_id": "ai-it-operations:from-a-source-to-maintained-knowledge",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2490,7 +2509,7 @@
       "selected": true
     },
     {
-      "id": 90,
+      "id": 91,
       "source_id": "ai-it-operations:browser-control",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2510,7 +2529,7 @@
       "selected": true
     },
     {
-      "id": 91,
+      "id": 92,
       "source_id": "ai-it-operations:turning-the-request-into-actions",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2530,7 +2549,7 @@
       "selected": true
     },
     {
-      "id": 92,
+      "id": 93,
       "source_id": "ai-it-operations:why-a-browser-extension",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2551,7 +2570,7 @@
       "selected": true
     },
     {
-      "id": 93,
+      "id": 94,
       "source_id": "ai-it-operations:a-place-to-start-intervene-and-look-back",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2571,16 +2590,16 @@
       "selected": true
     },
     {
-      "id": 94,
+      "id": 95,
       "source_id": "ai-it-operations:from-planning-to-a-browser-action",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
       "title": "The browser agent’s execution loop",
       "anchor": "from-planning-to-a-browser-action",
       "description": "A FastAPI service manages browser tasks. LangGraph retains the request, page observations, action history, and human decisions as the planner moves between steps. Pausing for approval or manual input preserves the same task so it can resume afterwards. Playwright sends structured actions through a relay to the browser extension.",
-      "body": "A FastAPI service manages browser tasks. LangGraph retains the request, page observations, action history, and human decisions as the planner moves between steps. Pausing for approval or manual input preserves the same task so it can resume afterwards. Playwright sends structured actions through a relay to the browser extension. The extension uses the Chrome DevTools Protocol to read and control the dedicated tab, then returns the resulting page state to the cloud agent. The operator’s machine needs the extension, with the automation service and reasoning hosted centrally. Request + current page Agent decision Browser action Read the resulting page, then decide what to do next 03 Judgement",
+      "body": "A FastAPI service manages browser tasks. LangGraph retains the request, page observations, action history, and human decisions as the planner moves between steps. Pausing for approval or manual input preserves the same task so it can resume afterwards. Playwright sends structured actions through a relay to the browser extension. The extension uses the Chrome DevTools Protocol to read and control the dedicated tab, then returns the resulting page state to the cloud agent. The operator’s machine needs the extension, with the automation service and reasoning hosted centrally. Request + current page Agent decision Browser action Read the resulting page, then decide what to do next 03 Reflections",
       "parts": [
-        "A FastAPI service manages browser tasks. LangGraph retains the request, page observations, action history, and human decisions as the planner moves between steps. Pausing for approval or manual input preserves the same task so it can resume afterwards. Playwright sends structured actions through a relay to the browser extension. The extension uses the Chrome DevTools Protocol to read and control the dedicated tab, then returns the resulting page state to the cloud agent. The operator’s machine needs the extension, with the automation service and reasoning hosted centrally. Request + current page Agent decision Browser action Read the resulting page, then decide what to do next 03 Judgement"
+        "A FastAPI service manages browser tasks. LangGraph retains the request, page observations, action history, and human decisions as the planner moves between steps. Pausing for approval or manual input preserves the same task so it can resume afterwards. Playwright sends structured actions through a relay to the browser extension. The extension uses the Chrome DevTools Protocol to read and control the dedicated tab, then returns the resulting page state to the cloud agent. The operator’s machine needs the extension, with the automation service and reasoning hosted centrally. Request + current page Agent decision Browser action Read the resulting page, then decide what to do next 03 Reflections"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2591,7 +2610,7 @@
       "selected": true
     },
     {
-      "id": 95,
+      "id": 96,
       "source_id": "ai-it-operations:where-judgement-changes-hands",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2614,7 +2633,7 @@
       "selected": true
     },
     {
-      "id": 96,
+      "id": 97,
       "source_id": "fragments:overview",
       "route": "/fragments",
       "page": "Fragments",
@@ -2634,7 +2653,7 @@
       "selected": false
     },
     {
-      "id": 97,
+      "id": 98,
       "source_id": "fragments:the-projection-of-thought",
       "route": "/fragments",
       "page": "Fragments",
@@ -2668,7 +2687,7 @@
       "selected": false
     },
     {
-      "id": 98,
+      "id": 99,
       "source_id": "fragments:rebuilding-another-state-inside-me",
       "route": "/fragments",
       "page": "Fragments",
@@ -2702,7 +2721,7 @@
       "selected": false
     },
     {
-      "id": 99,
+      "id": 100,
       "source_id": "fragments:visible-part-of-the-mind",
       "route": "/fragments",
       "page": "Fragments",
@@ -2733,7 +2752,7 @@
       "selected": false
     },
     {
-      "id": 100,
+      "id": 101,
       "source_id": "fragments:understanding-before-definition",
       "route": "/fragments",
       "page": "Fragments",
@@ -2763,7 +2782,7 @@
       "selected": false
     },
     {
-      "id": 101,
+      "id": 102,
       "source_id": "fragments:expression-recording",
       "route": "/fragments",
       "page": "Fragments",
@@ -2796,7 +2815,7 @@
       "selected": false
     },
     {
-      "id": 102,
+      "id": 103,
       "source_id": "fragments:rich-traces-and-open-paths",
       "route": "/fragments",
       "page": "Fragments",
@@ -2829,7 +2848,7 @@
       "selected": false
     },
     {
-      "id": 103,
+      "id": 104,
       "source_id": "fragments:labels-goals-rules",
       "route": "/fragments",
       "page": "Fragments",
@@ -2866,7 +2885,7 @@
       "selected": false
     },
     {
-      "id": 104,
+      "id": 105,
       "source_id": "fragments:memory-time-self",
       "route": "/fragments",
       "page": "Fragments",
@@ -2901,7 +2920,7 @@
       "selected": false
     },
     {
-      "id": 105,
+      "id": 106,
       "source_id": "fragments:satisfaction-signal",
       "route": "/fragments",
       "page": "Fragments",
@@ -2935,7 +2954,7 @@
       "selected": false
     },
     {
-      "id": 106,
+      "id": 107,
       "source_id": "fragments:queen-victoria-market-toast-oysters",
       "route": "/fragments",
       "page": "Fragments",
@@ -2963,7 +2982,7 @@
       "selected": false
     },
     {
-      "id": 107,
+      "id": 108,
       "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
       "route": "/fragments",
       "page": "Fragments",
@@ -2991,7 +3010,7 @@
       "selected": false
     },
     {
-      "id": 108,
+      "id": 109,
       "source_id": "fragments:ai-generated-kitten-videos",
       "route": "/fragments",
       "page": "Fragments",
@@ -3020,7 +3039,7 @@
       "selected": false
     },
     {
-      "id": 109,
+      "id": 110,
       "source_id": "fragments:identity-interview-reflection",
       "route": "/fragments",
       "page": "Fragments",
@@ -3049,7 +3068,7 @@
       "selected": false
     },
     {
-      "id": 110,
+      "id": 111,
       "source_id": "fragments:napier-seaside-with-my-mother",
       "route": "/fragments",
       "page": "Fragments",
@@ -3079,7 +3098,7 @@
       "selected": false
     },
     {
-      "id": 111,
+      "id": 112,
       "source_id": "fragments:mothers-cooking-across-places",
       "route": "/fragments",
       "page": "Fragments",
@@ -3108,7 +3127,7 @@
       "selected": false
     },
     {
-      "id": 112,
+      "id": 113,
       "source_id": "fragments:golf-with-my-mother-in-new-zealand",
       "route": "/fragments",
       "page": "Fragments",
@@ -3136,7 +3155,7 @@
       "selected": false
     },
     {
-      "id": 113,
+      "id": 114,
       "source_id": "fragments:slr-lab-racket-games",
       "route": "/fragments",
       "page": "Fragments",
@@ -3164,7 +3183,7 @@
       "selected": false
     },
     {
-      "id": 114,
+      "id": 115,
       "source_id": "fragments:kennedy-town-seaside-hku-years",
       "route": "/fragments",
       "page": "Fragments",
@@ -3193,7 +3212,7 @@
       "selected": false
     },
     {
-      "id": 115,
+      "id": 116,
       "source_id": "fragments:sydney-harbour-ferry-rides",
       "route": "/fragments",
       "page": "Fragments",
@@ -3222,7 +3241,7 @@
       "selected": false
     },
     {
-      "id": 116,
+      "id": 117,
       "source_id": "fragments:gold-coast-water-and-city-line",
       "route": "/fragments",
       "page": "Fragments",
@@ -3251,7 +3270,7 @@
       "selected": false
     },
     {
-      "id": 117,
+      "id": 118,
       "source_id": "fragments:great-ocean-road-melbourne-friends",
       "route": "/fragments",
       "page": "Fragments",
@@ -3280,7 +3299,7 @@
       "selected": false
     },
     {
-      "id": 118,
+      "id": 119,
       "source_id": "fragments:taiwan-east-coast-family-road-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -3309,7 +3328,7 @@
       "selected": false
     },
     {
-      "id": 119,
+      "id": 120,
       "source_id": "fragments:tomatoes-of-august-29",
       "route": "/fragments",
       "page": "Fragments",
@@ -3341,7 +3360,7 @@
       "selected": false
     },
     {
-      "id": 120,
+      "id": 121,
       "source_id": "fragments:athens-ruins-and-family-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -3370,7 +3389,7 @@
       "selected": false
     },
     {
-      "id": 121,
+      "id": 122,
       "source_id": "fragments:swimming-in-the-mediterranean",
       "route": "/fragments",
       "page": "Fragments",
@@ -3399,7 +3418,7 @@
       "selected": false
     },
     {
-      "id": 122,
+      "id": 123,
       "source_id": "fragments:rainy-days-permission-to-stay-in",
       "route": "/fragments",
       "page": "Fragments",
@@ -3427,7 +3446,7 @@
       "selected": false
     },
     {
-      "id": 123,
+      "id": 124,
       "source_id": "fragments:mental-map-of-small-room",
       "route": "/fragments",
       "page": "Fragments",
@@ -3456,7 +3475,7 @@
       "selected": false
     },
     {
-      "id": 124,
+      "id": 125,
       "source_id": "fragments:first-camera-another-way-of-seeing",
       "route": "/fragments",
       "page": "Fragments",
@@ -3485,7 +3504,7 @@
       "selected": false
     },
     {
-      "id": 125,
+      "id": 126,
       "source_id": "fragments:music-that-became-more-spacious",
       "route": "/fragments",
       "page": "Fragments",
@@ -3514,7 +3533,7 @@
       "selected": false
     },
     {
-      "id": 126,
+      "id": 127,
       "source_id": "cv:profile",
       "route": "/cv",
       "page": "CV",
@@ -3534,7 +3553,7 @@
       "selected": false
     },
     {
-      "id": 127,
+      "id": 128,
       "source_id": "cv:education",
       "route": "/cv",
       "page": "CV",
@@ -3554,7 +3573,7 @@
       "selected": false
     },
     {
-      "id": 128,
+      "id": 129,
       "source_id": "cv:experience",
       "route": "/cv",
       "page": "CV",
@@ -3575,7 +3594,7 @@
       "selected": false
     },
     {
-      "id": 129,
+      "id": 130,
       "source_id": "cv:publications-preprints",
       "route": "/cv",
       "page": "CV",
@@ -3596,7 +3615,7 @@
       "selected": false
     },
     {
-      "id": 130,
+      "id": 131,
       "source_id": "about:root:about-me",
       "route": "/about",
       "page": "About",
@@ -3632,7 +3651,7 @@
       "selected": false
     },
     {
-      "id": 131,
+      "id": 132,
       "source_id": "about:section:how-i-research-and-build",
       "route": "/about",
       "page": "About",
@@ -3653,7 +3672,7 @@
       "selected": false
     },
     {
-      "id": 132,
+      "id": 133,
       "source_id": "about:section:outside-work",
       "route": "/about",
       "page": "About",
@@ -3674,7 +3693,7 @@
       "selected": false
     },
     {
-      "id": 134,
+      "id": 135,
       "source_id": "slidepoise:philosophy",
       "route": "/slidepoise/docs/site/",
       "page": "SlidePoise",
@@ -3702,7 +3721,7 @@
       "selected": true
     },
     {
-      "id": 135,
+      "id": 136,
       "source_id": "about:gallery",
       "route": "/about",
       "page": "About",
