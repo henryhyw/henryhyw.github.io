@@ -7,10 +7,10 @@
   <meta name="description" content="Work with AI to develop your content, explore layouts beyond fixed templates and create an editable PowerPoint using your visual references and assets.">
   <title>SlidePoise · AI presentation design</title>
   <link rel="icon" href="mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=0c67002b07b42bff">
+  <link rel="stylesheet" href="styles.css?v=e077c889d53e3084">
   <link rel="stylesheet" href="object-inspector.css?v=3b4fd5fe7afe5851">
-  <script type="module" src="app.mjs?v=da1b066090efba19"></script>
-  <script type="module" src="asset-explorer.mjs?v=8cad5daf157f18e2"></script>
+  <script type="module" src="app.mjs?v=25f3ebcb6c8779df"></script>
+  <script type="module" src="asset-explorer.mjs?v=8e71f78dbbb94d58"></script>
 </head>
 <body id="top">
   <a class="skip-link" href="#philosophy">Skip to content</a>
@@ -79,60 +79,57 @@
           <div class="reconstruction-demonstration">
             <button id="walkthrough-semantic-open" class="content-card reconstruction-evidence" type="button" aria-label="Enlarge the chart interpretation" aria-haspopup="dialog"><span class="actor-label">Agent · Chart interpretation</span><span id="walkthrough-semantic-crop" class="evidence-crop"><img id="walkthrough-semantic-image" alt="" loading="lazy" decoding="async"></span><span id="walkthrough-semantic-caption" class="evidence-caption"></span></button>
             <button id="walkthrough-measurement-open" class="content-card reconstruction-evidence" type="button" aria-label="Enlarge the chart measurements" aria-haspopup="dialog"><span class="actor-label">OpenCV · Pixel measurement</span><span id="walkthrough-measurement-crop" class="evidence-crop"><img id="walkthrough-measurement-image" alt="" loading="lazy" decoding="async"></span><span id="walkthrough-measurement-caption" class="evidence-caption"></span></button>
-            <button id="walkthrough-native-open" class="content-card reconstruction-evidence native-outcome" type="button" aria-label="Inspect this chart in the editable PowerPoint"><span class="actor-label">PowerPoint · Editable chart</span><span id="walkthrough-native-crop" class="evidence-crop"><img id="walkthrough-native-image" alt="" loading="lazy" decoding="async"></span><span class="evidence-caption">Change a value. The column and label update.</span></button>
+            <button id="walkthrough-native-open" class="content-card reconstruction-evidence native-outcome" type="button" aria-label="Inspect this chart in the editable PowerPoint"><span class="actor-label">PowerPoint · Editable chart</span><span id="walkthrough-native-crop" class="evidence-crop"><img id="walkthrough-native-image" alt="" loading="lazy" decoding="async"></span><span class="evidence-caption">Inspect the chart’s editable series and values.</span></button>
           </div>
         </article>
       </div>
       <article class="asset-system" aria-labelledby="asset-system-title">
         <div class="walkthrough-heading asset-system-copy">
-          <h3 id="asset-system-title">Define the visual language</h3>
-          <p>Choose icons from Remix Icon, find logos through Wikimedia Commons, or supply your own images and PowerPoint components. The Agent uses your selection when designing the slides, then brings the original assets into the PowerPoint.</p>
+          <h3 id="asset-system-title">The Agent selects assets for each slide</h3>
+          <p>SlidePoise connects the Agent to built-in asset sources and your own Library Sets. It selects artwork to suit each slide’s content and style, uses it during design, and places the original files in PowerPoint.</p>
         </div>
-        <div class="asset-explorer" id="asset-explorer">
-          <div class="asset-browser">
-            <div class="asset-source-tabs" role="tablist" aria-label="Asset source">
-              <button id="asset-remix-tab" role="tab" aria-selected="true" aria-controls="asset-remix-panel" data-asset-source="remix">Remix Icon</button>
-              <button id="asset-commons-tab" role="tab" aria-selected="false" aria-controls="asset-commons-panel" tabindex="-1" data-asset-source="commons">Wikimedia Commons</button>
-              <button id="asset-upload-tab" role="tab" aria-selected="false" aria-controls="asset-upload-panel" tabindex="-1" data-asset-source="upload">Your assets</button>
-            </div>
-            <div id="asset-remix-panel" role="tabpanel" aria-labelledby="asset-remix-tab">
-              <div class="asset-browser-heading"><span>Choose an icon</span><div class="asset-variants" role="group" aria-label="Icon treatment"><button data-asset-variant="line" aria-pressed="true">Line</button><button data-asset-variant="fill" aria-pressed="false">Fill</button></div></div>
-              <div id="asset-icon-grid" class="asset-icon-grid" role="group" aria-label="Choose an icon"></div>
-              <p class="asset-source-note">The Agent retrieves icons as needed.<br><a href="https://remixicon.com/" target="_blank" rel="noopener noreferrer">Browse Remix Icon</a></p>
-            </div>
-            <div id="asset-commons-panel" role="tabpanel" aria-labelledby="asset-commons-tab" hidden>
-              <p class="asset-commons-intro">Find an existing logo or public image. The Agent checks the source and usage terms before choosing a file.</p>
-              <button id="asset-commons-example" class="asset-commons-example" aria-label="Preview the Wikimedia Foundation logo"><img src="assets/wikimedia-foundation.svg" alt="Wikimedia Foundation"><span>Wikimedia Foundation<span>Original SVG</span></span></button>
-              <p class="asset-source-note">A file retrieved with SlidePoise.<br><a href="https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_logo_-_vertical.svg" target="_blank" rel="noopener noreferrer">View source and usage terms</a></p>
-              <p class="asset-source-note">Licensing and attribution are checked for each Commons file.</p>
-            </div>
-            <div id="asset-upload-panel" role="tabpanel" aria-labelledby="asset-upload-tab" hidden>
-              <label class="asset-upload-area" for="asset-upload"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m-4 4 4-4 4 4M5 15v5h14v-5"/></svg><strong>Try an image of your own</strong><span>SVG, PNG or JPEG · Up to 10 MB</span><span class="asset-upload-action">Choose a file</span></label>
-              <input id="asset-upload" type="file" accept="image/svg+xml,image/png,image/jpeg" class="sr-only">
-              <button class="asset-example" id="asset-example">Use the SlidePoise logo</button>
-              <p class="asset-source-note">This preview stays in your browser. In SlidePoise, add files to a local Library Set for future presentations.</p>
-            </div>
-          </div>
-          <div class="asset-preview">
-            <div class="asset-preview-heading"><span id="asset-selected-name">File search</span><span class="asset-preview-meta" id="asset-selected-format">SVG · Line</span></div>
-            <div class="asset-placement" id="asset-placement" data-stage="context">
-              <div class="asset-placement-sheet">
-                <div class="asset-context-caption">SELECTED ARTWORK</div>
-                <div class="asset-placement-object"><img id="asset-preview-image" src="assets/remix/file-search-line.svg" alt="Selected File search icon"><span class="asset-selection-handles" aria-hidden="true"><i></i><i></i><i></i><i></i></span></div>
-                <div class="asset-context-swatches" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-                <div class="asset-object-caption">Original file · Separate object</div>
+        <div class="asset-decisions" id="asset-decisions">
+          <div class="asset-case-header"><span>Recorded selections · Consulting sample</span><div class="asset-cases" role="tablist" aria-label="Asset selection examples">
+            <button id="asset-case-0" role="tab" aria-selected="true" aria-controls="asset-case-panel" data-asset-case="0">Choose a pilot</button>
+            <button id="asset-case-1" role="tab" aria-selected="false" aria-controls="asset-case-panel" data-asset-case="1" tabindex="-1">Explain a workflow</button>
+            <button id="asset-case-2" role="tab" aria-selected="false" aria-controls="asset-case-panel" data-asset-case="2" tabindex="-1">Mark decision gates</button>
+          </div></div>
+          <div id="asset-case-panel" class="asset-case-panel" role="tabpanel" aria-labelledby="asset-case-0" aria-busy="true">
+            <div class="asset-reasoning">
+              <p class="asset-label">Slide brief</p>
+              <h4 id="asset-brief">Explain why research synthesis is the strongest first AI pilot.</h4>
+              <div class="asset-library">
+                <div class="asset-library-heading"><strong>Remix Icon</strong><span>Built-in source</span></div>
+                <div id="asset-library-grid" class="asset-library-grid" role="list" aria-label="Preview of icons available to the Agent"></div>
+                <div class="asset-library-footer"><span>Library preview</span><span id="asset-library-count" aria-live="polite"></span></div>
               </div>
+              <p class="asset-label asset-choice-label">Selected by the Agent</p>
+              <div id="asset-choices" class="asset-choices"></div>
+              <p id="asset-case-decision" class="asset-case-decision">Loading the recorded choices…</p>
             </div>
-            <div class="asset-route" role="group" aria-label="Asset workflow preview"><button data-asset-stage="context" aria-pressed="true"><span>01</span>Guide the design</button><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-5-5 5 5-5 5"/></svg><button data-asset-stage="object" aria-pressed="false"><span>02</span>Place the original</button></div>
-            <p class="asset-stage-description" id="asset-stage-description">The selected artwork is included in the image-generation context, alongside your style references.</p>
+            <figure class="asset-result">
+              <div class="asset-result-heading"><span>In the PowerPoint</span><span>Original Remix Icon files</span></div>
+              <a id="asset-result-link" class="asset-result-link" href="?deck=consulting-ai-transformation&amp;slide=s02-opportunities&amp;view=rebuilt#examples" data-sample-slide="s02-opportunities" aria-label="Inspect the pilot selection slide">
+                <img id="asset-result-image" src="../../examples/consulting-ai-transformation/assets/s02-opportunities-render.png" alt="The reconstructed pilot selection slide" loading="lazy" width="1600" height="900">
+                <span id="asset-result-highlights" class="asset-result-highlights" aria-hidden="true"></span>
+                <span class="asset-result-open">Inspect slide <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m8 5 5 5-5 5"/></svg></span>
+              </a>
+              <figcaption id="asset-result-caption">The symbols support the recommendation. The chart and tables carry the evidence.</figcaption>
+            </figure>
           </div>
         </div>
-        <div class="asset-explorer-footnote"><p id="asset-status" role="status" aria-live="polite">Choose an asset, then try the two steps.</p><p>Interactive preview · No image generation runs here</p></div>
+        <details class="asset-sources"><summary>Where the Agent looks for assets <span aria-hidden="true">+</span></summary>
+          <div class="asset-source-details">
+            <div><h4>Remix Icon</h4><p>The Agent searches a consistent icon family and compares line and fill variants at the size used in the slide.</p><a href="https://remixicon.com/" target="_blank" rel="noopener">Browse the library</a></div>
+            <div><h4>Wikimedia Commons</h4><p>For an existing logo or public image, the Agent retrieves candidates and checks the source, identity and usage terms.</p><a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Visit Wikimedia Commons</a></div>
+            <div><h4>Your files</h4><p>Give the Agent your brand assets or save them in a local Library Set. It chooses relevant files and preserves any assets you require.</p><p class="asset-source-example">A supplied logo stays intact. An imported PowerPoint component keeps its native objects.</p></div>
+          </div>
+        </details>
       </article>
       <article class="asset-system illustration-system" aria-labelledby="illustration-system-title">
         <div class="walkthrough-heading asset-system-copy">
           <div class="illustration-heading"><h3 id="illustration-system-title">Give small illustrations more detail</h3><div class="mode-controls" role="group" aria-label="Artwork view"><button type="button" data-artwork-view="compare" aria-pressed="true">Compare</button><button type="button" data-artwork-view="side-by-side" aria-pressed="false">Side by side</button></div></div>
-          <p>An illustration can lose detail when it occupies a small part of a generated slide. SlidePoise can regenerate it at higher resolution with a transparent background and place it back into the composition. Compare the paper collage below.</p>
+          <p>When a small illustration needs more detail, the Agent can regenerate it at higher resolution with a transparent background. It compares the result with the design before placing it back into the slide. Compare the paper collage below.</p>
         </div>
         <div id="illustration-pair" class="illustration-comparison" hidden>
           <figure><div class="illustration-surface"><img src="assets/illustration-source.png" alt="A hand holding a handwritten paper fragment, cropped from the generated slide" width="412" height="383" loading="lazy"></div><figcaption><strong>Initial generation</strong><span>412 × 383 pixels</span></figcaption></figure>
@@ -208,8 +205,8 @@
     <section id="console" class="console-section page-width" aria-labelledby="console-title">
       <div class="section-heading"><h2 id="console-title">Make your style reusable</h2></div>
       <div class="console-layout">
-        <div class="console-copy"><p>The local Console saves fonts, colours and visual references on your computer. Ask Codex to open it, then set the guidance it should use for future presentations. No account is needed.</p>
-          <dl><div><dt>Style</dt><dd>Choose what stays fixed and where the Agent can explore.</dd></div><div><dt>Resources</dt><dd>Keep reusable icons and editable components in shared Library Sets.</dd></div><div><dt>System</dt><dd>Check the local tools used to measure and render slides.</dd></div></dl>
+        <div class="console-copy"><p>The Agent can work from your brief and references. Use the optional local Console when you want to save fonts, colours and asset libraries for future presentations. These settings stay on your computer.</p>
+          <dl><div><dt>Style</dt><dd>Choose what stays fixed and where the Agent can explore.</dd></div><div><dt>Resources</dt><dd>Make your assets available for the Agent to select when relevant.</dd></div><div><dt>System</dt><dd>Check the local tools used to measure and render slides.</dd></div></dl>
           <details class="setup-details"><summary>Open the local Console</summary><p>After installation, ask Codex to open the SlidePoise Console, or run this command in a terminal.</p><code class="console-command">npx github:henryhyw/slidepoise console</code><p>The Console opens in your browser and saves settings on your computer. Saved changes apply to future presentations. Ask Codex to update a presentation already in progress.</p></details>
         </div>
         <div id="console-demo" class="console-demo">

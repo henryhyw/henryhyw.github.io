@@ -760,6 +760,16 @@ byId('walkthrough-native-open').addEventListener('click', async () => {
   if (state.deck?.id !== state.decks[example.deckIndex].id || state.deck.slides[state.slideIndex]?.id !== example.slideId || state.mode !== 'rebuilt') return;
   inspector.select(example.objectId, { focusCanvas: true });
 });
+byId('asset-result-link').addEventListener('click', event => {
+  if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+  const index = state.decks.findIndex(deck => deck.id === 'consulting-ai-transformation');
+  const slideId = event.currentTarget.dataset.sampleSlide;
+  if (index < 0 || !state.decks[index].slides.some(slide => slide.id === slideId)) return;
+  event.preventDefault();
+  selectDeck(index, slideId);
+  setMode('rebuilt');
+  focusSection(byId('studio'));
+});
 byId('previous-slide').addEventListener('click', () => selectSlide(state.slideIndex - 1));
 byId('next-slide').addEventListener('click', () => selectSlide(state.slideIndex + 1));
 byId('slide-preview').addEventListener('error', () => { byId('slide-image-error').hidden = false; });
