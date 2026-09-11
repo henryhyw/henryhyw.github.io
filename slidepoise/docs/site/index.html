@@ -7,9 +7,9 @@
   <meta name="description" content="Work with AI to develop your content, explore layouts beyond fixed templates and create an editable PowerPoint using your visual references and assets.">
   <title>SlidePoise · AI presentation design</title>
   <link rel="icon" href="mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=315dc2cf094c7aa2">
+  <link rel="stylesheet" href="styles.css?v=6114665d82e62a14">
   <link rel="stylesheet" href="object-inspector.css?v=8ab3ff0c5c351406">
-  <script type="module" src="app.mjs?v=5b2ee3ee0b29c3ae"></script>
+  <script type="module" src="app.mjs?v=b81647b2fa02d99e"></script>
   <script type="module" src="asset-explorer.mjs?v=3da6030aa021fd09"></script>
 </head>
 <body id="top">
@@ -151,7 +151,7 @@
 
     <div id="process" class="process" aria-labelledby="process-title">
       <div class="section-heading"><h3 id="process-title">Planning, design and reconstruction</h3></div>
-      <p class="section-intro">Discuss the audience, content and design with Codex. The Agent plans the slides, develops the designs, builds the PowerPoint and reviews the result. Open a stage to inspect an example.</p>
+      <p class="section-intro">Discuss the audience, content and design with your Agent. The Agent plans the slides, develops the designs, builds the PowerPoint and reviews the result. Open a stage to inspect an example.</p>
       <div id="process-grid" class="workflow-grid"></div>
     </div>
     </section>
@@ -207,8 +207,8 @@
       <div class="section-heading"><h2 id="console-title">Make your style reusable</h2></div>
       <div class="console-layout">
         <div class="console-copy"><p>Develop a style together with the Agent using visual references and feedback. Ask it to save your choices as a reusable profile for future presentations, and refine it as your needs change. The optional local Console lets you inspect and adjust the same settings and asset libraries. Profiles and libraries are saved on your computer.</p>
-          <dl><div><dt>Style</dt><dd>Choose what stays fixed and where the Agent can explore.</dd></div><div><dt>Resources</dt><dd>Make your assets available for the Agent to select when relevant.</dd></div><div><dt>System</dt><dd>Check the local tools used to measure and render slides.</dd></div></dl>
-          <details class="setup-details"><summary>Open the local Console</summary><p>After installation, ask Codex to open the SlidePoise Console, or run this command in a terminal.</p><code class="console-command">npx github:henryhyw/slidepoise console</code><p>The Console opens in your browser and saves settings on your computer. Saved changes apply to future presentations. Ask Codex to update a presentation already in progress.</p></details>
+          <dl><div><dt>Style</dt><dd>Choose what stays fixed and where the Agent can explore.</dd></div><div><dt>Resources</dt><dd>Make your assets available for the Agent to select when relevant.</dd></div><div><dt>System</dt><dd>Choose how images are generated and check local tools.</dd></div></dl>
+          <details class="setup-details"><summary>Open the local Console</summary><p>After installation, ask your Agent to open the SlidePoise Console, or run this command in a terminal.</p><code class="console-command">npx github:henryhyw/slidepoise console</code><p>The Console opens in your browser and saves settings on your computer. Saved changes apply to future presentations. Ask your Agent to update a presentation already in progress.</p></details>
         </div>
         <div id="console-demo" class="console-demo">
           <iframe id="console-frame" src="console-demo/index.html#design" title="Interactive Console demo" sandbox="allow-scripts allow-forms" loading="lazy" tabindex="-1" inert></iframe>
@@ -222,10 +222,12 @@
 
     <section id="setup" class="setup page-width" aria-labelledby="setup-title">
       <div class="section-heading"><h2 id="setup-title">Install SlidePoise</h2></div>
-      <p class="section-intro">SlidePoise adds presentation tools and instructions to Codex. Install it once, then ask Codex to help plan a deck and give it the content, references and assets you want to use.</p>
+      <p class="section-intro">SlidePoise adds presentation tools and instructions to your Agent. Setup supports Codex, Claude Code and Qoder. Work with connected image tools, or generate images in another app using the prompt and references the Agent prepares.</p>
       <div class="setup-grid">
-        <div class="setup-requirements"><h3>Before you start</h3><dl><div><dt>Codex</dt><dd>With image generation</dd></div><div><dt>Python</dt><dd>3.10 or later</dd></div><div><dt>Node.js</dt><dd>18 or later, with npm 9+</dd></div></dl></div>
-        <div class="setup-instructions"><h3>Install the skill and its tools</h3><div class="install-command"><code id="install-command">npx github:henryhyw/slidepoise setup</code><button id="copy-install" type="button">Copy</button></div><p id="copy-status" class="copy-status" role="status" aria-live="polite"></p><details class="setup-details"><summary>What gets installed</summary><p>Setup installs measurement and PowerPoint tools, registers the Codex skill, and prepares local slide previews. Your system may request administrator access for the preview tools.</p><ul><li>An isolated Python environment in <code>~/.slidepoise/python</code> with Pillow, python-pptx, NumPy and OpenCV.</li><li>PptxGenJS and JSZip in <code>~/.slidepoise/node</code>.</li><li>Profiles and Library Sets in <code>~/.slidepoise</code>, with the skill registered in <code>~/.codex/skills/slidepoise</code>.</li></ul><p>LibreOffice renders the PowerPoint and Poppler converts it into images for the Agent to review. Setup installs missing copies through Homebrew on macOS, winget on Windows, or apt on Debian/Ubuntu. Codex supplies image generation.</p></details><a class="quiet-link" href="https://github.com/henryhyw/slidepoise/blob/main/docs/USAGE.md" target="_blank" rel="noopener">Installation guide</a></div>
+        <div class="setup-requirements"><h3>Your environment</h3><dl><div><dt>Agent platform</dt><dd>Local execution and image inspection</dd></div><div><dt>Python</dt><dd>3.10 or later</dd></div><div><dt>Node.js</dt><dd>18 or later, with npm 9+</dd></div></dl><p class="setup-environment-note">Your Agent can check these and help install missing tools.</p></div>
+        <div class="setup-instructions"><h3>Ask your Agent</h3>
+          <div class="setup-agent-prompt"><p id="install-prompt">Install and set up SlidePoise for me from https://github.com/henryhyw/slidepoise.</p><button id="copy-setup-prompt" type="button" data-copy-source="install-prompt" data-copy-label="Setup prompt">Copy prompt</button></div>
+          <h3 class="setup-terminal-title">Or use your terminal</h3><div class="install-command"><code id="install-command">npx github:henryhyw/slidepoise setup</code><button id="copy-install" type="button" data-copy-source="install-command" data-copy-label="Installation command">Copy</button></div><p id="copy-status" class="copy-status" role="status" aria-live="polite"></p><details class="setup-details"><summary>What gets installed</summary><p>Setup installs measurement and PowerPoint tools, registers the skill for detected Agent platforms, and prepares local slide previews. Your system may request administrator access for the preview tools.</p><ul><li>An isolated Python environment in <code>~/.slidepoise/python</code> with Pillow, python-pptx, NumPy and OpenCV.</li><li>PptxGenJS and JSZip in <code>~/.slidepoise/node</code>.</li><li>Profiles and Library Sets in <code>~/.slidepoise</code>, with the skill registered in the detected platform’s skills directory. Add <code>--agent claude</code>, <code>--agent qoder</code> or <code>--agent codex</code> to choose explicitly.</li></ul><p>LibreOffice renders the PowerPoint and Poppler converts it into images for the Agent to review. Setup installs missing copies through Homebrew on macOS, winget on Windows, or apt on Debian/Ubuntu. Image generation comes from tools connected to your Agent or a manual exchange. Choose the route together with the Agent or in the Console’s System settings.</p></details><a class="quiet-link" href="https://github.com/henryhyw/slidepoise/blob/main/docs/USAGE.md" target="_blank" rel="noopener">Installation guide</a></div>
       </div>
     </section>
   </main>

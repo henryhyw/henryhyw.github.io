@@ -3,6 +3,7 @@
   const data = structuredClone(window.consoleFixtures);
   delete window.consoleFixtures;
   let revision = 1;
+  let generation = {mode: 'auto', tool: '', model: '', instructions: ''};
   const originals = structuredClone(data.designs);
   const clone = value => structuredClone(value);
   function design(id) {
@@ -15,6 +16,14 @@
     const url = new URL(path, 'https://demo.invalid');
     const id = body?.profile || body?.profile_id || url.searchParams.get('profile') || data.overview.active_profile;
     if (body !== undefined) {
+      if (url.pathname === '/api/generation') {
+        if (body.revision !== String(revision)) throw new Error('This demo changed. Reopen the setting and try again.');
+        const next = {...generation, ...body.values};
+        if (!['auto', 'tool', 'manual'].includes(next.mode) || (next.mode === 'tool' && !next.tool.trim())) throw new Error('Name the image tool you want the Agent to use.');
+        generation = next;
+        revision++;
+        return {values: clone(generation), revision: String(revision)};
+      }
       if (url.pathname === '/api/profile') data.overview.active_profile = body.profile_id;
       else if (url.pathname === '/api/profile/style') {
         if (body.revision !== String(revision)) throw new Error('This demo changed. Reopen the setting and try again.');
@@ -57,6 +66,7 @@
       revision++;
       return url.pathname === '/api/profile/style' ? design(id) : {profile: clone(data.profiles[id]), overview: clone(data.overview)};
     }
+    if (url.pathname === '/api/generation') return {values: clone(generation), revision: String(revision)};
     if (url.pathname === '/api/overview') return clone(data.overview);
     if (url.pathname === '/api/console/revision') return {revision: String(revision)};
     if (url.pathname === '/api/design') return design(id);

@@ -726,19 +726,21 @@ function setConsoleInteraction(active) {
 byId('console-enter').addEventListener('click', () => setConsoleInteraction(true));
 byId('console-done').addEventListener('click', () => setConsoleInteraction(false));
 
-byId('copy-install').addEventListener('click', async () => {
+document.querySelectorAll('[data-copy-source]').forEach((button) => button.addEventListener('click', async () => {
+  const source = byId(button.dataset.copySource);
+  const label = button.dataset.copyLabel;
   try {
-    await navigator.clipboard.writeText(byId('install-command').textContent);
-    byId('copy-status').textContent = 'Installation command copied.';
+    await navigator.clipboard.writeText(source.textContent);
+    byId('copy-status').textContent = `${label} copied.`;
   } catch {
     const selection = window.getSelection();
     const range = document.createRange();
-    range.selectNodeContents(byId('install-command'));
+    range.selectNodeContents(source);
     selection.removeAllRanges();
     selection.addRange(range);
-    byId('copy-status').textContent = 'Command selected. Use your keyboard to copy it.';
+    byId('copy-status').textContent = `${label} selected. Use your keyboard to copy it.`;
   }
-});
+}));
 document.addEventListener('pointerdown', () => { document.body.dataset.input = 'pointer'; }, { passive: true });
 document.addEventListener('keydown', () => { document.body.dataset.input = 'keyboard'; });
 document.querySelectorAll('button[data-mode]').forEach((button) => button.addEventListener('click', () => setMode(button.dataset.mode, true)));

@@ -265,6 +265,13 @@ section[tabindex="-1"]:focus { outline: none; }
 .setup .install-command { margin-top: 23px; padding: 13px 15px; }
 .setup .install-command code { font-size: 11px; color: #465a75; }
 .setup .install-command button { min-height: 33px; padding-inline: 11px; font-size: 11px; }
+.setup-agent-prompt { margin-top: 18px; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: #f7f8f9; }
+.setup-agent-prompt p { margin: 0; font-size: 13px; line-height: 1.7; color: #49515d; overflow-wrap: anywhere; }
+.setup-agent-prompt button { display: block; margin: 14px 0 0 auto; padding: 8px 12px; border: 1px solid var(--line); border-radius: 5px; background: #fff; color: #343b45; font-size: 12px; cursor: pointer; transition: background .15s; }
+.setup-agent-prompt button:hover { background: #f0f1f2; }
+.setup-instructions .setup-terminal-title { margin-top: 26px; }
+.setup .setup-terminal-title + .install-command { margin-top: 14px; }
+.setup-environment-note { max-width: 280px; font-size: 12px; line-height: 1.7; color: #626d80; }
 .setup-details { margin-top: 12px; font-size: 12px; line-height: 1.75; border-block: 1px solid var(--line); padding-block: 13px; color: #626d80; }
 .setup-details summary { color: #38465d; cursor: pointer; font-weight: 500; }
 .setup-details ul { padding-left: 18px; margin-bottom: 10px; }
