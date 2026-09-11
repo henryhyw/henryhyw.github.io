@@ -1036,10 +1036,10 @@
       "page": "Travels",
       "title": "Where I've Wandered",
       "anchor": "",
-      "description": "Some of the places I've been, with a photo from each. Tap a point to take a look. Drag to spin · pinch to zoom · tap a point",
-      "body": "Some of the places I've been, with a photo from each. Tap a point to take a look. Drag to spin · pinch to zoom · tap a point",
+      "description": "Some of the places I've been, with a photo from each. Drag to spin · pinch to zoom · tap a point",
+      "body": "Some of the places I've been, with a photo from each. Drag to spin · pinch to zoom · tap a point",
       "parts": [
-        "Some of the places I've been, with a photo from each. Tap a point to take a look. Drag to spin · pinch to zoom · tap a point"
+        "Some of the places I've been, with a photo from each. Drag to spin · pinch to zoom · tap a point"
       ],
       "view_kind": "prose",
       "presentations": [
