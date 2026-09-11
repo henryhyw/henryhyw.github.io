@@ -27,6 +27,9 @@ function initSiteMusic() {
   const DUCK_FLOOR = 0.06;
   let narrationSource = null;
   let songVolumeFadeFrame = null;
+  let pauseFading = false;
+  let pauseFadeTimer = null;
+  const PAUSE_FADE_KEY = 'musicPauseFadeUntil';
 
   function songLevel(song) {
     const key = SONG_VOLUME[song] != null ? song : normalizeSongPath(song);
@@ -70,6 +73,10 @@ function initSiteMusic() {
   }
 
   function applySongVolume(song) {
+    if (pauseFading) {
+      if (userVolume === 0) stopLocalPlayback();
+      return;
+    }
     cancelSongVolumeFade();
     music.volume = targetSongVolume(song);
   }
@@ -79,12 +86,13 @@ function initSiteMusic() {
   // the narration pauses or ends.
   function duckMusic(event) {
     narrationSource = event.detail || true;
-    if (music.paused) return;
+    if (music.paused || pauseFading) return;
     fadeSongVolume(targetSongVolume(currentSongPath || music.src), 320, 'out');
   }
   function restoreMusic(event) {
     if (event.detail && narrationSource && event.detail !== narrationSource) return;
     narrationSource = null;
+    if (pauseFading) return;
     fadeSongVolume(targetSongVolume(currentSongPath || music.src), 500, 'inOut');
   }
   window.addEventListener('view-summary-play', duckMusic);
@@ -222,6 +230,8 @@ function initSiteMusic() {
   }
 
   function startPlayback(song, time) {
+    cancelPauseFade();
+    localStorage.removeItem(PAUSE_FADE_KEY);
     const request = ++playbackRequest;
     loading = true;
     playbackError = '';
@@ -259,18 +269,56 @@ function initSiteMusic() {
     startPlayback(getRandomSong());
   }
 
-  function pauseMusic() {
-    playbackRequest++;
+  function cancelPauseFade() {
+    if (pauseFadeTimer !== null) clearTimeout(pauseFadeTimer);
+    pauseFadeTimer = null;
+    if (pauseFading) cancelSongVolumeFade();
+    pauseFading = false;
+  }
+
+  function stopLocalPlayback(fadeOut = 0) {
+    // Storage and BroadcastChannel can deliver the same request. Keep one
+    // uninterrupted envelope on the tab that is actually playing the audio.
+    if (pauseFading && fadeOut > 0) return;
+    const wasPlaying = !music.paused || pauseFading;
+    cancelPauseFade();
+    const request = ++playbackRequest;
     loading = false;
+    stopTicking();
+    clearHandoff();
+    setIcon(false);
+    const finish = () => {
+      if (request !== playbackRequest) return;
+      cancelPauseFade();
+      music.pause();
+      applySongVolume(currentSongPath || music.src);
+      if (wasPlaying) {
+        // Save the position after the fade, including its final fraction of a second.
+        persistState(false);
+        broadcast({ type: 'paused', song: currentSongPath, time: playbackTime() });
+      }
+    };
+    if (wasPlaying && music.volume > 0 && fadeOut > 0) {
+      pauseFading = true;
+      fadeSongVolume(0, fadeOut, 'inOut');
+      // A background tab may not receive animation frames. The timer still
+      // completes the pause without relying on a final rendered frame.
+      pauseFadeTimer = setTimeout(finish, fadeOut);
+    } else {
+      finish();
+    }
+  }
+
+  function pauseMusic(fadeOut = 0) {
+    fadeOut = Math.min(2000, Math.max(0, Number(fadeOut) || 0));
+    if (fadeOut) localStorage.setItem(PAUSE_FADE_KEY, String(Date.now() + fadeOut));
+    else localStorage.removeItem(PAUSE_FADE_KEY);
     if (music.paused) {
       adoptState(normalizeSongPath(localStorage.getItem('currentSong')), parseFloat(localStorage.getItem('musicTime')));
     }
-    music.pause();
-    setIcon(false);
     persistState(false);
-    broadcast({ type: "pause" });
-    stopTicking();
-    clearHandoff();
+    stopLocalPlayback(fadeOut);
+    broadcast({ type: "pause", fadeOut });
   }
 
   // Another tab started, paused, or advanced playback. Mirror the shared
@@ -280,10 +328,12 @@ function initSiteMusic() {
   function handleRemote(message) {
     if (!message || typeof message !== "object") return;
     if (message.type === 'claim') {
+      cancelPauseFade();
       playbackRequest++;
       music.pause();
       stopTicking();
     } else if (message.type === "play") {
+      cancelPauseFade();
       playbackRequest++;
       loading = false;
       playbackError = '';
@@ -292,17 +342,7 @@ function initSiteMusic() {
       adoptState(message.song, message.time);
       setIcon(true);
     } else if (message.type === "pause") {
-      playbackRequest++;
-      loading = false;
-      const wasPlaying = !music.paused;
-      music.pause();
-      stopTicking();
-      setIcon(false);
-      if (wasPlaying) {
-        // The leader has a newer position than a follower's last tick.
-        persistState(false);
-        broadcast({ type: 'paused', song: currentSongPath, time: playbackTime() });
-      }
+      stopLocalPlayback(message.fadeOut);
     } else if (message.type === 'paused') {
       adoptState(message.song, message.time);
       setIcon(false);
@@ -313,6 +353,9 @@ function initSiteMusic() {
     } else if (message.type === "takeover") {
       tryTakeoverPlayback();
     } else if (message.type === 'selection') {
+      cancelPauseFade();
+      music.pause();
+      stopTicking();
       adoptState(normalizeSongPath(message.song), message.time);
       setIcon(false);
     } else if (message.type === 'volume') {
@@ -338,7 +381,8 @@ function initSiteMusic() {
         parseFloat(localStorage.getItem("musicTime"))
       );
     } else {
-      handleRemote({ type: "pause" });
+      const fadeOut = Math.max(0, Math.min(2000, Number(localStorage.getItem(PAUSE_FADE_KEY)) - Date.now()));
+      handleRemote({ type: "pause", fadeOut });
     }
   }
 
@@ -487,7 +531,7 @@ function initSiteMusic() {
   window.addEventListener('site-music-command', event => {
     const command = event.detail || {};
     if (command.action === 'pause') {
-      pauseMusic();
+      pauseMusic(command.fadeOut);
     } else if (command.action === 'toggle') {
       musicIcon.click();
     } else if (command.action === 'next' || command.action === 'previous') {
@@ -543,7 +587,7 @@ function initSiteMusic() {
     // mirroring another tab's playback, leave the shared state untouched so
     // the actual leader keeps playing.
     if (!music.paused) {
-      persistState(true);
+      persistState(!pauseFading);
     }
   });
 
@@ -553,6 +597,10 @@ function initSiteMusic() {
   // unload. Mirror tabs (music.paused is true) leave the leader alone.
   window.addEventListener("pagehide", function() {
     if (music.paused) return;
+    if (pauseFading) {
+      stopLocalPlayback();
+      return;
+    }
     persistState(true);
     const handoff = persistHandoff();
     playbackRequest++;
@@ -572,8 +620,19 @@ function initSiteMusic() {
 
   // Play next random song when the current one ends
   music.addEventListener("ended", function() {
+    if (pauseFading) {
+      stopLocalPlayback();
+      return;
+    }
     playRandomSong();
   });
+
+  // App can enter CV before this deferred script has initialised the player.
+  if (music.dataset.pauseOnReady === 'true') {
+    delete music.dataset.pauseOnReady;
+    pauseMusic(600);
+    return;
+  }
 
   // Automatically continue playback after a reload only when no other tab is
   // actively playing, so two windows never play at the same time.
