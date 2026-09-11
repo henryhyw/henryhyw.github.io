@@ -1,11 +1,19 @@
-document.addEventListener("DOMContentLoaded", function() {
+function initSiteMusic() {
   const musicIcon = document.getElementById("music-icon");
   const music = document.getElementById("background-music");
+  if (!music || !musicIcon || music.dataset.initialized) return;
+  music.dataset.initialized = 'true';
 
-  const songs = [
-    '/assets/aud/theme.mp3',
-    '/assets/aud/the_portrait.mp3'
+  const tracks = [
+    { src: '/assets/aud/theme.mp3', title: 'Rain on Old Vinyl', artist: 'Winter Jasmine', duration: 158.6155, cover: '/assets/img/music/rain-on-old-vinyl.webp' },
+    { src: '/assets/aud/the_portrait.mp3', title: 'The Portrait', artist: 'James Horner', duration: 283.494943, cover: '/assets/img/music/back-to-titanic.jpg' },
   ];
+  const songs = tracks.map(track => track.src);
+  let userVolume = Math.min(1, Math.max(0, Number(localStorage.getItem('musicVolume') ?? 1) || 0));
+  let sharedPlaying = false;
+  let playbackRequest = 0;
+  let loading = false;
+  let playbackError = '';
 
   // theme.mp3 is mastered about 12 dB louder than the_portrait. Scale it down
   // so every background track sits at the same perceived level.
@@ -28,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function targetSongVolume(song) {
     const level = songLevel(song);
-    return narrationSource ? Math.max(DUCK_FLOOR, level * DUCK_FACTOR) : level;
+    return userVolume * (narrationSource ? Math.max(DUCK_FLOOR, level * DUCK_FACTOR) : level);
   }
 
   function cancelSongVolumeFade() {
@@ -95,26 +103,38 @@ document.addEventListener("DOMContentLoaded", function() {
   const HANDOFF_FRESH_MS = 60000;
 
   let currentSongPath = '';
+  let pendingSeek = null;
   let tickTimer = null;
   let lastTickSent = 0;
   const seenHandoffTokens = new Set();
 
   function getRandomSong() {
-    return songs[Math.floor(Math.random() * songs.length)];
+    const remaining = songs.filter(song => song !== currentSongPath);
+    return remaining[Math.floor(Math.random() * remaining.length)] || songs[0];
+  }
+
+  function publishPlayerState() {
+    const track = tracks.find(track => track.src === currentSongPath) || tracks[0];
+    window.dispatchEvent(new CustomEvent('site-music-state', { detail: {
+      track, playing: sharedPlaying, loading, error: playbackError,
+      time: playbackTime(), duration: Number.isFinite(music.duration) && music.duration > 0 ? music.duration : track.duration,
+      volume: userVolume,
+    } }));
   }
 
   function setIcon(playing) {
+    sharedPlaying = playing;
     if (!musicIcon) return;
     const icon = musicIcon.querySelector('i');
     if (playing) {
       icon.classList.add("fa-spin");
-      musicIcon.title = "Pause Music";
       musicIcon.setAttribute("aria-label", "Pause music");
     } else {
       icon.classList.remove("fa-spin");
-      musicIcon.title = "Play Music";
       musicIcon.setAttribute("aria-label", "Play music");
     }
+    musicIcon.removeAttribute('title');
+    publishPlayerState();
   }
 
   function persistState(playing) {
@@ -125,9 +145,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (music.src) {
       localStorage.setItem("currentSong", currentSongPath || music.src);
     }
-    if (music.currentTime) {
-      localStorage.setItem("musicTime", String(music.currentTime));
-    }
+    localStorage.setItem("musicTime", String(playbackTime()));
   }
 
   function broadcast(message) {
@@ -153,31 +171,45 @@ document.addEventListener("DOMContentLoaded", function() {
     return "";
   }
 
+  function playbackTime() {
+    return pendingSeek ?? (music.currentTime || 0);
+  }
+
+  function applyPendingSeek() {
+    if (pendingSeek === null) return;
+    try {
+      music.currentTime = pendingSeek;
+      // Keep the requested position until this source has metadata. Some
+      // browsers accept an early seek and then reset it while loading.
+      if (music.readyState > 0) pendingSeek = null;
+    } catch (error) {
+      // loadedmetadata retries the seek without losing the saved position.
+    }
+  }
+
   function adoptState(song, time) {
-    if (song && currentSongPath !== song) {
+    if (song && (currentSongPath !== song || !music.src)) {
+      pendingSeek = null;
       currentSongPath = song;
       music.src = song;
       applySongVolume(song);
     }
     if (typeof time === "number" && isFinite(time)) {
-      try {
-        music.currentTime = time;
-      } catch (error) {
-        // The media element may not be ready to seek yet; the position is
-        // carried in the shared state and applied on the next sync.
-      }
+      pendingSeek = Math.max(0, time);
+      applyPendingSeek();
     }
+    publishPlayerState();
   }
 
   function startTicking() {
     if (tickTimer) return;
     tickTimer = setInterval(() => {
-      localStorage.setItem("musicTime", String(music.currentTime));
+      localStorage.setItem("musicTime", String(playbackTime()));
       localStorage.setItem("musicLeader", String(Date.now()));
       const now = Date.now();
       if (now - lastTickSent >= 5000) {
         lastTickSent = now;
-        broadcast({ type: "tick", song: currentSongPath, time: music.currentTime });
+        broadcast({ type: "tick", song: currentSongPath, time: playbackTime() });
       }
     }, 1000);
   }
@@ -190,33 +222,36 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function startPlayback(song, time) {
+    const request = ++playbackRequest;
+    loading = true;
+    playbackError = '';
+    // A user can change songs in a different tab. Release the old player
+    // before the new one starts so the two tracks never overlap.
+    broadcast({ type: 'claim' });
     // Starting audio consumes any pending handoff: this tab is now the leader.
     clearHandoff();
-    if (song) {
-      currentSongPath = song;
-      music.src = song;
-    }
+    adoptState(song, time);
     applySongVolume(currentSongPath || music.src);
-    if (typeof time === "number" && isFinite(time)) {
-      try {
-        music.currentTime = time;
-      } catch (error) {
-        // The media element may not be ready to seek yet; the position is
-        // carried in the shared state and applied on the next sync.
-      }
-    }
     // Claim the leader slot before play() resolves so a concurrent successor
     // backs off instead of starting a second copy of the audio.
     persistState(true);
+    setIcon(true);
     return music.play().then(() => {
+      if (request !== playbackRequest) return;
+      loading = false;
       setIcon(true);
       lastTickSent = Date.now();
-      broadcast({ type: "play", song: currentSongPath, time: music.currentTime });
+      broadcast({ type: "play", song: currentSongPath, time: playbackTime() });
       startTicking();
+      return true;
     }).catch(error => {
+      if (request !== playbackRequest) return;
+      loading = false;
+      playbackError = 'Music could not play. Try again.';
       console.log("Autoplay prevented. Waiting for user interaction.");
       setIcon(false);
       persistState(false);
+      return false;
     });
   }
 
@@ -225,6 +260,11 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function pauseMusic() {
+    playbackRequest++;
+    loading = false;
+    if (music.paused) {
+      adoptState(normalizeSongPath(localStorage.getItem('currentSong')), parseFloat(localStorage.getItem('musicTime')));
+    }
     music.pause();
     setIcon(false);
     persistState(false);
@@ -239,14 +279,32 @@ document.addEventListener("DOMContentLoaded", function() {
   // position so any tab can take over seamlessly.
   function handleRemote(message) {
     if (!message || typeof message !== "object") return;
-    if (message.type === "play") {
+    if (message.type === 'claim') {
+      playbackRequest++;
+      music.pause();
+      stopTicking();
+    } else if (message.type === "play") {
+      playbackRequest++;
+      loading = false;
+      playbackError = '';
       if (!music.paused) music.pause();
       stopTicking();
       adoptState(message.song, message.time);
       setIcon(true);
     } else if (message.type === "pause") {
-      if (!music.paused) music.pause();
+      playbackRequest++;
+      loading = false;
+      const wasPlaying = !music.paused;
+      music.pause();
       stopTicking();
+      setIcon(false);
+      if (wasPlaying) {
+        // The leader has a newer position than a follower's last tick.
+        persistState(false);
+        broadcast({ type: 'paused', song: currentSongPath, time: playbackTime() });
+      }
+    } else if (message.type === 'paused') {
+      adoptState(message.song, message.time);
       setIcon(false);
     } else if (message.type === "tick") {
       if (music.paused) {
@@ -254,6 +312,13 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     } else if (message.type === "takeover") {
       tryTakeoverPlayback();
+    } else if (message.type === 'selection') {
+      adoptState(normalizeSongPath(message.song), message.time);
+      setIcon(false);
+    } else if (message.type === 'volume') {
+      userVolume = Math.min(1, Math.max(0, Number(message.volume) || 0));
+      applySongVolume(currentSongPath);
+      publishPlayerState();
     }
   }
 
@@ -312,7 +377,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const handoff = {
       token: Math.random().toString(36).slice(2) + String(Date.now()),
       song: song || currentSongPath || music.src || '',
-      time: typeof time === "number" ? time : music.currentTime || 0,
+      time: typeof time === "number" ? time : playbackTime(),
       ts: Date.now(),
       attempts,
     };
@@ -328,7 +393,8 @@ document.addEventListener("DOMContentLoaded", function() {
   // playback at the saved position. If the browser blocks autoplay there, it
   // writes a fresh handoff and asks the remaining tabs to try once more.
   function startTakeoverPlayback(handoff) {
-    startPlayback(handoff.song, handoff.time).catch(() => {
+    return startPlayback(handoff.song, handoff.time).then(started => {
+      if (started !== false) return;
       if ((handoff.attempts || 0) >= 1) return;
       const retry = persistHandoff(handoff.song, handoff.time, (handoff.attempts || 0) + 1);
       broadcast({ type: "takeover", song: retry.song, time: retry.time });
@@ -372,7 +438,7 @@ document.addEventListener("DOMContentLoaded", function() {
       try {
         await navigator.locks.request(MUSIC_LOCK_NAME, () => {
           const current = freshHandoff();
-          if (current) startTakeoverPlayback(current);
+          if (current) return startTakeoverPlayback(current);
         });
       } catch (error) {
         claimTakeover();
@@ -391,6 +457,11 @@ document.addEventListener("DOMContentLoaded", function() {
     if (event.key === HANDOFF_KEY) {
       tryTakeoverPlayback();
     }
+    if (event.key === 'musicVolume') {
+      userVolume = Math.min(1, Math.max(0, Number(event.newValue) || 0));
+      applySongVolume(currentSongPath);
+      publishPlayerState();
+    }
   });
 
   // Restore music state from localStorage
@@ -403,18 +474,61 @@ document.addEventListener("DOMContentLoaded", function() {
   if (savedSong) {
     console.log(`Restoring song: ${savedSong}`);
     adoptState(savedSong, savedTime);
+  } else {
+    // Choose the first song before displaying its cover. Play then starts
+    // that exact recording, without replacing the card's title or artwork.
+    currentSongPath = getRandomSong();
   }
 
   // The icon reflects the shared playback state, not this tab's own audio.
   setIcon(musicPlaying && anotherTabPlaying);
+
+  window.addEventListener('site-music-request', publishPlayerState);
+  window.addEventListener('site-music-command', event => {
+    const command = event.detail || {};
+    if (command.action === 'pause') {
+      pauseMusic();
+    } else if (command.action === 'toggle') {
+      musicIcon.click();
+    } else if (command.action === 'next' || command.action === 'previous') {
+      const index = songs.indexOf(currentSongPath || songs[0]);
+      const offset = command.action === 'next' ? 1 : -1;
+      const song = songs[(index + offset + songs.length) % songs.length];
+      if (sharedPlaying) startPlayback(song, 0);
+      else {
+        adoptState(song, 0);
+        persistState(false);
+        broadcast({ type: 'selection', song, time: 0 });
+      }
+    } else if (command.action === 'seek') {
+      const track = tracks.find(track => track.src === currentSongPath) || tracks[0];
+      const time = Math.min(track.duration, Math.max(0, Number(command.time) || 0));
+      if (sharedPlaying && music.paused) startPlayback(track.src, time);
+      else {
+        adoptState(track.src, time);
+        persistState(sharedPlaying);
+        broadcast({ type: sharedPlaying ? 'tick' : 'selection', song: track.src, time });
+      }
+    } else if (command.action === 'volume') {
+      userVolume = Math.min(1, Math.max(0, Number(command.volume) || 0));
+      localStorage.setItem('musicVolume', String(userVolume));
+      applySongVolume(currentSongPath);
+      broadcast({ type: 'volume', volume: userVolume });
+      publishPlayerState();
+    }
+  });
+  music.addEventListener('loadedmetadata', () => { applyPendingSeek(); publishPlayerState(); });
+  ['timeupdate', 'durationchange'].forEach(event => music.addEventListener(event, publishPlayerState));
+  music.addEventListener('waiting', () => { loading = sharedPlaying; publishPlayerState(); });
+  music.addEventListener('playing', () => { loading = false; publishPlayerState(); });
 
   musicIcon.addEventListener("click", function() {
     // Global toggle: the button controls the shared player, so clicking it in
     // any window pauses or starts the same playback.
     const globalPlaying = localStorage.getItem("musicPlaying") === "true";
     if (!globalPlaying) {
-      if (!currentSongPath && !music.src) {
-        playRandomSong();
+      if (!music.src) {
+        startPlayback(currentSongPath || getRandomSong(), 0);
       } else {
         startPlayback();
       }
@@ -441,6 +555,9 @@ document.addEventListener("DOMContentLoaded", function() {
     if (music.paused) return;
     persistState(true);
     const handoff = persistHandoff();
+    playbackRequest++;
+    music.pause();
+    stopTicking();
     broadcast({ type: "takeover", song: handoff.song, time: handoff.time });
   });
 
@@ -460,8 +577,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Automatically continue playback after a reload only when no other tab is
   // actively playing, so two windows never play at the same time.
-  if (musicPlaying && savedSong && !anotherTabPlaying) {
-    startPlayback(savedSong);
+  if (musicPlaying && savedSong && !anotherTabPlaying && !freshHandoff()) {
+    startPlayback(savedSong, savedTime);
   }
 
   // A tab that reloads after playing, or a tab opened right after the last one
@@ -469,7 +586,10 @@ document.addEventListener("DOMContentLoaded", function() {
   if (freshHandoff()) {
     window.setTimeout(() => tryTakeoverPlayback(), 300);
   }
-});
+}
+
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initSiteMusic);
+else initSiteMusic();
 
 if (window.location.pathname !== '/') { // Check if the current page is not the homepage
   document.querySelectorAll('header *').forEach(element => {
