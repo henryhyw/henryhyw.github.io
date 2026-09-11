@@ -1,11 +1,12 @@
+import { createChartInterpretation, createChartMeasurement } from './chart-explainer.mjs?v=5ec04a4d7be11082';
 import { createObjectInspector, validateObjectDocument } from './object-inspector.mjs';
-import { createReconstructionViewer } from './reconstruction-viewer.mjs';
+import { createReconstructionViewer } from './reconstruction-viewer.mjs?v=eab167d38cbda0d7';
 import { createPlanView, createSlideBrief } from './planning-viewer.mjs';
 
 const byId = (id) => document.getElementById(id);
 const state = {
   decks: [], deck: null, slideIndex: 0, mode: 'rebuilt', inspectorOpen: false,
-  objectStatus: 'empty', objectCount: 0, artifactRequest: 0, artifactFetch: null,
+  objectStatus: 'empty', objectCount: 0, reconstructionCount: 0, artifactRequest: 0, artifactFetch: null,
   artifactTrigger: null, artifactMotion: null, viewerScroll: null, walkthrough: null, objectLoad: null,
 };
 
@@ -17,17 +18,27 @@ function element(tag, className, text) {
   return node;
 }
 
+const INSPECTOR_LABELS = { rebuilt: 'Editable objects', semantic: 'Element groups', measurements: 'Pixel measurements' };
+
 function setInspectorOpen(open) {
-  state.inspectorOpen = Boolean(open && state.mode === 'rebuilt');
-  byId('object-panel').hidden = !state.inspectorOpen;
-  byId('studio-workspace').dataset.inspector = state.inspectorOpen ? 'open' : 'closed';
-  byId('object-toggle').setAttribute('aria-expanded', String(state.inspectorOpen));
+  state.inspectorOpen = Boolean(open);
+  const visible = state.inspectorOpen && Boolean(INSPECTOR_LABELS[state.mode]);
+  byId('inspector-panel').hidden = !visible;
+  byId('object-panel').hidden = state.mode !== 'rebuilt';
+  byId('reconstruction-panel').hidden = !['semantic', 'measurements'].includes(state.mode);
+  byId('studio-workspace').dataset.inspector = visible ? 'open' : 'closed';
+  byId('object-toggle').setAttribute('aria-expanded', String(visible));
 }
 
 function updateObjectStatus() {
-  byId('object-count').textContent = String(state.objectCount);
-  byId('object-count').hidden = !state.objectCount;
-  byId('object-toggle').disabled = state.mode !== 'rebuilt' || state.objectStatus !== 'ready' || !state.objectCount;
+  const label = INSPECTOR_LABELS[state.mode];
+  const count = state.mode === 'rebuilt' ? state.objectCount : state.reconstructionCount;
+  byId('inspector-label').textContent = label || 'Slide details';
+  byId('inspector-panel').setAttribute('aria-label', label || 'Slide details');
+  byId('object-count').textContent = String(count);
+  byId('object-count').hidden = !count;
+  byId('object-toggle').hidden = !label;
+  byId('object-toggle').disabled = state.mode === 'rebuilt' && (state.objectStatus !== 'ready' || !state.objectCount);
   const help = state.mode === 'semantic' ? 'Agent interpretation' : state.mode === 'measurements' ? 'Measured from the generated image' : state.mode === 'compare'
     ? 'Drag to compare both versions'
     : state.mode === 'target'
@@ -117,7 +128,14 @@ function placeTarget(image, canvas) {
   image.style.height = (100 * height / fullHeight) + '%';
 }
 
-const reconstructionViewer = createReconstructionViewer({ layer: byId('reconstruction-layer'), panel: byId('reconstruction-panel'), positionLayer: placeTarget });
+const reconstructionViewer = createReconstructionViewer({
+  layer: byId('reconstruction-layer'), panel: byId('reconstruction-panel'), positionLayer: placeTarget,
+  onSelectionChange: () => setInspectorOpen(true),
+  onStateChange: ({ elementCount = 0, groupCount = 0 }) => {
+    state.reconstructionCount = state.mode === 'semantic' ? groupCount : elementCount;
+    updateObjectStatus();
+  },
+});
 
 function deckLabel(deck) { return deck.label || deck.style || deck.title; }
 function filename(url) { return decodeURIComponent(new URL(url).pathname.split('/').pop()); }
@@ -148,7 +166,7 @@ function renderProjects() {
   state.decks.forEach((deck, index) => {
     const card = element('button', 'sample-option');
     card.type = 'button';
-    card.setAttribute('aria-label', 'Show sample presentation. ' + deck.title);
+    card.setAttribute('aria-label', 'Show ' + deckLabel(deck) + ' sample presentation');
     card.setAttribute('aria-pressed', 'false');
     card.setAttribute('aria-controls', 'studio');
     const cover = new Image();
@@ -156,8 +174,8 @@ function renderProjects() {
     cover.alt = '';
     cover.decoding = 'async';
     const caption = element('span', 'sample-option-caption');
-    caption.append(element('span', 'sample-option-title', deck.title));
-    const metadata = element('span', 'sample-option-meta', deckLabel(deck) + ' · ' + deck.slides.length + ' slides');
+    caption.append(element('span', 'sample-option-title', deckLabel(deck)));
+    const metadata = element('span', 'sample-option-meta', 'Sample presentation · ' + deck.slides.length + ' slides');
     const selected = element('span', 'sample-selected', 'Selected');
     caption.append(metadata, selected);
     card.append(cover, caption);
@@ -257,10 +275,10 @@ function setMode(mode, speak = false) {
   if (['semantic', 'measurements'].includes(mode)) reconstructionViewer.show(slide, mode, state.deck.canvas);
   byId('generated-content-note').hidden = !state.deck.canvas || mode === 'rebuilt';
   inspector.setEnabled(mode === 'rebuilt');
-  if (mode !== 'rebuilt') setInspectorOpen(false);
+  setInspectorOpen(state.inspectorOpen);
   updateObjectStatus();
   updateAddress();
-  if (speak) announce(mode === 'rebuilt' ? 'Editable PowerPoint. Select objects to inspect them.' : mode === 'compare' ? 'Compare the design and PowerPoint. Drag the divider or use the range control.' : 'AI-generated design. Select the image to enlarge it.');
+  if (speak) announce(mode === 'rebuilt' ? 'Editable PowerPoint. Select objects to inspect them.' : mode === 'semantic' ? 'Element groups. Select an element or browse groups in the side panel.' : mode === 'measurements' ? 'OpenCV measurements. Select an element to inspect its dimensions.' : mode === 'compare' ? 'Compare the design and PowerPoint. Drag the divider or use the range control.' : 'AI-generated design. Select the image to enlarge it.');
 }
 
 function selectSlide(index, speak = true) {
@@ -419,7 +437,7 @@ async function loadWalkthrough(configuration) {
     const deck = state.decks[deckIndex];
     const slide = deck?.slides.find((item) => item.id === configuration.slide_id);
     if (!slide?.objects || !slide.evidence) throw new Error('The walkthrough slide needs actual objects and semantic evidence.');
-    const paths = Object.fromEntries(['intent', 'semantic', 'measurement', 'measurement_image'].map((key) => [key, artifactURL(configuration[key], deck.manifestURL)]));
+    const paths = Object.fromEntries(['intent', 'semantic', 'measurement'].map((key) => [key, artifactURL(configuration[key], deck.manifestURL)]));
     const [intent, semantic, measurement, rawObjects] = await Promise.all([
       fetchJSON(paths.intent), fetchJSON(paths.semantic), fetchJSON(paths.measurement), fetchJSON(slide.objects),
     ]);
@@ -447,12 +465,11 @@ async function loadWalkthrough(configuration) {
     const [x, y, width, height] = mapped.bbox_hint;
     const region = byId('walkthrough-chart-region');
     Object.assign(region.style, { left: (100 * x / size[0]) + '%', top: (100 * y / size[1]) + '%', width: (100 * width / size[0]) + '%', height: (100 * height / size[1]) + '%' });
-    const crop = [x - 18, y - 30, width + 36, height + 42];
-    cropEvidence(byId('walkthrough-semantic-crop'), byId('walkthrough-semantic-image'), slide.evidence, crop, size, 'The Agent maps these columns, labels and values as one native chart.');
-    cropEvidence(byId('walkthrough-measurement-crop'), byId('walkthrough-measurement-image'), paths.measurement_image, crop, size, 'OpenCV measurement overlay for the same chart region.');
-    byId('walkthrough-semantic-caption').textContent = 'The Agent groups categories and values as one chart.';
+    byId('walkthrough-semantic-crop').replaceChildren(createChartInterpretation(mapped));
+    byId('walkthrough-measurement-crop').replaceChildren(createChartMeasurement(measured, measurement.source, slide.target));
+    byId('walkthrough-semantic-caption').textContent = 'Categories and values belong to one chart object.';
     const ink = measured.measurement.visible_bbox.px;
-    byId('walkthrough-measurement-caption').textContent = 'OpenCV measures the chart’s position and size.';
+    byId('walkthrough-measurement-caption').textContent = 'Measured bounds in the source image, in pixels.';
     const fullSize = deck.canvas?.full_slide_px || [size[0], size[1]];
     const nativeLeft = Math.min(...native.polygon.map((point) => point[0])) * fullSize[0];
     const nativeTop = Math.min(...native.polygon.map((point) => point[1])) * fullSize[1];
@@ -463,8 +480,8 @@ async function loadWalkthrough(configuration) {
       'The reconstructed native chart from the actual PowerPoint render.');
     bindArtifact('walkthrough-brief', 'Slide brief', '', paths.intent, { render: () => renderSlideBrief(intent, slide.planning.inputs) });
     bindArtifact('walkthrough-target-open', 'AI-generated design', 'This image covers the slide’s content area. Shared headers and footers are added in PowerPoint.', slide.target, { canvas: deck.canvas });
-    bindArtifact('walkthrough-semantic-open', 'Chart interpretation', 'The Agent treats these categories, values and columns as a single editable chart.', slide.evidence, { crop: { box: crop, size } });
-    bindArtifact('walkthrough-measurement-open', 'Chart measurements', 'The detected chart region measures ' + ink[2] + ' × ' + ink[3] + ' pixels. The Agent uses these measurements to position and size the PowerPoint chart.', paths.measurement_image, { crop: { box: crop, size } });
+    bindArtifact('walkthrough-semantic-open', 'Chart interpretation', 'The Agent treats these categories, values and columns as a single editable chart.', paths.semantic, { render: () => createChartInterpretation(mapped) });
+    bindArtifact('walkthrough-measurement-open', 'Chart measurements', 'The detected chart region measures ' + ink[2] + ' × ' + ink[3] + ' pixels. The Agent uses these measurements to position and size the PowerPoint chart.', paths.measurement, { render: () => createChartMeasurement(measured, measurement.source, slide.target) });
     state.walkthrough = { deckIndex, slideId: slide.id, objectId: native.id };
     byId('walkthrough').hidden = false;
     byId('walkthrough-loading').hidden = true;

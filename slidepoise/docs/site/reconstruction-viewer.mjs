@@ -38,7 +38,8 @@ export function reconstructionItems(semantic, measurement) {
   return { width, height, entities, groups };
 }
 
-export function createReconstructionViewer({ layer, panel, positionLayer, fetchJSON = async (url, signal) => {
+export function createReconstructionViewer({ layer, panel, positionLayer,
+  onSelectionChange = () => {}, onStateChange = () => {}, fetchJSON = async (url, signal) => {
   const response = await fetch(url, { signal });
   if (!response.ok) throw new Error('The reconstruction record could not be loaded.');
   return response.json();
@@ -51,6 +52,7 @@ export function createReconstructionViewer({ layer, panel, positionLayer, fetchJ
     panel.replaceChildren();
     layer.hidden = true;
     panel.hidden = true;
+    onStateChange({ status: 'empty', elementCount: 0, groupCount: 0 });
   }
   async function show(slide, mode, canvas) {
     clear();
@@ -58,6 +60,7 @@ export function createReconstructionViewer({ layer, panel, positionLayer, fetchJ
     controller = request;
     panel.hidden = false;
     panel.append(node('p', '', 'Loading this slide’s reconstruction…'));
+    onStateChange({ status: 'loading', elementCount: 0, groupCount: 0 });
     try {
       const [semantic, measurement] = await Promise.all([
         fetchJSON(slide.semantic, request.signal), fetchJSON(slide.measurement, request.signal),
@@ -69,6 +72,7 @@ export function createReconstructionViewer({ layer, panel, positionLayer, fetchJ
       positionLayer(layer, canvas);
       layer.hidden = false;
       layer.dataset.mode = mode;
+      panel.append(node('h3', '', measuring ? 'Pixel measurements' : 'Element groups'));
       panel.append(node('p', 'reconstruction-intro', measuring
         ? 'OpenCV measures the visible text and shapes inside the regions identified by the Agent. Select an element to see its position and size in pixels.'
         : 'The Agent identifies the text, charts, artwork and relationships needed to rebuild this page. Outlines show its planned object regions.'));
@@ -76,16 +80,24 @@ export function createReconstructionViewer({ layer, panel, positionLayer, fetchJ
       const detail = node('p', 'reconstruction-detail');
       detail.setAttribute('aria-live', 'polite');
       const boxes = new Map();
+      const items = new Map();
+      const elements = node('details', 'oi-layers reconstruction-elements');
+      elements.open = measuring;
+      elements.append(node('summary', '', 'Elements'));
+      const list = node('div', 'oi-layer-list');
+      elements.append(list);
       const all = node('button', '', `All ${data.entities.length} elements`);
       all.type = 'button';
       all.setAttribute('aria-pressed', 'true');
       controls.append(all);
-      function select(ids, description) {
+      function select(ids, description, notify = true) {
         for (const [id, box] of boxes) {
           box.dataset.selected = String(ids.includes(id));
           box.dataset.dimmed = String(ids.length > 0 && !ids.includes(id));
+          items.get(id).setAttribute('aria-pressed', String(ids.includes(id)));
         }
         detail.textContent = description;
+        if (notify) onSelectionChange();
       }
       all.addEventListener('click', () => {
         controls.querySelectorAll('button').forEach(button => button.setAttribute('aria-pressed', String(button === all)));
@@ -110,17 +122,26 @@ export function createReconstructionViewer({ layer, panel, positionLayer, fetchJ
         button.setAttribute('aria-label', `${item.kind || 'Element'}. ${item.label}`);
         button.title = item.label;
         Object.assign(button.style, {left: `${100*x/data.width}%`, top: `${100*y/data.height}%`, width: `${100*width/data.width}%`, height: `${100*height/data.height}%`, zIndex: String(Math.max(1, 1000 - Math.round(999 * width * height / (data.width * data.height))))});
-        button.addEventListener('click', () => {
+        const itemButton = node('button', 'oi-layer');
+        itemButton.type = 'button';
+        itemButton.setAttribute('aria-pressed', 'false');
+        itemButton.append(node('span', 'oi-layer-kind', item.kind || 'Element'), node('span', 'oi-layer-name', item.label));
+        const selectElement = () => {
           controls.querySelectorAll('button').forEach(control => control.setAttribute('aria-pressed', 'false'));
           const coordinates = `x ${x}, y ${y}, width ${width}, height ${height} px`;
           const extra = measuring ? [item.foreground && `colour ${item.foreground}`, item.lines && `${item.lines} text line${item.lines === 1 ? '' : 's'}`].filter(Boolean).join(' · ') : item.kind;
           select([item.id], `${item.label} · ${coordinates}${extra ? ` · ${extra}` : ''}`);
-        });
+        };
+        button.addEventListener('click', selectElement);
+        itemButton.addEventListener('click', selectElement);
         boxes.set(item.id, button);
+        items.set(item.id, itemButton);
         layer.append(button);
+        list.append(itemButton);
       });
-      panel.append(controls, detail);
-      all.click();
+      panel.append(controls, detail, elements);
+      select([], `${data.entities.length} elements · ${data.groups.length} groups · ${data.width} × ${data.height} px source image`, false);
+      onStateChange({ status: 'ready', elementCount: boxes.size, groupCount: data.groups.length });
     } catch (error) {
       if (request.signal.aborted) return;
       panel.replaceChildren(node('p', '', 'This slide’s reconstruction record could not be loaded.'));
@@ -128,6 +149,7 @@ export function createReconstructionViewer({ layer, panel, positionLayer, fetchJ
       retry.type = 'button';
       retry.addEventListener('click', () => show(slide, mode, canvas));
       panel.append(retry);
+      onStateChange({ status: 'error', elementCount: 0, groupCount: 0 });
     }
   }
   return { show, clear };
