@@ -125,6 +125,6 @@ if (root) {
     showCase(selected);
   }).catch(() => {
     byId('asset-case-panel').setAttribute('aria-busy', 'false');
-    byId('asset-case-decision').textContent = 'The recorded choices could not be loaded. You can still open the sample slide.';
+    byId('asset-case-decision').textContent = 'The selected icons could not be loaded. You can still open the sample slide.';
   });
 }

@@ -70,7 +70,7 @@ export function createReconstructionViewer({ layer, panel, positionLayer, fetchJ
       layer.hidden = false;
       layer.dataset.mode = mode;
       panel.append(node('p', 'reconstruction-intro', measuring
-        ? 'OpenCV locates visible ink within the regions identified by the Agent. Select an element to see its pixel measurements.'
+        ? 'OpenCV measures the visible text and shapes inside the regions identified by the Agent. Select an element to see its position and size in pixels.'
         : 'The Agent identifies the text, charts, artwork and relationships needed to rebuild this page. Outlines show its planned object regions.'));
       const controls = node('div', 'reconstruction-groups');
       const detail = node('p', 'reconstruction-detail');
@@ -89,7 +89,7 @@ export function createReconstructionViewer({ layer, panel, positionLayer, fetchJ
       }
       all.addEventListener('click', () => {
         controls.querySelectorAll('button').forEach(button => button.setAttribute('aria-pressed', String(button === all)));
-        select([], `${data.entities.length} interpreted elements · ${data.groups.length} authored groups · ${data.width} × ${data.height} px source image`);
+        select([], `${data.entities.length} elements · ${data.groups.length} groups · ${data.width} × ${data.height} px source image`);
       });
       if (!measuring) data.groups.forEach(group => {
         const button = node('button', '', group.label);
@@ -113,7 +113,7 @@ export function createReconstructionViewer({ layer, panel, positionLayer, fetchJ
         button.addEventListener('click', () => {
           controls.querySelectorAll('button').forEach(control => control.setAttribute('aria-pressed', 'false'));
           const coordinates = `x ${x}, y ${y}, width ${width}, height ${height} px`;
-          const extra = measuring ? [item.foreground && `ink ${item.foreground}`, item.lines && `${item.lines} text line${item.lines === 1 ? '' : 's'}`].filter(Boolean).join(' · ') : item.kind;
+          const extra = measuring ? [item.foreground && `colour ${item.foreground}`, item.lines && `${item.lines} text line${item.lines === 1 ? '' : 's'}`].filter(Boolean).join(' · ') : item.kind;
           select([item.id], `${item.label} · ${coordinates}${extra ? ` · ${extra}` : ''}`);
         });
         boxes.set(item.id, button);

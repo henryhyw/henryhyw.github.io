@@ -3719,18 +3719,19 @@
     "page": "SlidePoise",
     "title": "How SlidePoise works",
     "anchor": "philosophy",
-    "description": "The Agent develops what each slide needs to say and how its ideas relate. Image generation explores the composition, typography and imagery that express those ideas. To rebuild the chosen image in PowerPoint, the Agent identifies what each element represents and how it relates to the others, while OpenCV measures its geometry.",
-    "body": "The Agent develops what each slide needs to say and how its ideas relate. Image generation explores the composition, typography and imagery that express those ideas. To rebuild the chosen image in PowerPoint, the Agent identifies what each element represents and how it relates to the others, while OpenCV measures its geometry. Reconstruction tools combine this interpretation and measurement to create editable text, charts and diagrams. Open the examples below to inspect the plan, generated design and reconstructed chart. Give the Agent access to icon libraries, reference artwork and your own PowerPoint components. It retrieves relevant assets as it develops the deck, uses them to guide the generated design, and places the original files in PowerPoint. The Agent searches the icon family and chooses a suitable line or fill treatment for the slide. The Agent retrieves candidates and checks their identity, source and usage terms. Save logos, images and PowerPoint components in a local Library Set. The Agent can draw on those files across presentations while preserving any assets you require. When a small illustration needs more detail, the Agent can regenerate it at higher resolution with a transparent background. It compares the result with the design before placing it back into the slide. Compare the paper collage below. The Agent checks the rendered slides together and adjusts recurring titles, labels, colours and spacing for consistency. Discuss the audience, content and design with your Agent. The Agent plans the slides, develops the designs, builds the PowerPoint and reviews the result. Open a stage to inspect an example.",
+    "description": "The Agent plans what the presentation should communicate and how the slides fit together. An image model explores layouts using that content, your style references and selected assets. To turn a chosen design into PowerPoint, the Agent identifies its objects and their relationships while local tools measure their geometry.",
+    "body": "The Agent plans what the presentation should communicate and how the slides fit together. An image model explores layouts using that content, your style references and selected assets. To turn a chosen design into PowerPoint, the Agent identifies its objects and their relationships while local tools measure their geometry. The Agent reviews the rendered slides against the plan and corrects problems in content and appearance. The Agent plans each slide’s message and supporting content, then sends that plan to the image model with style guidance and reference images. The model can explore how to arrange the content without following a fixed layout. Open the sample plan to see the content and instructions used to generate the design. Once a design is chosen, its contents need to become PowerPoint objects. The Agent identifies what each element represents and which elements belong together. In this example, the bars, labels and values form one chart. OpenCV, a computer-vision library, measures its geometry so the renderer can rebuild it as an editable chart linked to its data. During reconstruction, the Agent also corrects problems in the generated image, such as arrows that connect the wrong objects or overlapping text. It checks the rebuilt slides against the brief and reviews alignment, typography and colour across the deck. Asset libraries give the Agent a consistent set of icons, logos and PowerPoint components to draw on. It selects relevant files for each slide and includes them as references for image generation. During reconstruction, it places the original files in PowerPoint. Choose an example to see the selected icons, then inspect an icon to find it on the slide. The Agent searches for relevant icons and chooses outline or filled versions to suit the slide. The Agent finds images and logos, checks that they match the requested subject and reviews their usage terms. Create a Library Set with your Agent to make your own logos, images and PowerPoint components available for future presentations. Small illustrations can lose detail when generated as part of a full slide. The Agent can regenerate an illustration at higher resolution with a transparent background, then check it against the original design before placing it in PowerPoint. Drag the divider to compare the initial illustration with the regenerated version. Tell your Agent who the presentation is for, what it should communicate and which material to use. You can review the plan and designs together or ask it to work independently.",
     "parts": [
-      "The Agent develops what each slide needs to say and how its ideas relate. Image generation explores the composition, typography and imagery that express those ideas. To rebuild the chosen image in PowerPoint, the Agent identifies what each element represents and how it relates to the others, while OpenCV measures its geometry. Reconstruction tools combine this interpretation and measurement to create editable text, charts and diagrams.",
-      "Open the examples below to inspect the plan, generated design and reconstructed chart.",
-      "Give the Agent access to icon libraries, reference artwork and your own PowerPoint components. It retrieves relevant assets as it develops the deck, uses them to guide the generated design, and places the original files in PowerPoint.",
-      "The Agent searches the icon family and chooses a suitable line or fill treatment for the slide.",
-      "The Agent retrieves candidates and checks their identity, source and usage terms.",
-      "Save logos, images and PowerPoint components in a local Library Set. The Agent can draw on those files across presentations while preserving any assets you require.",
-      "When a small illustration needs more detail, the Agent can regenerate it at higher resolution with a transparent background. It compares the result with the design before placing it back into the slide. Compare the paper collage below.",
-      "The Agent checks the rendered slides together and adjusts recurring titles, labels, colours and spacing for consistency.",
-      "Discuss the audience, content and design with your Agent. The Agent plans the slides, develops the designs, builds the PowerPoint and reviews the result. Open a stage to inspect an example."
+      "The Agent plans what the presentation should communicate and how the slides fit together. An image model explores layouts using that content, your style references and selected assets. To turn a chosen design into PowerPoint, the Agent identifies its objects and their relationships while local tools measure their geometry. The Agent reviews the rendered slides against the plan and corrects problems in content and appearance.",
+      "The Agent plans each slide’s message and supporting content, then sends that plan to the image model with style guidance and reference images. The model can explore how to arrange the content without following a fixed layout. Open the sample plan to see the content and instructions used to generate the design.",
+      "Once a design is chosen, its contents need to become PowerPoint objects. The Agent identifies what each element represents and which elements belong together. In this example, the bars, labels and values form one chart. OpenCV, a computer-vision library, measures its geometry so the renderer can rebuild it as an editable chart linked to its data.",
+      "During reconstruction, the Agent also corrects problems in the generated image, such as arrows that connect the wrong objects or overlapping text. It checks the rebuilt slides against the brief and reviews alignment, typography and colour across the deck.",
+      "Asset libraries give the Agent a consistent set of icons, logos and PowerPoint components to draw on. It selects relevant files for each slide and includes them as references for image generation. During reconstruction, it places the original files in PowerPoint. Choose an example to see the selected icons, then inspect an icon to find it on the slide.",
+      "The Agent searches for relevant icons and chooses outline or filled versions to suit the slide.",
+      "The Agent finds images and logos, checks that they match the requested subject and reviews their usage terms.",
+      "Create a Library Set with your Agent to make your own logos, images and PowerPoint components available for future presentations.",
+      "Small illustrations can lose detail when generated as part of a full slide. The Agent can regenerate an illustration at higher resolution with a transparent background, then check it against the original design before placing it in PowerPoint. Drag the divider to compare the initial illustration with the regenerated version.",
+      "Tell your Agent who the presentation is for, what it should communicate and which material to use. You can review the plan and designs together or ask it to work independently. Expand a stage below to inspect the plans, designs and review records from the selected sample."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -4082,5 +4083,27 @@
     "priority": 0,
     "media": [],
     "selected": false
+  },
+  {
+    "id": 138,
+    "source_id": "slidepoise:purpose",
+    "route": "/slidepoise/docs/site/",
+    "page": "SlidePoise",
+    "title": "Why SlidePoise",
+    "anchor": "why-slidepoise",
+    "description": "Agentic slide generation needs both freedom of layout and control over the final deck. Fixed templates keep layouts consistent, but restrict how content can be presented. Image generation allows freer design, yet leaves the work of maintaining consistency and turning those designs into accurate, editable slides.",
+    "body": "Agentic slide generation needs both freedom of layout and control over the final deck. Fixed templates keep layouts consistent, but restrict how content can be presented. Image generation allows freer design, yet leaves the work of maintaining consistency and turning those designs into accurate, editable slides. SlidePoise combines an Agent-led workflow with a toolkit for visual measurement and PowerPoint construction. A shared content plan, style guidance and asset library inform the design of each slide. The Agent uses the toolkit to build editable objects, then reviews the rendered deck to correct errors and maintain consistency.",
+    "parts": [
+      "Agentic slide generation needs both freedom of layout and control over the final deck.",
+      "Fixed templates keep layouts consistent, but restrict how content can be presented. Image generation allows freer design, yet leaves the work of maintaining consistency and turning those designs into accurate, editable slides.",
+      "SlidePoise combines an Agent-led workflow with a toolkit for visual measurement and PowerPoint construction. A shared content plan, style guidance and asset library inform the design of each slide. The Agent uses the toolkit to build editable objects, then reviews the rendered deck to correct errors and maintain consistency."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 5,
+    "media": [],
+    "selected": true
   }
 ]

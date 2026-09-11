@@ -152,7 +152,7 @@ function appendSources(parent, inputs, signal) {
     detail.addEventListener('toggle', async () => {
       if (!detail.open || loaded) return;
       loaded = true;
-      body.replaceChildren(node('p', 'plan-loading', 'Loading the recorded input…'));
+      body.replaceChildren(node('p', 'plan-loading', 'Loading the generation prompt…'));
       try {
         const response = await fetch(input.url, { signal });
         if (!response.ok) throw new Error('Input unavailable');
@@ -168,7 +168,7 @@ function appendSources(parent, inputs, signal) {
       } catch (error) {
         if (signal?.aborted) return;
         loaded = false;
-        body.replaceChildren(node('p', 'plan-error', 'This recorded input could not be loaded. Close and reopen this section to retry.'));
+        body.replaceChildren(node('p', 'plan-error', 'This prompt could not be loaded. Close and reopen this section to retry.'));
       }
     });
     parent.append(detail);
@@ -225,7 +225,7 @@ export function createPlanView({ outline, slides, loadIntent, onShowSlide, annou
     const planned = outline.slides.find((item) => item.slide_id === slide.id);
     buttons.forEach((button, position) => button.setAttribute('aria-pressed', String(position === index)));
     detail.setAttribute('aria-busy', 'true');
-    detail.replaceChildren(node('p', 'plan-loading', 'Loading the full page plan…'));
+    detail.replaceChildren(node('p', 'plan-loading', 'Loading the slide plan…'));
     try {
       const intent = await loadIntent(slide, pageFetch.signal);
       if (identity !== request || signal?.aborted || !article.isConnected) return;
@@ -249,7 +249,7 @@ export function createPlanView({ outline, slides, loadIntent, onShowSlide, annou
       announce('Planning details for slide ' + (index + 1) + '. ' + planned.dominant_message);
     } catch (error) {
       if (identity !== request || signal?.aborted || error.name === 'AbortError' || !article.isConnected) return;
-      detail.replaceChildren(node('p', 'plan-error', 'The full content for this page could not be loaded. Its completed slide remains available in the presentation viewer.'));
+      detail.replaceChildren(node('p', 'plan-error', 'This slide’s plan could not be loaded. You can still view the slide in Sample presentations.'));
       current = null;
     } finally {
       if (identity === request) detail.setAttribute('aria-busy', 'false');

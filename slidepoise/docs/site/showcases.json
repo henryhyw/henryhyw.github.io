@@ -57,18 +57,18 @@
       "run/work/deck-outline.json": "Slide outline",
       "run/work/planning-assumptions.json": "Planning assumptions",
       "assets/s02-opportunities-target.png": "AI-generated design",
-      "assets/s02-opportunities-semantic.png": "Reconstruction highlights",
+      "assets/s02-opportunities-semantic.png": "Element groups",
       "run/slides/s02-opportunities/work/reconstruction/measurement/debug_overlay.png": "OpenCV measurements",
       "run/slides/s02-opportunities/work/reconstruction/constructor-scene.json": "PowerPoint object structure",
       "run/slides/s02-opportunities/deliverables/comparison.png": "Design and PowerPoint comparison",
       "run/work/cross-slide-calibration-review.json": "Cross-slide review",
       "run/work/deck-review.json": "Deck review",
-      "run/work/native-edit-proof/comparison.png": "Native editing example"
+      "run/work/native-edit-proof/comparison.png": "Text and chart edits"
     },
     "personal-thinking-system": {
       "run/work/deck-outline.json": "Slide outline",
       "assets/s04-trace-target.png": "AI-generated design",
-      "assets/s04-trace-semantic.png": "Reconstruction highlights",
+      "assets/s04-trace-semantic.png": "Element groups",
       "run/slides/s04-trace/work/reconstruction/measurement/debug_overlay.png": "OpenCV measurements",
       "run/slides/s04-trace/work/reconstruction/constructor-scene.json": "PowerPoint object structure",
       "run/slides/s04-trace/deliverables/comparison.png": "Design and PowerPoint comparison",
@@ -89,11 +89,11 @@
         "intent": "run/slides/s01-recommendation/work/slide-intent.json",
         "inputs": [
           {
-            "label": "Initial image-generation input",
+            "label": "Initial generation prompt",
             "path": "run/slides/s01-recommendation/work/generation-request-assets-used.json"
           },
           {
-            "label": "Focused asset treatment edit",
+            "label": "Icon revision prompt",
             "path": "run/slides/s01-recommendation/work/image-edit-request-assets-used.json"
           }
         ]
@@ -102,11 +102,11 @@
         "intent": "run/slides/s02-opportunities/work/slide-intent.json",
         "inputs": [
           {
-            "label": "Initial image-generation input",
+            "label": "Initial generation prompt",
             "path": "run/slides/s02-opportunities/work/generation-request-assets-used.json"
           },
           {
-            "label": "Focused asset treatment edit",
+            "label": "Icon revision prompt",
             "path": "run/slides/s02-opportunities/work/image-edit-request-assets-used.json"
           }
         ]
@@ -115,11 +115,11 @@
         "intent": "run/slides/s03-operating-model/work/slide-intent.json",
         "inputs": [
           {
-            "label": "Initial image-generation input",
+            "label": "Initial generation prompt",
             "path": "run/slides/s03-operating-model/work/generation-request-assets-used.json"
           },
           {
-            "label": "Focused asset treatment edit",
+            "label": "Icon revision prompt",
             "path": "run/slides/s03-operating-model/work/image-edit-request-assets-used.json"
           }
         ]
@@ -128,11 +128,11 @@
         "intent": "run/slides/s04-delivery-roadmap/work/slide-intent.json",
         "inputs": [
           {
-            "label": "Initial image-generation input",
+            "label": "Initial generation prompt",
             "path": "run/slides/s04-delivery-roadmap/work/generation-request-assets-used.json"
           },
           {
-            "label": "Focused asset treatment edit",
+            "label": "Icon revision prompt",
             "path": "run/slides/s04-delivery-roadmap/work/image-edit-request-assets-used.json"
           }
         ]
@@ -141,7 +141,7 @@
         "intent": "run/slides/s05-investment-decision/work/slide-intent.json",
         "inputs": [
           {
-            "label": "Initial image-generation input",
+            "label": "Initial generation prompt",
             "path": "run/slides/s05-investment-decision/work/generation-request-assets-used.json"
           }
         ]
@@ -152,7 +152,7 @@
         "intent": "run/slides/s01-opening/work/slide-intent.json",
         "inputs": [
           {
-            "label": "Historical image-generation input",
+            "label": "Image-generation prompt",
             "path": "run/slides/s01-opening/work/imagegen-prompt.txt"
           }
         ]
@@ -161,7 +161,7 @@
         "intent": "run/slides/s02-question/work/slide-intent.json",
         "inputs": [
           {
-            "label": "Historical image-generation input",
+            "label": "Image-generation prompt",
             "path": "run/slides/s02-question/work/imagegen-prompt.txt"
           }
         ]
@@ -170,11 +170,11 @@
         "intent": "run/slides/s03-practice/work/slide-intent.json",
         "inputs": [
           {
-            "label": "Historical image-generation input",
+            "label": "Image-generation prompt",
             "path": "run/slides/s03-practice/work/imagegen-prompt.txt"
           },
           {
-            "label": "Collect illustration request",
+            "label": "Collect illustration prompt",
             "path": "run/slides/s03-practice/work/illustrations/collect-collage-request.json"
           },
           {
@@ -191,7 +191,7 @@
         "intent": "run/slides/s04-trace/work/slide-intent.json",
         "inputs": [
           {
-            "label": "Historical image-generation input",
+            "label": "Image-generation prompt",
             "path": "run/slides/s04-trace/work/imagegen-prompt.txt"
           }
         ]
@@ -200,7 +200,7 @@
         "intent": "run/slides/s05-close/work/slide-intent.json",
         "inputs": [
           {
-            "label": "Historical image-generation input",
+            "label": "Image-generation prompt",
             "path": "run/slides/s05-close/work/imagegen-prompt.txt"
           }
         ]

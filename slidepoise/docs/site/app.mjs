@@ -33,7 +33,7 @@ function updateObjectStatus() {
     : state.mode === 'target'
       ? 'AI-generated image'
       : state.objectStatus === 'loading'
-        ? 'Loading native objects…'
+        ? 'Loading PowerPoint objects…'
         : state.objectStatus === 'ready' && state.objectCount
           ? 'Read-only · Select an object'
           : 'Read-only PowerPoint preview';
@@ -286,7 +286,7 @@ const WORKFLOW = [
   { id: 'plan', title: 'Plan', description: 'Decide what each slide needs to communicate.', entry: 'Slide outline' },
   { id: 'design', title: 'Design', description: 'Explore layouts using the content and references.', entry: 'Generated design', detail: 'The image-generation prompt includes the slide content, visual references, style guidance and the space available on the page.' },
   { id: 'reconstruct', title: 'Reconstruct', description: 'Build the text, charts and shapes in PowerPoint.', entry: 'Reconstruction' },
-  { id: 'review', title: 'Review', description: 'Check each slide and the deck as a whole.', entry: 'Review comparisons' },
+  { id: 'review', title: 'Review', description: 'Review content, layout and consistency across slides.', entry: 'Review comparisons' },
 ];
 
 function workflowFor(deck, configuration) {
@@ -462,14 +462,14 @@ async function loadWalkthrough(configuration) {
       [nativeLeft - 18, nativeTop - 30, nativeWidth + 36, nativeHeight + 42], fullSize,
       'The reconstructed native chart from the actual PowerPoint render.');
     bindArtifact('walkthrough-brief', 'Slide brief', '', paths.intent, { render: () => renderSlideBrief(intent, slide.planning.inputs) });
-    bindArtifact('walkthrough-target-open', 'AI-generated design', 'The generated content image is shown in its final slide position. PowerPoint supplies the shared header and footer.', slide.target, { canvas: deck.canvas });
+    bindArtifact('walkthrough-target-open', 'AI-generated design', 'This image covers the slide’s content area. Shared headers and footers are added in PowerPoint.', slide.target, { canvas: deck.canvas });
     bindArtifact('walkthrough-semantic-open', 'Chart interpretation', 'The Agent treats these categories, values and columns as a single editable chart.', slide.evidence, { crop: { box: crop, size } });
-    bindArtifact('walkthrough-measurement-open', 'Chart measurements', 'OpenCV records ' + ink[2] + ' × ' + ink[3] + ' pixel bounds around the visible ink in this chart region. The Agent uses this evidence to set object geometry.', paths.measurement_image, { crop: { box: crop, size } });
+    bindArtifact('walkthrough-measurement-open', 'Chart measurements', 'The detected chart region measures ' + ink[2] + ' × ' + ink[3] + ' pixels. The Agent uses these measurements to position and size the PowerPoint chart.', paths.measurement_image, { crop: { box: crop, size } });
     state.walkthrough = { deckIndex, slideId: slide.id, objectId: native.id };
     byId('walkthrough').hidden = false;
     byId('walkthrough-loading').hidden = true;
   } catch (error) {
-    byId('walkthrough-loading').textContent = 'The slide walkthrough could not be loaded. Its original evidence remains available in the sample viewer.';
+    byId('walkthrough-loading').textContent = 'This example could not be loaded. You can still inspect the slides in Sample presentations.';
     console.error('Slide walkthrough unavailable', error);
   }
 }
@@ -586,7 +586,7 @@ async function openArtifact({ title, description = '', url, trigger = document.a
   byId('artifact-description').textContent = description;
   byId('artifact-description').hidden = !description;
   const body = byId('artifact-body');
-  body.replaceChildren(element('p', 'artifact-loading', 'Loading the source artifact…'));
+  body.replaceChildren(element('p', 'artifact-loading', 'Loading the preview…'));
   if (!dialog.open) dialog.showModal();
   if (render) {
     body.replaceChildren(render());
