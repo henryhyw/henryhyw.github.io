@@ -625,10 +625,10 @@
   {
     "id": 18,
     "source_id": "projects:slidepoise",
-    "route": "/slidepoise/docs/site/",
-    "page": "SlidePoise",
+    "route": "/projects",
+    "page": "Builds",
     "title": "SlidePoise",
-    "anchor": "",
+    "anchor": "slidepoise",
     "description": "SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. AI helps develop the content and explore compositions using your references and assets. The Agent interprets the chosen design, OpenCV measures its geometry, and local tools reconstruct the slides as editable objects.",
     "body": "SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. AI helps develop the content and explore compositions using your references and assets. The Agent interprets the chosen design, OpenCV measures its geometry, and local tools reconstruct the slides as editable objects. Reviewing the rendered deck connects the original design to the finished presentation, with shared styles and original assets maintaining consistency across slides.",
     "parts": [
@@ -663,10 +663,10 @@
   {
     "id": 19,
     "source_id": "projects:searchstory",
-    "route": "/aipersonalarchive",
-    "page": "An AI Interface for Exploring a Personal Archive",
+    "route": "/projects",
+    "page": "Builds",
     "title": "An AI Interface for Exploring a Personal Archive",
-    "anchor": "",
+    "anchor": "searchstory",
     "description": "This project uses AI to help visitors explore the work, research, photographs, and writing on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and optional narration. View composes a reading path using the original projects, images, writing, and interactive components.",
     "body": "This project uses AI to help visitors explore the work, research, photographs, and writing on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and optional narration. View composes a reading path using the original projects, images, writing, and interactive components. A saved View preserves its question, page, illustration, narration, and sources at a particular moment. These snapshots make it possible to compare different perspectives on the archive and return to a question as the site grows.",
     "parts": [
@@ -694,10 +694,10 @@
   {
     "id": 20,
     "source_id": "projects:pwcItOps",
-    "route": "/ai-it-operations",
-    "page": "AI for IT Operations",
+    "route": "/projects",
+    "page": "Builds",
     "title": "AI for IT Operations",
-    "anchor": "",
+    "anchor": "pwcItOps",
     "description": "Knowledge Management serves the platform’s RAG question-answering assistant. Acquisition begins with unanswered user questions and model-predicted knowledge gaps. Related questions are clustered into coverage objectives. Seed discovery and focused crawling find authoritative evidence, using the original questions as minimum coverage and the objective to guide broader acquisition.",
     "body": "Knowledge Management serves the platform’s RAG question-answering assistant. Acquisition begins with unanswered user questions and model-predicted knowledge gaps. Related questions are clustered into coverage objectives. Seed discovery and focused crawling find authoritative evidence, using the original questions as minimum coverage and the objective to guide broader acquisition. Approved content passes through an ingestion pipeline for extraction, normalisation, deduplication, and chunking. A Source Registry keeps accepted snapshots, monitoring state, and provenance mappings to the Knowledge Base. Source changes trigger assessment for follow-up retrieval, replacement, deletion, or no action, with human approval before changes are committed. Browser Control interprets natural-language tickets and opens a dedicated application tab. I chose a browser extension after comparing cloud browsers and local Playwright services because one add-on could both control the tab and show interaction cards beside the work. It runs in the operator’s existing Chrome or Edge environment, keeping sign-in, internal access, MFA, and manual intervention in the same browser. Reasoning and task state stay in a central FastAPI and LangGraph service, with Playwright actions reaching the extension through a Chrome DevTools Protocol relay. Manual sign-in, multi-factor authentication, and approval are part of the task flow. The operator can pause, resume, take over, or stop the agent. After human input, the agent continues from the current page, verifies the result, and records the actions and outcome with the ticket.",
     "parts": [
@@ -732,10 +732,10 @@
   {
     "id": 21,
     "source_id": "projects:insurance",
-    "route": "/playbook",
-    "page": "Insurance Product Configuration Engine",
+    "route": "/projects",
+    "page": "Builds",
     "title": "Insurance Product Configuration Engine",
-    "anchor": "",
+    "anchor": "insurance",
     "description": "One banking app supported many insurance products, each with different screens, fields, and conditional follow-ups. Business requirements described what a product needed to collect, design libraries described reusable screens and UI components, and engineering needed an executable configuration. The key dependency was the mapping between those representations across products and markets.",
     "body": "One banking app supported many insurance products, each with different screens, fields, and conditional follow-ups. Business requirements described what a product needed to collect, design libraries described reusable screens and UI components, and engineering needed an executable configuration. The key dependency was the mapping between those representations across products and markets. The core mapping was product specification to business scenarios to UI-component requirements. I reorganised the source information into linked libraries and decision tables so each layer could be maintained while the configuration rules connected them. The production tool ran in Excel with a VBA engine. It supported conditional follow-up fields, wildcard matching, right-side rule overrides, and a dynamic form for non-technical users. I developed four versions and added an embedded tutorial so the tool could be maintained after my internship.",
     "parts": [
@@ -769,10 +769,10 @@
   {
     "id": 22,
     "source_id": "projects:scrollytelling",
-    "route": "/scrollytelling",
-    "page": "Interactive Scrollytelling Deck",
+    "route": "/projects",
+    "page": "Builds",
     "title": "Interactive Scrollytelling Deck",
-    "anchor": "",
+    "anchor": "scrollytelling",
     "description": "For a course presentation about the electricity and water demands of AI infrastructure, I built a web narrative whose charts develop as the reader scrolls. Figures stay in view while the explanation introduces new relationships. A shared scene schema and reusable D3 renderers separate the presentation’s content from the code that draws it.",
     "body": "For a course presentation about the electricity and water demands of AI infrastructure, I built a web narrative whose charts develop as the reader scrolls. Figures stay in view while the explanation introduces new relationships. A shared scene schema and reusable D3 renderers separate the presentation’s content from the code that draws it. The resulting engine can support other stories using the same chart builders, layout, and animation settings.",
     "parts": [
@@ -816,10 +816,10 @@
   {
     "id": 23,
     "source_id": "projects:pwcRag",
-    "route": "/ragflow-pipeline",
-    "page": "A Structure-Preserving RAG Ingestion Pipeline",
+    "route": "/projects",
+    "page": "Builds",
     "title": "A Structure-Preserving RAG Ingestion Pipeline",
-    "anchor": "",
+    "anchor": "pwcRag",
     "description": "The architectural risk appeared before retrieval began. If ingestion separated a passage from the note it refers to or reduced a flowchart to disconnected text, no later ranking or generation step could reliably restore the missing relationship. MinerU rejoined paragraphs and tables across page breaks. Its OCR-based path recovered merged cells but missed nested tables in the tests.",
     "body": "The architectural risk appeared before retrieval began. If ingestion separated a passage from the note it refers to or reduced a flowchart to disconnected text, no later ranking or generation step could reliably restore the missing relationship. MinerU rejoined paragraphs and tables across page breaks. Its OCR-based path recovered merged cells but missed nested tables in the tests. The built-in visual-language model recovered both as HTML. I then found that subsequent processing in the tested RAGFlow path discarded those tags, while LlamaIndex preserved the structure through indexing, retrieval and answer generation. Cross-page footnotes and remarks needed explicit linking. I wrote a Python linker that used reference labels and document context to attach each note to its citing text before chunking. For flowchart images, I chose Mermaid to represent nodes and branches as searchable text that could be rendered back for inspection. Later research showed that MinerU’s built-in VLM already supported this conversion, bringing tables and flowcharts into the same parser and model. A controlled five-page document let me repeat the checks across the full pipeline. The linker resolved all 13 cross-page references, and the reconstructed flowchart preserved every node, edge and label and supported correct answers to both test questions. I used this evidence alongside deployment and operating-cost analysis to develop the client recommendation, including its preference to operate fewer AI models.",
     "parts": [
@@ -854,10 +854,10 @@
   {
     "id": 24,
     "source_id": "projects:stride",
-    "route": "/stride",
-    "page": "Stride Support",
+    "route": "/projects",
+    "page": "Builds",
     "title": "Stride Support",
-    "anchor": "",
+    "anchor": "stride",
     "description": "Stride Support combines retrieval-augmented generation (RAG), recommendations and tool use in a customer-support conversation. Hybrid retrieval blends BM25 word matching with BGE embeddings to find relevant products and policy passages. Recommendations combine product similarity with purchase patterns, while a fine-tuned multilingual BERT (mBERT) classifier supplies a sentiment cue for the response.",
     "body": "Stride Support combines retrieval-augmented generation (RAG), recommendations and tool use in a customer-support conversation. Hybrid retrieval blends BM25 word matching with BGE embeddings to find relevant products and policy passages. Recommendations combine product similarity with purchase patterns, while a fine-tuned multilingual BERT (mBERT) classifier supplies a sentiment cue for the response. A FastAPI orchestration layer gives the language model access to five Model Context Protocol (MCP) servers covering policies, products, recommendations, customers and complaints. The model can retrieve information, query an order and file or update a complaint across successive tool calls. The React interface keeps the selected purchase available throughout the conversation. Separate evaluations examine retrieval relevance, tool routing, complete responses and sentiment classification.",
     "parts": [
@@ -898,10 +898,10 @@
   {
     "id": 25,
     "source_id": "projects:dealtracker",
-    "route": "/dealtracker",
-    "page": "Dealtracker",
+    "route": "/projects",
+    "page": "Builds",
     "title": "Dealtracker",
-    "anchor": "",
+    "anchor": "dealtracker",
     "description": "While on exchange in Melbourne, I wanted to follow outdoor-clothing sales without repeatedly checking long product pages. Dealtracker scans two retailers on a schedule and matches their listings against my brand, size, gender, and discount preferences. Store-specific request handling and data normalisation account for differences between the sites.",
     "body": "While on exchange in Melbourne, I wanted to follow outdoor-clothing sales without repeatedly checking long product pages. Dealtracker scans two retailers on a schedule and matches their listings against my brand, size, gender, and discount preferences. Store-specific request handling and data normalisation account for differences between the sites. A saved history tracks which products have already appeared in an alert. The next email groups new matches by brand, with photographs, prices, discounts and product links.",
     "parts": [
@@ -936,10 +936,10 @@
   {
     "id": 26,
     "source_id": "projects:lexaday",
-    "route": "/lexaday",
-    "page": "Lexaday",
+    "route": "/projects",
+    "page": "Builds",
     "title": "Lexaday",
-    "anchor": "",
+    "anchor": "lexaday",
     "description": "Lexaday began with an interest in images as memory cues for vocabulary. Giving every word its own image would create a large collection of separate associations. I wanted to explore whether an image attached to a shared root could help a learner develop a feel for its meaning and recognise it again in unfamiliar words. Each lesson develops a root through related words, examples and an AI-generated visual mnemonic.",
     "body": "Lexaday began with an interest in images as memory cues for vocabulary. Giving every word its own image would create a large collection of separate associations. I wanted to explore whether an image attached to a shared root could help a learner develop a feel for its meaning and recognise it again in unfamiliar words. Each lesson develops a root through related words, examples and an AI-generated visual mnemonic. Personalised spaced repetition brings earlier roots back alongside new material. GitHub Actions runs the language and image models, assembles the daily email and saves each learner’s updated review history.",
     "parts": [
@@ -983,10 +983,10 @@
   {
     "id": 27,
     "source_id": "projects:early",
-    "route": "/early",
-    "page": "How I Started Building with Code",
+    "route": "/projects",
+    "page": "Builds",
     "title": "How I Started Building with Code",
-    "anchor": "",
+    "anchor": "early",
     "description": "Seeing a teacher automate folder creation with a batch script made me curious about what else I could make a computer do. During junior high and high school, I taught myself Java and Python and treated code like building blocks, trying combinations and exploring the possibilities.",
     "body": "Seeing a teacher automate folder creation with a batch script made me curious about what else I could make a computer do. During junior high and high school, I taught myself Java and Python and treated code like building blocks, trying combinations and exploring the possibilities. I built desktop applications, a Scientific American podcast downloader, Chrome extensions, a music downloader, Kiwiview’s first website and automation scripts. Some experiments also answered a specific need, such as Econographer, a Word add-in for the economics diagrams we used in class. The projects follow that period in chronological order.",
     "parts": [
@@ -4068,7 +4068,7 @@
     "route": "/home",
     "page": "Home",
     "title": "What Henry is currently doing",
-    "anchor": "currently",
+    "anchor": "story-now",
     "description": "Henry is developing SlidePoise, an open-source agentic slide generation framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI Personal Archive, the Search, Ask and View experiences on his personal website. Visitors can find original passages, ask for cited answers and compose a reading path around their own questions.",
     "body": "Henry is developing SlidePoise, an open-source agentic slide generation framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI Personal Archive, the Search, Ask and View experiences on his personal website. Visitors can find original passages, ask for cited answers and compose a reading path around their own questions. Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong. Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later. Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking.",
     "parts": [
