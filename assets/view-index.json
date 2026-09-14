@@ -2273,10 +2273,10 @@
       "page": "The View Gallery",
       "title": "The View Gallery",
       "anchor": "",
-      "description": "Every perspective becomes an exhibition A View begins with someone else’s way of seeing me. It gathers projects, writing, photographs and experiences around a question I may never have thought to ask myself. I wanted that perspective to feel like more than a page. I wanted it to become a place the visitor could enter. The View Gallery gives every perspective its own exhibition.",
-      "body": "Every perspective becomes an exhibition A View begins with someone else’s way of seeing me. It gathers projects, writing, photographs and experiences around a question I may never have thought to ask myself. I wanted that perspective to feel like more than a page. I wanted it to become a place the visitor could enter. The View Gallery gives every perspective its own exhibition. Its story appears on the walls, its original sources become exhibits, and its route is composed around the material it contains. The visitor can read the same View as an article or move through it as a spatial experience, with one saved position connecting both forms.",
+      "description": "Every perspective becomes an exhibition A View begins with another person’s way of seeing me. It brings projects, writing, photographs and experiences together around a question I may never have thought to ask myself. I built The View Gallery so each of those perspectives could be entered and experienced as an exhibition. The project extends the View system in AI × Self.",
+      "body": "Every perspective becomes an exhibition A View begins with another person’s way of seeing me. It brings projects, writing, photographs and experiences together around a question I may never have thought to ask myself. I built The View Gallery so each of those perspectives could be entered and experienced as an exhibition. The project extends the View system in AI × Self. A View already had an argument, a sequence of sections and links to its original sources. The Gallery treats that structure as an exhibition brief. It composes rooms around the material, places the narrative on the walls and gives every source a form that can be encountered in space.",
       "parts": [
-        "Every perspective becomes an exhibition A View begins with someone else’s way of seeing me. It gathers projects, writing, photographs and experiences around a question I may never have thought to ask myself. I wanted that perspective to feel like more than a page. I wanted it to become a place the visitor could enter. The View Gallery gives every perspective its own exhibition. Its story appears on the walls, its original sources become exhibits, and its route is composed around the material it contains. The visitor can read the same View as an article or move through it as a spatial experience, with one saved position connecting both forms."
+        "Every perspective becomes an exhibition A View begins with another person’s way of seeing me. It brings projects, writing, photographs and experiences together around a question I may never have thought to ask myself. I built The View Gallery so each of those perspectives could be entered and experienced as an exhibition. The project extends the View system in AI × Self. A View already had an argument, a sequence of sections and links to its original sources. The Gallery treats that structure as an exhibition brief. It composes rooms around the material, places the narrative on the walls and gives every source a form that can be encountered in space."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2288,15 +2288,16 @@
     },
     {
       "id": 80,
-      "source_id": "viewgallery:i-began-with-a-shared-hall",
+      "source_id": "viewgallery:a-shared-hall-for-many-perspectives",
       "route": "/viewgallery",
       "page": "The View Gallery",
-      "title": "I began with a shared Hall",
-      "anchor": "i-began-with-a-shared-hall",
-      "description": "The Hall gives the collection a physical beginning. Visitors arrive far enough away to understand the whole interior, then move into a quieter view that brings the collection board, entrance, composition desk and pavilion into one field of attention. I designed two camera positions for the Hall because each reveals a different relationship. The frontal view makes the entrance clear.",
-      "body": "The Hall gives the collection a physical beginning. Visitors arrive far enough away to understand the whole interior, then move into a quieter view that brings the collection board, entrance, composition desk and pavilion into one field of attention. I designed two camera positions for the Hall because each reveals a different relationship. The frontal view makes the entrance clear. The diagonal view lets the collection feel like a place with depth and several possible directions. The first visit moves through both views before any prompt appears. Later visits remember the visitor’s chosen view and use a shorter arrival. The live demonstration is the real Gallery running inside this page. It uses the same rooms, camera paths, lighting and generated Views as the full experience.",
+      "title": "A shared Hall for many perspectives",
+      "anchor": "a-shared-hall-for-many-perspectives",
+      "description": "The Hall gives the collection a common beginning. One wall holds the public Views that visitors have chosen to share. The entrance presents the selected exhibition. A writing desk opens the composer for a new question. A small pavilion model leads to Henry’s Note and the thinking behind the project. I designed the Hall around two useful views. The frontal position makes the exhibition entrance immediately legible.",
+      "body": "The Hall gives the collection a common beginning. One wall holds the public Views that visitors have chosen to share. The entrance presents the selected exhibition. A writing desk opens the composer for a new question. A small pavilion model leads to Henry’s Note and the thinking behind the project. I designed the Hall around two useful views. The frontal position makes the exhibition entrance immediately legible. The diagonal position shows the collection board, entrance, desk and pavilion as parts of one interior. A first visit arrives from outside the room, settles into the frontal view and then turns across the Hall. Later visits use the visitor’s saved angle, so the arrival remains familiar without repeating the full introduction. The invitation in the centre also responds to what the visitor has already done. A first visit offers an introduction to the Gallery. An unfinished exhibition can continue from its saved position. Completing an exhibition leads towards composing a perspective or finding another one. The Hall therefore behaves as a place the visitor returns to, with a next step that reflects the visit so far. The live Gallery follows the actual camera path. Its first cycle includes the arrival into the Hall. Each later cycle begins from the Hall after the previous route has returned there.",
       "parts": [
-        "The Hall gives the collection a physical beginning. Visitors arrive far enough away to understand the whole interior, then move into a quieter view that brings the collection board, entrance, composition desk and pavilion into one field of attention. I designed two camera positions for the Hall because each reveals a different relationship. The frontal view makes the entrance clear. The diagonal view lets the collection feel like a place with depth and several possible directions. The first visit moves through both views before any prompt appears. Later visits remember the visitor’s chosen view and use a shorter arrival. The live demonstration is the real Gallery running inside this page. It uses the same rooms, camera paths, lighting and generated Views as the full experience."
+        "The Hall gives the collection a common beginning. One wall holds the public Views that visitors have chosen to share. The entrance presents the selected exhibition. A writing desk opens the composer for a new question. A small pavilion model leads to Henry’s Note and the thinking behind the project. I designed the Hall around two useful views. The frontal position makes the exhibition entrance immediately legible. The diagonal position shows the collection board, entrance, desk and pavilion as parts of one interior. A first visit arrives from outside the room, settles into the frontal view and then turns across the Hall. Later visits use the visitor’s saved angle, so the arrival remains familiar without repeating the full introduction. The invitation in the centre also responds to what the visitor has already done. A first visit offers an introduction to the Gallery.",
+        "An unfinished exhibition can continue from its saved position. Completing an exhibition leads towards composing a perspective or finding another one. The Hall therefore behaves as a place the visitor returns to, with a next step that reflects the visit so far. The live Gallery follows the actual camera path. Its first cycle includes the arrival into the Hall. Each later cycle begins from the Hall after the previous route has returned there."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2308,16 +2309,16 @@
     },
     {
       "id": 81,
-      "source_id": "viewgallery:i-translated-the-reading-into-a-route",
+      "source_id": "viewgallery:one-view-becomes-a-complete-exhibition",
       "route": "/viewgallery",
       "page": "The View Gallery",
-      "title": "I translated the reading into a route",
-      "anchor": "i-translated-the-reading-into-a-route",
-      "description": "The article establishes the intellectual structure of a View. It begins with a question, develops an answer across several sections and keeps every claim close to the original material that supports it. The exhibition keeps that structure and changes how the visitor encounters it. A section introduction becomes writing on a wall. Its supporting passage stays beside the work it explains.",
-      "body": "The article establishes the intellectual structure of a View. It begins with a question, develops an answer across several sections and keeps every claim close to the original material that supports it. The exhibition keeps that structure and changes how the visitor encounters it. A section introduction becomes writing on a wall. Its supporting passage stays beside the work it explains. The source itself remains available through the exhibit. The afterword closes the route in the visitor’s language. Dates, room numbers and Further reading appear as exhibition information, so generated writing feels placed within a visit. I kept the article and exhibition connected through one saved narrative position. A visitor can leave a passage for its room, inspect the original work, then return to the article at the same place. The two forms become different ways of following one thought. This continuity also shaped the language of every control. A Gallery visitor enters an exhibition. An Exhibition visitor can browse the same material as articles. Each action names the destination before the interface changes. Article Exhibition 02 Spatial composition",
+      "title": "One View becomes a complete exhibition",
+      "anchor": "one-view-becomes-a-complete-exhibition",
+      "description": "Entering the selected View changes the scale of the experience. The visitor leaves the shared Hall and follows one perspective through its own sequence of rooms. The title and date establish the exhibition at the entrance. Each section begins with a short introduction on the wall, then develops through the original work that supports it.",
+      "body": "Entering the selected View changes the scale of the experience. The visitor leaves the shared Hall and follows one perspective through its own sequence of rooms. The title and date establish the exhibition at the entrance. Each section begins with a short introduction on the wall, then develops through the original work that supports it. An afterword closes the route, followed by the sources that invite further reading. The narrative and the evidence stay together. A passage about a place can lead to a globe. A photograph becomes a mounted work. Longer writing can appear in a book or on an angled reading surface. Interactive projects retain the interface that makes them meaningful. A visitor can open the original work inside the exhibition, use it, and return to the same place in the route. The exhibition and article share one saved narrative position. Moving from an article passage to the exhibition opens its room or source. Leaving the exhibition returns to the corresponding place in the article. This connection keeps the two forms coherent while allowing each one to use the strengths of its medium. The live exhibition below is the complete desktop experience. Its header, article switch, language control, theme, music, visit guide, audio guide and movement controls remain present. The demonstration follows the generated route, returns to the entrance after the afterword and begins again from that same spatial state. 02 Generating the exhibition",
       "parts": [
-        "The article establishes the intellectual structure of a View. It begins with a question, develops an answer across several sections and keeps every claim close to the original material that supports it. The exhibition keeps that structure and changes how the visitor encounters it. A section introduction becomes writing on a wall. Its supporting passage stays beside the work it explains. The source itself remains available through the exhibit. The afterword closes the route in the visitor’s language. Dates, room numbers and Further reading appear as exhibition information, so generated writing feels placed within a visit. I kept the article and exhibition connected through one saved narrative position. A visitor can leave a passage for its room, inspect the original work, then return to the article at the same place. The two forms become different ways of following one thought.",
-        "This continuity also shaped the language of every control. A Gallery visitor enters an exhibition. An Exhibition visitor can browse the same material as articles. Each action names the destination before the interface changes. Article Exhibition 02 Spatial composition"
+        "Entering the selected View changes the scale of the experience. The visitor leaves the shared Hall and follows one perspective through its own sequence of rooms. The title and date establish the exhibition at the entrance. Each section begins with a short introduction on the wall, then develops through the original work that supports it. An afterword closes the route, followed by the sources that invite further reading. The narrative and the evidence stay together. A passage about a place can lead to a globe. A photograph becomes a mounted work. Longer writing can appear in a book or on an angled reading surface. Interactive projects retain the interface that makes them meaningful. A visitor can open the original work inside the exhibition, use it, and return to the same place in the route. The exhibition and article share one saved narrative position.",
+        "Moving from an article passage to the exhibition opens its room or source. Leaving the exhibition returns to the corresponding place in the article. This connection keeps the two forms coherent while allowing each one to use the strengths of its medium. The live exhibition below is the complete desktop experience. Its header, article switch, language control, theme, music, visit guide, audio guide and movement controls remain present. The demonstration follows the generated route, returns to the entrance after the afterword and begins again from that same spatial state. 02 Generating the exhibition"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2329,15 +2330,16 @@
     },
     {
       "id": 82,
-      "source_id": "viewgallery:the-building-responds-to-the-material",
+      "source_id": "viewgallery:the-view-provides-the-brief",
       "route": "/viewgallery",
       "page": "The View Gallery",
-      "title": "The building responds to the material",
-      "anchor": "the-building-responds-to-the-material",
-      "description": "The Hall holds the collection, entrance, composition desk and pavilion within one navigable interior. A generated View can contain one section or many, and every section can bring a different mixture of writing, images, places and interactive work. I could not treat the gallery as one fixed model with content pasted into predetermined slots.",
-      "body": "The Hall holds the collection, entrance, composition desk and pavilion within one navigable interior. A generated View can contain one section or many, and every section can bring a different mixture of writing, images, places and interactive work. I could not treat the gallery as one fixed model with content pasted into predetermined slots. The architecture needed rules that could compose a credible exhibition from whatever the View produced. The layout system reads the number of sections, the number and shape of sources, and the kind of attention each source requires. It chooses room proportions, exhibit positions and the order of the route. The first work sits close to its introduction. Sightlines lead towards the next room. A room with one work receives a focused layout, while a larger section can distribute several works without forcing the visitor to double back.",
+      "title": "The View provides the brief",
+      "anchor": "the-view-provides-the-brief",
+      "description": "A generated View contains a question, an interpretive lens, a title and a sequence of sections. Each section carries its narrative, source references and the media or interactive components selected from the archive. The exhibition generator reads this structure before it places anything in space. The number of sections determines the room sequence. The amount of material shapes each room’s length and density.",
+      "body": "A generated View contains a question, an interpretive lens, a title and a sequence of sections. Each section carries its narrative, source references and the media or interactive components selected from the archive. The exhibition generator reads this structure before it places anything in space. The number of sections determines the room sequence. The amount of material shapes each room’s length and density. Source types influence the objects that the room needs. The generator then establishes doorways, wall lengths, exhibit positions, sightlines and the order of the visit. A View with one concentrated section receives a different plan from a View that connects several themes across many sources. The generation interface is complete enough to produce this structure without manual editing. When Gemini omits a section introduction or afterword, a follow-up request derives the missing writing from the question, narrative and sources that have already been generated. The resulting View can open as an article and as a complete exhibition from the same saved record. Material in the View Spatial response Purpose Section sequence and introductions Rooms, thresholds and wall writing Carry the argument through the building Photographs and visual work Mounted works sized to their aspect ratio Preserve the original composition Places and journeys A globe with locations and source details Make geographic relationships tangible Long-form writing Books and angled reading surfaces Support slower, closer reading Interactive projects The original component inside an exhibition frame Keep the work designed and functional",
       "parts": [
-        "The Hall holds the collection, entrance, composition desk and pavilion within one navigable interior. A generated View can contain one section or many, and every section can bring a different mixture of writing, images, places and interactive work. I could not treat the gallery as one fixed model with content pasted into predetermined slots. The architecture needed rules that could compose a credible exhibition from whatever the View produced. The layout system reads the number of sections, the number and shape of sources, and the kind of attention each source requires. It chooses room proportions, exhibit positions and the order of the route. The first work sits close to its introduction. Sightlines lead towards the next room. A room with one work receives a focused layout, while a larger section can distribute several works without forcing the visitor to double back."
+        "A generated View contains a question, an interpretive lens, a title and a sequence of sections. Each section carries its narrative, source references and the media or interactive components selected from the archive. The exhibition generator reads this structure before it places anything in space. The number of sections determines the room sequence. The amount of material shapes each room’s length and density. Source types influence the objects that the room needs. The generator then establishes doorways, wall lengths, exhibit positions, sightlines and the order of the visit. A View with one concentrated section receives a different plan from a View that connects several themes across many sources. The generation interface is complete enough to produce this structure without manual editing.",
+        "When Gemini omits a section introduction or afterword, a follow-up request derives the missing writing from the question, narrative and sources that have already been generated. The resulting View can open as an article and as a complete exhibition from the same saved record. Material in the View Spatial response Purpose Section sequence and introductions Rooms, thresholds and wall writing Carry the argument through the building Photographs and visual work Mounted works sized to their aspect ratio Preserve the original composition Places and journeys A globe with locations and source details Make geographic relationships tangible Long-form writing Books and angled reading surfaces Support slower, closer reading Interactive projects The original component inside an exhibition frame Keep the work designed and functional"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2349,15 +2351,15 @@
     },
     {
       "id": 83,
-      "source_id": "viewgallery:read-the-view",
+      "source_id": "viewgallery:sources-become-exhibition-objects",
       "route": "/viewgallery",
       "page": "The View Gallery",
-      "title": "Read the View",
-      "anchor": "read-the-view",
-      "description": "Sections, passages, media and source types form the spatial brief.",
-      "body": "Sections, passages, media and source types form the spatial brief.",
+      "title": "Sources become exhibition objects",
+      "anchor": "sources-become-exhibition-objects",
+      "description": "The object is chosen from the source itself. A book hints at reading before its label is opened. A globe suggests movement across places. A glass case gives a small or detailed work an appropriate viewing angle. The object then adapts to its room, with its scale, orientation and approach position calculated from the available space. Saved interactive components receive special treatment.",
+      "body": "The object is chosen from the source itself. A book hints at reading before its label is opened. A globe suggests movement across places. A glass case gives a small or detailed work an appropriate viewing angle. The object then adapts to its room, with its scale, orientation and approach position calculated from the available space. Saved interactive components receive special treatment. Exhibition controls own their styling through explicit classes and data attributes, which prevents the room from flattening the original work. The HSBC insurance rule engine, for example, keeps its selects, decision table, matched state and output when it is opened from an exhibit. The exhibition adds a frame and a route back without rewriting the component itself.",
       "parts": [
-        "Sections, passages, media and source types form the spatial brief."
+        "The object is chosen from the source itself. A book hints at reading before its label is opened. A globe suggests movement across places. A glass case gives a small or detailed work an appropriate viewing angle. The object then adapts to its room, with its scale, orientation and approach position calculated from the available space. Saved interactive components receive special treatment. Exhibition controls own their styling through explicit classes and data attributes, which prevents the room from flattening the original work. The HSBC insurance rule engine, for example, keeps its selects, decision table, matched state and output when it is opened from an exhibit. The exhibition adds a frame and a route back without rewriting the component itself."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2369,15 +2371,15 @@
     },
     {
       "id": 84,
-      "source_id": "viewgallery:choose-the-object",
+      "source_id": "viewgallery:the-route-follows-the-argument",
       "route": "/viewgallery",
       "page": "The View Gallery",
-      "title": "Choose the object",
-      "anchor": "choose-the-object",
-      "description": "The form of each source determines how it should appear and open.",
-      "body": "The form of each source determines how it should appear and open.",
+      "title": "The route follows the argument",
+      "anchor": "the-route-follows-the-argument",
+      "description": "The first work belongs beside its section introduction, so the visit does not begin with a turn away from the argument it has just introduced. Later works lead towards the next doorway. The layout reserves circulation around every object and keeps entrances clear, which prevents a single exhibit from drifting into the threshold of another room. The generated sequence can still be left.",
+      "body": "The first work belongs beside its section introduction, so the visit does not begin with a turn away from the argument it has just introduced. Later works lead towards the next doorway. The layout reserves circulation around every object and keeps entrances clear, which prevents a single exhibit from drifting into the threshold of another room. The generated sequence can still be left. Visitors may walk freely, turn towards another object or use Previous and Next to resume the intended route. The same plan therefore supports a guided reading and an exploratory visit without building two separate exhibitions.",
       "parts": [
-        "The form of each source determines how it should appear and open."
+        "The first work belongs beside its section introduction, so the visit does not begin with a turn away from the argument it has just introduced. Later works lead towards the next doorway. The layout reserves circulation around every object and keeps entrances clear, which prevents a single exhibit from drifting into the threshold of another room. The generated sequence can still be left. Visitors may walk freely, turn towards another object or use Previous and Next to resume the intended route. The same plan therefore supports a guided reading and an exploratory visit without building two separate exhibitions."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2389,15 +2391,15 @@
     },
     {
       "id": 85,
-      "source_id": "viewgallery:compose-the-rooms",
+      "source_id": "viewgallery:movement-begins-from-the-current-camera",
       "route": "/viewgallery",
       "page": "The View Gallery",
-      "title": "Compose the rooms",
-      "anchor": "compose-the-rooms",
-      "description": "Scale, circulation and sightlines adapt to the material in this View.",
-      "body": "Scale, circulation and sightlines adapt to the material in this View.",
+      "title": "Movement begins from the current camera",
+      "anchor": "movement-begins-from-the-current-camera",
+      "description": "Every guided move starts from the position and direction the visitor already has. The camera chooses the shortest natural turn and keeps the horizon level. Travel time follows distance within a 2. 2 second maximum, so a nearby work opens quickly while a longer walk still communicates where the visitor is going. Some destinations need their own composition.",
+      "body": "Every guided move starts from the position and direction the visitor already has. The camera chooses the shortest natural turn and keeps the horizon level. Travel time follows distance within a 2. 2 second maximum, so a nearby work opens quickly while a longer walk still communicates where the visitor is going. Some destinations need their own composition. Henry’s Note moves from the interior to a controlled three-quarter view of the pavilion. Its text recedes first, the building moves into place, and the note returns after the camera settles. Reversing the sequence preserves the same spatial logic.",
       "parts": [
-        "Scale, circulation and sightlines adapt to the material in this View."
+        "Every guided move starts from the position and direction the visitor already has. The camera chooses the shortest natural turn and keeps the horizon level. Travel time follows distance within a 2. 2 second maximum, so a nearby work opens quickly while a longer walk still communicates where the visitor is going. Some destinations need their own composition. Henry’s Note moves from the interior to a controlled three-quarter view of the pavilion. Its text recedes first, the building moves into place, and the note returns after the camera settles. Reversing the sequence preserves the same spatial logic."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2409,15 +2411,15 @@
     },
     {
       "id": 86,
-      "source_id": "viewgallery:shape-the-route",
+      "source_id": "viewgallery:proximity-and-gaze-control-attention",
       "route": "/viewgallery",
       "page": "The View Gallery",
-      "title": "Shape the route",
-      "anchor": "shape-the-route",
-      "description": "Narrative order becomes a path that can be followed or left freely.",
-      "body": "Narrative order becomes a path that can be followed or left freely.",
+      "title": "Proximity and gaze control attention",
+      "anchor": "proximity-and-gaze-control-attention",
+      "description": "A nearby exhibit can activate when it enters a useful part of the view. Turning far enough away fades its panel, and looking back restores it. A distant object receives a small hover response. Selecting it walks the visitor closer before its content opens. The rule applies across the Gallery and Exhibition as a shared attention system. It also keeps camera dragging available outside the visible panel.",
+      "body": "A nearby exhibit can activate when it enters a useful part of the view. Turning far enough away fades its panel, and looking back restores it. A distant object receives a small hover response. Selecting it walks the visitor closer before its content opens. The rule applies across the Gallery and Exhibition as a shared attention system. It also keeps camera dragging available outside the visible panel. Pointer ownership ends when the pointer leaves a component, which prevents an exhibit from holding the camera after a drag has finished.",
       "parts": [
-        "Narrative order becomes a path that can be followed or left freely."
+        "A nearby exhibit can activate when it enters a useful part of the view. Turning far enough away fades its panel, and looking back restores it. A distant object receives a small hover response. Selecting it walks the visitor closer before its content opens. The rule applies across the Gallery and Exhibition as a shared attention system. It also keeps camera dragging available outside the visible panel. Pointer ownership ends when the pointer leaves a component, which prevents an exhibit from holding the camera after a drag has finished."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2429,16 +2431,15 @@
     },
     {
       "id": 87,
-      "source_id": "viewgallery:each-source-asks-for-its-own-form",
+      "source_id": "viewgallery:light-and-language-belong-to-the-room",
       "route": "/viewgallery",
       "page": "The View Gallery",
-      "title": "Each source asks for its own form",
-      "anchor": "each-source-asks-for-its-own-form",
-      "description": "A visitor begins a new perspective at a book that opens as they approach. I wanted the original material to remain recognisable. Photographs become framed works. Place-based memories become a globe that can be turned and opened. Longer writing appears as a book or angled reading stand. Interactive projects keep their own interfaces inside a larger exhibition frame.",
-      "body": "A visitor begins a new perspective at a book that opens as they approach. I wanted the original material to remain recognisable. Photographs become framed works. Place-based memories become a globe that can be turned and opened. Longer writing appears as a book or angled reading stand. Interactive projects keep their own interfaces inside a larger exhibition frame. The object provides a clue before the visitor reads a label. A book invites a slower kind of attention. A globe suggests movement across places. A glass case marks something that should be examined closely. The representation is selected from the source form, then adjusted for the room and the screen. Opening a work preserves its original layout and behaviour. A visitor can use the project itself, change a selection or open its full page, then return to the same position in the exhibition. An interactive source keeps its native controls when it opens inside the exhibition. 04 Movement and attention",
+      "title": "Light and language belong to the room",
+      "anchor": "light-and-language-belong-to-the-room",
+      "description": "Light and dark themes act as daytime and evening visits. The architecture keeps the same stone, paper and metal palette. Evening changes the illumination through pools of museum light and deeper ambient contrast. All materials, labels and lights use one transition duration, so the building changes as a single environment. A room begins to illuminate as the visitor reaches its threshold.",
+      "body": "Light and dark themes act as daytime and evening visits. The architecture keeps the same stone, paper and metal palette. Evening changes the illumination through pools of museum light and deeper ambient contrast. All materials, labels and lights use one transition duration, so the building changes as a single environment. A room begins to illuminate as the visitor reaches its threshold. The first section is lit when the exhibition opens. Section headings, afterword and Further reading use the language of the View. Handwritten questions select a script for that writing system across every place where handwriting appears.",
       "parts": [
-        "A visitor begins a new perspective at a book that opens as they approach. I wanted the original material to remain recognisable. Photographs become framed works. Place-based memories become a globe that can be turned and opened. Longer writing appears as a book or angled reading stand. Interactive projects keep their own interfaces inside a larger exhibition frame. The object provides a clue before the visitor reads a label. A book invites a slower kind of attention. A globe suggests movement across places. A glass case marks something that should be examined closely. The representation is selected from the source form, then adjusted for the room and the screen. Opening a work preserves its original layout and behaviour. A visitor can use the project itself, change a selection or open its full page, then return to the same position in the exhibition.",
-        "An interactive source keeps its native controls when it opens inside the exhibition. 04 Movement and attention"
+        "Light and dark themes act as daytime and evening visits. The architecture keeps the same stone, paper and metal palette. Evening changes the illumination through pools of museum light and deeper ambient contrast. All materials, labels and lights use one transition duration, so the building changes as a single environment. A room begins to illuminate as the visitor reaches its threshold. The first section is lit when the exhibition opens. Section headings, afterword and Further reading use the language of the View. Handwritten questions select a script for that writing system across every place where handwriting appears."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2450,16 +2451,15 @@
     },
     {
       "id": 88,
-      "source_id": "viewgallery:the-camera-should-preserve-a-sense-of-place",
+      "source_id": "viewgallery:guidance-remains-available-throughout-the-visit",
       "route": "/viewgallery",
       "page": "The View Gallery",
-      "title": "The camera should preserve a sense of place",
-      "anchor": "the-camera-should-preserve-a-sense-of-place",
-      "description": "Henry’s Note uses a wider architectural view before the letter becomes the focus. Every guided move begins from the visitor’s current camera. The camera takes the shortest natural turn, and its travel time follows distance within a comfortable maximum. A nearby work opens quickly. A distant work gives the visitor enough movement to understand where they are going. I use proximity and gaze together.",
-      "body": "Henry’s Note uses a wider architectural view before the letter becomes the focus. Every guided move begins from the visitor’s current camera. The camera takes the shortest natural turn, and its travel time follows distance within a comfortable maximum. A nearby work opens quickly. A distant work gives the visitor enough movement to understand where they are going. I use proximity and gaze together. When a nearby exhibit enters a useful part of the view, its reading panel can appear without another click. Turning far enough away lets the panel fade. Looking back brings it into focus again. A distant object receives a restrained hover response, and selecting it walks the visitor towards it before any content opens. The transition to Henry’s Note required a different rhythm. The letter recedes first, leaving the building visible. The camera then moves around the pavilion as one controlled gesture. The reverse sequence brings the architecture into place before the writing returns. This avoids a masking layer and lets the spatial relationship remain legible throughout the transition. 05 Atmosphere and language",
+      "title": "Guidance remains available throughout the visit",
+      "anchor": "guidance-remains-available-throughout-the-visit",
+      "description": "The Hall introduction moves through both Hall views and the four main destinations. Inside an exhibition, a shorter first-use guide identifies the visit sequence, audio guide and movement controls. The information control can reopen this guidance later. The audio guide follows the active stop and continues while the visitor walks, turns the camera or opens original work.",
+      "body": "The Hall introduction moves through both Hall views and the four main destinations. Inside an exhibition, a shorter first-use guide identifies the visit sequence, audio guide and movement controls. The information control can reopen this guidance later. The audio guide follows the active stop and continues while the visitor walks, turns the camera or opens original work. Its position stays fixed while the neighbouring control changes from free walking to Previous and Next. This continuity makes narration part of the visit instead of a separate playback mode.",
       "parts": [
-        "Henry’s Note uses a wider architectural view before the letter becomes the focus. Every guided move begins from the visitor’s current camera. The camera takes the shortest natural turn, and its travel time follows distance within a comfortable maximum. A nearby work opens quickly. A distant work gives the visitor enough movement to understand where they are going. I use proximity and gaze together. When a nearby exhibit enters a useful part of the view, its reading panel can appear without another click. Turning far enough away lets the panel fade. Looking back brings it into focus again. A distant object receives a restrained hover response, and selecting it walks the visitor towards it before any content opens. The transition to Henry’s Note required a different rhythm. The letter recedes first, leaving the building visible.",
-        "The camera then moves around the pavilion as one controlled gesture. The reverse sequence brings the architecture into place before the writing returns. This avoids a masking layer and lets the spatial relationship remain legible throughout the transition. 05 Atmosphere and language"
+        "The Hall introduction moves through both Hall views and the four main destinations. Inside an exhibition, a shorter first-use guide identifies the visit sequence, audio guide and movement controls. The information control can reopen this guidance later. The audio guide follows the active stop and continues while the visitor walks, turns the camera or opens original work. Its position stays fixed while the neighbouring control changes from free walking to Previous and Next. This continuity makes narration part of the visit instead of a separate playback mode."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2471,16 +2471,15 @@
     },
     {
       "id": 89,
-      "source_id": "viewgallery:the-room-carries-part-of-the-narrative",
+      "source_id": "viewgallery:adapting-the-exhibition-to-smaller-screens",
       "route": "/viewgallery",
       "page": "The View Gallery",
-      "title": "The room carries part of the narrative",
-      "anchor": "the-room-carries-part-of-the-narrative",
-      "description": "Light and dark themes became daytime and evening visits. The architecture keeps the same material identity across both. Evening adds pools of museum light, deeper shadows and quieter contrast. A room illuminates as the visitor reaches its threshold, and the first section is already lit when the exhibition begins. The writing on the walls belongs to the language of the exhibition.",
-      "body": "Light and dark themes became daytime and evening visits. The architecture keeps the same material identity across both. Evening adds pools of museum light, deeper shadows and quieter contrast. A room illuminates as the visitor reaches its threshold, and the first section is already lit when the exhibition begins. The writing on the walls belongs to the language of the exhibition. Section headings, afterword and Further reading use the visitor’s language. Handwritten questions use a script chosen for that writing system, which preserves the personal quality of the Gallery across English, Chinese, Japanese and other supported languages. Generated Views can occasionally arrive without a section introduction or afterword. The generation flow now asks Gemini to derive missing pieces from the narrative and sources that already exist. The exhibition can therefore complete its own interpretive structure without asking me to edit each View by hand. Wall writing, room light and source placement are generated as one exhibition composition.",
+      "title": "Adapting the exhibition to smaller screens",
+      "anchor": "adapting-the-exhibition-to-smaller-screens",
+      "description": "A desktop can hold the room and its narrative panel within one broad composition. Landscape phones divide the width between the exhibition and the reading sheet. Expanding the sheet gives it the whole screen, then restores the room when it closes. The visit, audio and route controls remain visible along the lower edge. Portrait uses a vertical composition.",
+      "body": "A desktop can hold the room and its narrative panel within one broad composition. Landscape phones divide the width between the exhibition and the reading sheet. Expanding the sheet gives it the whole screen, then restores the room when it closes. The visit, audio and route controls remain visible along the lower edge. Portrait uses a vertical composition. The room sits above a compact reading surface, longer content opens on request and the five Gallery destinations share equal width. Secondary controls float inside the surface they affect, which saves the vertical space that a second toolbar would consume.",
       "parts": [
-        "Light and dark themes became daytime and evening visits. The architecture keeps the same material identity across both. Evening adds pools of museum light, deeper shadows and quieter contrast. A room illuminates as the visitor reaches its threshold, and the first section is already lit when the exhibition begins. The writing on the walls belongs to the language of the exhibition. Section headings, afterword and Further reading use the visitor’s language. Handwritten questions use a script chosen for that writing system, which preserves the personal quality of the Gallery across English, Chinese, Japanese and other supported languages. Generated Views can occasionally arrive without a section introduction or afterword. The generation flow now asks Gemini to derive missing pieces from the narrative and sources that already exist.",
-        "The exhibition can therefore complete its own interpretive structure without asking me to edit each View by hand. Wall writing, room light and source placement are generated as one exhibition composition."
+        "A desktop can hold the room and its narrative panel within one broad composition. Landscape phones divide the width between the exhibition and the reading sheet. Expanding the sheet gives it the whole screen, then restores the room when it closes. The visit, audio and route controls remain visible along the lower edge. Portrait uses a vertical composition. The room sits above a compact reading surface, longer content opens on request and the five Gallery destinations share equal width. Secondary controls float inside the surface they affect, which saves the vertical space that a second toolbar would consume."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2492,16 +2491,15 @@
     },
     {
       "id": 90,
-      "source_id": "viewgallery:i-wanted-guidance-to-remain-quiet",
+      "source_id": "viewgallery:one-live-scene-at-a-time",
       "route": "/viewgallery",
       "page": "The View Gallery",
-      "title": "I wanted guidance to remain quiet",
-      "anchor": "i-wanted-guidance-to-remain-quiet",
-      "description": "The Gallery can introduce itself through a short tour of the Hall. It begins with the two Hall views, then visits the collection, entrance, composition desk and Henry’s Note. The surrounding interface recedes during the tour, leaving a small translucent guide that explains one place at a time. Inside an exhibition, first-time guidance has a narrower purpose.",
-      "body": "The Gallery can introduce itself through a short tour of the Hall. It begins with the two Hall views, then visits the collection, entrance, composition desk and Henry’s Note. The surrounding interface recedes during the tour, leaving a small translucent guide that explains one place at a time. Inside an exhibition, first-time guidance has a narrower purpose. It points out the visit sequence, audio guide and movement controls, then leaves the screen. An information entry remains available when someone wants to see the guidance again. The audio guide follows the active stop and continues through walking, camera transitions and opening original work. Its position remains stable while the controls beside it change from free walking to Previous and Next. The Hall also changes its invitation according to the visitor’s history. A first visit offers the tour. A partly viewed exhibition can continue. Finishing a View can lead towards composing a new perspective or browsing another one. The prompt reflects the next meaningful action instead of returning everyone to the same instruction. The visit, audio guide and movement controls remain visible without covering the work.",
+      "title": "One live scene at a time",
+      "anchor": "one-live-scene-at-a-time",
+      "description": "The project page uses the actual Gallery and Exhibition, so its rendering budget matters. A scaled 1440 × 810 iframe previously produced a drawing buffer as large as 2880 × 1620 on a 2× display. That single WebGL context could exhaust a phone’s GPU memory even though the frame looked small on the page.",
+      "body": "The project page uses the actual Gallery and Exhibition, so its rendering budget matters. A scaled 1440 × 810 iframe previously produced a drawing buffer as large as 2880 × 1620 on a 2× display. That single WebGL context could exhaust a phone’s GPU memory even though the frame looked small on the page. The live stages now enforce a drawing-buffer budget, request a low-power GPU in showcase mode and decode smaller textures for the embedded scene. Only the chapter in view owns a WebGL context. Leaving the chapter pauses the animation, releases the iframe and disposes its renderer. A constrained phone waits for an explicit play action before allocating the scene. These rules keep the full Gallery available while protecting the rest of the page.",
       "parts": [
-        "The Gallery can introduce itself through a short tour of the Hall. It begins with the two Hall views, then visits the collection, entrance, composition desk and Henry’s Note. The surrounding interface recedes during the tour, leaving a small translucent guide that explains one place at a time. Inside an exhibition, first-time guidance has a narrower purpose. It points out the visit sequence, audio guide and movement controls, then leaves the screen. An information entry remains available when someone wants to see the guidance again. The audio guide follows the active stop and continues through walking, camera transitions and opening original work. Its position remains stable while the controls beside it change from free walking to Previous and Next. The Hall also changes its invitation according to the visitor’s history. A first visit offers the tour.",
-        "A partly viewed exhibition can continue. Finishing a View can lead towards composing a new perspective or browsing another one. The prompt reflects the next meaningful action instead of returning everyone to the same instruction. The visit, audio guide and movement controls remain visible without covering the work."
+        "The project page uses the actual Gallery and Exhibition, so its rendering budget matters. A scaled 1440 × 810 iframe previously produced a drawing buffer as large as 2880 × 1620 on a 2× display. That single WebGL context could exhaust a phone’s GPU memory even though the frame looked small on the page. The live stages now enforce a drawing-buffer budget, request a low-power GPU in showcase mode and decode smaller textures for the embedded scene. Only the chapter in view owns a WebGL context. Leaving the chapter pauses the animation, releases the iframe and disposes its renderer. A constrained phone waits for an explicit play action before allocating the scene. These rules keep the full Gallery available while protecting the rest of the page."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2513,16 +2511,15 @@
     },
     {
       "id": 91,
-      "source_id": "viewgallery:the-visit-changes-shape-on-a-smaller-screen",
+      "source_id": "viewgallery:ai-self",
       "route": "/viewgallery",
       "page": "The View Gallery",
-      "title": "The visit changes shape on a smaller screen",
-      "anchor": "the-visit-changes-shape-on-a-smaller-screen",
-      "description": "Desktop can hold the room and narrative panel within one broad composition. A landscape phone divides that width between the exhibition and reading sheet. Expanding the sheet gives it the whole screen, then returns the room when it closes. Portrait uses a vertical relationship. The room stays above a compact reading surface, while longer content opens only when the visitor asks for it.",
-      "body": "Desktop can hold the room and narrative panel within one broad composition. A landscape phone divides that width between the exhibition and reading sheet. Expanding the sheet gives it the whole screen, then returns the room when it closes. Portrait uses a vertical relationship. The room stays above a compact reading surface, while longer content opens only when the visitor asks for it. Secondary controls float within the surface they affect, which preserves vertical space and keeps the Gallery from feeling like a compressed desktop interface. The case-study demo also respects the limits of a phone. js scene can be mounted at a time. It pauses outside the viewport and releases its iframe shortly afterwards. On constrained touch devices, the native still remains in place until the visitor chooses to start the live scene. Landscape keeps the room, reading sheet and visit controls within one visual field.",
+      "title": "AI × Self",
+      "anchor": "ai-self",
+      "description": "Search opens original material, Ask creates cited answers and View composes a reading around a visitor’s question. The View Gallery gives that last form a spatial life while keeping its narrative and sources intact.",
+      "body": "Search opens original material, Ask creates cited answers and View composes a reading around a visitor’s question. The View Gallery gives that last form a spatial life while keeping its narrative and sources intact.",
       "parts": [
-        "Desktop can hold the room and narrative panel within one broad composition. A landscape phone divides that width between the exhibition and reading sheet. Expanding the sheet gives it the whole screen, then returns the room when it closes. Portrait uses a vertical relationship. The room stays above a compact reading surface, while longer content opens only when the visitor asks for it. Secondary controls float within the surface they affect, which preserves vertical space and keeps the Gallery from feeling like a compressed desktop interface. The case-study demo also respects the limits of a phone. js scene can be mounted at a time. It pauses outside the viewport and releases its iframe shortly afterwards. On constrained touch devices, the native still remains in place until the visitor chooses to start the live scene.",
-        "Landscape keeps the room, reading sheet and visit controls within one visual field."
+        "Search opens original material, Ask creates cited answers and View composes a reading around a visitor’s question. The View Gallery gives that last form a spatial life while keeping its narrative and sources intact."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2534,26 +2531,6 @@
     },
     {
       "id": 92,
-      "source_id": "viewgallery:the-gallery-begins-with-ai-self",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "The Gallery begins with AI × Self",
-      "anchor": "the-gallery-begins-with-ai-self",
-      "description": "AI × Self is the archive beneath this project. Search opens original material at its precise location. Ask produces cited answers. View composes a focused reading path around a visitor’s question. The View Gallery takes that last form into space while keeping its narrative, media, interactions and saved sources intact.",
-      "body": "AI × Self is the archive beneath this project. Search opens original material at its precise location. Ask produces cited answers. View composes a focused reading path around a visitor’s question. The View Gallery takes that last form into space while keeping its narrative, media, interactions and saved sources intact. The Gallery gave me a way to let another person’s curiosity shape both the interpretation and the place where it is encountered. Each exhibition is a perspective on the same life, and every new question rearranges the archive again.",
-      "parts": [
-        "AI × Self is the archive beneath this project. Search opens original material at its precise location. Ask produces cited answers. View composes a focused reading path around a visitor’s question. The View Gallery takes that last form into space while keeping its narrative, media, interactions and saved sources intact. The Gallery gave me a way to let another person’s curiosity shape both the interpretation and the place where it is encountered. Each exhibition is a perspective on the same life, and every new question rearranges the archive again."
-      ],
-      "view_kind": "prose",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "selected": true
-    },
-    {
-      "id": 93,
       "source_id": "ragflow-pipeline:overview",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2573,7 +2550,7 @@
       "selected": false
     },
     {
-      "id": 94,
+      "id": 93,
       "source_id": "ragflow-pipeline:understanding-the-client-requirements",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2594,7 +2571,7 @@
       "selected": false
     },
     {
-      "id": 95,
+      "id": 94,
       "source_id": "ragflow-pipeline:why-one-pdf-needed-several-ways-of-reading",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2614,7 +2591,7 @@
       "selected": false
     },
     {
-      "id": 96,
+      "id": 95,
       "source_id": "ragflow-pipeline:complex-tables",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2635,7 +2612,7 @@
       "selected": false
     },
     {
-      "id": 97,
+      "id": 96,
       "source_id": "ragflow-pipeline:notes",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2657,7 +2634,7 @@
       "selected": false
     },
     {
-      "id": 98,
+      "id": 97,
       "source_id": "ragflow-pipeline:mermaid",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2678,7 +2655,7 @@
       "selected": false
     },
     {
-      "id": 99,
+      "id": 98,
       "source_id": "ragflow-pipeline:what-i-tested-before-recommending-it",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2699,7 +2676,7 @@
       "selected": false
     },
     {
-      "id": 100,
+      "id": 99,
       "source_id": "ragflow-pipeline:judging-the-whole-solution",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2721,7 +2698,7 @@
       "selected": false
     },
     {
-      "id": 101,
+      "id": 100,
       "source_id": "ai-it-operations:overview",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2741,7 +2718,7 @@
       "selected": true
     },
     {
-      "id": 102,
+      "id": 101,
       "source_id": "ai-it-operations:ai-in-it-operations",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2761,7 +2738,7 @@
       "selected": true
     },
     {
-      "id": 103,
+      "id": 102,
       "source_id": "ai-it-operations:knowledge-management",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2781,7 +2758,7 @@
       "selected": true
     },
     {
-      "id": 104,
+      "id": 103,
       "source_id": "ai-it-operations:where-does-the-assistant-need-more-knowledge",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2802,7 +2779,7 @@
       "selected": true
     },
     {
-      "id": 105,
+      "id": 104,
       "source_id": "ai-it-operations:researching-gaps-in-technical-guidance",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2823,7 +2800,7 @@
       "selected": true
     },
     {
-      "id": 106,
+      "id": 105,
       "source_id": "ai-it-operations:what-happens-when-the-guidance-changes",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2845,7 +2822,7 @@
       "selected": true
     },
     {
-      "id": 107,
+      "id": 106,
       "source_id": "ai-it-operations:from-a-source-to-maintained-knowledge",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2866,7 +2843,7 @@
       "selected": true
     },
     {
-      "id": 108,
+      "id": 107,
       "source_id": "ai-it-operations:browser-control",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2886,7 +2863,7 @@
       "selected": true
     },
     {
-      "id": 109,
+      "id": 108,
       "source_id": "ai-it-operations:turning-the-request-into-actions",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2906,7 +2883,7 @@
       "selected": true
     },
     {
-      "id": 110,
+      "id": 109,
       "source_id": "ai-it-operations:why-a-browser-extension",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2927,7 +2904,7 @@
       "selected": true
     },
     {
-      "id": 111,
+      "id": 110,
       "source_id": "ai-it-operations:a-place-to-start-intervene-and-look-back",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2947,7 +2924,7 @@
       "selected": true
     },
     {
-      "id": 112,
+      "id": 111,
       "source_id": "ai-it-operations:from-planning-to-a-browser-action",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2967,7 +2944,7 @@
       "selected": true
     },
     {
-      "id": 113,
+      "id": 112,
       "source_id": "ai-it-operations:where-judgement-changes-hands",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2990,7 +2967,7 @@
       "selected": true
     },
     {
-      "id": 114,
+      "id": 113,
       "source_id": "fragments:overview",
       "route": "/fragments",
       "page": "Fragments",
@@ -3010,7 +2987,7 @@
       "selected": false
     },
     {
-      "id": 115,
+      "id": 114,
       "source_id": "fragments:the-projection-of-thought",
       "route": "/fragments",
       "page": "Fragments",
@@ -3044,7 +3021,7 @@
       "selected": false
     },
     {
-      "id": 116,
+      "id": 115,
       "source_id": "fragments:rebuilding-another-state-inside-me",
       "route": "/fragments",
       "page": "Fragments",
@@ -3078,7 +3055,7 @@
       "selected": false
     },
     {
-      "id": 117,
+      "id": 116,
       "source_id": "fragments:visible-part-of-the-mind",
       "route": "/fragments",
       "page": "Fragments",
@@ -3109,7 +3086,7 @@
       "selected": false
     },
     {
-      "id": 118,
+      "id": 117,
       "source_id": "fragments:understanding-before-definition",
       "route": "/fragments",
       "page": "Fragments",
@@ -3139,7 +3116,7 @@
       "selected": false
     },
     {
-      "id": 119,
+      "id": 118,
       "source_id": "fragments:expression-recording",
       "route": "/fragments",
       "page": "Fragments",
@@ -3172,7 +3149,7 @@
       "selected": false
     },
     {
-      "id": 120,
+      "id": 119,
       "source_id": "fragments:rich-traces-and-open-paths",
       "route": "/fragments",
       "page": "Fragments",
@@ -3205,7 +3182,7 @@
       "selected": false
     },
     {
-      "id": 121,
+      "id": 120,
       "source_id": "fragments:labels-goals-rules",
       "route": "/fragments",
       "page": "Fragments",
@@ -3242,7 +3219,7 @@
       "selected": false
     },
     {
-      "id": 122,
+      "id": 121,
       "source_id": "fragments:memory-time-self",
       "route": "/fragments",
       "page": "Fragments",
@@ -3277,7 +3254,7 @@
       "selected": false
     },
     {
-      "id": 123,
+      "id": 122,
       "source_id": "fragments:satisfaction-signal",
       "route": "/fragments",
       "page": "Fragments",
@@ -3311,7 +3288,7 @@
       "selected": false
     },
     {
-      "id": 124,
+      "id": 123,
       "source_id": "fragments:queen-victoria-market-toast-oysters",
       "route": "/fragments",
       "page": "Fragments",
@@ -3339,7 +3316,7 @@
       "selected": false
     },
     {
-      "id": 125,
+      "id": 124,
       "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
       "route": "/fragments",
       "page": "Fragments",
@@ -3367,7 +3344,7 @@
       "selected": false
     },
     {
-      "id": 126,
+      "id": 125,
       "source_id": "fragments:ai-generated-kitten-videos",
       "route": "/fragments",
       "page": "Fragments",
@@ -3396,7 +3373,7 @@
       "selected": false
     },
     {
-      "id": 127,
+      "id": 126,
       "source_id": "fragments:identity-interview-reflection",
       "route": "/fragments",
       "page": "Fragments",
@@ -3425,7 +3402,7 @@
       "selected": false
     },
     {
-      "id": 128,
+      "id": 127,
       "source_id": "fragments:napier-seaside-with-my-mother",
       "route": "/fragments",
       "page": "Fragments",
@@ -3455,7 +3432,7 @@
       "selected": false
     },
     {
-      "id": 129,
+      "id": 128,
       "source_id": "fragments:mothers-cooking-across-places",
       "route": "/fragments",
       "page": "Fragments",
@@ -3484,7 +3461,7 @@
       "selected": false
     },
     {
-      "id": 130,
+      "id": 129,
       "source_id": "fragments:golf-with-my-mother-in-new-zealand",
       "route": "/fragments",
       "page": "Fragments",
@@ -3512,7 +3489,7 @@
       "selected": false
     },
     {
-      "id": 131,
+      "id": 130,
       "source_id": "fragments:slr-lab-racket-games",
       "route": "/fragments",
       "page": "Fragments",
@@ -3540,7 +3517,7 @@
       "selected": false
     },
     {
-      "id": 132,
+      "id": 131,
       "source_id": "fragments:kennedy-town-seaside-hku-years",
       "route": "/fragments",
       "page": "Fragments",
@@ -3569,7 +3546,7 @@
       "selected": false
     },
     {
-      "id": 133,
+      "id": 132,
       "source_id": "fragments:sydney-harbour-ferry-rides",
       "route": "/fragments",
       "page": "Fragments",
@@ -3598,7 +3575,7 @@
       "selected": false
     },
     {
-      "id": 134,
+      "id": 133,
       "source_id": "fragments:gold-coast-water-and-city-line",
       "route": "/fragments",
       "page": "Fragments",
@@ -3627,7 +3604,7 @@
       "selected": false
     },
     {
-      "id": 135,
+      "id": 134,
       "source_id": "fragments:great-ocean-road-melbourne-friends",
       "route": "/fragments",
       "page": "Fragments",
@@ -3656,7 +3633,7 @@
       "selected": false
     },
     {
-      "id": 136,
+      "id": 135,
       "source_id": "fragments:taiwan-east-coast-family-road-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -3685,7 +3662,7 @@
       "selected": false
     },
     {
-      "id": 137,
+      "id": 136,
       "source_id": "fragments:tomatoes-of-august-29",
       "route": "/fragments",
       "page": "Fragments",
@@ -3717,7 +3694,7 @@
       "selected": false
     },
     {
-      "id": 138,
+      "id": 137,
       "source_id": "fragments:athens-ruins-and-family-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -3746,7 +3723,7 @@
       "selected": false
     },
     {
-      "id": 139,
+      "id": 138,
       "source_id": "fragments:swimming-in-the-mediterranean",
       "route": "/fragments",
       "page": "Fragments",
@@ -3775,7 +3752,7 @@
       "selected": false
     },
     {
-      "id": 140,
+      "id": 139,
       "source_id": "fragments:rainy-days-permission-to-stay-in",
       "route": "/fragments",
       "page": "Fragments",
@@ -3803,7 +3780,7 @@
       "selected": false
     },
     {
-      "id": 141,
+      "id": 140,
       "source_id": "fragments:mental-map-of-small-room",
       "route": "/fragments",
       "page": "Fragments",
@@ -3832,7 +3809,7 @@
       "selected": false
     },
     {
-      "id": 142,
+      "id": 141,
       "source_id": "fragments:first-camera-another-way-of-seeing",
       "route": "/fragments",
       "page": "Fragments",
@@ -3861,7 +3838,7 @@
       "selected": false
     },
     {
-      "id": 143,
+      "id": 142,
       "source_id": "fragments:music-that-became-more-spacious",
       "route": "/fragments",
       "page": "Fragments",
@@ -3890,7 +3867,7 @@
       "selected": false
     },
     {
-      "id": 144,
+      "id": 143,
       "source_id": "cv:profile",
       "route": "/cv",
       "page": "CV",
@@ -3910,7 +3887,7 @@
       "selected": false
     },
     {
-      "id": 145,
+      "id": 144,
       "source_id": "cv:education",
       "route": "/cv",
       "page": "CV",
@@ -3930,7 +3907,7 @@
       "selected": false
     },
     {
-      "id": 146,
+      "id": 145,
       "source_id": "cv:experience",
       "route": "/cv",
       "page": "CV",
@@ -3951,7 +3928,7 @@
       "selected": false
     },
     {
-      "id": 147,
+      "id": 146,
       "source_id": "cv:publications-preprints",
       "route": "/cv",
       "page": "CV",
@@ -3971,7 +3948,7 @@
       "selected": false
     },
     {
-      "id": 148,
+      "id": 147,
       "source_id": "about:root:about-me",
       "route": "/about",
       "page": "About",
@@ -4007,7 +3984,7 @@
       "selected": false
     },
     {
-      "id": 149,
+      "id": 148,
       "source_id": "about:section:how-i-research-and-build",
       "route": "/about",
       "page": "About",
@@ -4028,7 +4005,7 @@
       "selected": false
     },
     {
-      "id": 150,
+      "id": 149,
       "source_id": "about:section:outside-work",
       "route": "/about",
       "page": "About",
@@ -4049,7 +4026,7 @@
       "selected": false
     },
     {
-      "id": 152,
+      "id": 151,
       "source_id": "slidepoise:purpose",
       "route": "/slidepoise/docs/site/",
       "page": "SlidePoise",
@@ -4071,7 +4048,7 @@
       "selected": true
     },
     {
-      "id": 153,
+      "id": 152,
       "source_id": "slidepoise:philosophy",
       "route": "/slidepoise/docs/site/",
       "page": "SlidePoise",
@@ -4100,7 +4077,7 @@
       "selected": true
     },
     {
-      "id": 154,
+      "id": 153,
       "source_id": "about:gallery",
       "route": "/about",
       "page": "About",
