@@ -1579,14 +1579,14 @@
       "id": 55,
       "source_id": "views:overview",
       "route": "/views",
-      "page": "Public views",
+      "page": "Views",
       "title": "See Henry through your own lens",
       "anchor": "",
-      "description": "See Henry through your own lens About this project Start with what you’d like to explore about Henry. The site’s AI will create a View around your question or perspective. You can follow the links to explore the original work in more detail, and share your View here if you’d like others to read it too. Public Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas.",
-      "body": "See Henry through your own lens About this project Start with what you’d like to explore about Henry. The site’s AI will create a View around your question or perspective. You can follow the links to explore the original work in more detail, and share your View here if you’d like others to read it too. Public Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas.",
+      "description": "See Henry through your own lens A note from Henry Start with what you’d like to explore about Henry. The site’s AI will create a View around your question or perspective. You can follow the links to explore the original work in more detail, and share your View here if you’d like others to read it too. Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas.",
+      "body": "See Henry through your own lens A note from Henry Start with what you’d like to explore about Henry. The site’s AI will create a View around your question or perspective. You can follow the links to explore the original work in more detail, and share your View here if you’d like others to read it too. Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas.",
       "parts": [
-        "See Henry through your own lens About this project Start with what you’d like to explore about Henry. The site’s AI will create a View around your question or perspective. You can follow the links to explore the original work in more detail, and share your View here if you’d like others to read it too.",
-        "Public Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas."
+        "See Henry through your own lens A note from Henry Start with what you’d like to explore about Henry. The site’s AI will create a View around your question or perspective. You can follow the links to explore the original work in more detail, and share your View here if you’d like others to read it too.",
+        "Views ✦ See how other visitors have looked across Henry’s work, experiences, and ideas."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -1975,10 +1975,10 @@
       "page": "An AI Interface for Exploring a Personal Archive",
       "title": "One archive, three ways to explore",
       "anchor": "one-archive-three-ways-to-explore",
-      "description": "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. View extends the answer into a page built around what the visitor wants to understand.",
-      "body": "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. View extends the answer into a page built around what the visitor wants to understand. It brings relevant writing, photographs and interactive components into the explanation, so someone can explore the work as they read. As I publish new work, it becomes material for all three experiences. A project can supply a Search result, contribute to an Ask answer or become part of a future View.",
+      "description": "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. View extends the answer into a reading experience built around what the visitor wants to understand.",
+      "body": "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. View extends the answer into a reading experience built around what the visitor wants to understand. It brings relevant writing, photographs and interactive components into the explanation. Visitors can follow it as an article or move through it as an exhibition. As I publish new work, it becomes material for all three experiences. A project can supply a Search result, contribute to an Ask answer or become part of a future View.",
       "parts": [
-        "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. View extends the answer into a page built around what the visitor wants to understand. It brings relevant writing, photographs and interactive components into the explanation, so someone can explore the work as they read. As I publish new work, it becomes material for all three experiences. A project can supply a Search result, contribute to an Ask answer or become part of a future View."
+        "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. View extends the answer into a reading experience built around what the visitor wants to understand. It brings relevant writing, photographs and interactive components into the explanation. Visitors can follow it as an article or move through it as an exhibition. As I publish new work, it becomes material for all three experiences. A project can supply a Search result, contribute to an Ask answer or become part of a future View."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2155,15 +2155,16 @@
     },
     {
       "id": 74,
-      "source_id": "aipersonalarchive:system-architecture",
+      "source_id": "aipersonalarchive:a-view-can-become-an-exhibition",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
-      "title": "System architecture",
-      "anchor": "system-architecture",
-      "description": "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation, and the browser renders the answer or selected site components. Saved readings and source snapshots are stored in Cloudflare D1, with archived media in R2.",
-      "body": "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation, and the browser renders the answer or selected site components. Saved readings and source snapshots are stored in Cloudflare D1, with archived media in R2.",
+      "title": "A View can become an exhibition",
+      "anchor": "a-view-can-become-an-exhibition",
+      "description": "Every visit begins in a shared hall. Visitors can browse perspectives left by other people, compose their own View and learn how the archive works before entering an exhibition. The Hall brings Browse, Entrance, Create and Henry’s note into one connected interior. The live demonstration follows that space as the camera moves between them. Choosing a perspective changes the exhibition waiting at the entrance.",
+      "body": "Every visit begins in a shared hall. Visitors can browse perspectives left by other people, compose their own View and learn how the archive works before entering an exhibition. The Hall brings Browse, Entrance, Create and Henry’s note into one connected interior. The live demonstration follows that space as the camera moves between them. Choosing a perspective changes the exhibition waiting at the entrance. Its title, illustration, sections, introductions, closing text and sources become a sequence of rooms where the narrative stays beside the original work it explains. The browser chooses each room and exhibit form from the amount and kind of material in the generated View. Sightlines shape the route, movement follows distance within a comfortable limit, and the audio guide continues as the visitor walks and looks more closely. Responsive Gallery See how the visit fits each phone orientation Landscape keeps the room, narrative and controls together. Portrait places a compact reading sheet below the exhibition and keeps movement within reach. Both demonstrations continue from the Gallery into an exhibition.",
       "parts": [
-        "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation, and the browser renders the answer or selected site components. Saved readings and source snapshots are stored in Cloudflare D1, with archived media in R2."
+        "Every visit begins in a shared hall. Visitors can browse perspectives left by other people, compose their own View and learn how the archive works before entering an exhibition. The Hall brings Browse, Entrance, Create and Henry’s note into one connected interior. The live demonstration follows that space as the camera moves between them. Choosing a perspective changes the exhibition waiting at the entrance. Its title, illustration, sections, introductions, closing text and sources become a sequence of rooms where the narrative stays beside the original work it explains. The browser chooses each room and exhibit form from the amount and kind of material in the generated View. Sightlines shape the route, movement follows distance within a comfortable limit, and the audio guide continues as the visitor walks and looks more closely.",
+        "Responsive Gallery See how the visit fits each phone orientation Landscape keeps the room, narrative and controls together. Portrait places a compact reading sheet below the exhibition and keeps movement within reach. Both demonstrations continue from the Gallery into an exhibition."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2175,6 +2176,26 @@
     },
     {
       "id": 75,
+      "source_id": "aipersonalarchive:system-architecture",
+      "route": "/aipersonalarchive",
+      "page": "An AI Interface for Exploring a Personal Archive",
+      "title": "System architecture",
+      "anchor": "system-architecture",
+      "description": "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation. The browser renders the answer, selected site components and each generated View as either an article or a computed exhibition.",
+      "body": "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation. The browser renders the answer, selected site components and each generated View as either an article or a computed exhibition. Saved readings and source snapshots are stored in Cloudflare D1, with archived media in R2.",
+      "parts": [
+        "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation. The browser renders the answer, selected site components and each generated View as either an article or a computed exhibition. Saved readings and source snapshots are stored in Cloudflare D1, with archived media in R2."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 5,
+      "media": [],
+      "selected": true
+    },
+    {
+      "id": 76,
       "source_id": "aipersonalarchive:views-over-time",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2195,7 +2216,7 @@
       "selected": true
     },
     {
-      "id": 76,
+      "id": 77,
       "source_id": "aipersonalarchive:what-the-case-gives-back",
       "route": "/aipersonalarchive",
       "page": "An AI Interface for Exploring a Personal Archive",
@@ -2216,7 +2237,7 @@
       "selected": true
     },
     {
-      "id": 77,
+      "id": 78,
       "source_id": "ragflow-pipeline:overview",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2236,7 +2257,7 @@
       "selected": false
     },
     {
-      "id": 78,
+      "id": 79,
       "source_id": "ragflow-pipeline:understanding-the-client-requirements",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2257,7 +2278,7 @@
       "selected": false
     },
     {
-      "id": 79,
+      "id": 80,
       "source_id": "ragflow-pipeline:why-one-pdf-needed-several-ways-of-reading",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2277,7 +2298,7 @@
       "selected": false
     },
     {
-      "id": 80,
+      "id": 81,
       "source_id": "ragflow-pipeline:complex-tables",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2298,7 +2319,7 @@
       "selected": false
     },
     {
-      "id": 81,
+      "id": 82,
       "source_id": "ragflow-pipeline:notes",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2320,7 +2341,7 @@
       "selected": false
     },
     {
-      "id": 82,
+      "id": 83,
       "source_id": "ragflow-pipeline:mermaid",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2341,7 +2362,7 @@
       "selected": false
     },
     {
-      "id": 83,
+      "id": 84,
       "source_id": "ragflow-pipeline:what-i-tested-before-recommending-it",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2362,7 +2383,7 @@
       "selected": false
     },
     {
-      "id": 84,
+      "id": 85,
       "source_id": "ragflow-pipeline:judging-the-whole-solution",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2384,7 +2405,7 @@
       "selected": false
     },
     {
-      "id": 85,
+      "id": 86,
       "source_id": "ai-it-operations:overview",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2404,7 +2425,7 @@
       "selected": true
     },
     {
-      "id": 86,
+      "id": 87,
       "source_id": "ai-it-operations:ai-in-it-operations",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2424,7 +2445,7 @@
       "selected": true
     },
     {
-      "id": 87,
+      "id": 88,
       "source_id": "ai-it-operations:knowledge-management",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2444,7 +2465,7 @@
       "selected": true
     },
     {
-      "id": 88,
+      "id": 89,
       "source_id": "ai-it-operations:where-does-the-assistant-need-more-knowledge",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2465,7 +2486,7 @@
       "selected": true
     },
     {
-      "id": 89,
+      "id": 90,
       "source_id": "ai-it-operations:researching-gaps-in-technical-guidance",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2486,7 +2507,7 @@
       "selected": true
     },
     {
-      "id": 90,
+      "id": 91,
       "source_id": "ai-it-operations:what-happens-when-the-guidance-changes",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2508,7 +2529,7 @@
       "selected": true
     },
     {
-      "id": 91,
+      "id": 92,
       "source_id": "ai-it-operations:from-a-source-to-maintained-knowledge",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2529,7 +2550,7 @@
       "selected": true
     },
     {
-      "id": 92,
+      "id": 93,
       "source_id": "ai-it-operations:browser-control",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2549,7 +2570,7 @@
       "selected": true
     },
     {
-      "id": 93,
+      "id": 94,
       "source_id": "ai-it-operations:turning-the-request-into-actions",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2569,7 +2590,7 @@
       "selected": true
     },
     {
-      "id": 94,
+      "id": 95,
       "source_id": "ai-it-operations:why-a-browser-extension",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2590,7 +2611,7 @@
       "selected": true
     },
     {
-      "id": 95,
+      "id": 96,
       "source_id": "ai-it-operations:a-place-to-start-intervene-and-look-back",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2610,7 +2631,7 @@
       "selected": true
     },
     {
-      "id": 96,
+      "id": 97,
       "source_id": "ai-it-operations:from-planning-to-a-browser-action",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2630,7 +2651,7 @@
       "selected": true
     },
     {
-      "id": 97,
+      "id": 98,
       "source_id": "ai-it-operations:where-judgement-changes-hands",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2653,7 +2674,7 @@
       "selected": true
     },
     {
-      "id": 98,
+      "id": 99,
       "source_id": "fragments:overview",
       "route": "/fragments",
       "page": "Fragments",
@@ -2673,7 +2694,7 @@
       "selected": false
     },
     {
-      "id": 99,
+      "id": 100,
       "source_id": "fragments:the-projection-of-thought",
       "route": "/fragments",
       "page": "Fragments",
@@ -2707,7 +2728,7 @@
       "selected": false
     },
     {
-      "id": 100,
+      "id": 101,
       "source_id": "fragments:rebuilding-another-state-inside-me",
       "route": "/fragments",
       "page": "Fragments",
@@ -2741,7 +2762,7 @@
       "selected": false
     },
     {
-      "id": 101,
+      "id": 102,
       "source_id": "fragments:visible-part-of-the-mind",
       "route": "/fragments",
       "page": "Fragments",
@@ -2772,7 +2793,7 @@
       "selected": false
     },
     {
-      "id": 102,
+      "id": 103,
       "source_id": "fragments:understanding-before-definition",
       "route": "/fragments",
       "page": "Fragments",
@@ -2802,7 +2823,7 @@
       "selected": false
     },
     {
-      "id": 103,
+      "id": 104,
       "source_id": "fragments:expression-recording",
       "route": "/fragments",
       "page": "Fragments",
@@ -2835,7 +2856,7 @@
       "selected": false
     },
     {
-      "id": 104,
+      "id": 105,
       "source_id": "fragments:rich-traces-and-open-paths",
       "route": "/fragments",
       "page": "Fragments",
@@ -2868,7 +2889,7 @@
       "selected": false
     },
     {
-      "id": 105,
+      "id": 106,
       "source_id": "fragments:labels-goals-rules",
       "route": "/fragments",
       "page": "Fragments",
@@ -2905,7 +2926,7 @@
       "selected": false
     },
     {
-      "id": 106,
+      "id": 107,
       "source_id": "fragments:memory-time-self",
       "route": "/fragments",
       "page": "Fragments",
@@ -2940,7 +2961,7 @@
       "selected": false
     },
     {
-      "id": 107,
+      "id": 108,
       "source_id": "fragments:satisfaction-signal",
       "route": "/fragments",
       "page": "Fragments",
@@ -2974,7 +2995,7 @@
       "selected": false
     },
     {
-      "id": 108,
+      "id": 109,
       "source_id": "fragments:queen-victoria-market-toast-oysters",
       "route": "/fragments",
       "page": "Fragments",
@@ -3002,7 +3023,7 @@
       "selected": false
     },
     {
-      "id": 109,
+      "id": 110,
       "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
       "route": "/fragments",
       "page": "Fragments",
@@ -3030,7 +3051,7 @@
       "selected": false
     },
     {
-      "id": 110,
+      "id": 111,
       "source_id": "fragments:ai-generated-kitten-videos",
       "route": "/fragments",
       "page": "Fragments",
@@ -3059,7 +3080,7 @@
       "selected": false
     },
     {
-      "id": 111,
+      "id": 112,
       "source_id": "fragments:identity-interview-reflection",
       "route": "/fragments",
       "page": "Fragments",
@@ -3088,7 +3109,7 @@
       "selected": false
     },
     {
-      "id": 112,
+      "id": 113,
       "source_id": "fragments:napier-seaside-with-my-mother",
       "route": "/fragments",
       "page": "Fragments",
@@ -3118,7 +3139,7 @@
       "selected": false
     },
     {
-      "id": 113,
+      "id": 114,
       "source_id": "fragments:mothers-cooking-across-places",
       "route": "/fragments",
       "page": "Fragments",
@@ -3147,7 +3168,7 @@
       "selected": false
     },
     {
-      "id": 114,
+      "id": 115,
       "source_id": "fragments:golf-with-my-mother-in-new-zealand",
       "route": "/fragments",
       "page": "Fragments",
@@ -3175,7 +3196,7 @@
       "selected": false
     },
     {
-      "id": 115,
+      "id": 116,
       "source_id": "fragments:slr-lab-racket-games",
       "route": "/fragments",
       "page": "Fragments",
@@ -3203,7 +3224,7 @@
       "selected": false
     },
     {
-      "id": 116,
+      "id": 117,
       "source_id": "fragments:kennedy-town-seaside-hku-years",
       "route": "/fragments",
       "page": "Fragments",
@@ -3232,7 +3253,7 @@
       "selected": false
     },
     {
-      "id": 117,
+      "id": 118,
       "source_id": "fragments:sydney-harbour-ferry-rides",
       "route": "/fragments",
       "page": "Fragments",
@@ -3261,7 +3282,7 @@
       "selected": false
     },
     {
-      "id": 118,
+      "id": 119,
       "source_id": "fragments:gold-coast-water-and-city-line",
       "route": "/fragments",
       "page": "Fragments",
@@ -3290,7 +3311,7 @@
       "selected": false
     },
     {
-      "id": 119,
+      "id": 120,
       "source_id": "fragments:great-ocean-road-melbourne-friends",
       "route": "/fragments",
       "page": "Fragments",
@@ -3319,7 +3340,7 @@
       "selected": false
     },
     {
-      "id": 120,
+      "id": 121,
       "source_id": "fragments:taiwan-east-coast-family-road-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -3348,7 +3369,7 @@
       "selected": false
     },
     {
-      "id": 121,
+      "id": 122,
       "source_id": "fragments:tomatoes-of-august-29",
       "route": "/fragments",
       "page": "Fragments",
@@ -3380,7 +3401,7 @@
       "selected": false
     },
     {
-      "id": 122,
+      "id": 123,
       "source_id": "fragments:athens-ruins-and-family-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -3409,7 +3430,7 @@
       "selected": false
     },
     {
-      "id": 123,
+      "id": 124,
       "source_id": "fragments:swimming-in-the-mediterranean",
       "route": "/fragments",
       "page": "Fragments",
@@ -3438,7 +3459,7 @@
       "selected": false
     },
     {
-      "id": 124,
+      "id": 125,
       "source_id": "fragments:rainy-days-permission-to-stay-in",
       "route": "/fragments",
       "page": "Fragments",
@@ -3466,7 +3487,7 @@
       "selected": false
     },
     {
-      "id": 125,
+      "id": 126,
       "source_id": "fragments:mental-map-of-small-room",
       "route": "/fragments",
       "page": "Fragments",
@@ -3495,7 +3516,7 @@
       "selected": false
     },
     {
-      "id": 126,
+      "id": 127,
       "source_id": "fragments:first-camera-another-way-of-seeing",
       "route": "/fragments",
       "page": "Fragments",
@@ -3524,7 +3545,7 @@
       "selected": false
     },
     {
-      "id": 127,
+      "id": 128,
       "source_id": "fragments:music-that-became-more-spacious",
       "route": "/fragments",
       "page": "Fragments",
@@ -3553,7 +3574,7 @@
       "selected": false
     },
     {
-      "id": 128,
+      "id": 129,
       "source_id": "cv:profile",
       "route": "/cv",
       "page": "CV",
@@ -3573,7 +3594,7 @@
       "selected": false
     },
     {
-      "id": 129,
+      "id": 130,
       "source_id": "cv:education",
       "route": "/cv",
       "page": "CV",
@@ -3593,7 +3614,7 @@
       "selected": false
     },
     {
-      "id": 130,
+      "id": 131,
       "source_id": "cv:experience",
       "route": "/cv",
       "page": "CV",
@@ -3614,7 +3635,7 @@
       "selected": false
     },
     {
-      "id": 131,
+      "id": 132,
       "source_id": "cv:publications-preprints",
       "route": "/cv",
       "page": "CV",
@@ -3634,7 +3655,7 @@
       "selected": false
     },
     {
-      "id": 132,
+      "id": 133,
       "source_id": "about:root:about-me",
       "route": "/about",
       "page": "About",
@@ -3670,7 +3691,7 @@
       "selected": false
     },
     {
-      "id": 133,
+      "id": 134,
       "source_id": "about:section:how-i-research-and-build",
       "route": "/about",
       "page": "About",
@@ -3691,7 +3712,7 @@
       "selected": false
     },
     {
-      "id": 134,
+      "id": 135,
       "source_id": "about:section:outside-work",
       "route": "/about",
       "page": "About",
@@ -3712,7 +3733,7 @@
       "selected": false
     },
     {
-      "id": 136,
+      "id": 137,
       "source_id": "slidepoise:purpose",
       "route": "/slidepoise/docs/site/",
       "page": "SlidePoise",
@@ -3734,7 +3755,7 @@
       "selected": true
     },
     {
-      "id": 137,
+      "id": 138,
       "source_id": "slidepoise:philosophy",
       "route": "/slidepoise/docs/site/",
       "page": "SlidePoise",
@@ -3763,7 +3784,7 @@
       "selected": true
     },
     {
-      "id": 138,
+      "id": 139,
       "source_id": "about:gallery",
       "route": "/about",
       "page": "About",
