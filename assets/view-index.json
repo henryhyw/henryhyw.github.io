@@ -669,10 +669,10 @@
       "page": "AI × Self",
       "title": "AI × Self",
       "anchor": "",
-      "description": "This project uses AI to help visitors explore the work, research, photographs, and writing on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and optional narration. View composes a reading path using the original projects, images, writing, and interactive components.",
-      "body": "This project uses AI to help visitors explore the work, research, photographs, and writing on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and optional narration. View composes a reading path using the original projects, images, writing, and interactive components. A saved View preserves its question, page, illustration, narration, and sources at a particular moment. These snapshots make it possible to compare different perspectives on the archive and return to a question as the site grows.",
+      "description": "This project uses AI to help visitors explore the work, research, photographs, and writing on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and narration. View composes a reading path using original projects, images, writing and interactive components.",
+      "body": "This project uses AI to help visitors explore the work, research, photographs, and writing on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and narration. View composes a reading path using original projects, images, writing and interactive components. Every View also becomes an exhibition whose rooms, objects, wall writing, light, sound and route respond to that reading. Article and exhibition share one saved position, while permanent snapshots preserve the question, narrative and sources as the site grows.",
       "parts": [
-        "This project uses AI to help visitors explore the work, research, photographs, and writing on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and optional narration. View composes a reading path using the original projects, images, writing, and interactive components. A saved View preserves its question, page, illustration, narration, and sources at a particular moment. These snapshots make it possible to compare different perspectives on the archive and return to a question as the site grows."
+        "This project uses AI to help visitors explore the work, research, photographs, and writing on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and narration. View composes a reading path using original projects, images, writing and interactive components. Every View also becomes an exhibition whose rooms, objects, wall writing, light, sound and route respond to that reading. Article and exhibition share one saved position, while permanent snapshots preserve the question, narrative and sources as the site grows."
       ],
       "view_kind": "project",
       "presentations": [
@@ -695,37 +695,6 @@
     },
     {
       "id": 20,
-      "source_id": "projects:viewgallery",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "The View Gallery",
-      "anchor": "",
-      "description": "The View Gallery gathers different perspectives on Henry and gives each one the form of an immersive exhibition. A shared Hall lets visitors browse the collection, compose a View and enter a route whose rooms, lighting and exhibit forms are shaped around its material. Narrative, original sources, camera direction and audio guidance remain part of one continuous visit across desktop and phone screens.",
-      "body": "The View Gallery gathers different perspectives on Henry and gives each one the form of an immersive exhibition. A shared Hall lets visitors browse the collection, compose a View and enter a route whose rooms, lighting and exhibit forms are shaped around its material. Narrative, original sources, camera direction and audio guidance remain part of one continuous visit across desktop and phone screens.",
-      "parts": [
-        "The View Gallery gathers different perspectives on Henry and gives each one the form of an immersive exhibition. A shared Hall lets visitors browse the collection, compose a View and enter a route whose rooms, lighting and exhibit forms are shaped around its material. Narrative, original sources, camera direction and audio guidance remain part of one continuous visit across desktop and phone screens."
-      ],
-      "view_kind": "project",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "entity": {
-        "kind": "project",
-        "id": "viewgallery",
-        "period": "August 2026 - Present",
-        "subtitle": "Every perspective becomes an exhibition",
-        "route": "/viewgallery",
-        "anchor": "",
-        "mediaMode": "gallery",
-        "logoHeight": "",
-        "richBlock": ""
-      },
-      "selected": true
-    },
-    {
-      "id": 21,
       "source_id": "projects:pwcItOps",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -763,7 +732,7 @@
       "selected": true
     },
     {
-      "id": 22,
+      "id": 21,
       "source_id": "projects:insurance",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -800,7 +769,7 @@
       "selected": true
     },
     {
-      "id": 23,
+      "id": 22,
       "source_id": "projects:scrollytelling",
       "route": "/scrollytelling",
       "page": "Interactive Scrollytelling Deck",
@@ -847,7 +816,7 @@
       "selected": false
     },
     {
-      "id": 24,
+      "id": 23,
       "source_id": "projects:pwcRag",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -885,7 +854,7 @@
       "selected": false
     },
     {
-      "id": 25,
+      "id": 24,
       "source_id": "projects:stride",
       "route": "/stride",
       "page": "Stride Support",
@@ -929,7 +898,7 @@
       "selected": false
     },
     {
-      "id": 26,
+      "id": 25,
       "source_id": "projects:dealtracker",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -967,7 +936,7 @@
       "selected": false
     },
     {
-      "id": 27,
+      "id": 26,
       "source_id": "projects:lexaday",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1014,7 +983,7 @@
       "selected": false
     },
     {
-      "id": 28,
+      "id": 27,
       "source_id": "projects:early",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1061,7 +1030,7 @@
       "selected": false
     },
     {
-      "id": 29,
+      "id": 28,
       "source_id": "travels:overview",
       "route": "/travels",
       "page": "Travels",
@@ -1081,7 +1050,7 @@
       "selected": false
     },
     {
-      "id": 30,
+      "id": 29,
       "source_id": "playbook:overview",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1101,7 +1070,7 @@
       "selected": true
     },
     {
-      "id": 31,
+      "id": 30,
       "source_id": "playbook:first-the-problem",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1121,7 +1090,7 @@
       "selected": true
     },
     {
-      "id": 32,
+      "id": 31,
       "source_id": "playbook:the-idea",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1142,7 +1111,7 @@
       "selected": true
     },
     {
-      "id": 33,
+      "id": 32,
       "source_id": "playbook:try-it",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1162,7 +1131,7 @@
       "selected": true
     },
     {
-      "id": 34,
+      "id": 33,
       "source_id": "playbook:from-the-packing-demo-to-the-production-tool",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1182,7 +1151,7 @@
       "selected": true
     },
     {
-      "id": 35,
+      "id": 34,
       "source_id": "lexaday:overview",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1202,7 +1171,7 @@
       "selected": false
     },
     {
-      "id": 36,
+      "id": 35,
       "source_id": "lexaday:a-small-lesson-generated-fresh-each-morning",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1223,7 +1192,7 @@
       "selected": false
     },
     {
-      "id": 37,
+      "id": 36,
       "source_id": "lexaday:the-learning-loop",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1243,7 +1212,7 @@
       "selected": false
     },
     {
-      "id": 38,
+      "id": 37,
       "source_id": "lexaday:pick",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1263,7 +1232,7 @@
       "selected": false
     },
     {
-      "id": 39,
+      "id": 38,
       "source_id": "lexaday:write",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1283,7 +1252,7 @@
       "selected": false
     },
     {
-      "id": 40,
+      "id": 39,
       "source_id": "lexaday:imagine",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1303,7 +1272,7 @@
       "selected": false
     },
     {
-      "id": 41,
+      "id": 40,
       "source_id": "lexaday:send",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1323,7 +1292,7 @@
       "selected": false
     },
     {
-      "id": 42,
+      "id": 41,
       "source_id": "lexaday:what-the-reader-receives",
       "route": "/lexaday",
       "page": "Lexaday",
@@ -1343,7 +1312,7 @@
       "selected": false
     },
     {
-      "id": 43,
+      "id": 42,
       "source_id": "stride:overview",
       "route": "/stride",
       "page": "Stride Support",
@@ -1363,7 +1332,7 @@
       "selected": false
     },
     {
-      "id": 44,
+      "id": 43,
       "source_id": "stride:keeping-the-order-in-context",
       "route": "/stride",
       "page": "Stride Support",
@@ -1383,7 +1352,7 @@
       "selected": false
     },
     {
-      "id": 45,
+      "id": 44,
       "source_id": "stride:giving-the-model-access-to-the-application",
       "route": "/stride",
       "page": "Stride Support",
@@ -1404,7 +1373,7 @@
       "selected": false
     },
     {
-      "id": 46,
+      "id": 45,
       "source_id": "stride:matching-language-to-the-support-domain",
       "route": "/stride",
       "page": "Stride Support",
@@ -1425,7 +1394,7 @@
       "selected": false
     },
     {
-      "id": 47,
+      "id": 46,
       "source_id": "dealtracker:overview",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1445,7 +1414,7 @@
       "selected": false
     },
     {
-      "id": 48,
+      "id": 47,
       "source_id": "dealtracker:from-noisy-sale-pages-to-a-short-inbox-digest",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1465,7 +1434,7 @@
       "selected": false
     },
     {
-      "id": 49,
+      "id": 48,
       "source_id": "dealtracker:the-email-output",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1485,7 +1454,7 @@
       "selected": false
     },
     {
-      "id": 50,
+      "id": 49,
       "source_id": "dealtracker:what-happens-behind-the-email",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1506,7 +1475,7 @@
       "selected": false
     },
     {
-      "id": 51,
+      "id": 50,
       "source_id": "dealtracker:the-control-layer",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1526,7 +1495,7 @@
       "selected": false
     },
     {
-      "id": 52,
+      "id": 51,
       "source_id": "scrollytelling:overview",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1547,7 +1516,7 @@
       "selected": false
     },
     {
-      "id": 53,
+      "id": 52,
       "source_id": "scrollytelling:see-it-as-a-story",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1567,7 +1536,7 @@
       "selected": false
     },
     {
-      "id": 54,
+      "id": 53,
       "source_id": "scrollytelling:describe-a-scene-once-then-let-the-engine-build-it",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1587,7 +1556,7 @@
       "selected": false
     },
     {
-      "id": 55,
+      "id": 54,
       "source_id": "scrollytelling:under-the-hood",
       "route": "/scrollytelling",
       "page": "Scrollytelling Engine",
@@ -1607,7 +1576,7 @@
       "selected": false
     },
     {
-      "id": 56,
+      "id": 55,
       "source_id": "views:overview",
       "route": "/views",
       "page": "Views",
@@ -1628,7 +1597,7 @@
       "selected": false
     },
     {
-      "id": 57,
+      "id": 56,
       "source_id": "early:overview",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1649,7 +1618,7 @@
       "selected": false
     },
     {
-      "id": 58,
+      "id": 57,
       "source_id": "early:how-it-started",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1692,7 +1661,7 @@
       "selected": false
     },
     {
-      "id": 59,
+      "id": 58,
       "source_id": "early:batch-downloading-scientific-american-episodes",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1746,7 +1715,7 @@
       "selected": false
     },
     {
-      "id": 60,
+      "id": 59,
       "source_id": "early:chrome-extension-experiments",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1800,7 +1769,7 @@
       "selected": false
     },
     {
-      "id": 61,
+      "id": 60,
       "source_id": "early:music-streaming-hacks",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1875,7 +1844,7 @@
       "selected": false
     },
     {
-      "id": 62,
+      "id": 61,
       "source_id": "early:building-kiwiviews-website",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1905,7 +1874,7 @@
       "selected": false
     },
     {
-      "id": 63,
+      "id": 62,
       "source_id": "early:simple-automation",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1944,7 +1913,7 @@
       "selected": false
     },
     {
-      "id": 64,
+      "id": 63,
       "source_id": "early:econographer-an-economics-graphs-generator",
       "route": "/early",
       "page": "How I Started Building with Code",
@@ -1980,7 +1949,7 @@
       "selected": false
     },
     {
-      "id": 65,
+      "id": 64,
       "source_id": "aipersonalarchive:overview",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -2000,16 +1969,16 @@
       "selected": true
     },
     {
-      "id": 66,
+      "id": 65,
       "source_id": "aipersonalarchive:one-archive-three-ways-to-explore",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
       "title": "One archive, three ways to explore",
       "anchor": "one-archive-three-ways-to-explore",
       "description": "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. View extends the answer into a reading experience built around what the visitor wants to understand.",
-      "body": "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. View extends the answer into a reading experience built around what the visitor wants to understand. It brings relevant writing, photographs and interactive components into the explanation. Each View becomes an article that can be saved, shared and revisited. As I publish new work, it becomes material for all three experiences. A project can supply a Search result, contribute to an Ask answer or become part of a future View.",
+      "body": "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. View extends the answer into a reading experience built around what the visitor wants to understand. It brings relevant writing, photographs and interactive components into the explanation. Each View becomes an article and an exhibition that can be saved, shared and revisited. As I publish new work, it becomes material for all three experiences. A project can supply a Search result, contribute to an Ask answer or become part of a future View.",
       "parts": [
-        "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. View extends the answer into a reading experience built around what the visitor wants to understand. It brings relevant writing, photographs and interactive components into the explanation. Each View becomes an article that can be saved, shared and revisited. As I publish new work, it becomes material for all three experiences. A project can supply a Search result, contribute to an Ask answer or become part of a future View."
+        "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. View extends the answer into a reading experience built around what the visitor wants to understand. It brings relevant writing, photographs and interactive components into the explanation. Each View becomes an article and an exhibition that can be saved, shared and revisited. As I publish new work, it becomes material for all three experiences. A project can supply a Search result, contribute to an Ask answer or become part of a future View."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2020,7 +1989,7 @@
       "selected": true
     },
     {
-      "id": 67,
+      "id": 66,
       "source_id": "aipersonalarchive:find-a-passage-in-its-original-context",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -2042,7 +2011,7 @@
       "selected": true
     },
     {
-      "id": 68,
+      "id": 67,
       "source_id": "aipersonalarchive:seeing-the-archive-as-a-space",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -2063,7 +2032,7 @@
       "selected": true
     },
     {
-      "id": 69,
+      "id": 68,
       "source_id": "aipersonalarchive:ask-brings-related-passages-into-one-answer",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -2084,7 +2053,7 @@
       "selected": true
     },
     {
-      "id": 70,
+      "id": 69,
       "source_id": "aipersonalarchive:find",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -2104,7 +2073,7 @@
       "selected": true
     },
     {
-      "id": 71,
+      "id": 70,
       "source_id": "aipersonalarchive:set-the-scope",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -2124,7 +2093,7 @@
       "selected": true
     },
     {
-      "id": 72,
+      "id": 71,
       "source_id": "aipersonalarchive:write",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -2144,7 +2113,7 @@
       "selected": true
     },
     {
-      "id": 73,
+      "id": 72,
       "source_id": "aipersonalarchive:cite",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -2164,17 +2133,37 @@
       "selected": true
     },
     {
-      "id": 74,
+      "id": 73,
       "source_id": "aipersonalarchive:view-reorganises-the-site-around-a-question",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
       "title": "View reorganises the site around a question",
       "anchor": "view-reorganises-the-site-around-a-question",
       "description": "A project’s interactive demo, a gallery of photographs and a personal fragment each offer a different way to understand the material. Ask could already describe and cite them. I wanted visitors to encounter the work itself as an explanation developed, trying a demo, looking through photographs or reading a fragment at the point where it mattered. This led to View, a response that takes the form of a composed page.",
-      "body": "A project’s interactive demo, a gallery of photographs and a personal fragment each offer a different way to understand the material. Ask could already describe and cite them. I wanted visitors to encounter the work itself as an explanation developed, trying a demo, looking through photographs or reading a fragment at the point where it mattered. This led to View, a response that takes the form of a composed page. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s original interaction can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View I registered projects, research entries, fragments, image groups and interactions as reusable components. The model selects the components that answer the question, arranges them into a page and writes the narrative that connects them. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, gallery or fragment. A question about learning might bring together work on human cognition, an education project, and a fragment written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. Visitors can also listen to the summary in an AI voice trained on my recordings, the same voice used for Ask answers. Continue with the spatial experience",
+      "body": "A project’s interactive demo, a gallery of photographs and a personal fragment each offer a different way to understand the material. Ask could already describe and cite them. I wanted visitors to encounter the work itself as an explanation developed, trying a demo, looking through photographs or reading a fragment at the point where it mattered. This led to View, a response that takes the form of a composed page. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s original interaction can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View I registered projects, research entries, fragments, image groups and interactions as reusable components. The model selects the components that answer the question, arranges them into a page and writes the narrative that connects them. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, gallery or fragment. A question about learning might bring together work on human cognition, an education project, and a fragment written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. Visitors can also listen to the summary in an AI voice trained on my recordings, the same voice used for Ask answers.",
       "parts": [
         "A project’s interactive demo, a gallery of photographs and a personal fragment each offer a different way to understand the material. Ask could already describe and cite them. I wanted visitors to encounter the work itself as an explanation developed, trying a demo, looking through photographs or reading a fragment at the point where it mattered. This led to View, a response that takes the form of a composed page. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s original interaction can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View I registered projects, research entries, fragments, image groups and interactions as reusable components.",
-        "The model selects the components that answer the question, arranges them into a page and writes the narrative that connects them. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, gallery or fragment. A question about learning might bring together work on human cognition, an education project, and a fragment written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. Visitors can also listen to the summary in an AI voice trained on my recordings, the same voice used for Ask answers. Continue with the spatial experience"
+        "The model selects the components that answer the question, arranges them into a page and writes the narrative that connects them. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, gallery or fragment. A question about learning might bring together work on human cognition, an education project, and a fragment written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. Visitors can also listen to the summary in an AI voice trained on my recordings, the same voice used for Ask answers."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 5,
+      "media": [],
+      "selected": true
+    },
+    {
+      "id": 74,
+      "source_id": "aipersonalarchive:every-view-becomes-an-exhibition",
+      "route": "/aipersonalarchive",
+      "page": "AI × Self",
+      "title": "Every View becomes an exhibition",
+      "anchor": "every-view-becomes-an-exhibition",
+      "description": "A View already contains a question, an interpretive lens, ordered sections, narrative passages and links to original material. I used that structure to compose an exhibition. The title and date form its entrance, each section becomes a room, and the selected sources become works encountered along a route. The shared Hall gives every View the same beginning.",
+      "body": "A View already contains a question, an interpretive lens, ordered sections, narrative passages and links to original material. I used that structure to compose an exhibition. The title and date form its entrance, each section becomes a room, and the selected sources become works encountered along a route. The shared Hall gives every View the same beginning. Visitors can browse perspectives on the collection board, compose their own at the writing desk, or enter the exhibition currently on view. Two camera positions make those choices legible, and the Hall remembers an unfinished visit. The live Gallery moves through the collection, entrance, writing desk and pavilion note. Each destination has its own composition, while the shared architecture keeps them part of one place. One View, two presentations",
+      "parts": [
+        "A View already contains a question, an interpretive lens, ordered sections, narrative passages and links to original material. I used that structure to compose an exhibition. The title and date form its entrance, each section becomes a room, and the selected sources become works encountered along a route. The shared Hall gives every View the same beginning. Visitors can browse perspectives on the collection board, compose their own at the writing desk, or enter the exhibition currently on view. Two camera positions make those choices legible, and the Hall remembers an unfinished visit. The live Gallery moves through the collection, entrance, writing desk and pavilion note. Each destination has its own composition, while the shared architecture keeps them part of one place. One View, two presentations"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2186,15 +2175,15 @@
     },
     {
       "id": 75,
-      "source_id": "aipersonalarchive:the-view-gallery",
+      "source_id": "aipersonalarchive:article-and-exhibition-keep-the-same-place",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
-      "title": "The View Gallery",
-      "anchor": "the-view-gallery",
-      "description": "The Gallery gives each View a spatial form, with its narrative and original sources arranged as one exhibition. Explore The View Gallery ↗ 05 Architecture",
-      "body": "The Gallery gives each View a spatial form, with its narrative and original sources arranged as one exhibition. Explore The View Gallery ↗ 05 Architecture",
+      "title": "Article and exhibition keep the same place",
+      "anchor": "article-and-exhibition-keep-the-same-place",
+      "description": "Every generated View has an article and an exhibition. The article supports close reading, while the exhibition turns the same narrative and sources into a spatial experience. A passage on the page corresponds to a room, introduction, or original work in the building. Both presentations share one saved position.",
+      "body": "Every generated View has an article and an exhibition. The article supports close reading, while the exhibition turns the same narrative and sources into a spatial experience. A passage on the page corresponds to a room, introduction, or original work in the building. Both presentations share one saved position. A visitor can leave the room for the article, return to the exhibition, and continue from the same part of the narrative. The two forms make immersion and careful reading part of one visit.",
       "parts": [
-        "The Gallery gives each View a spatial form, with its narrative and original sources arranged as one exhibition. Explore The View Gallery ↗ 05 Architecture"
+        "Every generated View has an article and an exhibition. The article supports close reading, while the exhibition turns the same narrative and sources into a spatial experience. A passage on the page corresponds to a room, introduction, or original work in the building. Both presentations share one saved position. A visitor can leave the room for the article, return to the exhibition, and continue from the same part of the narrative. The two forms make immersion and careful reading part of one visit."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2206,15 +2195,15 @@
     },
     {
       "id": 76,
-      "source_id": "aipersonalarchive:system-architecture",
+      "source_id": "aipersonalarchive:the-exhibition-is-designed-as-one-experience",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
-      "title": "System architecture",
-      "anchor": "system-architecture",
-      "description": "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation. The browser renders the answer, selected site components and each generated View as a composed article. Saved readings and source snapshots are stored in Cloudflare D1, with archived media in R2.",
-      "body": "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation. The browser renders the answer, selected site components and each generated View as a composed article. Saved readings and source snapshots are stored in Cloudflare D1, with archived media in R2.",
+      "title": "The exhibition is designed as one experience",
+      "anchor": "the-exhibition-is-designed-as-one-experience",
+      "description": "I wanted the spatial form to carry more than layout. Architecture sets the pace, while objects, wall writing, light, sound and movement shape how the narrative is encountered. The number and order of sections determine the rooms and thresholds. Source type determines whether material appears as a mounted work, globe, book, display, or live interaction. Lighting prepares the next room before arrival.",
+      "body": "I wanted the spatial form to carry more than layout. Architecture sets the pace, while objects, wall writing, light, sound and movement shape how the narrative is encountered. The number and order of sections determine the rooms and thresholds. Source type determines whether material appears as a mounted work, globe, book, display, or live interaction. Lighting prepares the next room before arrival. Music and the audio guide hold the narrative together while the visitor walks. Previous and Next retain the curatorial sequence, while the floor plan and free walking keep the building open. Camera paths use the visitor’s current position and the shortest natural turn, so the visit remains continuous.",
       "parts": [
-        "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation. The browser renders the answer, selected site components and each generated View as a composed article. Saved readings and source snapshots are stored in Cloudflare D1, with archived media in R2."
+        "I wanted the spatial form to carry more than layout. Architecture sets the pace, while objects, wall writing, light, sound and movement shape how the narrative is encountered. The number and order of sections determine the rooms and thresholds. Source type determines whether material appears as a mounted work, globe, book, display, or live interaction. Lighting prepares the next room before arrival. Music and the audio guide hold the narrative together while the visitor walks. Previous and Next retain the curatorial sequence, while the floor plan and free walking keep the building open. Camera paths use the visitor’s current position and the shortest natural turn, so the visit remains continuous."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2226,6 +2215,26 @@
     },
     {
       "id": 77,
+      "source_id": "aipersonalarchive:system-architecture",
+      "route": "/aipersonalarchive",
+      "page": "AI × Self",
+      "title": "System architecture",
+      "anchor": "system-architecture",
+      "description": "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation. The browser renders the answer, selected site components and each generated View as an article or spatial exhibition.",
+      "body": "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation. The browser renders the answer, selected site components and each generated View as an article or spatial exhibition. The Gallery uses the same structure to compose rooms, exhibit forms, wall writing, lighting and routes. Saved readings and source snapshots are stored in Cloudflare D1, with archived media in R2.",
+      "parts": [
+        "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation. The browser renders the answer, selected site components and each generated View as an article or spatial exhibition. The Gallery uses the same structure to compose rooms, exhibit forms, wall writing, lighting and routes. Saved readings and source snapshots are stored in Cloudflare D1, with archived media in R2."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 5,
+      "media": [],
+      "selected": true
+    },
+    {
+      "id": 78,
       "source_id": "aipersonalarchive:views-over-time",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -2246,7 +2255,7 @@
       "selected": true
     },
     {
-      "id": 78,
+      "id": 79,
       "source_id": "aipersonalarchive:what-the-case-gives-back",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -2267,269 +2276,7 @@
       "selected": true
     },
     {
-      "id": 79,
-      "source_id": "viewgallery:overview",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "The View Gallery",
-      "anchor": "",
-      "description": "Every perspective becomes an exhibition A View begins with someone else’s way of seeing me. It gathers projects, writing, photographs and experiences around a question I may never have thought to ask. I built The View Gallery so each perspective could become an exhibition, with its sections shaping the rooms, its argument setting the route and its original sources remaining present as works the visitor encounters.",
-      "body": "Every perspective becomes an exhibition A View begins with someone else’s way of seeing me. It gathers projects, writing, photographs and experiences around a question I may never have thought to ask. I built The View Gallery so each perspective could become an exhibition, with its sections shaping the rooms, its argument setting the route and its original sources remaining present as works the visitor encounters. 00 A place for perspectives",
-      "parts": [
-        "Every perspective becomes an exhibition A View begins with someone else’s way of seeing me. It gathers projects, writing, photographs and experiences around a question I may never have thought to ask. I built The View Gallery so each perspective could become an exhibition, with its sections shaping the rooms, its argument setting the route and its original sources remaining present as works the visitor encounters. 00 A place for perspectives"
-      ],
-      "view_kind": "prose",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "selected": true
-    },
-    {
       "id": 80,
-      "source_id": "viewgallery:the-hall-gives-every-view-a-shared-beginning",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "The Hall gives every View a shared beginning",
-      "anchor": "the-hall-gives-every-view-a-shared-beginning",
-      "description": "The Hall gives many different Views a common beginning. The collection board holds the perspectives visitors have chosen to share. The entrance presents the exhibition currently on view. A writing desk opens the composer for a new question, while the pavilion model leads to Henry’s Note and the ideas behind the Gallery. I designed two camera positions for this room.",
-      "body": "The Hall gives many different Views a common beginning. The collection board holds the perspectives visitors have chosen to share. The entrance presents the exhibition currently on view. A writing desk opens the composer for a new question, while the pavilion model leads to Henry’s Note and the ideas behind the Gallery. I designed two camera positions for this room. The frontal view makes the entrance immediately legible. The view across the Hall brings the collection, entrance, desk and pavilion into one composition, so the Gallery reads as a place with several possible directions. A first visit arrives from outside, settles at the entrance view and then turns across the Hall. Later visits remember the visitor’s chosen angle and use a shorter arrival. The central invitation changes with the visit. Someone arriving for the first time can begin with a brief tour. An unfinished exhibition resumes from its saved stop. Completing a View can lead towards composing a perspective or browsing another one. The Hall becomes a place to return to, with its next action drawn from what the visitor has already seen and made. The live demonstration uses the production Gallery, including its camera paths, collection, day and evening lighting, and responsive controls. Its first cycle includes the arrival into the building. Later cycles begin in the Hall after the route has returned there, which keeps the loop continuous. 01 From narrative to architecture",
-      "parts": [
-        "The Hall gives many different Views a common beginning. The collection board holds the perspectives visitors have chosen to share. The entrance presents the exhibition currently on view. A writing desk opens the composer for a new question, while the pavilion model leads to Henry’s Note and the ideas behind the Gallery. I designed two camera positions for this room. The frontal view makes the entrance immediately legible. The view across the Hall brings the collection, entrance, desk and pavilion into one composition, so the Gallery reads as a place with several possible directions. A first visit arrives from outside, settles at the entrance view and then turns across the Hall. Later visits remember the visitor’s chosen angle and use a shorter arrival. The central invitation changes with the visit. Someone arriving for the first time can begin with a brief tour.",
-        "An unfinished exhibition resumes from its saved stop. Completing a View can lead towards composing a perspective or browsing another one. The Hall becomes a place to return to, with its next action drawn from what the visitor has already seen and made. The live demonstration uses the production Gallery, including its camera paths, collection, day and evening lighting, and responsive controls. Its first cycle includes the arrival into the building. Later cycles begin in the Hall after the route has returned there, which keeps the loop continuous. 01 From narrative to architecture"
-      ],
-      "view_kind": "prose",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "selected": true
-    },
-    {
-      "id": 81,
-      "source_id": "viewgallery:the-view-gives-the-exhibition-its-form",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "The View gives the exhibition its form",
-      "anchor": "the-view-gives-the-exhibition-its-form",
-      "description": "Entering a View changes the scale of the experience. The shared Hall gives way to rooms composed around one question. The title and date introduce the exhibition. Each section begins on the wall, develops through its original material and leads towards the next threshold. An afterword closes the route before Further reading gathers its sources.",
-      "body": "Entering a View changes the scale of the experience. The shared Hall gives way to rooms composed around one question. The title and date introduce the exhibition. Each section begins on the wall, develops through its original material and leads towards the next threshold. An afterword closes the route before Further reading gathers its sources. A View already contains an interpretive lens, ordered sections, narrative passages and references to original material. I use that structure as the exhibition brief. The amount of material changes the room plan. The relationship between a passage and its sources determines where the visitor first meets the work. This demonstration enters from the formal Hall view, pauses at the opening board and follows the complete desktop exhibition. Architecture gives the argument a pace. Objects give its sources a physical presence. Writing keeps the interpretation inside the room. These decisions are generated together because moving one introduction or doorway changes what the visitor sees next. The result is specific to the View. A short argument can remain concentrated in one room. A longer one can unfold through several thresholds. The same layout rules keep the first work near its introduction, leave doorways clear and place later work along the route ahead.",
-      "parts": [
-        "Entering a View changes the scale of the experience. The shared Hall gives way to rooms composed around one question. The title and date introduce the exhibition. Each section begins on the wall, develops through its original material and leads towards the next threshold. An afterword closes the route before Further reading gathers its sources. A View already contains an interpretive lens, ordered sections, narrative passages and references to original material. I use that structure as the exhibition brief. The amount of material changes the room plan. The relationship between a passage and its sources determines where the visitor first meets the work. This demonstration enters from the formal Hall view, pauses at the opening board and follows the complete desktop exhibition. Architecture gives the argument a pace. Objects give its sources a physical presence.",
-        "Writing keeps the interpretation inside the room. These decisions are generated together because moving one introduction or doorway changes what the visitor sees next. The result is specific to the View. A short argument can remain concentrated in one room. A longer one can unfold through several thresholds. The same layout rules keep the first work near its introduction, leave doorways clear and place later work along the route ahead."
-      ],
-      "view_kind": "prose",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "selected": true
-    },
-    {
-      "id": 82,
-      "source_id": "viewgallery:the-narrative-sets-the-route",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "The narrative sets the route",
-      "anchor": "the-narrative-sets-the-route",
-      "description": "The number of sections and the material within them determine the depth, thresholds and circulation of the exhibition. Introductions sit beside the work that opens their argument. Later exhibits draw the visitor towards the next room. A single work receives its own composition and never ends up beside a doorway.",
-      "body": "The number of sections and the material within them determine the depth, thresholds and circulation of the exhibition. Introductions sit beside the work that opens their argument. Later exhibits draw the visitor towards the next room. A single work receives its own composition and never ends up beside a doorway.",
-      "parts": [
-        "The number of sections and the material within them determine the depth, thresholds and circulation of the exhibition. Introductions sit beside the work that opens their argument. Later exhibits draw the visitor towards the next room. A single work receives its own composition and never ends up beside a doorway."
-      ],
-      "view_kind": "prose",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "selected": true
-    },
-    {
-      "id": 83,
-      "source_id": "viewgallery:the-source-determines-the-exhibit",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "The source determines the exhibit",
-      "anchor": "the-source-determines-the-exhibit",
-      "description": "Photographs retain their proportions as mounted works. Place-based material becomes a globe. Long writing opens as a book, while smaller archival material rests on an angled display. Interactive projects keep the controls and states that make the original work meaningful.",
-      "body": "Photographs retain their proportions as mounted works. Place-based material becomes a globe. Long writing opens as a book, while smaller archival material rests on an angled display. Interactive projects keep the controls and states that make the original work meaningful.",
-      "parts": [
-        "Photographs retain their proportions as mounted works. Place-based material becomes a globe. Long writing opens as a book, while smaller archival material rests on an angled display. Interactive projects keep the controls and states that make the original work meaningful."
-      ],
-      "view_kind": "prose",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "selected": true
-    },
-    {
-      "id": 84,
-      "source_id": "viewgallery:the-writing-belongs-to-the-room",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "The writing belongs to the room",
-      "anchor": "the-writing-belongs-to-the-room",
-      "description": "The title and date establish the exhibition at its entrance. Section introductions are written into the architecture beside their first work. An afterword closes the argument, and Further reading names the original material in the language selected for the View.",
-      "body": "The title and date establish the exhibition at its entrance. Section introductions are written into the architecture beside their first work. An afterword closes the argument, and Further reading names the original material in the language selected for the View.",
-      "parts": [
-        "The title and date establish the exhibition at its entrance. Section introductions are written into the architecture beside their first work. An afterword closes the argument, and Further reading names the original material in the language selected for the View."
-      ],
-      "view_kind": "prose",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "selected": true
-    },
-    {
-      "id": 85,
-      "source_id": "viewgallery:atmosphere-and-movement-make-the-rooms-feel-inhabited",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "Atmosphere and movement make the rooms feel inhabited",
-      "anchor": "atmosphere-and-movement-make-the-rooms-feel-inhabited",
-      "description": "The architecture establishes where a visitor can go. The visit depends on how each room comes into attention. Light prepares the work before arrival. Camera movement keeps the building legible while the viewpoint changes. Sound carries the narrative when the visitor looks away from the reading panel. I treated guided and free movement as parts of the same visit. Previous and Next follow the curatorial sequence.",
-      "body": "The architecture establishes where a visitor can go. The visit depends on how each room comes into attention. Light prepares the work before arrival. Camera movement keeps the building legible while the viewpoint changes. Sound carries the narrative when the visitor looks away from the reading panel. I treated guided and free movement as parts of the same visit. Previous and Next follow the curatorial sequence. The floor plan opens any room directly, and the visitor can walk at any point. Nearby work opens from the current position. Selecting a distant work first brings the visitor to a suitable viewing distance.",
-      "parts": [
-        "The architecture establishes where a visitor can go. The visit depends on how each room comes into attention. Light prepares the work before arrival. Camera movement keeps the building legible while the viewpoint changes. Sound carries the narrative when the visitor looks away from the reading panel. I treated guided and free movement as parts of the same visit. Previous and Next follow the curatorial sequence. The floor plan opens any room directly, and the visitor can walk at any point. Nearby work opens from the current position. Selecting a distant work first brings the visitor to a suitable viewing distance."
-      ],
-      "view_kind": "prose",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "selected": true
-    },
-    {
-      "id": 86,
-      "source_id": "viewgallery:light-and-sound-establish-the-atmosphere",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "Light and sound establish the atmosphere",
-      "anchor": "light-and-sound-establish-the-atmosphere",
-      "description": "Day and evening share one material palette. In the evening exhibition, focused light brings a whole room forward as the visitor reaches its threshold. Music holds the wider atmosphere. The audio guide follows the active passage and marks its progress in the reading panel.",
-      "body": "Day and evening share one material palette. In the evening exhibition, focused light brings a whole room forward as the visitor reaches its threshold. Music holds the wider atmosphere. The audio guide follows the active passage and marks its progress in the reading panel.",
-      "parts": [
-        "Day and evening share one material palette. In the evening exhibition, focused light brings a whole room forward as the visitor reaches its threshold. Music holds the wider atmosphere. The audio guide follows the active passage and marks its progress in the reading panel."
-      ],
-      "view_kind": "prose",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "selected": true
-    },
-    {
-      "id": 87,
-      "source_id": "viewgallery:the-camera-makes-movement-legible",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "The camera makes movement legible",
-      "anchor": "the-camera-makes-movement-legible",
-      "description": "Each move begins from the visitor’s current position and takes the shortest natural turn towards the next work. Travel time follows distance within a defined maximum. Viewing angles remain controlled near the edge of the building, while Henry’s Note uses a distinct transition that settles the pavilion into a composed three-quarter view.",
-      "body": "Each move begins from the visitor’s current position and takes the shortest natural turn towards the next work. Travel time follows distance within a defined maximum. Viewing angles remain controlled near the edge of the building, while Henry’s Note uses a distinct transition that settles the pavilion into a composed three-quarter view.",
-      "parts": [
-        "Each move begins from the visitor’s current position and takes the shortest natural turn towards the next work. Travel time follows distance within a defined maximum. Viewing angles remain controlled near the edge of the building, while Henry’s Note uses a distinct transition that settles the pavilion into a composed three-quarter view."
-      ],
-      "view_kind": "prose",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "selected": true
-    },
-    {
-      "id": 88,
-      "source_id": "viewgallery:the-visitor-chooses-how-to-move",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "The visitor chooses how to move",
-      "anchor": "the-visitor-chooses-how-to-move",
-      "description": "The route remains visible without becoming compulsory. A brief introduction explains the controls on a first visit. Later visits keep that help within the information panel. The Hall remembers unfinished exhibitions, recognises completed visits and changes its invitation according to what the visitor has already seen or composed. 03 Keeping the View continuous",
-      "body": "The route remains visible without becoming compulsory. A brief introduction explains the controls on a first visit. Later visits keep that help within the information panel. The Hall remembers unfinished exhibitions, recognises completed visits and changes its invitation according to what the visitor has already seen or composed. 03 Keeping the View continuous",
-      "parts": [
-        "The route remains visible without becoming compulsory. A brief introduction explains the controls on a first visit. Later visits keep that help within the information panel. The Hall remembers unfinished exhibitions, recognises completed visits and changes its invitation according to what the visitor has already seen or composed. 03 Keeping the View continuous"
-      ],
-      "view_kind": "prose",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "selected": true
-    },
-    {
-      "id": 89,
-      "source_id": "viewgallery:the-visitor-can-change-format-without-losing-the-thread",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "The visitor can change format without losing the thread",
-      "anchor": "the-visitor-can-change-format-without-losing-the-thread",
-      "description": "The article and exhibition follow the same View. A passage on the page corresponds to a room, an introduction or an original work in the building. Both forms remain visible in the comparison. Their positions move together, and either side can be enlarged while the connection stays intact.",
-      "body": "The article and exhibition follow the same View. A passage on the page corresponds to a room, an introduction or an original work in the building. Both forms remain visible in the comparison. Their positions move together, and either side can be enlarged while the connection stays intact.",
-      "parts": [
-        "The article and exhibition follow the same View. A passage on the page corresponds to a room, an introduction or an original work in the building. Both forms remain visible in the comparison. Their positions move together, and either side can be enlarged while the connection stays intact."
-      ],
-      "view_kind": "prose",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "selected": true
-    },
-    {
-      "id": 90,
-      "source_id": "viewgallery:the-room-and-reading-surface-recompose-around-the-available-space",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "The room and reading surface recompose around the available space",
-      "anchor": "the-room-and-reading-surface-recompose-around-the-available-space",
-      "description": "A landscape phone shares its width between the exhibition and reading sheet. Expanding the sheet gives the narrative the full screen, then restores the room when it closes. The visit, audio and route controls remain along the lower edge. Portrait creates a vertical sequence. The room sits above a compact reading surface and longer content opens on request.",
-      "body": "A landscape phone shares its width between the exhibition and reading sheet. Expanding the sheet gives the narrative the full screen, then restores the room when it closes. The visit, audio and route controls remain along the lower edge. Portrait creates a vertical sequence. The room sits above a compact reading surface and longer content opens on request. Gallery destinations share equal width, while secondary controls float within the surface they affect.",
-      "parts": [
-        "A landscape phone shares its width between the exhibition and reading sheet. Expanding the sheet gives the narrative the full screen, then restores the room when it closes. The visit, audio and route controls remain along the lower edge. Portrait creates a vertical sequence. The room sits above a compact reading surface and longer content opens on request. Gallery destinations share equal width, while secondary controls float within the surface they affect."
-      ],
-      "view_kind": "prose",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "selected": true
-    },
-    {
-      "id": 91,
-      "source_id": "viewgallery:ai-self",
-      "route": "/viewgallery",
-      "page": "The View Gallery",
-      "title": "AI × Self",
-      "anchor": "ai-self",
-      "description": "AI × Self is the archive beneath the Gallery. Search opens original material, Ask creates cited answers and View composes a reading around a visitor’s question.",
-      "body": "AI × Self is the archive beneath the Gallery. Search opens original material, Ask creates cited answers and View composes a reading around a visitor’s question.",
-      "parts": [
-        "AI × Self is the archive beneath the Gallery. Search opens original material, Ask creates cited answers and View composes a reading around a visitor’s question."
-      ],
-      "view_kind": "prose",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [],
-      "selected": true
-    },
-    {
-      "id": 92,
       "source_id": "ragflow-pipeline:overview",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2549,7 +2296,7 @@
       "selected": false
     },
     {
-      "id": 93,
+      "id": 81,
       "source_id": "ragflow-pipeline:understanding-the-client-requirements",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2570,7 +2317,7 @@
       "selected": false
     },
     {
-      "id": 94,
+      "id": 82,
       "source_id": "ragflow-pipeline:why-one-pdf-needed-several-ways-of-reading",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2590,7 +2337,7 @@
       "selected": false
     },
     {
-      "id": 95,
+      "id": 83,
       "source_id": "ragflow-pipeline:complex-tables",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2611,7 +2358,7 @@
       "selected": false
     },
     {
-      "id": 96,
+      "id": 84,
       "source_id": "ragflow-pipeline:notes",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2633,7 +2380,7 @@
       "selected": false
     },
     {
-      "id": 97,
+      "id": 85,
       "source_id": "ragflow-pipeline:mermaid",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2654,7 +2401,7 @@
       "selected": false
     },
     {
-      "id": 98,
+      "id": 86,
       "source_id": "ragflow-pipeline:what-i-tested-before-recommending-it",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2675,7 +2422,7 @@
       "selected": false
     },
     {
-      "id": 99,
+      "id": 87,
       "source_id": "ragflow-pipeline:judging-the-whole-solution",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2697,7 +2444,7 @@
       "selected": false
     },
     {
-      "id": 100,
+      "id": 88,
       "source_id": "ai-it-operations:overview",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2717,7 +2464,7 @@
       "selected": true
     },
     {
-      "id": 101,
+      "id": 89,
       "source_id": "ai-it-operations:ai-in-it-operations",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2737,7 +2484,7 @@
       "selected": true
     },
     {
-      "id": 102,
+      "id": 90,
       "source_id": "ai-it-operations:knowledge-management",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2757,7 +2504,7 @@
       "selected": true
     },
     {
-      "id": 103,
+      "id": 91,
       "source_id": "ai-it-operations:where-does-the-assistant-need-more-knowledge",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2778,7 +2525,7 @@
       "selected": true
     },
     {
-      "id": 104,
+      "id": 92,
       "source_id": "ai-it-operations:researching-gaps-in-technical-guidance",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2799,7 +2546,7 @@
       "selected": true
     },
     {
-      "id": 105,
+      "id": 93,
       "source_id": "ai-it-operations:what-happens-when-the-guidance-changes",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2821,7 +2568,7 @@
       "selected": true
     },
     {
-      "id": 106,
+      "id": 94,
       "source_id": "ai-it-operations:from-a-source-to-maintained-knowledge",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2842,7 +2589,7 @@
       "selected": true
     },
     {
-      "id": 107,
+      "id": 95,
       "source_id": "ai-it-operations:browser-control",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2862,7 +2609,7 @@
       "selected": true
     },
     {
-      "id": 108,
+      "id": 96,
       "source_id": "ai-it-operations:turning-the-request-into-actions",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2882,7 +2629,7 @@
       "selected": true
     },
     {
-      "id": 109,
+      "id": 97,
       "source_id": "ai-it-operations:why-a-browser-extension",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2903,7 +2650,7 @@
       "selected": true
     },
     {
-      "id": 110,
+      "id": 98,
       "source_id": "ai-it-operations:a-place-to-start-intervene-and-look-back",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2923,7 +2670,7 @@
       "selected": true
     },
     {
-      "id": 111,
+      "id": 99,
       "source_id": "ai-it-operations:from-planning-to-a-browser-action",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2943,7 +2690,7 @@
       "selected": true
     },
     {
-      "id": 112,
+      "id": 100,
       "source_id": "ai-it-operations:where-judgement-changes-hands",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2966,7 +2713,7 @@
       "selected": true
     },
     {
-      "id": 113,
+      "id": 101,
       "source_id": "fragments:overview",
       "route": "/fragments",
       "page": "Fragments",
@@ -2986,7 +2733,7 @@
       "selected": false
     },
     {
-      "id": 114,
+      "id": 102,
       "source_id": "fragments:the-projection-of-thought",
       "route": "/fragments",
       "page": "Fragments",
@@ -3020,7 +2767,7 @@
       "selected": false
     },
     {
-      "id": 115,
+      "id": 103,
       "source_id": "fragments:rebuilding-another-state-inside-me",
       "route": "/fragments",
       "page": "Fragments",
@@ -3054,7 +2801,7 @@
       "selected": false
     },
     {
-      "id": 116,
+      "id": 104,
       "source_id": "fragments:visible-part-of-the-mind",
       "route": "/fragments",
       "page": "Fragments",
@@ -3085,7 +2832,7 @@
       "selected": false
     },
     {
-      "id": 117,
+      "id": 105,
       "source_id": "fragments:understanding-before-definition",
       "route": "/fragments",
       "page": "Fragments",
@@ -3115,7 +2862,7 @@
       "selected": false
     },
     {
-      "id": 118,
+      "id": 106,
       "source_id": "fragments:expression-recording",
       "route": "/fragments",
       "page": "Fragments",
@@ -3148,7 +2895,7 @@
       "selected": false
     },
     {
-      "id": 119,
+      "id": 107,
       "source_id": "fragments:rich-traces-and-open-paths",
       "route": "/fragments",
       "page": "Fragments",
@@ -3181,7 +2928,7 @@
       "selected": false
     },
     {
-      "id": 120,
+      "id": 108,
       "source_id": "fragments:labels-goals-rules",
       "route": "/fragments",
       "page": "Fragments",
@@ -3218,7 +2965,7 @@
       "selected": false
     },
     {
-      "id": 121,
+      "id": 109,
       "source_id": "fragments:memory-time-self",
       "route": "/fragments",
       "page": "Fragments",
@@ -3253,7 +3000,7 @@
       "selected": false
     },
     {
-      "id": 122,
+      "id": 110,
       "source_id": "fragments:satisfaction-signal",
       "route": "/fragments",
       "page": "Fragments",
@@ -3287,7 +3034,7 @@
       "selected": false
     },
     {
-      "id": 123,
+      "id": 111,
       "source_id": "fragments:queen-victoria-market-toast-oysters",
       "route": "/fragments",
       "page": "Fragments",
@@ -3315,7 +3062,7 @@
       "selected": false
     },
     {
-      "id": 124,
+      "id": 112,
       "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
       "route": "/fragments",
       "page": "Fragments",
@@ -3343,7 +3090,7 @@
       "selected": false
     },
     {
-      "id": 125,
+      "id": 113,
       "source_id": "fragments:ai-generated-kitten-videos",
       "route": "/fragments",
       "page": "Fragments",
@@ -3372,7 +3119,7 @@
       "selected": false
     },
     {
-      "id": 126,
+      "id": 114,
       "source_id": "fragments:identity-interview-reflection",
       "route": "/fragments",
       "page": "Fragments",
@@ -3401,7 +3148,7 @@
       "selected": false
     },
     {
-      "id": 127,
+      "id": 115,
       "source_id": "fragments:napier-seaside-with-my-mother",
       "route": "/fragments",
       "page": "Fragments",
@@ -3431,7 +3178,7 @@
       "selected": false
     },
     {
-      "id": 128,
+      "id": 116,
       "source_id": "fragments:mothers-cooking-across-places",
       "route": "/fragments",
       "page": "Fragments",
@@ -3460,7 +3207,7 @@
       "selected": false
     },
     {
-      "id": 129,
+      "id": 117,
       "source_id": "fragments:golf-with-my-mother-in-new-zealand",
       "route": "/fragments",
       "page": "Fragments",
@@ -3488,7 +3235,7 @@
       "selected": false
     },
     {
-      "id": 130,
+      "id": 118,
       "source_id": "fragments:slr-lab-racket-games",
       "route": "/fragments",
       "page": "Fragments",
@@ -3516,7 +3263,7 @@
       "selected": false
     },
     {
-      "id": 131,
+      "id": 119,
       "source_id": "fragments:kennedy-town-seaside-hku-years",
       "route": "/fragments",
       "page": "Fragments",
@@ -3545,7 +3292,7 @@
       "selected": false
     },
     {
-      "id": 132,
+      "id": 120,
       "source_id": "fragments:sydney-harbour-ferry-rides",
       "route": "/fragments",
       "page": "Fragments",
@@ -3574,7 +3321,7 @@
       "selected": false
     },
     {
-      "id": 133,
+      "id": 121,
       "source_id": "fragments:gold-coast-water-and-city-line",
       "route": "/fragments",
       "page": "Fragments",
@@ -3603,7 +3350,7 @@
       "selected": false
     },
     {
-      "id": 134,
+      "id": 122,
       "source_id": "fragments:great-ocean-road-melbourne-friends",
       "route": "/fragments",
       "page": "Fragments",
@@ -3632,7 +3379,7 @@
       "selected": false
     },
     {
-      "id": 135,
+      "id": 123,
       "source_id": "fragments:taiwan-east-coast-family-road-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -3661,7 +3408,7 @@
       "selected": false
     },
     {
-      "id": 136,
+      "id": 124,
       "source_id": "fragments:tomatoes-of-august-29",
       "route": "/fragments",
       "page": "Fragments",
@@ -3693,7 +3440,7 @@
       "selected": false
     },
     {
-      "id": 137,
+      "id": 125,
       "source_id": "fragments:athens-ruins-and-family-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -3722,7 +3469,7 @@
       "selected": false
     },
     {
-      "id": 138,
+      "id": 126,
       "source_id": "fragments:swimming-in-the-mediterranean",
       "route": "/fragments",
       "page": "Fragments",
@@ -3751,7 +3498,7 @@
       "selected": false
     },
     {
-      "id": 139,
+      "id": 127,
       "source_id": "fragments:rainy-days-permission-to-stay-in",
       "route": "/fragments",
       "page": "Fragments",
@@ -3779,7 +3526,7 @@
       "selected": false
     },
     {
-      "id": 140,
+      "id": 128,
       "source_id": "fragments:mental-map-of-small-room",
       "route": "/fragments",
       "page": "Fragments",
@@ -3808,7 +3555,7 @@
       "selected": false
     },
     {
-      "id": 141,
+      "id": 129,
       "source_id": "fragments:first-camera-another-way-of-seeing",
       "route": "/fragments",
       "page": "Fragments",
@@ -3837,7 +3584,7 @@
       "selected": false
     },
     {
-      "id": 142,
+      "id": 130,
       "source_id": "fragments:music-that-became-more-spacious",
       "route": "/fragments",
       "page": "Fragments",
@@ -3866,7 +3613,7 @@
       "selected": false
     },
     {
-      "id": 143,
+      "id": 131,
       "source_id": "cv:profile",
       "route": "/cv",
       "page": "CV",
@@ -3886,7 +3633,7 @@
       "selected": false
     },
     {
-      "id": 144,
+      "id": 132,
       "source_id": "cv:education",
       "route": "/cv",
       "page": "CV",
@@ -3906,7 +3653,7 @@
       "selected": false
     },
     {
-      "id": 145,
+      "id": 133,
       "source_id": "cv:experience",
       "route": "/cv",
       "page": "CV",
@@ -3927,7 +3674,7 @@
       "selected": false
     },
     {
-      "id": 146,
+      "id": 134,
       "source_id": "cv:publications-preprints",
       "route": "/cv",
       "page": "CV",
@@ -3947,7 +3694,7 @@
       "selected": false
     },
     {
-      "id": 147,
+      "id": 135,
       "source_id": "about:root:about-me",
       "route": "/about",
       "page": "About",
@@ -3983,7 +3730,7 @@
       "selected": false
     },
     {
-      "id": 148,
+      "id": 136,
       "source_id": "about:section:how-i-research-and-build",
       "route": "/about",
       "page": "About",
@@ -4004,7 +3751,7 @@
       "selected": false
     },
     {
-      "id": 149,
+      "id": 137,
       "source_id": "about:section:outside-work",
       "route": "/about",
       "page": "About",
@@ -4025,7 +3772,7 @@
       "selected": false
     },
     {
-      "id": 151,
+      "id": 139,
       "source_id": "slidepoise:purpose",
       "route": "/slidepoise/docs/site/",
       "page": "SlidePoise",
@@ -4047,7 +3794,7 @@
       "selected": true
     },
     {
-      "id": 152,
+      "id": 140,
       "source_id": "slidepoise:philosophy",
       "route": "/slidepoise/docs/site/",
       "page": "SlidePoise",
@@ -4076,7 +3823,7 @@
       "selected": true
     },
     {
-      "id": 153,
+      "id": 141,
       "source_id": "about:gallery",
       "route": "/about",
       "page": "About",
