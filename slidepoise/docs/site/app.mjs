@@ -949,7 +949,7 @@ for (const button of document.querySelectorAll('[data-open-architecture]')) {
   button.addEventListener('click', event => openArtifact({
     title: 'SlidePoise architecture',
     architecture: true,
-    url: new URL('/assets/img/projects/slidepoise-architecture-v1.svg?v=20260911', location.href).href,
+    url: new URL('/assets/img/projects/slidepoise-architecture-v1.svg?v=20260919', location.href).href,
     trigger: event.currentTarget,
   }));
 }

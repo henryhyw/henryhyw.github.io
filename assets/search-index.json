@@ -101,10 +101,10 @@
     "page": "Education",
     "title": "Havelock North High School",
     "anchor": "havelock-north-high-school",
-    "description": "July 2019 - August 2019 Havelock North High School Visiting Student I spent two months as a visiting student at Havelock North High School in Hawke's Bay, New Zealand. Attending regular classes with local students gave me a direct experience of everyday school life in New Zealand. I studied English, calculus, statistics, chemistry, physics, and English as a Second Language.",
-    "body": "July 2019 - August 2019 Havelock North High School Visiting Student I spent two months as a visiting student at Havelock North High School in Hawke's Bay, New Zealand. Attending regular classes with local students gave me a direct experience of everyday school life in New Zealand. I studied English, calculus, statistics, chemistry, physics, and English as a Second Language.",
+    "description": "July 2019 - August 2019 Havelock North High School Visiting Student I spent two months as a visiting student at Havelock North High School in Hawke's Bay, New Zealand. Attending regular classes with local students gave me a direct experience of everyday school life in New Zealand. I studied English, calculus, statistics, chemistry, and physics.",
+    "body": "July 2019 - August 2019 Havelock North High School Visiting Student I spent two months as a visiting student at Havelock North High School in Hawke's Bay, New Zealand. Attending regular classes with local students gave me a direct experience of everyday school life in New Zealand. I studied English, calculus, statistics, chemistry, and physics.",
     "parts": [
-      "July 2019 - August 2019 Havelock North High School Visiting Student I spent two months as a visiting student at Havelock North High School in Hawke's Bay, New Zealand. Attending regular classes with local students gave me a direct experience of everyday school life in New Zealand. I studied English, calculus, statistics, chemistry, physics, and English as a Second Language."
+      "July 2019 - August 2019 Havelock North High School Visiting Student I spent two months as a visiting student at Havelock North High School in Hawke's Bay, New Zealand. Attending regular classes with local students gave me a direct experience of everyday school life in New Zealand. I studied English, calculus, statistics, chemistry, and physics."
     ],
     "view_kind": "education",
     "presentations": [
@@ -297,11 +297,11 @@
     "page": "Research",
     "title": "Research I've Been Part Of",
     "anchor": "",
-    "description": "My research explores how people and AI systems learn and use knowledge. I also ask how bringing AI into everyday thinking and learning changes what people understand, remember, and decide. I study how people learn from experience and use their knowledge in new situations.",
-    "body": "My research explores how people and AI systems learn and use knowledge. I also ask how bringing AI into everyday thinking and learning changes what people understand, remember, and decide. I study how people learn from experience and use their knowledge in new situations. Through experiments and computational models, I examine how internal representations develop and change, and how they support memory, concepts, generalisation, reasoning, and action. I pursue some of this work with Dr. Lee as a part-time research assistant at HKU's SLR Lab . For AI models, I study what they learn during training and how it shapes their behaviour. I use behavioural tests and causal interventions to examine their internal representations, how they use information during a task, and how their computation produces capabilities and failures. These questions also shape my work on human-AI interaction. When people learn, write, or make decisions with AI, cognitive work can move between the person and the tool. I investigate how this changes attention, practice, understanding, and memory, and how design can support people's own knowledge and judgment. My broader aim is to build bridges between these fields, so that insights into human learning can inform AI research and discoveries about AI can inspire new questions about human cognition. I hope this exchange helps us design AI that expands what people can understand and do, while supporting their capacity to learn and think for themselves.",
+    "description": "I study how people and AI systems learn from experience, represent knowledge and use it to think and act. As AI becomes part of everyday thinking, I investigate how it shapes the understanding, judgement and abilities people develop. I study how people learn from experience and use what they know.",
+    "body": "I study how people and AI systems learn from experience, represent knowledge and use it to think and act. As AI becomes part of everyday thinking, I investigate how it shapes the understanding, judgement and abilities people develop. I study how people learn from experience and use what they know. Through experiments and computational models, I examine how internal representations develop and change, and how they support memory, concepts, generalisation, reasoning and action. I build models to develop explanations of these processes and derive predictions for behavioural experiments. I pursue part of this work with Dr. Lee at the University of Hong Kong's Speech, Language, and Reading Lab . For AI systems, I study what they learn during training and how it shapes their behaviour. I use behavioural tests and causal interventions to examine their internal representations, how they use information during a task, and how their computations produce the capabilities we observe. In human-AI interaction, I study how AI's involvement in everyday life shapes people's cognition and behaviour. This includes how people learn, direct their attention, remember and make decisions, and how their abilities develop through interaction. I am also interested in how people adapt AI to their own purposes, and how those purposes change as they use it. I hope to bring insights from human learning into AI research, and use discoveries about AI to develop new questions about human cognition. This exchange can also inform interactions that expand what people can understand and do, while supporting their capacity to learn and think for themselves.",
     "parts": [
-      "My research explores how people and AI systems learn and use knowledge. I also ask how bringing AI into everyday thinking and learning changes what people understand, remember, and decide. I study how people learn from experience and use their knowledge in new situations. Through experiments and computational models, I examine how internal representations develop and change, and how they support memory, concepts, generalisation, reasoning, and action. I pursue some of this work with Dr. Lee as a part-time research assistant at HKU's SLR Lab . For AI models, I study what they learn during training and how it shapes their behaviour. I use behavioural tests and causal interventions to examine their internal representations, how they use information during a task, and how their computation produces capabilities and failures. These questions also shape my work on human-AI interaction.",
-      "When people learn, write, or make decisions with AI, cognitive work can move between the person and the tool. I investigate how this changes attention, practice, understanding, and memory, and how design can support people's own knowledge and judgment. My broader aim is to build bridges between these fields, so that insights into human learning can inform AI research and discoveries about AI can inspire new questions about human cognition. I hope this exchange helps us design AI that expands what people can understand and do, while supporting their capacity to learn and think for themselves."
+      "I study how people and AI systems learn from experience, represent knowledge and use it to think and act. As AI becomes part of everyday thinking, I investigate how it shapes the understanding, judgement and abilities people develop. I study how people learn from experience and use what they know. Through experiments and computational models, I examine how internal representations develop and change, and how they support memory, concepts, generalisation, reasoning and action. I build models to develop explanations of these processes and derive predictions for behavioural experiments. I pursue part of this work with Dr. Lee at the University of Hong Kong's Speech, Language, and Reading Lab . For AI systems, I study what they learn during training and how it shapes their behaviour.",
+      "I use behavioural tests and causal interventions to examine their internal representations, how they use information during a task, and how their computations produce the capabilities we observe. In human-AI interaction, I study how AI's involvement in everyday life shapes people's cognition and behaviour. This includes how people learn, direct their attention, remember and make decisions, and how their abilities develop through interaction. I am also interested in how people adapt AI to their own purposes, and how those purposes change as they use it. I hope to bring insights from human learning into AI research, and use discoveries about AI to develop new questions about human cognition. This exchange can also inform interactions that expand what people can understand and do, while supporting their capacity to learn and think for themselves."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -318,11 +318,11 @@
     "page": "Research",
     "title": "The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization?",
     "anchor": "transfer",
-    "description": "We developed a framework for designing transfer experiments around explicit accounts of how people learn. We construct a candidate space of possible learning accounts by varying how information is represented independently of how experience produces a response.",
-    "body": "We developed a framework for designing transfer experiments around explicit accounts of how people learn. We construct a candidate space of possible learning accounts by varying how information is represented independently of how experience produces a response. Crossing representation geometries with rule, prototype and exemplar policies lets us construct matched accounts, generate their predictions on the same task, and extend the space with intermediate or custom candidates. These predictions guide changes to the experiment before participant data are collected. Candidate separation locates the conditions in which accounts diverge, while candidate recovery estimates what the planned observations can reveal. Applying the framework to categorisation and artificial orthography shows how changing test items or response measures opens up different mechanism contrasts. The open-source TIDE (Transfer-design Identifiability and Diagnosticity Evaluation) toolkit and interactive app let researchers compare candidate pairs, inspect where the evidence comes from, and revise their designs.",
+    "description": "We developed a framework that links models of human generalisation to the design of experiments. I construct models by varying both how a learner represents information and how the learner uses it to respond. The same representation can support rule application, comparison with a category prototype or retrieval of remembered examples.",
+    "body": "We developed a framework that links models of human generalisation to the design of experiments. I construct models by varying both how a learner represents information and how the learner uses it to respond. The same representation can support rule application, comparison with a category prototype or retrieval of remembered examples. Varying these mechanisms independently lets me build matched accounts and simulate how each would respond in the same task. I use these predictions to shape an experiment before collecting participant data. Candidate separation measures where the models predict different responses, and candidate recovery estimates how reliably the planned observations can distinguish them. Together, they guide whether to change the test items or response measure, or collect more evidence where a useful contrast already exists. Applications to categorisation and artificial orthography show how these choices change what we can learn about the underlying mechanisms. I developed this framework into the open-source TIDE (Transfer-design Identifiability and Diagnosticity Evaluation) toolkit and an interactive app, so researchers can construct model comparisons, inspect their predictions and explore revisions to a design.",
     "parts": [
-      "We developed a framework for designing transfer experiments around explicit accounts of how people learn. We construct a candidate space of possible learning accounts by varying how information is represented independently of how experience produces a response. Crossing representation geometries with rule, prototype and exemplar policies lets us construct matched accounts, generate their predictions on the same task, and extend the space with intermediate or custom candidates. These predictions guide changes to the experiment before participant data are collected. Candidate separation locates the conditions in which accounts diverge, while candidate recovery estimates what the planned observations can reveal. Applying the framework to categorisation and artificial orthography shows how changing test items or response measures opens up different mechanism contrasts.",
-      "The open-source TIDE (Transfer-design Identifiability and Diagnosticity Evaluation) toolkit and interactive app let researchers compare candidate pairs, inspect where the evidence comes from, and revise their designs."
+      "We developed a framework that links models of human generalisation to the design of experiments. I construct models by varying both how a learner represents information and how the learner uses it to respond. The same representation can support rule application, comparison with a category prototype or retrieval of remembered examples. Varying these mechanisms independently lets me build matched accounts and simulate how each would respond in the same task. I use these predictions to shape an experiment before collecting participant data. Candidate separation measures where the models predict different responses, and candidate recovery estimates how reliably the planned observations can distinguish them. Together, they guide whether to change the test items or response measure, or collect more evidence where a useful contrast already exists.",
+      "Applications to categorisation and artificial orthography show how these choices change what we can learn about the underlying mechanisms. I developed this framework into the open-source TIDE (Transfer-design Identifiability and Diagnosticity Evaluation) toolkit and an interactive app, so researchers can construct model comparisons, inspect their predictions and explore revisions to a design."
     ],
     "view_kind": "publication",
     "presentations": [
@@ -370,10 +370,10 @@
     "page": "Research",
     "title": "BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval",
     "anchor": "bright",
-    "description": "Finding the answer to a question can require a document whose relevance becomes apparent only after working through the problem. We developed BRIGHT to test this reasoning-intensive retrieval. The benchmark contains 1,384 real queries across economics, psychology, mathematics, and coding.",
-    "body": "Finding the answer to a question can require a document whose relevance becomes apparent only after working through the problem. We developed BRIGHT to test this reasoning-intensive retrieval. The benchmark contains 1,384 real queries across economics, psychology, mathematics, and coding. Strong retrievers that perform well on conventional benchmarks decline sharply on BRIGHT, while adding explicit query reasoning improves retrieval and downstream question answering.",
+    "description": "Finding a useful document can depend on first understanding what a problem requires. We developed BRIGHT to evaluate this reasoning-intensive retrieval, using 1,384 real queries across domains including economics, psychology, mathematics and coding. I contributed biology and psychology data and reproduced programming examples to work through the questions and the material needed to answer them.",
+    "body": "Finding a useful document can depend on first understanding what a problem requires. We developed BRIGHT to evaluate this reasoning-intensive retrieval, using 1,384 real queries across domains including economics, psychology, mathematics and coding. I contributed biology and psychology data and reproduced programming examples to work through the questions and the material needed to answer them. Models that performed well on conventional retrieval benchmarks struggled on BRIGHT. Explicit reasoning about a query improved retrieval, and supplying relevant documents improved question answering. The benchmark makes it possible to study retrieval as part of solving a problem, including how reasoning helps a system recognise the information it needs.",
     "parts": [
-      "Finding the answer to a question can require a document whose relevance becomes apparent only after working through the problem. We developed BRIGHT to test this reasoning-intensive retrieval. The benchmark contains 1,384 real queries across economics, psychology, mathematics, and coding. Strong retrievers that perform well on conventional benchmarks decline sharply on BRIGHT, while adding explicit query reasoning improves retrieval and downstream question answering."
+      "Finding a useful document can depend on first understanding what a problem requires. We developed BRIGHT to evaluate this reasoning-intensive retrieval, using 1,384 real queries across domains including economics, psychology, mathematics and coding. I contributed biology and psychology data and reproduced programming examples to work through the questions and the material needed to answer them. Models that performed well on conventional retrieval benchmarks struggled on BRIGHT. Explicit reasoning about a query improved retrieval, and supplying relevant documents improved question answering. The benchmark makes it possible to study retrieval as part of solving a problem, including how reasoning helps a system recognise the information it needs."
     ],
     "view_kind": "publication",
     "presentations": [
@@ -423,11 +423,11 @@
     "page": "Research",
     "title": "Early Epistemic Settlement in AI-Assisted Writing",
     "anchor": "structure-settles-thought",
-    "description": "Working out how to organise a passage can change what a writer understands and what the argument needs to explain. AI can supply a structure that meets the passage's current demands while the writer's own work towards a resolution is still unfinished. I call this early epistemic settlement. The writer can then move on without completing work that might have changed the problem itself.",
-    "body": "Working out how to organise a passage can change what a writer understands and what the argument needs to explain. AI can supply a structure that meets the passage's current demands while the writer's own work towards a resolution is still unfinished. I call this early epistemic settlement. The writer can then move on without completing work that might have changed the problem itself. Where the writer already has the connections needed to construct several arrangements, AI can complete one while the others still need work. In other cases, another arrangement becomes possible only as the writer forms further connections. A supplied resolution can remove the need for the work that would have made this alternative possible. The paper also asks what happens when an AI-supplied structure and the writer's continued work lead to the same wording. The supporting reasons and limits the writer has worked through can still differ, changing what they can defend or develop later. AI suggestions can help develop this understanding when the writer works through them while the question is still unresolved.",
+    "description": "In trying to finish a passage, a writer may connect her material in ways that change both the argument she can make and the demands it needs to meet. I examined what happens when AI supplies a passage that resolves the immediate difficulty while this work is still unfolding. The writer can understand the answer, judge it adequate, and move on before discovering what her own attempt could have made possible.",
+    "body": "In trying to finish a passage, a writer may connect her material in ways that change both the argument she can make and the demands it needs to meet. I examined what happens when AI supplies a passage that resolves the immediate difficulty while this work is still unfolding. The writer can understand the answer, judge it adequate, and move on before discovering what her own attempt could have made possible. I call this early epistemic settlement. Having a satisfactory passage removes an immediate reason to keep working. The value of continuing is harder to assess, since the writer has yet to form the connections that would reveal it. I show how writing develops both an argument and the grounds for deciding what is worth pursuing. Over successive exchanges, accepted passages help shape what the writer asks next and what a subsequent AI response needs to address. Useful answers can therefore sustain inquiry along a path while cutting short work that could have opened another. This makes the formation of new arguments and questions part of what is at stake in a response that successfully resolves the present task.",
     "parts": [
-      "Working out how to organise a passage can change what a writer understands and what the argument needs to explain. AI can supply a structure that meets the passage's current demands while the writer's own work towards a resolution is still unfinished. I call this early epistemic settlement. The writer can then move on without completing work that might have changed the problem itself. Where the writer already has the connections needed to construct several arrangements, AI can complete one while the others still need work. In other cases, another arrangement becomes possible only as the writer forms further connections. A supplied resolution can remove the need for the work that would have made this alternative possible. The paper also asks what happens when an AI-supplied structure and the writer's continued work lead to the same wording.",
-      "The supporting reasons and limits the writer has worked through can still differ, changing what they can defend or develop later. AI suggestions can help develop this understanding when the writer works through them while the question is still unresolved."
+      "In trying to finish a passage, a writer may connect her material in ways that change both the argument she can make and the demands it needs to meet. I examined what happens when AI supplies a passage that resolves the immediate difficulty while this work is still unfolding. The writer can understand the answer, judge it adequate, and move on before discovering what her own attempt could have made possible. I call this early epistemic settlement. Having a satisfactory passage removes an immediate reason to keep working. The value of continuing is harder to assess, since the writer has yet to form the connections that would reveal it. I show how writing develops both an argument and the grounds for deciding what is worth pursuing. Over successive exchanges, accepted passages help shape what the writer asks next and what a subsequent AI response needs to address.",
+      "Useful answers can therefore sustain inquiry along a path while cutting short work that could have opened another. This makes the formation of new arguments and questions part of what is at stake in a response that successfully resolves the present task."
     ],
     "view_kind": "publication",
     "presentations": [
@@ -460,10 +460,11 @@
     "page": "Research",
     "title": "Functional Encoding and Representational Binding in Componential Transfer",
     "anchor": "encoding",
-    "description": "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We separate transfer into two representational questions. Functional encoding asks whether a useful component enters the representation that drives the response. Representational binding asks whether that component remains available as a reusable part or becomes fused with the whole stimulus.",
-    "body": "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We separate transfer into two representational questions. Functional encoding asks whether a useful component enters the representation that drives the response. Representational binding asks whether that component remains available as a reusable part or becomes fused with the whole stimulus. One model, held fixed across artificial orthography, Chinese character learning, and artificial grammar, shows that tests preserving a trained component primarily probe encoding, while tests recombining components probe binding. A continuous binding parameter accounts for patterns that earlier theories attributed to two separate systems.",
+    "description": "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We built a computational account in which transfer depends on how useful components are encoded and bound together. Functional encoding determines which components enter the representation used to generate a response.",
+    "body": "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We built a computational account in which transfer depends on how useful components are encoded and bound together. Functional encoding determines which components enter the representation used to generate a response. Representational binding determines whether those components remain available as reusable parts or become fused with the whole stimulus. Varying these properties lets us generate patterns of learning and transfer within one model. Across artificial orthography, Chinese character learning and artificial grammar, tests that preserve a trained component primarily reveal its encoding, while recombination tests reveal how the components are bound. A continuous binding parameter accounts for patterns previously attributed to two separate systems, connecting those patterns to how knowledge is organised.",
     "parts": [
-      "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We separate transfer into two representational questions. Functional encoding asks whether a useful component enters the representation that drives the response. Representational binding asks whether that component remains available as a reusable part or becomes fused with the whole stimulus. One model, held fixed across artificial orthography, Chinese character learning, and artificial grammar, shows that tests preserving a trained component primarily probe encoding, while tests recombining components probe binding. A continuous binding parameter accounts for patterns that earlier theories attributed to two separate systems."
+      "Why can a learner demonstrate a rule during training yet fail to use it on a new item? We built a computational account in which transfer depends on how useful components are encoded and bound together. Functional encoding determines which components enter the representation used to generate a response. Representational binding determines whether those components remain available as reusable parts or become fused with the whole stimulus. Varying these properties lets us generate patterns of learning and transfer within one model. Across artificial orthography, Chinese character learning and artificial grammar, tests that preserve a trained component primarily reveal its encoding, while recombination tests reveal how the components are bound.",
+      "A continuous binding parameter accounts for patterns previously attributed to two separate systems, connecting those patterns to how knowledge is organised."
     ],
     "view_kind": "publication",
     "presentations": [
@@ -507,11 +508,11 @@
     "page": "Research",
     "title": "Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation",
     "anchor": "humansDisengage",
-    "description": "People and reasoning models can spend longer on the same difficult problems while differing in how they continue working on them. I separate sensitivity to difficulty from the allocation of further effort across visual abstraction, intuitive physics and relational reasoning. I compare human response times with the length of reasoning traces, the text models generate before giving an answer.",
-    "body": "People and reasoning models can spend longer on the same difficult problems while differing in how they continue working on them. I separate sensitivity to difficulty from the allocation of further effort across visual abstraction, intuitive physics and relational reasoning. I compare human response times with the length of reasoning traces, the text models generate before giving an answer. In the visual grid puzzles, successful human attempts take longer than failed attempts after differences between problems are accounted for. Comparing responses from different models to the same puzzles shows longer traces on failed attempts. The relationship takes different forms across the three tasks. Human grid actions and model traces show what happens during longer attempts, including sustained human work and model expressions of doubt or repetition. I develop a resource-rational account of when further work is worth its cost, asking what it is expected to resolve and how much that progress is worth to the person or model.",
+    "description": "I studied how people and large reasoning models allocate effort once a problem becomes difficult. Across visual abstraction, intuitive physics and relational reasoning, I analysed human response times alongside the length and content of reasoning traces, the text models generate before answering. Comparing attempts on the same problems let me separate sensitivity to difficulty from the allocation of further effort.",
+    "body": "I studied how people and large reasoning models allocate effort once a problem becomes difficult. Across visual abstraction, intuitive physics and relational reasoning, I analysed human response times alongside the length and content of reasoning traces, the text models generate before answering. Comparing attempts on the same problems let me separate sensitivity to difficulty from the allocation of further effort. On visual grid puzzles, successful human attempts lasted longer than failed ones, while the model analysis showed longer traces on failed attempts. Grid actions and reasoning traces helped characterise what happened during that extra work. I developed a resource-rational account in which continued reasoning depends on its expected progress, the value of that progress and the cost of pursuing it. This makes the decision to continue a question about the return on further computation, and gives a basis for understanding how people and models can recognise the same difficulty yet pursue different courses of action.",
     "parts": [
-      "People and reasoning models can spend longer on the same difficult problems while differing in how they continue working on them. I separate sensitivity to difficulty from the allocation of further effort across visual abstraction, intuitive physics and relational reasoning. I compare human response times with the length of reasoning traces, the text models generate before giving an answer. In the visual grid puzzles, successful human attempts take longer than failed attempts after differences between problems are accounted for. Comparing responses from different models to the same puzzles shows longer traces on failed attempts. The relationship takes different forms across the three tasks. Human grid actions and model traces show what happens during longer attempts, including sustained human work and model expressions of doubt or repetition.",
-      "I develop a resource-rational account of when further work is worth its cost, asking what it is expected to resolve and how much that progress is worth to the person or model."
+      "I studied how people and large reasoning models allocate effort once a problem becomes difficult. Across visual abstraction, intuitive physics and relational reasoning, I analysed human response times alongside the length and content of reasoning traces, the text models generate before answering. Comparing attempts on the same problems let me separate sensitivity to difficulty from the allocation of further effort. On visual grid puzzles, successful human attempts lasted longer than failed ones, while the model analysis showed longer traces on failed attempts. Grid actions and reasoning traces helped characterise what happened during that extra work. I developed a resource-rational account in which continued reasoning depends on its expected progress, the value of that progress and the cost of pursuing it.",
+      "This makes the decision to continue a question about the return on further computation, and gives a basis for understanding how people and models can recognise the same difficulty yet pursue different courses of action."
     ],
     "view_kind": "publication",
     "presentations": [
@@ -557,10 +558,11 @@
     "page": "Research",
     "title": "Persistent Priors, Preserved Targets: A Stroop-Style Paradigm for Lexical Override",
     "anchor": "priorsPersist",
-    "description": "If a language model is told that, within a document, doctor means forest , it can answer forest when queried. The question is whether the established doctor → hospital association has been removed or merely overridden. Across 11 open-weight models, the prior association continues to influence behaviour, with stronger original associations producing more leakage.",
-    "body": "If a language model is told that, within a document, doctor means forest , it can answer forest when queried. The question is whether the established doctor → hospital association has been removed or merely overridden. Across 11 open-weight models, the prior association continues to influence behaviour, with stronger original associations producing more leakage. Causal analysis shows that the override depends jointly on the definition's subject, its new target, and the queried word. Successful override is supported by maintaining the contextual target, rather than by suppressing the prior association itself.",
+    "description": "I investigated how language models follow a new instruction while established knowledge continues to influence their responses. I designed a Stroop-style task that puts a familiar association in conflict with a temporary definition. A prompt might define doctor as forest , while the usual association with hospital competes with that instruction.",
+    "body": "I investigated how language models follow a new instruction while established knowledge continues to influence their responses. I designed a Stroop-style task that puts a familiar association in conflict with a temporary definition. A prompt might define doctor as forest , while the usual association with hospital competes with that instruction. Across 11 open-weight models, these familiar associations continued to influence the answer. I used activation patching, replacing internal activations between matched prompts, to trace how a model maintains the instructed meaning. The causal interventions linked successful override to information about the defined word, its assigned meaning and the later query. Preserving the newly assigned meaning was crucial to recovering the intended response. The analysis explains how a model can apply a contextual instruction while established associations remain active.",
     "parts": [
-      "If a language model is told that, within a document, doctor means forest , it can answer forest when queried. The question is whether the established doctor → hospital association has been removed or merely overridden. Across 11 open-weight models, the prior association continues to influence behaviour, with stronger original associations producing more leakage. Causal analysis shows that the override depends jointly on the definition's subject, its new target, and the queried word. Successful override is supported by maintaining the contextual target, rather than by suppressing the prior association itself."
+      "I investigated how language models follow a new instruction while established knowledge continues to influence their responses. I designed a Stroop-style task that puts a familiar association in conflict with a temporary definition. A prompt might define doctor as forest , while the usual association with hospital competes with that instruction. Across 11 open-weight models, these familiar associations continued to influence the answer. I used activation patching, replacing internal activations between matched prompts, to trace how a model maintains the instructed meaning. The causal interventions linked successful override to information about the defined word, its assigned meaning and the later query. Preserving the newly assigned meaning was crucial to recovering the intended response.",
+      "The analysis explains how a model can apply a contextual instruction while established associations remain active."
     ],
     "view_kind": "publication",
     "presentations": [
@@ -624,6 +626,37 @@
   },
   {
     "id": 18,
+    "source_id": "projects:searchstory",
+    "route": "/projects",
+    "page": "Builds",
+    "title": "AI × Self",
+    "anchor": "searchstory",
+    "description": "This project uses AI to help visitors explore the work, ideas and experiences on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and narration. View composes a reading path using original projects, images, writing and interactive components.",
+    "body": "This project uses AI to help visitors explore the work, ideas and experiences on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and narration. View composes a reading path using original projects, images, writing and interactive components. Every View also becomes an exhibition whose rooms, objects, wall writing, light, sound and route respond to that reading. Article and exhibition share one saved position, while permanent snapshots preserve the question, narrative and sources as the site grows.",
+    "parts": [
+      "This project uses AI to help visitors explore the work, ideas and experiences on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and narration. View composes a reading path using original projects, images, writing and interactive components. Every View also becomes an exhibition whose rooms, objects, wall writing, light, sound and route respond to that reading. Article and exhibition share one saved position, while permanent snapshots preserve the question, narrative and sources as the site grows."
+    ],
+    "view_kind": "project",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 5,
+    "media": [],
+    "entity": {
+      "kind": "project",
+      "id": "searchstory",
+      "period": "June 2026 - Present",
+      "subtitle": "An AI-driven personal archive",
+      "route": "/aipersonalarchive",
+      "anchor": "",
+      "mediaMode": "gallery",
+      "logoHeight": "",
+      "richBlock": "interactive.search.embedding-map"
+    },
+    "selected": true
+  },
+  {
+    "id": 19,
     "source_id": "projects:slidepoise",
     "route": "/projects",
     "page": "Builds",
@@ -651,43 +684,12 @@
       "kind": "project",
       "id": "slidepoise",
       "period": "September 2026 - Present",
-      "subtitle": "Agentic Slide Generation Framework",
+      "subtitle": "Agentic Slide Generation",
       "route": "/slidepoise/docs/site/",
       "anchor": "",
       "mediaMode": "hero",
       "logoHeight": "",
       "richBlock": ""
-    },
-    "selected": true
-  },
-  {
-    "id": 19,
-    "source_id": "projects:searchstory",
-    "route": "/projects",
-    "page": "Builds",
-    "title": "AI × Self",
-    "anchor": "searchstory",
-    "description": "This project uses AI to help visitors explore the work, research, photographs, and writing on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and narration. View composes a reading path using original projects, images, writing and interactive components.",
-    "body": "This project uses AI to help visitors explore the work, research, photographs, and writing on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and narration. View composes a reading path using original projects, images, writing and interactive components. Every View also becomes an exhibition whose rooms, objects, wall writing, light, sound and route respond to that reading. Article and exhibition share one saved position, while permanent snapshots preserve the question, narrative and sources as the site grows.",
-    "parts": [
-      "This project uses AI to help visitors explore the work, research, photographs, and writing on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and narration. View composes a reading path using original projects, images, writing and interactive components. Every View also becomes an exhibition whose rooms, objects, wall writing, light, sound and route respond to that reading. Article and exhibition share one saved position, while permanent snapshots preserve the question, narrative and sources as the site grows."
-    ],
-    "view_kind": "project",
-    "presentations": [
-      "cite"
-    ],
-    "priority": 5,
-    "media": [],
-    "entity": {
-      "kind": "project",
-      "id": "searchstory",
-      "period": "June 2026 - Present",
-      "subtitle": "An AI-driven personal archive",
-      "route": "/aipersonalarchive",
-      "anchor": "",
-      "mediaMode": "gallery",
-      "logoHeight": "",
-      "richBlock": "interactive.search.embedding-map"
     },
     "selected": true
   },
@@ -902,10 +904,10 @@
     "page": "Builds",
     "title": "Dealtracker",
     "anchor": "dealtracker",
-    "description": "While on exchange in Melbourne, I wanted to follow outdoor-clothing sales without repeatedly checking long product pages. Dealtracker scans two retailers on a schedule and matches their listings against my brand, size, gender, and discount preferences. Store-specific request handling and data normalisation account for differences between the sites.",
-    "body": "While on exchange in Melbourne, I wanted to follow outdoor-clothing sales without repeatedly checking long product pages. Dealtracker scans two retailers on a schedule and matches their listings against my brand, size, gender, and discount preferences. Store-specific request handling and data normalisation account for differences between the sites. A saved history tracks which products have already appeared in an alert. The next email groups new matches by brand, with photographs, prices, discounts and product links.",
+    "description": "During my exchange in Melbourne, outdoor brands I liked were often cheaper than in Hong Kong, but finding the right offer meant repeatedly checking long sale pages. I built Dealtracker to scan two retailers on a schedule and match their listings against my brand, size, gender, and discount preferences. Store-specific request handling and data normalisation account for differences between the sites.",
+    "body": "During my exchange in Melbourne, outdoor brands I liked were often cheaper than in Hong Kong, but finding the right offer meant repeatedly checking long sale pages. I built Dealtracker to scan two retailers on a schedule and match their listings against my brand, size, gender, and discount preferences. Store-specific request handling and data normalisation account for differences between the sites. A saved history tracks which products have already appeared in an alert. The next email groups new matches by brand, with photographs, prices, discounts and product links.",
     "parts": [
-      "While on exchange in Melbourne, I wanted to follow outdoor-clothing sales without repeatedly checking long product pages. Dealtracker scans two retailers on a schedule and matches their listings against my brand, size, gender, and discount preferences. Store-specific request handling and data normalisation account for differences between the sites. A saved history tracks which products have already appeared in an alert. The next email groups new matches by brand, with photographs, prices, discounts and product links."
+      "During my exchange in Melbourne, outdoor brands I liked were often cheaper than in Hong Kong, but finding the right offer meant repeatedly checking long sale pages. I built Dealtracker to scan two retailers on a schedule and match their listings against my brand, size, gender, and discount preferences. Store-specific request handling and data normalisation account for differences between the sites. A saved history tracks which products have already appeared in an alert. The next email groups new matches by brand, with photographs, prices, discounts and product links."
     ],
     "view_kind": "project",
     "presentations": [
@@ -940,10 +942,10 @@
     "page": "Builds",
     "title": "Lexaday",
     "anchor": "lexaday",
-    "description": "Lexaday began with an interest in images as memory cues for vocabulary. Giving every word its own image would create a large collection of separate associations. I wanted to explore whether an image attached to a shared root could help a learner develop a feel for its meaning and recognise it again in unfamiliar words. Each lesson develops a root through related words, examples and an AI-generated visual mnemonic.",
-    "body": "Lexaday began with an interest in images as memory cues for vocabulary. Giving every word its own image would create a large collection of separate associations. I wanted to explore whether an image attached to a shared root could help a learner develop a feel for its meaning and recognise it again in unfamiliar words. Each lesson develops a root through related words, examples and an AI-generated visual mnemonic. Personalised spaced repetition brings earlier roots back alongside new material. GitHub Actions runs the language and image models, assembles the daily email and saves each learner’s updated review history.",
+    "description": "Lexaday began with an interest in images as memory cues for vocabulary. Giving every word its own image would create a large collection of separate associations. I built the lessons around shared roots, pairing each root with an AI-generated image and related words so the same visual association could support later learning. Personalised spaced repetition brings earlier roots back alongside new material.",
+    "body": "Lexaday began with an interest in images as memory cues for vocabulary. Giving every word its own image would create a large collection of separate associations. I built the lessons around shared roots, pairing each root with an AI-generated image and related words so the same visual association could support later learning. Personalised spaced repetition brings earlier roots back alongside new material. GitHub Actions runs the language and image models, assembles the daily email and saves each learner’s updated review history.",
     "parts": [
-      "Lexaday began with an interest in images as memory cues for vocabulary. Giving every word its own image would create a large collection of separate associations. I wanted to explore whether an image attached to a shared root could help a learner develop a feel for its meaning and recognise it again in unfamiliar words. Each lesson develops a root through related words, examples and an AI-generated visual mnemonic. Personalised spaced repetition brings earlier roots back alongside new material. GitHub Actions runs the language and image models, assembles the daily email and saves each learner’s updated review history."
+      "Lexaday began with an interest in images as memory cues for vocabulary. Giving every word its own image would create a large collection of separate associations. I built the lessons around shared roots, pairing each root with an AI-generated image and related words so the same visual association could support later learning. Personalised spaced repetition brings earlier roots back alongside new material. GitHub Actions runs the language and image models, assembles the daily email and saves each learner’s updated review history."
     ],
     "view_kind": "project",
     "presentations": [
@@ -1155,10 +1157,10 @@
     "page": "Lexaday",
     "title": "Lexaday",
     "anchor": "",
-    "description": "Related words, memorable images, and reviews by email Lexaday explores whether an image attached to a word root can become a reusable memory cue. I wanted to develop a feel for the root’s meaning that I could bring to unfamiliar words. Each lesson combines a generated image with a family of related words, and a personalised review schedule brings those connections back over time.",
-    "body": "Related words, memorable images, and reviews by email Lexaday explores whether an image attached to a word root can become a reusable memory cue. I wanted to develop a feel for the root’s meaning that I could bring to unfamiliar words. Each lesson combines a generated image with a family of related words, and a personalised review schedule brings those connections back over time.",
+    "description": "Related words, memorable images, and reviews by email Lexaday explores whether an image attached to a word root can help learners develop a feel for its meaning across a family of words. Each lesson combines a generated image with a family of related words, and a personalised review schedule brings those connections back over time.",
+    "body": "Related words, memorable images, and reviews by email Lexaday explores whether an image attached to a word root can help learners develop a feel for its meaning across a family of words. Each lesson combines a generated image with a family of related words, and a personalised review schedule brings those connections back over time.",
     "parts": [
-      "Related words, memorable images, and reviews by email Lexaday explores whether an image attached to a word root can become a reusable memory cue. I wanted to develop a feel for the root’s meaning that I could bring to unfamiliar words. Each lesson combines a generated image with a family of related words, and a personalised review schedule brings those connections back over time."
+      "Related words, memorable images, and reviews by email Lexaday explores whether an image attached to a word root can help learners develop a feel for its meaning across a family of words. Each lesson combines a generated image with a family of related words, and a personalised review schedule brings those connections back over time."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1176,10 +1178,9 @@
     "title": "Remembering roots through images",
     "anchor": "a-small-lesson-generated-fresh-each-morning",
     "description": "A vivid image seemed a promising way to make a word’s meaning easier to recall. Giving every word its own picture, though, would create a new association to learn each time. I was interested in whether the same memory could help with several words, including ones I had not encountered yet. Roots offered a more compact starting point. Many words share an underlying idea such as speaking, hearing or sending.",
-    "body": "A vivid image seemed a promising way to make a word’s meaning easier to recall. Giving every word its own picture, though, would create a new association to learn each time. I was interested in whether the same memory could help with several words, including ones I had not encountered yet. Roots offered a more compact starting point. Many words share an underlying idea such as speaking, hearing or sending. I wanted to attach an image to that idea and develop it through related words, building an intuitive sense of the root’s meaning that I could draw on again in later learning. Each lesson develops one root through those connections. For dict , associated with speaking, examples such as dictate , contradict and prediction show how the meaning takes different forms. A language model writes the explanations and examples, and an image model creates a visual mnemonic around the root’s meaning. The images here come from those lessons.",
+    "body": "A vivid image seemed a promising way to make a word’s meaning easier to recall. Giving every word its own picture, though, would create a new association to learn each time. I was interested in whether the same memory could help with several words, including ones I had not encountered yet. Roots offered a more compact starting point. Many words share an underlying idea such as speaking, hearing or sending. I used this shared meaning as the basis for a visual mnemonic, giving related words a common image to return to. Each lesson develops one root through those connections. For dict , associated with speaking, examples such as dictate , contradict and prediction show how the meaning takes different forms. A language model writes the explanations and examples, and an image model creates a visual mnemonic around the root’s meaning. The images here come from those lessons.",
     "parts": [
-      "A vivid image seemed a promising way to make a word’s meaning easier to recall. Giving every word its own picture, though, would create a new association to learn each time. I was interested in whether the same memory could help with several words, including ones I had not encountered yet. Roots offered a more compact starting point. Many words share an underlying idea such as speaking, hearing or sending. I wanted to attach an image to that idea and develop it through related words, building an intuitive sense of the root’s meaning that I could draw on again in later learning. Each lesson develops one root through those connections. For dict , associated with speaking, examples such as dictate , contradict and prediction show how the meaning takes different forms.",
-      "A language model writes the explanations and examples, and an image model creates a visual mnemonic around the root’s meaning. The images here come from those lessons."
+      "A vivid image seemed a promising way to make a word’s meaning easier to recall. Giving every word its own picture, though, would create a new association to learn each time. I was interested in whether the same memory could help with several words, including ones I had not encountered yet. Roots offered a more compact starting point. Many words share an underlying idea such as speaking, hearing or sending. I used this shared meaning as the basis for a visual mnemonic, giving related words a common image to return to. Each lesson develops one root through those connections. For dict , associated with speaking, examples such as dictate , contradict and prediction show how the meaning takes different forms. A language model writes the explanations and examples, and an image model creates a visual mnemonic around the root’s meaning. The images here come from those lessons."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1196,10 +1197,10 @@
     "page": "Lexaday",
     "title": "Scheduling new roots and reviews",
     "anchor": "the-learning-loop",
-    "description": "I wanted each root to stay in the learning routine after its first lesson. I used spaced repetition to bring it back, with intervals increasing through one, two, four, eight, and progressively more runs. Each learner needs a separate schedule because the roots they have seen and their last review dates differ.",
-    "body": "I wanted each root to stay in the learning routine after its first lesson. I used spaced repetition to bring it back, with intervals increasing through one, two, four, eight, and progressively more runs. Each learner needs a separate schedule because the roots they have seen and their last review dates differ. A saved progress record lets the job select one unseen root alongside any reviews due that day, before generating the lesson.",
+    "description": "I built spaced repetition into the daily emails so earlier roots would return alongside new material. The intervals increase through one, two, four, eight, and progressively more runs. Each learner needs a separate schedule because the roots they have seen and their last review dates differ. A saved progress record lets the job select one unseen root alongside any reviews due that day, before generating the lesson.",
+    "body": "I built spaced repetition into the daily emails so earlier roots would return alongside new material. The intervals increase through one, two, four, eight, and progressively more runs. Each learner needs a separate schedule because the roots they have seen and their last review dates differ. A saved progress record lets the job select one unseen root alongside any reviews due that day, before generating the lesson.",
     "parts": [
-      "I wanted each root to stay in the learning routine after its first lesson. I used spaced repetition to bring it back, with intervals increasing through one, two, four, eight, and progressively more runs. Each learner needs a separate schedule because the roots they have seen and their last review dates differ. A saved progress record lets the job select one unseen root alongside any reviews due that day, before generating the lesson."
+      "I built spaced repetition into the daily emails so earlier roots would return alongside new material. The intervals increase through one, two, four, eight, and progressively more runs. Each learner needs a separate schedule because the roots they have seen and their last review dates differ. A saved progress record lets the job select one unseen root alongside any reviews due that day, before generating the lesson."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1418,10 +1419,10 @@
     "page": "Dealtracker",
     "title": "A shortlist in my inbox",
     "anchor": "from-noisy-sale-pages-to-a-short-inbox-digest",
-    "description": "I set the brands, sizes, gender, and minimum discounts I wanted to track. A scheduled job checks selected stores against those filters, turning their sale listings into a shortlist. The configuration shown here covers two Australian retailers and seven brands. 2 Australian stores 7 brands I track 29-39% minimum discount 02 The digest",
-    "body": "I set the brands, sizes, gender, and minimum discounts I wanted to track. A scheduled job checks selected stores against those filters, turning their sale listings into a shortlist. The configuration shown here covers two Australian retailers and seven brands. 2 Australian stores 7 brands I track 29-39% minimum discount 02 The digest",
+    "description": "I set filters for brands, sizes, gender, and minimum discounts. A scheduled job checks selected stores against those filters, turning their sale listings into a shortlist. The configuration shown here covers two Australian retailers and seven brands. 2 Australian stores 7 brands I track 29-39% minimum discount 02 The digest",
+    "body": "I set filters for brands, sizes, gender, and minimum discounts. A scheduled job checks selected stores against those filters, turning their sale listings into a shortlist. The configuration shown here covers two Australian retailers and seven brands. 2 Australian stores 7 brands I track 29-39% minimum discount 02 The digest",
     "parts": [
-      "I set the brands, sizes, gender, and minimum discounts I wanted to track. A scheduled job checks selected stores against those filters, turning their sale listings into a shortlist. The configuration shown here covers two Australian retailers and seven brands. 2 Australian stores 7 brands I track 29-39% minimum discount 02 The digest"
+      "I set filters for brands, sizes, gender, and minimum discounts. A scheduled job checks selected stores against those filters, turning their sale listings into a shortlist. The configuration shown here covers two Australian retailers and seven brands. 2 Australian stores 7 brands I track 29-39% minimum discount 02 The digest"
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1438,10 +1439,10 @@
     "page": "Dealtracker",
     "title": "Enough information to decide",
     "anchor": "the-email-output",
-    "description": "I wanted to be able to assess a match before opening the store’s page. The digest groups items by brand and sorts them by discount, showing a photograph and the original and sale prices beside each product link. The examples below show how that information comes together in the email. Arc'teryx and The North Face digest Patagonia and Icebreaker digest 03 Collection",
-    "body": "I wanted to be able to assess a match before opening the store’s page. The digest groups items by brand and sorts them by discount, showing a photograph and the original and sale prices beside each product link. The examples below show how that information comes together in the email. Arc'teryx and The North Face digest Patagonia and Icebreaker digest 03 Collection",
+    "description": "A useful alert lets me assess the offer before opening the store’s page. I designed the digest to group items by brand and sort them by discount, showing a photograph and the original and sale prices beside each product link. The examples below show how that information comes together in the email. Arc'teryx and The North Face digest Patagonia and Icebreaker digest 03 Collection",
+    "body": "A useful alert lets me assess the offer before opening the store’s page. I designed the digest to group items by brand and sort them by discount, showing a photograph and the original and sale prices beside each product link. The examples below show how that information comes together in the email. Arc'teryx and The North Face digest Patagonia and Icebreaker digest 03 Collection",
     "parts": [
-      "I wanted to be able to assess a match before opening the store’s page. The digest groups items by brand and sorts them by discount, showing a photograph and the original and sale prices beside each product link. The examples below show how that information comes together in the email. Arc'teryx and The North Face digest Patagonia and Icebreaker digest 03 Collection"
+      "A useful alert lets me assess the offer before opening the store’s page. I designed the digest to group items by brand and sort them by discount, showing a photograph and the original and sale prices beside each product link. The examples below show how that information comes together in the email. Arc'teryx and The North Face digest Patagonia and Icebreaker digest 03 Collection"
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1953,10 +1954,10 @@
     "page": "AI × Self",
     "title": "AI × Self",
     "anchor": "",
-    "description": "An AI-driven personal archive A question about how I think or work can lead across the projects, research, photographs and writing on this site. I built AI × Self to bring that material together around what a visitor wants to understand, and to explore the new connections a question can reveal.",
-    "body": "An AI-driven personal archive A question about how I think or work can lead across the projects, research, photographs and writing on this site. I built AI × Self to bring that material together around what a visitor wants to understand, and to explore the new connections a question can reveal.",
+    "description": "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors explore their connections through questions. A question about the places that shaped me, for example, brings travel records and personal writing into a View, a composed reading with its original sources. Visitors can read it as an article or walk through its exhibition.",
+    "body": "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors explore their connections through questions. A question about the places that shaped me, for example, brings travel records and personal writing into a View, a composed reading with its original sources. Visitors can read it as an article or walk through its exhibition.",
     "parts": [
-      "An AI-driven personal archive A question about how I think or work can lead across the projects, research, photographs and writing on this site. I built AI × Self to bring that material together around what a visitor wants to understand, and to explore the new connections a question can reveal."
+      "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors explore their connections through questions. A question about the places that shaped me, for example, brings travel records and personal writing into a View, a composed reading with its original sources. Visitors can read it as an article or walk through its exhibition."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1971,12 +1972,13 @@
     "source_id": "aipersonalarchive:one-archive-three-ways-to-explore",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
-    "title": "One archive, three ways to explore",
+    "title": "An archive open to different perspectives",
     "anchor": "one-archive-three-ways-to-explore",
-    "description": "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. View extends the answer into a reading experience built around what the visitor wants to understand.",
-    "body": "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. View extends the answer into a reading experience built around what the visitor wants to understand. It brings relevant writing, photographs and interactive components into the explanation. Each View becomes an article and an exhibition that can be saved, shared and revisited. As I publish new work, it becomes material for all three experiences. A project can supply a Search result, contribute to an Ask answer or become part of a future View.",
+    "description": "A personal site usually reflects how its author has organised their life. Work goes under projects, an experience under a date, a thought into a piece of writing. A visitor’s curiosity can cross all of those boundaries. Questions about how I think, what I build or where I have lived can bring together material I published years apart and for different reasons.",
+    "body": "A personal site usually reflects how its author has organised their life. Work goes under projects, an experience under a date, a thought into a piece of writing. A visitor’s curiosity can cross all of those boundaries. Questions about how I think, what I build or where I have lived can bring together material I published years apart and for different reasons. I built Search to find original passages and Ask to connect them in an answer. View develops a question into a composed reading with original sources and working demos woven into its narrative. The Gallery gives that reading a spatial form. Each perspective becomes an exhibition, with rooms to enter, original works to encounter and a story to follow. These readings become part of the archive too. Visitors can save and share their own Views, while new work gives later questions more material to draw on. The site holds both what I have made and the different ways people come to understand it.",
     "parts": [
-      "As the site grew, I could remember a company, place or idea without remembering its page. Search gave visitors and me a way back to the original passage. I then built Ask to answer questions that drew on several pages, with citations for following the answer back to its sources. View extends the answer into a reading experience built around what the visitor wants to understand. It brings relevant writing, photographs and interactive components into the explanation. Each View becomes an article and an exhibition that can be saved, shared and revisited. As I publish new work, it becomes material for all three experiences. A project can supply a Search result, contribute to an Ask answer or become part of a future View."
+      "A personal site usually reflects how its author has organised their life. Work goes under projects, an experience under a date, a thought into a piece of writing. A visitor’s curiosity can cross all of those boundaries. Questions about how I think, what I build or where I have lived can bring together material I published years apart and for different reasons. I built Search to find original passages and Ask to connect them in an answer. View develops a question into a composed reading with original sources and working demos woven into its narrative. The Gallery gives that reading a spatial form. Each perspective becomes an exhibition, with rooms to enter, original works to encounter and a story to follow. These readings become part of the archive too. Visitors can save and share their own Views, while new work gives later questions more material to draw on.",
+      "The site holds both what I have made and the different ways people come to understand it."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1993,12 +1995,12 @@
     "page": "AI × Self",
     "title": "Find a passage in its original context",
     "anchor": "find-a-passage-in-its-original-context",
-    "description": "I wanted Search to take visitors straight to the passage they needed, including within long project pages and collections. Each result shows the matching text and opens its precise location. Try “explore” here, or use a name or idea you remember from the site.",
-    "body": "I wanted Search to take visitors straight to the passage they needed, including within long project pages and collections. Each result shows the matching text and opens its precise location. Try “explore” here, or use a name or idea you remember from the site. Names such as HSBC are useful word matches, while a question about translating business requirements into software may describe the same work in different language. I combined lexical retrieval, which matches words, with semantic retrieval, which looks for related meaning. When I build the site, a sentence-embedding model converts each passage into an embedding, a vector of numbers that represents its meaning. Related meanings tend to have similar vectors. At search time, the browser uses the same model to embed the query and compares it with those stored vectors. This lets each search run locally. Word matches still matter, especially for names and technical terms. I merge the two rankings with weighted reciprocal-rank fusion, giving precise word matches priority while retaining relevant semantic matches. The comparison shows what each method contributes. Model choice and relevance thresholds I use all-MiniLM-L6-v2, which produces 384-dimensional embeddings. I store their values as 8-bit integers with a per-vector scale to reduce the download. At query time, cosine similarity compares the vectors. Lexical ranking uses a TF-IDF-like score, giving informative words more weight. Reciprocal-rank fusion combines list positions because the two scoring systems use different scales. A ranking always has a first result, even for an unrelated query. I tested realistic searches alongside deliberately unrelated ones. In that set, unrelated examples scored at or below about 0. 22, most useful matches were above 0. 45, and a few relevant ones fell near 0. I set the semantic floor at 0. 24 to retain those weaker matches while excluding clearly unrelated results. Adjust the threshold in the comparison to see how many passages remain. Its scores occupied a narrower range, making an absolute threshold less useful, and recall did not improve enough to justify switching. MiniLM gave me a clearer separation between relevant and unrelated material in these tests. Search the archive Compare matches 02 Explore connections",
+    "description": "Opening a long project page still leaves a visitor looking for the passage that answers their question. I made each Search result show the matching text and open its precise location. A visitor may remember a project’s name, or only the idea that made it interesting. Search accommodates both.",
+    "body": "Opening a long project page still leaves a visitor looking for the passage that answers their question. I made each Search result show the matching text and open its precise location. A visitor may remember a project’s name, or only the idea that made it interesting. Search accommodates both. A question about translating business requirements into software can lead back to my work at HSBC, even without the company name in the query. The result keeps enough of the passage visible to help the visitor decide where to go next. How Search finds related material Names such as HSBC are useful word matches, while a question about translating business requirements into software may describe the same work in different language. I combined lexical retrieval, which matches words, with semantic retrieval, which looks for related meaning. When I build the site, a sentence-embedding model converts each passage into an embedding, a vector of numbers that represents its meaning. Related meanings tend to have similar vectors. At search time, the browser uses the same model to embed the query and compares it with those stored vectors. This lets each search run locally. Word matches still matter, especially for names and technical terms. I merge the two rankings with weighted reciprocal-rank fusion, giving precise word matches priority while retaining relevant semantic matches. The comparison shows what each method contributes. I use all-MiniLM-L6-v2, which produces 384-dimensional embeddings. I store their values as 8-bit integers with a per-vector scale to reduce the download. At query time, cosine similarity compares the vectors. Lexical ranking uses a TF-IDF-like score, giving informative words more weight. Reciprocal-rank fusion combines list positions because the two scoring systems use different scales. A ranking always has a first result, even for an unrelated query. I tested realistic searches alongside deliberately unrelated ones. In that set, unrelated examples scored at or below about 0. 22, most useful matches were above 0. 45, and a few relevant ones fell near 0. I set the semantic floor at 0. 24 to retain those weaker matches while excluding clearly unrelated results. Adjust the threshold in the comparison to see how many passages remain. Its scores occupied a narrower range, making an absolute threshold less useful, and recall did not improve enough to justify switching. MiniLM gave me a clearer separation between relevant and unrelated material in these tests.",
     "parts": [
-      "I wanted Search to take visitors straight to the passage they needed, including within long project pages and collections. Each result shows the matching text and opens its precise location. Try “explore” here, or use a name or idea you remember from the site. Names such as HSBC are useful word matches, while a question about translating business requirements into software may describe the same work in different language. I combined lexical retrieval, which matches words, with semantic retrieval, which looks for related meaning. When I build the site, a sentence-embedding model converts each passage into an embedding, a vector of numbers that represents its meaning. Related meanings tend to have similar vectors. At search time, the browser uses the same model to embed the query and compares it with those stored vectors. This lets each search run locally.",
-      "Word matches still matter, especially for names and technical terms. I merge the two rankings with weighted reciprocal-rank fusion, giving precise word matches priority while retaining relevant semantic matches. The comparison shows what each method contributes. Model choice and relevance thresholds I use all-MiniLM-L6-v2, which produces 384-dimensional embeddings. I store their values as 8-bit integers with a per-vector scale to reduce the download. At query time, cosine similarity compares the vectors. Lexical ranking uses a TF-IDF-like score, giving informative words more weight. Reciprocal-rank fusion combines list positions because the two scoring systems use different scales. A ranking always has a first result, even for an unrelated query. I tested realistic searches alongside deliberately unrelated ones. In that set, unrelated examples scored at or below about 0.",
-      "22, most useful matches were above 0. 45, and a few relevant ones fell near 0. I set the semantic floor at 0. 24 to retain those weaker matches while excluding clearly unrelated results. Adjust the threshold in the comparison to see how many passages remain. Its scores occupied a narrower range, making an absolute threshold less useful, and recall did not improve enough to justify switching. MiniLM gave me a clearer separation between relevant and unrelated material in these tests. Search the archive Compare matches 02 Explore connections"
+      "Opening a long project page still leaves a visitor looking for the passage that answers their question. I made each Search result show the matching text and open its precise location. A visitor may remember a project’s name, or only the idea that made it interesting. Search accommodates both. A question about translating business requirements into software can lead back to my work at HSBC, even without the company name in the query. The result keeps enough of the passage visible to help the visitor decide where to go next. How Search finds related material Names such as HSBC are useful word matches, while a question about translating business requirements into software may describe the same work in different language. I combined lexical retrieval, which matches words, with semantic retrieval, which looks for related meaning.",
+      "When I build the site, a sentence-embedding model converts each passage into an embedding, a vector of numbers that represents its meaning. Related meanings tend to have similar vectors. At search time, the browser uses the same model to embed the query and compares it with those stored vectors. This lets each search run locally. Word matches still matter, especially for names and technical terms. I merge the two rankings with weighted reciprocal-rank fusion, giving precise word matches priority while retaining relevant semantic matches. The comparison shows what each method contributes. I use all-MiniLM-L6-v2, which produces 384-dimensional embeddings. I store their values as 8-bit integers with a per-vector scale to reduce the download. At query time, cosine similarity compares the vectors. Lexical ranking uses a TF-IDF-like score, giving informative words more weight.",
+      "Reciprocal-rank fusion combines list positions because the two scoring systems use different scales. A ranking always has a first result, even for an unrelated query. I tested realistic searches alongside deliberately unrelated ones. In that set, unrelated examples scored at or below about 0. 22, most useful matches were above 0. 45, and a few relevant ones fell near 0. I set the semantic floor at 0. 24 to retain those weaker matches while excluding clearly unrelated results. Adjust the threshold in the comparison to see how many passages remain. Its scores occupied a narrower range, making an absolute threshold less useful, and recall did not improve enough to justify switching. MiniLM gave me a clearer separation between relevant and unrelated material in these tests."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2013,13 +2015,12 @@
     "source_id": "aipersonalarchive:seeing-the-archive-as-a-space",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
-    "title": "Seeing the archive as a space",
+    "title": "The archive as a space",
     "anchor": "seeing-the-archive-as-a-space",
-    "description": "Once the passages had embeddings, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question.",
-    "body": "Once the passages had embeddings, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. I use UMAP to project the high-dimensional passage embeddings into two or three dimensions so they can be drawn on a screen. Both projections are prepared when the site is built, with a fixed seed that keeps the arrangement stable until the underlying material changes. Every dot represents a passage from the site. Research, projects, work, fragments, and other material can appear close together when their embeddings are similar, even when they live on different pages. A question can be added to the map as well, showing roughly where it falls among the material already there. The map is a lower-dimensional view of the embedding space. Search uses the original high-dimensional embeddings for retrieval.",
+    "description": "Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed.",
+    "body": "Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here.",
     "parts": [
-      "Once the passages had embeddings, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. I use UMAP to project the high-dimensional passage embeddings into two or three dimensions so they can be drawn on a screen. Both projections are prepared when the site is built, with a fixed seed that keeps the arrangement stable until the underlying material changes. Every dot represents a passage from the site. Research, projects, work, fragments, and other material can appear close together when their embeddings are similar, even when they live on different pages.",
-      "A question can be added to the map as well, showing roughly where it falls among the material already there. The map is a lower-dimensional view of the embedding space. Search uses the original high-dimensional embeddings for retrieval."
+      "Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2036,11 +2037,11 @@
     "page": "AI × Self",
     "title": "Ask brings related passages into one answer",
     "anchor": "ask-brings-related-passages-into-one-answer",
-    "description": "I wanted visitors to be able to ask a question about my work and get a useful answer straight away. A question such as how I use AI could draw on several projects, leaving someone to find and read each page before putting the answer together. I developed Ask to bring that material into one direct response. I designed the answer as a starting point for exploration.",
-    "body": "I wanted visitors to be able to ask a question about my work and get a useful answer straight away. A question such as how I use AI could draw on several projects, leaving someone to find and read each page before putting the answer together. I developed Ask to bring that material into one direct response. I designed the answer as a starting point for exploration. Citations lead into the relevant projects and writing, and suggested follow-up questions develop the conversation. A visitor can get an answer quickly, then follow the connections that interest them. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, which requests the model’s answer. This is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published fragments, using retrieval to bring relevant fragments forward. Keeping that broader context available helps with questions that connect several parts of the archive. Try the example to explore how I use AI on this site. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice.",
+    "description": "A question about how I use AI can draw on several projects. Search locates the passages. Understanding their connections involves reading across those pages. I developed Ask to bring that material into an answer with citations to the work behind it. Those citations lead into the relevant projects and writing, and suggested follow-up questions develop the conversation.",
+    "body": "A question about how I use AI can draw on several projects. Search locates the passages. Understanding their connections involves reading across those pages. I developed Ask to bring that material into an answer with citations to the work behind it. Those citations lead into the relevant projects and writing, and suggested follow-up questions develop the conversation. A visitor can start with an overview, then follow a particular decision, experience or connection that interests them. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, a server-side function that requests the model’s answer. Supplying source material to support an answer is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published personal writing, using retrieval to bring relevant passages forward. Keeping that broader context available helps with questions that connect several parts of the archive. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice.",
     "parts": [
-      "I wanted visitors to be able to ask a question about my work and get a useful answer straight away. A question such as how I use AI could draw on several projects, leaving someone to find and read each page before putting the answer together. I developed Ask to bring that material into one direct response. I designed the answer as a starting point for exploration. Citations lead into the relevant projects and writing, and suggested follow-up questions develop the conversation. A visitor can get an answer quickly, then follow the connections that interest them. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, which requests the model’s answer. This is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published fragments, using retrieval to bring relevant fragments forward.",
-      "Keeping that broader context available helps with questions that connect several parts of the archive. Try the example to explore how I use AI on this site. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice."
+      "A question about how I use AI can draw on several projects. Search locates the passages. Understanding their connections involves reading across those pages. I developed Ask to bring that material into an answer with citations to the work behind it. Those citations lead into the relevant projects and writing, and suggested follow-up questions develop the conversation. A visitor can start with an overview, then follow a particular decision, experience or connection that interests them. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, a server-side function that requests the model’s answer. Supplying source material to support an answer is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published personal writing, using retrieval to bring relevant passages forward.",
+      "Keeping that broader context available helps with questions that connect several parts of the archive. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2117,10 +2118,10 @@
     "page": "AI × Self",
     "title": "Cite",
     "anchor": "cite",
-    "description": "Connect the answer back to the pages it came from. An answer can point a visitor towards several pieces of work. I wanted to make the next step easier too, organising those pieces into a page where the visitor could read the explanation, try the relevant interactions and follow the connections directly.",
-    "body": "Connect the answer back to the pages it came from. An answer can point a visitor towards several pieces of work. I wanted to make the next step easier too, organising those pieces into a page where the visitor could read the explanation, try the relevant interactions and follow the connections directly.",
+    "description": "Connect the answer back to the pages it came from. An answer can also leave a visitor curious about the work behind it. Following that curiosity might involve trying a demo, looking through photographs or reading a personal reflection. These encounters became the basis for View.",
+    "body": "Connect the answer back to the pages it came from. An answer can also leave a visitor curious about the work behind it. Following that curiosity might involve trying a demo, looking through photographs or reading a personal reflection. These encounters became the basis for View.",
     "parts": [
-      "Connect the answer back to the pages it came from. An answer can point a visitor towards several pieces of work. I wanted to make the next step easier too, organising those pieces into a page where the visitor could read the explanation, try the relevant interactions and follow the connections directly."
+      "Connect the answer back to the pages it came from. An answer can also leave a visitor curious about the work behind it. Following that curiosity might involve trying a demo, looking through photographs or reading a personal reflection. These encounters became the basis for View."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2137,11 +2138,12 @@
     "page": "AI × Self",
     "title": "View reorganises the site around a question",
     "anchor": "view-reorganises-the-site-around-a-question",
-    "description": "A project’s interactive demo, a gallery of photographs and a personal fragment each offer a different way to understand the material. Ask could already describe and cite them. I wanted visitors to encounter the work itself as an explanation developed, trying a demo, looking through photographs or reading a fragment at the point where it mattered. This led to View, a response that takes the form of a composed page.",
-    "body": "A project’s interactive demo, a gallery of photographs and a personal fragment each offer a different way to understand the material. Ask could already describe and cite them. I wanted visitors to encounter the work itself as an explanation developed, trying a demo, looking through photographs or reading a fragment at the point where it mattered. This led to View, a response that takes the form of a composed page. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s original interaction can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View I registered projects, research entries, fragments, image groups and interactions as reusable components. The model selects the components that answer the question, arranges them into a page and writes the narrative that connects them. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, gallery or fragment. A question about learning might bring together work on human cognition, an education project, and a fragment written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. Visitors can also listen to the summary in an AI voice trained on my recordings, the same voice used for Ask answers.",
+    "description": "Trying a project’s demo reveals how it behaves. Photographs bring places and experiences into view, while a piece of writing preserves how I understood an idea at the time. In a View, these original pieces become part of the explanation, appearing where they help develop its meaning. Each response becomes a composed reading.",
+    "body": "Trying a project’s demo reveals how it behaves. Photographs bring places and experiences into view, while a piece of writing preserves how I understood an idea at the time. In a View, these original pieces become part of the explanation, appearing where they help develop its meaning. Each response becomes a composed reading. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s working demo can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View I registered projects, research entries, personal writing, image groups and interactions as reusable components. The model selects the components that answer the question, writes the narrative that connects them and gives each section its place in the reading. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, photo gallery or written passage. A question about learning might bring together work on human cognition, an education project, and a reflection written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. An audio summary introduces the reading before visitors explore the full narrative. A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection. Other visitors can explore these readings and see the archive through someone else’s perspective. Shared Views form the collection in the Gallery.",
     "parts": [
-      "A project’s interactive demo, a gallery of photographs and a personal fragment each offer a different way to understand the material. Ask could already describe and cite them. I wanted visitors to encounter the work itself as an explanation developed, trying a demo, looking through photographs or reading a fragment at the point where it mattered. This led to View, a response that takes the form of a composed page. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s original interaction can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View I registered projects, research entries, fragments, image groups and interactions as reusable components.",
-      "The model selects the components that answer the question, arranges them into a page and writes the narrative that connects them. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, gallery or fragment. A question about learning might bring together work on human cognition, an education project, and a fragment written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. Visitors can also listen to the summary in an AI voice trained on my recordings, the same voice used for Ask answers."
+      "Trying a project’s demo reveals how it behaves. Photographs bring places and experiences into view, while a piece of writing preserves how I understood an idea at the time. In a View, these original pieces become part of the explanation, appearing where they help develop its meaning. Each response becomes a composed reading. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s working demo can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View I registered projects, research entries, personal writing, image groups and interactions as reusable components. The model selects the components that answer the question, writes the narrative that connects them and gives each section its place in the reading.",
+      "Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, photo gallery or written passage. A question about learning might bring together work on human cognition, an education project, and a reflection written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. An audio summary introduces the reading before visitors explore the full narrative. A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection.",
+      "Other visitors can explore these readings and see the archive through someone else’s perspective. Shared Views form the collection in the Gallery."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2158,10 +2160,10 @@
     "page": "AI × Self",
     "title": "Every View becomes an exhibition",
     "anchor": "every-view-becomes-an-exhibition",
-    "description": "A View already contains a question, an interpretive lens, ordered sections, narrative passages and links to original material. I used that structure to compose an exhibition. The title and date form its entrance, each section becomes a room, and the selected sources become works encountered along a route. The shared Hall gives every View the same beginning.",
-    "body": "A View already contains a question, an interpretive lens, ordered sections, narrative passages and links to original material. I used that structure to compose an exhibition. The title and date form its entrance, each section becomes a room, and the selected sources become works encountered along a route. The shared Hall gives every View the same beginning. Visitors can browse perspectives on the collection board, compose their own at the writing desk, or enter the exhibition currently on view. Two camera positions make those choices legible, and the Hall remembers an unfinished visit. The live Gallery moves through the collection, entrance, writing desk and pavilion note. Each destination has its own composition, while the shared architecture keeps them part of one place. One View, two presentations",
+    "description": "A collection of Views is also a collection of perspectives on the same person. Giving each one an exhibition makes those perspectives places to visit. A question sets the theme, sections form a sequence of rooms, and the original material becomes the work on display. The Gallery opens in a shared entrance hall where visitors can browse exhibitions created by other people or compose a View around their own question.",
+    "body": "A collection of Views is also a collection of perspectives on the same person. Giving each one an exhibition makes those perspectives places to visit. A question sets the theme, sections form a sequence of rooms, and the original material becomes the work on display. The Gallery opens in a shared entrance hall where visitors can browse exhibitions created by other people or compose a View around their own question. I gave these activities a place in the room. A collection display lets visitors choose an exhibition, whose title and illustration then appear at the entrance. An open book provides a place to enter a new question.",
     "parts": [
-      "A View already contains a question, an interpretive lens, ordered sections, narrative passages and links to original material. I used that structure to compose an exhibition. The title and date form its entrance, each section becomes a room, and the selected sources become works encountered along a route. The shared Hall gives every View the same beginning. Visitors can browse perspectives on the collection board, compose their own at the writing desk, or enter the exhibition currently on view. Two camera positions make those choices legible, and the Hall remembers an unfinished visit. The live Gallery moves through the collection, entrance, writing desk and pavilion note. Each destination has its own composition, while the shared architecture keeps them part of one place. One View, two presentations"
+      "A collection of Views is also a collection of perspectives on the same person. Giving each one an exhibition makes those perspectives places to visit. A question sets the theme, sections form a sequence of rooms, and the original material becomes the work on display. The Gallery opens in a shared entrance hall where visitors can browse exhibitions created by other people or compose a View around their own question. I gave these activities a place in the room. A collection display lets visitors choose an exhibition, whose title and illustration then appear at the entrance. An open book provides a place to enter a new question."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2176,12 +2178,12 @@
     "source_id": "aipersonalarchive:article-and-exhibition-keep-the-same-place",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
-    "title": "Article and exhibition keep the same place",
+    "title": "Inside an exhibition",
     "anchor": "article-and-exhibition-keep-the-same-place",
-    "description": "Every generated View has an article and an exhibition. The article supports close reading, while the exhibition turns the same narrative and sources into a spatial experience. A passage on the page corresponds to a room, introduction, or original work in the building. Both presentations share one saved position.",
-    "body": "Every generated View has an article and an exhibition. The article supports close reading, while the exhibition turns the same narrative and sources into a spatial experience. A passage on the page corresponds to a room, introduction, or original work in the building. Both presentations share one saved position. A visitor can leave the room for the article, return to the exhibition, and continue from the same part of the narrative. The two forms make immersion and careful reading part of one visit.",
+    "description": "An exhibition lets visitors encounter the material as they follow a View. A photograph can fill a wall, a piece of writing can occupy a reading stand, and a record of places can become a globe. The narrative stays beside the work, explaining what connects it to the question. Visitors can also read the View as an article.",
+    "body": "An exhibition lets visitors encounter the material as they follow a View. A photograph can fill a wall, a piece of writing can occupy a reading stand, and a record of places can become a globe. The narrative stays beside the work, explaining what connects it to the question. Visitors can also read the View as an article. Switching between the article and exhibition takes them to the corresponding passage or exhibit, so visitors can continue in the form that suits them.",
     "parts": [
-      "Every generated View has an article and an exhibition. The article supports close reading, while the exhibition turns the same narrative and sources into a spatial experience. A passage on the page corresponds to a room, introduction, or original work in the building. Both presentations share one saved position. A visitor can leave the room for the article, return to the exhibition, and continue from the same part of the narrative. The two forms make immersion and careful reading part of one visit."
+      "An exhibition lets visitors encounter the material as they follow a View. A photograph can fill a wall, a piece of writing can occupy a reading stand, and a record of places can become a globe. The narrative stays beside the work, explaining what connects it to the question. Visitors can also read the View as an article. Switching between the article and exhibition takes them to the corresponding passage or exhibit, so visitors can continue in the form that suits them."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2196,12 +2198,12 @@
     "source_id": "aipersonalarchive:the-exhibition-is-designed-as-one-experience",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
-    "title": "The exhibition is designed as one experience",
+    "title": "Designing an immersive visit",
     "anchor": "the-exhibition-is-designed-as-one-experience",
-    "description": "I wanted the spatial form to carry more than layout. Architecture sets the pace, while objects, wall writing, light, sound and movement shape how the narrative is encountered. The number and order of sections determine the rooms and thresholds. Source type determines whether material appears as a mounted work, globe, book, display, or live interaction. Lighting prepares the next room before arrival.",
-    "body": "I wanted the spatial form to carry more than layout. Architecture sets the pace, while objects, wall writing, light, sound and movement shape how the narrative is encountered. The number and order of sections determine the rooms and thresholds. Source type determines whether material appears as a mounted work, globe, book, display, or live interaction. Lighting prepares the next room before arrival. Music and the audio guide hold the narrative together while the visitor walks. Previous and Next retain the curatorial sequence, while the floor plan and free walking keep the building open. Camera paths use the visitor’s current position and the shortest natural turn, so the visit remains continuous.",
+    "description": "In an exhibition, the space between works matters as much as their order. It gives a visitor time to look, approach and connect what they have seen. I designed the architecture, displays, wall writing, light and sound together so each generated View feels like a visit to a gallery.",
+    "body": "In an exhibition, the space between works matters as much as their order. It gives a visitor time to look, approach and connect what they have seen. I designed the architecture, displays, wall writing, light and sound together so each generated View feels like a visit to a gallery.",
     "parts": [
-      "I wanted the spatial form to carry more than layout. Architecture sets the pace, while objects, wall writing, light, sound and movement shape how the narrative is encountered. The number and order of sections determine the rooms and thresholds. Source type determines whether material appears as a mounted work, globe, book, display, or live interaction. Lighting prepares the next room before arrival. Music and the audio guide hold the narrative together while the visitor walks. Previous and Next retain the curatorial sequence, while the floor plan and free walking keep the building open. Camera paths use the visitor’s current position and the shortest natural turn, so the visit remains continuous."
+      "In an exhibition, the space between works matters as much as their order. It gives a visitor time to look, approach and connect what they have seen. I designed the architecture, displays, wall writing, light and sound together so each generated View feels like a visit to a gallery."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2233,16 +2235,16 @@
   },
   {
     "id": 78,
-    "source_id": "aipersonalarchive:views-over-time",
+    "source_id": "aipersonalarchive:what-the-case-gives-back",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
-    "title": "Views over time",
-    "anchor": "views-over-time",
-    "description": "I began saving Views that I wanted to return to. The archive keeps growing, so asking the same question later can produce a different reading. Saving a View captures the perspective and the material that made it possible at that moment. There are two comparisons I find useful here. Different questions asked around the same time can reveal different relationships within the same archive.",
-    "body": "I began saving Views that I wanted to return to. The archive keeps growing, so asking the same question later can produce a different reading. Saving a View captures the perspective and the material that made it possible at that moment. There are two comparisons I find useful here. Different questions asked around the same time can reveal different relationships within the same archive. Returning to one question months later can show how new work or writing changes the context of older pieces. A saved View gives each reading a place in that history. A saved View keeps the question, composed page, illustrations, narration, sources, and creation date together as a snapshot. It receives a permanent link, and its creator can choose whether to include it in Shared Views. The examples preserve the archive as it was read at those moments. A new View might place a familiar fragment beside a research problem I began thinking about years after writing it. A project may appear alongside a more recent experience that changes which part of it catches my attention. The earlier saved reading stays as it was, making it possible to compare how those pieces were understood at different points.",
+    "title": "Returning to my own archive",
+    "anchor": "what-the-case-gives-back",
+    "description": "Keeping this site gives me a record of what I could articulate at different moments. Reading across it raises other questions. A fragment can take on a different meaning beside a project I made later. An experience can help me understand why an earlier idea mattered. Views let me revisit those relationships. I can return to a question after adding new work and read the new perspective alongside an earlier one.",
+    "body": "Keeping this site gives me a record of what I could articulate at different moments. Reading across it raises other questions. A fragment can take on a different meaning beside a project I made later. An experience can help me understand why an earlier idea mattered. Views let me revisit those relationships. I can return to a question after adding new work and read the new perspective alongside an earlier one. The comparison shows how the material has grown and how its interpretation has changed. Other visitors bring questions I might never ask. Their shared Views put familiar work into arrangements I would be unlikely to choose myself. Looking through them gives me another perspective on what I have recorded and how other people understand me. The material records my life as I live it. The readings trace how I and other people come to understand it. Together, they give me a way to look back at what happened and at the meanings we found in it over time.",
     "parts": [
-      "I began saving Views that I wanted to return to. The archive keeps growing, so asking the same question later can produce a different reading. Saving a View captures the perspective and the material that made it possible at that moment. There are two comparisons I find useful here. Different questions asked around the same time can reveal different relationships within the same archive. Returning to one question months later can show how new work or writing changes the context of older pieces. A saved View gives each reading a place in that history. A saved View keeps the question, composed page, illustrations, narration, sources, and creation date together as a snapshot. It receives a permanent link, and its creator can choose whether to include it in Shared Views. The examples preserve the archive as it was read at those moments.",
-      "A new View might place a familiar fragment beside a research problem I began thinking about years after writing it. A project may appear alongside a more recent experience that changes which part of it catches my attention. The earlier saved reading stays as it was, making it possible to compare how those pieces were understood at different points."
+      "Keeping this site gives me a record of what I could articulate at different moments. Reading across it raises other questions. A fragment can take on a different meaning beside a project I made later. An experience can help me understand why an earlier idea mattered. Views let me revisit those relationships. I can return to a question after adding new work and read the new perspective alongside an earlier one. The comparison shows how the material has grown and how its interpretation has changed. Other visitors bring questions I might never ask. Their shared Views put familiar work into arrangements I would be unlikely to choose myself. Looking through them gives me another perspective on what I have recorded and how other people understand me. The material records my life as I live it. The readings trace how I and other people come to understand it.",
+      "Together, they give me a way to look back at what happened and at the meanings we found in it over time."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2254,27 +2256,6 @@
   },
   {
     "id": 79,
-    "source_id": "aipersonalarchive:what-the-case-gives-back",
-    "route": "/aipersonalarchive",
-    "page": "AI × Self",
-    "title": "Returning to my own archive",
-    "anchor": "what-the-case-gives-back",
-    "description": "Returning to these readings has changed what I can get from keeping an archive. A piece of writing records what I could articulate at the time. A later question can place it beside work or an experience that helps me understand it differently. The original piece remains, along with a record of how I came to read it later. Visitors extend that exploration with questions and perspectives I might never choose myself.",
-    "body": "Returning to these readings has changed what I can get from keeping an archive. A piece of writing records what I could articulate at the time. A later question can place it beside work or an experience that helps me understand it differently. The original piece remains, along with a record of how I came to read it later. Visitors extend that exploration with questions and perspectives I might never choose myself. Their Views can bring together parts of the site I usually think about separately. If they choose to share a reading, I and other visitors can return to the perspective they brought to the material. I want the site to support that continuing exchange between what I record and what I come to understand through it. Projects, experiences, photographs, and writing preserve parts of my life as they happen. The readings preserve ways of looking across that material, leaving room for new questions to change what I notice in it.",
-    "parts": [
-      "Returning to these readings has changed what I can get from keeping an archive. A piece of writing records what I could articulate at the time. A later question can place it beside work or an experience that helps me understand it differently. The original piece remains, along with a record of how I came to read it later. Visitors extend that exploration with questions and perspectives I might never choose myself. Their Views can bring together parts of the site I usually think about separately. If they choose to share a reading, I and other visitors can return to the perspective they brought to the material. I want the site to support that continuing exchange between what I record and what I come to understand through it. Projects, experiences, photographs, and writing preserve parts of my life as they happen.",
-      "The readings preserve ways of looking across that material, leaving room for new questions to change what I notice in it."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "priority": 5,
-    "media": [],
-    "selected": true
-  },
-  {
-    "id": 80,
     "source_id": "ragflow-pipeline:overview",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2294,7 +2275,7 @@
     "selected": false
   },
   {
-    "id": 81,
+    "id": 80,
     "source_id": "ragflow-pipeline:understanding-the-client-requirements",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2315,7 +2296,7 @@
     "selected": false
   },
   {
-    "id": 82,
+    "id": 81,
     "source_id": "ragflow-pipeline:why-one-pdf-needed-several-ways-of-reading",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2335,7 +2316,7 @@
     "selected": false
   },
   {
-    "id": 83,
+    "id": 82,
     "source_id": "ragflow-pipeline:complex-tables",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2356,7 +2337,7 @@
     "selected": false
   },
   {
-    "id": 84,
+    "id": 83,
     "source_id": "ragflow-pipeline:notes",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2378,16 +2359,16 @@
     "selected": false
   },
   {
-    "id": 85,
+    "id": 84,
     "source_id": "ragflow-pipeline:mermaid",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
     "title": "Making a flowchart’s decision logic searchable",
     "anchor": "mermaid",
-    "description": "Many client documents used flowchart images to explain a procedure. An answer might depend on following a “Yes” branch through several conditions. OCR could recover the words in each box while losing the arrows that made them a decision. I also tested free-form VLM descriptions, which conveyed the overall process with varying levels of detail. I wanted a representation in which each branch could be inspected.",
-    "body": "Many client documents used flowchart images to explain a procedure. An answer might depend on following a “Yes” branch through several conditions. OCR could recover the words in each box while losing the arrows that made them a decision. I also tested free-form VLM descriptions, which conveyed the overall process with varying levels of detail. I wanted a representation in which each branch could be inspected. I chose Mermaid, a text-based diagram language that records nodes, connecting edges and branch labels. A VLM could convert the image into this representation, making its logic searchable alongside the document’s prose. Rendering the text back into a diagram also gave me a way to compare the reconstructed decisions with the original. In the controlled test, the reconstruction retained every node, edge and label and supported correct answers to both flowchart questions. Later in the research, I found that MinerU’s built-in VLM already supported converting flowcharts to Mermaid. It could select an appropriate representation for an image, including HTML for tables and Mermaid for flowcharts. This brought the two visual requirements into the same parser and model, fitting the client’s preference to keep the number of models they operated small.",
+    "description": "Many client documents used flowchart images to explain a procedure. An answer might depend on following a “Yes” branch through several conditions. OCR could recover the words in each box while losing the arrows that made them a decision. I also tested free-form VLM descriptions, which conveyed the overall process with varying levels of detail.",
+    "body": "Many client documents used flowchart images to explain a procedure. An answer might depend on following a “Yes” branch through several conditions. OCR could recover the words in each box while losing the arrows that made them a decision. I also tested free-form VLM descriptions, which conveyed the overall process with varying levels of detail. I chose Mermaid, a text-based diagram language that makes each branch explicit through nodes, connecting edges and labels. This let me inspect the individual decision paths. A VLM could convert the image into this representation, making its logic searchable alongside the document’s prose. Rendering the text back into a diagram also gave me a way to compare the reconstructed decisions with the original. In the controlled test, the reconstruction retained every node, edge and label and supported correct answers to both flowchart questions. Later in the research, I found that MinerU’s built-in VLM already supported converting flowcharts to Mermaid. It could select an appropriate representation for an image, including HTML for tables and Mermaid for flowcharts. This brought the two visual requirements into the same parser and model, fitting the client’s preference to keep the number of models they operated small.",
     "parts": [
-      "Many client documents used flowchart images to explain a procedure. An answer might depend on following a “Yes” branch through several conditions. OCR could recover the words in each box while losing the arrows that made them a decision. I also tested free-form VLM descriptions, which conveyed the overall process with varying levels of detail. I wanted a representation in which each branch could be inspected. I chose Mermaid, a text-based diagram language that records nodes, connecting edges and branch labels. A VLM could convert the image into this representation, making its logic searchable alongside the document’s prose. Rendering the text back into a diagram also gave me a way to compare the reconstructed decisions with the original. In the controlled test, the reconstruction retained every node, edge and label and supported correct answers to both flowchart questions.",
+      "Many client documents used flowchart images to explain a procedure. An answer might depend on following a “Yes” branch through several conditions. OCR could recover the words in each box while losing the arrows that made them a decision. I also tested free-form VLM descriptions, which conveyed the overall process with varying levels of detail. I chose Mermaid, a text-based diagram language that makes each branch explicit through nodes, connecting edges and labels. This let me inspect the individual decision paths. A VLM could convert the image into this representation, making its logic searchable alongside the document’s prose. Rendering the text back into a diagram also gave me a way to compare the reconstructed decisions with the original. In the controlled test, the reconstruction retained every node, edge and label and supported correct answers to both flowchart questions.",
       "Later in the research, I found that MinerU’s built-in VLM already supported converting flowcharts to Mermaid. It could select an appropriate representation for an image, including HTML for tables and Mermaid for flowcharts. This brought the two visual requirements into the same parser and model, fitting the client’s preference to keep the number of models they operated small."
     ],
     "view_kind": "prose",
@@ -2399,7 +2380,7 @@
     "selected": false
   },
   {
-    "id": 86,
+    "id": 85,
     "source_id": "ragflow-pipeline:what-i-tested-before-recommending-it",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2420,7 +2401,7 @@
     "selected": false
   },
   {
-    "id": 87,
+    "id": 86,
     "source_id": "ragflow-pipeline:judging-the-whole-solution",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2442,7 +2423,7 @@
     "selected": false
   },
   {
-    "id": 88,
+    "id": 87,
     "source_id": "ai-it-operations:overview",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2462,7 +2443,7 @@
     "selected": true
   },
   {
-    "id": 89,
+    "id": 88,
     "source_id": "ai-it-operations:ai-in-it-operations",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2482,7 +2463,7 @@
     "selected": true
   },
   {
-    "id": 90,
+    "id": 89,
     "source_id": "ai-it-operations:knowledge-management",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2502,7 +2483,7 @@
     "selected": true
   },
   {
-    "id": 91,
+    "id": 90,
     "source_id": "ai-it-operations:where-does-the-assistant-need-more-knowledge",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2523,7 +2504,7 @@
     "selected": true
   },
   {
-    "id": 92,
+    "id": 91,
     "source_id": "ai-it-operations:researching-gaps-in-technical-guidance",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2544,7 +2525,7 @@
     "selected": true
   },
   {
-    "id": 93,
+    "id": 92,
     "source_id": "ai-it-operations:what-happens-when-the-guidance-changes",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2566,7 +2547,7 @@
     "selected": true
   },
   {
-    "id": 94,
+    "id": 93,
     "source_id": "ai-it-operations:from-a-source-to-maintained-knowledge",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2587,7 +2568,7 @@
     "selected": true
   },
   {
-    "id": 95,
+    "id": 94,
     "source_id": "ai-it-operations:browser-control",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2607,7 +2588,7 @@
     "selected": true
   },
   {
-    "id": 96,
+    "id": 95,
     "source_id": "ai-it-operations:turning-the-request-into-actions",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2627,7 +2608,7 @@
     "selected": true
   },
   {
-    "id": 97,
+    "id": 96,
     "source_id": "ai-it-operations:why-a-browser-extension",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2648,7 +2629,7 @@
     "selected": true
   },
   {
-    "id": 98,
+    "id": 97,
     "source_id": "ai-it-operations:a-place-to-start-intervene-and-look-back",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2668,7 +2649,7 @@
     "selected": true
   },
   {
-    "id": 99,
+    "id": 98,
     "source_id": "ai-it-operations:from-planning-to-a-browser-action",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2688,7 +2669,7 @@
     "selected": true
   },
   {
-    "id": 100,
+    "id": 99,
     "source_id": "ai-it-operations:where-judgement-changes-hands",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2711,7 +2692,7 @@
     "selected": true
   },
   {
-    "id": 101,
+    "id": 100,
     "source_id": "fragments:overview",
     "route": "/fragments",
     "page": "Fragments",
@@ -2731,7 +2712,7 @@
     "selected": false
   },
   {
-    "id": 102,
+    "id": 101,
     "source_id": "fragments:the-projection-of-thought",
     "route": "/fragments",
     "page": "Fragments",
@@ -2765,7 +2746,7 @@
     "selected": false
   },
   {
-    "id": 103,
+    "id": 102,
     "source_id": "fragments:rebuilding-another-state-inside-me",
     "route": "/fragments",
     "page": "Fragments",
@@ -2799,7 +2780,7 @@
     "selected": false
   },
   {
-    "id": 104,
+    "id": 103,
     "source_id": "fragments:visible-part-of-the-mind",
     "route": "/fragments",
     "page": "Fragments",
@@ -2830,7 +2811,7 @@
     "selected": false
   },
   {
-    "id": 105,
+    "id": 104,
     "source_id": "fragments:understanding-before-definition",
     "route": "/fragments",
     "page": "Fragments",
@@ -2860,7 +2841,7 @@
     "selected": false
   },
   {
-    "id": 106,
+    "id": 105,
     "source_id": "fragments:expression-recording",
     "route": "/fragments",
     "page": "Fragments",
@@ -2893,7 +2874,7 @@
     "selected": false
   },
   {
-    "id": 107,
+    "id": 106,
     "source_id": "fragments:rich-traces-and-open-paths",
     "route": "/fragments",
     "page": "Fragments",
@@ -2926,7 +2907,7 @@
     "selected": false
   },
   {
-    "id": 108,
+    "id": 107,
     "source_id": "fragments:labels-goals-rules",
     "route": "/fragments",
     "page": "Fragments",
@@ -2963,7 +2944,7 @@
     "selected": false
   },
   {
-    "id": 109,
+    "id": 108,
     "source_id": "fragments:memory-time-self",
     "route": "/fragments",
     "page": "Fragments",
@@ -2998,7 +2979,7 @@
     "selected": false
   },
   {
-    "id": 110,
+    "id": 109,
     "source_id": "fragments:satisfaction-signal",
     "route": "/fragments",
     "page": "Fragments",
@@ -3032,7 +3013,7 @@
     "selected": false
   },
   {
-    "id": 111,
+    "id": 110,
     "source_id": "fragments:queen-victoria-market-toast-oysters",
     "route": "/fragments",
     "page": "Fragments",
@@ -3060,7 +3041,7 @@
     "selected": false
   },
   {
-    "id": 112,
+    "id": 111,
     "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
     "route": "/fragments",
     "page": "Fragments",
@@ -3088,7 +3069,7 @@
     "selected": false
   },
   {
-    "id": 113,
+    "id": 112,
     "source_id": "fragments:ai-generated-kitten-videos",
     "route": "/fragments",
     "page": "Fragments",
@@ -3117,7 +3098,7 @@
     "selected": false
   },
   {
-    "id": 114,
+    "id": 113,
     "source_id": "fragments:identity-interview-reflection",
     "route": "/fragments",
     "page": "Fragments",
@@ -3146,7 +3127,7 @@
     "selected": false
   },
   {
-    "id": 115,
+    "id": 114,
     "source_id": "fragments:napier-seaside-with-my-mother",
     "route": "/fragments",
     "page": "Fragments",
@@ -3176,7 +3157,7 @@
     "selected": false
   },
   {
-    "id": 116,
+    "id": 115,
     "source_id": "fragments:mothers-cooking-across-places",
     "route": "/fragments",
     "page": "Fragments",
@@ -3205,7 +3186,7 @@
     "selected": false
   },
   {
-    "id": 117,
+    "id": 116,
     "source_id": "fragments:golf-with-my-mother-in-new-zealand",
     "route": "/fragments",
     "page": "Fragments",
@@ -3233,7 +3214,7 @@
     "selected": false
   },
   {
-    "id": 118,
+    "id": 117,
     "source_id": "fragments:slr-lab-racket-games",
     "route": "/fragments",
     "page": "Fragments",
@@ -3261,7 +3242,7 @@
     "selected": false
   },
   {
-    "id": 119,
+    "id": 118,
     "source_id": "fragments:kennedy-town-seaside-hku-years",
     "route": "/fragments",
     "page": "Fragments",
@@ -3290,7 +3271,7 @@
     "selected": false
   },
   {
-    "id": 120,
+    "id": 119,
     "source_id": "fragments:sydney-harbour-ferry-rides",
     "route": "/fragments",
     "page": "Fragments",
@@ -3319,7 +3300,7 @@
     "selected": false
   },
   {
-    "id": 121,
+    "id": 120,
     "source_id": "fragments:gold-coast-water-and-city-line",
     "route": "/fragments",
     "page": "Fragments",
@@ -3348,7 +3329,7 @@
     "selected": false
   },
   {
-    "id": 122,
+    "id": 121,
     "source_id": "fragments:great-ocean-road-melbourne-friends",
     "route": "/fragments",
     "page": "Fragments",
@@ -3377,7 +3358,7 @@
     "selected": false
   },
   {
-    "id": 123,
+    "id": 122,
     "source_id": "fragments:taiwan-east-coast-family-road-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -3406,7 +3387,7 @@
     "selected": false
   },
   {
-    "id": 124,
+    "id": 123,
     "source_id": "fragments:tomatoes-of-august-29",
     "route": "/fragments",
     "page": "Fragments",
@@ -3419,7 +3400,7 @@
       "I first thought I was recording one ordinary detail. When I began speaking about it, the tomatoes opened the whole weekend again. On the first afternoon, my father had spent some time near Nantou Ancient City and was waiting for me at a Starbucks. I had meant to join him after lunch with a friend, but reaching the café required another stop or two on the metro, so we met at the station instead. It felt insignificant at the time. Later, I imagined that if I had gone, the café might have become somewhere I could return to on a difficult day. I could sit alone where we had once sat together, and the place would feel slightly less anonymous. Because I never went, it never became ours. Still, its absence remained. Sometimes what did not happen leaves its own location in memory.",
       "The clearest image came from the end of the trip. We were taking trains in opposite directions. My father entered his carriage and waved to me through the glass. I watched him, but I did not wave back clearly. I had become conscious of the people around me and let that small self-consciousness interrupt something simple. Soon afterward, an unwelcome thought appeared. What if this were the last time we saw each other? I had no reason to believe it, yet the question gave the scene a frightening finality. For a while, I reduced the memory to one accusation. He waved, and I did not. When I let the whole scene return, I could also see that I had stayed there watching him until the train left. I had still been present for the goodbye.",
       "Another detail returned later. On an earlier trip, I had told my father that his snoring made it difficult for me to sleep and that we should book twin beds. By the time we met in Shenzhen, he had remembered. When the hotel offered us a different room, the first thing he checked was whether it still had two beds. The sentence was small and practical. It moved me because I had never needed to remind him. The tomatoes carried the same kind of care. I had named a small difficulty, and he quietly removed it for me. I was trying so hard to preserve details about my father that I almost missed the evidence that he had been preserving details about me too.",
-      "When I tried to write the weekend down, the memories would not settle into a single feeling. Affection sat beside embarrassment. Gratitude kept turning into regret. The tomatoes led me back to the café I never entered, then to the station, then to the hotel room, then to the quiet realisation that my father had remembered something about me without being asked. I wanted the words to hold all of this without making the memory feel finished. It still changes each time I return to it.",
+      "When I tried to write the weekend down, the memories would not settle into a single feeling. Affection sat beside embarrassment. Gratitude kept turning into regret. The tomatoes led me back to the café I never entered, then to the station, then to the hotel room, then to the quiet realisation that my father had remembered something about me without being asked. I write to stay with all of these feelings, and the memory keeps changing each time I return to it.",
       "The photograph still shows a few tomatoes in a box. It cannot contain the weekend or explain my relationship with my father. It gives me a way back into both. Someday another room, another train, or a small act of care may change what I notice in this story. On August 29, the tomatoes brought me back once. For now, that is where I am leaving them."
     ],
     "view_kind": "fragment",
@@ -3438,7 +3419,7 @@
     "selected": false
   },
   {
-    "id": 125,
+    "id": 124,
     "source_id": "fragments:athens-ruins-and-family-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -3467,7 +3448,7 @@
     "selected": false
   },
   {
-    "id": 126,
+    "id": 125,
     "source_id": "fragments:swimming-in-the-mediterranean",
     "route": "/fragments",
     "page": "Fragments",
@@ -3496,7 +3477,7 @@
     "selected": false
   },
   {
-    "id": 127,
+    "id": 126,
     "source_id": "fragments:rainy-days-permission-to-stay-in",
     "route": "/fragments",
     "page": "Fragments",
@@ -3524,7 +3505,7 @@
     "selected": false
   },
   {
-    "id": 128,
+    "id": 127,
     "source_id": "fragments:mental-map-of-small-room",
     "route": "/fragments",
     "page": "Fragments",
@@ -3553,7 +3534,7 @@
     "selected": false
   },
   {
-    "id": 129,
+    "id": 128,
     "source_id": "fragments:first-camera-another-way-of-seeing",
     "route": "/fragments",
     "page": "Fragments",
@@ -3582,7 +3563,7 @@
     "selected": false
   },
   {
-    "id": 130,
+    "id": 129,
     "source_id": "fragments:music-that-became-more-spacious",
     "route": "/fragments",
     "page": "Fragments",
@@ -3611,16 +3592,16 @@
     "selected": false
   },
   {
-    "id": 131,
+    "id": 130,
     "source_id": "cv:profile",
     "route": "/cv",
     "page": "CV",
     "title": "Profile",
     "anchor": "profile",
     "description": "Fourth-year Applied Artificial Intelligence student at the University of Hong Kong. I’m interested in how people form and use knowledge, how representations and internal processes support behaviour in AI systems, and how learning and thinking change when people work with AI.",
-    "body": "Fourth-year Applied Artificial Intelligence student at the University of Hong Kong. I’m interested in how people form and use knowledge, how representations and internal processes support behaviour in AI systems, and how learning and thinking change when people work with AI. At HKU’s SLR Lab, I build computational models of how people form learned representations and use them to transfer knowledge across related tasks. I am also a Cloud, Data & AI consulting intern at PwC, where I work on enterprise AI and data problems across problem framing, solution design, evaluation, and implementation.",
+    "body": "Fourth-year Applied Artificial Intelligence student at the University of Hong Kong. I’m interested in how people form and use knowledge, how representations and internal processes support behaviour in AI systems, and how learning and thinking change when people work with AI. At HKU’s SLR Lab, I build computational models of how people form learned representations and use them to transfer knowledge across related tasks. I am also a Cloud, Data & AI consulting intern at PwC, where I work on solution architecture and development of AI and data systems for financial-services and public-sector clients.",
     "parts": [
-      "Fourth-year Applied Artificial Intelligence student at the University of Hong Kong. I’m interested in how people form and use knowledge, how representations and internal processes support behaviour in AI systems, and how learning and thinking change when people work with AI. At HKU’s SLR Lab, I build computational models of how people form learned representations and use them to transfer knowledge across related tasks. I am also a Cloud, Data & AI consulting intern at PwC, where I work on enterprise AI and data problems across problem framing, solution design, evaluation, and implementation."
+      "Fourth-year Applied Artificial Intelligence student at the University of Hong Kong. I’m interested in how people form and use knowledge, how representations and internal processes support behaviour in AI systems, and how learning and thinking change when people work with AI. At HKU’s SLR Lab, I build computational models of how people form learned representations and use them to transfer knowledge across related tasks. I am also a Cloud, Data & AI consulting intern at PwC, where I work on solution architecture and development of AI and data systems for financial-services and public-sector clients."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -3631,7 +3612,7 @@
     "selected": false
   },
   {
-    "id": 132,
+    "id": 131,
     "source_id": "cv:education",
     "route": "/cv",
     "page": "CV",
@@ -3651,16 +3632,16 @@
     "selected": false
   },
   {
-    "id": 133,
+    "id": 132,
     "source_id": "cv:experience",
     "route": "/cv",
     "page": "CV",
     "title": "Experience",
     "anchor": "experience",
-    "description": "Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Built a structure-preserving RAG ingestion pipeline for complex public documents, used LLMs to reverse-engineer legacy ETL logic into traceable lineage and migration tests, and developed DeepEval-based evaluation for classification, retrieval, and response quality. Also researched digital-asset infrastructure and risk.",
-    "body": "Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Built a structure-preserving RAG ingestion pipeline for complex public documents, used LLMs to reverse-engineer legacy ETL logic into traceable lineage and migration tests, and developed DeepEval-based evaluation for classification, retrieval, and response quality. Also researched digital-asset infrastructure and risk. Student Research Assistant May 2024 – Present Speech, Language & Reading Lab, HKU Built computational models of human learning and cognition, using behavioural data to study how learned representations support generalisation and transfer. Digital Transformation Intern Aug 2024 – Dec 2024 HSBC, Hong Kong Consolidated multi-market product and distribution information, then built an Excel/VBA configuration engine that mapped insurance product specifications through business scenarios and decision tables to UI-component requirements. Web Developer, Digital Content Support Jun 2023 – Dec 2023 Kiwiview International Limited, New Zealand Designed, developed, deployed, and maintained the company website, and produced branding and content for travel programmes.",
+    "description": "Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Designed an AI-assisted Knowledge Management architecture that identifies gaps, acquires missing material and keeps technical guidance up to date. Built a structure-preserving RAG ingestion pipeline for complex documents and an LLM-assisted pipeline that recovers legacy ETL logic for data migration.",
+    "body": "Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Designed an AI-assisted Knowledge Management architecture that identifies gaps, acquires missing material and keeps technical guidance up to date. Built a structure-preserving RAG ingestion pipeline for complex documents and an LLM-assisted pipeline that recovers legacy ETL logic for data migration. Student Research Assistant May 2024 – Present Speech, Language & Reading Lab, HKU Built computational models of human learning and cognition, using behavioural data to study how learned representations support generalisation and transfer. Digital Transformation Intern Aug 2024 – Dec 2024 HSBC, Hong Kong Consolidated multi-market product and distribution information, then built an Excel/VBA configuration engine that mapped insurance product specifications through business scenarios and decision tables to UI-component requirements. Web Developer, Digital Content Support Jun 2023 – Dec 2023 Kiwiview International Limited, New Zealand Designed, developed, deployed, and maintained the company website, and produced branding and content for travel programmes.",
     "parts": [
-      "Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Built a structure-preserving RAG ingestion pipeline for complex public documents, used LLMs to reverse-engineer legacy ETL logic into traceable lineage and migration tests, and developed DeepEval-based evaluation for classification, retrieval, and response quality. Also researched digital-asset infrastructure and risk. Student Research Assistant May 2024 – Present Speech, Language & Reading Lab, HKU Built computational models of human learning and cognition, using behavioural data to study how learned representations support generalisation and transfer.",
+      "Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Designed an AI-assisted Knowledge Management architecture that identifies gaps, acquires missing material and keeps technical guidance up to date. Built a structure-preserving RAG ingestion pipeline for complex documents and an LLM-assisted pipeline that recovers legacy ETL logic for data migration. Student Research Assistant May 2024 – Present Speech, Language & Reading Lab, HKU Built computational models of human learning and cognition, using behavioural data to study how learned representations support generalisation and transfer.",
       "Digital Transformation Intern Aug 2024 – Dec 2024 HSBC, Hong Kong Consolidated multi-market product and distribution information, then built an Excel/VBA configuration engine that mapped insurance product specifications through business scenarios and decision tables to UI-component requirements. Web Developer, Digital Content Support Jun 2023 – Dec 2023 Kiwiview International Limited, New Zealand Designed, developed, deployed, and maintained the company website, and produced branding and content for travel programmes."
     ],
     "view_kind": "prose",
@@ -3672,16 +3653,16 @@
     "selected": false
   },
   {
-    "id": 134,
+    "id": 133,
     "source_id": "cv:publications-preprints",
     "route": "/cv",
     "page": "CV",
     "title": "Publications & Preprints",
     "anchor": "publications-preprints",
-    "description": "Human-AI interaction and collaboration Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation H. Wang Under review; arXiv:2606. 26502 Human learning and computational cognition Functional Encoding and Representational Binding in Componential Transfer S. Wang Under review When Does a Smooth Learning Curve Mean Smooth Learning?",
-    "body": "Human-AI interaction and collaboration Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation H. Wang Under review; arXiv:2606. 26502 Human learning and computational cognition Functional Encoding and Representational Binding in Componential Transfer S. Wang Under review When Does a Smooth Learning Curve Mean Smooth Learning? Representational Format, Identifiability, and the Bounded Averaging Artifact H. Wang Under review Language models, behavior, and interpretability Persistent Priors, Preserved Targets: A Stroop-Style Paradigm for Lexical Override H. Wang Under review; arXiv:2606. 07555 BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval H. Yu ICLR 2025 Spotlight; arXiv:2407. 12883 Han-yu Wang (Henry) Last updated August 2026",
+    "description": "Human-AI interaction and collaboration Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation H. Wang Under review; arXiv:2606. 26502 Language models, behavior, and interpretability BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval H. Yu ICLR 2025 Spotlight; arXiv:2407. 12883 Han-yu Wang (Henry) Last updated September 2026",
+    "body": "Human-AI interaction and collaboration Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation H. Wang Under review; arXiv:2606. 26502 Language models, behavior, and interpretability BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval H. Yu ICLR 2025 Spotlight; arXiv:2407. 12883 Han-yu Wang (Henry) Last updated September 2026",
     "parts": [
-      "Human-AI interaction and collaboration Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation H. Wang Under review; arXiv:2606. 26502 Human learning and computational cognition Functional Encoding and Representational Binding in Componential Transfer S. Wang Under review When Does a Smooth Learning Curve Mean Smooth Learning? Representational Format, Identifiability, and the Bounded Averaging Artifact H. Wang Under review Language models, behavior, and interpretability Persistent Priors, Preserved Targets: A Stroop-Style Paradigm for Lexical Override H. Wang Under review; arXiv:2606. 07555 BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval H. Yu ICLR 2025 Spotlight; arXiv:2407. 12883 Han-yu Wang (Henry) Last updated August 2026"
+      "Human-AI interaction and collaboration Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation H. Wang Under review; arXiv:2606. 26502 Language models, behavior, and interpretability BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval H. Yu ICLR 2025 Spotlight; arXiv:2407. 12883 Han-yu Wang (Henry) Last updated September 2026"
     ],
     "view_kind": "prose",
     "presentations": [
@@ -3692,7 +3673,7 @@
     "selected": false
   },
   {
-    "id": 135,
+    "id": 134,
     "source_id": "about:root:about-me",
     "route": "/about",
     "page": "About",
@@ -3728,7 +3709,7 @@
     "selected": false
   },
   {
-    "id": 136,
+    "id": 135,
     "source_id": "about:section:how-i-research-and-build",
     "route": "/about",
     "page": "About",
@@ -3749,7 +3730,7 @@
     "selected": false
   },
   {
-    "id": 137,
+    "id": 136,
     "source_id": "about:section:outside-work",
     "route": "/about",
     "page": "About",
@@ -3770,7 +3751,7 @@
     "selected": false
   },
   {
-    "id": 138,
+    "id": 137,
     "source_id": "about:contact",
     "route": "/about",
     "page": "About",
@@ -3793,7 +3774,7 @@
     "selected": false
   },
   {
-    "id": 139,
+    "id": 138,
     "source_id": "slidepoise:purpose",
     "route": "/slidepoise/docs/site/",
     "page": "SlidePoise",
@@ -3815,7 +3796,7 @@
     "selected": true
   },
   {
-    "id": 140,
+    "id": 139,
     "source_id": "slidepoise:philosophy",
     "route": "/slidepoise/docs/site/",
     "page": "SlidePoise",
@@ -3844,7 +3825,7 @@
     "selected": true
   },
   {
-    "id": 141,
+    "id": 140,
     "source_id": "about:gallery",
     "route": "/about",
     "page": "About",
@@ -4166,7 +4147,7 @@
     "selected": false
   },
   {
-    "id": 142,
+    "id": 141,
     "source_id": "home:currently",
     "route": "/home",
     "page": "Home",
