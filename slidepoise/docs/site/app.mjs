@@ -3,6 +3,8 @@ import { createObjectInspector, validateObjectDocument } from './object-inspecto
 import { createReconstructionViewer } from './reconstruction-viewer.mjs?v=eab167d38cbda0d7';
 import { createPlanView, createSlideBrief } from './planning-viewer.mjs';
 
+const showcaseCatalogURL = new URL('./showcases.json', import.meta.url);
+
 const byId = (id) => document.getElementById(id);
 const state = {
   decks: [], deck: null, slideIndex: 0, mode: 'rebuilt', inspectorOpen: false,
@@ -75,7 +77,7 @@ function artifactURL(value, manifestURL) {
 }
 
 async function loadDeck(manifestPath) {
-  const manifestURL = new URL(manifestPath, location.href).href;
+  const manifestURL = new URL(manifestPath, showcaseCatalogURL).href;
   const response = await fetch(manifestURL, { cache: 'no-cache' });
   if (!response.ok) throw new Error('The presentation manifest could not be loaded.');
   const data = await response.json();
@@ -836,7 +838,7 @@ async function restoreInitialFragment() {
 
 async function start() {
   try {
-    const response = await fetch('./showcases.json', { cache: 'no-cache' });
+    const response = await fetch(showcaseCatalogURL, { cache: 'no-cache' });
     if (!response.ok) throw new Error('The showcase index could not be loaded.');
     const index = await response.json();
     if (!Array.isArray(index.showcases) || !index.showcases.length) throw new Error('No presentations are listed.');

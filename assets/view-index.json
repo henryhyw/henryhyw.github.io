@@ -660,7 +660,7 @@
     {
       "id": 19,
       "source_id": "projects:slidepoise",
-      "route": "/slidepoise/docs/site/",
+      "route": "/slidepoise/",
       "page": "SlidePoise",
       "title": "SlidePoise",
       "anchor": "",
@@ -687,7 +687,7 @@
         "id": "slidepoise",
         "period": "September 2026 - Present",
         "subtitle": "Agentic Slide Generation",
-        "route": "/slidepoise/docs/site/",
+        "route": "/slidepoise/",
         "anchor": "",
         "mediaMode": "hero",
         "logoHeight": "",
@@ -3754,7 +3754,7 @@
     {
       "id": 138,
       "source_id": "slidepoise:purpose",
-      "route": "/slidepoise/docs/site/",
+      "route": "/slidepoise/",
       "page": "SlidePoise",
       "title": "Why SlidePoise",
       "anchor": "why-slidepoise",
@@ -3776,7 +3776,7 @@
     {
       "id": 139,
       "source_id": "slidepoise:philosophy",
-      "route": "/slidepoise/docs/site/",
+      "route": "/slidepoise/",
       "page": "SlidePoise",
       "title": "How SlidePoise works",
       "anchor": "philosophy",
