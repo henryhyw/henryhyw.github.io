@@ -66,7 +66,7 @@ if (root) {
     const button = document.createElement('button'); button.type = 'button';
     button.setAttribute('aria-label', `Inspect ${label.toLowerCase()} icon`); button.title = label;
     button.setAttribute('aria-haspopup', 'dialog');
-    const icon = new Image(); icon.src = `assets/remix/${name}-line.svg`; icon.alt = '';
+    const icon = new Image(); icon.src = new URL(`./assets/remix/${name}-line.svg`, import.meta.url).href; icon.alt = '';
     button.append(icon); tile.append(button); dock.append(tile);
     connect(button, tile.dataset.file);
     return tile;
