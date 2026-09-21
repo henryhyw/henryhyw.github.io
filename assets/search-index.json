@@ -631,10 +631,10 @@
     "page": "Builds",
     "title": "AI × Self",
     "anchor": "searchstory",
-    "description": "This project uses AI to help visitors explore the work, ideas and experiences on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and narration. View composes a reading path using original projects, images, writing and interactive components.",
-    "body": "This project uses AI to help visitors explore the work, ideas and experiences on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and narration. View composes a reading path using original projects, images, writing and interactive components. Every View also becomes an exhibition whose rooms, objects, wall writing, light, sound and route respond to that reading. Article and exhibition share one saved position, while permanent snapshots preserve the question, narrative and sources as the site grows.",
+    "description": "AI × Self lets visitors bring their own questions to my work, ideas and experiences. Each question can become a View, a narrative that connects original material into a particular perspective. The Gallery gathers these perspectives into exhibitions people can explore and share. As the archive grows, it records both what I have made and the ways others come to understand it.",
+    "body": "AI × Self lets visitors bring their own questions to my work, ideas and experiences. Each question can become a View, a narrative that connects original material into a particular perspective. The Gallery gathers these perspectives into exhibitions people can explore and share. As the archive grows, it records both what I have made and the ways others come to understand it.",
     "parts": [
-      "This project uses AI to help visitors explore the work, ideas and experiences on this site through their own questions. Search opens original passages in context. Ask brings relevant passages together into an answer with citations and narration. View composes a reading path using original projects, images, writing and interactive components. Every View also becomes an exhibition whose rooms, objects, wall writing, light, sound and route respond to that reading. Article and exhibition share one saved position, while permanent snapshots preserve the question, narrative and sources as the site grows."
+      "AI × Self lets visitors bring their own questions to my work, ideas and experiences. Each question can become a View, a narrative that connects original material into a particular perspective. The Gallery gathers these perspectives into exhibitions people can explore and share. As the archive grows, it records both what I have made and the ways others come to understand it."
     ],
     "view_kind": "project",
     "presentations": [
@@ -1954,10 +1954,10 @@
     "page": "AI × Self",
     "title": "AI × Self",
     "anchor": "",
-    "description": "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors explore their connections through questions. A question about the places that shaped me, for example, brings travel records and personal writing into a View, a composed reading with its original sources. Visitors can read it as an article or walk through its exhibition.",
-    "body": "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors explore their connections through questions. A question about the places that shaped me, for example, brings travel records and personal writing into a View, a composed reading with its original sources. Visitors can read it as an article or walk through its exhibition.",
+    "description": "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors connect them through their own questions. A question about the places that shaped me, for example, brings travel records and personal writing into a View, a composed reading with its original sources.",
+    "body": "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors connect them through their own questions. A question about the places that shaped me, for example, brings travel records and personal writing into a View, a composed reading with its original sources. The Gallery gathers these readings as exhibitions, giving visitors a shared space to explore other perspectives and contribute their own.",
     "parts": [
-      "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors explore their connections through questions. A question about the places that shaped me, for example, brings travel records and personal writing into a View, a composed reading with its original sources. Visitors can read it as an article or walk through its exhibition."
+      "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors connect them through their own questions. A question about the places that shaped me, for example, brings travel records and personal writing into a View, a composed reading with its original sources. The Gallery gathers these readings as exhibitions, giving visitors a shared space to explore other perspectives and contribute their own."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2018,9 +2018,10 @@
     "title": "The archive as a space",
     "anchor": "seeing-the-archive-as-a-space",
     "description": "Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed.",
-    "body": "Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here.",
+    "body": "Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here. A question about how I use AI can draw on several projects. Search locates the relevant passages. Understanding their connections involves reading across those pages. I developed Ask to bring that material into an answer.",
     "parts": [
-      "Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here."
+      "Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here. A question about how I use AI can draw on several projects. Search locates the relevant passages. Understanding their connections involves reading across those pages.",
+      "I developed Ask to bring that material into an answer."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2037,11 +2038,11 @@
     "page": "AI × Self",
     "title": "Ask brings related passages into one answer",
     "anchor": "ask-brings-related-passages-into-one-answer",
-    "description": "A question about how I use AI can draw on several projects. Search locates the passages. Understanding their connections involves reading across those pages. I developed Ask to bring that material into an answer with citations to the work behind it. Those citations lead into the relevant projects and writing, and suggested follow-up questions develop the conversation.",
-    "body": "A question about how I use AI can draw on several projects. Search locates the passages. Understanding their connections involves reading across those pages. I developed Ask to bring that material into an answer with citations to the work behind it. Those citations lead into the relevant projects and writing, and suggested follow-up questions develop the conversation. A visitor can start with an overview, then follow a particular decision, experience or connection that interests them. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, a server-side function that requests the model’s answer. Supplying source material to support an answer is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published personal writing, using retrieval to bring relevant passages forward. Keeping that broader context available helps with questions that connect several parts of the archive. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice.",
+    "description": "Each answer includes citations that lead into the relevant projects and writing. Suggested follow-up questions help a visitor develop an overview into a closer look at a decision, experience or connection. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice.",
+    "body": "Each answer includes citations that lead into the relevant projects and writing. Suggested follow-up questions help a visitor develop an overview into a closer look at a decision, experience or connection. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, a server-side function that requests the model’s answer. Supplying source material to support an answer is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published personal writing, using retrieval to bring relevant passages forward. Keeping that broader context available helps with questions that connect several parts of the archive. An answer can also leave a visitor curious about the work behind it. View develops that curiosity into a reading where people can explore the original material as the interpretation unfolds.",
     "parts": [
-      "A question about how I use AI can draw on several projects. Search locates the passages. Understanding their connections involves reading across those pages. I developed Ask to bring that material into an answer with citations to the work behind it. Those citations lead into the relevant projects and writing, and suggested follow-up questions develop the conversation. A visitor can start with an overview, then follow a particular decision, experience or connection that interests them. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, a server-side function that requests the model’s answer. Supplying source material to support an answer is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published personal writing, using retrieval to bring relevant passages forward.",
-      "Keeping that broader context available helps with questions that connect several parts of the archive. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice."
+      "Each answer includes citations that lead into the relevant projects and writing. Suggested follow-up questions help a visitor develop an overview into a closer look at a decision, experience or connection. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, a server-side function that requests the model’s answer. Supplying source material to support an answer is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published personal writing, using retrieval to bring relevant passages forward. Keeping that broader context available helps with questions that connect several parts of the archive. An answer can also leave a visitor curious about the work behind it.",
+      "View develops that curiosity into a reading where people can explore the original material as the interpretation unfolds."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2053,15 +2054,17 @@
   },
   {
     "id": 69,
-    "source_id": "aipersonalarchive:find",
+    "source_id": "aipersonalarchive:view-reorganises-the-site-around-a-question",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
-    "title": "Find",
-    "anchor": "find",
-    "description": "Find the passages that can support the question.",
-    "body": "Find the passages that can support the question.",
+    "title": "View reorganises the site around a question",
+    "anchor": "view-reorganises-the-site-around-a-question",
+    "description": "Trying a project’s demo reveals how it behaves. Photographs bring places and experiences into view, while a piece of writing preserves how I understood an idea at the time. In a View, these original pieces become part of the explanation, appearing where they help develop its meaning. Each response becomes a composed reading.",
+    "body": "Trying a project’s demo reveals how it behaves. Photographs bring places and experiences into view, while a piece of writing preserves how I understood an idea at the time. In a View, these original pieces become part of the explanation, appearing where they help develop its meaning. Each response becomes a composed reading. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s working demo can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View I registered projects, research entries, personal writing, image groups and interactions as reusable components. The model selects the components that answer the question, writes the narrative that connects them and gives each section its place in the reading. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, photo gallery or written passage. A question about learning might bring together work on human cognition, an education project, and a reflection written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. An audio summary introduces the reading before visitors explore the full narrative. A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection. Other visitors can explore these readings and see the archive through someone else’s perspective. The same narrative can also be experienced through space. Giving works scale and distance lets people approach them, pause and make connections as they move. I designed the Gallery so each View could be visited as an exhibition.",
     "parts": [
-      "Find the passages that can support the question."
+      "Trying a project’s demo reveals how it behaves. Photographs bring places and experiences into view, while a piece of writing preserves how I understood an idea at the time. In a View, these original pieces become part of the explanation, appearing where they help develop its meaning. Each response becomes a composed reading. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s working demo can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View I registered projects, research entries, personal writing, image groups and interactions as reusable components. The model selects the components that answer the question, writes the narrative that connects them and gives each section its place in the reading.",
+      "Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, photo gallery or written passage. A question about learning might bring together work on human cognition, an education project, and a reflection written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. An audio summary introduces the reading before visitors explore the full narrative. A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection.",
+      "Other visitors can explore these readings and see the archive through someone else’s perspective. The same narrative can also be experienced through space. Giving works scale and distance lets people approach them, pause and make connections as they move. I designed the Gallery so each View could be visited as an exhibition."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2073,15 +2076,15 @@
   },
   {
     "id": 70,
-    "source_id": "aipersonalarchive:set-the-scope",
+    "source_id": "aipersonalarchive:every-view-becomes-an-exhibition",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
-    "title": "Set the scope",
-    "anchor": "set-the-scope",
-    "description": "Give the model the source material relevant to the question.",
-    "body": "Give the model the source material relevant to the question.",
+    "title": "Every View becomes an exhibition",
+    "anchor": "every-view-becomes-an-exhibition",
+    "description": "The question behind a View sets the exhibition’s theme. Its sections form a sequence of rooms, and the original material becomes the work on display. The Gallery opens in a shared entrance hall where visitors can browse exhibitions created by other people or compose a View around their own question. I gave these activities a place in the room.",
+    "body": "The question behind a View sets the exhibition’s theme. Its sections form a sequence of rooms, and the original material becomes the work on display. The Gallery opens in a shared entrance hall where visitors can browse exhibitions created by other people or compose a View around their own question. I gave these activities a place in the room. A collection display lets visitors choose an exhibition, whose title and illustration then appear at the entrance. An open book provides a place to enter a new question.",
     "parts": [
-      "Give the model the source material relevant to the question."
+      "The question behind a View sets the exhibition’s theme. Its sections form a sequence of rooms, and the original material becomes the work on display. The Gallery opens in a shared entrance hall where visitors can browse exhibitions created by other people or compose a View around their own question. I gave these activities a place in the room. A collection display lets visitors choose an exhibition, whose title and illustration then appear at the entrance. An open book provides a place to enter a new question."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2093,88 +2096,6 @@
   },
   {
     "id": 71,
-    "source_id": "aipersonalarchive:write",
-    "route": "/aipersonalarchive",
-    "page": "AI × Self",
-    "title": "Write",
-    "anchor": "write",
-    "description": "Form an answer from those passages.",
-    "body": "Form an answer from those passages.",
-    "parts": [
-      "Form an answer from those passages."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "priority": 5,
-    "media": [],
-    "selected": true
-  },
-  {
-    "id": 72,
-    "source_id": "aipersonalarchive:cite",
-    "route": "/aipersonalarchive",
-    "page": "AI × Self",
-    "title": "Cite",
-    "anchor": "cite",
-    "description": "Connect the answer back to the pages it came from. An answer can also leave a visitor curious about the work behind it. Following that curiosity might involve trying a demo, looking through photographs or reading a personal reflection. These encounters became the basis for View.",
-    "body": "Connect the answer back to the pages it came from. An answer can also leave a visitor curious about the work behind it. Following that curiosity might involve trying a demo, looking through photographs or reading a personal reflection. These encounters became the basis for View.",
-    "parts": [
-      "Connect the answer back to the pages it came from. An answer can also leave a visitor curious about the work behind it. Following that curiosity might involve trying a demo, looking through photographs or reading a personal reflection. These encounters became the basis for View."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "priority": 5,
-    "media": [],
-    "selected": true
-  },
-  {
-    "id": 73,
-    "source_id": "aipersonalarchive:view-reorganises-the-site-around-a-question",
-    "route": "/aipersonalarchive",
-    "page": "AI × Self",
-    "title": "View reorganises the site around a question",
-    "anchor": "view-reorganises-the-site-around-a-question",
-    "description": "Trying a project’s demo reveals how it behaves. Photographs bring places and experiences into view, while a piece of writing preserves how I understood an idea at the time. In a View, these original pieces become part of the explanation, appearing where they help develop its meaning. Each response becomes a composed reading.",
-    "body": "Trying a project’s demo reveals how it behaves. Photographs bring places and experiences into view, while a piece of writing preserves how I understood an idea at the time. In a View, these original pieces become part of the explanation, appearing where they help develop its meaning. Each response becomes a composed reading. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s working demo can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View I registered projects, research entries, personal writing, image groups and interactions as reusable components. The model selects the components that answer the question, writes the narrative that connects them and gives each section its place in the reading. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, photo gallery or written passage. A question about learning might bring together work on human cognition, an education project, and a reflection written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. An audio summary introduces the reading before visitors explore the full narrative. A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection. Other visitors can explore these readings and see the archive through someone else’s perspective. Shared Views form the collection in the Gallery.",
-    "parts": [
-      "Trying a project’s demo reveals how it behaves. Photographs bring places and experiences into view, while a piece of writing preserves how I understood an idea at the time. In a View, these original pieces become part of the explanation, appearing where they help develop its meaning. Each response becomes a composed reading. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s working demo can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View I registered projects, research entries, personal writing, image groups and interactions as reusable components. The model selects the components that answer the question, writes the narrative that connects them and gives each section its place in the reading.",
-      "Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, photo gallery or written passage. A question about learning might bring together work on human cognition, an education project, and a reflection written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. An audio summary introduces the reading before visitors explore the full narrative. A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection.",
-      "Other visitors can explore these readings and see the archive through someone else’s perspective. Shared Views form the collection in the Gallery."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "priority": 5,
-    "media": [],
-    "selected": true
-  },
-  {
-    "id": 74,
-    "source_id": "aipersonalarchive:every-view-becomes-an-exhibition",
-    "route": "/aipersonalarchive",
-    "page": "AI × Self",
-    "title": "Every View becomes an exhibition",
-    "anchor": "every-view-becomes-an-exhibition",
-    "description": "A collection of Views is also a collection of perspectives on the same person. Giving each one an exhibition makes those perspectives places to visit. A question sets the theme, sections form a sequence of rooms, and the original material becomes the work on display. The Gallery opens in a shared entrance hall where visitors can browse exhibitions created by other people or compose a View around their own question.",
-    "body": "A collection of Views is also a collection of perspectives on the same person. Giving each one an exhibition makes those perspectives places to visit. A question sets the theme, sections form a sequence of rooms, and the original material becomes the work on display. The Gallery opens in a shared entrance hall where visitors can browse exhibitions created by other people or compose a View around their own question. I gave these activities a place in the room. A collection display lets visitors choose an exhibition, whose title and illustration then appear at the entrance. An open book provides a place to enter a new question.",
-    "parts": [
-      "A collection of Views is also a collection of perspectives on the same person. Giving each one an exhibition makes those perspectives places to visit. A question sets the theme, sections form a sequence of rooms, and the original material becomes the work on display. The Gallery opens in a shared entrance hall where visitors can browse exhibitions created by other people or compose a View around their own question. I gave these activities a place in the room. A collection display lets visitors choose an exhibition, whose title and illustration then appear at the entrance. An open book provides a place to enter a new question."
-    ],
-    "view_kind": "prose",
-    "presentations": [
-      "cite"
-    ],
-    "priority": 5,
-    "media": [],
-    "selected": true
-  },
-  {
-    "id": 75,
     "source_id": "aipersonalarchive:article-and-exhibition-keep-the-same-place",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
@@ -2194,16 +2115,16 @@
     "selected": true
   },
   {
-    "id": 76,
+    "id": 72,
     "source_id": "aipersonalarchive:the-exhibition-is-designed-as-one-experience",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
     "title": "Designing an immersive visit",
     "anchor": "the-exhibition-is-designed-as-one-experience",
-    "description": "In an exhibition, the space between works matters as much as their order. It gives a visitor time to look, approach and connect what they have seen. I designed the architecture, displays, wall writing, light and sound together so each generated View feels like a visit to a gallery.",
-    "body": "In an exhibition, the space between works matters as much as their order. It gives a visitor time to look, approach and connect what they have seen. I designed the architecture, displays, wall writing, light and sound together so each generated View feels like a visit to a gallery.",
+    "description": "I designed the building, displays and guidance together. The open layout helps people find their way, display forms suit the original material, and light and sound shape how they attend to the works.",
+    "body": "I designed the building, displays and guidance together. The open layout helps people find their way, display forms suit the original material, and light and sound shape how they attend to the works.",
     "parts": [
-      "In an exhibition, the space between works matters as much as their order. It gives a visitor time to look, approach and connect what they have seen. I designed the architecture, displays, wall writing, light and sound together so each generated View feels like a visit to a gallery."
+      "I designed the building, displays and guidance together. The open layout helps people find their way, display forms suit the original material, and light and sound shape how they attend to the works."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2214,16 +2135,18 @@
     "selected": true
   },
   {
-    "id": 77,
+    "id": 73,
     "source_id": "aipersonalarchive:system-architecture",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
     "title": "System architecture",
     "anchor": "system-architecture",
-    "description": "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation. The browser renders the answer, selected site components and each generated View as an article or spatial exhibition.",
-    "body": "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation. The browser renders the answer, selected site components and each generated View as an article or spatial exhibition. The Gallery uses the same structure to compose rooms, exhibit forms, wall writing, lighting and routes. Saved readings and source snapshots are stored in Cloudflare D1, with archived media in R2.",
+    "description": "Search, Ask, View and Gallery share the site’s published material. Each site build prepares passages with links to their original locations, embeddings that represent their meaning, and a catalogue of the material available for composition. The catalogue includes descriptions of interactive components, so the system can select a working example alongside a written passage.",
+    "body": "Search, Ask, View and Gallery share the site’s published material. Each site build prepares passages with links to their original locations, embeddings that represent their meaning, and a catalogue of the material available for composition. The catalogue includes descriptions of interactive components, so the system can select a working example alongside a written passage. Each experience uses that material differently. Search ranks passages in the browser. Ask receives broad context from across the site and writes an answer with citations. View first selects sources from the complete catalogue, then receives those sources in full to compose the narrative. This gives selection a view of the whole archive and composition the detail it needs. A Cloudflare Worker handles the model calls for Ask and View. The generated View follows a JSON schema that connects chapters, narrative passages and original sources. That structure feeds both the Vue article renderer and the Three. The exhibition’s layout algorithm turns chapters into rooms and chooses display forms and viewing positions for their contents. Both presentations refer to the same entries, so switching between them leads to the corresponding passage or exhibit. The Gallery brings these individual readings together. Its Hall connects the public collection, a place to compose new Views and the archive map. Selecting a View opens its exhibition, with the Gallery providing a shared setting for readings created by different visitors. Saving a View preserves the narrative together with snapshots of its sources. Cloudflare D1 stores these records, and R2 stores their archived media. Later revisions to the site can inform new readings, and an earlier View retains the material on which it was based.",
     "parts": [
-      "Each site build prepares passages, embeddings and a component catalogue from the published material. Search ranks passages in the browser. Ask and View use a Cloudflare Worker to coordinate generation. The browser renders the answer, selected site components and each generated View as an article or spatial exhibition. The Gallery uses the same structure to compose rooms, exhibit forms, wall writing, lighting and routes. Saved readings and source snapshots are stored in Cloudflare D1, with archived media in R2."
+      "Search, Ask, View and Gallery share the site’s published material. Each site build prepares passages with links to their original locations, embeddings that represent their meaning, and a catalogue of the material available for composition. The catalogue includes descriptions of interactive components, so the system can select a working example alongside a written passage. Each experience uses that material differently. Search ranks passages in the browser. Ask receives broad context from across the site and writes an answer with citations. View first selects sources from the complete catalogue, then receives those sources in full to compose the narrative. This gives selection a view of the whole archive and composition the detail it needs. A Cloudflare Worker handles the model calls for Ask and View.",
+      "The generated View follows a JSON schema that connects chapters, narrative passages and original sources. That structure feeds both the Vue article renderer and the Three. The exhibition’s layout algorithm turns chapters into rooms and chooses display forms and viewing positions for their contents. Both presentations refer to the same entries, so switching between them leads to the corresponding passage or exhibit. The Gallery brings these individual readings together. Its Hall connects the public collection, a place to compose new Views and the archive map. Selecting a View opens its exhibition, with the Gallery providing a shared setting for readings created by different visitors. Saving a View preserves the narrative together with snapshots of its sources. Cloudflare D1 stores these records, and R2 stores their archived media.",
+      "Later revisions to the site can inform new readings, and an earlier View retains the material on which it was based."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2234,17 +2157,18 @@
     "selected": true
   },
   {
-    "id": 78,
+    "id": 74,
     "source_id": "aipersonalarchive:what-the-case-gives-back",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
     "title": "Returning to my own archive",
     "anchor": "what-the-case-gives-back",
-    "description": "Keeping this site gives me a record of what I could articulate at different moments. Reading across it raises other questions. A fragment can take on a different meaning beside a project I made later. An experience can help me understand why an earlier idea mattered. Views let me revisit those relationships. I can return to a question after adding new work and read the new perspective alongside an earlier one.",
-    "body": "Keeping this site gives me a record of what I could articulate at different moments. Reading across it raises other questions. A fragment can take on a different meaning beside a project I made later. An experience can help me understand why an earlier idea mattered. Views let me revisit those relationships. I can return to a question after adding new work and read the new perspective alongside an earlier one. The comparison shows how the material has grown and how its interpretation has changed. Other visitors bring questions I might never ask. Their shared Views put familiar work into arrangements I would be unlikely to choose myself. Looking through them gives me another perspective on what I have recorded and how other people understand me. The material records my life as I live it. The readings trace how I and other people come to understand it. Together, they give me a way to look back at what happened and at the meanings we found in it over time.",
+    "description": "Keeping this site gives me a record of what I could articulate at different moments. Reading across it raises other questions. A fragment can take on a different meaning beside a project I made later. An experience can help me understand why an earlier idea mattered. A View gives one of these readings a form I can revisit.",
+    "body": "Keeping this site gives me a record of what I could articulate at different moments. Reading across it raises other questions. A fragment can take on a different meaning beside a project I made later. An experience can help me understand why an earlier idea mattered. A View gives one of these readings a form I can revisit. Its question determines which parts of my life come together and which relationships receive attention. Asking about home might connect a family meal with a city I lived in. Asking about change might place that same memory beside something I wrote years later. Each arrangement brings a different part of the experience into focus. The Gallery gives these readings a spatial form. Walking through an exhibition of my own experiences means encountering them one at a time, with room to look and listen. A photograph or passage can hold my attention long enough for details to complicate the account I usually give of that period. I am also reading it with the experiences I have had since. Both the arrangement and my own changing perspective can lead to a new understanding. Other visitors bring questions I might never ask. Entering their exhibitions lets me revisit familiar material through what interested someone else. Their question may connect parts of my life I had understood separately. Exploring that connection can change what I notice when I next look back on the experience. Over time, the collection can hold exhibitions of different stages of my life, shaped by different people’s questions. Saving them preserves a history of how that life has been understood alongside the record of what happened. An earlier reading gives me something specific to reconsider as I change. Self-reflection becomes a continuing exchange between my memories, the records I made and the perspectives others bring.",
     "parts": [
-      "Keeping this site gives me a record of what I could articulate at different moments. Reading across it raises other questions. A fragment can take on a different meaning beside a project I made later. An experience can help me understand why an earlier idea mattered. Views let me revisit those relationships. I can return to a question after adding new work and read the new perspective alongside an earlier one. The comparison shows how the material has grown and how its interpretation has changed. Other visitors bring questions I might never ask. Their shared Views put familiar work into arrangements I would be unlikely to choose myself. Looking through them gives me another perspective on what I have recorded and how other people understand me. The material records my life as I live it. The readings trace how I and other people come to understand it.",
-      "Together, they give me a way to look back at what happened and at the meanings we found in it over time."
+      "Keeping this site gives me a record of what I could articulate at different moments. Reading across it raises other questions. A fragment can take on a different meaning beside a project I made later. An experience can help me understand why an earlier idea mattered. A View gives one of these readings a form I can revisit. Its question determines which parts of my life come together and which relationships receive attention. Asking about home might connect a family meal with a city I lived in. Asking about change might place that same memory beside something I wrote years later. Each arrangement brings a different part of the experience into focus. The Gallery gives these readings a spatial form. Walking through an exhibition of my own experiences means encountering them one at a time, with room to look and listen.",
+      "A photograph or passage can hold my attention long enough for details to complicate the account I usually give of that period. I am also reading it with the experiences I have had since. Both the arrangement and my own changing perspective can lead to a new understanding. Other visitors bring questions I might never ask. Entering their exhibitions lets me revisit familiar material through what interested someone else. Their question may connect parts of my life I had understood separately. Exploring that connection can change what I notice when I next look back on the experience. Over time, the collection can hold exhibitions of different stages of my life, shaped by different people’s questions. Saving them preserves a history of how that life has been understood alongside the record of what happened. An earlier reading gives me something specific to reconsider as I change.",
+      "Self-reflection becomes a continuing exchange between my memories, the records I made and the perspectives others bring."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2255,7 +2179,7 @@
     "selected": true
   },
   {
-    "id": 79,
+    "id": 75,
     "source_id": "ragflow-pipeline:overview",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2275,7 +2199,7 @@
     "selected": false
   },
   {
-    "id": 80,
+    "id": 76,
     "source_id": "ragflow-pipeline:understanding-the-client-requirements",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2296,7 +2220,7 @@
     "selected": false
   },
   {
-    "id": 81,
+    "id": 77,
     "source_id": "ragflow-pipeline:why-one-pdf-needed-several-ways-of-reading",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2316,7 +2240,7 @@
     "selected": false
   },
   {
-    "id": 82,
+    "id": 78,
     "source_id": "ragflow-pipeline:complex-tables",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2337,7 +2261,7 @@
     "selected": false
   },
   {
-    "id": 83,
+    "id": 79,
     "source_id": "ragflow-pipeline:notes",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2359,7 +2283,7 @@
     "selected": false
   },
   {
-    "id": 84,
+    "id": 80,
     "source_id": "ragflow-pipeline:mermaid",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2380,7 +2304,7 @@
     "selected": false
   },
   {
-    "id": 85,
+    "id": 81,
     "source_id": "ragflow-pipeline:what-i-tested-before-recommending-it",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2401,7 +2325,7 @@
     "selected": false
   },
   {
-    "id": 86,
+    "id": 82,
     "source_id": "ragflow-pipeline:judging-the-whole-solution",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2423,7 +2347,7 @@
     "selected": false
   },
   {
-    "id": 87,
+    "id": 83,
     "source_id": "ai-it-operations:overview",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2443,7 +2367,7 @@
     "selected": true
   },
   {
-    "id": 88,
+    "id": 84,
     "source_id": "ai-it-operations:ai-in-it-operations",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2463,7 +2387,7 @@
     "selected": true
   },
   {
-    "id": 89,
+    "id": 85,
     "source_id": "ai-it-operations:knowledge-management",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2483,7 +2407,7 @@
     "selected": true
   },
   {
-    "id": 90,
+    "id": 86,
     "source_id": "ai-it-operations:where-does-the-assistant-need-more-knowledge",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2504,7 +2428,7 @@
     "selected": true
   },
   {
-    "id": 91,
+    "id": 87,
     "source_id": "ai-it-operations:researching-gaps-in-technical-guidance",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2525,7 +2449,7 @@
     "selected": true
   },
   {
-    "id": 92,
+    "id": 88,
     "source_id": "ai-it-operations:what-happens-when-the-guidance-changes",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2547,7 +2471,7 @@
     "selected": true
   },
   {
-    "id": 93,
+    "id": 89,
     "source_id": "ai-it-operations:from-a-source-to-maintained-knowledge",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2568,7 +2492,7 @@
     "selected": true
   },
   {
-    "id": 94,
+    "id": 90,
     "source_id": "ai-it-operations:browser-control",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2588,7 +2512,7 @@
     "selected": true
   },
   {
-    "id": 95,
+    "id": 91,
     "source_id": "ai-it-operations:turning-the-request-into-actions",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2608,7 +2532,7 @@
     "selected": true
   },
   {
-    "id": 96,
+    "id": 92,
     "source_id": "ai-it-operations:why-a-browser-extension",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2629,7 +2553,7 @@
     "selected": true
   },
   {
-    "id": 97,
+    "id": 93,
     "source_id": "ai-it-operations:a-place-to-start-intervene-and-look-back",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2649,7 +2573,7 @@
     "selected": true
   },
   {
-    "id": 98,
+    "id": 94,
     "source_id": "ai-it-operations:from-planning-to-a-browser-action",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2669,7 +2593,7 @@
     "selected": true
   },
   {
-    "id": 99,
+    "id": 95,
     "source_id": "ai-it-operations:where-judgement-changes-hands",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2692,7 +2616,7 @@
     "selected": true
   },
   {
-    "id": 100,
+    "id": 96,
     "source_id": "fragments:overview",
     "route": "/fragments",
     "page": "Fragments",
@@ -2712,7 +2636,7 @@
     "selected": false
   },
   {
-    "id": 101,
+    "id": 97,
     "source_id": "fragments:the-projection-of-thought",
     "route": "/fragments",
     "page": "Fragments",
@@ -2746,7 +2670,7 @@
     "selected": false
   },
   {
-    "id": 102,
+    "id": 98,
     "source_id": "fragments:rebuilding-another-state-inside-me",
     "route": "/fragments",
     "page": "Fragments",
@@ -2780,7 +2704,7 @@
     "selected": false
   },
   {
-    "id": 103,
+    "id": 99,
     "source_id": "fragments:visible-part-of-the-mind",
     "route": "/fragments",
     "page": "Fragments",
@@ -2811,7 +2735,7 @@
     "selected": false
   },
   {
-    "id": 104,
+    "id": 100,
     "source_id": "fragments:understanding-before-definition",
     "route": "/fragments",
     "page": "Fragments",
@@ -2841,7 +2765,7 @@
     "selected": false
   },
   {
-    "id": 105,
+    "id": 101,
     "source_id": "fragments:expression-recording",
     "route": "/fragments",
     "page": "Fragments",
@@ -2874,7 +2798,7 @@
     "selected": false
   },
   {
-    "id": 106,
+    "id": 102,
     "source_id": "fragments:rich-traces-and-open-paths",
     "route": "/fragments",
     "page": "Fragments",
@@ -2907,7 +2831,7 @@
     "selected": false
   },
   {
-    "id": 107,
+    "id": 103,
     "source_id": "fragments:labels-goals-rules",
     "route": "/fragments",
     "page": "Fragments",
@@ -2944,7 +2868,7 @@
     "selected": false
   },
   {
-    "id": 108,
+    "id": 104,
     "source_id": "fragments:memory-time-self",
     "route": "/fragments",
     "page": "Fragments",
@@ -2979,7 +2903,7 @@
     "selected": false
   },
   {
-    "id": 109,
+    "id": 105,
     "source_id": "fragments:satisfaction-signal",
     "route": "/fragments",
     "page": "Fragments",
@@ -3013,7 +2937,7 @@
     "selected": false
   },
   {
-    "id": 110,
+    "id": 106,
     "source_id": "fragments:queen-victoria-market-toast-oysters",
     "route": "/fragments",
     "page": "Fragments",
@@ -3041,7 +2965,7 @@
     "selected": false
   },
   {
-    "id": 111,
+    "id": 107,
     "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
     "route": "/fragments",
     "page": "Fragments",
@@ -3069,7 +2993,7 @@
     "selected": false
   },
   {
-    "id": 112,
+    "id": 108,
     "source_id": "fragments:ai-generated-kitten-videos",
     "route": "/fragments",
     "page": "Fragments",
@@ -3098,7 +3022,7 @@
     "selected": false
   },
   {
-    "id": 113,
+    "id": 109,
     "source_id": "fragments:identity-interview-reflection",
     "route": "/fragments",
     "page": "Fragments",
@@ -3127,7 +3051,7 @@
     "selected": false
   },
   {
-    "id": 114,
+    "id": 110,
     "source_id": "fragments:napier-seaside-with-my-mother",
     "route": "/fragments",
     "page": "Fragments",
@@ -3157,7 +3081,7 @@
     "selected": false
   },
   {
-    "id": 115,
+    "id": 111,
     "source_id": "fragments:mothers-cooking-across-places",
     "route": "/fragments",
     "page": "Fragments",
@@ -3186,7 +3110,7 @@
     "selected": false
   },
   {
-    "id": 116,
+    "id": 112,
     "source_id": "fragments:golf-with-my-mother-in-new-zealand",
     "route": "/fragments",
     "page": "Fragments",
@@ -3214,7 +3138,7 @@
     "selected": false
   },
   {
-    "id": 117,
+    "id": 113,
     "source_id": "fragments:slr-lab-racket-games",
     "route": "/fragments",
     "page": "Fragments",
@@ -3242,7 +3166,7 @@
     "selected": false
   },
   {
-    "id": 118,
+    "id": 114,
     "source_id": "fragments:kennedy-town-seaside-hku-years",
     "route": "/fragments",
     "page": "Fragments",
@@ -3271,7 +3195,7 @@
     "selected": false
   },
   {
-    "id": 119,
+    "id": 115,
     "source_id": "fragments:sydney-harbour-ferry-rides",
     "route": "/fragments",
     "page": "Fragments",
@@ -3300,7 +3224,7 @@
     "selected": false
   },
   {
-    "id": 120,
+    "id": 116,
     "source_id": "fragments:gold-coast-water-and-city-line",
     "route": "/fragments",
     "page": "Fragments",
@@ -3329,7 +3253,7 @@
     "selected": false
   },
   {
-    "id": 121,
+    "id": 117,
     "source_id": "fragments:great-ocean-road-melbourne-friends",
     "route": "/fragments",
     "page": "Fragments",
@@ -3358,7 +3282,7 @@
     "selected": false
   },
   {
-    "id": 122,
+    "id": 118,
     "source_id": "fragments:taiwan-east-coast-family-road-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -3387,7 +3311,7 @@
     "selected": false
   },
   {
-    "id": 123,
+    "id": 119,
     "source_id": "fragments:tomatoes-of-august-29",
     "route": "/fragments",
     "page": "Fragments",
@@ -3419,7 +3343,7 @@
     "selected": false
   },
   {
-    "id": 124,
+    "id": 120,
     "source_id": "fragments:athens-ruins-and-family-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -3448,7 +3372,7 @@
     "selected": false
   },
   {
-    "id": 125,
+    "id": 121,
     "source_id": "fragments:swimming-in-the-mediterranean",
     "route": "/fragments",
     "page": "Fragments",
@@ -3477,7 +3401,7 @@
     "selected": false
   },
   {
-    "id": 126,
+    "id": 122,
     "source_id": "fragments:rainy-days-permission-to-stay-in",
     "route": "/fragments",
     "page": "Fragments",
@@ -3505,7 +3429,7 @@
     "selected": false
   },
   {
-    "id": 127,
+    "id": 123,
     "source_id": "fragments:mental-map-of-small-room",
     "route": "/fragments",
     "page": "Fragments",
@@ -3534,7 +3458,7 @@
     "selected": false
   },
   {
-    "id": 128,
+    "id": 124,
     "source_id": "fragments:first-camera-another-way-of-seeing",
     "route": "/fragments",
     "page": "Fragments",
@@ -3563,7 +3487,7 @@
     "selected": false
   },
   {
-    "id": 129,
+    "id": 125,
     "source_id": "fragments:music-that-became-more-spacious",
     "route": "/fragments",
     "page": "Fragments",
@@ -3592,7 +3516,7 @@
     "selected": false
   },
   {
-    "id": 130,
+    "id": 126,
     "source_id": "cv:profile",
     "route": "/cv",
     "page": "CV",
@@ -3612,7 +3536,7 @@
     "selected": false
   },
   {
-    "id": 131,
+    "id": 127,
     "source_id": "cv:education",
     "route": "/cv",
     "page": "CV",
@@ -3632,7 +3556,7 @@
     "selected": false
   },
   {
-    "id": 132,
+    "id": 128,
     "source_id": "cv:experience",
     "route": "/cv",
     "page": "CV",
@@ -3653,7 +3577,7 @@
     "selected": false
   },
   {
-    "id": 133,
+    "id": 129,
     "source_id": "cv:publications-preprints",
     "route": "/cv",
     "page": "CV",
@@ -3673,7 +3597,7 @@
     "selected": false
   },
   {
-    "id": 134,
+    "id": 130,
     "source_id": "about:root:about-me",
     "route": "/about",
     "page": "About",
@@ -3709,7 +3633,7 @@
     "selected": false
   },
   {
-    "id": 135,
+    "id": 131,
     "source_id": "about:section:how-i-research-and-build",
     "route": "/about",
     "page": "About",
@@ -3730,7 +3654,7 @@
     "selected": false
   },
   {
-    "id": 136,
+    "id": 132,
     "source_id": "about:section:outside-work",
     "route": "/about",
     "page": "About",
@@ -3750,7 +3674,7 @@
     "selected": false
   },
   {
-    "id": 137,
+    "id": 133,
     "source_id": "about:contact",
     "route": "/about",
     "page": "About",
@@ -3773,7 +3697,7 @@
     "selected": false
   },
   {
-    "id": 138,
+    "id": 134,
     "source_id": "slidepoise:purpose",
     "route": "/slidepoise/",
     "page": "SlidePoise",
@@ -3795,7 +3719,7 @@
     "selected": true
   },
   {
-    "id": 139,
+    "id": 135,
     "source_id": "slidepoise:philosophy",
     "route": "/slidepoise/",
     "page": "SlidePoise",
@@ -3824,7 +3748,7 @@
     "selected": true
   },
   {
-    "id": 140,
+    "id": 136,
     "source_id": "about:gallery",
     "route": "/about",
     "page": "About",
@@ -4146,17 +4070,17 @@
     "selected": false
   },
   {
-    "id": 141,
+    "id": 137,
     "source_id": "home:currently",
     "route": "/home",
     "page": "Home",
     "title": "What Henry is currently doing",
     "anchor": "story-now",
-    "description": "Henry is developing SlidePoise, an open-source agentic slide generation framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI × Self, the Search, Ask and View experiences on his personal website. Visitors can find original passages, ask for cited answers and compose a reading path around their own questions.",
-    "body": "Henry is developing SlidePoise, an open-source agentic slide generation framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI × Self, the Search, Ask and View experiences on his personal website. Visitors can find original passages, ask for cited answers and compose a reading path around their own questions. Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong. Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later. Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking.",
+    "description": "Henry is developing SlidePoise, an open-source agentic slide generation framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI × Self, a personal archive that lets visitors connect his work, ideas and experiences through their own questions. Each View composes a perspective with original sources.",
+    "body": "Henry is developing SlidePoise, an open-source agentic slide generation framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI × Self, a personal archive that lets visitors connect his work, ideas and experiences through their own questions. Each View composes a perspective with original sources. The Gallery brings these readings together as exhibitions to explore and share. Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong. Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later. Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking.",
     "parts": [
-      "Henry is developing SlidePoise, an open-source agentic slide generation framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI × Self, the Search, Ask and View experiences on his personal website. Visitors can find original passages, ask for cited answers and compose a reading path around their own questions. Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong. Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later.",
-      "Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking."
+      "Henry is developing SlidePoise, an open-source agentic slide generation framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI × Self, a personal archive that lets visitors connect his work, ideas and experiences through their own questions. Each View composes a perspective with original sources. The Gallery brings these readings together as exhibitions to explore and share. Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong.",
+      "Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later. Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking."
     ],
     "view_kind": "prose",
     "presentations": [
