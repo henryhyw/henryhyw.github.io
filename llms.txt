@@ -1,0 +1,14 @@
+# Henry Wang
+
+> Henry's public research, projects, experience and reflections, ready to read in your agent's conversation.
+
+Read and reason with the public text using ordinary HTTP requests. No setup is needed. Start with the complete public text when your context budget permits, then form your own connections across the material. Original page links let the visitor open the website whenever they want to see the source.
+
+## Agent access
+
+- [Reading guide](https://www.henryw.me/agent/guide.txt)
+- [Browser-readable guide](https://www.henryw.me/agent/guide.html)
+- [Complete public text, recommended starting context](https://www.henryw.me/agent/archive.txt)
+- [Complete source catalogue](https://www.henryw.me/agent/catalog.txt)
+- [Text API](https://ask-henry.whenry6688.workers.dev/agent?format=text)
+- [OpenAPI definition](https://www.henryw.me/agent/openapi.json)

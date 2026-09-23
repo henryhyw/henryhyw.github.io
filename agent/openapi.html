@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>Henry&#39;s OpenAPI definition</title>
+<style>body{max-width:78ch;margin:40px auto;padding:0 20px;font:16px/1.6 system-ui,sans-serif;color:#222;background:#fff}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}a{color:#235c9b}</style></head>
+<body><main><h1>Henry&#39;s OpenAPI definition</h1><pre>{
+  &quot;openapi&quot;: &quot;3.1.0&quot;,
+  &quot;info&quot;: {
+    &quot;title&quot;: &quot;Henry&#39;s public text API&quot;,
+    &quot;version&quot;: &quot;1.0.0&quot;,
+    &quot;description&quot;: &quot;Read public material for reasoning in your own agent. Public GET requests require no authentication.&quot;
+  },
+  &quot;servers&quot;: [
+    {
+      &quot;url&quot;: &quot;<a href="https://ask-henry.whenry6688.workers.dev/agent">https://ask-henry.whenry6688.workers.dev/agent</a>&quot;
+    }
+  ],
+  &quot;security&quot;: [],
+  &quot;paths&quot;: {
+    &quot;/&quot;: {
+      &quot;get&quot;: {
+        &quot;operationId&quot;: &quot;discover&quot;,
+        &quot;summary&quot;: &quot;Discover sections and available operations&quot;,
+        &quot;parameters&quot;: [
+          {
+            &quot;name&quot;: &quot;format&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;description&quot;: &quot;Response representation. Accept text/plain also selects text when format is omitted.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;enum&quot;: [
+                &quot;json&quot;,
+                &quot;text&quot;
+              ],
+              &quot;default&quot;: &quot;json&quot;
+            }
+          }
+        ],
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;Public source data.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Capabilities&quot;
+                }
+              },
+              &quot;text/plain&quot;: {
+                &quot;schema&quot;: {
+                  &quot;type&quot;: &quot;string&quot;
+                }
+              }
+            }
+          },
+          &quot;400&quot;: {
+            &quot;description&quot;: &quot;Invalid query. The response identifies the parameter to correct.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Error&quot;
+                }
+              }
+            }
+          },
+          &quot;404&quot;: {
+            &quot;description&quot;: &quot;Unknown source or route.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Error&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/sources&quot;: {
+      &quot;get&quot;: {
+        &quot;operationId&quot;: &quot;listSources&quot;,
+        &quot;summary&quot;: &quot;Browse source summaries&quot;,
+        &quot;parameters&quot;: [
+          {
+            &quot;name&quot;: &quot;section&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;description&quot;: &quot;Section ID returned by the capabilities endpoint.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            }
+          },
+          {
+            &quot;name&quot;: &quot;limit&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;description&quot;: &quot;Maximum records in this response.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;integer&quot;,
+              &quot;minimum&quot;: 1,
+              &quot;maximum&quot;: 50,
+              &quot;default&quot;: 20
+            }
+          },
+          {
+            &quot;name&quot;: &quot;offset&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;description&quot;: &quot;Records to skip.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;integer&quot;,
+              &quot;minimum&quot;: 0,
+              &quot;maximum&quot;: 10000,
+              &quot;default&quot;: 0
+            }
+          },
+          {
+            &quot;name&quot;: &quot;format&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;description&quot;: &quot;Response representation. Accept text/plain also selects text when format is omitted.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;enum&quot;: [
+                &quot;json&quot;,
+                &quot;text&quot;
+              ],
+              &quot;default&quot;: &quot;json&quot;
+            }
+          }
+        ],
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;Public source data.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/SourceList&quot;
+                }
+              },
+              &quot;text/plain&quot;: {
+                &quot;schema&quot;: {
+                  &quot;type&quot;: &quot;string&quot;
+                }
+              }
+            }
+          },
+          &quot;400&quot;: {
+            &quot;description&quot;: &quot;Invalid query. The response identifies the parameter to correct.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Error&quot;
+                }
+              }
+            }
+          },
+          &quot;404&quot;: {
+            &quot;description&quot;: &quot;Unknown source or route.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Error&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/context&quot;: {
+      &quot;get&quot;: {
+        &quot;operationId&quot;: &quot;readContext&quot;,
+        &quot;summary&quot;: &quot;Read full site text or several complete sections without pagination&quot;,
+        &quot;parameters&quot;: [
+          {
+            &quot;name&quot;: &quot;section&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;description&quot;: &quot;Optional comma-separated section IDs. Omit to read the entire public text collection.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            }
+          },
+          {
+            &quot;name&quot;: &quot;format&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;description&quot;: &quot;Response representation. Accept text/plain also selects text when format is omitted.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;enum&quot;: [
+                &quot;json&quot;,
+                &quot;text&quot;
+              ],
+              &quot;default&quot;: &quot;json&quot;
+            }
+          }
+        ],
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;Public source data.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Context&quot;
+                }
+              },
+              &quot;text/plain&quot;: {
+                &quot;schema&quot;: {
+                  &quot;type&quot;: &quot;string&quot;
+                }
+              }
+            }
+          },
+          &quot;400&quot;: {
+            &quot;description&quot;: &quot;Invalid query. The response identifies the parameter to correct.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Error&quot;
+                }
+              }
+            }
+          },
+          &quot;404&quot;: {
+            &quot;description&quot;: &quot;Unknown source or route.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Error&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/search&quot;: {
+      &quot;get&quot;: {
+        &quot;operationId&quot;: &quot;searchSources&quot;,
+        &quot;summary&quot;: &quot;Search public text by keyword&quot;,
+        &quot;parameters&quot;: [
+          {
+            &quot;name&quot;: &quot;q&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: true,
+            &quot;description&quot;: &quot;Distinctive terms to match in the source text.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;minLength&quot;: 1,
+              &quot;maxLength&quot;: 300
+            }
+          },
+          {
+            &quot;name&quot;: &quot;section&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;description&quot;: &quot;Section ID returned by the capabilities endpoint.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            }
+          },
+          {
+            &quot;name&quot;: &quot;limit&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;description&quot;: &quot;Maximum records in this response.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;integer&quot;,
+              &quot;minimum&quot;: 1,
+              &quot;maximum&quot;: 50,
+              &quot;default&quot;: 20
+            }
+          },
+          {
+            &quot;name&quot;: &quot;offset&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;description&quot;: &quot;Records to skip.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;integer&quot;,
+              &quot;minimum&quot;: 0,
+              &quot;maximum&quot;: 10000,
+              &quot;default&quot;: 0
+            }
+          },
+          {
+            &quot;name&quot;: &quot;format&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;description&quot;: &quot;Response representation. Accept text/plain also selects text when format is omitted.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;enum&quot;: [
+                &quot;json&quot;,
+                &quot;text&quot;
+              ],
+              &quot;default&quot;: &quot;json&quot;
+            }
+          }
+        ],
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;Public source data.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/SourceList&quot;
+                }
+              },
+              &quot;text/plain&quot;: {
+                &quot;schema&quot;: {
+                  &quot;type&quot;: &quot;string&quot;
+                }
+              }
+            }
+          },
+          &quot;400&quot;: {
+            &quot;description&quot;: &quot;Invalid query. The response identifies the parameter to correct.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Error&quot;
+                }
+              }
+            }
+          },
+          &quot;404&quot;: {
+            &quot;description&quot;: &quot;Unknown source or route.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Error&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/sources/{id}&quot;: {
+      &quot;get&quot;: {
+        &quot;operationId&quot;: &quot;readSource&quot;,
+        &quot;summary&quot;: &quot;Read one complete source&quot;,
+        &quot;parameters&quot;: [
+          {
+            &quot;name&quot;: &quot;id&quot;,
+            &quot;in&quot;: &quot;path&quot;,
+            &quot;required&quot;: true,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;description&quot;: &quot;URL-encoded stable source ID.&quot;
+          },
+          {
+            &quot;name&quot;: &quot;format&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;description&quot;: &quot;Response representation. Accept text/plain also selects text when format is omitted.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;enum&quot;: [
+                &quot;json&quot;,
+                &quot;text&quot;
+              ],
+              &quot;default&quot;: &quot;json&quot;
+            }
+          }
+        ],
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;Public source data.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/SourceRead&quot;
+                }
+              },
+              &quot;text/plain&quot;: {
+                &quot;schema&quot;: {
+                  &quot;type&quot;: &quot;string&quot;
+                }
+              }
+            }
+          },
+          &quot;400&quot;: {
+            &quot;description&quot;: &quot;Invalid query. The response identifies the parameter to correct.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Error&quot;
+                }
+              }
+            }
+          },
+          &quot;404&quot;: {
+            &quot;description&quot;: &quot;Unknown source or route.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Error&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/read&quot;: {
+      &quot;get&quot;: {
+        &quot;operationId&quot;: &quot;readSources&quot;,
+        &quot;summary&quot;: &quot;Read up to 20 complete sources in one request&quot;,
+        &quot;parameters&quot;: [
+          {
+            &quot;name&quot;: &quot;ids&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: true,
+            &quot;description&quot;: &quot;Comma-separated stable IDs. Missing IDs appear in missing_ids.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;maxLength&quot;: 4000
+            }
+          },
+          {
+            &quot;name&quot;: &quot;format&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;description&quot;: &quot;Response representation. Accept text/plain also selects text when format is omitted.&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;enum&quot;: [
+                &quot;json&quot;,
+                &quot;text&quot;
+              ],
+              &quot;default&quot;: &quot;json&quot;
+            }
+          }
+        ],
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;Public source data.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/BatchRead&quot;
+                }
+              },
+              &quot;text/plain&quot;: {
+                &quot;schema&quot;: {
+                  &quot;type&quot;: &quot;string&quot;
+                }
+              }
+            }
+          },
+          &quot;400&quot;: {
+            &quot;description&quot;: &quot;Invalid query. The response identifies the parameter to correct.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Error&quot;
+                }
+              }
+            }
+          },
+          &quot;404&quot;: {
+            &quot;description&quot;: &quot;Unknown source or route.&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Error&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  &quot;components&quot;: {
+    &quot;schemas&quot;: {
+      &quot;SourceSummary&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;required&quot;: [
+          &quot;id&quot;,
+          &quot;section&quot;,
+          &quot;page&quot;,
+          &quot;title&quot;,
+          &quot;description&quot;,
+          &quot;url&quot;,
+          &quot;read_url&quot;
+        ],
+        &quot;properties&quot;: {
+          &quot;id&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;section&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;page&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;title&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;description&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;url&quot;: {
+            &quot;type&quot;: &quot;string&quot;,
+            &quot;format&quot;: &quot;uri&quot;,
+            &quot;description&quot;: &quot;Original visual page and exact source location.&quot;
+          },
+          &quot;read_url&quot;: {
+            &quot;type&quot;: &quot;string&quot;,
+            &quot;format&quot;: &quot;uri&quot;,
+            &quot;description&quot;: &quot;Complete source text.&quot;
+          },
+          &quot;snippet&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          }
+        }
+      },
+      &quot;Source&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;required&quot;: [
+          &quot;id&quot;,
+          &quot;section&quot;,
+          &quot;page&quot;,
+          &quot;title&quot;,
+          &quot;description&quot;,
+          &quot;url&quot;,
+          &quot;read_url&quot;,
+          &quot;text&quot;
+        ],
+        &quot;properties&quot;: {
+          &quot;id&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;section&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;page&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;title&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;description&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;url&quot;: {
+            &quot;type&quot;: &quot;string&quot;,
+            &quot;format&quot;: &quot;uri&quot;,
+            &quot;description&quot;: &quot;Original visual page and exact source location.&quot;
+          },
+          &quot;read_url&quot;: {
+            &quot;type&quot;: &quot;string&quot;,
+            &quot;format&quot;: &quot;uri&quot;,
+            &quot;description&quot;: &quot;Complete source text.&quot;
+          },
+          &quot;text&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          }
+        }
+      },
+      &quot;SourceList&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;required&quot;: [
+          &quot;revision&quot;,
+          &quot;total&quot;,
+          &quot;offset&quot;,
+          &quot;limit&quot;,
+          &quot;next&quot;,
+          &quot;sources&quot;
+        ],
+        &quot;properties&quot;: {
+          &quot;revision&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;total&quot;: {
+            &quot;type&quot;: &quot;integer&quot;
+          },
+          &quot;offset&quot;: {
+            &quot;type&quot;: &quot;integer&quot;
+          },
+          &quot;limit&quot;: {
+            &quot;type&quot;: &quot;integer&quot;
+          },
+          &quot;next&quot;: {
+            &quot;type&quot;: [
+              &quot;string&quot;,
+              &quot;null&quot;
+            ]
+          },
+          &quot;sources&quot;: {
+            &quot;type&quot;: &quot;array&quot;,
+            &quot;items&quot;: {
+              &quot;$ref&quot;: &quot;#/components/schemas/SourceSummary&quot;
+            }
+          }
+        }
+      },
+      &quot;SourceRead&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;required&quot;: [
+          &quot;revision&quot;,
+          &quot;source&quot;
+        ],
+        &quot;properties&quot;: {
+          &quot;revision&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;source&quot;: {
+            &quot;$ref&quot;: &quot;#/components/schemas/Source&quot;
+          }
+        }
+      },
+      &quot;Context&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;required&quot;: [
+          &quot;revision&quot;,
+          &quot;total&quot;,
+          &quot;complete&quot;,
+          &quot;text_characters&quot;,
+          &quot;sources&quot;
+        ],
+        &quot;properties&quot;: {
+          &quot;revision&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;total&quot;: {
+            &quot;type&quot;: &quot;integer&quot;
+          },
+          &quot;complete&quot;: {
+            &quot;const&quot;: true
+          },
+          &quot;text_characters&quot;: {
+            &quot;type&quot;: &quot;integer&quot;
+          },
+          &quot;sources&quot;: {
+            &quot;type&quot;: &quot;array&quot;,
+            &quot;items&quot;: {
+              &quot;$ref&quot;: &quot;#/components/schemas/Source&quot;
+            }
+          }
+        }
+      },
+      &quot;BatchRead&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;required&quot;: [
+          &quot;revision&quot;,
+          &quot;sources&quot;,
+          &quot;missing_ids&quot;
+        ],
+        &quot;properties&quot;: {
+          &quot;revision&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;sources&quot;: {
+            &quot;type&quot;: &quot;array&quot;,
+            &quot;items&quot;: {
+              &quot;$ref&quot;: &quot;#/components/schemas/Source&quot;
+            }
+          },
+          &quot;missing_ids&quot;: {
+            &quot;type&quot;: &quot;array&quot;,
+            &quot;items&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            }
+          }
+        }
+      },
+      &quot;Capabilities&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;required&quot;: [
+          &quot;revision&quot;,
+          &quot;source_count&quot;,
+          &quot;sections&quot;,
+          &quot;links&quot;
+        ],
+        &quot;properties&quot;: {
+          &quot;revision&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;source_count&quot;: {
+            &quot;type&quot;: &quot;integer&quot;
+          },
+          &quot;sections&quot;: {
+            &quot;type&quot;: &quot;array&quot;,
+            &quot;items&quot;: {
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;required&quot;: [
+                &quot;id&quot;,
+                &quot;title&quot;,
+                &quot;count&quot;
+              ],
+              &quot;properties&quot;: {
+                &quot;id&quot;: {
+                  &quot;type&quot;: &quot;string&quot;
+                },
+                &quot;title&quot;: {
+                  &quot;type&quot;: &quot;string&quot;
+                },
+                &quot;count&quot;: {
+                  &quot;type&quot;: &quot;integer&quot;
+                }
+              }
+            }
+          },
+          &quot;links&quot;: {
+            &quot;type&quot;: &quot;object&quot;,
+            &quot;additionalProperties&quot;: {
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;format&quot;: &quot;uri&quot;
+            }
+          }
+        }
+      },
+      &quot;Error&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;required&quot;: [
+          &quot;error&quot;,
+          &quot;message&quot;
+        ],
+        &quot;properties&quot;: {
+          &quot;error&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;message&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          }
+        }
+      }
+    }
+  }
+}</pre></main></body></html>
