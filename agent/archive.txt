@@ -1,6 +1,6 @@
 # Henry's public text
 
-Content revision 536957402343e4160167d36ebd47068767b4381ab77833e617317a71374093bc
+Content revision 06d72b0cb2f250eeeda53c423b60aea74dace704f85ce4f8b7b65941e0409276
 
 ## Places I've Studied
 
@@ -244,15 +244,15 @@ I studied how people and large reasoning models allocate effort once a problem b
 
 This makes the decision to continue a question about the return on further computation, and gives a basis for understanding how people and models can recognise the same difficulty yet pursue different courses of action.
 
-## Persistent Priors, Preserved Targets: A Stroop-Style Paradigm for Lexical Override
+## Function-Vector Heads Are Two Populations: Writers and Cancellers in In-Context Learning
 
 Research
-Source ID research:priorsPersist
-Original https://www.henryw.me/#/research#priorsPersist
+Source ID research:functionVector
+Original https://www.henryw.me/#/research#functionVector
 
-I investigated how language models follow a new instruction while established knowledge continues to influence their responses. I designed a Stroop-style task that puts a familiar association in conflict with a temporary definition. A prompt might define doctor as forest , while the usual association with hospital competes with that instruction. Across 11 open-weight models, these familiar associations continued to influence the answer. I used activation patching, replacing internal activations between matched prompts, to trace how a model maintains the instructed meaning. The causal interventions linked successful override to information about the defined word, its assigned meaning and the later query. Preserving the newly assigned meaning was crucial to recovering the intended response.
+I studied how a language model carries out a task inferred from examples in its prompt. Function vectors describe this task information through the combined activity of influential attention heads. I asked whether those heads serve the same role when producing an answer. I preserved the direction of each head’s contribution using signed direct logit attribution, then validated its direct effect with path patching. This separates writers, which favour the rule-correct answer, from cancellers, which oppose it. Ablating the two groups on held-out prompts tested whether these roles predicted their effects on new examples. Separate measurements of attention and output directions revealed differences in what the groups read and how they write into the model’s computation. The opposed lesion directions recur across fifteen model–task combinations.
 
-The analysis explains how a model can apply a contextual instruction while established associations remain active.
+Individual heads can change roles when the task changes. I show why identifying a head as influential leaves a further question about what it contributes in a particular task. A function vector can represent a task while the heads implementing it make opposing contributions to the answer.
 
 ## Things I've Built
 
@@ -702,9 +702,17 @@ AI × Self
 Source ID aipersonalarchive:one-archive-three-ways-to-explore
 Original https://www.henryw.me/#/aipersonalarchive#one-archive-three-ways-to-explore
 
-A personal site usually reflects how its author has organised their life. Work goes under projects, an experience under a date, a thought into a piece of writing. A visitor’s curiosity can cross all of those boundaries. Questions about how I think, what I build or where I have lived can bring together material I published years apart and for different reasons. I built Search to find original passages and Ask to connect them in an answer. View selects writing, images and working demos around a question, then composes a narrative that develops connections between them. The Gallery gives that reading a spatial form. Each perspective becomes an exhibition, with rooms to enter, original works to encounter and a story to follow. These readings become part of the archive too. Visitors can save and share their own Views, while new work gives later questions more material to draw on.
+A personal site usually reflects how its author has organised their life. Work goes under projects, an experience under a date, a thought into a piece of writing. A visitor’s curiosity can cross all of those boundaries. Questions about how I think, what I build or where I have lived can bring together material I published years apart and for different reasons. AI can read across these records and develop connections around someone’s question. Those readings can also change how I understand my own experiences. The archive becomes material for other people’s understanding and my own. I built Search to find original passages and Ask to connect them in an answer. View selects writing, images and working demos around a question, then composes a narrative that develops connections between them. The Gallery gives that reading a spatial form.
 
-The site holds both what I have made and the different ways people come to understand it.
+Each perspective becomes an exhibition, with rooms to enter, original works to encounter and a story to follow. These readings become part of the archive too. Visitors can save and share their own Views, while new work gives later questions more material to draw on. The site holds both what I have made and the different ways people come to understand it.
+
+## System architecture
+
+AI × Self
+Source ID aipersonalarchive:system-architecture
+Original https://www.henryw.me/#/aipersonalarchive#system-architecture
+
+At build time, the site prepares passages, embeddings and a component catalogue. Search runs in the browser. Cloudflare Workers supply context to Gemini for Ask answers and View compositions. MiniLM creates the search embeddings locally through Transformers. js, and Fish Audio provides narration in my AI voice. The text API makes the public material available to visitors’ own agents. A shared JSON schema connects each View to its Vue article and Three. Cloudflare D1 stores saved readings and source snapshots, while R2 holds their media. The Gallery brings the public readings together.
 
 ## Find a passage in its original context
 
@@ -712,11 +720,11 @@ AI × Self
 Source ID aipersonalarchive:find-a-passage-in-its-original-context
 Original https://www.henryw.me/#/aipersonalarchive#find-a-passage-in-its-original-context
 
-Opening a long project page still leaves a visitor looking for the passage that answers their question. I made each Search result show the matching text and open its precise location. A visitor may remember a project’s name, or only the idea that made it interesting. Search accommodates both. A question about translating business requirements into software can lead back to my work at HSBC, even without the company name in the query. Each result includes a passage so the visitor can decide whether to read more. How Search finds related material Names such as HSBC are useful word matches, while a question about translating business requirements into software may describe the same work in different language. I combined lexical retrieval, which matches words, with semantic retrieval, which looks for related meaning.
+Opening a long project page still leaves a visitor looking for the passage that answers their question. I made each Search result show the matching text and open its precise location. Search combines lexical and semantic retrieval. Word matching finds names and technical terms, while embeddings find passages with related meaning. A query about translating business requirements into software can therefore surface my work at HSBC without naming the company. How Search finds related material When I build the site, a sentence-embedding model converts each passage into an embedding, a vector of numbers that represents its meaning. Related meanings tend to have similar vectors. At search time, the browser uses the same model to embed the query and compares it with those stored vectors. This lets each search run locally. Word matches still matter, especially for names and technical terms.
 
-When I build the site, a sentence-embedding model converts each passage into an embedding, a vector of numbers that represents its meaning. Related meanings tend to have similar vectors. At search time, the browser uses the same model to embed the query and compares it with those stored vectors. This lets each search run locally. Word matches still matter, especially for names and technical terms. I merge the two rankings with weighted reciprocal-rank fusion, giving precise word matches priority while retaining relevant semantic matches. The comparison shows what each method contributes. I use all-MiniLM-L6-v2, which produces 384-dimensional embeddings. I store their values as 8-bit integers with a per-vector scale to reduce the download. At query time, cosine similarity compares the vectors. Lexical ranking uses a TF-IDF-like score, giving informative words more weight.
+I merge the two rankings with weighted reciprocal-rank fusion, giving precise word matches priority while retaining relevant semantic matches. The comparison shows what each method contributes. I use all-MiniLM-L6-v2, which produces 384-dimensional embeddings. I store their values as 8-bit integers with a per-vector scale to reduce the download. At query time, cosine similarity compares the vectors. Lexical ranking uses a TF-IDF-like score, giving informative words more weight. Reciprocal-rank fusion combines list positions because the two scoring systems use different scales. A ranking always has a first result, even for an unrelated query. I tested realistic searches alongside deliberately unrelated ones. In that set, unrelated examples scored at or below about 0. 22, most useful matches were above 0. 45, and a few relevant ones fell near 0. I set the semantic floor at 0.
 
-Reciprocal-rank fusion combines list positions because the two scoring systems use different scales. A ranking always has a first result, even for an unrelated query. I tested realistic searches alongside deliberately unrelated ones. In that set, unrelated examples scored at or below about 0. 22, most useful matches were above 0. 45, and a few relevant ones fell near 0. I set the semantic floor at 0. 24 to retain those weaker matches while excluding clearly unrelated results. Adjust the threshold in the comparison to see how many passages remain. Its scores occupied a narrower range, making an absolute threshold less useful, and recall did not improve enough to justify switching. MiniLM gave me a clearer separation between relevant and unrelated material in these tests.
+24 to retain those weaker matches while excluding clearly unrelated results. Adjust the threshold in the comparison to see how many passages remain. Its scores occupied a narrower range, making an absolute threshold less useful, and recall did not improve enough to justify switching. MiniLM gave me a clearer separation between relevant and unrelated material in these tests.
 
 ## The archive as a space
 
@@ -724,7 +732,7 @@ AI × Self
 Source ID aipersonalarchive:seeing-the-archive-as-a-space
 Original https://www.henryw.me/#/aipersonalarchive#seeing-the-archive-as-a-space
 
-Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here.
+The embedding map gives the archive a spatial form. Projects, research and personal writing appear together as a field of points. Their positions make patterns of similarity visible across material that lives on separate pages. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here.
 
 ## Ask brings related passages into one answer
 
@@ -736,11 +744,11 @@ Some questions draw on several parts of the site. Understanding how I use AI, fo
 
 Keeping that broader context available helps with questions that connect several parts of the archive.
 
-## Questions about Henry and the site
+## How does Ask handle different kinds of questions?
 
 AI × Self
-Source ID aipersonalarchive:questions-about-henry-and-the-site
-Original https://www.henryw.me/#/aipersonalarchive#questions-about-henry-and-the-site
+Source ID aipersonalarchive:how-does-ask-handle-different-kinds-of-questions
+Original https://www.henryw.me/#/aipersonalarchive#how-does-ask-handle-different-kinds-of-questions
 
 Ask handles both questions about Henry and questions about using the website. It classifies the question to choose a useful next step. For site features, it provides a link or an action. For questions about my work and ideas, it explains the relevant material and can offer a View to explore the subject in more depth.
 
@@ -752,13 +760,13 @@ Original https://www.henryw.me/#/aipersonalarchive#view-reorganises-the-site-aro
 
 A View gives visitors a longer reading built around their question. AI selects relevant projects, research and personal writing, then develops a narrative that explains their connections. The original work appears within that reading, so visitors can try a demo, look through photographs or read a passage as the argument develops. The same material can support different readings. A question about learning might connect a research study with an education project. A question about building tools might draw on those pieces to explain a different set of decisions.
 
-## Composing with the original work
+## How does AI build an interpretation around a question?
 
 AI × Self
-Source ID aipersonalarchive:composing-with-the-original-work
-Original https://www.henryw.me/#/aipersonalarchive#composing-with-the-original-work
+Source ID aipersonalarchive:how-does-ai-build-an-interpretation-around-a-question
+Original https://www.henryw.me/#/aipersonalarchive#how-does-ai-build-an-interpretation-around-a-question
 
-I registered projects, research entries, personal writing, image groups and interactions as reusable components. The model selects the components that answer the question, writes the narrative that connects them and gives each section its place in the reading. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, photo gallery or written passage. The narrative introduces each piece and explains how it supports the surrounding argument. Visitors encounter the original work at the point where it helps them understand the connection. A generated illustration gives the page a visual interpretation of its question and perspective. An audio summary introduces the reading before visitors explore the full narrative.
+The question determines which material matters and what the reading needs to explain. The model draws on projects, research and personal writing to develop an interpretation across them. That interpretation can make a connection that no single piece states on its own. To let visitors examine the work as they read, I registered written passages, image groups and working demos as reusable components. The model selects them and places them within the narrative, explaining what each contributes to the argument. Each component retains its content and behaviour, so a reader can try the demo or explore the photographs that the interpretation draws on. A generated illustration gives the page a visual interpretation of its question and perspective. An audio summary introduces the reading before visitors explore the full narrative.
 
 ## A reading to save and share
 
@@ -776,29 +784,13 @@ Original https://www.henryw.me/#/aipersonalarchive#every-view-becomes-an-exhibit
 
 Reading an article gives the narrative a clear sequence. An exhibition gives the work a physical scale and lets visitors decide where to pause. I made each View available in both forms. Its sections become rooms, with photographs on walls, writing on reading stands and places on a globe. The narrative introduces the works as visitors move through the exhibition. The article and exhibition present the same View. Visitors can switch between them and arrive at the corresponding passage or exhibit, keeping their place as they change how they explore.
 
-## The View Gallery
+## Available across the site
 
 AI × Self
-Source ID aipersonalarchive:the-view-gallery
-Original https://www.henryw.me/#/aipersonalarchive#the-view-gallery
+Source ID aipersonalarchive:available-across-the-site
+Original https://www.henryw.me/#/aipersonalarchive#available-across-the-site
 
-The View Gallery brings the shared exhibitions into one place. Visitors can browse questions other people have asked, preview the readings and choose an exhibition to enter. The collection shows how different people connect the same body of work. Visitors can also compose a View of their own or explore the original projects and writing. Each activity has a place around the Hall, making the gallery itself a space to explore.
-
-## Designing an immersive visit
-
-AI × Self
-Source ID aipersonalarchive:the-exhibition-is-designed-as-one-experience
-Original https://www.henryw.me/#/aipersonalarchive#the-exhibition-is-designed-as-one-experience
-
-A convincing visit depends on more than arranging works in 3D. The building needs a readable layout, the exhibits need room to be seen, and movement needs to feel continuous. I designed the gallery and exhibitions around those needs, using scale, light, sound and guidance to help visitors settle into the space.
-
-## System architecture
-
-AI × Self
-Source ID aipersonalarchive:system-architecture
-Original https://www.henryw.me/#/aipersonalarchive#system-architecture
-
-At build time, the site prepares passages, embeddings and a component catalogue. Search runs in the browser. Cloudflare Workers supply context to Gemini for Ask answers and View compositions. MiniLM creates the search embeddings locally through Transformers. js, and Fish Audio provides narration in my AI voice. The text API makes the public material available to visitors’ own agents. A shared JSON schema connects each View to its Vue article and Three. Cloudflare D1 stores saved readings and source snapshots, while R2 holds their media. The Gallery brings the public readings together.
+Visitors can open Search, Ask, View and the embedding map from the header on any page. Home also has a question field, and wide screens add a search control beside the page. These entry points make the tools easy to reach throughout the site. I adapted the input controls, reading panels and exhibition layouts to suit touchscreens and larger displays.
 
 ## Exploring with your own agent
 
@@ -806,7 +798,9 @@ AI × Self
 Source ID aipersonalarchive:exploring-with-your-own-agent
 Original https://www.henryw.me/#/aipersonalarchive#exploring-with-your-own-agent
 
-The archive can be useful in someone else’s research, writing or project. Making it readable by agents lets visitors use this material in their own workflow. Their agent can explore my work, connect it with other sources and develop an answer around the task at hand. Visitors can give their agent henryw. The site points it to a reading guide and a public text API, with the complete archive, individual pieces and links to the original pages. The agent handles the reasoning and presents the results in its own interface, with no installation or configuration needed.
+The archive can be useful in someone else’s research, writing or project. Making it readable by agents lets visitors use this material in their own workflow. Their agent can explore my work, connect it with other sources and develop an answer around the task at hand. Visitors can give their agent henryw. The site points it to a reading guide and a public text API, with the complete archive, individual pieces and links to the original pages. The agent handles the reasoning and presents the results in its own interface, with no installation or configuration needed. How agents read the archive I export the site’s public writing as complete text and JSON records at build time. An agent can read the archive through ordinary HTTP GET requests, then use its own model to interpret the material.
+
+Reading whole pieces gives it the context to make connections across projects, research and personal writing. The static downloads and text API use the same source records. Each record carries the full text, a stable ID and a link to its original place on the site. A content revision identifies the version the agent is reading. me Reading guide Discover the interface The page’s HTML links and llms. txt point to a reading guide and an OpenAPI definition describing the available requests. Research Projects Fragments Read the material The agent can download the whole archive or request complete sections and individual sources through the API, according to its task and context budget. Research Original writing Connect and cite The agent develops its answer across the material. Original page links let the reader follow a citation to the passage, image or interactive work it discusses.
 
 ## What can I learn from a website about myself?
 
@@ -1579,6 +1573,84 @@ Create a Library Set with your Agent to make your own logos, images and PowerPoi
 Small illustrations can lose detail when generated as part of a full slide. The Agent can regenerate an illustration at higher resolution with a transparent background, then check it against the original design before placing it in PowerPoint. Drag the divider to compare the initial illustration with the regenerated version.
 
 Tell your Agent who the presentation is for, what it should communicate and which material to use. You can review the plan and designs together or ask it to work independently. Expand a stage below to inspect the plans, designs and review records from the selected sample.
+
+## An exhibition ticket
+
+AI × Self
+Source ID interactive.archive.exhibition-ticket
+Original https://www.henryw.me/#/aipersonalarchive#sample-exhibition-ticket
+
+The View Gallery gives each selected exhibition a ticket with its title, illustration, creation date and number. Its reverse carries the summary. The ticket records visit progress and marks a completed visit with a dated stamp.
+
+## The View Gallery design
+
+AI × Self
+Source ID interactive.archive.gallery-design
+Original https://www.henryw.me/#/aipersonalarchive#gallery-design-study
+
+The View Gallery brings shared exhibitions into one building. Four interactive studies show its interior, building form, floor plan and light and dark treatments together.
+
+The Gallery interior. I arranged browsing, creating a View and exploring the archive around one open Hall. Visitors can see these areas together and move towards whichever interests them. The selected exhibition appears at the entrance across the room.
+
+The building as a whole. The model shows how the Hall connects to the archive court and exhibition wings. Removing the roof reveals the collection display, reading stands and archive installation. Visitors can turn the building and inspect how these activities fit within the space.
+
+Orientation within the Gallery. Visitors can choose a location on the floor plan to see a preview, read what they can do there and go directly to it. The map also marks their current position, so they can relate each destination to where they are.
+
+Two lighting treatments. The light theme spreads daylight-like illumination across the Hall. In the dark theme, the collection and exhibition entrance remain lit against darker walls. Both treatments use the same building and display positions.
+
+## Designing the exhibition
+
+AI × Self
+Source ID interactive.archive.exhibition-design
+Original https://www.henryw.me/#/aipersonalarchive#the-exhibition-is-designed-as-one-experience
+
+Henry designed the exhibition to make reading a View feel like an immersive visit. Eight design studies explain arrival, wall writing, objects, the afterword, the visit map, lighting, audio narration and language.
+
+The exhibition entrance. The entrance introduces the View through its title, illustration and opening text. Visitors can see into the first room before entering. A short guide introduces the movement controls and how to open a work.
+
+A narrative on the walls. Each room places its chapter introduction beside the works it discusses. Visitors can read the connection and then examine those works. Titles above the doorways identify the next chapter as they move through the exhibition.
+
+Material with a physical form. Travel records appear on a globe, writing sits on reading stands, and photographs hang as framed works. Visitors can approach an exhibit and open its original content, including the working demos for interactive projects. Each source has a registered type that maps to a display form. The layout uses the display’s dimensions and required viewing distance to place it in the room. Interactive projects retain their Vue components when opened, preserving their controls and behaviour.
+
+Closing the exhibition. The final room brings the narrative to a close with an afterword. A visitors’ book beside it lets people leave a response and read what others have written about the exhibition.
+
+A route shaped by the reading. Each chapter gets a room sized for its works, and doorways connect the rooms in reading order. The visit map shows this route and lets visitors jump to a chapter or a particular work. The layout algorithm groups works by chapter and sizes each room around their display forms and viewing distances. It arranges entrances, wall introductions and exhibits, then connects the rooms with doorways and a walkable route.
+
+Lighting the visit. The next room begins to brighten as a visitor approaches its doorway. Rooms they have left gradually dim, keeping the works ahead visible and making the route easier to follow. The visitor’s position and distance from a doorway determine which rooms are lit. Each room’s lights fade together, making the next space visible as the visitor approaches its threshold.
+
+An audio guide in my voice. An AI voice trained on my recordings narrates the exhibition as visitors move through it. They can look at the works while listening, or follow the highlighted words in the reading panel. Narration connects each passage to a viewing position. A passage can finish as the visitor moves, and the next begins once they arrive. The reading panel follows the active passage, with word highlighting synchronised to playback. Listening progress is remembered for each passage, so visitors can pause, explore a work and pick up where they left off.
+
+Reading in another language. Visitors can choose a language for the exhibition’s narrative and audio guide. The translated text and narration follow the same rooms and works, so they can change language during a visit.
+
+## Exploring the archive
+
+AI × Self
+Source ID interactive.archive.illustration.main
+Original https://www.henryw.me/#/aipersonalarchive#archive-overview-illustration
+
+Questions bring original material into answers, composed readings and exhibitions.
+
+Search finds a passage, Ask gives an answer with a citation, and View composes articles and exhibitions. Three saved Views appear above The View Gallery’s architectural model and ticket.
+
+## A composed View
+
+AI × Self
+Source ID interactive.archive.illustration.view
+Original https://www.henryw.me/#/aipersonalarchive#archive-view-illustration
+
+AI connects original material around a visitor’s question, composing a View to read as an article or explore as an exhibition.
+
+Visitors bring different questions about Henry’s life, research and design. One question, how places have shaped Henry, brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of.
+
+## AI and self-understanding
+
+AI × Self
+Source ID interactive.archive.illustration.self
+Original https://www.henryw.me/#/aipersonalarchive#archive-self-illustration
+
+AI connects my records through other people’s questions. Those readings can also change how I understand my own life.
+
+Henry’s memory of his first camera and his research on AI-assisted writing appear beside his photograph. An AI interpretation connects how a lens guides attention with how a draft guides further thought, revealing a shared concern across his hobby and research.
 
 ## Places and moments
 
