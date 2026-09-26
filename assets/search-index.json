@@ -292,6 +292,175 @@
   },
   {
     "id": 10,
+    "source_id": "research-ai-writing-interview:overview",
+    "route": "/research/ai-writing-interview",
+    "page": "How AI changes the course of writing",
+    "title": "How AI changes the course of writing",
+    "anchor": "",
+    "description": "Journalist and editor Tequia Burt asked me about Early Epistemic Settlement in AI-Assisted Writing for her reporting on AI and professional writing. We discussed how a useful answer can change the questions a writer goes on to ask, and what it would take to study that process.",
+    "body": "Journalist and editor Tequia Burt asked me about Early Epistemic Settlement in AI-Assisted Writing for her reporting on AI and professional writing. We discussed how a useful answer can change the questions a writer goes on to ask, and what it would take to study that process. Read the paper 01 How the idea began 02 A frame that changes the article 03 Timing, expertise and the task 04 Models and collaborators 05 Studying what happens to inquiry 06 What assistance could leave open Tequia Burt 01",
+    "parts": [
+      "Journalist and editor Tequia Burt asked me about Early Epistemic Settlement in AI-Assisted Writing for her reporting on AI and professional writing. We discussed how a useful answer can change the questions a writer goes on to ask, and what it would take to study that process. Read the paper 01 How the idea began 02 A frame that changes the article 03 Timing, expertise and the task 04 Models and collaborators 05 Studying what happens to inquiry 06 What assistance could leave open Tequia Burt 01"
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 0,
+    "media": [],
+    "selected": false
+  },
+  {
+    "id": 11,
+    "source_id": "research-ai-writing-interview:origins",
+    "route": "/research/ai-writing-interview",
+    "page": "How AI changes the course of writing",
+    "title": "How did you arrive at the concept of early epistemic settlement? Was there a particular writing experience or limitation in the existing research that led you to it?",
+    "anchor": "origins",
+    "description": "Henry Wang I started from a fairly simple observation about what AI changes in writing. Writing has often been treated as part of thinking, not just a way of recording thought after the thinking is finished. Menary's Writing as Thinking captures this well (Menary, 2007).",
+    "body": "Henry Wang I started from a fairly simple observation about what AI changes in writing. Writing has often been treated as part of thinking, not just a way of recording thought after the thinking is finished. Menary's Writing as Thinking captures this well (Menary, 2007). You write something, see what follows from it, realize that two claims do not quite fit, go back to the material, move things around, and sometimes end up thinking something you could not have stated when you began. The text develops along with your understanding. AI makes it much easier for those two things to come apart. Suppose I have two pieces of evidence and cannot yet work out how they fit into one argument. Previously, if I wanted the paragraph to work, I would usually have to form enough of that connection myself to write it. A teacher, editor, book, or colleague could of course help. But with a language model I can keep giving it the problem in front of me and get a coherent next step back. So the text can keep developing even when I did not have to build all of the connections that made that development possible. That made me wonder whether anything had been lost. If the argument is good, I understand it, and I can keep reasoning from it, is that enough? There was already work showing that AI changes what people produce. One result I found interesting was that AI assistance could improve individual creative outputs while also making different people's outputs more similar (Doshi & Hauser, 2024). What I wanted to understand was what was happening inside one person's inquiry. What changed between the point where they were still trying to form a relation and the point where they had been given one that worked? My background in cognitive modelling probably also shaped this. I tend to think about how someone's internal structure changes over time, so the finished text alone did not really explain what interested me. I wanted to know what happened to the writer's own construction process and cognitive development through working with AI. That is where early epistemic settlement came from.",
+    "parts": [
+      "Henry Wang I started from a fairly simple observation about what AI changes in writing. Writing has often been treated as part of thinking, not just a way of recording thought after the thinking is finished. Menary's Writing as Thinking captures this well (Menary, 2007). You write something, see what follows from it, realize that two claims do not quite fit, go back to the material, move things around, and sometimes end up thinking something you could not have stated when you began. The text develops along with your understanding. AI makes it much easier for those two things to come apart. Suppose I have two pieces of evidence and cannot yet work out how they fit into one argument. Previously, if I wanted the paragraph to work, I would usually have to form enough of that connection myself to write it. A teacher, editor, book, or colleague could of course help.",
+      "But with a language model I can keep giving it the problem in front of me and get a coherent next step back. So the text can keep developing even when I did not have to build all of the connections that made that development possible. That made me wonder whether anything had been lost. If the argument is good, I understand it, and I can keep reasoning from it, is that enough? There was already work showing that AI changes what people produce. One result I found interesting was that AI assistance could improve individual creative outputs while also making different people's outputs more similar (Doshi & Hauser, 2024). What I wanted to understand was what was happening inside one person's inquiry. What changed between the point where they were still trying to form a relation and the point where they had been given one that worked?",
+      "My background in cognitive modelling probably also shaped this. I tend to think about how someone's internal structure changes over time, so the finished text alone did not really explain what interested me. I wanted to know what happened to the writer's own construction process and cognitive development through working with AI. That is where early epistemic settlement came from."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 0,
+    "media": [],
+    "selected": false
+  },
+  {
+    "id": 12,
+    "source_id": "research-ai-writing-interview:professional-writing",
+    "route": "/research/ai-writing-interview",
+    "page": "How AI changes the course of writing",
+    "title": "In professional writing, how might an AI response shape the direction of an inquiry even when the writer understands the response and continues thinking productively? Could you walk me through an example of the questions, connections, or alternative frames that might become less likely to emerge?",
+    "anchor": "professional-writing",
+    "description": "Henry Wang Imagine a journalist has two interviews about hybrid work. One person says they are more productive at home because they can concentrate. Another says their team became less productive because coordination became harder. The journalist has not yet worked out what to do with those two observations. AI gives her a clean frame: hybrid work involves a trade-off between individual focus and team collaboration.",
+    "body": "Henry Wang Imagine a journalist has two interviews about hybrid work. One person says they are more productive at home because they can concentrate. Another says their team became less productive because coordination became harder. The journalist has not yet worked out what to do with those two observations. AI gives her a clean frame: hybrid work involves a trade-off between individual focus and team collaboration. That is a perfectly reasonable interpretation. She understands it and could write a good article from it. But if she had stayed with the mismatch for longer, she might have noticed that the first person's work is mostly individual analysis, while the second person's work depends heavily on coordination. The question could then change from “Is hybrid work good or bad for productivity? ” to “Which kinds of work benefit from remote work, and which depend on physical coordination? ” Now she may interview different people, look for different evidence, and end up writing a different article. The first frame was not wrong. It just resolved the difficulty before it had a chance to surface any further questions or connections.",
+    "parts": [
+      "Henry Wang Imagine a journalist has two interviews about hybrid work. One person says they are more productive at home because they can concentrate. Another says their team became less productive because coordination became harder. The journalist has not yet worked out what to do with those two observations. AI gives her a clean frame: hybrid work involves a trade-off between individual focus and team collaboration. That is a perfectly reasonable interpretation. She understands it and could write a good article from it. But if she had stayed with the mismatch for longer, she might have noticed that the first person's work is mostly individual analysis, while the second person's work depends heavily on coordination. The question could then change from “Is hybrid work good or bad for productivity?",
+      "” to “Which kinds of work benefit from remote work, and which depend on physical coordination? ” Now she may interview different people, look for different evidence, and end up writing a different article. The first frame was not wrong. It just resolved the difficulty before it had a chance to surface any further questions or connections."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 0,
+    "media": [],
+    "selected": false
+  },
+  {
+    "id": 13,
+    "source_id": "research-ai-writing-interview:timing-and-expertise",
+    "route": "/research/ai-writing-interview",
+    "page": "How AI changes the course of writing",
+    "title": "What determines whether an AI suggestion settles an inquiry too early or becomes useful material the writer actively works through? How much depends on timing, the writer’s expertise, or the nature of the task?",
+    "anchor": "timing-and-expertise",
+    "description": "Henry Wang I think this depends on what the writer is doing at the moment the suggestion arrives. If I already understand a relation and just cannot phrase it well, AI may be helping me say something I already know. If trying to write the sentence is how I am still figuring out the relation, the same answer can do something quite different. Expertise probably matters too.",
+    "body": "Henry Wang I think this depends on what the writer is doing at the moment the suggestion arrives. If I already understand a relation and just cannot phrase it well, AI may be helping me say something I already know. If trying to write the sentence is how I am still figuring out the relation, the same answer can do something quite different. Expertise probably matters too. An expert usually has more existing relations and constraints for a new suggestion to fit with. Something that sounds coherent to a novice may immediately feel wrong to an expert because it clashes with something else they know. The nature of the task matters as well. Some tasks have a fairly constrained destination but still require substantial construction from the person doing them. If the goal is only to produce a correct artifact, skipping some of that construction may not matter much. If the construction itself is part of how the person is learning, then the same shortcut changes what they get from doing the task. But this distinction depends on being able to tell how constrained the task really is. From inside an inquiry, that is often difficult to know. You may be slowly working toward something fairly standard, or you may be one connection away from seeing the material differently. You have to decide whether to keep working before you know what that work would produce. That uncertainty seems important to me. It makes the value of continuing difficult to judge from the writer's own position.",
+    "parts": [
+      "Henry Wang I think this depends on what the writer is doing at the moment the suggestion arrives. If I already understand a relation and just cannot phrase it well, AI may be helping me say something I already know. If trying to write the sentence is how I am still figuring out the relation, the same answer can do something quite different. Expertise probably matters too. An expert usually has more existing relations and constraints for a new suggestion to fit with. Something that sounds coherent to a novice may immediately feel wrong to an expert because it clashes with something else they know. The nature of the task matters as well. Some tasks have a fairly constrained destination but still require substantial construction from the person doing them. If the goal is only to produce a correct artifact, skipping some of that construction may not matter much.",
+      "If the construction itself is part of how the person is learning, then the same shortcut changes what they get from doing the task. But this distinction depends on being able to tell how constrained the task really is. From inside an inquiry, that is often difficult to know. You may be slowly working toward something fairly standard, or you may be one connection away from seeing the material differently. You have to decide whether to keep working before you know what that work would produce. That uncertainty seems important to me. It makes the value of continuing difficult to judge from the writer's own position."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 0,
+    "media": [],
+    "selected": false
+  },
+  {
+    "id": 14,
+    "source_id": "research-ai-writing-interview:models-and-collaborators",
+    "route": "/research/ai-writing-interview",
+    "page": "How AI changes the course of writing",
+    "title": "Editors and other collaborators can also provide a solution before a writer has completed the underlying thinking. What makes language models different, beyond the speed and frequency with which they can intervene?",
+    "anchor": "models-and-collaborators",
+    "description": "Henry Wang What seems different to me is how much independent structure tends to enter the exchange. When another person works with my material, they are processing it through their own understanding. In the hybrid-work example, an editor might notice that one interviewee's work depends much more heavily on coordination than the other's.",
+    "body": "Henry Wang What seems different to me is how much independent structure tends to enter the exchange. When another person works with my material, they are processing it through their own understanding. In the hybrid-work example, an editor might notice that one interviewee's work depends much more heavily on coordination than the other's. She might also wonder whether the difference has less to do with remote work itself than with how the two teams are managed. Those relations come partly from what she already knows and from the connections she makes while thinking through the material. I may not have needed either of those relations just to move forward. But once she brings them back, I have more to think with, and they may change where the inquiry goes. A very common way of using a language model is different. I bring it whatever problem is blocking me at the moment and ask how I might continue. If it finds a locally coherent connection that gets me past that difficulty, the interaction has already done what I needed it to do. There may be many other relevant relations the model could surface, but the immediate problem does not require them. It can give me enough structure to continue without expanding the space very much beyond the question I was already able to ask. That can then repeat throughout the draft. I reach a difficulty, get a satisfactory way through it, continue from there, and later return with the next difficulty. Each answer can be useful on its own while the inquiry develops through a sequence of these local resolutions. That is the pattern I was trying to capture in the paper. A collaborator brings a separately developed structure into the exchange almost by default simply because they have one. With a language model, it is very easy to keep getting help that is closely fitted to the problem as I have already formulated it.",
+    "parts": [
+      "Henry Wang What seems different to me is how much independent structure tends to enter the exchange. When another person works with my material, they are processing it through their own understanding. In the hybrid-work example, an editor might notice that one interviewee's work depends much more heavily on coordination than the other's. She might also wonder whether the difference has less to do with remote work itself than with how the two teams are managed. Those relations come partly from what she already knows and from the connections she makes while thinking through the material. I may not have needed either of those relations just to move forward. But once she brings them back, I have more to think with, and they may change where the inquiry goes. A very common way of using a language model is different.",
+      "I bring it whatever problem is blocking me at the moment and ask how I might continue. If it finds a locally coherent connection that gets me past that difficulty, the interaction has already done what I needed it to do. There may be many other relevant relations the model could surface, but the immediate problem does not require them. It can give me enough structure to continue without expanding the space very much beyond the question I was already able to ask. That can then repeat throughout the draft. I reach a difficulty, get a satisfactory way through it, continue from there, and later return with the next difficulty. Each answer can be useful on its own while the inquiry develops through a sequence of these local resolutions. That is the pattern I was trying to capture in the paper.",
+      "A collaborator brings a separately developed structure into the exchange almost by default simply because they have one. With a language model, it is very easy to keep getting help that is closely fitted to the problem as I have already formulated it."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 0,
+    "media": [],
+    "selected": false
+  },
+  {
+    "id": 15,
+    "source_id": "research-ai-writing-interview:studying-inquiry",
+    "route": "/research/ai-writing-interview",
+    "page": "How AI changes the course of writing",
+    "title": "What would an empirical study need to observe or capture to test this framework? How might researchers distinguish an avenue of inquiry that was foreclosed from one the writer simply considered and rejected?",
+    "anchor": "studying-inquiry",
+    "description": "Henry Wang I'm still working this one out. I think there are two different questions hiding inside it. One is whether early settlement happened. The other is whether it was a bad trade. The first seems more straightforward to study. You could follow what a writer was doing immediately before and after assistance arrived. What were they trying to work out? Which notes or sources were they using?",
+    "body": "Henry Wang I'm still working this one out. I think there are two different questions hiding inside it. One is whether early settlement happened. The other is whether it was a bad trade. The first seems more straightforward to study. You could follow what a writer was doing immediately before and after assistance arrived. What were they trying to work out? Which notes or sources were they using? What was still unresolved? After they accept the response, does that attempt continue, or do the next questions start from the structure the response supplied? You could also manipulate when the help arrives. One group gets it immediately, another after some independent work. Or vary what kind of help they receive. I would be interested in what happens later, not only whether the final text is better. What questions do people ask next? What distinctions appear later in the argument? Does changing when or how assistance arrives change the kinds of relations that get developed? For the distinction you asked about between a foreclosed avenue and one the writer considered and rejected, I think the important question is whether the alternative ever became developed enough to be evaluated. A rejected idea should leave some trace. It may appear in notes, a draft, a question the writer asked, or an explanation of why they decided against it. With foreclosure, there may only be an unresolved tension or a partially forming connection before the assistance arrives, and then that line of work disappears. We still could not say that one particular missing idea definitely would have appeared. But at least we could study whether different kinds of assistance systematically change which relations get far enough to be considered. The harder question is whether whatever was lost was worth more than the time and effort AI saved. That depends a lot on what the person is trying to do. If I need a workable recommendation this afternoon, stopping once I have a good answer may be entirely sensible. If I am doing research and the point is to find a better explanation, I may be willing to spend much longer following uncertain directions.",
+    "parts": [
+      "Henry Wang I'm still working this one out. I think there are two different questions hiding inside it. One is whether early settlement happened. The other is whether it was a bad trade. The first seems more straightforward to study. You could follow what a writer was doing immediately before and after assistance arrived. What were they trying to work out? Which notes or sources were they using? What was still unresolved? After they accept the response, does that attempt continue, or do the next questions start from the structure the response supplied? You could also manipulate when the help arrives. One group gets it immediately, another after some independent work. Or vary what kind of help they receive. I would be interested in what happens later, not only whether the final text is better. What questions do people ask next? What distinctions appear later in the argument?",
+      "Does changing when or how assistance arrives change the kinds of relations that get developed? For the distinction you asked about between a foreclosed avenue and one the writer considered and rejected, I think the important question is whether the alternative ever became developed enough to be evaluated. A rejected idea should leave some trace. It may appear in notes, a draft, a question the writer asked, or an explanation of why they decided against it. With foreclosure, there may only be an unresolved tension or a partially forming connection before the assistance arrives, and then that line of work disappears. We still could not say that one particular missing idea definitely would have appeared. But at least we could study whether different kinds of assistance systematically change which relations get far enough to be considered.",
+      "The harder question is whether whatever was lost was worth more than the time and effort AI saved. That depends a lot on what the person is trying to do. If I need a workable recommendation this afternoon, stopping once I have a good answer may be entirely sensible. If I am doing research and the point is to find a better explanation, I may be willing to spend much longer following uncertain directions."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 0,
+    "media": [],
+    "selected": false
+  },
+  {
+    "id": 16,
+    "source_id": "research-ai-writing-interview:designing-assistance",
+    "route": "/research/ai-writing-interview",
+    "page": "How AI changes the course of writing",
+    "title": "Are there practices that could help writers use AI without bypassing the work that expands what they are able to question, defend, or develop?",
+    "anchor": "designing-assistance",
+    "description": "Henry Wang I think there are two separate parts of the interaction that matter here. One is what the AI contributes. If I am stuck between two ideas, it can give me the connection needed to move forward. But it could also surface other relations around the problem that are not necessary for solving the immediate difficulty and might open up other directions. The other is how that contribution is presented.",
+    "body": "Henry Wang I think there are two separate parts of the interaction that matter here. One is what the AI contributes. If I am stuck between two ideas, it can give me the connection needed to move forward. But it could also surface other relations around the problem that are not necessary for solving the immediate difficulty and might open up other directions. The other is how that contribution is presented. The same underlying connection could arrive as a finished interpretation, a question, a tension to resolve, two competing frames, or a counterexample. Those forms leave very different amounts of construction for the writer to do. There is some evidence that this difference in form matters. In Don't Just Tell Me, Ask Me, framing similar information as questions rather than direct explanations led people to reason with it differently (Danry et al. That is close to what I have in mind here. The contribution can be similar, while the way it is presented changes what the person still has to work out for themselves. Sometimes a finished answer is exactly what I want. If I have already done the conceptual work and am stuck on wording, there may be little value in making the interaction more elaborate. The more difficult case is when I am still trying to understand the material. Then I would want the system to help without simply turning every local difficulty into a stopping point. That could mean leaving some of the construction for me to do, or bringing in connections that expand the problem beyond the one I have already formulated. I still don't know exactly how a system should decide what to contribute, or in what form, given the task and the writer's state at that moment. That's something I'm interested in pursuing next.",
+    "parts": [
+      "Henry Wang I think there are two separate parts of the interaction that matter here. One is what the AI contributes. If I am stuck between two ideas, it can give me the connection needed to move forward. But it could also surface other relations around the problem that are not necessary for solving the immediate difficulty and might open up other directions. The other is how that contribution is presented. The same underlying connection could arrive as a finished interpretation, a question, a tension to resolve, two competing frames, or a counterexample. Those forms leave very different amounts of construction for the writer to do. There is some evidence that this difference in form matters. In Don't Just Tell Me, Ask Me, framing similar information as questions rather than direct explanations led people to reason with it differently (Danry et al.",
+      "That is close to what I have in mind here. The contribution can be similar, while the way it is presented changes what the person still has to work out for themselves. Sometimes a finished answer is exactly what I want. If I have already done the conceptual work and am stuck on wording, there may be little value in making the interaction more elaborate. The more difficult case is when I am still trying to understand the material. Then I would want the system to help without simply turning every local difficulty into a stopping point. That could mean leaving some of the construction for me to do, or bringing in connections that expand the problem beyond the one I have already formulated. I still don't know exactly how a system should decide what to contribute, or in what form, given the task and the writer's state at that moment. That's something I'm interested in pursuing next."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 0,
+    "media": [],
+    "selected": false
+  },
+  {
+    "id": 17,
+    "source_id": "research-ai-writing-interview:references",
+    "route": "/research/ai-writing-interview",
+    "page": "How AI changes the course of writing",
+    "title": "References",
+    "anchor": "references",
+    "description": "Don’t just tell me, ask me: AI systems that intelligently frame explanations as questions improve human logical discernment accuracy over causal AI explanations. Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems, 1–13. Generative AI enhances individual creativity but reduces the collective diversity of novel content. Science Advances, 10(28), eadn5290. Language Sciences, 29(5), 621–632.",
+    "body": "Don’t just tell me, ask me: AI systems that intelligently frame explanations as questions improve human logical discernment accuracy over causal AI explanations. Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems, 1–13. Generative AI enhances individual creativity but reduces the collective diversity of novel content. Science Advances, 10(28), eadn5290. Language Sciences, 29(5), 621–632.",
+    "parts": [
+      "Don’t just tell me, ask me: AI systems that intelligently frame explanations as questions improve human logical discernment accuracy over causal AI explanations. Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems, 1–13. Generative AI enhances individual creativity but reduces the collective diversity of novel content. Science Advances, 10(28), eadn5290. Language Sciences, 29(5), 621–632."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 0,
+    "media": [],
+    "selected": false
+  },
+  {
+    "id": 18,
     "source_id": "research:overview",
     "route": "/research",
     "page": "Research",
@@ -312,7 +481,7 @@
     "selected": false
   },
   {
-    "id": 11,
+    "id": 19,
     "source_id": "research:transfer",
     "route": "/research",
     "page": "Research",
@@ -364,7 +533,7 @@
     "selected": true
   },
   {
-    "id": 12,
+    "id": 20,
     "source_id": "research:bright",
     "route": "/research",
     "page": "Research",
@@ -417,7 +586,7 @@
     "selected": true
   },
   {
-    "id": 13,
+    "id": 21,
     "source_id": "research:fittedAssistance",
     "route": "/research",
     "page": "Research",
@@ -448,13 +617,19 @@
         {
           "label": "Paper",
           "url": "https://arxiv.org/abs/2609.09332"
+        },
+        {
+          "label": "Interview",
+          "url": "/research/ai-writing-interview",
+          "internal": true,
+          "icon": "interview"
         }
       ]
     },
     "selected": true
   },
   {
-    "id": 14,
+    "id": 22,
     "source_id": "research:encoding",
     "route": "/research",
     "page": "Research",
@@ -502,7 +677,7 @@
     "selected": true
   },
   {
-    "id": 15,
+    "id": 23,
     "source_id": "research:humansDisengage",
     "route": "/research",
     "page": "Research",
@@ -552,7 +727,7 @@
     "selected": false
   },
   {
-    "id": 16,
+    "id": 24,
     "source_id": "research:priorsPersist",
     "route": "/research",
     "page": "Research",
@@ -605,7 +780,7 @@
     "selected": false
   },
   {
-    "id": 17,
+    "id": 25,
     "source_id": "projects:overview",
     "route": "/projects",
     "page": "Builds",
@@ -625,7 +800,7 @@
     "selected": false
   },
   {
-    "id": 18,
+    "id": 26,
     "source_id": "projects:searchstory",
     "route": "/projects",
     "page": "Builds",
@@ -656,7 +831,7 @@
     "selected": true
   },
   {
-    "id": 19,
+    "id": 27,
     "source_id": "projects:slidepoise",
     "route": "/projects",
     "page": "Builds",
@@ -694,7 +869,7 @@
     "selected": true
   },
   {
-    "id": 20,
+    "id": 28,
     "source_id": "projects:pwcItOps",
     "route": "/projects",
     "page": "Builds",
@@ -732,7 +907,7 @@
     "selected": true
   },
   {
-    "id": 21,
+    "id": 29,
     "source_id": "projects:insurance",
     "route": "/projects",
     "page": "Builds",
@@ -769,7 +944,7 @@
     "selected": true
   },
   {
-    "id": 22,
+    "id": 30,
     "source_id": "projects:scrollytelling",
     "route": "/projects",
     "page": "Builds",
@@ -816,7 +991,7 @@
     "selected": false
   },
   {
-    "id": 23,
+    "id": 31,
     "source_id": "projects:pwcRag",
     "route": "/projects",
     "page": "Builds",
@@ -854,7 +1029,7 @@
     "selected": false
   },
   {
-    "id": 24,
+    "id": 32,
     "source_id": "projects:stride",
     "route": "/projects",
     "page": "Builds",
@@ -898,7 +1073,7 @@
     "selected": false
   },
   {
-    "id": 25,
+    "id": 33,
     "source_id": "projects:dealtracker",
     "route": "/projects",
     "page": "Builds",
@@ -936,7 +1111,7 @@
     "selected": false
   },
   {
-    "id": 26,
+    "id": 34,
     "source_id": "projects:lexaday",
     "route": "/projects",
     "page": "Builds",
@@ -983,7 +1158,7 @@
     "selected": false
   },
   {
-    "id": 27,
+    "id": 35,
     "source_id": "projects:early",
     "route": "/projects",
     "page": "Builds",
@@ -1030,7 +1205,7 @@
     "selected": false
   },
   {
-    "id": 28,
+    "id": 36,
     "source_id": "travels:overview",
     "route": "/travels",
     "page": "Travels",
@@ -1050,7 +1225,7 @@
     "selected": false
   },
   {
-    "id": 29,
+    "id": 37,
     "source_id": "playbook:overview",
     "route": "/playbook",
     "page": "Insurance Product Configuration Engine",
@@ -1070,7 +1245,7 @@
     "selected": true
   },
   {
-    "id": 30,
+    "id": 38,
     "source_id": "playbook:first-the-problem",
     "route": "/playbook",
     "page": "Insurance Product Configuration Engine",
@@ -1090,7 +1265,7 @@
     "selected": true
   },
   {
-    "id": 31,
+    "id": 39,
     "source_id": "playbook:the-idea",
     "route": "/playbook",
     "page": "Insurance Product Configuration Engine",
@@ -1111,7 +1286,7 @@
     "selected": true
   },
   {
-    "id": 32,
+    "id": 40,
     "source_id": "playbook:try-it",
     "route": "/playbook",
     "page": "Insurance Product Configuration Engine",
@@ -1131,7 +1306,7 @@
     "selected": true
   },
   {
-    "id": 33,
+    "id": 41,
     "source_id": "playbook:from-the-packing-demo-to-the-production-tool",
     "route": "/playbook",
     "page": "Insurance Product Configuration Engine",
@@ -1151,7 +1326,7 @@
     "selected": true
   },
   {
-    "id": 34,
+    "id": 42,
     "source_id": "lexaday:overview",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1171,7 +1346,7 @@
     "selected": false
   },
   {
-    "id": 35,
+    "id": 43,
     "source_id": "lexaday:a-small-lesson-generated-fresh-each-morning",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1191,7 +1366,7 @@
     "selected": false
   },
   {
-    "id": 36,
+    "id": 44,
     "source_id": "lexaday:the-learning-loop",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1211,7 +1386,7 @@
     "selected": false
   },
   {
-    "id": 37,
+    "id": 45,
     "source_id": "lexaday:pick",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1231,7 +1406,7 @@
     "selected": false
   },
   {
-    "id": 38,
+    "id": 46,
     "source_id": "lexaday:write",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1251,7 +1426,7 @@
     "selected": false
   },
   {
-    "id": 39,
+    "id": 47,
     "source_id": "lexaday:imagine",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1271,7 +1446,7 @@
     "selected": false
   },
   {
-    "id": 40,
+    "id": 48,
     "source_id": "lexaday:send",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1291,7 +1466,7 @@
     "selected": false
   },
   {
-    "id": 41,
+    "id": 49,
     "source_id": "lexaday:what-the-reader-receives",
     "route": "/lexaday",
     "page": "Lexaday",
@@ -1311,7 +1486,7 @@
     "selected": false
   },
   {
-    "id": 42,
+    "id": 50,
     "source_id": "stride:overview",
     "route": "/stride",
     "page": "Stride Support",
@@ -1331,7 +1506,7 @@
     "selected": false
   },
   {
-    "id": 43,
+    "id": 51,
     "source_id": "stride:keeping-the-order-in-context",
     "route": "/stride",
     "page": "Stride Support",
@@ -1351,7 +1526,7 @@
     "selected": false
   },
   {
-    "id": 44,
+    "id": 52,
     "source_id": "stride:giving-the-model-access-to-the-application",
     "route": "/stride",
     "page": "Stride Support",
@@ -1372,7 +1547,7 @@
     "selected": false
   },
   {
-    "id": 45,
+    "id": 53,
     "source_id": "stride:matching-language-to-the-support-domain",
     "route": "/stride",
     "page": "Stride Support",
@@ -1393,7 +1568,7 @@
     "selected": false
   },
   {
-    "id": 46,
+    "id": 54,
     "source_id": "dealtracker:overview",
     "route": "/dealtracker",
     "page": "Dealtracker",
@@ -1413,7 +1588,7 @@
     "selected": false
   },
   {
-    "id": 47,
+    "id": 55,
     "source_id": "dealtracker:from-noisy-sale-pages-to-a-short-inbox-digest",
     "route": "/dealtracker",
     "page": "Dealtracker",
@@ -1433,7 +1608,7 @@
     "selected": false
   },
   {
-    "id": 48,
+    "id": 56,
     "source_id": "dealtracker:the-email-output",
     "route": "/dealtracker",
     "page": "Dealtracker",
@@ -1453,7 +1628,7 @@
     "selected": false
   },
   {
-    "id": 49,
+    "id": 57,
     "source_id": "dealtracker:what-happens-behind-the-email",
     "route": "/dealtracker",
     "page": "Dealtracker",
@@ -1474,7 +1649,7 @@
     "selected": false
   },
   {
-    "id": 50,
+    "id": 58,
     "source_id": "dealtracker:the-control-layer",
     "route": "/dealtracker",
     "page": "Dealtracker",
@@ -1494,7 +1669,7 @@
     "selected": false
   },
   {
-    "id": 51,
+    "id": 59,
     "source_id": "scrollytelling:overview",
     "route": "/scrollytelling",
     "page": "Scrollytelling Engine",
@@ -1515,7 +1690,7 @@
     "selected": false
   },
   {
-    "id": 52,
+    "id": 60,
     "source_id": "scrollytelling:see-it-as-a-story",
     "route": "/scrollytelling",
     "page": "Scrollytelling Engine",
@@ -1535,7 +1710,7 @@
     "selected": false
   },
   {
-    "id": 53,
+    "id": 61,
     "source_id": "scrollytelling:describe-a-scene-once-then-let-the-engine-build-it",
     "route": "/scrollytelling",
     "page": "Scrollytelling Engine",
@@ -1555,7 +1730,7 @@
     "selected": false
   },
   {
-    "id": 54,
+    "id": 62,
     "source_id": "scrollytelling:under-the-hood",
     "route": "/scrollytelling",
     "page": "Scrollytelling Engine",
@@ -1575,7 +1750,7 @@
     "selected": false
   },
   {
-    "id": 55,
+    "id": 63,
     "source_id": "views:overview",
     "route": "/views",
     "page": "Views",
@@ -1596,7 +1771,7 @@
     "selected": false
   },
   {
-    "id": 56,
+    "id": 64,
     "source_id": "early:overview",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1617,7 +1792,7 @@
     "selected": false
   },
   {
-    "id": 57,
+    "id": 65,
     "source_id": "early:how-it-started",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1660,7 +1835,7 @@
     "selected": false
   },
   {
-    "id": 58,
+    "id": 66,
     "source_id": "early:batch-downloading-scientific-american-episodes",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1714,7 +1889,7 @@
     "selected": false
   },
   {
-    "id": 59,
+    "id": 67,
     "source_id": "early:chrome-extension-experiments",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1768,7 +1943,7 @@
     "selected": false
   },
   {
-    "id": 60,
+    "id": 68,
     "source_id": "early:music-streaming-hacks",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1843,7 +2018,7 @@
     "selected": false
   },
   {
-    "id": 61,
+    "id": 69,
     "source_id": "early:building-kiwiviews-website",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1873,7 +2048,7 @@
     "selected": false
   },
   {
-    "id": 62,
+    "id": 70,
     "source_id": "early:simple-automation",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1912,7 +2087,7 @@
     "selected": false
   },
   {
-    "id": 63,
+    "id": 71,
     "source_id": "early:econographer-an-economics-graphs-generator",
     "route": "/early",
     "page": "How I Started Building with Code",
@@ -1948,16 +2123,16 @@
     "selected": false
   },
   {
-    "id": 64,
+    "id": 72,
     "source_id": "aipersonalarchive:overview",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
     "title": "AI × Self",
     "anchor": "",
-    "description": "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors connect them through their own questions. A question about the places that shaped me, for example, brings travel records and personal writing into a View, a composed reading with its original sources.",
-    "body": "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors connect them through their own questions. A question about the places that shaped me, for example, brings travel records and personal writing into a View, a composed reading with its original sources. The Gallery gathers these readings as exhibitions, giving visitors a shared space to explore other perspectives and contribute their own.",
+    "description": "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors connect them through their own questions. A question about where I have lived can bring together travel records, photographs and personal writing. AI uses this material to compose a View about how those places have mattered to me.",
+    "body": "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors connect them through their own questions. A question about where I have lived can bring together travel records, photographs and personal writing. AI uses this material to compose a View about how those places have mattered to me. The Gallery gathers these readings as exhibitions, giving visitors a shared space to explore other perspectives and contribute their own.",
     "parts": [
-      "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors connect them through their own questions. A question about the places that shaped me, for example, brings travel records and personal writing into a View, a composed reading with its original sources. The Gallery gathers these readings as exhibitions, giving visitors a shared space to explore other perspectives and contribute their own."
+      "An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors connect them through their own questions. A question about where I have lived can bring together travel records, photographs and personal writing. AI uses this material to compose a View about how those places have mattered to me. The Gallery gathers these readings as exhibitions, giving visitors a shared space to explore other perspectives and contribute their own."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -1968,16 +2143,16 @@
     "selected": true
   },
   {
-    "id": 65,
+    "id": 73,
     "source_id": "aipersonalarchive:one-archive-three-ways-to-explore",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
     "title": "An archive open to different perspectives",
     "anchor": "one-archive-three-ways-to-explore",
     "description": "A personal site usually reflects how its author has organised their life. Work goes under projects, an experience under a date, a thought into a piece of writing. A visitor’s curiosity can cross all of those boundaries. Questions about how I think, what I build or where I have lived can bring together material I published years apart and for different reasons.",
-    "body": "A personal site usually reflects how its author has organised their life. Work goes under projects, an experience under a date, a thought into a piece of writing. A visitor’s curiosity can cross all of those boundaries. Questions about how I think, what I build or where I have lived can bring together material I published years apart and for different reasons. I built Search to find original passages and Ask to connect them in an answer. View develops a question into a composed reading with original sources and working demos woven into its narrative. The Gallery gives that reading a spatial form. Each perspective becomes an exhibition, with rooms to enter, original works to encounter and a story to follow. These readings become part of the archive too. Visitors can save and share their own Views, while new work gives later questions more material to draw on. The site holds both what I have made and the different ways people come to understand it.",
+    "body": "A personal site usually reflects how its author has organised their life. Work goes under projects, an experience under a date, a thought into a piece of writing. A visitor’s curiosity can cross all of those boundaries. Questions about how I think, what I build or where I have lived can bring together material I published years apart and for different reasons. I built Search to find original passages and Ask to connect them in an answer. View selects writing, images and working demos around a question, then composes a narrative that develops connections between them. The Gallery gives that reading a spatial form. Each perspective becomes an exhibition, with rooms to enter, original works to encounter and a story to follow. These readings become part of the archive too. Visitors can save and share their own Views, while new work gives later questions more material to draw on. The site holds both what I have made and the different ways people come to understand it.",
     "parts": [
-      "A personal site usually reflects how its author has organised their life. Work goes under projects, an experience under a date, a thought into a piece of writing. A visitor’s curiosity can cross all of those boundaries. Questions about how I think, what I build or where I have lived can bring together material I published years apart and for different reasons. I built Search to find original passages and Ask to connect them in an answer. View develops a question into a composed reading with original sources and working demos woven into its narrative. The Gallery gives that reading a spatial form. Each perspective becomes an exhibition, with rooms to enter, original works to encounter and a story to follow. These readings become part of the archive too. Visitors can save and share their own Views, while new work gives later questions more material to draw on.",
+      "A personal site usually reflects how its author has organised their life. Work goes under projects, an experience under a date, a thought into a piece of writing. A visitor’s curiosity can cross all of those boundaries. Questions about how I think, what I build or where I have lived can bring together material I published years apart and for different reasons. I built Search to find original passages and Ask to connect them in an answer. View selects writing, images and working demos around a question, then composes a narrative that develops connections between them. The Gallery gives that reading a spatial form. Each perspective becomes an exhibition, with rooms to enter, original works to encounter and a story to follow. These readings become part of the archive too. Visitors can save and share their own Views, while new work gives later questions more material to draw on.",
       "The site holds both what I have made and the different ways people come to understand it."
     ],
     "view_kind": "prose",
@@ -1989,16 +2164,16 @@
     "selected": true
   },
   {
-    "id": 66,
+    "id": 74,
     "source_id": "aipersonalarchive:find-a-passage-in-its-original-context",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
     "title": "Find a passage in its original context",
     "anchor": "find-a-passage-in-its-original-context",
     "description": "Opening a long project page still leaves a visitor looking for the passage that answers their question. I made each Search result show the matching text and open its precise location. A visitor may remember a project’s name, or only the idea that made it interesting. Search accommodates both.",
-    "body": "Opening a long project page still leaves a visitor looking for the passage that answers their question. I made each Search result show the matching text and open its precise location. A visitor may remember a project’s name, or only the idea that made it interesting. Search accommodates both. A question about translating business requirements into software can lead back to my work at HSBC, even without the company name in the query. The result keeps enough of the passage visible to help the visitor decide where to go next. How Search finds related material Names such as HSBC are useful word matches, while a question about translating business requirements into software may describe the same work in different language. I combined lexical retrieval, which matches words, with semantic retrieval, which looks for related meaning. When I build the site, a sentence-embedding model converts each passage into an embedding, a vector of numbers that represents its meaning. Related meanings tend to have similar vectors. At search time, the browser uses the same model to embed the query and compares it with those stored vectors. This lets each search run locally. Word matches still matter, especially for names and technical terms. I merge the two rankings with weighted reciprocal-rank fusion, giving precise word matches priority while retaining relevant semantic matches. The comparison shows what each method contributes. I use all-MiniLM-L6-v2, which produces 384-dimensional embeddings. I store their values as 8-bit integers with a per-vector scale to reduce the download. At query time, cosine similarity compares the vectors. Lexical ranking uses a TF-IDF-like score, giving informative words more weight. Reciprocal-rank fusion combines list positions because the two scoring systems use different scales. A ranking always has a first result, even for an unrelated query. I tested realistic searches alongside deliberately unrelated ones. In that set, unrelated examples scored at or below about 0. 22, most useful matches were above 0. 45, and a few relevant ones fell near 0. I set the semantic floor at 0. 24 to retain those weaker matches while excluding clearly unrelated results. Adjust the threshold in the comparison to see how many passages remain. Its scores occupied a narrower range, making an absolute threshold less useful, and recall did not improve enough to justify switching. MiniLM gave me a clearer separation between relevant and unrelated material in these tests.",
+    "body": "Opening a long project page still leaves a visitor looking for the passage that answers their question. I made each Search result show the matching text and open its precise location. A visitor may remember a project’s name, or only the idea that made it interesting. Search accommodates both. A question about translating business requirements into software can lead back to my work at HSBC, even without the company name in the query. Each result includes a passage so the visitor can decide whether to read more. How Search finds related material Names such as HSBC are useful word matches, while a question about translating business requirements into software may describe the same work in different language. I combined lexical retrieval, which matches words, with semantic retrieval, which looks for related meaning. When I build the site, a sentence-embedding model converts each passage into an embedding, a vector of numbers that represents its meaning. Related meanings tend to have similar vectors. At search time, the browser uses the same model to embed the query and compares it with those stored vectors. This lets each search run locally. Word matches still matter, especially for names and technical terms. I merge the two rankings with weighted reciprocal-rank fusion, giving precise word matches priority while retaining relevant semantic matches. The comparison shows what each method contributes. I use all-MiniLM-L6-v2, which produces 384-dimensional embeddings. I store their values as 8-bit integers with a per-vector scale to reduce the download. At query time, cosine similarity compares the vectors. Lexical ranking uses a TF-IDF-like score, giving informative words more weight. Reciprocal-rank fusion combines list positions because the two scoring systems use different scales. A ranking always has a first result, even for an unrelated query. I tested realistic searches alongside deliberately unrelated ones. In that set, unrelated examples scored at or below about 0. 22, most useful matches were above 0. 45, and a few relevant ones fell near 0. I set the semantic floor at 0. 24 to retain those weaker matches while excluding clearly unrelated results. Adjust the threshold in the comparison to see how many passages remain. Its scores occupied a narrower range, making an absolute threshold less useful, and recall did not improve enough to justify switching. MiniLM gave me a clearer separation between relevant and unrelated material in these tests.",
     "parts": [
-      "Opening a long project page still leaves a visitor looking for the passage that answers their question. I made each Search result show the matching text and open its precise location. A visitor may remember a project’s name, or only the idea that made it interesting. Search accommodates both. A question about translating business requirements into software can lead back to my work at HSBC, even without the company name in the query. The result keeps enough of the passage visible to help the visitor decide where to go next. How Search finds related material Names such as HSBC are useful word matches, while a question about translating business requirements into software may describe the same work in different language. I combined lexical retrieval, which matches words, with semantic retrieval, which looks for related meaning.",
+      "Opening a long project page still leaves a visitor looking for the passage that answers their question. I made each Search result show the matching text and open its precise location. A visitor may remember a project’s name, or only the idea that made it interesting. Search accommodates both. A question about translating business requirements into software can lead back to my work at HSBC, even without the company name in the query. Each result includes a passage so the visitor can decide whether to read more. How Search finds related material Names such as HSBC are useful word matches, while a question about translating business requirements into software may describe the same work in different language. I combined lexical retrieval, which matches words, with semantic retrieval, which looks for related meaning.",
       "When I build the site, a sentence-embedding model converts each passage into an embedding, a vector of numbers that represents its meaning. Related meanings tend to have similar vectors. At search time, the browser uses the same model to embed the query and compares it with those stored vectors. This lets each search run locally. Word matches still matter, especially for names and technical terms. I merge the two rankings with weighted reciprocal-rank fusion, giving precise word matches priority while retaining relevant semantic matches. The comparison shows what each method contributes. I use all-MiniLM-L6-v2, which produces 384-dimensional embeddings. I store their values as 8-bit integers with a per-vector scale to reduce the download. At query time, cosine similarity compares the vectors. Lexical ranking uses a TF-IDF-like score, giving informative words more weight.",
       "Reciprocal-rank fusion combines list positions because the two scoring systems use different scales. A ranking always has a first result, even for an unrelated query. I tested realistic searches alongside deliberately unrelated ones. In that set, unrelated examples scored at or below about 0. 22, most useful matches were above 0. 45, and a few relevant ones fell near 0. I set the semantic floor at 0. 24 to retain those weaker matches while excluding clearly unrelated results. Adjust the threshold in the comparison to see how many passages remain. Its scores occupied a narrower range, making an absolute threshold less useful, and recall did not improve enough to justify switching. MiniLM gave me a clearer separation between relevant and unrelated material in these tests."
     ],
@@ -2011,17 +2186,16 @@
     "selected": true
   },
   {
-    "id": 67,
+    "id": 75,
     "source_id": "aipersonalarchive:seeing-the-archive-as-a-space",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
     "title": "The archive as a space",
     "anchor": "seeing-the-archive-as-a-space",
     "description": "Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed.",
-    "body": "Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here. A question about how I use AI can draw on several projects. Search locates the relevant passages. Understanding their connections involves reading across those pages. I developed Ask to bring that material into an answer.",
+    "body": "Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here.",
     "parts": [
-      "Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here. A question about how I use AI can draw on several projects. Search locates the relevant passages. Understanding their connections involves reading across those pages.",
-      "I developed Ask to bring that material into an answer."
+      "Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2032,17 +2206,17 @@
     "selected": true
   },
   {
-    "id": 68,
+    "id": 76,
     "source_id": "aipersonalarchive:ask-brings-related-passages-into-one-answer",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
     "title": "Ask brings related passages into one answer",
     "anchor": "ask-brings-related-passages-into-one-answer",
-    "description": "Each answer includes citations that lead into the relevant projects and writing. Suggested follow-up questions help a visitor develop an overview into a closer look at a decision, experience or connection. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice.",
-    "body": "Each answer includes citations that lead into the relevant projects and writing. Suggested follow-up questions help a visitor develop an overview into a closer look at a decision, experience or connection. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, a server-side function that requests the model’s answer. Supplying source material to support an answer is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published personal writing, using retrieval to bring relevant passages forward. Keeping that broader context available helps with questions that connect several parts of the archive. An answer can also leave a visitor curious about the work behind it. View develops that curiosity into a reading where people can explore the original material as the interpretation unfolds.",
+    "description": "Some questions draw on several parts of the site. Understanding how I use AI, for example, involves reading across projects and research. Ask brings the relevant passages together and explains what they tell us. Citations open the passages behind the answer, and suggested follow-up questions help visitors explore a decision, experience or connection in more detail.",
+    "body": "Some questions draw on several parts of the site. Understanding how I use AI, for example, involves reading across projects and research. Ask brings the relevant passages together and explains what they tell us. Citations open the passages behind the answer, and suggested follow-up questions help visitors explore a decision, experience or connection in more detail. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, a server-side function that requests the model’s answer. Supplying source material to support an answer is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published personal writing, using retrieval to bring relevant passages forward. Keeping that broader context available helps with questions that connect several parts of the archive.",
     "parts": [
-      "Each answer includes citations that lead into the relevant projects and writing. Suggested follow-up questions help a visitor develop an overview into a closer look at a decision, experience or connection. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, a server-side function that requests the model’s answer. Supplying source material to support an answer is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published personal writing, using retrieval to bring relevant passages forward. Keeping that broader context available helps with questions that connect several parts of the archive. An answer can also leave a visitor curious about the work behind it.",
-      "View develops that curiosity into a reading where people can explore the original material as the interpretation unfolds."
+      "Some questions draw on several parts of the site. Understanding how I use AI, for example, involves reading across projects and research. Ask brings the relevant passages together and explains what they tell us. Citations open the passages behind the answer, and suggested follow-up questions help visitors explore a decision, experience or connection in more detail. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, a server-side function that requests the model’s answer. Supplying source material to support an answer is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published personal writing, using retrieval to bring relevant passages forward.",
+      "Keeping that broader context available helps with questions that connect several parts of the archive."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2053,18 +2227,36 @@
     "selected": true
   },
   {
-    "id": 69,
+    "id": 77,
+    "source_id": "aipersonalarchive:questions-about-henry-and-the-site",
+    "route": "/aipersonalarchive",
+    "page": "AI × Self",
+    "title": "Questions about Henry and the site",
+    "anchor": "questions-about-henry-and-the-site",
+    "description": "Ask handles both questions about Henry and questions about using the website. It classifies the question to choose a useful next step. For site features, it provides a link or an action. For questions about my work and ideas, it explains the relevant material and can offer a View to explore the subject in more depth.",
+    "body": "Ask handles both questions about Henry and questions about using the website. It classifies the question to choose a useful next step. For site features, it provides a link or an action. For questions about my work and ideas, it explains the relevant material and can offer a View to explore the subject in more depth.",
+    "parts": [
+      "Ask handles both questions about Henry and questions about using the website. It classifies the question to choose a useful next step. For site features, it provides a link or an action. For questions about my work and ideas, it explains the relevant material and can offer a View to explore the subject in more depth."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 5,
+    "media": [],
+    "selected": true
+  },
+  {
+    "id": 78,
     "source_id": "aipersonalarchive:view-reorganises-the-site-around-a-question",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
     "title": "View reorganises the site around a question",
     "anchor": "view-reorganises-the-site-around-a-question",
-    "description": "Trying a project’s demo reveals how it behaves. Photographs bring places and experiences into view, while a piece of writing preserves how I understood an idea at the time. In a View, these original pieces become part of the explanation, appearing where they help develop its meaning. Each response becomes a composed reading.",
-    "body": "Trying a project’s demo reveals how it behaves. Photographs bring places and experiences into view, while a piece of writing preserves how I understood an idea at the time. In a View, these original pieces become part of the explanation, appearing where they help develop its meaning. Each response becomes a composed reading. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s working demo can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View I registered projects, research entries, personal writing, image groups and interactions as reusable components. The model selects the components that answer the question, writes the narrative that connects them and gives each section its place in the reading. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, photo gallery or written passage. A question about learning might bring together work on human cognition, an education project, and a reflection written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. An audio summary introduces the reading before visitors explore the full narrative. A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection. Other visitors can explore these readings and see the archive through someone else’s perspective. The same narrative can also be experienced through space. Giving works scale and distance lets people approach them, pause and make connections as they move. I designed the Gallery so each View could be visited as an exhibition.",
+    "description": "A View gives visitors a longer reading built around their question. AI selects relevant projects, research and personal writing, then develops a narrative that explains their connections. The original work appears within that reading, so visitors can try a demo, look through photographs or read a passage as the argument develops. The same material can support different readings.",
+    "body": "A View gives visitors a longer reading built around their question. AI selects relevant projects, research and personal writing, then develops a narrative that explains their connections. The original work appears within that reading, so visitors can try a demo, look through photographs or read a passage as the argument develops. The same material can support different readings. A question about learning might connect a research study with an education project. A question about building tools might draw on those pieces to explain a different set of decisions.",
     "parts": [
-      "Trying a project’s demo reveals how it behaves. Photographs bring places and experiences into view, while a piece of writing preserves how I understood an idea at the time. In a View, these original pieces become part of the explanation, appearing where they help develop its meaning. Each response becomes a composed reading. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s working demo can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View I registered projects, research entries, personal writing, image groups and interactions as reusable components. The model selects the components that answer the question, writes the narrative that connects them and gives each section its place in the reading.",
-      "Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, photo gallery or written passage. A question about learning might bring together work on human cognition, an education project, and a reflection written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. An audio summary introduces the reading before visitors explore the full narrative. A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection.",
-      "Other visitors can explore these readings and see the archive through someone else’s perspective. The same narrative can also be experienced through space. Giving works scale and distance lets people approach them, pause and make connections as they move. I designed the Gallery so each View could be visited as an exhibition."
+      "A View gives visitors a longer reading built around their question. AI selects relevant projects, research and personal writing, then develops a narrative that explains their connections. The original work appears within that reading, so visitors can try a demo, look through photographs or read a passage as the argument develops. The same material can support different readings. A question about learning might connect a research study with an education project. A question about building tools might draw on those pieces to explain a different set of decisions."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2075,16 +2267,56 @@
     "selected": true
   },
   {
-    "id": 70,
+    "id": 79,
+    "source_id": "aipersonalarchive:composing-with-the-original-work",
+    "route": "/aipersonalarchive",
+    "page": "AI × Self",
+    "title": "Composing with the original work",
+    "anchor": "composing-with-the-original-work",
+    "description": "I registered projects, research entries, personal writing, image groups and interactions as reusable components. The model selects the components that answer the question, writes the narrative that connects them and gives each section its place in the reading. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, photo gallery or written passage.",
+    "body": "I registered projects, research entries, personal writing, image groups and interactions as reusable components. The model selects the components that answer the question, writes the narrative that connects them and gives each section its place in the reading. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, photo gallery or written passage. The narrative introduces each piece and explains how it supports the surrounding argument. Visitors encounter the original work at the point where it helps them understand the connection. A generated illustration gives the page a visual interpretation of its question and perspective. An audio summary introduces the reading before visitors explore the full narrative.",
+    "parts": [
+      "I registered projects, research entries, personal writing, image groups and interactions as reusable components. The model selects the components that answer the question, writes the narrative that connects them and gives each section its place in the reading. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, photo gallery or written passage. The narrative introduces each piece and explains how it supports the surrounding argument. Visitors encounter the original work at the point where it helps them understand the connection. A generated illustration gives the page a visual interpretation of its question and perspective. An audio summary introduces the reading before visitors explore the full narrative."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 5,
+    "media": [],
+    "selected": true
+  },
+  {
+    "id": 80,
+    "source_id": "aipersonalarchive:a-reading-to-save-and-share",
+    "route": "/aipersonalarchive",
+    "page": "AI × Self",
+    "title": "A reading to save and share",
+    "anchor": "a-reading-to-save-and-share",
+    "description": "A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection. Other visitors can explore these readings and see the archive through someone else’s perspective.",
+    "body": "A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection. Other visitors can explore these readings and see the archive through someone else’s perspective.",
+    "parts": [
+      "A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection. Other visitors can explore these readings and see the archive through someone else’s perspective."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 5,
+    "media": [],
+    "selected": true
+  },
+  {
+    "id": 81,
     "source_id": "aipersonalarchive:every-view-becomes-an-exhibition",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
     "title": "Every View becomes an exhibition",
     "anchor": "every-view-becomes-an-exhibition",
-    "description": "The question behind a View sets the exhibition’s theme. Its sections form a sequence of rooms, and the original material becomes the work on display. The Gallery opens in a shared entrance hall where visitors can browse exhibitions created by other people or compose a View around their own question. I gave these activities a place in the room.",
-    "body": "The question behind a View sets the exhibition’s theme. Its sections form a sequence of rooms, and the original material becomes the work on display. The Gallery opens in a shared entrance hall where visitors can browse exhibitions created by other people or compose a View around their own question. I gave these activities a place in the room. A collection display lets visitors choose an exhibition, whose title and illustration then appear at the entrance. An open book provides a place to enter a new question.",
+    "description": "Reading an article gives the narrative a clear sequence. An exhibition gives the work a physical scale and lets visitors decide where to pause. I made each View available in both forms. Its sections become rooms, with photographs on walls, writing on reading stands and places on a globe. The narrative introduces the works as visitors move through the exhibition. The article and exhibition present the same View.",
+    "body": "Reading an article gives the narrative a clear sequence. An exhibition gives the work a physical scale and lets visitors decide where to pause. I made each View available in both forms. Its sections become rooms, with photographs on walls, writing on reading stands and places on a globe. The narrative introduces the works as visitors move through the exhibition. The article and exhibition present the same View. Visitors can switch between them and arrive at the corresponding passage or exhibit, keeping their place as they change how they explore.",
     "parts": [
-      "The question behind a View sets the exhibition’s theme. Its sections form a sequence of rooms, and the original material becomes the work on display. The Gallery opens in a shared entrance hall where visitors can browse exhibitions created by other people or compose a View around their own question. I gave these activities a place in the room. A collection display lets visitors choose an exhibition, whose title and illustration then appear at the entrance. An open book provides a place to enter a new question."
+      "Reading an article gives the narrative a clear sequence. An exhibition gives the work a physical scale and lets visitors decide where to pause. I made each View available in both forms. Its sections become rooms, with photographs on walls, writing on reading stands and places on a globe. The narrative introduces the works as visitors move through the exhibition. The article and exhibition present the same View. Visitors can switch between them and arrive at the corresponding passage or exhibit, keeping their place as they change how they explore."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2095,16 +2327,16 @@
     "selected": true
   },
   {
-    "id": 71,
-    "source_id": "aipersonalarchive:article-and-exhibition-keep-the-same-place",
+    "id": 82,
+    "source_id": "aipersonalarchive:the-view-gallery",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
-    "title": "Inside an exhibition",
-    "anchor": "article-and-exhibition-keep-the-same-place",
-    "description": "An exhibition lets visitors encounter the material as they follow a View. A photograph can fill a wall, a piece of writing can occupy a reading stand, and a record of places can become a globe. The narrative stays beside the work, explaining what connects it to the question. Visitors can also read the View as an article.",
-    "body": "An exhibition lets visitors encounter the material as they follow a View. A photograph can fill a wall, a piece of writing can occupy a reading stand, and a record of places can become a globe. The narrative stays beside the work, explaining what connects it to the question. Visitors can also read the View as an article. Switching between the article and exhibition takes them to the corresponding passage or exhibit, so visitors can continue in the form that suits them.",
+    "title": "The View Gallery",
+    "anchor": "the-view-gallery",
+    "description": "The View Gallery brings the shared exhibitions into one place. Visitors can browse questions other people have asked, preview the readings and choose an exhibition to enter. The collection shows how different people connect the same body of work. Visitors can also compose a View of their own or explore the original projects and writing.",
+    "body": "The View Gallery brings the shared exhibitions into one place. Visitors can browse questions other people have asked, preview the readings and choose an exhibition to enter. The collection shows how different people connect the same body of work. Visitors can also compose a View of their own or explore the original projects and writing. Each activity has a place around the Hall, making the gallery itself a space to explore.",
     "parts": [
-      "An exhibition lets visitors encounter the material as they follow a View. A photograph can fill a wall, a piece of writing can occupy a reading stand, and a record of places can become a globe. The narrative stays beside the work, explaining what connects it to the question. Visitors can also read the View as an article. Switching between the article and exhibition takes them to the corresponding passage or exhibit, so visitors can continue in the form that suits them."
+      "The View Gallery brings the shared exhibitions into one place. Visitors can browse questions other people have asked, preview the readings and choose an exhibition to enter. The collection shows how different people connect the same body of work. Visitors can also compose a View of their own or explore the original projects and writing. Each activity has a place around the Hall, making the gallery itself a space to explore."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2115,16 +2347,16 @@
     "selected": true
   },
   {
-    "id": 72,
+    "id": 83,
     "source_id": "aipersonalarchive:the-exhibition-is-designed-as-one-experience",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
     "title": "Designing an immersive visit",
     "anchor": "the-exhibition-is-designed-as-one-experience",
-    "description": "I designed the building, displays and guidance together. The open layout helps people find their way, display forms suit the original material, and light and sound shape how they attend to the works.",
-    "body": "I designed the building, displays and guidance together. The open layout helps people find their way, display forms suit the original material, and light and sound shape how they attend to the works.",
+    "description": "A convincing visit depends on more than arranging works in 3D. The building needs a readable layout, the exhibits need room to be seen, and movement needs to feel continuous. I designed the gallery and exhibitions around those needs, using scale, light, sound and guidance to help visitors settle into the space.",
+    "body": "A convincing visit depends on more than arranging works in 3D. The building needs a readable layout, the exhibits need room to be seen, and movement needs to feel continuous. I designed the gallery and exhibitions around those needs, using scale, light, sound and guidance to help visitors settle into the space.",
     "parts": [
-      "I designed the building, displays and guidance together. The open layout helps people find their way, display forms suit the original material, and light and sound shape how they attend to the works."
+      "A convincing visit depends on more than arranging works in 3D. The building needs a readable layout, the exhibits need room to be seen, and movement needs to feel continuous. I designed the gallery and exhibitions around those needs, using scale, light, sound and guidance to help visitors settle into the space."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2135,18 +2367,16 @@
     "selected": true
   },
   {
-    "id": 73,
+    "id": 84,
     "source_id": "aipersonalarchive:system-architecture",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
     "title": "System architecture",
     "anchor": "system-architecture",
-    "description": "Search, Ask, View and Gallery share the site’s published material. Each site build prepares passages with links to their original locations, embeddings that represent their meaning, and a catalogue of the material available for composition. The catalogue includes descriptions of interactive components, so the system can select a working example alongside a written passage.",
-    "body": "Search, Ask, View and Gallery share the site’s published material. Each site build prepares passages with links to their original locations, embeddings that represent their meaning, and a catalogue of the material available for composition. The catalogue includes descriptions of interactive components, so the system can select a working example alongside a written passage. Each experience uses that material differently. Search ranks passages in the browser. Ask receives broad context from across the site and writes an answer with citations. View first selects sources from the complete catalogue, then receives those sources in full to compose the narrative. This gives selection a view of the whole archive and composition the detail it needs. A Cloudflare Worker handles the model calls for Ask and View. The generated View follows a JSON schema that connects chapters, narrative passages and original sources. That structure feeds both the Vue article renderer and the Three. The exhibition’s layout algorithm turns chapters into rooms and chooses display forms and viewing positions for their contents. Both presentations refer to the same entries, so switching between them leads to the corresponding passage or exhibit. The Gallery brings these individual readings together. Its Hall connects the public collection, a place to compose new Views and the archive map. Selecting a View opens its exhibition, with the Gallery providing a shared setting for readings created by different visitors. Saving a View preserves the narrative together with snapshots of its sources. Cloudflare D1 stores these records, and R2 stores their archived media. Later revisions to the site can inform new readings, and an earlier View retains the material on which it was based.",
+    "description": "At build time, the site prepares passages, embeddings and a component catalogue. Search runs in the browser. Cloudflare Workers supply context to Gemini for Ask answers and View compositions. MiniLM creates the search embeddings locally through Transformers. js, and Fish Audio provides narration in my AI voice. The text API makes the public material available to visitors’ own agents.",
+    "body": "At build time, the site prepares passages, embeddings and a component catalogue. Search runs in the browser. Cloudflare Workers supply context to Gemini for Ask answers and View compositions. MiniLM creates the search embeddings locally through Transformers. js, and Fish Audio provides narration in my AI voice. The text API makes the public material available to visitors’ own agents. A shared JSON schema connects each View to its Vue article and Three. Cloudflare D1 stores saved readings and source snapshots, while R2 holds their media. The Gallery brings the public readings together.",
     "parts": [
-      "Search, Ask, View and Gallery share the site’s published material. Each site build prepares passages with links to their original locations, embeddings that represent their meaning, and a catalogue of the material available for composition. The catalogue includes descriptions of interactive components, so the system can select a working example alongside a written passage. Each experience uses that material differently. Search ranks passages in the browser. Ask receives broad context from across the site and writes an answer with citations. View first selects sources from the complete catalogue, then receives those sources in full to compose the narrative. This gives selection a view of the whole archive and composition the detail it needs. A Cloudflare Worker handles the model calls for Ask and View.",
-      "The generated View follows a JSON schema that connects chapters, narrative passages and original sources. That structure feeds both the Vue article renderer and the Three. The exhibition’s layout algorithm turns chapters into rooms and chooses display forms and viewing positions for their contents. Both presentations refer to the same entries, so switching between them leads to the corresponding passage or exhibit. The Gallery brings these individual readings together. Its Hall connects the public collection, a place to compose new Views and the archive map. Selecting a View opens its exhibition, with the Gallery providing a shared setting for readings created by different visitors. Saving a View preserves the narrative together with snapshots of its sources. Cloudflare D1 stores these records, and R2 stores their archived media.",
-      "Later revisions to the site can inform new readings, and an earlier View retains the material on which it was based."
+      "At build time, the site prepares passages, embeddings and a component catalogue. Search runs in the browser. Cloudflare Workers supply context to Gemini for Ask answers and View compositions. MiniLM creates the search embeddings locally through Transformers. js, and Fish Audio provides narration in my AI voice. The text API makes the public material available to visitors’ own agents. A shared JSON schema connects each View to its Vue article and Three. Cloudflare D1 stores saved readings and source snapshots, while R2 holds their media. The Gallery brings the public readings together."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2157,18 +2387,37 @@
     "selected": true
   },
   {
-    "id": 74,
+    "id": 85,
+    "source_id": "aipersonalarchive:exploring-with-your-own-agent",
+    "route": "/aipersonalarchive",
+    "page": "AI × Self",
+    "title": "Exploring with your own agent",
+    "anchor": "exploring-with-your-own-agent",
+    "description": "The archive can be useful in someone else’s research, writing or project. Making it readable by agents lets visitors use this material in their own workflow. Their agent can explore my work, connect it with other sources and develop an answer around the task at hand. Visitors can give their agent henryw.",
+    "body": "The archive can be useful in someone else’s research, writing or project. Making it readable by agents lets visitors use this material in their own workflow. Their agent can explore my work, connect it with other sources and develop an answer around the task at hand. Visitors can give their agent henryw. The site points it to a reading guide and a public text API, with the complete archive, individual pieces and links to the original pages. The agent handles the reasoning and presents the results in its own interface, with no installation or configuration needed.",
+    "parts": [
+      "The archive can be useful in someone else’s research, writing or project. Making it readable by agents lets visitors use this material in their own workflow. Their agent can explore my work, connect it with other sources and develop an answer around the task at hand. Visitors can give their agent henryw. The site points it to a reading guide and a public text API, with the complete archive, individual pieces and links to the original pages. The agent handles the reasoning and presents the results in its own interface, with no installation or configuration needed."
+    ],
+    "view_kind": "prose",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 5,
+    "media": [],
+    "selected": true
+  },
+  {
+    "id": 86,
     "source_id": "aipersonalarchive:what-the-case-gives-back",
     "route": "/aipersonalarchive",
     "page": "AI × Self",
-    "title": "Returning to my own archive",
+    "title": "What can I learn from a website about myself?",
     "anchor": "what-the-case-gives-back",
-    "description": "Keeping this site gives me a record of what I could articulate at different moments. Reading across it raises other questions. A fragment can take on a different meaning beside a project I made later. An experience can help me understand why an earlier idea mattered. A View gives one of these readings a form I can revisit.",
-    "body": "Keeping this site gives me a record of what I could articulate at different moments. Reading across it raises other questions. A fragment can take on a different meaning beside a project I made later. An experience can help me understand why an earlier idea mattered. A View gives one of these readings a form I can revisit. Its question determines which parts of my life come together and which relationships receive attention. Asking about home might connect a family meal with a city I lived in. Asking about change might place that same memory beside something I wrote years later. Each arrangement brings a different part of the experience into focus. The Gallery gives these readings a spatial form. Walking through an exhibition of my own experiences means encountering them one at a time, with room to look and listen. A photograph or passage can hold my attention long enough for details to complicate the account I usually give of that period. I am also reading it with the experiences I have had since. Both the arrangement and my own changing perspective can lead to a new understanding. Other visitors bring questions I might never ask. Entering their exhibitions lets me revisit familiar material through what interested someone else. Their question may connect parts of my life I had understood separately. Exploring that connection can change what I notice when I next look back on the experience. Over time, the collection can hold exhibitions of different stages of my life, shaped by different people’s questions. Saving them preserves a history of how that life has been understood alongside the record of what happened. An earlier reading gives me something specific to reconsider as I change. Self-reflection becomes a continuing exchange between my memories, the records I made and the perspectives others bring.",
+    "description": "I use this website to keep things I have made and things that matter to me. Putting them here also means deciding how to introduce myself. I can write an About page and choose which projects to show first. A visitor’s question can bring together things I filed separately, including connections I would never think to make on an About page. That is the possibility I built this project around.",
+    "body": "I use this website to keep things I have made and things that matter to me. Putting them here also means deciding how to introduce myself. I can write an About page and choose which projects to show first. A visitor’s question can bring together things I filed separately, including connections I would never think to make on an About page. That is the possibility I built this project around. That interests me because the same material can lead to quite different accounts. A question about home might bring together a family meal and a city I lived in. A question about change might connect that meal to something I wrote years later. AI can make those connections and give them enough shape for someone to follow. The visitor can read the passage, look at the photograph, or try the project as they work through the idea. I am one of those readers. I know what happened, but I do not have a finished account of what it all means. Walking through an exhibition made from my own memories gives me time to look at them again. Someone else’s question might bring out a connection I have missed. And a passage I wrote a few years ago can mean something different after what I have experienced since. Saving these readings is part of that process. In a few years I will be able to revisit both the things I recorded and the ways people understood them. I am curious about what will still feel familiar, what I will see differently, and what I will only then have enough experience to understand.",
     "parts": [
-      "Keeping this site gives me a record of what I could articulate at different moments. Reading across it raises other questions. A fragment can take on a different meaning beside a project I made later. An experience can help me understand why an earlier idea mattered. A View gives one of these readings a form I can revisit. Its question determines which parts of my life come together and which relationships receive attention. Asking about home might connect a family meal with a city I lived in. Asking about change might place that same memory beside something I wrote years later. Each arrangement brings a different part of the experience into focus. The Gallery gives these readings a spatial form. Walking through an exhibition of my own experiences means encountering them one at a time, with room to look and listen.",
-      "A photograph or passage can hold my attention long enough for details to complicate the account I usually give of that period. I am also reading it with the experiences I have had since. Both the arrangement and my own changing perspective can lead to a new understanding. Other visitors bring questions I might never ask. Entering their exhibitions lets me revisit familiar material through what interested someone else. Their question may connect parts of my life I had understood separately. Exploring that connection can change what I notice when I next look back on the experience. Over time, the collection can hold exhibitions of different stages of my life, shaped by different people’s questions. Saving them preserves a history of how that life has been understood alongside the record of what happened. An earlier reading gives me something specific to reconsider as I change.",
-      "Self-reflection becomes a continuing exchange between my memories, the records I made and the perspectives others bring."
+      "I use this website to keep things I have made and things that matter to me. Putting them here also means deciding how to introduce myself. I can write an About page and choose which projects to show first. A visitor’s question can bring together things I filed separately, including connections I would never think to make on an About page. That is the possibility I built this project around. That interests me because the same material can lead to quite different accounts. A question about home might bring together a family meal and a city I lived in. A question about change might connect that meal to something I wrote years later. AI can make those connections and give them enough shape for someone to follow. The visitor can read the passage, look at the photograph, or try the project as they work through the idea. I am one of those readers.",
+      "I know what happened, but I do not have a finished account of what it all means. Walking through an exhibition made from my own memories gives me time to look at them again. Someone else’s question might bring out a connection I have missed. And a passage I wrote a few years ago can mean something different after what I have experienced since. Saving these readings is part of that process. In a few years I will be able to revisit both the things I recorded and the ways people understood them. I am curious about what will still feel familiar, what I will see differently, and what I will only then have enough experience to understand."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2179,7 +2428,7 @@
     "selected": true
   },
   {
-    "id": 75,
+    "id": 87,
     "source_id": "ragflow-pipeline:overview",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2199,7 +2448,7 @@
     "selected": false
   },
   {
-    "id": 76,
+    "id": 88,
     "source_id": "ragflow-pipeline:understanding-the-client-requirements",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2220,7 +2469,7 @@
     "selected": false
   },
   {
-    "id": 77,
+    "id": 89,
     "source_id": "ragflow-pipeline:why-one-pdf-needed-several-ways-of-reading",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2240,7 +2489,7 @@
     "selected": false
   },
   {
-    "id": 78,
+    "id": 90,
     "source_id": "ragflow-pipeline:complex-tables",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2261,7 +2510,7 @@
     "selected": false
   },
   {
-    "id": 79,
+    "id": 91,
     "source_id": "ragflow-pipeline:notes",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2283,7 +2532,7 @@
     "selected": false
   },
   {
-    "id": 80,
+    "id": 92,
     "source_id": "ragflow-pipeline:mermaid",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2304,7 +2553,7 @@
     "selected": false
   },
   {
-    "id": 81,
+    "id": 93,
     "source_id": "ragflow-pipeline:what-i-tested-before-recommending-it",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2325,7 +2574,7 @@
     "selected": false
   },
   {
-    "id": 82,
+    "id": 94,
     "source_id": "ragflow-pipeline:judging-the-whole-solution",
     "route": "/ragflow-pipeline",
     "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -2347,7 +2596,7 @@
     "selected": false
   },
   {
-    "id": 83,
+    "id": 95,
     "source_id": "ai-it-operations:overview",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2367,7 +2616,7 @@
     "selected": true
   },
   {
-    "id": 84,
+    "id": 96,
     "source_id": "ai-it-operations:ai-in-it-operations",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2387,7 +2636,7 @@
     "selected": true
   },
   {
-    "id": 85,
+    "id": 97,
     "source_id": "ai-it-operations:knowledge-management",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2407,7 +2656,7 @@
     "selected": true
   },
   {
-    "id": 86,
+    "id": 98,
     "source_id": "ai-it-operations:where-does-the-assistant-need-more-knowledge",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2428,7 +2677,7 @@
     "selected": true
   },
   {
-    "id": 87,
+    "id": 99,
     "source_id": "ai-it-operations:researching-gaps-in-technical-guidance",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2449,7 +2698,7 @@
     "selected": true
   },
   {
-    "id": 88,
+    "id": 100,
     "source_id": "ai-it-operations:what-happens-when-the-guidance-changes",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2471,7 +2720,7 @@
     "selected": true
   },
   {
-    "id": 89,
+    "id": 101,
     "source_id": "ai-it-operations:from-a-source-to-maintained-knowledge",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2492,7 +2741,7 @@
     "selected": true
   },
   {
-    "id": 90,
+    "id": 102,
     "source_id": "ai-it-operations:browser-control",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2512,7 +2761,7 @@
     "selected": true
   },
   {
-    "id": 91,
+    "id": 103,
     "source_id": "ai-it-operations:turning-the-request-into-actions",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2532,7 +2781,7 @@
     "selected": true
   },
   {
-    "id": 92,
+    "id": 104,
     "source_id": "ai-it-operations:why-a-browser-extension",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2553,7 +2802,7 @@
     "selected": true
   },
   {
-    "id": 93,
+    "id": 105,
     "source_id": "ai-it-operations:a-place-to-start-intervene-and-look-back",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2573,7 +2822,7 @@
     "selected": true
   },
   {
-    "id": 94,
+    "id": 106,
     "source_id": "ai-it-operations:from-planning-to-a-browser-action",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2593,7 +2842,7 @@
     "selected": true
   },
   {
-    "id": 95,
+    "id": 107,
     "source_id": "ai-it-operations:where-judgement-changes-hands",
     "route": "/ai-it-operations",
     "page": "AI for IT Operations",
@@ -2616,7 +2865,7 @@
     "selected": true
   },
   {
-    "id": 96,
+    "id": 108,
     "source_id": "fragments:overview",
     "route": "/fragments",
     "page": "Fragments",
@@ -2636,7 +2885,7 @@
     "selected": false
   },
   {
-    "id": 97,
+    "id": 109,
     "source_id": "fragments:the-projection-of-thought",
     "route": "/fragments",
     "page": "Fragments",
@@ -2670,7 +2919,7 @@
     "selected": false
   },
   {
-    "id": 98,
+    "id": 110,
     "source_id": "fragments:rebuilding-another-state-inside-me",
     "route": "/fragments",
     "page": "Fragments",
@@ -2704,7 +2953,7 @@
     "selected": false
   },
   {
-    "id": 99,
+    "id": 111,
     "source_id": "fragments:visible-part-of-the-mind",
     "route": "/fragments",
     "page": "Fragments",
@@ -2735,7 +2984,7 @@
     "selected": false
   },
   {
-    "id": 100,
+    "id": 112,
     "source_id": "fragments:understanding-before-definition",
     "route": "/fragments",
     "page": "Fragments",
@@ -2765,7 +3014,7 @@
     "selected": false
   },
   {
-    "id": 101,
+    "id": 113,
     "source_id": "fragments:expression-recording",
     "route": "/fragments",
     "page": "Fragments",
@@ -2798,7 +3047,7 @@
     "selected": false
   },
   {
-    "id": 102,
+    "id": 114,
     "source_id": "fragments:rich-traces-and-open-paths",
     "route": "/fragments",
     "page": "Fragments",
@@ -2831,7 +3080,7 @@
     "selected": false
   },
   {
-    "id": 103,
+    "id": 115,
     "source_id": "fragments:labels-goals-rules",
     "route": "/fragments",
     "page": "Fragments",
@@ -2868,7 +3117,7 @@
     "selected": false
   },
   {
-    "id": 104,
+    "id": 116,
     "source_id": "fragments:memory-time-self",
     "route": "/fragments",
     "page": "Fragments",
@@ -2903,7 +3152,7 @@
     "selected": false
   },
   {
-    "id": 105,
+    "id": 117,
     "source_id": "fragments:satisfaction-signal",
     "route": "/fragments",
     "page": "Fragments",
@@ -2937,7 +3186,7 @@
     "selected": false
   },
   {
-    "id": 106,
+    "id": 118,
     "source_id": "fragments:queen-victoria-market-toast-oysters",
     "route": "/fragments",
     "page": "Fragments",
@@ -2965,7 +3214,7 @@
     "selected": false
   },
   {
-    "id": 107,
+    "id": 119,
     "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
     "route": "/fragments",
     "page": "Fragments",
@@ -2993,7 +3242,7 @@
     "selected": false
   },
   {
-    "id": 108,
+    "id": 120,
     "source_id": "fragments:ai-generated-kitten-videos",
     "route": "/fragments",
     "page": "Fragments",
@@ -3022,7 +3271,7 @@
     "selected": false
   },
   {
-    "id": 109,
+    "id": 121,
     "source_id": "fragments:identity-interview-reflection",
     "route": "/fragments",
     "page": "Fragments",
@@ -3051,7 +3300,7 @@
     "selected": false
   },
   {
-    "id": 110,
+    "id": 122,
     "source_id": "fragments:napier-seaside-with-my-mother",
     "route": "/fragments",
     "page": "Fragments",
@@ -3081,7 +3330,7 @@
     "selected": false
   },
   {
-    "id": 111,
+    "id": 123,
     "source_id": "fragments:mothers-cooking-across-places",
     "route": "/fragments",
     "page": "Fragments",
@@ -3110,7 +3359,7 @@
     "selected": false
   },
   {
-    "id": 112,
+    "id": 124,
     "source_id": "fragments:golf-with-my-mother-in-new-zealand",
     "route": "/fragments",
     "page": "Fragments",
@@ -3138,7 +3387,7 @@
     "selected": false
   },
   {
-    "id": 113,
+    "id": 125,
     "source_id": "fragments:slr-lab-racket-games",
     "route": "/fragments",
     "page": "Fragments",
@@ -3166,7 +3415,7 @@
     "selected": false
   },
   {
-    "id": 114,
+    "id": 126,
     "source_id": "fragments:kennedy-town-seaside-hku-years",
     "route": "/fragments",
     "page": "Fragments",
@@ -3195,7 +3444,7 @@
     "selected": false
   },
   {
-    "id": 115,
+    "id": 127,
     "source_id": "fragments:sydney-harbour-ferry-rides",
     "route": "/fragments",
     "page": "Fragments",
@@ -3224,7 +3473,7 @@
     "selected": false
   },
   {
-    "id": 116,
+    "id": 128,
     "source_id": "fragments:gold-coast-water-and-city-line",
     "route": "/fragments",
     "page": "Fragments",
@@ -3253,7 +3502,7 @@
     "selected": false
   },
   {
-    "id": 117,
+    "id": 129,
     "source_id": "fragments:great-ocean-road-melbourne-friends",
     "route": "/fragments",
     "page": "Fragments",
@@ -3282,7 +3531,7 @@
     "selected": false
   },
   {
-    "id": 118,
+    "id": 130,
     "source_id": "fragments:taiwan-east-coast-family-road-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -3311,7 +3560,7 @@
     "selected": false
   },
   {
-    "id": 119,
+    "id": 131,
     "source_id": "fragments:tomatoes-of-august-29",
     "route": "/fragments",
     "page": "Fragments",
@@ -3343,7 +3592,7 @@
     "selected": false
   },
   {
-    "id": 120,
+    "id": 132,
     "source_id": "fragments:athens-ruins-and-family-trip",
     "route": "/fragments",
     "page": "Fragments",
@@ -3372,7 +3621,7 @@
     "selected": false
   },
   {
-    "id": 121,
+    "id": 133,
     "source_id": "fragments:swimming-in-the-mediterranean",
     "route": "/fragments",
     "page": "Fragments",
@@ -3401,7 +3650,7 @@
     "selected": false
   },
   {
-    "id": 122,
+    "id": 134,
     "source_id": "fragments:rainy-days-permission-to-stay-in",
     "route": "/fragments",
     "page": "Fragments",
@@ -3429,7 +3678,7 @@
     "selected": false
   },
   {
-    "id": 123,
+    "id": 135,
     "source_id": "fragments:mental-map-of-small-room",
     "route": "/fragments",
     "page": "Fragments",
@@ -3458,7 +3707,7 @@
     "selected": false
   },
   {
-    "id": 124,
+    "id": 136,
     "source_id": "fragments:first-camera-another-way-of-seeing",
     "route": "/fragments",
     "page": "Fragments",
@@ -3487,7 +3736,7 @@
     "selected": false
   },
   {
-    "id": 125,
+    "id": 137,
     "source_id": "fragments:music-that-became-more-spacious",
     "route": "/fragments",
     "page": "Fragments",
@@ -3516,7 +3765,7 @@
     "selected": false
   },
   {
-    "id": 126,
+    "id": 138,
     "source_id": "cv:profile",
     "route": "/cv",
     "page": "CV",
@@ -3536,7 +3785,7 @@
     "selected": false
   },
   {
-    "id": 127,
+    "id": 139,
     "source_id": "cv:education",
     "route": "/cv",
     "page": "CV",
@@ -3556,7 +3805,7 @@
     "selected": false
   },
   {
-    "id": 128,
+    "id": 140,
     "source_id": "cv:experience",
     "route": "/cv",
     "page": "CV",
@@ -3577,7 +3826,7 @@
     "selected": false
   },
   {
-    "id": 129,
+    "id": 141,
     "source_id": "cv:publications-preprints",
     "route": "/cv",
     "page": "CV",
@@ -3597,20 +3846,20 @@
     "selected": false
   },
   {
-    "id": 130,
+    "id": 142,
     "source_id": "about:root:about-me",
     "route": "/about",
     "page": "About",
     "title": "About Me",
     "anchor": "",
     "description": "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. Alongside my studies, I'm currently working in AI consulting at PwC. Across my studies and work, I'm drawn to things that are still taking shape.",
-    "body": "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. Alongside my studies, I'm currently working in AI consulting at PwC. Across my studies and work, I'm drawn to things that are still taking shape. I like gradually finding and building structure as I understand them better. In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research. At PwC, I have used AI to help people work with complex information, understand existing systems, and make better decisions. The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles. I like the open space by the sea. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , I spent time at Kennedy Town Praya during my early university years. When I travel, I also like taking ferries and walking along the waterfront. I like travelling, and I often keep a photograph or a few notes from a trip. Looking back at them helps me remember the people I was with, how the place felt and what my life was like then. As AI becomes part of how we write and remember, our own thoughts and the memories tied to people, places, and feelings seem especially worth keeping. I keep Fragments so that I can return to thoughts and memories that would otherwise fade.",
+    "body": "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. Alongside my studies, I'm currently working in AI consulting at PwC. Across my studies and work, I'm drawn to things that are still taking shape. I like gradually finding and building structure as I understand them better. In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research. At PwC, I have used AI to help people work with complex information and make better decisions. The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles. I like the open space by the sea. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , I spent time at Kennedy Town Praya during my early university years. When I travel, I also like taking ferries and walking along the waterfront. I like travelling, and I often keep a photograph or a few notes from a trip. Looking back at them helps me remember the people I was with, how the place felt and what my life was like then. As AI becomes part of how we write and remember, our own thoughts and the memories tied to people, places, and feelings seem especially worth keeping. I keep Fragments so that I can return to thoughts and memories that would otherwise fade.",
     "parts": [
       "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong .",
       "I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. Alongside my studies, I'm currently working in AI consulting at PwC.",
       "Across my studies and work, I'm drawn to things that are still taking shape. I like gradually finding and building structure as I understand them better.",
       "In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes.",
-      "I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research. At PwC, I have used AI to help people work with complex information, understand existing systems, and make better decisions.",
+      "I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research. At PwC, I have used AI to help people work with complex information and make better decisions.",
       "The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles.",
       "I like the open space by the sea. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , I spent time at Kennedy Town Praya during my early university years. When I travel, I also like taking ferries and walking along the waterfront.",
       "I like travelling, and I often keep a photograph or a few notes from a trip. Looking back at them helps me remember the people I was with, how the place felt and what my life was like then.",
@@ -3633,17 +3882,17 @@
     "selected": false
   },
   {
-    "id": 131,
+    "id": 143,
     "source_id": "about:section:how-i-research-and-build",
     "route": "/about",
     "page": "About",
     "title": "How I Research and Build",
     "anchor": "how-i-research-and-build",
     "description": "How we learn and think In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later.",
-    "body": "How we learn and think In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. Things I build I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research. At PwC, I have used AI to help people work with complex information, understand existing systems, and make better decisions. The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles.",
+    "body": "How we learn and think In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. Things I build I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research. At PwC, I have used AI to help people work with complex information and make better decisions. The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles.",
     "parts": [
       "How we learn and think In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. Things I build I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research.",
-      "At PwC, I have used AI to help people work with complex information, understand existing systems, and make better decisions. The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles."
+      "At PwC, I have used AI to help people work with complex information and make better decisions. The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -3654,7 +3903,7 @@
     "selected": false
   },
   {
-    "id": 132,
+    "id": 144,
     "source_id": "about:section:outside-work",
     "route": "/about",
     "page": "About",
@@ -3674,7 +3923,7 @@
     "selected": false
   },
   {
-    "id": 133,
+    "id": 145,
     "source_id": "about:contact",
     "route": "/about",
     "page": "About",
@@ -3697,7 +3946,7 @@
     "selected": false
   },
   {
-    "id": 134,
+    "id": 146,
     "source_id": "slidepoise:purpose",
     "route": "/slidepoise/",
     "page": "SlidePoise",
@@ -3719,7 +3968,7 @@
     "selected": true
   },
   {
-    "id": 135,
+    "id": 147,
     "source_id": "slidepoise:philosophy",
     "route": "/slidepoise/",
     "page": "SlidePoise",
@@ -3748,7 +3997,7 @@
     "selected": true
   },
   {
-    "id": 136,
+    "id": 148,
     "source_id": "about:gallery",
     "route": "/about",
     "page": "About",
@@ -4070,7 +4319,7 @@
     "selected": false
   },
   {
-    "id": 137,
+    "id": 149,
     "source_id": "home:currently",
     "route": "/home",
     "page": "Home",

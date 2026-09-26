@@ -1,6 +1,6 @@
 # Henry's public text
 
-Content revision 4e771eaf0390cc87b6c7c6fd8469f3508f6ceeec7119472e6c1ccf17e2e1e5d2
+Content revision 536957402343e4160167d36ebd47068767b4381ab77833e617317a71374093bc
 
 ## Places I've Studied
 
@@ -103,6 +103,88 @@ At Kiwiview, I developed the company’s website and digital content, bringing i
 I designed, developed, deployed and maintained the company website.
 
 I created website copy, branding materials and promotional content for its study-tour and travel programmes.
+
+## How AI changes the course of writing
+
+How AI changes the course of writing
+Source ID research-ai-writing-interview:overview
+Original https://www.henryw.me/#/research/ai-writing-interview
+
+Journalist and editor Tequia Burt asked me about Early Epistemic Settlement in AI-Assisted Writing for her reporting on AI and professional writing. We discussed how a useful answer can change the questions a writer goes on to ask, and what it would take to study that process. Read the paper 01 How the idea began 02 A frame that changes the article 03 Timing, expertise and the task 04 Models and collaborators 05 Studying what happens to inquiry 06 What assistance could leave open Tequia Burt 01
+
+## How did you arrive at the concept of early epistemic settlement? Was there a particular writing experience or limitation in the existing research that led you to it?
+
+How AI changes the course of writing
+Source ID research-ai-writing-interview:origins
+Original https://www.henryw.me/#/research/ai-writing-interview#origins
+
+Henry Wang I started from a fairly simple observation about what AI changes in writing. Writing has often been treated as part of thinking, not just a way of recording thought after the thinking is finished. Menary's Writing as Thinking captures this well (Menary, 2007). You write something, see what follows from it, realize that two claims do not quite fit, go back to the material, move things around, and sometimes end up thinking something you could not have stated when you began. The text develops along with your understanding. AI makes it much easier for those two things to come apart. Suppose I have two pieces of evidence and cannot yet work out how they fit into one argument. Previously, if I wanted the paragraph to work, I would usually have to form enough of that connection myself to write it. A teacher, editor, book, or colleague could of course help.
+
+But with a language model I can keep giving it the problem in front of me and get a coherent next step back. So the text can keep developing even when I did not have to build all of the connections that made that development possible. That made me wonder whether anything had been lost. If the argument is good, I understand it, and I can keep reasoning from it, is that enough? There was already work showing that AI changes what people produce. One result I found interesting was that AI assistance could improve individual creative outputs while also making different people's outputs more similar (Doshi & Hauser, 2024). What I wanted to understand was what was happening inside one person's inquiry. What changed between the point where they were still trying to form a relation and the point where they had been given one that worked?
+
+My background in cognitive modelling probably also shaped this. I tend to think about how someone's internal structure changes over time, so the finished text alone did not really explain what interested me. I wanted to know what happened to the writer's own construction process and cognitive development through working with AI. That is where early epistemic settlement came from.
+
+## In professional writing, how might an AI response shape the direction of an inquiry even when the writer understands the response and continues thinking productively? Could you walk me through an example of the questions, connections, or alternative frames that might become less likely to emerge?
+
+How AI changes the course of writing
+Source ID research-ai-writing-interview:professional-writing
+Original https://www.henryw.me/#/research/ai-writing-interview#professional-writing
+
+Henry Wang Imagine a journalist has two interviews about hybrid work. One person says they are more productive at home because they can concentrate. Another says their team became less productive because coordination became harder. The journalist has not yet worked out what to do with those two observations. AI gives her a clean frame: hybrid work involves a trade-off between individual focus and team collaboration. That is a perfectly reasonable interpretation. She understands it and could write a good article from it. But if she had stayed with the mismatch for longer, she might have noticed that the first person's work is mostly individual analysis, while the second person's work depends heavily on coordination. The question could then change from “Is hybrid work good or bad for productivity?
+
+” to “Which kinds of work benefit from remote work, and which depend on physical coordination? ” Now she may interview different people, look for different evidence, and end up writing a different article. The first frame was not wrong. It just resolved the difficulty before it had a chance to surface any further questions or connections.
+
+## What determines whether an AI suggestion settles an inquiry too early or becomes useful material the writer actively works through? How much depends on timing, the writer’s expertise, or the nature of the task?
+
+How AI changes the course of writing
+Source ID research-ai-writing-interview:timing-and-expertise
+Original https://www.henryw.me/#/research/ai-writing-interview#timing-and-expertise
+
+Henry Wang I think this depends on what the writer is doing at the moment the suggestion arrives. If I already understand a relation and just cannot phrase it well, AI may be helping me say something I already know. If trying to write the sentence is how I am still figuring out the relation, the same answer can do something quite different. Expertise probably matters too. An expert usually has more existing relations and constraints for a new suggestion to fit with. Something that sounds coherent to a novice may immediately feel wrong to an expert because it clashes with something else they know. The nature of the task matters as well. Some tasks have a fairly constrained destination but still require substantial construction from the person doing them. If the goal is only to produce a correct artifact, skipping some of that construction may not matter much.
+
+If the construction itself is part of how the person is learning, then the same shortcut changes what they get from doing the task. But this distinction depends on being able to tell how constrained the task really is. From inside an inquiry, that is often difficult to know. You may be slowly working toward something fairly standard, or you may be one connection away from seeing the material differently. You have to decide whether to keep working before you know what that work would produce. That uncertainty seems important to me. It makes the value of continuing difficult to judge from the writer's own position.
+
+## Editors and other collaborators can also provide a solution before a writer has completed the underlying thinking. What makes language models different, beyond the speed and frequency with which they can intervene?
+
+How AI changes the course of writing
+Source ID research-ai-writing-interview:models-and-collaborators
+Original https://www.henryw.me/#/research/ai-writing-interview#models-and-collaborators
+
+Henry Wang What seems different to me is how much independent structure tends to enter the exchange. When another person works with my material, they are processing it through their own understanding. In the hybrid-work example, an editor might notice that one interviewee's work depends much more heavily on coordination than the other's. She might also wonder whether the difference has less to do with remote work itself than with how the two teams are managed. Those relations come partly from what she already knows and from the connections she makes while thinking through the material. I may not have needed either of those relations just to move forward. But once she brings them back, I have more to think with, and they may change where the inquiry goes. A very common way of using a language model is different.
+
+I bring it whatever problem is blocking me at the moment and ask how I might continue. If it finds a locally coherent connection that gets me past that difficulty, the interaction has already done what I needed it to do. There may be many other relevant relations the model could surface, but the immediate problem does not require them. It can give me enough structure to continue without expanding the space very much beyond the question I was already able to ask. That can then repeat throughout the draft. I reach a difficulty, get a satisfactory way through it, continue from there, and later return with the next difficulty. Each answer can be useful on its own while the inquiry develops through a sequence of these local resolutions. That is the pattern I was trying to capture in the paper.
+
+A collaborator brings a separately developed structure into the exchange almost by default simply because they have one. With a language model, it is very easy to keep getting help that is closely fitted to the problem as I have already formulated it.
+
+## What would an empirical study need to observe or capture to test this framework? How might researchers distinguish an avenue of inquiry that was foreclosed from one the writer simply considered and rejected?
+
+How AI changes the course of writing
+Source ID research-ai-writing-interview:studying-inquiry
+Original https://www.henryw.me/#/research/ai-writing-interview#studying-inquiry
+
+Henry Wang I'm still working this one out. I think there are two different questions hiding inside it. One is whether early settlement happened. The other is whether it was a bad trade. The first seems more straightforward to study. You could follow what a writer was doing immediately before and after assistance arrived. What were they trying to work out? Which notes or sources were they using? What was still unresolved? After they accept the response, does that attempt continue, or do the next questions start from the structure the response supplied? You could also manipulate when the help arrives. One group gets it immediately, another after some independent work. Or vary what kind of help they receive. I would be interested in what happens later, not only whether the final text is better. What questions do people ask next? What distinctions appear later in the argument?
+
+Does changing when or how assistance arrives change the kinds of relations that get developed? For the distinction you asked about between a foreclosed avenue and one the writer considered and rejected, I think the important question is whether the alternative ever became developed enough to be evaluated. A rejected idea should leave some trace. It may appear in notes, a draft, a question the writer asked, or an explanation of why they decided against it. With foreclosure, there may only be an unresolved tension or a partially forming connection before the assistance arrives, and then that line of work disappears. We still could not say that one particular missing idea definitely would have appeared. But at least we could study whether different kinds of assistance systematically change which relations get far enough to be considered.
+
+The harder question is whether whatever was lost was worth more than the time and effort AI saved. That depends a lot on what the person is trying to do. If I need a workable recommendation this afternoon, stopping once I have a good answer may be entirely sensible. If I am doing research and the point is to find a better explanation, I may be willing to spend much longer following uncertain directions.
+
+## Are there practices that could help writers use AI without bypassing the work that expands what they are able to question, defend, or develop?
+
+How AI changes the course of writing
+Source ID research-ai-writing-interview:designing-assistance
+Original https://www.henryw.me/#/research/ai-writing-interview#designing-assistance
+
+Henry Wang I think there are two separate parts of the interaction that matter here. One is what the AI contributes. If I am stuck between two ideas, it can give me the connection needed to move forward. But it could also surface other relations around the problem that are not necessary for solving the immediate difficulty and might open up other directions. The other is how that contribution is presented. The same underlying connection could arrive as a finished interpretation, a question, a tension to resolve, two competing frames, or a counterexample. Those forms leave very different amounts of construction for the writer to do. There is some evidence that this difference in form matters. In Don't Just Tell Me, Ask Me, framing similar information as questions rather than direct explanations led people to reason with it differently (Danry et al.
+
+That is close to what I have in mind here. The contribution can be similar, while the way it is presented changes what the person still has to work out for themselves. Sometimes a finished answer is exactly what I want. If I have already done the conceptual work and am stuck on wording, there may be little value in making the interaction more elaborate. The more difficult case is when I am still trying to understand the material. Then I would want the system to help without simply turning every local difficulty into a stopping point. That could mean leaving some of the construction for me to do, or bringing in connections that expand the problem beyond the one I have already formulated. I still don't know exactly how a system should decide what to contribute, or in what form, given the task and the writer's state at that moment. That's something I'm interested in pursuing next.
+
+## References
+
+How AI changes the course of writing
+Source ID research-ai-writing-interview:references
+Original https://www.henryw.me/#/research/ai-writing-interview#references
+
+Don’t just tell me, ask me: AI systems that intelligently frame explanations as questions improve human logical discernment accuracy over causal AI explanations. Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems, 1–13. Generative AI enhances individual creativity but reduces the collective diversity of novel content. Science Advances, 10(28), eadn5290. Language Sciences, 29(5), 621–632.
 
 ## Research I've Been Part Of
 
@@ -612,7 +694,7 @@ AI × Self
 Source ID aipersonalarchive:overview
 Original https://www.henryw.me/#/aipersonalarchive
 
-An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors connect them through their own questions. A question about the places that shaped me, for example, brings travel records and personal writing into a View, a composed reading with its original sources. The Gallery gathers these readings as exhibitions, giving visitors a shared space to explore other perspectives and contribute their own.
+An AI-driven personal archive The work, ideas and experiences collected here reflect different parts of my life. AI × Self lets visitors connect them through their own questions. A question about where I have lived can bring together travel records, photographs and personal writing. AI uses this material to compose a View about how those places have mattered to me. The Gallery gathers these readings as exhibitions, giving visitors a shared space to explore other perspectives and contribute their own.
 
 ## An archive open to different perspectives
 
@@ -620,7 +702,7 @@ AI × Self
 Source ID aipersonalarchive:one-archive-three-ways-to-explore
 Original https://www.henryw.me/#/aipersonalarchive#one-archive-three-ways-to-explore
 
-A personal site usually reflects how its author has organised their life. Work goes under projects, an experience under a date, a thought into a piece of writing. A visitor’s curiosity can cross all of those boundaries. Questions about how I think, what I build or where I have lived can bring together material I published years apart and for different reasons. I built Search to find original passages and Ask to connect them in an answer. View develops a question into a composed reading with original sources and working demos woven into its narrative. The Gallery gives that reading a spatial form. Each perspective becomes an exhibition, with rooms to enter, original works to encounter and a story to follow. These readings become part of the archive too. Visitors can save and share their own Views, while new work gives later questions more material to draw on.
+A personal site usually reflects how its author has organised their life. Work goes under projects, an experience under a date, a thought into a piece of writing. A visitor’s curiosity can cross all of those boundaries. Questions about how I think, what I build or where I have lived can bring together material I published years apart and for different reasons. I built Search to find original passages and Ask to connect them in an answer. View selects writing, images and working demos around a question, then composes a narrative that develops connections between them. The Gallery gives that reading a spatial form. Each perspective becomes an exhibition, with rooms to enter, original works to encounter and a story to follow. These readings become part of the archive too. Visitors can save and share their own Views, while new work gives later questions more material to draw on.
 
 The site holds both what I have made and the different ways people come to understand it.
 
@@ -630,7 +712,7 @@ AI × Self
 Source ID aipersonalarchive:find-a-passage-in-its-original-context
 Original https://www.henryw.me/#/aipersonalarchive#find-a-passage-in-its-original-context
 
-Opening a long project page still leaves a visitor looking for the passage that answers their question. I made each Search result show the matching text and open its precise location. A visitor may remember a project’s name, or only the idea that made it interesting. Search accommodates both. A question about translating business requirements into software can lead back to my work at HSBC, even without the company name in the query. The result keeps enough of the passage visible to help the visitor decide where to go next. How Search finds related material Names such as HSBC are useful word matches, while a question about translating business requirements into software may describe the same work in different language. I combined lexical retrieval, which matches words, with semantic retrieval, which looks for related meaning.
+Opening a long project page still leaves a visitor looking for the passage that answers their question. I made each Search result show the matching text and open its precise location. A visitor may remember a project’s name, or only the idea that made it interesting. Search accommodates both. A question about translating business requirements into software can lead back to my work at HSBC, even without the company name in the query. Each result includes a passage so the visitor can decide whether to read more. How Search finds related material Names such as HSBC are useful word matches, while a question about translating business requirements into software may describe the same work in different language. I combined lexical retrieval, which matches words, with semantic retrieval, which looks for related meaning.
 
 When I build the site, a sentence-embedding model converts each passage into an embedding, a vector of numbers that represents its meaning. Related meanings tend to have similar vectors. At search time, the browser uses the same model to embed the query and compares it with those stored vectors. This lets each search run locally. Word matches still matter, especially for names and technical terms. I merge the two rankings with weighted reciprocal-rank fusion, giving precise word matches priority while retaining relevant semantic matches. The comparison shows what each method contributes. I use all-MiniLM-L6-v2, which produces 384-dimensional embeddings. I store their values as 8-bit integers with a per-vector scale to reduce the download. At query time, cosine similarity compares the vectors. Lexical ranking uses a TF-IDF-like score, giving informative words more weight.
 
@@ -642,9 +724,7 @@ AI × Self
 Source ID aipersonalarchive:seeing-the-archive-as-a-space
 Original https://www.henryw.me/#/aipersonalarchive#seeing-the-archive-as-a-space
 
-Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here. A question about how I use AI can draw on several projects. Search locates the relevant passages. Understanding their connections involves reading across those pages.
-
-I developed Ask to bring that material into an answer.
+Once the passages had embeddings, numerical representations of their meaning, I could compare them with one another as well as with a query. That suggested another way to explore the collection. Material filed under research, work, or personal writing could sit together because of what it discussed. I used those relationships to make a map of the archive, giving visitors a way to look around neighbouring ideas even before choosing a particular question. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here.
 
 ## Ask brings related passages into one answer
 
@@ -652,9 +732,17 @@ AI × Self
 Source ID aipersonalarchive:ask-brings-related-passages-into-one-answer
 Original https://www.henryw.me/#/aipersonalarchive#ask-brings-related-passages-into-one-answer
 
-Each answer includes citations that lead into the relevant projects and writing. Suggested follow-up questions help a visitor develop an overview into a closer look at a decision, experience or connection. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, a server-side function that requests the model’s answer. Supplying source material to support an answer is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published personal writing, using retrieval to bring relevant passages forward. Keeping that broader context available helps with questions that connect several parts of the archive. An answer can also leave a visitor curious about the work behind it.
+Some questions draw on several parts of the site. Understanding how I use AI, for example, involves reading across projects and research. Ask brings the relevant passages together and explains what they tell us. Citations open the passages behind the answer, and suggested follow-up questions help visitors explore a decision, experience or connection in more detail. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice. The browser prepares context from the public site and sends it with the question to a Cloudflare Worker, a server-side function that requests the model’s answer. Supplying source material to support an answer is retrieval-augmented generation, or RAG. The current version supplies the main site material and the published personal writing, using retrieval to bring relevant passages forward.
 
-View develops that curiosity into a reading where people can explore the original material as the interpretation unfolds.
+Keeping that broader context available helps with questions that connect several parts of the archive.
+
+## Questions about Henry and the site
+
+AI × Self
+Source ID aipersonalarchive:questions-about-henry-and-the-site
+Original https://www.henryw.me/#/aipersonalarchive#questions-about-henry-and-the-site
+
+Ask handles both questions about Henry and questions about using the website. It classifies the question to choose a useful next step. For site features, it provides a link or an action. For questions about my work and ideas, it explains the relevant material and can offer a View to explore the subject in more depth.
 
 ## View reorganises the site around a question
 
@@ -662,11 +750,23 @@ AI × Self
 Source ID aipersonalarchive:view-reorganises-the-site-around-a-question
 Original https://www.henryw.me/#/aipersonalarchive#view-reorganises-the-site-around-a-question
 
-Trying a project’s demo reveals how it behaves. Photographs bring places and experiences into view, while a piece of writing preserves how I understood an idea at the time. In a View, these original pieces become part of the explanation, appearing where they help develop its meaning. Each response becomes a composed reading. A question, theme, or perspective guides the selection of material, and the narrative explains what the visitor should notice in it. A project’s working demo can sit beside a research entry or a piece of personal writing, giving the explanation concrete material to work with. Compose a View I registered projects, research entries, personal writing, image groups and interactions as reusable components. The model selects the components that answer the question, writes the narrative that connects them and gives each section its place in the reading.
+A View gives visitors a longer reading built around their question. AI selects relevant projects, research and personal writing, then develops a narrative that explains their connections. The original work appears within that reading, so visitors can try a demo, look through photographs or read a passage as the argument develops. The same material can support different readings. A question about learning might connect a research study with an education project. A question about building tools might draw on those pieces to explain a different set of decisions.
 
-Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, photo gallery or written passage. A question about learning might bring together work on human cognition, an education project, and a reflection written in another context. A question about how I build tools might draw on some of those same pieces for different reasons. The question changes which relationships the composition develops. A generated illustration gives the page a visual interpretation of its question and perspective. An audio summary introduces the reading before visitors explore the full narrative. A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection.
+## Composing with the original work
 
-Other visitors can explore these readings and see the archive through someone else’s perspective. The same narrative can also be experienced through space. Giving works scale and distance lets people approach them, pause and make connections as they move. I designed the Gallery so each View could be visited as an exhibition.
+AI × Self
+Source ID aipersonalarchive:composing-with-the-original-work
+Original https://www.henryw.me/#/aipersonalarchive#composing-with-the-original-work
+
+I registered projects, research entries, personal writing, image groups and interactions as reusable components. The model selects the components that answer the question, writes the narrative that connects them and gives each section its place in the reading. Each component carries its own content and behaviour, so the model can compose a new reading using an existing demo, photo gallery or written passage. The narrative introduces each piece and explains how it supports the surrounding argument. Visitors encounter the original work at the point where it helps them understand the connection. A generated illustration gives the page a visual interpretation of its question and perspective. An audio summary introduces the reading before visitors explore the full narrative.
+
+## A reading to save and share
+
+AI × Self
+Source ID aipersonalarchive:a-reading-to-save-and-share
+Original https://www.henryw.me/#/aipersonalarchive#a-reading-to-save-and-share
+
+A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection. Other visitors can explore these readings and see the archive through someone else’s perspective.
 
 ## Every View becomes an exhibition
 
@@ -674,15 +774,15 @@ AI × Self
 Source ID aipersonalarchive:every-view-becomes-an-exhibition
 Original https://www.henryw.me/#/aipersonalarchive#every-view-becomes-an-exhibition
 
-The question behind a View sets the exhibition’s theme. Its sections form a sequence of rooms, and the original material becomes the work on display. The Gallery opens in a shared entrance hall where visitors can browse exhibitions created by other people or compose a View around their own question. I gave these activities a place in the room. A collection display lets visitors choose an exhibition, whose title and illustration then appear at the entrance. An open book provides a place to enter a new question.
+Reading an article gives the narrative a clear sequence. An exhibition gives the work a physical scale and lets visitors decide where to pause. I made each View available in both forms. Its sections become rooms, with photographs on walls, writing on reading stands and places on a globe. The narrative introduces the works as visitors move through the exhibition. The article and exhibition present the same View. Visitors can switch between them and arrive at the corresponding passage or exhibit, keeping their place as they change how they explore.
 
-## Inside an exhibition
+## The View Gallery
 
 AI × Self
-Source ID aipersonalarchive:article-and-exhibition-keep-the-same-place
-Original https://www.henryw.me/#/aipersonalarchive#article-and-exhibition-keep-the-same-place
+Source ID aipersonalarchive:the-view-gallery
+Original https://www.henryw.me/#/aipersonalarchive#the-view-gallery
 
-An exhibition lets visitors encounter the material as they follow a View. A photograph can fill a wall, a piece of writing can occupy a reading stand, and a record of places can become a globe. The narrative stays beside the work, explaining what connects it to the question. Visitors can also read the View as an article. Switching between the article and exhibition takes them to the corresponding passage or exhibit, so visitors can continue in the form that suits them.
+The View Gallery brings the shared exhibitions into one place. Visitors can browse questions other people have asked, preview the readings and choose an exhibition to enter. The collection shows how different people connect the same body of work. Visitors can also compose a View of their own or explore the original projects and writing. Each activity has a place around the Hall, making the gallery itself a space to explore.
 
 ## Designing an immersive visit
 
@@ -690,7 +790,7 @@ AI × Self
 Source ID aipersonalarchive:the-exhibition-is-designed-as-one-experience
 Original https://www.henryw.me/#/aipersonalarchive#the-exhibition-is-designed-as-one-experience
 
-I designed the building, displays and guidance together. The open layout helps people find their way, display forms suit the original material, and light and sound shape how they attend to the works.
+A convincing visit depends on more than arranging works in 3D. The building needs a readable layout, the exhibits need room to be seen, and movement needs to feel continuous. I designed the gallery and exhibitions around those needs, using scale, light, sound and guidance to help visitors settle into the space.
 
 ## System architecture
 
@@ -698,23 +798,25 @@ AI × Self
 Source ID aipersonalarchive:system-architecture
 Original https://www.henryw.me/#/aipersonalarchive#system-architecture
 
-Search, Ask, View and Gallery share the site’s published material. Each site build prepares passages with links to their original locations, embeddings that represent their meaning, and a catalogue of the material available for composition. The catalogue includes descriptions of interactive components, so the system can select a working example alongside a written passage. Each experience uses that material differently. Search ranks passages in the browser. Ask receives broad context from across the site and writes an answer with citations. View first selects sources from the complete catalogue, then receives those sources in full to compose the narrative. This gives selection a view of the whole archive and composition the detail it needs. A Cloudflare Worker handles the model calls for Ask and View.
+At build time, the site prepares passages, embeddings and a component catalogue. Search runs in the browser. Cloudflare Workers supply context to Gemini for Ask answers and View compositions. MiniLM creates the search embeddings locally through Transformers. js, and Fish Audio provides narration in my AI voice. The text API makes the public material available to visitors’ own agents. A shared JSON schema connects each View to its Vue article and Three. Cloudflare D1 stores saved readings and source snapshots, while R2 holds their media. The Gallery brings the public readings together.
 
-The generated View follows a JSON schema that connects chapters, narrative passages and original sources. That structure feeds both the Vue article renderer and the Three. The exhibition’s layout algorithm turns chapters into rooms and chooses display forms and viewing positions for their contents. Both presentations refer to the same entries, so switching between them leads to the corresponding passage or exhibit. The Gallery brings these individual readings together. Its Hall connects the public collection, a place to compose new Views and the archive map. Selecting a View opens its exhibition, with the Gallery providing a shared setting for readings created by different visitors. Saving a View preserves the narrative together with snapshots of its sources. Cloudflare D1 stores these records, and R2 stores their archived media.
+## Exploring with your own agent
 
-Later revisions to the site can inform new readings, and an earlier View retains the material on which it was based.
+AI × Self
+Source ID aipersonalarchive:exploring-with-your-own-agent
+Original https://www.henryw.me/#/aipersonalarchive#exploring-with-your-own-agent
 
-## Returning to my own archive
+The archive can be useful in someone else’s research, writing or project. Making it readable by agents lets visitors use this material in their own workflow. Their agent can explore my work, connect it with other sources and develop an answer around the task at hand. Visitors can give their agent henryw. The site points it to a reading guide and a public text API, with the complete archive, individual pieces and links to the original pages. The agent handles the reasoning and presents the results in its own interface, with no installation or configuration needed.
+
+## What can I learn from a website about myself?
 
 AI × Self
 Source ID aipersonalarchive:what-the-case-gives-back
 Original https://www.henryw.me/#/aipersonalarchive#what-the-case-gives-back
 
-Keeping this site gives me a record of what I could articulate at different moments. Reading across it raises other questions. A fragment can take on a different meaning beside a project I made later. An experience can help me understand why an earlier idea mattered. A View gives one of these readings a form I can revisit. Its question determines which parts of my life come together and which relationships receive attention. Asking about home might connect a family meal with a city I lived in. Asking about change might place that same memory beside something I wrote years later. Each arrangement brings a different part of the experience into focus. The Gallery gives these readings a spatial form. Walking through an exhibition of my own experiences means encountering them one at a time, with room to look and listen.
+I use this website to keep things I have made and things that matter to me. Putting them here also means deciding how to introduce myself. I can write an About page and choose which projects to show first. A visitor’s question can bring together things I filed separately, including connections I would never think to make on an About page. That is the possibility I built this project around. That interests me because the same material can lead to quite different accounts. A question about home might bring together a family meal and a city I lived in. A question about change might connect that meal to something I wrote years later. AI can make those connections and give them enough shape for someone to follow. The visitor can read the passage, look at the photograph, or try the project as they work through the idea. I am one of those readers.
 
-A photograph or passage can hold my attention long enough for details to complicate the account I usually give of that period. I am also reading it with the experiences I have had since. Both the arrangement and my own changing perspective can lead to a new understanding. Other visitors bring questions I might never ask. Entering their exhibitions lets me revisit familiar material through what interested someone else. Their question may connect parts of my life I had understood separately. Exploring that connection can change what I notice when I next look back on the experience. Over time, the collection can hold exhibitions of different stages of my life, shaped by different people’s questions. Saving them preserves a history of how that life has been understood alongside the record of what happened. An earlier reading gives me something specific to reconsider as I change.
-
-Self-reflection becomes a continuing exchange between my memories, the records I made and the perspectives others bring.
+I know what happened, but I do not have a finished account of what it all means. Walking through an exhibition made from my own memories gives me time to look at them again. Someone else’s question might bring out a connection I have missed. And a passage I wrote a few years ago can mean something different after what I have experienced since. Saving these readings is part of that process. In a few years I will be able to revisit both the things I recorded and the ways people understood them. I am curious about what will still feel familiar, what I will see differently, and what I will only then have enough experience to understand.
 
 ## A Structure-Preserving RAG Ingestion Pipeline
 
@@ -1400,7 +1502,7 @@ Across my studies and work, I'm drawn to things that are still taking shape. I l
 
 In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes.
 
-I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research. At PwC, I have used AI to help people work with complex information, understand existing systems, and make better decisions.
+I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research. At PwC, I have used AI to help people work with complex information and make better decisions.
 
 The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles.
 
@@ -1418,7 +1520,7 @@ Original https://www.henryw.me/#/about#how-i-research-and-build
 
 How we learn and think In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. Things I build I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research.
 
-At PwC, I have used AI to help people work with complex information, understand existing systems, and make better decisions. The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles.
+At PwC, I have used AI to help people work with complex information and make better decisions. The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles.
 
 ## Outside work
 
