@@ -4089,7 +4089,7 @@
       "priority": 5,
       "media": [
         {
-          "src": "/assets/img/projects/archive-main-v21.webp",
+          "src": "/assets/img/projects/archive-main-v22.webp",
           "alt": "Search finds a passage, Ask gives an answer with a citation, and View composes articles and exhibitions. Three saved Views appear above The View Gallery’s architectural model and ticket."
         }
       ],
@@ -4109,11 +4109,11 @@
       "page": "AI × Self",
       "title": "A composed View",
       "anchor": "archive-view-illustration",
-      "description": "AI connects original material around a visitor’s question, composing a View to read as an article or explore as an exhibition. Visitors bring different questions about Henry’s life, research and design. One question, how places have shaped Henry, brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition.",
-      "body": "AI connects original material around a visitor’s question, composing a View to read as an article or explore as an exhibition. Visitors bring different questions about Henry’s life, research and design. One question, how places have shaped Henry, brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of.",
+      "description": "AI connects original material around a visitor’s question, composing a View to read as an article or explore as an exhibition. Visitors bring different questions about Henry’s life, research and design. A question about what Henry’s memories reveal about him brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition.",
+      "body": "AI connects original material around a visitor’s question, composing a View to read as an article or explore as an exhibition. Visitors bring different questions about Henry’s life, research and design. A question about what Henry’s memories reveal about him brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of.",
       "parts": [
         "AI connects original material around a visitor’s question, composing a View to read as an article or explore as an exhibition.",
-        "Visitors bring different questions about Henry’s life, research and design. One question, how places have shaped Henry, brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of."
+        "Visitors bring different questions about Henry’s life, research and design. A question about what Henry’s memories reveal about him brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of."
       ],
       "view_kind": "interactive",
       "presentations": [
@@ -4122,8 +4122,8 @@
       "priority": 5,
       "media": [
         {
-          "src": "/assets/img/projects/archive-view-v23.webp",
-          "alt": "Visitors bring different questions about Henry’s life, research and design. One question, how places have shaped Henry, brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of."
+          "src": "/assets/img/projects/archive-view-v24.webp",
+          "alt": "Visitors bring different questions about Henry’s life, research and design. A question about what Henry’s memories reveal about him brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of."
         }
       ],
       "component_description": "The complete original archive-project-evidence component titled “A composed View”.",
@@ -4636,7 +4636,7 @@
       ],
       "media": [
         {
-          "src": "/assets/img/projects/archive-main-v21.webp",
+          "src": "/assets/img/projects/archive-main-v22.webp",
           "alt": "Search finds a passage, Ask gives an answer with a citation, and View composes articles and exhibitions. Three saved Views appear above The View Gallery’s architectural model and ticket."
         }
       ],
@@ -4657,9 +4657,9 @@
       "anchor": "archive-view-illustration",
       "description": "AI connects original material around a visitor’s question, composing a View to read as an article or explore as an exhibition.",
       "publicParts": [
-        "Visitors bring different questions about Henry’s life, research and design. One question, how places have shaped Henry, brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of."
+        "Visitors bring different questions about Henry’s life, research and design. A question about what Henry’s memories reveal about him brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of."
       ],
-      "componentDescription": "The original animated illustration “A composed View” from AI × Self, with its playback and enlargement controls. Visitors bring different questions about Henry’s life, research and design. One question, how places have shaped Henry, brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of.",
+      "componentDescription": "The original animated illustration “A composed View” from AI × Self, with its playback and enlargement controls. Visitors bring different questions about Henry’s life, research and design. A question about what Henry’s memories reveal about him brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of.",
       "narrativeGuidance": "Use this illustration when its composition helps explain the relationship under discussion. Describe the concrete connection the reader should notice and treat the illustration as Henry’s account of his project.",
       "topics": [
         "AI × Self",
@@ -4669,8 +4669,8 @@
       ],
       "media": [
         {
-          "src": "/assets/img/projects/archive-view-v23.webp",
-          "alt": "Visitors bring different questions about Henry’s life, research and design. One question, how places have shaped Henry, brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of."
+          "src": "/assets/img/projects/archive-view-v24.webp",
+          "alt": "Visitors bring different questions about Henry’s life, research and design. A question about what Henry’s memories reveal about him brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of."
         }
       ],
       "entity": {

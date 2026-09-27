@@ -1,5 +1,5 @@
 {
-  "revision": "06d72b0cb2f250eeeda53c423b60aea74dace704f85ce4f8b7b65941e0409276",
+  "revision": "d14337062672258393a4df0c1036acc62a113b1523be0827fad4c48c63b808a4",
   "sources": [
     {
       "id": "education:overview",
@@ -1365,9 +1365,9 @@
       "section": "aipersonalarchive",
       "page": "AI × Self",
       "title": "A composed View",
-      "description": "AI connects original material around a visitor’s question, composing a View to read as an article or explore as an exhibition. Visitors bring different questions about Henry’s life, research and design. One question, how places have shaped Henry, brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition.",
+      "description": "AI connects original material around a visitor’s question, composing a View to read as an article or explore as an exhibition. Visitors bring different questions about Henry’s life, research and design. A question about what Henry’s memories reveal about him brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition.",
       "url": "https://www.henryw.me/#/aipersonalarchive#archive-view-illustration",
-      "text": "AI connects original material around a visitor’s question, composing a View to read as an article or explore as an exhibition.\n\nVisitors bring different questions about Henry’s life, research and design. One question, how places have shaped Henry, brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of."
+      "text": "AI connects original material around a visitor’s question, composing a View to read as an article or explore as an exhibition.\n\nVisitors bring different questions about Henry’s life, research and design. A question about what Henry’s memories reveal about him brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition. A handwritten note explains how other people’s questions can reveal connections Henry would not have thought of."
     },
     {
       "id": "interactive.archive.illustration.self",
