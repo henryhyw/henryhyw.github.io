@@ -1,6 +1,6 @@
 # Henry's public text
 
-Content revision d14337062672258393a4df0c1036acc62a113b1523be0827fad4c48c63b808a4
+Content revision 5fae78b6b48bce2719f6633d3908fe0175c7a67e686ed7c946cea0d870b70bc3
 
 ## Places I've Studied
 
@@ -702,7 +702,7 @@ AI × Self
 Source ID aipersonalarchive:one-archive-three-ways-to-explore
 Original https://www.henryw.me/#/aipersonalarchive#one-archive-three-ways-to-explore
 
-A personal site usually reflects how its author has organised their life. Work goes under projects, an experience under a date, a thought into a piece of writing. A visitor’s curiosity can cross all of those boundaries. Questions about how I think, what I build or where I have lived can bring together material I published years apart and for different reasons. AI can read across these records and develop connections around someone’s question. Those readings can also change how I understand my own experiences. The archive becomes material for other people’s understanding and my own. I built Search to find original passages and Ask to connect them in an answer. View selects writing, images and working demos around a question, then composes a narrative that develops connections between them. The Gallery gives that reading a spatial form.
+A personal site usually reflects how its author has organised their life. Work goes under projects, an experience under a date, a thought into a piece of writing. A visitor’s curiosity can cross all of those boundaries. Questions about how I think, what I build or where I have lived can bring together material I published years apart and for different reasons. AI can read across these records and develop connections around someone’s question. Those readings can also change how I understand my own experiences. The archive becomes material for other people’s understanding and my own. I built Search to find original passages and Ask to connect them in an answer. View brings together my work, ideas and experiences around a question, then composes a narrative that develops connections between them. The Gallery gives that reading a spatial form.
 
 Each perspective becomes an exhibition, with rooms to enter, original works to encounter and a story to follow. These readings become part of the archive too. Visitors can save and share their own Views, while new work gives later questions more material to draw on. The site holds both what I have made and the different ways people come to understand it.
 
@@ -784,13 +784,13 @@ Original https://www.henryw.me/#/aipersonalarchive#every-view-becomes-an-exhibit
 
 Reading an article gives the narrative a clear sequence. An exhibition gives the work a physical scale and lets visitors decide where to pause. I made each View available in both forms. Its sections become rooms, with photographs on walls, writing on reading stands and places on a globe. The narrative introduces the works as visitors move through the exhibition. The article and exhibition present the same View. Visitors can switch between them and arrive at the corresponding passage or exhibit, keeping their place as they change how they explore.
 
-## Available across the site
+## On desktop and phone
 
 AI × Self
 Source ID aipersonalarchive:available-across-the-site
 Original https://www.henryw.me/#/aipersonalarchive#available-across-the-site
 
-Visitors can open Search, Ask, View and the embedding map from the header on any page. Home also has a question field, and wide screens add a search control beside the page. These entry points make the tools easy to reach throughout the site. I adapted the input controls, reading panels and exhibition layouts to suit touchscreens and larger displays.
+Visitors can open Search, Ask, View and the embedding map from the header on any page. Home also has a question field, and wide screens add a search control beside the page. These entry points make the tools easy to reach throughout the site. The Gallery and Exhibitions use different camera views, reading panels and controls on desktop, portrait phones and landscape phones. The demonstrations below show these layouts alongside the ways visitors can open the site’s tools.
 
 ## Exploring with your own agent
 
