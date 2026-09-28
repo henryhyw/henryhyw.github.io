@@ -1,6 +1,6 @@
 # Henry's public text
 
-Content revision 27f99013ce0b41315c7c1e1a26b2fbf3a7d8ebeabd2b705f43e9e5644e4faaf4
+Content revision 45d1f0901b04855acf42bb97e324dc47419c4bca017b3a5fb0d7dc602e6932da
 
 ## Places I've Studied
 
@@ -64,7 +64,7 @@ For an AI assistant answering public enquiries using client documents, I evaluat
 
 To support a data migration, I built an LLM-assisted pipeline that reverse-engineers legacy ETL code, the logic that extracts, transforms and loads data. It recovers data lineage showing where data comes from and how it changes, together with the business rules and test scenarios needed for the migration.
 
-I evaluated enterprise document-processing systems and built workflows to recover information lost during preprocessing and support rule-based document review.
+I designed an AI slide-generation framework to help teams quickly explore different ways to present their ideas and iterate on slide designs. The framework uses the company’s visual assets and brand guidelines to guide image generation, then combines AI interpretation with computer-vision measurements to build editable PowerPoint slides. Teams can try new compositions while preserving original logos, icons and reusable components within a consistent visual identity.
 
 I reviewed Ethereum and stablecoin infrastructure risks for a banking engagement.
 
