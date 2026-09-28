@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="640" viewBox="0 0 1400 640" role="img" aria-labelledby="title desc">
+<title id="title">Fourteen exhibition forms</title><desc id="desc">A set of small architectural elevations shows the photographic, reading, project and interactive displays in the study room.</desc>
+<rect width="1400" height="640" fill="#f4f1e9"/>
+<g stroke="#827666" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<g transform="translate(35 68)"><rect x="9" y="43" width="40" height="58"/><rect x="59" y="32" width="45" height="70"/><rect x="114" y="50" width="33" height="52"/><path d="M16 92 30 75l12 8m23 7 17-31 15 14m25 20 14-23"/></g>
+<g transform="translate(235 68)"><path d="m8 108 16-73h108l19 73ZM24 35l-8 132m116-132 12 132M8 108v7h143v-7"/><path d="m28 90 8-39h38l-2 39Zm51 0 3-39h38l8 39Z"/></g>
+<g transform="translate(435 68)"><path d="M80 25v145m-26 4h52M80 78 29 89m51-11 52 10M80 78 72 49"/><ellipse cx="80" cy="164" rx="25" ry="6"/><path d="m14 66 34 10v58l-34-10Zm92 9 39-11v59l-39 11ZM56 30h33v51H56"/></g>
+<g transform="translate(635 68)"><path d="m8 60 35-17 36 18 35-18 34 17v95l-34-17-35 18-36-18-35 17Zm35-17v95m36-77v95m35-113v95"/><path opacity=".45" d="m15 73 21-11v55l-21 11Zm36-11 20 12v54l-20-11m36-43 19-12v55l-19 11m35-66 18 11v55l-18-11"/></g>
+<g transform="translate(835 68)"><rect x="15" y="30" width="133" height="112" rx="9"/><rect x="27" y="41" width="108" height="82" rx="2"/><path d="M60 142v27h43v-27m-52 29h62M34 132h92m-75-5v10"/><circle cx="154" cy="116" r="6"/></g>
+<g transform="translate(1035 68)"><path d="m9 106 14-64h121l10 64ZM23 42 18 165m126-123 6 123M15 106v7h133v-7"/><path d="M37 55h95m-98 12h95M30 79h95m-99 12h95" stroke-width="1.5"/></g>
+<g transform="translate(1235 68)"><path d="M13 170V78l16-41h105l12 41v92M13 78h133M29 37v41m105-41v41M20 166h118"/><path d="m39 52 85 0m-89 10h85" stroke-width="1.5"/></g>
+<g transform="translate(35 367)"><path d="M29 34h104M39 39v123h84V39m-94 128h104M49 22v10m64-10v10"/><path d="M49 62h62M49 74h62M49 86h62M49 98h62M49 110h62M49 122h62M49 134h43" stroke-width="1.5"/></g>
+<g transform="translate(235 367)"><rect x="27" y="37" width="112" height="12" rx="6"/><rect x="27" y="140" width="112" height="12" rx="6"/><path d="M36 49v91m94-91v91M26 44h-7m128 0h-8M26 146h-7m128 0h-8M52 152v20m61-20v20M40 172h86"/><path d="M46 64h73M46 77h73M46 90h73M46 103h73M46 116h73M46 129h48" stroke-width="1.5"/></g>
+<g transform="translate(435 367)"><rect x="17" y="36" width="130" height="88" rx="3"/><rect x="24" y="43" width="116" height="73"/><path d="M70 124v44m24-44v44m-40 4h55M35 98l22-31 28 20 15-13 27 30"/></g>
+<g transform="translate(635 367)"><circle cx="82" cy="83" r="52"/><ellipse cx="82" cy="83" rx="27" ry="52"/><path d="M30 83h104M39 54q42 21 86 0M39 112q42-21 86 0m-4-95q53 46 18 103m-4 6 10 10M82 135v31m-25 5h50"/><g fill="#827666" stroke="none"><circle cx="59" cy="60" r="3"/><circle cx="94" cy="92" r="3"/><circle cx="77" cy="111" r="3"/></g></g>
+<g transform="translate(835 367)"><path d="m18 99 8-65h113l6 65Zm0 0v15h127V99M42 114v54m82-54v54m-91 3h103M35 48h93l4 38H31Z"/><path d="M40 59h36m-36 9h55m-55 9h26" stroke-width="1.5"/></g>
+<g transform="translate(1035 367)"><path d="m8 102 23-66h103l24 66Zm0 0v11h150v-11M20 113v57m125-57v57M35 47h94l14 43H22Z"/><path d="M45 64h27m21 0h26M83 57v24"/><rect x="43" y="57" width="20" height="15" rx="2"/><rect x="105" y="65" width="16" height="15" rx="2"/></g>
+<g transform="translate(1235 367)"><rect x="21" y="22" width="120" height="121" rx="4"/><rect x="28" y="29" width="106" height="107"/><path d="M69 143v26m24-26v26m-40 4h56M40 115l21-38 27 14 28-36"/><circle cx="61" cy="77" r="4"/><circle cx="88" cy="91" r="4"/><circle cx="116" cy="55" r="4"/></g>
+</g>
+<g font-family="Georgia,serif" font-size="17" text-anchor="middle" fill="#827666">
+<text x="115" y="278">01</text><text x="315" y="278">02</text><text x="515" y="278">03</text><text x="715" y="278">04</text><text x="915" y="278">05</text><text x="1115" y="278">06</text><text x="1315" y="278">07</text>
+<text x="115" y="580">08</text><text x="315" y="580">09</text><text x="515" y="580">10</text><text x="715" y="580">11</text><text x="915" y="580">12</text><text x="1115" y="580">13</text><text x="1315" y="580">14</text>
+</g></svg>
