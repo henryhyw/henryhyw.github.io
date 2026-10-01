@@ -1,6 +1,6 @@
 # Henry's public source catalogue
 
-Content revision d22a28af63334af7f6e69018cddb73390edd0c4898e4d8714e7a3f0124a27032
+Content revision 42ac1bfa250cd268dfe6e7948cc99922c08bde77c26141bd7c6b24ea6fa336bc
 154 sources
 
 ## Places I've Studied
@@ -1491,7 +1491,7 @@ Source ID interactive.archive.gallery-design
 Original https://www.henryw.me/#/aipersonalarchive#gallery-design-study
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/interactive.archive.gallery-design?format=text
 
-The View Gallery brings shared exhibitions into one building. Four interactive studies show its interior, building form, floor plan and light and dark treatments together. I arranged browsing, creating a View and exploring the archive around one open Hall. Visitors can see these areas together and move towards whichever interests them. The selected exhibition appears at the entrance across the room.
+The View Gallery brings shared exhibitions into one building. Four interactive studies show its interior, building form, floor plan and light and dark treatments together. I gathered the collection, the archive and the exhibition entrance around one open Hall. The building as a whole. A central Hall connects the archive court and exhibition wings. Orientation within the Gallery.
 
 ## Designing the exhibition
 

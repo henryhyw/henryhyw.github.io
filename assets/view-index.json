@@ -3983,14 +3983,14 @@
       "page": "AI × Self",
       "title": "The View Gallery design",
       "anchor": "gallery-design-study",
-      "description": "The View Gallery brings shared exhibitions into one building. Four interactive studies show its interior, building form, floor plan and light and dark treatments together. I arranged browsing, creating a View and exploring the archive around one open Hall. Visitors can see these areas together and move towards whichever interests them. The selected exhibition appears at the entrance across the room.",
-      "body": "The View Gallery brings shared exhibitions into one building. Four interactive studies show its interior, building form, floor plan and light and dark treatments together. I arranged browsing, creating a View and exploring the archive around one open Hall. Visitors can see these areas together and move towards whichever interests them. The selected exhibition appears at the entrance across the room. The building as a whole. The model shows how the Hall connects to the archive court and exhibition wings. Removing the roof reveals the collection display, reading stands and archive installation. Visitors can turn the building and inspect how these activities fit within the space. Orientation within the Gallery. Visitors can choose a location on the floor plan to see a preview, read what they can do there and go directly to it. The map also marks their current position, so they can relate each destination to where they are. Two lighting treatments. The light theme spreads daylight-like illumination across the Hall. In the dark theme, the collection and exhibition entrance remain lit against darker walls. Both treatments use the same building and display positions.",
+      "description": "The View Gallery brings shared exhibitions into one building. Four interactive studies show its interior, building form, floor plan and light and dark treatments together. I gathered the collection, the archive and the exhibition entrance around one open Hall. The building as a whole. A central Hall connects the archive court and exhibition wings. Orientation within the Gallery.",
+      "body": "The View Gallery brings shared exhibitions into one building. Four interactive studies show its interior, building form, floor plan and light and dark treatments together. I gathered the collection, the archive and the exhibition entrance around one open Hall. The building as a whole. A central Hall connects the archive court and exhibition wings. Orientation within the Gallery. Find your bearings and choose where to go next. Two lighting treatments. Soft daylight fills the Hall. In the dark, light gathers around the works.",
       "parts": [
         "The View Gallery brings shared exhibitions into one building. Four interactive studies show its interior, building form, floor plan and light and dark treatments together.",
-        "I arranged browsing, creating a View and exploring the archive around one open Hall. Visitors can see these areas together and move towards whichever interests them. The selected exhibition appears at the entrance across the room.",
-        "The building as a whole. The model shows how the Hall connects to the archive court and exhibition wings. Removing the roof reveals the collection display, reading stands and archive installation. Visitors can turn the building and inspect how these activities fit within the space.",
-        "Orientation within the Gallery. Visitors can choose a location on the floor plan to see a preview, read what they can do there and go directly to it. The map also marks their current position, so they can relate each destination to where they are.",
-        "Two lighting treatments. The light theme spreads daylight-like illumination across the Hall. In the dark theme, the collection and exhibition entrance remain lit against darker walls. Both treatments use the same building and display positions."
+        "I gathered the collection, the archive and the exhibition entrance around one open Hall.",
+        "The building as a whole. A central Hall connects the archive court and exhibition wings.",
+        "Orientation within the Gallery. Find your bearings and choose where to go next.",
+        "Two lighting treatments. Soft daylight fills the Hall. In the dark, light gathers around the works."
       ],
       "view_kind": "interactive",
       "presentations": [
@@ -4491,10 +4491,10 @@
       "anchor": "gallery-design-study",
       "description": "The View Gallery brings shared exhibitions into one building. Four interactive studies show its interior, building form, floor plan and light and dark treatments together.",
       "publicParts": [
-        "The Gallery interior. I arranged browsing, creating a View and exploring the archive around one open Hall. Visitors can see these areas together and move towards whichever interests them. The selected exhibition appears at the entrance across the room.",
-        "The building as a whole. The model shows how the Hall connects to the archive court and exhibition wings. Removing the roof reveals the collection display, reading stands and archive installation. Visitors can turn the building and inspect how these activities fit within the space.",
-        "Orientation within the Gallery. Visitors can choose a location on the floor plan to see a preview, read what they can do there and go directly to it. The map also marks their current position, so they can relate each destination to where they are.",
-        "Two lighting treatments. The light theme spreads daylight-like illumination across the Hall. In the dark theme, the collection and exhibition entrance remain lit against darker walls. Both treatments use the same building and display positions."
+        "The Gallery interior. I gathered the collection, the archive and the exhibition entrance around one open Hall.",
+        "The building as a whole. A central Hall connects the archive court and exhibition wings.",
+        "Orientation within the Gallery. Find your bearings and choose where to go next.",
+        "Two lighting treatments. Soft daylight fills the Hall. In the dark, light gathers around the works."
       ],
       "componentDescription": "The complete four-part Gallery study. It contains a live interior demonstration, a detailed building model that can be rotated and inspected, an interactive floor plan and a lighting comparison. The four views remain together as one source.",
       "narrativeGuidance": "Introduce how these four views reveal the design of the same Gallery. Connect its spatial organisation or lighting to the visitor’s question, then let the reader inspect the original grouped study.",
