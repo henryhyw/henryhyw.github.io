@@ -1,6 +1,6 @@
 # Henry's public text
 
-Content revision 42ac1bfa250cd268dfe6e7948cc99922c08bde77c26141bd7c6b24ea6fa336bc
+Content revision 19b43378668a0d2cb8603fe8c90b4b977106aaa9ba0b87db50c2b54fd4bcf89e
 
 ## Places I've Studied
 
@@ -1604,7 +1604,7 @@ The exhibition entrance. The entrance gives visitors a moment to understand the 
 
 A narrative on the walls. I placed each chapter’s introduction on the wall, as museums do to introduce a room’s theme. This makes the narrative part of the exhibition space. Each room gathers works around one idea, and moving to the next room carries the story forward.
 
-Material with a physical form. I gave digital material a physical presence through familiar exhibit forms. Their scale and spacing invite visitors to move closer and focus on an individual work. Opening an exhibit lets them explore it in detail or try an interactive project for themselves. Each source has a registered type that maps to a display form. The layout uses the display’s dimensions and required viewing distance to place it in the room. Interactive projects retain their Vue components when opened, preserving their controls and behaviour.
+Material with a physical form. I gave digital material a physical presence through familiar exhibit forms. Their scale and spacing invite visitors to move closer and focus on an individual work. Opening an exhibit lets them explore it in detail or try an interactive project for themselves. The source’s registered type determines which exhibit forms it can use. Travel records become a globe, and writing can appear on a reading stand. Opening an interactive project renders its original Vue component, so visitors can use its controls and see the results inside the exhibition.
 
 Closing the exhibition. The final room offers a place to pause and reflect on the visit. An afterword brings the narrative together, and a visitors’ book invites a response, leaving room for other perspectives alongside the exhibition’s own.
 
