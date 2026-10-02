@@ -1,6 +1,6 @@
 # Henry's public source catalogue
 
-Content revision 19b43378668a0d2cb8603fe8c90b4b977106aaa9ba0b87db50c2b54fd4bcf89e
+Content revision 6f6e7db70533e9108c5792cf759d4bca73261753d007d020b147e5f6197d220d
 154 sources
 
 ## Places I've Studied
@@ -1501,7 +1501,7 @@ Source ID interactive.archive.exhibition-design
 Original https://www.henryw.me/#/aipersonalarchive#the-exhibition-is-designed-as-one-experience
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/interactive.archive.exhibition-design?format=text
 
-Henry designed the exhibition to make reading a View feel like an immersive visit. Eight design studies explain arrival, wall writing, objects, the afterword, the visit map, lighting, audio narration and language. The exhibition entrance. The entrance gives visitors a moment to understand the exhibition before stepping inside.
+Henry designed the exhibition to make reading a View feel like an immersive visit. Eight design studies explain arrival, wall writing, objects, the afterword, the visit map, lighting, audio narration and language. Entering the exhibition. The entrance gives visitors a moment to understand the exhibition before stepping inside.
 
 ## Exploring the archive
 
