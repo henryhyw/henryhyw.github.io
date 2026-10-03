@@ -3952,6 +3952,46 @@
     },
     {
       "id": 147,
+      "source_id": "interactive.archive.gallery-video",
+      "route": "/aipersonalarchive",
+      "page": "AI × Self",
+      "title": "The View Gallery introduction",
+      "anchor": "gallery-video",
+      "description": "Henry’s 1 minute 39 second video introduces The View Gallery. It follows a visitor’s question as AI connects his work, ideas and experiences into a View, then shows the exhibition, original exhibits, audio guide and sharing in the Gallery. Visitors explore Henry’s work, ideas and experiences through their own questions. AI connects original material into a story shaped by the question. Henry calls that a View.",
+      "body": "Henry’s 1 minute 39 second video introduces The View Gallery. It follows a visitor’s question as AI connects his work, ideas and experiences into a View, then shows the exhibition, original exhibits, audio guide and sharing in the Gallery. Visitors explore Henry’s work, ideas and experiences through their own questions. AI connects original material into a story shaped by the question. Henry calls that a View. Each View becomes an exhibition visitors can walk through at their own pace. The video follows The Places That Shaped Henry. Visitors can listen to an audio guide in Henry’s voice and open an exhibit to read or interact with the original material. To answer a question about his memories, this View connects his mother’s cooking with a road trip among friends. Both memories show how sharing a place with people he cares about makes it feel like home. Visitors can share their exhibition and explore exhibitions shaped by other people’s questions. Over time, the Gallery holds a growing portrait of Henry at different moments. Seeing those perspectives together helps him recognise patterns in his own life.",
+      "parts": [
+        "Henry’s 1 minute 39 second video introduces The View Gallery. It follows a visitor’s question as AI connects his work, ideas and experiences into a View, then shows the exhibition, original exhibits, audio guide and sharing in the Gallery.",
+        "Visitors explore Henry’s work, ideas and experiences through their own questions. AI connects original material into a story shaped by the question. Henry calls that a View. Each View becomes an exhibition visitors can walk through at their own pace.",
+        "The video follows The Places That Shaped Henry. Visitors can listen to an audio guide in Henry’s voice and open an exhibit to read or interact with the original material. To answer a question about his memories, this View connects his mother’s cooking with a road trip among friends. Both memories show how sharing a place with people he cares about makes it feel like home.",
+        "Visitors can share their exhibition and explore exhibitions shaped by other people’s questions. Over time, the Gallery holds a growing portrait of Henry at different moments. Seeing those perspectives together helps him recognise patterns in his own life."
+      ],
+      "view_kind": "interactive",
+      "presentations": [
+        "interactive"
+      ],
+      "priority": 5,
+      "media": [
+        {
+          "src": "/assets/video/view-gallery/poster.webp",
+          "alt": "The View Gallery video cover showing its architectural model"
+        },
+        {
+          "kind": "video",
+          "src": "/assets/video/view-gallery/the-view-gallery.mp4",
+          "alt": "The View Gallery narrated introduction",
+          "duration": 99.3
+        }
+      ],
+      "component_description": "The complete original archive-project-evidence component titled “The View Gallery introduction”.",
+      "narrative_guidance": "Explain what this component contains and how its specific evidence supports the visitor’s angle.",
+      "entity": {
+        "kind": "archive-project-evidence",
+        "detail": "film"
+      },
+      "selected": true
+    },
+    {
+      "id": 148,
       "source_id": "interactive.archive.exhibition-ticket",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -3977,7 +4017,7 @@
       "selected": true
     },
     {
-      "id": 148,
+      "id": 149,
       "source_id": "interactive.archive.gallery-design",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -4018,7 +4058,7 @@
       "selected": true
     },
     {
-      "id": 149,
+      "id": 150,
       "source_id": "interactive.archive.exhibition-design",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -4067,7 +4107,7 @@
       "selected": true
     },
     {
-      "id": 150,
+      "id": 151,
       "source_id": "interactive.archive.illustration.main",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -4100,7 +4140,7 @@
       "selected": true
     },
     {
-      "id": 151,
+      "id": 152,
       "source_id": "interactive.archive.illustration.view",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -4133,7 +4173,7 @@
       "selected": true
     },
     {
-      "id": 152,
+      "id": 153,
       "source_id": "about:gallery",
       "route": "/about",
       "page": "About",
@@ -4456,6 +4496,51 @@
     }
   ],
   "rich_blocks": [
+    {
+      "kind": "interactive",
+      "page": "AI × Self",
+      "route": "/aipersonalarchive",
+      "allowedPresentation": "interactive",
+      "component": "ArchiveProjectEvidence",
+      "id": "interactive.archive.gallery-video",
+      "title": "The View Gallery introduction",
+      "anchor": "gallery-video",
+      "description": "Henry’s 1 minute 39 second video introduces The View Gallery. It follows a visitor’s question as AI connects his work, ideas and experiences into a View, then shows the exhibition, original exhibits, audio guide and sharing in the Gallery.",
+      "publicParts": [
+        "Visitors explore Henry’s work, ideas and experiences through their own questions. AI connects original material into a story shaped by the question. Henry calls that a View. Each View becomes an exhibition visitors can walk through at their own pace.",
+        "The video follows The Places That Shaped Henry. Visitors can listen to an audio guide in Henry’s voice and open an exhibit to read or interact with the original material. To answer a question about his memories, this View connects his mother’s cooking with a road trip among friends. Both memories show how sharing a place with people he cares about makes it feel like home.",
+        "Visitors can share their exhibition and explore exhibitions shaped by other people’s questions. Over time, the Gallery holds a growing portrait of Henry at different moments. Seeing those perspectives together helps him recognise patterns in his own life."
+      ],
+      "componentDescription": "The original narrated Gallery video, 1 minute 39 seconds long. Readers can play, pause, seek or watch fullscreen. It demonstrates the real Gallery and exhibition interface. Light and dark versions contain the same story.",
+      "narrativeGuidance": "Use this video when seeing a complete Gallery visit helps explain Henry’s AI × Self project, interaction design or approach to personal representation. Introduce what the reader can watch and connect it to the surrounding argument. The video is an optional original source, selected when relevant to the question.",
+      "topics": [
+        "AI × Self",
+        "The View Gallery",
+        "video introduction",
+        "product demonstration",
+        "View composition",
+        "exhibition",
+        "audio guide",
+        "sharing",
+        "personal representation"
+      ],
+      "media": [
+        {
+          "src": "/assets/video/view-gallery/poster.webp",
+          "alt": "The View Gallery video cover showing its architectural model"
+        },
+        {
+          "kind": "video",
+          "src": "/assets/video/view-gallery/the-view-gallery.mp4",
+          "alt": "The View Gallery narrated introduction",
+          "duration": 99.3
+        }
+      ],
+      "entity": {
+        "kind": "archive-project-evidence",
+        "detail": "film"
+      }
+    },
     {
       "kind": "interactive",
       "page": "AI × Self",
