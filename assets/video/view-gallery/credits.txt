@@ -1,0 +1,18 @@
+The View Gallery
+A film by Henry Wang
+
+Music
+Solace by Scott Buckley, released under CC BY 4.0.
+https://www.scottbuckley.com.au/library/solace/
+https://creativecommons.org/licenses/by/4.0/
+Edited, faded, equalised and mixed beneath narration.
+
+Visitor model
+Cesium Man © 2017 Cesium, licensed under CC BY 4.0.
+https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CesiumMan
+https://creativecommons.org/licenses/by/4.0/
+Rescaled and rendered as a monochrome silhouette. Original textures and logos
+are removed. The walking animation is blended with an averaged resting pose.
+Temporal exposure samples soften movement.
+
+People are staged for the film and do not represent live visitors or usage data.
