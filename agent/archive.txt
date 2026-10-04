@@ -1,6 +1,6 @@
 # Henry's public text
 
-Content revision 04bbdcd915b459ebec6e3abb639e86612ecbeec04c5cb1c72484d1ba3efc6228
+Content revision cb85275cda07ce27cd06613f1bfcaf69979db007e2c27bf1a01d8f92654a37c9
 
 ## Places I've Studied
 
@@ -122,7 +122,7 @@ Henry Wang I started from a fairly simple observation about what AI changes in w
 
 But with a language model I can keep giving it the problem in front of me and get a coherent next step back. So the text can keep developing even when I did not have to build all of the connections that made that development possible. That made me wonder whether anything had been lost. If the argument is good, I understand it, and I can keep reasoning from it, is that enough? There was already work showing that AI changes what people produce. One result I found interesting was that AI assistance could improve individual creative outputs while also making different people's outputs more similar (Doshi & Hauser, 2024). What I wanted to understand was what was happening inside one person's inquiry. What changed between the point where they were still trying to form a relation and the point where they had been given one that worked?
 
-My background in cognitive modelling probably also shaped this. I tend to think about how someone's internal structure changes over time, so the finished text alone did not really explain what interested me. I wanted to know what happened to the writer's own construction process and cognitive development through working with AI. That is where early epistemic settlement came from.
+My background in cognitive modelling probably also shaped this. I tend to think about how someone's internal structure changes over time, so the finished text alone did not really explain what interested me. I wanted to know what happened to the writer's own construction process and cognitive development through working with AI. That is where early epistemic settlement came from. Tequia Burt 02
 
 ## In professional writing, how might an AI response shape the direction of an inquiry even when the writer understands the response and continues thinking productively? Could you walk me through an example of the questions, connections, or alternative frames that might become less likely to emerge?
 
@@ -130,9 +130,9 @@ How AI changes the course of writing
 Source ID research-ai-writing-interview:professional-writing
 Original https://www.henryw.me/#/research/ai-writing-interview#professional-writing
 
-Henry Wang Imagine a journalist has two interviews about hybrid work. One person says they are more productive at home because they can concentrate. Another says their team became less productive because coordination became harder. The journalist has not yet worked out what to do with those two observations. AI gives her a clean frame: hybrid work involves a trade-off between individual focus and team collaboration. That is a perfectly reasonable interpretation. She understands it and could write a good article from it. But if she had stayed with the mismatch for longer, she might have noticed that the first person's work is mostly individual analysis, while the second person's work depends heavily on coordination. The question could then change from “Is hybrid work good or bad for productivity?
+Henry Wang Imagine a journalist has two interviews about hybrid work. One person says they are more productive at home because they can concentrate. Another says their team became less productive because coordination became harder. The journalist has not yet worked out what to do with those two observations. AI gives her a clean frame: hybrid work involves a trade-off between individual focus and team collaboration. That is a perfectly reasonable interpretation. She understands it and could write a good article from it. But if she had stayed with the mismatch for longer, she might have noticed that the first person's work is mostly individual analysis, while the second person's work depends heavily on coordination. The question could then change from “Is hybrid work good or bad for productivity?”
 
-” to “Which kinds of work benefit from remote work, and which depend on physical coordination? ” Now she may interview different people, look for different evidence, and end up writing a different article. The first frame was not wrong. It just resolved the difficulty before it had a chance to surface any further questions or connections.
+to “Which kinds of work benefit from remote work, and which depend on physical coordination?” Now she may interview different people, look for different evidence, and end up writing a different article. The first frame was not wrong. It just resolved the difficulty before it had a chance to surface any further questions or connections. Tequia Burt 03
 
 ## What determines whether an AI suggestion settles an inquiry too early or becomes useful material the writer actively works through? How much depends on timing, the writer’s expertise, or the nature of the task?
 
@@ -140,9 +140,9 @@ How AI changes the course of writing
 Source ID research-ai-writing-interview:timing-and-expertise
 Original https://www.henryw.me/#/research/ai-writing-interview#timing-and-expertise
 
-Henry Wang I think this depends on what the writer is doing at the moment the suggestion arrives. If I already understand a relation and just cannot phrase it well, AI may be helping me say something I already know. If trying to write the sentence is how I am still figuring out the relation, the same answer can do something quite different. Expertise probably matters too. An expert usually has more existing relations and constraints for a new suggestion to fit with. Something that sounds coherent to a novice may immediately feel wrong to an expert because it clashes with something else they know. The nature of the task matters as well. Some tasks have a fairly constrained destination but still require substantial construction from the person doing them. If the goal is only to produce a correct artifact, skipping some of that construction may not matter much.
+Henry Wang I think this depends on what the writer is doing at the moment the suggestion arrives. Timing matters. If I already understand a relation and just cannot phrase it well, AI may be helping me say something I already know. If trying to write the sentence is how I am still figuring out the relation, the same answer can do something quite different. Expertise probably matters too. An expert usually has more existing relations and constraints for a new suggestion to fit with. Something that sounds coherent to a novice may immediately feel wrong to an expert because it clashes with something else they know. The nature of the task matters as well. Some tasks have a fairly constrained destination but still require substantial construction from the person doing them. If the goal is only to produce a correct artifact, skipping some of that construction may not matter much.
 
-If the construction itself is part of how the person is learning, then the same shortcut changes what they get from doing the task. But this distinction depends on being able to tell how constrained the task really is. From inside an inquiry, that is often difficult to know. You may be slowly working toward something fairly standard, or you may be one connection away from seeing the material differently. You have to decide whether to keep working before you know what that work would produce. That uncertainty seems important to me. It makes the value of continuing difficult to judge from the writer's own position.
+If the construction itself is part of how the person is learning, then the same shortcut changes what they get from doing the task. But this distinction depends on being able to tell how constrained the task really is. From inside an inquiry, that is often difficult to know. You may be slowly working toward something fairly standard, or you may be one connection away from seeing the material differently. You have to decide whether to keep working before you know what that work would produce. That uncertainty seems important to me. It makes the value of continuing difficult to judge from the writer's own position. Tequia Burt 04
 
 ## Editors and other collaborators can also provide a solution before a writer has completed the underlying thinking. What makes language models different, beyond the speed and frequency with which they can intervene?
 
@@ -154,7 +154,7 @@ Henry Wang What seems different to me is how much independent structure tends to
 
 I bring it whatever problem is blocking me at the moment and ask how I might continue. If it finds a locally coherent connection that gets me past that difficulty, the interaction has already done what I needed it to do. There may be many other relevant relations the model could surface, but the immediate problem does not require them. It can give me enough structure to continue without expanding the space very much beyond the question I was already able to ask. That can then repeat throughout the draft. I reach a difficulty, get a satisfactory way through it, continue from there, and later return with the next difficulty. Each answer can be useful on its own while the inquiry develops through a sequence of these local resolutions. That is the pattern I was trying to capture in the paper.
 
-A collaborator brings a separately developed structure into the exchange almost by default simply because they have one. With a language model, it is very easy to keep getting help that is closely fitted to the problem as I have already formulated it.
+A collaborator brings a separately developed structure into the exchange almost by default simply because they have one. With a language model, it is very easy to keep getting help that is closely fitted to the problem as I have already formulated it. Tequia Burt 05
 
 ## What would an empirical study need to observe or capture to test this framework? How might researchers distinguish an avenue of inquiry that was foreclosed from one the writer simply considered and rejected?
 
@@ -166,7 +166,7 @@ Henry Wang I'm still working this one out. I think there are two different quest
 
 Does changing when or how assistance arrives change the kinds of relations that get developed? For the distinction you asked about between a foreclosed avenue and one the writer considered and rejected, I think the important question is whether the alternative ever became developed enough to be evaluated. A rejected idea should leave some trace. It may appear in notes, a draft, a question the writer asked, or an explanation of why they decided against it. With foreclosure, there may only be an unresolved tension or a partially forming connection before the assistance arrives, and then that line of work disappears. We still could not say that one particular missing idea definitely would have appeared. But at least we could study whether different kinds of assistance systematically change which relations get far enough to be considered.
 
-The harder question is whether whatever was lost was worth more than the time and effort AI saved. That depends a lot on what the person is trying to do. If I need a workable recommendation this afternoon, stopping once I have a good answer may be entirely sensible. If I am doing research and the point is to find a better explanation, I may be willing to spend much longer following uncertain directions.
+The harder question is whether whatever was lost was worth more than the time and effort AI saved. That depends a lot on what the person is trying to do. If I need a workable recommendation this afternoon, stopping once I have a good answer may be entirely sensible. If I am doing research and the point is to find a better explanation, I may be willing to spend much longer following uncertain directions. Tequia Burt 06
 
 ## Are there practices that could help writers use AI without bypassing the work that expands what they are able to question, defend, or develop?
 
@@ -174,7 +174,7 @@ How AI changes the course of writing
 Source ID research-ai-writing-interview:designing-assistance
 Original https://www.henryw.me/#/research/ai-writing-interview#designing-assistance
 
-Henry Wang I think there are two separate parts of the interaction that matter here. One is what the AI contributes. If I am stuck between two ideas, it can give me the connection needed to move forward. But it could also surface other relations around the problem that are not necessary for solving the immediate difficulty and might open up other directions. The other is how that contribution is presented. The same underlying connection could arrive as a finished interpretation, a question, a tension to resolve, two competing frames, or a counterexample. Those forms leave very different amounts of construction for the writer to do. There is some evidence that this difference in form matters. In Don't Just Tell Me, Ask Me, framing similar information as questions rather than direct explanations led people to reason with it differently (Danry et al.
+Henry Wang I think there are two separate parts of the interaction that matter here. One is what the AI contributes. If I am stuck between two ideas, it can give me the connection needed to move forward. But it could also surface other relations around the problem that are not necessary for solving the immediate difficulty and might open up other directions. The other is how that contribution is presented. The same underlying connection could arrive as a finished interpretation, a question, a tension to resolve, two competing frames, or a counterexample. Those forms leave very different amounts of construction for the writer to do. There is some evidence that this difference in form matters. In Don't Just Tell Me, Ask Me, framing similar information as questions rather than direct explanations led people to reason with it differently (Danry et al., 2023).
 
 That is close to what I have in mind here. The contribution can be similar, while the way it is presented changes what the person still has to work out for themselves. Sometimes a finished answer is exactly what I want. If I have already done the conceptual work and am stuck on wording, there may be little value in making the interaction more elaborate. The more difficult case is when I am still trying to understand the material. Then I would want the system to help without simply turning every local difficulty into a stopping point. That could mean leaving some of the construction for me to do, or bringing in connections that expand the problem beyond the one I have already formulated. I still don't know exactly how a system should decide what to contribute, or in what form, given the task and the writer's state at that moment. That's something I'm interested in pursuing next.
 
@@ -184,7 +184,7 @@ How AI changes the course of writing
 Source ID research-ai-writing-interview:references
 Original https://www.henryw.me/#/research/ai-writing-interview#references
 
-Don’t just tell me, ask me: AI systems that intelligently frame explanations as questions improve human logical discernment accuracy over causal AI explanations. Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems, 1–13. Generative AI enhances individual creativity but reduces the collective diversity of novel content. Science Advances, 10(28), eadn5290. Language Sciences, 29(5), 621–632.
+Danry, V., Pataranutaporn, P., Mao, Y., & Maes, P. (2023). Don’t just tell me, ask me: AI systems that intelligently frame explanations as questions improve human logical discernment accuracy over causal AI explanations. Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems, 1–13. Read paper Doshi, A. R., & Hauser, O. P. (2024). Generative AI enhances individual creativity but reduces the collective diversity of novel content. Science Advances, 10(28), eadn5290. Read paper Menary, R. (2007). Writing as thinking. Language Sciences, 29(5), 621–632. Read paper
 
 ## Research I've Been Part Of
 
@@ -192,9 +192,9 @@ Research
 Source ID research:overview
 Original https://www.henryw.me/#/research
 
-I study how people and AI systems learn from experience, represent knowledge and use it to think and act. As AI becomes part of everyday thinking, I investigate how it shapes the understanding, judgement and abilities people develop. I study how people learn from experience and use what they know. Through experiments and computational models, I examine how internal representations develop and change, and how they support memory, concepts, generalisation, reasoning and action. I build models to develop explanations of these processes and derive predictions for behavioural experiments. I pursue part of this work with Dr. Lee at the University of Hong Kong's Speech, Language, and Reading Lab . For AI systems, I study what they learn during training and how it shapes their behaviour.
+I study how people and AI systems learn from experience, represent knowledge and use it to think and act. As AI becomes part of everyday thinking, I investigate how it shapes the understanding, judgement and abilities people develop. I study how people learn from experience and use what they know. Through experiments and computational models, I examine how internal representations develop and change, and how they support memory, concepts, generalisation, reasoning and action. I build models to develop explanations of these processes and derive predictions for behavioural experiments. I pursue part of this work with Dr. Stephen M. K. Lee at the University of Hong Kong's Speech, Language, and Reading Lab . For AI systems, I study what they learn during training and how it shapes their behaviour.
 
-I use behavioural tests and causal interventions to examine their internal representations, how they use information during a task, and how their computations produce the capabilities we observe. In human-AI interaction, I study how AI's involvement in everyday life shapes people's cognition and behaviour. This includes how people learn, direct their attention, remember and make decisions, and how their abilities develop through interaction. I am also interested in how people adapt AI to their own purposes, and how those purposes change as they use it. I’m interested in how research on human cognition can inspire new approaches to AI, and how building and studying AI can deepen our understanding of the mind. I hope to draw on both to design new ways for people to think, create and act with AI.
+I use behavioural tests and causal interventions to examine their internal representations, how they use information during a task, and how their computations produce the capabilities we observe. In human-AI interaction, I study how AI's involvement in everyday life shapes people's cognition and behaviour. This includes how people learn, direct their attention, remember and make decisions, and how their abilities develop through interaction. I am also interested in how people adapt AI to their own purposes, and how those purposes change as they use it. I’m interested in how research on human cognition can inspire new approaches to AI, and how building and studying AI can deepen our understanding of the mind. I hope to draw on both to design new ways for people to think, create and act with AI. entry.id === pub.id)" />
 
 ## The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization?
 
@@ -224,15 +224,15 @@ In trying to finish a passage, a writer may connect her material in ways that ch
 
 Useful answers can therefore sustain inquiry along a path while cutting short work that could have opened another. This makes the formation of new arguments and questions part of what is at stake in a response that successfully resolves the present task.
 
-## Functional Encoding and Representational Binding in Componential Transfer
+## Function-Vector Heads Are Two Populations: Writers and Cancellers in In-Context Learning
 
 Research
-Source ID research:encoding
-Original https://www.henryw.me/#/research#encoding
+Source ID research:functionVector
+Original https://www.henryw.me/#/research#functionVector
 
-Why can a learner demonstrate a rule during training yet fail to use it on a new item? We built a computational account in which transfer depends on how useful components are encoded and bound together. Functional encoding determines which components enter the representation used to generate a response. Representational binding determines whether those components remain available as reusable parts or become fused with the whole stimulus. Varying these properties lets us generate patterns of learning and transfer within one model. Across artificial orthography, Chinese character learning and artificial grammar, tests that preserve a trained component primarily reveal its encoding, while recombination tests reveal how the components are bound.
+I studied how a language model carries out a task inferred from examples in its prompt. Function vectors capture this task information through the combined outputs of attention heads. Among candidate function-vector heads, I identified writers that support the answer specified by the demonstrated rule and cancellers that systematically suppress it. Interventions on individual heads established these roles, and tests on new prompts showed that the groups had opposing effects on prediction. Removing cancellers improved accuracy by 2.4 to 6.8 percentage points across two rule families and three Pythia models. The dominant suppressive contributions depended on the task content the heads read. These roles also depended on the task, as some of the same components supported correct answers in a different setting.
 
-A continuous binding parameter accounts for patterns previously attributed to two separate systems, connecting those patterns to how knowledge is organised.
+Examining the groups separately revealed substantial support and suppression that could nearly cancel in the combined effect. This explains how a population with a small combined effect can still contain components that strongly affect prediction.
 
 ## Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation
 
@@ -244,15 +244,15 @@ I studied how people and large reasoning models allocate effort once a problem b
 
 This makes the decision to continue a question about the return on further computation, and gives a basis for understanding how people and models can recognise the same difficulty yet pursue different courses of action.
 
-## Function-Vector Heads Are Two Populations: Writers and Cancellers in In-Context Learning
+## Functional Encoding and Representational Binding in Componential Transfer
 
 Research
-Source ID research:functionVector
-Original https://www.henryw.me/#/research#functionVector
+Source ID research:encoding
+Original https://www.henryw.me/#/research#encoding
 
-I studied how a language model carries out a task inferred from examples in its prompt. Function vectors describe this task information through the combined activity of influential attention heads. I asked whether those heads serve the same role when producing an answer. I preserved the direction of each head’s contribution using signed direct logit attribution, then validated its direct effect with path patching. This separates writers, which favour the rule-correct answer, from cancellers, which oppose it. Ablating the two groups on held-out prompts tested whether these roles predicted their effects on new examples. Separate measurements of attention and output directions revealed differences in what the groups read and how they write into the model’s computation. The opposed lesion directions recur across fifteen model–task combinations.
+Why can a learner demonstrate a rule during training yet fail to use it on a new item? We built a computational account in which transfer depends on how useful components are encoded and bound together. Functional encoding determines which components enter the representation used to generate a response. Representational binding determines whether those components remain available as reusable parts or become fused with the whole stimulus. Varying these properties lets us generate patterns of learning and transfer within one model. Across artificial orthography, Chinese character learning and artificial grammar, tests that preserve a trained component primarily reveal its encoding, while recombination tests reveal how the components are bound.
 
-Individual heads can change roles when the task changes. I show why identifying a head as influential leaves a further question about what it contributes in a particular task. A function vector can represent a task while the heads implementing it make opposing contributions to the answer.
+A continuous binding parameter accounts for patterns previously attributed to two separate systems, connecting those patterns to how knowledge is organised.
 
 ## Things I've Built
 
@@ -277,6 +277,18 @@ Source ID projects:slidepoise
 Original https://www.henryw.me/#/projects?to=slidepoise
 
 SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. AI helps develop the content and explore compositions using your references and assets. The Agent interprets the chosen design, OpenCV measures its geometry, and local tools reconstruct the slides as editable objects. Shared styles and original assets keep the slides consistent. Reviewing the rendered deck then checks how closely the editable presentation follows the chosen design.
+
+## Cathay Flex
+
+Builds
+Source ID projects:cathayflex
+Original https://www.henryw.me/#/projects?to=cathayflex
+
+Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one. Contributions and benefits can occur at different times, giving the airline more ways to meet passenger demand within existing capacity.
+
+AI interprets natural-language preferences in booking context and produces structured conditions that each traveller reviews. Graph search discovers candidate swaps, chains and cycles. Branch-and-bound selects compatible arrangements under passenger requirements, resource capacity and credit funding constraints. A shared conditional order book maintains active requests, flexibility rules and transaction status.
+
+The transaction and settlement layer adapts mechanisms from financial exchanges to passenger consent, conditional travel arrangements and airline fulfilment. A conditional order book tracks active requests, agreed terms, reservations and transaction states. Versioned holds reserve resources and credits, and optimistic concurrency control rejects stale writes. Idempotency keys let repeated commands return their recorded result, while idempotent settlement prevents duplicate credit movements. If a booking update has an uncertain outcome, reconciliation keeps the resources and credits reserved until the complete arrangement is verified. Tests exercise request expiry, competing acceptance and withdrawal, duplicate execution and lost fulfilment acknowledgements.
 
 ## AI for IT Operations
 
@@ -372,7 +384,7 @@ Insurance Product Configuration Engine
 Source ID playbook:overview
 Original https://www.henryw.me/#/playbook
 
-Mapping insurance requirements to the app’s screens and fields At HSBC , I built an Excel/VBA tool that determines which screens and fields a banking app needs for each insurance product. The team can enter a product’s specifications, generate its configuration and update the shared rules as products and requirements change.
+Mapping insurance requirements to the app’s screens and fields At HSBC , I built an Excel/VBA tool that determines which screens and fields a banking app needs for each insurance product. The team can enter a product’s specifications, generate its configuration and update the shared rules as products and requirements change. 00 Context
 
 ## Configuring the app for different insurance products
 
@@ -380,7 +392,7 @@ Insurance Product Configuration Engine
 Source ID playbook:first-the-problem
 Original https://www.henryw.me/#/playbook#first-the-problem
 
-Across dozens of insurance products in multiple markets, the app needed different screens and questions. Travel insurance might need trip dates, motor insurance might need vehicle details, and an earlier answer could determine which follow-up question appeared. The team needed a way to express those differences and generate the corresponding configuration. Product specifications described the business requirements, while design libraries defined the screens and fields available to implement them. Engineering needed a configuration identifying which components each product required. I worked on making the relationship between these descriptions explicit, so a change in requirements could be carried through to the app configuration.
+Across dozens of insurance products in multiple markets, the app needed different screens and questions. Travel insurance might need trip dates, motor insurance might need vehicle details, and an earlier answer could determine which follow-up question appeared. The team needed a way to express those differences and generate the corresponding configuration. Product specifications described the business requirements, while design libraries defined the screens and fields available to implement them. Engineering needed a configuration identifying which components each product required. I worked on making the relationship between these descriptions explicit, so a change in requirements could be carried through to the app configuration. 01 Mapping
 
 ## Making the configuration rules reusable
 
@@ -390,7 +402,7 @@ Original https://www.henryw.me/#/playbook#the-idea
 
 The required interface depended on combinations of product choices and conditions. I represented each relevant combination as a business scenario and defined rules for the components it required. This gave the engine a sequence it could evaluate, first establishing which scenarios applied, then selecting their screens and fields. Many products reuse the same definitions, conditions and components. Maintaining separate rules for each product would mean revising the same logic in several places whenever a shared requirement changed. I organised these into linked libraries, where each shared definition could be maintained once. Decision tables record which product values satisfy a scenario and which UI components it requires. Product specification The questions, allowed values and conditional inputs used to describe a product's requirements.
 
-UI components The reusable screens, fields, and interface components available in the app. Decision tables The conditions that map specification values to the UI-component requirements for each business scenario. The engine follows product specification → business scenarios → UI-component requirements . The team can follow the same path backwards to see which scenario selected a screen or field and which product values made that scenario apply. The mapping gives them a way to inspect the generated configuration and the rules behind it. A new product can reuse the existing definitions with a different set of values. When a shared condition changes, the team can revise its decision table and regenerate the affected configurations. Keeping these rules outside the VBA code also makes that part of the engine accessible to the people maintaining the requirements.
+UI components The reusable screens, fields, and interface components available in the app. Decision tables The conditions that map specification values to the UI-component requirements for each business scenario. The engine follows product specification → business scenarios → UI-component requirements . The team can follow the same path backwards to see which scenario selected a screen or field and which product values made that scenario apply. The mapping gives them a way to inspect the generated configuration and the rules behind it. A new product can reuse the existing definitions with a different set of values. When a shared condition changes, the team can revise its decision table and regenerate the affected configurations. Keeping these rules outside the VBA code also makes that part of the engine accessible to the people maintaining the requirements. 02 Try it
 
 ## Try the rules on a trip
 
@@ -398,7 +410,7 @@ Insurance Product Configuration Engine
 Source ID playbook:try-it
 Original https://www.henryw.me/#/playbook#try-it
 
-Try changing the trip type, destination or length below and follow the effect through the highlighted rules to the packing list. Notice how a choice can reveal a follow-up question, and how separate decision tables each contribute to the final output.
+Try changing the trip type, destination or length below and follow the effect through the highlighted rules to the packing list. Notice how a choice can reveal a follow-up question, and how separate decision tables each contribute to the final output. 03 Automation
 
 ## Automating product configuration
 
@@ -414,7 +426,7 @@ Lexaday
 Source ID lexaday:overview
 Original https://www.henryw.me/#/lexaday
 
-Related words, memorable images, and reviews by email Lexaday explores whether an image attached to a word root can help learners develop a feel for its meaning across a family of words. Each lesson combines a generated image with a family of related words, and a personalised review schedule brings those connections back over time.
+Related words, memorable images, and reviews by email Lexaday explores whether an image attached to a word root can help learners develop a feel for its meaning across a family of words. Each lesson combines a generated image with a family of related words, and a personalised review schedule brings those connections back over time. 01 Words & images
 
 ## Remembering roots through images
 
@@ -422,7 +434,7 @@ Lexaday
 Source ID lexaday:a-small-lesson-generated-fresh-each-morning
 Original https://www.henryw.me/#/lexaday#a-small-lesson-generated-fresh-each-morning
 
-A vivid image seemed a promising way to make a word’s meaning easier to recall. Giving every word its own picture, though, would create a new association to learn each time. I was interested in whether the same memory could help with several words, including ones I had not encountered yet. Roots offered a more compact starting point. Many words share an underlying idea such as speaking, hearing or sending. I used this shared meaning as the basis for a visual mnemonic, giving related words a common image to return to. Each lesson develops one root through those connections. For dict , associated with speaking, examples such as dictate , contradict and prediction show how the meaning takes different forms. A language model writes the explanations and examples, and an image model creates a visual mnemonic around the root’s meaning. The images here come from those lessons.
+A vivid image seemed a promising way to make a word’s meaning easier to recall. Giving every word its own picture, though, would create a new association to learn each time. I was interested in whether the same memory could help with several words, including ones I had not encountered yet. Roots offered a more compact starting point. Many words share an underlying idea such as speaking, hearing or sending. I used this shared meaning as the basis for a visual mnemonic, giving related words a common image to return to. Each lesson develops one root through those connections. For dict , associated with speaking, examples such as dictate , contradict and prediction show how the meaning takes different forms. A language model writes the explanations and examples, and an image model creates a visual mnemonic around the root’s meaning. The images here come from those lessons. 02 Review schedule
 
 ## Scheduling new roots and reviews
 
@@ -430,7 +442,7 @@ Lexaday
 Source ID lexaday:the-learning-loop
 Original https://www.henryw.me/#/lexaday#the-learning-loop
 
-I built spaced repetition into the daily emails so earlier roots would return alongside new material. The intervals increase through one, two, four, eight, and progressively more runs. Each learner needs a separate schedule because the roots they have seen and their last review dates differ. A saved progress record lets the job select one unseen root alongside any reviews due that day, before generating the lesson.
+I built spaced repetition into the daily emails so earlier roots would return alongside new material. The intervals increase through one, two, four, eight, and progressively more runs. Each learner needs a separate schedule because the roots they have seen and their last review dates differ. A saved progress record lets the job select one unseen root alongside any reviews due that day, before generating the lesson. 1
 
 ## Due today
 
@@ -438,7 +450,7 @@ Lexaday
 Source ID lexaday:pick
 Original https://www.henryw.me/#/lexaday#pick
 
-The learner's record determines which root is new and which earlier roots need another look.
+The learner's record determines which root is new and which earlier roots need another look. 2
 
 ## Words in context
 
@@ -446,7 +458,7 @@ Lexaday
 Source ID lexaday:write
 Original https://www.henryw.me/#/lexaday#write
 
-A language model writes the introduction and example sentences for the root's related words.
+A language model writes the introduction and example sentences for the root's related words. 3
 
 ## A visual cue
 
@@ -454,7 +466,7 @@ Lexaday
 Source ID lexaday:imagine
 Original https://www.henryw.me/#/lexaday#imagine
 
-The root's meaning guides an image prompt, which an image model uses to create the mnemonic.
+The root's meaning guides an image prompt, which an image model uses to create the mnemonic. 4
 
 ## The daily email
 
@@ -462,7 +474,7 @@ Lexaday
 Source ID lexaday:send
 Original https://www.henryw.me/#/lexaday#send
 
-The lesson and images are assembled into an HTML email, and the progress record is saved for the next run.
+The lesson and images are assembled into an HTML email, and the progress record is saved for the next run. 03 Daily lesson
 
 ## The daily lesson
 
@@ -478,7 +490,7 @@ Stride Support
 Source ID stride:overview
 Original https://www.henryw.me/#/stride
 
-Customer support with retrieval, recommendations and tool use A customer asking about a return needs an answer that connects the policy to their purchase and helps them take the next step. For this course project, we built an assistant that retrieves relevant information, works with order records and carries out support actions through conversation. Retrieval-augmented generation (RAG) supplies the model with product and policy material, while recommendation and sentiment models help it choose useful suggestions and respond to the customer’s tone.
+Customer support with retrieval, recommendations and tool use A customer asking about a return needs an answer that connects the policy to their purchase and helps them take the next step. For this course project, we built an assistant that retrieves relevant information, works with order records and carries out support actions through conversation. Retrieval-augmented generation (RAG) supplies the model with product and policy material, while recommendation and sentiment models help it choose useful suggestions and respond to the customer’s tone. 01 Context
 
 ## Keeping the order in context
 
@@ -486,7 +498,7 @@ Stride Support
 Source ID stride:keeping-the-order-in-context
 Original https://www.henryw.me/#/stride#keeping-the-order-in-context
 
-” depends on which order the customer means. The interface lists ongoing and past orders and lets the customer select one. It sends that order’s status, items and delivery context with each message. Switching the selection changes the context supplied for the next turn. The backend supplies the active customer’s identity to the relevant tools. The same purchase therefore anchors the interface, the model’s interpretation and the database queries behind its response. A conversation can continue across an order check, a policy question and a complaint while keeping that reference consistent.
+“When will this arrive?” depends on which order the customer means. The interface lists ongoing and past orders and lets the customer select one. It sends that order’s status, items and delivery context with each message. Switching the selection changes the context supplied for the next turn. The backend supplies the active customer’s identity to the relevant tools. The same purchase therefore anchors the interface, the model’s interpretation and the database queries behind its response. A conversation can continue across an order check, a policy question and a complaint while keeping that reference consistent. 02 Tools
 
 ## Connecting retrieval to support actions
 
@@ -512,7 +524,7 @@ Dealtracker
 Source ID dealtracker:overview
 Original https://www.henryw.me/#/dealtracker
 
-Outdoor clothing sale alerts matched to my preferences During my exchange in Melbourne, I noticed that outdoor brands I liked, including Arc’teryx and Patagonia, were often cheaper than in Hong Kong and frequently discounted. Finding the right item still meant checking long sale pages before an offer ended. Dealtracker automates those checks and emails me when it finds a new match for my saved preferences.
+Outdoor clothing sale alerts matched to my preferences During my exchange in Melbourne, I noticed that outdoor brands I liked, including Arc’teryx and Patagonia, were often cheaper than in Hong Kong and frequently discounted. Finding the right item still meant checking long sale pages before an offer ended. Dealtracker automates those checks and emails me when it finds a new match for my saved preferences. 01 Preferences
 
 ## A shortlist in my inbox
 
@@ -538,7 +550,7 @@ Original https://www.henryw.me/#/dealtracker#what-happens-behind-the-email
 
 WildEarth and Find Your Feet express similar products and filters differently. Applying my preferences consistently meant first accounting for each store’s URL format, page loading, and product labels. I kept the store-specific handling at the point of collection, then normalised the listings so the same filtering and email logic could work across both retailers. The stages below follow a listing into the digest. Store filters Saved brand, size, gender, and discount preferences are encoded in the URL format each store expects. Page loading A headless browser runs the page’s scripts so it can read product grids loaded after the initial response. Product data Arc'teryx and Arcteryx count as the same brand. When a store's gender labels are inconsistent, the product title is used to infer the category.
 
-New matches Each qualifying product is checked against the saved history before it can enter the digest. Delivery An HTML email is sent when at least one new product passes all filters.
+New matches Each qualifying product is checked against the saved history before it can enter the digest. Delivery An HTML email is sent when at least one new product passes all filters. 04 History
 
 ## Remembering what I have already seen
 
@@ -556,7 +568,7 @@ Original https://www.henryw.me/#/scrollytelling
 
 A web presentation whose charts unfold as you scroll For a course presentation about the electricity and water demands of AI infrastructure, I needed to explain relationships through maps, distributions, and flows. Showing a complete chart on a slide asked the audience to absorb its structure while following the argument. I built a scrolling web presentation so a figure could stay in view as the explanation introduced one relationship at a time. Readers could move through the argument at their own pace, watching the relevant data appear. As I developed the presentation, I began separating the content of each scene from the code that drew and animated it. Several scenes could use the same kind of chart, and changing their text or data should require only changes to that content. Reusable renderers built with D3, a JavaScript library for data visualisation, made this possible.
 
-The resulting engine could support other presentations using the same chart builders.
+The resulting engine could support other presentations using the same chart builders. 01 Presentation
 
 ## The presentation in motion
 
@@ -564,7 +576,7 @@ Scrollytelling Engine
 Source ID scrollytelling:see-it-as-a-story
 Original https://www.henryw.me/#/scrollytelling#see-it-as-a-story
 
-The embedded deck shows the engine in use. A line chart develops the comparison between electricity demand and grid capacity, while a map places water scarcity in its geographic context. Scroll inside the frame to follow the complete presentation.
+The embedded deck shows the engine in use. A line chart develops the comparison between electricity demand and grid capacity, while a map places water scarcity in its geographic context. Scroll inside the frame to follow the complete presentation. 02 Renderers
 
 ## Defining scenes with reusable D3 renderers
 
@@ -572,7 +584,7 @@ Scrollytelling Engine
 Source ID scrollytelling:describe-a-scene-once-then-let-the-engine-build-it
 Original https://www.henryw.me/#/scrollytelling#describe-a-scene-once-then-let-the-engine-build-it
 
-Each scene describes its text, figure type, and rendering settings in a data object with a shared schema. A renderer registry connects that figure type to the appropriate D3 builder, which draws and animates the visual using the supplied data. Adding a new line-chart scene, for example, means supplying another set of content and settings to the existing line-chart builder. The explorer below uses the same builders as the full deck. Choose a figure to compare its scene definition with the rendered result, including the settings that control its data and appearance.
+Each scene describes its text, figure type, and rendering settings in a data object with a shared schema. A renderer registry connects that figure type to the appropriate D3 builder, which draws and animates the visual using the supplied data. Adding a new line-chart scene, for example, means supplying another set of content and settings to the existing line-chart builder. The explorer below uses the same builders as the full deck. Choose a figure to compare its scene definition with the rendered result, including the settings that control its data and appearance. 03 Consistency
 
 ## Keeping the scenes consistent
 
@@ -692,7 +704,7 @@ AI × Self
 Source ID aipersonalarchive:overview
 Original https://www.henryw.me/#/aipersonalarchive
 
-An AI-driven personal archive Visitors can ask AI a question about my work, ideas or experiences. AI connects material from this site into a View, an illustrated article that answers their question and includes the original work. Each View also becomes an exhibition visitors can walk through, and the Gallery brings shared exhibitions together.
+An AI-driven personal archive Visitors can ask AI a question about my work, ideas or experiences. AI connects material from this site into a View, an illustrated article that answers their question and includes the original work. Each View also becomes an exhibition visitors can walk through, and the Gallery brings shared exhibitions together. 00 The project
 
 ## An archive open to different perspectives
 
@@ -708,7 +720,7 @@ AI × Self
 Source ID aipersonalarchive:system-architecture
 Original https://www.henryw.me/#/aipersonalarchive#system-architecture
 
-At build time, the site prepares passages, embeddings and a component catalogue. Search runs in the browser. Cloudflare Workers supply context to Gemini for Ask answers and View compositions. MiniLM creates the search embeddings locally through Transformers. js, and Fish Audio provides narration in my AI voice. The text API makes the public material available to visitors’ own agents. A shared JSON schema connects each View to its Vue article and Three. Cloudflare D1 stores saved readings and source snapshots, while R2 holds their media. The Gallery brings the public readings together.
+At build time, the site prepares passages, embeddings and a component catalogue. Search runs in the browser. Cloudflare Workers supply context to Gemini for Ask answers and View compositions. MiniLM creates the search embeddings locally through Transformers.js, and Fish Audio provides narration in my AI voice. The text API makes the public material available to visitors’ own agents. A shared JSON schema connects each View to its Vue article and Three.js exhibition. Cloudflare D1 stores saved readings and source snapshots, while R2 holds their media. The Gallery brings the public readings together. 01 Search
 
 ## Find a passage in its original context
 
@@ -716,9 +728,9 @@ AI × Self
 Source ID aipersonalarchive:find-a-passage-in-its-original-context
 Original https://www.henryw.me/#/aipersonalarchive#find-a-passage-in-its-original-context
 
-As the site grew, I added Search so visitors could quickly find relevant material across its pages. Each result shows a matching passage and opens its place on the original page. Search combines lexical and semantic retrieval. Word matching finds names and technical terms, while embeddings find passages with related meaning. A query about translating business requirements into software can therefore surface my work at HSBC without naming the company. How Search finds related material At build time, all-MiniLM-L6-v2 encodes each passage as a 384-dimensional embedding. I quantise these vectors to 8-bit values to keep the download compact. js runs the same model in the browser to embed a query, then cosine similarity ranks the passages by meaning. js supplies the word-match ranking. Weighted reciprocal-rank fusion combines it with the semantic ranking, giving word matches twice the weight.
+As the site grew, I added Search so visitors could quickly find relevant material across its pages. Each result shows a matching passage and opens its place on the original page. Search combines lexical and semantic retrieval. Word matching finds names and technical terms, while embeddings find passages with related meaning. A query about translating business requirements into software can therefore surface my work at HSBC without naming the company. How Search finds related material At build time, all-MiniLM-L6-v2 encodes each passage as a 384-dimensional embedding. I quantise these vectors to 8-bit values to keep the download compact. Transformers.js runs the same model in the browser to embed a query, then cosine similarity ranks the passages by meaning. Fuse.js supplies the word-match ranking.
 
-Using rank positions lets the two methods contribute despite their different scoring scales. Search excludes semantic matches below 0. Adjust the threshold in the comparison to see which passages remain.
+Weighted reciprocal-rank fusion combines it with the semantic ranking, giving word matches twice the weight. Using rank positions lets the two methods contribute despite their different scoring scales. Search excludes semantic matches below 0.24 cosine similarity. Adjust the threshold in the comparison to see which passages remain.
 
 ## The archive as a space
 
@@ -726,7 +738,7 @@ AI × Self
 Source ID aipersonalarchive:seeing-the-archive-as-a-space
 Original https://www.henryw.me/#/aipersonalarchive#seeing-the-archive-as-a-space
 
-The embedding map gives the archive a spatial form. Projects, research and personal writing appear together as a field of points. Their positions make patterns of similarity visible across material that lives on separate pages. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here.
+The embedding map gives the archive a spatial form. Projects, research and personal writing appear together as a field of points. Their positions make patterns of similarity visible across material that lives on separate pages. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning. A visitor can add a question to see where it falls within the material already here. 02 Ask
 
 ## Ask brings related passages into one answer
 
@@ -736,7 +748,7 @@ Original https://www.henryw.me/#/aipersonalarchive#ask-brings-related-passages-i
 
 I built Ask to let the site respond directly to visitors’ questions. It uses retrieval-augmented generation (RAG), giving a language model relevant material from my work, ideas and experiences to draw on. The model returns a structured response, which the interface presents as an answer with a linked source list and follow-up questions. Visitors can also listen to the answer in an AI voice trained on recordings of my own voice. How Ask uses the source material The browser assembles the public site passages, including writing selected through retrieval, and sends them with the question to a Cloudflare Worker. The Worker supplies this context to Gemini. Numbered passages let the model cite its sources. The answer carries those citation numbers, while separate response sections contain follow-up questions, navigation actions and a possible View offer.
 
-The browser parses these into interface elements and builds the source list, grouping citations to the same location. Navigation actions map to the site’s registered routes and controls. I also embed the proposed follow-up questions and compare them with the archive, using a 0. 30 cosine-similarity threshold to select suggestions supported by site material.
+The browser parses these into interface elements and builds the source list, grouping citations to the same location. Navigation actions map to the site’s registered routes and controls. I also embed the proposed follow-up questions and compare them with the archive, using a 0.30 cosine-similarity threshold to select suggestions supported by site material.
 
 ## How does Ask handle different kinds of questions?
 
@@ -744,7 +756,7 @@ AI × Self
 Source ID aipersonalarchive:how-does-ask-handle-different-kinds-of-questions
 Original https://www.henryw.me/#/aipersonalarchive#how-does-ask-handle-different-kinds-of-questions
 
-Ask classifies questions to choose an appropriate response. For questions about using the site, it offers a link or action. For questions about my work and ideas, it explains the relevant material and can offer a View for a fuller interpretation.
+Ask classifies questions to choose an appropriate response. For questions about using the site, it offers a link or action. For questions about my work and ideas, it explains the relevant material and can offer a View for a fuller interpretation. 03 View
 
 ## View reorganises the site around a question
 
@@ -752,7 +764,7 @@ AI × Self
 Source ID aipersonalarchive:view-reorganises-the-site-around-a-question
 Original https://www.henryw.me/#/aipersonalarchive#view-reorganises-the-site-around-a-question
 
-A View brings together my work, ideas and experiences around a visitor’s question. AI connects the selected material into a narrative and places the original works within it for visitors to explore. Different questions bring out different relationships in the same archive. A reading about learning might connect a research study with an education project, revealing something neither piece explains on its own.
+A View brings together my work, ideas and experiences around a visitor’s question. AI connects the selected material into a narrative and places the original works within it for visitors to explore. Different questions bring out different relationships in the same archive. A reading about learning might connect a research study with an education project, revealing something neither piece explains on its own. Compose a View
 
 ## How does AI build an interpretation around a question?
 
@@ -768,7 +780,7 @@ AI × Self
 Source ID aipersonalarchive:a-reading-to-save-and-share
 Original https://www.henryw.me/#/aipersonalarchive#a-reading-to-save-and-share
 
-A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection. Other visitors can explore these readings and see the archive through someone else’s perspective.
+A saved View brings together its question, narrative, sources, illustrations and audio. Its permanent link lets the creator return to that version or share it with someone else. Creators can also publish a View in the shared collection. Other visitors can explore these readings and see the archive through someone else’s perspective. 04 Gallery
 
 ## Every View becomes an exhibition
 
@@ -776,7 +788,7 @@ AI × Self
 Source ID aipersonalarchive:every-view-becomes-an-exhibition
 Original https://www.henryw.me/#/aipersonalarchive#every-view-becomes-an-exhibition
 
-I turned each View into an exhibition so visitors could explore its perspective by moving among the original works. The narrative guides the visit, and visitors can pause to explore a photograph, passage or project and make connections of their own. Each section becomes a room, with photographs on walls, writing on reading stands and places on a globe. The layout responds to the number and type of works in each section, connecting the rooms in reading order. Each interpretation has its own route through the archive.
+I turned each View into an exhibition so visitors could explore its perspective by moving among the original works. The narrative guides the visit, and visitors can pause to explore a photograph, passage or project and make connections of their own. Each section becomes a room, with photographs on walls, writing on reading stands and places on a globe. The layout responds to the number and type of works in each section, connecting the rooms in reading order. Each interpretation has its own route through the archive. Visit an exhibition
 
 ## On desktop and phone
 
@@ -792,9 +804,9 @@ AI × Self
 Source ID aipersonalarchive:exploring-with-your-own-agent
 Original https://www.henryw.me/#/aipersonalarchive#exploring-with-your-own-agent
 
-Visitors can give their agent henryw. me to explore my work, ideas and experiences. A reading guide and public text API provide the archive and links to the original pages, so the agent can read, connect and cite the material in its own response. How agents read the archive I export the site’s public writing as complete text and JSON records at build time. An agent can read the archive through ordinary HTTP GET requests, then use its own model to interpret the material. Reading whole pieces gives it the context to make connections across projects, research and personal writing. The static downloads and text API use the same source records. Each record carries the full text, a stable ID and a link to its original place on the site. A content revision identifies the version the agent is reading. me Reading guide Discover the interface The page’s HTML links and llms.
+Visitors can give their agent henryw.me to explore my work, ideas and experiences. A reading guide and public text API provide the archive and links to the original pages, so the agent can read, connect and cite the material in its own response. How agents read the archive I export the site’s public writing as complete text and JSON records at build time. An agent can read the archive through ordinary HTTP GET requests, then use its own model to interpret the material. Reading whole pieces gives it the context to make connections across projects, research and personal writing. The static downloads and text API use the same source records. Each record carries the full text, a stable ID and a link to its original place on the site.
 
-txt point to a reading guide and an OpenAPI definition describing the available requests. Research Projects Fragments Read the material The agent can download the whole archive or request complete sections and individual sources through the API, according to its task and context budget. Research Original writing Connect and cite The agent develops its answer across the material. Original page links let the reader follow a citation to the passage, image or interactive work it discusses.
+A content revision identifies the version the agent is reading. henryw.me Reading guide Discover the interface The page’s HTML links and llms.txt point to a reading guide and an OpenAPI definition describing the available requests. Research Projects Fragments Read the material The agent can download the whole archive or request complete sections and individual sources through the API, according to its task and context budget. Research Original writing Connect and cite The agent develops its answer across the material. Original page links let the reader follow a citation to the passage, image or interactive work it discusses. 06 Afterword
 
 ## What can I learn from a website about myself?
 
@@ -810,7 +822,7 @@ A Structure-Preserving RAG Ingestion Pipeline
 Source ID ragflow-pipeline:overview
 Original https://www.henryw.me/#/ragflow-pipeline
 
-Preserving document structure when preparing PDFs for an AI assistant At PwC, I evaluated and combined document-processing tools for an AI assistant that answers public enquiries using a client’s documents. I built an ingestion pipeline that prepares those documents for retrieval while preserving the relationships an answer may depend on, including table structure, cross-page references and the branches of a flowchart. End-to-end tests and deployment analysis informed the solution I recommended to the client.
+Preserving document structure when preparing PDFs for an AI assistant At PwC, I evaluated and combined document-processing tools for an AI assistant that answers public enquiries using a client’s documents. I built an ingestion pipeline that prepares those documents for retrieval while preserving the relationships an answer may depend on, including table structure, cross-page references and the branches of a flowchart. End-to-end tests and deployment analysis informed the solution I recommended to the client. 00 The brief
 
 ## Understanding what the client needed
 
@@ -820,7 +832,7 @@ Original https://www.henryw.me/#/ragflow-pipeline#understanding-the-client-requi
 
 The assistant would find relevant passages in the client’s documents and give them to a language model to help answer a question, an approach known as retrieval-augmented generation (RAG). My task was to prepare the documents for that process. The requirements covered paragraphs and tables continuing across pages, complex table structures, references to distant notes and remarks, and flowcharts stored as images. An answer could depend on a relationship within any of these, so those relationships needed to survive document processing. These functional requirements left the technical choices open. I needed to establish which existing tools could meet them, what additional processing was necessary, and how the combined solution would fit the client’s infrastructure and operating budget.
 
-I brought the cases together in a controlled five-page document, so comparisons used the same input and could follow the evidence through to an answer.
+I brought the cases together in a controlled five-page document, so comparisons used the same input and could follow the evidence through to an answer. 01 Page breaks
 
 ## Keeping a paragraph or table together across pages
 
@@ -828,7 +840,7 @@ A Structure-Preserving RAG Ingestion Pipeline
 Source ID ragflow-pipeline:why-one-pdf-needed-several-ways-of-reading
 Original https://www.henryw.me/#/ragflow-pipeline#why-one-pdf-needed-several-ways-of-reading
 
-A page boundary can fall halfway through a paragraph or table. If extraction treats the next page as a fresh start, the resulting fragments may separate a passage from its continuation. I first tested how much an existing parser could recover. MinerU, a tool for converting PDFs into structured content, rejoined the interrupted paragraphs and tables in the test document. This requirement could be met within the parsing stage. The next check was whether that continuity would survive chunking, which divides the parsed content into searchable passages. A parser could reconstruct a table successfully, only for a later split to detach its rows from their context. I included this downstream behaviour in the selection criteria, checking both the reconstructed document and the passages produced from it.
+A page boundary can fall halfway through a paragraph or table. If extraction treats the next page as a fresh start, the resulting fragments may separate a passage from its continuation. I first tested how much an existing parser could recover. MinerU, a tool for converting PDFs into structured content, rejoined the interrupted paragraphs and tables in the test document. This requirement could be met within the parsing stage. The next check was whether that continuity would survive chunking, which divides the parsed content into searchable passages. A parser could reconstruct a table successfully, only for a later split to detach its rows from their context. I included this downstream behaviour in the selection criteria, checking both the reconstructed document and the passages produced from it. 02 Complex tables
 
 ## Preserving the structure inside a table
 
@@ -838,7 +850,7 @@ Original https://www.henryw.me/#/ragflow-pipeline#complex-tables
 
 A merged cell can make one heading apply to several rows or columns. A nested table introduces a smaller set of relationships inside a single cell, such as the booking rules in this example. Flattening either into a sequence of words makes it harder to determine which condition governs which value. I tested both structures separately because success on merged cells would say little about a parser’s ability to recognise a table inside a table. MinerU’s OCR-based path, which recognises text and reconstructs layout, recovered the merged cells as HTML but missed the nested tables in the tests. Its built-in vision-language model (VLM), which interprets images as well as text, recovered both. HTML could express the resulting hierarchy explicitly through cells spanning rows or columns and tables contained within other cells. That result needed to survive the rest of the pipeline.
 
-In the RAGFlow path I tested, subsequent processing discarded the HTML tags. The parser’s output contained the relationships, but the material supplied for an answer had lost them. With LlamaIndex, a framework for organising content for retrieval, the structure remained available through indexing, retrieval and answer generation. I therefore selected MinerU’s built-in VLM with LlamaIndex, checking the evidence returned to the model as well as the parser’s output.
+In the RAGFlow path I tested, subsequent processing discarded the HTML tags. The parser’s output contained the relationships, but the material supplied for an answer had lost them. With LlamaIndex, a framework for organising content for retrieval, the structure remained available through indexing, retrieval and answer generation. I therefore selected MinerU’s built-in VLM with LlamaIndex, checking the evidence returned to the model as well as the parser’s output. 03 References
 
 ## Retrieving a passage with the note it refers to
 
@@ -850,7 +862,7 @@ A sentence could cite Note (4) several pages before the note appeared. Extractin
 
 The linker used the relevant section, position and surrounding context, repaired fragmented notes, and normalised inconsistent labels. It then placed the note beside its citation and removed the duplicate standalone copy. Chunking could keep the passage and its linked note in one unit of evidence. The example connects a sentence on page 3 with its note on page 5. Across the controlled document, the linker resolved all 13 cross-page references. In the retrieval check, the combined passage and note became the top result for the question they answered. Other approaches I tested Baidu Unlimited OCR offered a multi-page mode. In tests on difficult public government documents, it preserved much of the layout, while the relationship between a passage and a later note still needed explicit linking. Reading several pages together did not by itself establish which passages belonged together.
 
-I also examined image-based and multimodal retrieval. Keeping each page as an image retained its visual layout while leaving cross-page relationships separate. The RAGFlow path I evaluated converted images to text before embedding them. Linking the references in that text let me determine which pieces would be retrieved together.
+I also examined image-based and multimodal retrieval. Keeping each page as an image retained its visual layout while leaving cross-page relationships separate. The RAGFlow path I evaluated converted images to text before embedding them. Linking the references in that text let me determine which pieces would be retrieved together. 04 Flowcharts
 
 ## Making a flowchart’s decision logic searchable
 
@@ -860,7 +872,7 @@ Original https://www.henryw.me/#/ragflow-pipeline#mermaid
 
 Many client documents used flowchart images to explain a procedure. An answer might depend on following a “Yes” branch through several conditions. OCR could recover the words in each box while losing the arrows that made them a decision. I also tested free-form VLM descriptions, which conveyed the overall process with varying levels of detail. I chose Mermaid, a text-based diagram language that makes each branch explicit through nodes, connecting edges and labels. This let me inspect the individual decision paths. A VLM could convert the image into this representation, making its logic searchable alongside the document’s prose. Rendering the text back into a diagram also gave me a way to compare the reconstructed decisions with the original. In the controlled test, the reconstruction retained every node, edge and label and supported correct answers to both flowchart questions.
 
-Later in the research, I found that MinerU’s built-in VLM already supported converting flowcharts to Mermaid. It could select an appropriate representation for an image, including HTML for tables and Mermaid for flowcharts. This brought the two visual requirements into the same parser and model, fitting the client’s preference to keep the number of models they operated small.
+Later in the research, I found that MinerU’s built-in VLM already supported converting flowcharts to Mermaid. It could select an appropriate representation for an image, including HTML for tables and Mermaid for flowcharts. This brought the two visual requirements into the same parser and model, fitting the client’s preference to keep the number of models they operated small. 05 The solution
 
 ## Bringing the four requirements into one pipeline
 
@@ -870,7 +882,7 @@ Original https://www.henryw.me/#/ragflow-pipeline#what-i-tested-before-recommend
 
 The recommended architecture combined MinerU with its built-in VLM, a post-parsing reference linker, and LlamaIndex. Parsing recovered document continuity and represented tables and diagrams in structured text. The linker attached referenced notes and remarks before LlamaIndex formed chunks for retrieval. An embedding model represented those chunks and the question as numerical vectors, allowing passages with related meanings to be found even when their wording differed. The answer model then received the retrieved evidence with its relationships intact. I integrated these components in a proof of concept and followed the controlled document through the full path, checking what reached the answer model after each processing choice. This exposed losses that a successful parsing preview had concealed and gave the client an end-to-end basis for choosing the tools.
 
-The recommendation also connected this design to operation. I separated GPU-backed parsing and visual interpretation from CPU orchestration, reference linking and indexing, then compared on-premises and private-cloud deployment. On-demand processing could release resources between ingestion jobs. Starting a new job would then take time to load the model. Keeping the service running traded that delay for ongoing cost. These choices let the client assess the pipeline against its infrastructure, ingestion frequency and maintenance capacity.
+The recommendation also connected this design to operation. I separated GPU-backed parsing and visual interpretation from CPU orchestration, reference linking and indexing, then compared on-premises and private-cloud deployment. On-demand processing could release resources between ingestion jobs. Starting a new job would then take time to load the model. Keeping the service running traded that delay for ongoing cost. These choices let the client assess the pipeline against its infrastructure, ingestion frequency and maintenance capacity. 06 Reflection
 
 ## Judging the whole solution
 
@@ -890,7 +902,7 @@ AI for IT Operations
 Source ID ai-it-operations:overview
 Original https://www.henryw.me/#/ai-it-operations
 
-Maintaining technical knowledge and carrying out service requests At PwC, I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and carries out tasks in the applications the team already uses.
+Maintaining technical knowledge and carrying out service requests At PwC, I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and carries out tasks in the applications the team already uses. 00 Context
 
 ## Where AI can help in IT operations
 
@@ -1474,7 +1486,17 @@ CV
 Source ID cv:publications-preprints
 Original https://www.henryw.me/#/cv#publications-preprints
 
-Human-AI interaction and collaboration Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation H. Wang Under review; arXiv:2606. 26502 Language models, behavior, and interpretability BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval H. Yu ICLR 2025 Spotlight; arXiv:2407. 12883 Han-yu Wang (Henry) Last updated September 2026
+Early Epistemic Settlement in AI-Assisted Writing H. Wang Under review · arXiv:2609.09332 BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval H. Su*, H. Yen*, M. Xia*, W. Shi, N. Muennighoff, H. Wang , H. Liu, Q. Shi, Z. S. Siegel, M. Tang, R. Sun, J. Yoon, S. O. Arik, D. Chen, T. Yu ICLR 2025 Spotlight; arXiv:2407.12883
+
+## Projects
+
+CV
+Source ID cv:projects
+Original https://www.henryw.me/#/cv#projects
+
+AI × Self Jun 2026 – Present An AI-driven personal archive Built a personal archive combining hybrid search, retrieval-augmented answers and AI-composed Views. Each View connects my work, ideas and experiences around a visitor’s question and becomes an illustrated article and an interactive 3D exhibition. Cathay Flex Oct 2026 – Present Cathay Pacific Hackathon Developed an airline-managed marketplace where travellers earn credits for flexibility and use them across services and journeys. AI interprets passenger preferences, constrained optimisation finds compatible arrangements, and a transaction and settlement system inspired by financial exchanges manages agreements through a conditional order book. SlidePoise Aug 2026 – Sep 2026 Open-source agentic slide generation Built an open-source framework for generating editable PowerPoint presentations with an AI agent.
+
+Image generation explores slide designs, then semantic interpretation and OpenCV measurement guide their reconstruction as native text, charts, tables and shapes. Han-yu Wang (Henry) Last updated October 2026
 
 ## About Me
 
