@@ -1,7 +1,7 @@
 # Henry's public source catalogue
 
-Content revision b2c7a8f1b0278fde5b0424e17ad9f3c21a8c08a11c1ff64761fb5095de51c226
-155 sources
+Content revision 04bbdcd915b459ebec6e3abb639e86612ecbeec04c5cb1c72484d1ba3efc6228
+156 sources
 
 ## Places I've Studied
 
@@ -1532,6 +1532,16 @@ Original https://www.henryw.me/#/aipersonalarchive#archive-view-illustration
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/interactive.archive.illustration.view?format=text
 
 AI connects original material around a visitor’s question, composing a View to read as an article or explore as an exhibition. Visitors bring different questions about Henry’s life, research and design. A question about what Henry’s memories reveal about him brings photographs, a reflection on identity and a travel globe into a View shown as an article and exhibition.
+
+## SlidePoise introduction
+
+SlidePoise
+Section slidepoise
+Source ID interactive.slidepoise.video
+Original https://www.henryw.me/slidepoise/#overview
+Read https://ask-henry.whenry6688.workers.dev/agent/sources/interactive.slidepoise.video?format=text
+
+Henry’s two-minute video demonstrates SlidePoise, his open-source skill for creating editable PowerPoint presentations with an AI Agent. It follows content planning, asset selection, image generation, OpenCV measurement and reconstruction, then shows editable slides and reusable visual styles. The visitor gives the Agent a brief, source material and a preferred style.
 
 ## Places and moments
 

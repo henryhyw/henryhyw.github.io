@@ -4174,6 +4174,47 @@
     },
     {
       "id": 153,
+      "source_id": "interactive.slidepoise.video",
+      "route": "/slidepoise/",
+      "page": "SlidePoise",
+      "title": "SlidePoise introduction",
+      "anchor": "overview",
+      "description": "Henry’s two-minute video demonstrates SlidePoise, his open-source skill for creating editable PowerPoint presentations with an AI Agent. It follows content planning, asset selection, image generation, OpenCV measurement and reconstruction, then shows editable slides and reusable visual styles. The visitor gives the Agent a brief, source material and a preferred style.",
+      "body": "Henry’s two-minute video demonstrates SlidePoise, his open-source skill for creating editable PowerPoint presentations with an AI Agent. It follows content planning, asset selection, image generation, OpenCV measurement and reconstruction, then shows editable slides and reusable visual styles. The visitor gives the Agent a brief, source material and a preferred style. The Agent develops the argument and plans how each slide contributes to it. It searches asset libraries for relevant icons and components. An image model uses the references and selected assets to design each slide around its content. Once a design is chosen, the Agent identifies headings, text, charts and images and interprets their relationships. OpenCV, a computer-vision library, measures each element’s position and size and samples its colour. The Agent combines its interpretation with those measurements to reconstruct native, editable PowerPoint objects and add a consistent header and footer. The video demonstrates editing the rebuilt slides and organising them into a complete presentation. Consulting and editorial examples show different ways to structure evidence and give images and ideas space. The optional local Console lets visitors configure fonts, colours and visual references and manage their assets. Saved Profiles preserve those settings for reuse with the Agent.",
+      "parts": [
+        "Henry’s two-minute video demonstrates SlidePoise, his open-source skill for creating editable PowerPoint presentations with an AI Agent. It follows content planning, asset selection, image generation, OpenCV measurement and reconstruction, then shows editable slides and reusable visual styles.",
+        "The visitor gives the Agent a brief, source material and a preferred style. The Agent develops the argument and plans how each slide contributes to it. It searches asset libraries for relevant icons and components. An image model uses the references and selected assets to design each slide around its content.",
+        "Once a design is chosen, the Agent identifies headings, text, charts and images and interprets their relationships. OpenCV, a computer-vision library, measures each element’s position and size and samples its colour. The Agent combines its interpretation with those measurements to reconstruct native, editable PowerPoint objects and add a consistent header and footer.",
+        "The video demonstrates editing the rebuilt slides and organising them into a complete presentation. Consulting and editorial examples show different ways to structure evidence and give images and ideas space. The optional local Console lets visitors configure fonts, colours and visual references and manage their assets. Saved Profiles preserve those settings for reuse with the Agent."
+      ],
+      "view_kind": "interactive",
+      "presentations": [
+        "interactive"
+      ],
+      "priority": 5,
+      "media": [
+        {
+          "src": "/assets/video/slidepoise/poster.webp",
+          "alt": "SlidePoise video cover"
+        },
+        {
+          "kind": "video",
+          "src": "/assets/video/slidepoise/slidepoise.mp4?v=4facba99",
+          "alt": "SlidePoise narrated introduction",
+          "duration": 124.774
+        }
+      ],
+      "component_description": "The complete original project-video component titled “SlidePoise introduction”.",
+      "narrative_guidance": "Explain what this component contains and how its specific evidence supports the visitor’s angle.",
+      "entity": {
+        "kind": "project-video",
+        "id": "slidepoise",
+        "richBlock": "interactive.slidepoise.video"
+      },
+      "selected": true
+    },
+    {
+      "id": 154,
       "source_id": "about:gallery",
       "route": "/about",
       "page": "About",
@@ -4726,6 +4767,55 @@
         "kind": "archive-project-evidence",
         "detail": "illustration",
         "scene": "A composed View"
+      }
+    },
+    {
+      "id": "interactive.slidepoise.video",
+      "kind": "interactive",
+      "title": "SlidePoise introduction",
+      "page": "SlidePoise",
+      "route": "/slidepoise/",
+      "anchor": "overview",
+      "priority": 5,
+      "description": "Henry’s two-minute video demonstrates SlidePoise, his open-source skill for creating editable PowerPoint presentations with an AI Agent. It follows content planning, asset selection, image generation, OpenCV measurement and reconstruction, then shows editable slides and reusable visual styles.",
+      "publicParts": [
+        "The visitor gives the Agent a brief, source material and a preferred style. The Agent develops the argument and plans how each slide contributes to it. It searches asset libraries for relevant icons and components. An image model uses the references and selected assets to design each slide around its content.",
+        "Once a design is chosen, the Agent identifies headings, text, charts and images and interprets their relationships. OpenCV, a computer-vision library, measures each element’s position and size and samples its colour. The Agent combines its interpretation with those measurements to reconstruct native, editable PowerPoint objects and add a consistent header and footer.",
+        "The video demonstrates editing the rebuilt slides and organising them into a complete presentation. Consulting and editorial examples show different ways to structure evidence and give images and ideas space. The optional local Console lets visitors configure fonts, colours and visual references and manage their assets. Saved Profiles preserve those settings for reuse with the Agent."
+      ],
+      "componentDescription": "The original narrated SlidePoise video, 2 minutes 5 seconds long. Readers can play, pause, seek and watch fullscreen. It demonstrates the slide-generation workflow, native PowerPoint editing, different presentation styles and the local Console.",
+      "narrativeGuidance": "Use this video when seeing SlidePoise in action helps explain Henry’s work on AI-assisted presentation design, agent workflows or editable visual output. Introduce the stages or interactions the reader should notice and connect them to the surrounding explanation. Select it when its content contributes to the visitor’s question.",
+      "topics": [
+        "SlidePoise",
+        "video introduction",
+        "product demonstration",
+        "agentic slide generation",
+        "editable PowerPoint",
+        "image generation",
+        "OpenCV",
+        "asset libraries",
+        "visual design",
+        "Console",
+        "Profiles"
+      ],
+      "allowedPresentation": "interactive",
+      "component": "SlidePoiseFilm",
+      "media": [
+        {
+          "src": "/assets/video/slidepoise/poster.webp",
+          "alt": "SlidePoise video cover"
+        },
+        {
+          "kind": "video",
+          "src": "/assets/video/slidepoise/slidepoise.mp4?v=4facba99",
+          "alt": "SlidePoise narrated introduction",
+          "duration": 124.774
+        }
+      ],
+      "entity": {
+        "kind": "project-video",
+        "id": "slidepoise",
+        "richBlock": "interactive.slidepoise.video"
       }
     },
     {
