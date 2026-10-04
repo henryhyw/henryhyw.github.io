@@ -1,7 +1,7 @@
 # Henry's public source catalogue
 
-Content revision cb85275cda07ce27cd06613f1bfcaf69979db007e2c27bf1a01d8f92654a37c9
-158 sources
+Content revision e736fb316db98c1348ecb27294e3770ff37190ddb2e2b547251409f090e06617
+159 sources
 
 ## Places I've Studied
 
@@ -273,16 +273,6 @@ Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3Asearchsto
 
 Visitors can ask AI a question about my work, ideas or experiences. AI connects material from this site into a View, an illustrated article that answers their question and includes the original work. Each View also becomes an exhibition visitors can walk through, and the Gallery brings shared exhibitions together.
 
-## SlidePoise
-
-Builds
-Section projects
-Source ID projects:slidepoise
-Original https://www.henryw.me/#/projects?to=slidepoise
-Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3Aslidepoise?format=text
-
-SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. AI helps develop the content and explore compositions using your references and assets. The Agent interprets the chosen design, OpenCV measures its geometry, and local tools reconstruct the slides as editable objects. Shared styles and original assets keep the slides consistent.
-
 ## Cathay Flex
 
 Builds
@@ -292,6 +282,16 @@ Original https://www.henryw.me/#/projects?to=cathayflex
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3Acathayflex?format=text
 
 Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one.
+
+## SlidePoise
+
+Builds
+Section projects
+Source ID projects:slidepoise
+Original https://www.henryw.me/#/projects?to=slidepoise
+Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3Aslidepoise?format=text
+
+SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. AI helps develop the content and explore compositions using your references and assets. The Agent interprets the chosen design, OpenCV measures its geometry, and local tools reconstruct the slides as editable objects. Shared styles and original assets keep the slides consistent.
 
 ## AI for IT Operations
 
@@ -1563,6 +1563,16 @@ Read https://ask-henry.whenry6688.workers.dev/agent/sources/interactive.slidepoi
 
 Henry’s two-minute video demonstrates SlidePoise, his open-source skill for creating editable PowerPoint presentations with an AI Agent. It follows content planning, asset selection, image generation, OpenCV measurement and reconstruction, then shows editable slides and reusable visual styles. The visitor gives the Agent a brief, source material and a preferred style.
 
+## Cathay Flex introduction
+
+Cathay Flex
+Section projects
+Source ID interactive.cathayflex.video
+Original https://www.henryw.me/#/projects#cathayflex
+Read https://ask-henry.whenry6688.workers.dev/agent/sources/interactive.cathayflex.video?format=text
+
+A narrated demonstration of Cathay Flex, Henry’s team project for the Cathay Pacific Hackathon. Travellers earn credits by accepting suitable travel changes and use those credits across services and future journeys. The video shows how AI, constrained optimisation and a transaction and settlement system coordinate these arrangements.
+
 ## Places and moments
 
 About
@@ -1581,4 +1591,4 @@ Source ID home:currently
 Original https://www.henryw.me/#/home#story-now
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/home%3Acurrently?format=text
 
-Henry is developing SlidePoise, an open-source agentic slide generation framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI × Self, a personal archive that lets visitors connect his work, ideas and experiences through their own questions. Each View composes a perspective with original sources.
+Henry is developing AI × Self, a personal archive that lets visitors connect his work, ideas and experiences through their own questions. Each View composes a perspective with original sources. The Gallery brings these readings together as exhibitions to explore and share.

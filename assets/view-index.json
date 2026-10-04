@@ -878,6 +878,39 @@
     },
     {
       "id": 27,
+      "source_id": "projects:cathayflex",
+      "route": "https://cathayflex.github.io/",
+      "page": "Cathay Flex",
+      "title": "Cathay Flex",
+      "anchor": "",
+      "description": "Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one.",
+      "body": "Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one. Contributions and benefits can occur at different times, giving the airline more ways to meet passenger demand within existing capacity. AI interprets natural-language preferences in booking context and produces structured conditions that each traveller reviews. Graph search discovers candidate swaps, chains and cycles. Branch-and-bound selects compatible arrangements under passenger requirements, resource capacity and credit funding constraints. A shared conditional order book maintains active requests, flexibility rules and transaction status. The transaction and settlement layer adapts mechanisms from financial exchanges to passenger consent, conditional travel arrangements and airline fulfilment. A conditional order book tracks active requests, agreed terms, reservations and transaction states. Versioned holds reserve resources and credits, and optimistic concurrency control rejects stale writes. Idempotency keys let repeated commands return their recorded result, while idempotent settlement prevents duplicate credit movements. If a booking update has an uncertain outcome, reconciliation keeps the resources and credits reserved until the complete arrangement is verified. Tests exercise request expiry, competing acceptance and withdrawal, duplicate execution and lost fulfilment acknowledgements.",
+      "parts": [
+        "Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one. Contributions and benefits can occur at different times, giving the airline more ways to meet passenger demand within existing capacity.",
+        "AI interprets natural-language preferences in booking context and produces structured conditions that each traveller reviews. Graph search discovers candidate swaps, chains and cycles. Branch-and-bound selects compatible arrangements under passenger requirements, resource capacity and credit funding constraints. A shared conditional order book maintains active requests, flexibility rules and transaction status.",
+        "The transaction and settlement layer adapts mechanisms from financial exchanges to passenger consent, conditional travel arrangements and airline fulfilment. A conditional order book tracks active requests, agreed terms, reservations and transaction states. Versioned holds reserve resources and credits, and optimistic concurrency control rejects stale writes. Idempotency keys let repeated commands return their recorded result, while idempotent settlement prevents duplicate credit movements. If a booking update has an uncertain outcome, reconciliation keeps the resources and credits reserved until the complete arrangement is verified. Tests exercise request expiry, competing acceptance and withdrawal, duplicate execution and lost fulfilment acknowledgements."
+      ],
+      "view_kind": "project",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 5,
+      "media": [],
+      "entity": {
+        "kind": "project",
+        "id": "cathayflex",
+        "period": "October 2026 - Present",
+        "subtitle": "An airline-managed marketplace for passenger flexibility",
+        "route": "https://cathayflex.github.io/",
+        "anchor": "",
+        "mediaMode": "gallery",
+        "logoHeight": "",
+        "richBlock": ""
+      },
+      "selected": true
+    },
+    {
+      "id": 28,
       "source_id": "projects:slidepoise",
       "route": "/slidepoise/",
       "page": "SlidePoise",
@@ -915,43 +948,6 @@
       "selected": true
     },
     {
-      "id": 28,
-      "source_id": "projects:cathayflex",
-      "route": "https://cathayflex.github.io/",
-      "page": "Cathay Flex",
-      "title": "Cathay Flex",
-      "anchor": "",
-      "description": "Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one.",
-      "body": "Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one. Contributions and benefits can occur at different times, giving the airline more ways to meet passenger demand within existing capacity. AI interprets natural-language preferences in booking context and produces structured conditions that each traveller reviews. Graph search discovers candidate swaps, chains and cycles. Branch-and-bound selects compatible arrangements under passenger requirements, resource capacity and credit funding constraints. A shared conditional order book maintains active requests, flexibility rules and transaction status. The transaction and settlement layer adapts mechanisms from financial exchanges to passenger consent, conditional travel arrangements and airline fulfilment. A conditional order book tracks active requests, agreed terms, reservations and transaction states. Versioned holds reserve resources and credits, and optimistic concurrency control rejects stale writes. Idempotency keys let repeated commands return their recorded result, while idempotent settlement prevents duplicate credit movements. If a booking update has an uncertain outcome, reconciliation keeps the resources and credits reserved until the complete arrangement is verified. Tests exercise request expiry, competing acceptance and withdrawal, duplicate execution and lost fulfilment acknowledgements.",
-      "parts": [
-        "Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one. Contributions and benefits can occur at different times, giving the airline more ways to meet passenger demand within existing capacity.",
-        "AI interprets natural-language preferences in booking context and produces structured conditions that each traveller reviews. Graph search discovers candidate swaps, chains and cycles. Branch-and-bound selects compatible arrangements under passenger requirements, resource capacity and credit funding constraints. A shared conditional order book maintains active requests, flexibility rules and transaction status.",
-        "The transaction and settlement layer adapts mechanisms from financial exchanges to passenger consent, conditional travel arrangements and airline fulfilment. A conditional order book tracks active requests, agreed terms, reservations and transaction states. Versioned holds reserve resources and credits, and optimistic concurrency control rejects stale writes. Idempotency keys let repeated commands return their recorded result, while idempotent settlement prevents duplicate credit movements. If a booking update has an uncertain outcome, reconciliation keeps the resources and credits reserved until the complete arrangement is verified. Tests exercise request expiry, competing acceptance and withdrawal, duplicate execution and lost fulfilment acknowledgements."
-      ],
-      "view_kind": "project",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 5,
-      "media": [
-        {
-          "src": "/assets/img/cathay-pacific.svg"
-        }
-      ],
-      "entity": {
-        "kind": "project",
-        "id": "cathayflex",
-        "period": "October 2026 - Present",
-        "subtitle": "An airline-managed marketplace for passenger flexibility",
-        "route": "https://cathayflex.github.io/",
-        "anchor": "",
-        "mediaMode": "logo",
-        "logoHeight": "4vh",
-        "richBlock": ""
-      },
-      "selected": true
-    },
-    {
       "id": 29,
       "source_id": "projects:pwcItOps",
       "route": "/ai-it-operations",
@@ -970,7 +966,7 @@
       "presentations": [
         "cite"
       ],
-      "priority": 5,
+      "priority": 4,
       "media": [
         {
           "src": "/assets/img/PwC.png"
@@ -987,7 +983,7 @@
         "logoHeight": "6vh",
         "richBlock": "interactive.it-ops.knowledge"
       },
-      "selected": true
+      "selected": false
     },
     {
       "id": 30,
@@ -2671,9 +2667,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 5,
+      "priority": 4,
       "media": [],
-      "selected": true
+      "selected": false
     },
     {
       "id": 96,
@@ -2691,9 +2687,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 5,
+      "priority": 4,
       "media": [],
-      "selected": true
+      "selected": false
     },
     {
       "id": 97,
@@ -2711,9 +2707,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 5,
+      "priority": 4,
       "media": [],
-      "selected": true
+      "selected": false
     },
     {
       "id": 98,
@@ -2732,9 +2728,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 5,
+      "priority": 4,
       "media": [],
-      "selected": true
+      "selected": false
     },
     {
       "id": 99,
@@ -2753,9 +2749,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 5,
+      "priority": 4,
       "media": [],
-      "selected": true
+      "selected": false
     },
     {
       "id": 100,
@@ -2775,9 +2771,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 5,
+      "priority": 4,
       "media": [],
-      "selected": true
+      "selected": false
     },
     {
       "id": 101,
@@ -2796,9 +2792,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 5,
+      "priority": 4,
       "media": [],
-      "selected": true
+      "selected": false
     },
     {
       "id": 102,
@@ -2817,9 +2813,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 5,
+      "priority": 4,
       "media": [],
-      "selected": true
+      "selected": false
     },
     {
       "id": 103,
@@ -2837,9 +2833,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 5,
+      "priority": 4,
       "media": [],
-      "selected": true
+      "selected": false
     },
     {
       "id": 104,
@@ -2858,9 +2854,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 5,
+      "priority": 4,
       "media": [],
-      "selected": true
+      "selected": false
     },
     {
       "id": 105,
@@ -2878,9 +2874,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 5,
+      "priority": 4,
       "media": [],
-      "selected": true
+      "selected": false
     },
     {
       "id": 106,
@@ -2898,9 +2894,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 5,
+      "priority": 4,
       "media": [],
-      "selected": true
+      "selected": false
     },
     {
       "id": 107,
@@ -2921,9 +2917,9 @@
       "presentations": [
         "cite"
       ],
-      "priority": 5,
+      "priority": 4,
       "media": [],
-      "selected": true
+      "selected": false
     },
     {
       "id": 108,
@@ -4320,6 +4316,47 @@
     },
     {
       "id": 156,
+      "source_id": "interactive.cathayflex.video",
+      "route": "/projects",
+      "page": "Cathay Flex",
+      "title": "Cathay Flex introduction",
+      "anchor": "cathayflex",
+      "description": "A narrated demonstration of Cathay Flex, Henry’s team project for the Cathay Pacific Hackathon. Travellers earn credits by accepting suitable travel changes and use those credits across services and future journeys. The video shows how AI, constrained optimisation and a transaction and settlement system coordinate these arrangements.",
+      "body": "A narrated demonstration of Cathay Flex, Henry’s team project for the Cathay Pacific Hackathon. Travellers earn credits by accepting suitable travel changes and use those credits across services and future journeys. The video shows how AI, constrained optimisation and a transaction and settlement system coordinate these arrangements. A traveller describes which changes suit a short solo flight, a longer journey or a family trip. When another passenger needs the traveller’s aisle seat, Flex finds a compatible change. The traveller accepts and earns credits that remain available for a later journey. On a subsequent family trip, the traveller asks for seats together and an extra bag. Flex presents one arrangement and a clear credit price, coordinating the passengers and resources needed. The demonstration also shows spending credits on Wi-Fi. AI interprets passenger conditions. Constrained optimisation finds arrangements that work across the people involved. The transaction system coordinates confirmations, booking updates and credit settlement. Passenger flexibility gives the airline more ways to meet demand using its existing resources.",
+      "parts": [
+        "A narrated demonstration of Cathay Flex, Henry’s team project for the Cathay Pacific Hackathon. Travellers earn credits by accepting suitable travel changes and use those credits across services and future journeys. The video shows how AI, constrained optimisation and a transaction and settlement system coordinate these arrangements.",
+        "A traveller describes which changes suit a short solo flight, a longer journey or a family trip. When another passenger needs the traveller’s aisle seat, Flex finds a compatible change. The traveller accepts and earns credits that remain available for a later journey.",
+        "On a subsequent family trip, the traveller asks for seats together and an extra bag. Flex presents one arrangement and a clear credit price, coordinating the passengers and resources needed. The demonstration also shows spending credits on Wi-Fi.",
+        "AI interprets passenger conditions. Constrained optimisation finds arrangements that work across the people involved. The transaction system coordinates confirmations, booking updates and credit settlement. Passenger flexibility gives the airline more ways to meet demand using its existing resources."
+      ],
+      "view_kind": "interactive",
+      "presentations": [
+        "interactive"
+      ],
+      "priority": 5,
+      "media": [
+        {
+          "src": "/assets/video/cathay-flex/poster.webp",
+          "alt": "Cathay Flex video cover"
+        },
+        {
+          "kind": "video",
+          "src": "/assets/video/cathay-flex/cathay-flex.mp4?v=20261005",
+          "alt": "Cathay Flex narrated demonstration",
+          "duration": 119
+        }
+      ],
+      "component_description": "The complete original project-video component titled “Cathay Flex introduction”.",
+      "narrative_guidance": "Explain what this component contains and how its specific evidence supports the visitor’s angle.",
+      "entity": {
+        "kind": "project-video",
+        "id": "cathayflex",
+        "richBlock": "interactive.cathayflex.video"
+      },
+      "selected": true
+    },
+    {
+      "id": 157,
       "source_id": "about:gallery",
       "route": "/about",
       "page": "About",
@@ -4921,6 +4958,55 @@
         "kind": "project-video",
         "id": "slidepoise",
         "richBlock": "interactive.slidepoise.video"
+      }
+    },
+    {
+      "id": "interactive.cathayflex.video",
+      "kind": "interactive",
+      "title": "Cathay Flex introduction",
+      "page": "Cathay Flex",
+      "route": "/projects",
+      "anchor": "cathayflex",
+      "priority": 5,
+      "description": "A narrated demonstration of Cathay Flex, Henry’s team project for the Cathay Pacific Hackathon. Travellers earn credits by accepting suitable travel changes and use those credits across services and future journeys. The video shows how AI, constrained optimisation and a transaction and settlement system coordinate these arrangements.",
+      "publicParts": [
+        "A traveller describes which changes suit a short solo flight, a longer journey or a family trip. When another passenger needs the traveller’s aisle seat, Flex finds a compatible change. The traveller accepts and earns credits that remain available for a later journey.",
+        "On a subsequent family trip, the traveller asks for seats together and an extra bag. Flex presents one arrangement and a clear credit price, coordinating the passengers and resources needed. The demonstration also shows spending credits on Wi-Fi.",
+        "AI interprets passenger conditions. Constrained optimisation finds arrangements that work across the people involved. The transaction system coordinates confirmations, booking updates and credit settlement. Passenger flexibility gives the airline more ways to meet demand using its existing resources."
+      ],
+      "componentDescription": "The original Cathay Flex video, 1 minute 59 seconds long. Readers can play, pause, seek and watch fullscreen. It demonstrates earning and spending credits across journeys and explains the AI, optimisation and transaction system behind the marketplace.",
+      "narrativeGuidance": "Use this video when its passenger journey or system explanation helps answer a question about Henry’s work on AI, constrained optimisation, transaction systems or service design. Introduce the interaction or mechanism the visitor should notice and connect it to the surrounding explanation.",
+      "topics": [
+        "Cathay Flex",
+        "Cathay Pacific Hackathon",
+        "video demonstration",
+        "passenger flexibility",
+        "Flex credits",
+        "airline marketplace",
+        "AI",
+        "constrained optimisation",
+        "transaction system",
+        "settlement",
+        "service design"
+      ],
+      "allowedPresentation": "interactive",
+      "component": "CathayFlexFilm",
+      "media": [
+        {
+          "src": "/assets/video/cathay-flex/poster.webp",
+          "alt": "Cathay Flex video cover"
+        },
+        {
+          "kind": "video",
+          "src": "/assets/video/cathay-flex/cathay-flex.mp4?v=20261005",
+          "alt": "Cathay Flex narrated demonstration",
+          "duration": 119
+        }
+      ],
+      "entity": {
+        "kind": "project-video",
+        "id": "cathayflex",
+        "richBlock": "interactive.cathayflex.video"
       }
     },
     {

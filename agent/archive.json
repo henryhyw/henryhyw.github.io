@@ -1,5 +1,5 @@
 {
-  "revision": "cb85275cda07ce27cd06613f1bfcaf69979db007e2c27bf1a01d8f92654a37c9",
+  "revision": "e736fb316db98c1348ecb27294e3770ff37190ddb2e2b547251409f090e06617",
   "sources": [
     {
       "id": "education:overview",
@@ -245,15 +245,6 @@
       "text": "Visitors can ask AI a question about my work, ideas or experiences. AI connects material from this site into a View, an illustrated article that answers their question and includes the original work. Each View also becomes an exhibition visitors can walk through, and the Gallery brings shared exhibitions together."
     },
     {
-      "id": "projects:slidepoise",
-      "section": "projects",
-      "page": "Builds",
-      "title": "SlidePoise",
-      "description": "SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. AI helps develop the content and explore compositions using your references and assets. The Agent interprets the chosen design, OpenCV measures its geometry, and local tools reconstruct the slides as editable objects. Shared styles and original assets keep the slides consistent.",
-      "url": "https://www.henryw.me/#/projects?to=slidepoise",
-      "text": "SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. AI helps develop the content and explore compositions using your references and assets. The Agent interprets the chosen design, OpenCV measures its geometry, and local tools reconstruct the slides as editable objects. Shared styles and original assets keep the slides consistent. Reviewing the rendered deck then checks how closely the editable presentation follows the chosen design."
-    },
-    {
       "id": "projects:cathayflex",
       "section": "projects",
       "page": "Builds",
@@ -261,6 +252,15 @@
       "description": "Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one.",
       "url": "https://www.henryw.me/#/projects?to=cathayflex",
       "text": "Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one. Contributions and benefits can occur at different times, giving the airline more ways to meet passenger demand within existing capacity.\n\nAI interprets natural-language preferences in booking context and produces structured conditions that each traveller reviews. Graph search discovers candidate swaps, chains and cycles. Branch-and-bound selects compatible arrangements under passenger requirements, resource capacity and credit funding constraints. A shared conditional order book maintains active requests, flexibility rules and transaction status.\n\nThe transaction and settlement layer adapts mechanisms from financial exchanges to passenger consent, conditional travel arrangements and airline fulfilment. A conditional order book tracks active requests, agreed terms, reservations and transaction states. Versioned holds reserve resources and credits, and optimistic concurrency control rejects stale writes. Idempotency keys let repeated commands return their recorded result, while idempotent settlement prevents duplicate credit movements. If a booking update has an uncertain outcome, reconciliation keeps the resources and credits reserved until the complete arrangement is verified. Tests exercise request expiry, competing acceptance and withdrawal, duplicate execution and lost fulfilment acknowledgements."
+    },
+    {
+      "id": "projects:slidepoise",
+      "section": "projects",
+      "page": "Builds",
+      "title": "SlidePoise",
+      "description": "SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. AI helps develop the content and explore compositions using your references and assets. The Agent interprets the chosen design, OpenCV measures its geometry, and local tools reconstruct the slides as editable objects. Shared styles and original assets keep the slides consistent.",
+      "url": "https://www.henryw.me/#/projects?to=slidepoise",
+      "text": "SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. AI helps develop the content and explore compositions using your references and assets. The Agent interprets the chosen design, OpenCV measures its geometry, and local tools reconstruct the slides as editable objects. Shared styles and original assets keep the slides consistent. Reviewing the rendered deck then checks how closely the editable presentation follows the chosen design."
     },
     {
       "id": "projects:pwcItOps",
@@ -1406,6 +1406,15 @@
       "text": "Henry’s two-minute video demonstrates SlidePoise, his open-source skill for creating editable PowerPoint presentations with an AI Agent. It follows content planning, asset selection, image generation, OpenCV measurement and reconstruction, then shows editable slides and reusable visual styles.\n\nThe visitor gives the Agent a brief, source material and a preferred style. The Agent develops the argument and plans how each slide contributes to it. It searches asset libraries for relevant icons and components. An image model uses the references and selected assets to design each slide around its content.\n\nOnce a design is chosen, the Agent identifies headings, text, charts and images and interprets their relationships. OpenCV, a computer-vision library, measures each element’s position and size and samples its colour. The Agent combines its interpretation with those measurements to reconstruct native, editable PowerPoint objects and add a consistent header and footer.\n\nThe video demonstrates editing the rebuilt slides and organising them into a complete presentation. Consulting and editorial examples show different ways to structure evidence and give images and ideas space. The optional local Console lets visitors configure fonts, colours and visual references and manage their assets. Saved Profiles preserve those settings for reuse with the Agent."
     },
     {
+      "id": "interactive.cathayflex.video",
+      "section": "projects",
+      "page": "Cathay Flex",
+      "title": "Cathay Flex introduction",
+      "description": "A narrated demonstration of Cathay Flex, Henry’s team project for the Cathay Pacific Hackathon. Travellers earn credits by accepting suitable travel changes and use those credits across services and future journeys. The video shows how AI, constrained optimisation and a transaction and settlement system coordinate these arrangements.",
+      "url": "https://www.henryw.me/#/projects#cathayflex",
+      "text": "A narrated demonstration of Cathay Flex, Henry’s team project for the Cathay Pacific Hackathon. Travellers earn credits by accepting suitable travel changes and use those credits across services and future journeys. The video shows how AI, constrained optimisation and a transaction and settlement system coordinate these arrangements.\n\nA traveller describes which changes suit a short solo flight, a longer journey or a family trip. When another passenger needs the traveller’s aisle seat, Flex finds a compatible change. The traveller accepts and earns credits that remain available for a later journey.\n\nOn a subsequent family trip, the traveller asks for seats together and an extra bag. Flex presents one arrangement and a clear credit price, coordinating the passengers and resources needed. The demonstration also shows spending credits on Wi-Fi.\n\nAI interprets passenger conditions. Constrained optimisation finds arrangements that work across the people involved. The transaction system coordinates confirmations, booking updates and credit settlement. Passenger flexibility gives the airline more ways to meet demand using its existing resources."
+    },
+    {
       "id": "about:gallery",
       "section": "about",
       "page": "About",
@@ -1419,9 +1428,9 @@
       "section": "home",
       "page": "Home",
       "title": "What Henry is currently doing",
-      "description": "Henry is developing SlidePoise, an open-source agentic slide generation framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI × Self, a personal archive that lets visitors connect his work, ideas and experiences through their own questions. Each View composes a perspective with original sources.",
+      "description": "Henry is developing AI × Self, a personal archive that lets visitors connect his work, ideas and experiences through their own questions. Each View composes a perspective with original sources. The Gallery brings these readings together as exhibitions to explore and share.",
       "url": "https://www.henryw.me/#/home#story-now",
-      "text": "Henry is developing SlidePoise, an open-source agentic slide generation framework for planning presentations, exploring slide designs and reconstructing them as editable PowerPoint. Henry is developing AI × Self, a personal archive that lets visitors connect his work, ideas and experiences through their own questions. Each View composes a perspective with original sources. The Gallery brings these readings together as exhibitions to explore and share. Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong.\n\nHenry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later. Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking."
+      "text": "Henry is developing AI × Self, a personal archive that lets visitors connect his work, ideas and experiences through their own questions. Each View composes a perspective with original sources. The Gallery brings these readings together as exhibitions to explore and share. Henry is currently a Cloud, Data & AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong. Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later.\n\nHenry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking."
     }
   ]
 }
