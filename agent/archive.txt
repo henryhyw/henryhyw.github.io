@@ -1,6 +1,6 @@
 # Henry's public text
 
-Content revision f90cbba82a27a0b8b2998916f4e3719f7fff173806853d8cedab80480d242468
+Content revision b2c7a8f1b0278fde5b0424e17ad9f3c21a8c08a11c1ff64761fb5095de51c226
 
 ## Places I've Studied
 
@@ -1490,9 +1490,9 @@ Across my studies and work, I'm drawn to things that are still taking shape. I l
 
 In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes.
 
-I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research. At PwC, I have used AI to help people work with complex information and make better decisions.
+I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some are small tools that automate everyday tasks. Others are larger systems that use AI to help people work with complex information and make better decisions.
 
-The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles.
+The Builds page brings together projects from my work and coursework, along with personal projects dating back to secondary school. This website is one of them. I use it to explore how AI can reorganise the same material around what a visitor wants to understand. That process also helps me understand and record myself from different angles.
 
 I like the open space by the sea. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , I spent time at Kennedy Town Praya during my early university years. When I travel, I also like taking ferries and walking along the waterfront.
 
@@ -1506,9 +1506,9 @@ About
 Source ID about:section:how-i-research-and-build
 Original https://www.henryw.me/#/about#how-i-research-and-build
 
-How we learn and think In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. Things I build I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some projects are small and personal, like a tool that watches outdoor sale pages and emails me when something I want appears. Others grow through work or research.
+How we learn and think In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. Things I build I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some are small tools that automate everyday tasks. Others are larger systems that use AI to help people work with complex information and make better decisions.
 
-At PwC, I have used AI to help people work with complex information and make better decisions. The Builds page brings together projects from my work and coursework, along with things I have built on my own and a few projects from secondary school. This website is one of them too. I have been using it to explore how AI can reorganise the same underlying material around what a visitor wants to understand, and how that same process can help me understand and record myself from different angles.
+The Builds page brings together projects from my work and coursework, along with personal projects dating back to secondary school. This website is one of them. I use it to explore how AI can reorganise the same material around what a visitor wants to understand. That process also helps me understand and record myself from different angles.
 
 ## Outside work
 
