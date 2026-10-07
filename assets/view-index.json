@@ -4341,9 +4341,9 @@
         },
         {
           "kind": "video",
-          "src": "/assets/video/cathay-flex/cathay-flex.mp4?v=20261005",
+          "src": "/assets/video/cathay-flex/cathay-flex.mp4?v=20261007",
           "alt": "Cathay Flex narrated demonstration",
-          "duration": 119
+          "duration": 120
         }
       ],
       "component_description": "The complete original project-video component titled “Cathay Flex introduction”.",
@@ -4974,7 +4974,7 @@
         "On a subsequent family trip, the traveller asks for seats together and an extra bag. Flex presents one arrangement and a clear credit price, coordinating the passengers and resources needed. The demonstration also shows spending credits on Wi-Fi.",
         "AI interprets passenger conditions. Constrained optimisation finds arrangements that work across the people involved. The transaction system coordinates confirmations, booking updates and credit settlement. Passenger flexibility gives the airline more ways to meet demand using its existing resources."
       ],
-      "componentDescription": "The original Cathay Flex video, 1 minute 59 seconds long. Readers can play, pause, seek and watch fullscreen. It demonstrates earning and spending credits across journeys and explains the AI, optimisation and transaction system behind the marketplace.",
+      "componentDescription": "The original Cathay Flex video, 2 minutes long. Readers can play, pause, seek and watch fullscreen. It demonstrates earning and spending credits across journeys and explains the AI, optimisation and transaction system behind the marketplace.",
       "narrativeGuidance": "Use this video when its passenger journey or system explanation helps answer a question about Henry’s work on AI, constrained optimisation, transaction systems or service design. Introduce the interaction or mechanism the visitor should notice and connect it to the surrounding explanation.",
       "topics": [
         "Cathay Flex",
@@ -4998,9 +4998,9 @@
         },
         {
           "kind": "video",
-          "src": "/assets/video/cathay-flex/cathay-flex.mp4?v=20261005",
+          "src": "/assets/video/cathay-flex/cathay-flex.mp4?v=20261007",
           "alt": "Cathay Flex narrated demonstration",
-          "duration": 119
+          "duration": 120
         }
       ],
       "entity": {
