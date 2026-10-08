@@ -1,6 +1,6 @@
 # Henry's public source catalogue
 
-Content revision 41ebc786ecaaf494f33228c21f1476bbf27426ca4f6998051b6a202d659a3540
+Content revision 8d519db15344f2e343b775aae1346bc22df4dd1e8c59e4708814ee780045ddc1
 159 sources
 
 ## Places I've Studied
@@ -291,7 +291,7 @@ Source ID projects:slidepoise
 Original https://www.henryw.me/#/projects?to=slidepoise
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3Aslidepoise?format=text
 
-SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. AI helps develop the content and explore compositions using your references and assets. The Agent interprets the chosen design, OpenCV measures its geometry, and local tools reconstruct the slides as editable objects. Shared styles and original assets keep the slides consistent.
+SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. The Agent develops the content, retrieves relevant visual references, icons, logos and native component previews, and explores compositions through image generation. Reconstruction combines the Agent’s interpretation with OpenCV measurements to build editable objects.
 
 ## AI for IT Operations
 
@@ -1491,7 +1491,7 @@ Source ID slidepoise:philosophy
 Original https://www.henryw.me/slidepoise/#philosophy
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/slidepoise%3Aphilosophy?format=text
 
-The Agent plans what the presentation should communicate and how the slides fit together. An image model explores layouts using that content, your style references and selected assets. To turn a chosen design into PowerPoint, the Agent identifies its objects and their relationships while local tools measure their geometry.
+Four stages connect the message to the finished deck. Content planning establishes the argument and evidence. Visual design retrieves useful references and assets, then explores compositions through image generation. Reconstruction combines the Agent’s interpretation with OpenCV measurements to build editable objects. Review checks the actual PowerPoint against the brief, chosen design and shared visual direction.
 
 ## The View Gallery introduction
 
