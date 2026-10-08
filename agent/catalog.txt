@@ -1,6 +1,6 @@
 # Henry's public source catalogue
 
-Content revision 8d519db15344f2e343b775aae1346bc22df4dd1e8c59e4708814ee780045ddc1
+Content revision c7ee0709e3919827c543b3dd52c931814a3e215fc77455a9e26746fe8506a5ac
 159 sources
 
 ## Places I've Studied
@@ -1491,7 +1491,7 @@ Source ID slidepoise:philosophy
 Original https://www.henryw.me/slidepoise/#philosophy
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/slidepoise%3Aphilosophy?format=text
 
-Four stages connect the message to the finished deck. Content planning establishes the argument and evidence. Visual design retrieves useful references and assets, then explores compositions through image generation. Reconstruction combines the Agent’s interpretation with OpenCV measurements to build editable objects. Review checks the actual PowerPoint against the brief, chosen design and shared visual direction.
+Content planning establishes the argument and evidence. Visual design assembles references and assets on a contact sheet, generates a slide image and checks it against the brief. Reconstruction combines the Agent’s interpretation with OpenCV measurements to build editable PowerPoint objects. The final review checks the rendered PowerPoint for content, consistency and fidelity to the generated image.
 
 ## The View Gallery introduction
 

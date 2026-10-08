@@ -1,6 +1,6 @@
 # Henry's public text
 
-Content revision 8d519db15344f2e343b775aae1346bc22df4dd1e8c59e4708814ee780045ddc1
+Content revision c7ee0709e3919827c543b3dd52c931814a3e215fc77455a9e26746fe8506a5ac
 
 ## Places I've Studied
 
@@ -1570,9 +1570,9 @@ SlidePoise
 Source ID slidepoise:philosophy
 Original https://www.henryw.me/slidepoise/#philosophy
 
-Four stages connect the message to the finished deck. Content planning establishes the argument and evidence. Visual design retrieves useful references and assets, then explores compositions through image generation. Reconstruction combines the Agent’s interpretation with OpenCV measurements to build editable objects. Review checks the actual PowerPoint against the brief, chosen design and shared visual direction.
+Content planning establishes the argument and evidence. Visual design assembles references and assets on a contact sheet, generates a slide image and checks it against the brief. Reconstruction combines the Agent’s interpretation with OpenCV measurements to build editable PowerPoint objects. The final review checks the rendered PowerPoint for content, consistency and fidelity to the generated image.
 
-The Agent defines each slide’s message and evidence, then searches the reference library for useful ways to explain them. It inspects candidate pages and retrieves relevant icons, logos or native component previews. The selected resources and content become one image-generation request. Open the sample plan to see the content and instructions behind its design.
+The Agent defines each slide’s message and evidence, then retrieves useful references, icons, logos or native component previews. A contact sheet brings those visual inputs together for image generation. The Agent reviews the resulting image for content, readability and layout before reconstruction. Open the sample plan to see the content and instructions behind its design.
 
 Once a design is chosen, its contents need to become PowerPoint objects. The Agent identifies what each element represents and which elements belong together. In this example, the bars, labels and values form one chart. OpenCV, a computer-vision library, measures its geometry so the renderer can rebuild it as an editable chart linked to its data.
 
@@ -1588,9 +1588,11 @@ The Agent finds images and logos, checks that they match the requested subject a
 
 Store your own artwork and native components for reuse. Components keep their editable source, selected page, recorded preview and adaptation guidance. The Agent adapts supported chart and table definitions to your content and reconstructs other structures as native objects.
 
-Small illustrations can lose detail when generated as part of a full slide. The Agent can regenerate an illustration at higher resolution with a transparent background, then check it against the original design before placing it in PowerPoint. Drag the divider to compare the initial illustration with the regenerated version.
+A contact sheet places the chosen style beside the selected references and assets. You can inspect the same visual material supplied to the image model.
 
-Start with the audience, purpose and source material. Choose how closely you want to collaborate. The Agent handles retrieval, reconstruction and technical checks, and brings you into decisions when your direction matters. Each stage below separates your contribution from the work the Agent performs.
+This example combines two public consulting references, a native chart component and three Remix icons. Their labels connect each preview to its role and original source.
+
+References from PwC (https://www.pwc.de/de/strategie-organisation-prozesse-systeme/pwc-enterprise-architecture-in-an-agile-world.pdf) and Strategy& (https://www.pwc.no/no/publikasjoner/strategyand-desember-b2b-saas-2024.pdf). Icons from Remix Icon (https://remixicon.com/).
 
 ## The View Gallery introduction
 
