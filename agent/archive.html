@@ -3,7 +3,7 @@
 <style>body{max-width:78ch;margin:40px auto;padding:0 20px;font:16px/1.6 system-ui,sans-serif;color:#222;background:#fff}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}a{color:#235c9b}</style></head>
 <body><main><h1>Henry&#39;s complete public text</h1><pre># Henry&#39;s public text
 
-Content revision c7ee0709e3919827c543b3dd52c931814a3e215fc77455a9e26746fe8506a5ac
+Content revision ca042400f748ba7253b9f83c1097d192cdb3911056cd023a559a21c03f75c1c8
 
 ## Places I&#39;ve Studied
 
@@ -61,13 +61,15 @@ Original <a href="https://www.henryw.me/#/experience#work-pwc">https://www.henry
 
 At PwC, I work on AI and data systems for financial-services and public-sector clients, combining solution architecture with hands-on development. I translate business needs into technical requirements and evaluate how existing tools can work together within the client’s constraints. Through rapid prototyping, I build and run end-to-end proofs of concept to test the proposed solution against real workflows and refine the design.
 
+I designed and implemented an AI workflow that analyses long reports for different types of risk. I studied the evidence each risk requires and defined how the AI should find and assess it. The system links findings to the original source pages, so reviewers can inspect the evidence and record their decisions.
+
 I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and carries out tasks in the applications the team already uses.
+
+I designed an AI slide-generation framework to help teams quickly explore different ways to present their ideas and iterate on slide designs. The framework uses the company’s visual assets and brand guidelines to guide image generation, then combines AI interpretation with computer-vision measurements to build editable PowerPoint slides. Teams can try new compositions while preserving original logos, icons and reusable components within a consistent visual identity.
 
 For an AI assistant answering public enquiries using client documents, I evaluated and integrated tools into a RAG ingestion pipeline that prepares those documents for retrieval. It preserves page-spanning content, complex tables, references and flowcharts through chunking, which divides documents into searchable passages. I also developed a DeepEval framework to evaluate classification, retrieval and response quality.
 
 To support a data migration, I built an LLM-assisted pipeline that reverse-engineers legacy ETL code, the logic that extracts, transforms and loads data. It recovers data lineage showing where data comes from and how it changes, together with the business rules and test scenarios needed for the migration.
-
-I designed an AI slide-generation framework to help teams quickly explore different ways to present their ideas and iterate on slide designs. The framework uses the company’s visual assets and brand guidelines to guide image generation, then combines AI interpretation with computer-vision measurements to build editable PowerPoint slides. Teams can try new compositions while preserving original logos, icons and reusable components within a consistent visual identity.
 
 I reviewed Ethereum and stablecoin infrastructure risks for a banking engagement.
 
@@ -293,6 +295,20 @@ Original <a href="https://www.henryw.me/#/projects?to=slidepoise">https://www.he
 
 SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. The Agent develops the content, retrieves relevant visual references, icons, logos and native component previews, and explores compositions through image generation. Reconstruction combines the Agent’s interpretation with OpenCV measurements to build editable objects. Shared styles and original assets keep the slides consistent. Reviewing the rendered deck then checks how closely the editable presentation follows the chosen design.
 
+## Risk Assessment Across Long Documents
+
+Builds
+Source ID projects:pwcDocumentReview
+Original <a href="https://www.henryw.me/#/projects?to=pwcDocumentReview">https://www.henryw.me/#/projects?to=pwcDocumentReview</a>
+
+Henry studied how each risk should be judged and translated its definition into decision rules. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks. These records give facts from different pages a common structure for comparison and synthesis.
+
+The full-document architecture preserves report structure while dividing it into chunks. A vision-language model reads every page and can extract several independent evidence records from each one. The evidence ledger collects these records across the document. A separate synthesis pass for each risk combines the relevant records and applies its decision rules. It can request further source-page review when additional context is needed.
+
+Henry implemented the workflow end to end. Independent report chunks are analysed in parallel, followed by parallel risk assessments that reuse the shared evidence ledger. He estimated about 3–4 minutes and US$1.20 in model calls for a report of a few hundred pages.
+
+The client later asked whether the assessment could be built quickly in its existing AI platform. Its knowledge base exposed report content only through search results. Henry extended the risk guidance with explicit evidence requirements and likely source locations to help the model choose useful queries and identify missing facts. Successive searches gather the evidence before synthesis applies the decision rules. This detailed guidance supports focused searches, while assumptions about expected sources can limit generalisability to unfamiliar report structures.
+
 ## AI for IT Operations
 
 Builds
@@ -357,14 +373,6 @@ Original <a href="https://www.henryw.me/#/projects?to=dealtracker">https://www.h
 
 During my exchange in Melbourne, outdoor brands I liked were often cheaper than in Hong Kong, but finding the right offer meant repeatedly checking long sale pages. I built Dealtracker to scan two retailers on a schedule and match their listings against my brand, size, gender, and discount preferences. Store-specific request handling and data normalisation account for differences between the sites. A saved history tracks which products have already appeared in an alert. The next email groups new matches by brand and presents their photographs, prices, discounts and product links together.
 
-## Lexaday
-
-Builds
-Source ID projects:lexaday
-Original <a href="https://www.henryw.me/#/projects?to=lexaday">https://www.henryw.me/#/projects?to=lexaday</a>
-
-Lexaday began with an interest in images as memory cues for vocabulary. Giving every word its own image would create a large collection of separate associations. I built the lessons around shared roots, pairing each root with an AI-generated image and related words so the same visual association could support later learning. Personalised spaced repetition brings earlier roots back alongside new material. GitHub Actions runs the language and image models, assembles the daily email and saves each learner’s updated review history.
-
 ## How I Started Building with Code
 
 Builds
@@ -373,13 +381,13 @@ Original <a href="https://www.henryw.me/#/projects?to=early">https://www.henryw.
 
 Seeing a teacher automate folder creation with a batch script made me curious about what else I could make a computer do. During junior high and high school, I taught myself Java and Python and treated code like building blocks, trying combinations and exploring the possibilities. I built desktop applications, a Scientific American podcast downloader, Chrome extensions, a music downloader, Kiwiview’s first website and automation scripts. Some experiments also answered a specific need, such as Econographer, a Word add-in for the economics diagrams we used in class. The projects follow that period in chronological order.
 
-## Where I&#39;ve Wandered
+## Travels
 
 Travels
 Source ID travels:overview
 Original <a href="https://www.henryw.me/#/travels">https://www.henryw.me/#/travels</a>
 
-Some of the places I&#39;ve been, with a photo from each. Drag to spin · pinch to zoom · tap a point
+Drag to spin · pinch to zoom · tap a point
 
 ## Insurance Product Configuration Engine
 
@@ -395,7 +403,7 @@ Insurance Product Configuration Engine
 Source ID playbook:first-the-problem
 Original <a href="https://www.henryw.me/#/playbook#first-the-problem">https://www.henryw.me/#/playbook#first-the-problem</a>
 
-Across dozens of insurance products in multiple markets, the app needed different screens and questions. Travel insurance might need trip dates, motor insurance might need vehicle details, and an earlier answer could determine which follow-up question appeared. The team needed a way to express those differences and generate the corresponding configuration. Product specifications described the business requirements, while design libraries defined the screens and fields available to implement them. Engineering needed a configuration identifying which components each product required. I worked on making the relationship between these descriptions explicit, so a change in requirements could be carried through to the app configuration. 01 Mapping
+Across dozens of insurance products in multiple markets, the app needed different screens and questions. Travel insurance might need trip dates, motor insurance might need vehicle details, and an earlier answer could determine which follow-up question appeared. The team needed a way to express those differences and generate the corresponding configuration. I connected the product specifications to the design library of available screens and fields. The resulting rules let the engine translate a product’s requirements into the component configuration engineering needed. When a requirement changed, the team could update the rule and regenerate the configuration. 01 Mapping
 
 ## Making the configuration rules reusable
 
@@ -413,7 +421,7 @@ Insurance Product Configuration Engine
 Source ID playbook:try-it
 Original <a href="https://www.henryw.me/#/playbook#try-it">https://www.henryw.me/#/playbook#try-it</a>
 
-Try changing the trip type, destination or length below and follow the effect through the highlighted rules to the packing list. Notice how a choice can reveal a follow-up question, and how separate decision tables each contribute to the final output. 03 Automation
+Change a trip’s details and trace the result through the highlighted rules to its packing list. The example below shows how conditional questions and separate decision tables work together. 03 Automation
 
 ## Automating product configuration
 
@@ -421,7 +429,7 @@ Insurance Product Configuration Engine
 Source ID playbook:from-the-packing-demo-to-the-production-tool
 Original <a href="https://www.henryw.me/#/playbook#from-the-packing-demo-to-the-production-tool">https://www.henryw.me/#/playbook#from-the-packing-demo-to-the-production-tool</a>
 
-In the production Excel/VBA tool, users entered product specifications through a dynamic form, and the engine automatically applied the decision tables to generate the required UI-component configuration. Follow-up fields appeared according to conditions expressed in a small notation. The roughly 32 KB VBA engine evaluated these definitions alongside the mapping rules. Broad defaults and specific exceptions could coexist in a decision table, using wildcard matching and right-side overrides to give specific cases precedence over general rules. I developed four versions of the tool and included an embedded tutorial for colleagues maintaining the libraries and decision tables. The team could generate configurations through the form and update the shared logic through the libraries after my internship.
+In the production Excel/VBA tool, users entered specifications through a dynamic form. A compact notation in each field definition determined when follow-up questions appeared. The roughly 32 KB engine evaluated these inputs against the decision tables and generated the required UI-component configuration. Decision tables combined broad defaults and specific exceptions through wildcard matching and right-side overrides. I developed four versions of the tool and included a tutorial showing colleagues how to maintain these rules and their linked libraries. After my internship, the team could continue generating configurations and updating the shared logic.
 
 ## Lexaday
 
@@ -429,7 +437,7 @@ Lexaday
 Source ID lexaday:overview
 Original <a href="https://www.henryw.me/#/lexaday">https://www.henryw.me/#/lexaday</a>
 
-Related words, memorable images, and reviews by email Lexaday explores whether an image attached to a word root can help learners develop a feel for its meaning across a family of words. Each lesson combines a generated image with a family of related words, and a personalised review schedule brings those connections back over time. 01 Words &amp; images
+Related words, memorable images, and reviews by email I built Lexaday to teach related words through a shared root and an AI-generated image. Daily emails introduce new roots and revisit earlier ones on a personalised schedule. The project explores whether one visual memory can help learners recognise meaning across a family of words. 01 Words &amp; images
 
 ## Remembering roots through images
 
@@ -493,7 +501,7 @@ Stride Support
 Source ID stride:overview
 Original <a href="https://www.henryw.me/#/stride">https://www.henryw.me/#/stride</a>
 
-Customer support with retrieval, recommendations and tool use A customer asking about a return needs an answer that connects the policy to their purchase and helps them take the next step. For this course project, we built an assistant that retrieves relevant information, works with order records and carries out support actions through conversation. Retrieval-augmented generation (RAG) supplies the model with product and policy material, while recommendation and sentiment models help it choose useful suggestions and respond to the customer’s tone. 01 Context
+Customer support with retrieval, recommendations and tool use A customer asking about a return needs the policy applied to their purchase and a way to take the next step. For this course project, we built a support assistant that uses the selected order throughout a conversation. It retrieves product and policy information, recommends suitable products and carries out actions such as filing a complaint. 01 Context
 
 ## Keeping the order in context
 
@@ -587,7 +595,7 @@ Scrollytelling Engine
 Source ID scrollytelling:describe-a-scene-once-then-let-the-engine-build-it
 Original <a href="https://www.henryw.me/#/scrollytelling#describe-a-scene-once-then-let-the-engine-build-it">https://www.henryw.me/#/scrollytelling#describe-a-scene-once-then-let-the-engine-build-it</a>
 
-Each scene describes its text, figure type, and rendering settings in a data object with a shared schema. A renderer registry connects that figure type to the appropriate D3 builder, which draws and animates the visual using the supplied data. Adding a new line-chart scene, for example, means supplying another set of content and settings to the existing line-chart builder. The explorer below uses the same builders as the full deck. Choose a figure to compare its scene definition with the rendered result, including the settings that control its data and appearance. 03 Consistency
+Each scene describes its text, figure type, and rendering settings in a data object with a shared schema. A renderer registry connects that figure type to the appropriate D3 builder, which draws and animates the visual using the supplied data. Adding a new line-chart scene, for example, means supplying another set of content and settings to the existing line-chart builder. The explorer below uses the same builders as the full deck. Choose a figure, then open its scene definition to see how the data and display settings produce the result. 03 Consistency
 
 ## Keeping the scenes consistent
 
@@ -899,6 +907,66 @@ It affects where to intervene, too. Existing parsing capabilities covered severa
 
 That understanding is part of what the consulting work needs to deliver.
 
+## Risk Assessment Across Long Documents
+
+Risk Assessment Across Long Documents
+Source ID document-review:overview
+Original <a href="https://www.henryw.me/#/document-review">https://www.henryw.me/#/document-review</a>
+
+Reading long reports and connecting the evidence behind each finding At PwC, I designed and built an AI pipeline that reads long reports, extracts individual evidence records and combines them to assess different risks. Reviewers can inspect the reasoning and open the original source pages behind each finding. 01 Task and judgement
+
+## A risk judgement can depend on evidence scattered across hundreds of pages.
+
+Risk Assessment Across Long Documents
+Source ID document-review:prepare-the-evidence-for-a-decision
+Original <a href="https://www.henryw.me/#/document-review#prepare-the-evidence-for-a-decision">https://www.henryw.me/#/document-review#prepare-the-evidence-for-a-decision</a>
+
+The team needed to assess a defined set of risks in long reports. Relevant observations appeared throughout the text, tables and appendices, and the context needed to interpret one observation could be on another page. Each finding needed a reasoned conclusion and references that a reviewer could follow back to the report. I began by studying how each risk should be judged. I translated its definition into decision rules that explain how observations should be interpreted together and which conditions affect the conclusion. These rules gave each assessment a clear basis for reasoning over the information in the report. I organised the workflow around reading every page and collecting relevant observations before assessing each risk. This separated the work of understanding what the report says from the work of deciding what its evidence means. 02 Evidence records
+
+## Structured records make evidence usable across pages and risks.
+
+Risk Assessment Across Long Documents
+Source ID document-review:designing-reusable-evidence-records
+Original <a href="https://www.henryw.me/#/document-review#designing-reusable-evidence-records">https://www.henryw.me/#/document-review#designing-reusable-evidence-records</a>
+
+A report organises information by section, while a risk assessment may need to connect facts from several sections. I designed evidence records as an intermediate representation of the report. They give individual observations a common structure so the model can compare and combine them during assessment. The record schema defines what each observation carries forward. It preserves the reported fact and its context, together with its source location and potential relevance to different risks. Observed content The fact or statement, including the quantities, conditions and qualifications needed to understand it. Source context The document section, page and source item, such as the table or paragraph where it appears. Assessment relevance The risks it may inform, its role in the analysis and any detail needed from the source.
+
+Records retain the identifiers used in the report, allowing observations about the same item to be connected and repeated evidence to be recognised. The section hierarchy distinguishes similarly named tables or appendices in different parts of the document. This representation lets several risk assessments draw on the same observation. Each can interpret its significance through its own decision rules, while the source reference remains available for review. 03 Reading and synthesis
+
+## Read the whole report, then combine the evidence for each risk.
+
+Risk Assessment Across Long Documents
+Source ID document-review:reusing-evidence-across-assessments
+Original <a href="https://www.henryw.me/#/document-review#reusing-evidence-across-assessments">https://www.henryw.me/#/document-review#reusing-evidence-across-assessments</a>
+
+I used the contents and section headings to divide the report into chunks, each capped at a manageable number of pages. A vision-language model (VLM) reads the page images, including tables and visual material, and extracts observations relevant to the defined risks. Each page can produce several separate evidence records. These accumulate across the report in an evidence ledger, the shared collection used for assessment. The sequence below follows this process through to synthesis, where the collected records are brought together for each risk. Each risk has a separate synthesis pass that applies its decision rules to the relevant records. It connects observations across pages and explains how they support or qualify a finding. A single record can contribute to several assessments. The model also receives the document index.
+
+If a conclusion depends on context missing from a record, it can request another look at the source pages. New evidence is added to the ledger before the assessment is refined. The completed finding includes its reasoning and references to the original material.
+
+## Parallel processing keeps the full-report workflow practical
+
+Risk Assessment Across Long Documents
+Source ID document-review:implementing-the-review-workflow
+Original <a href="https://www.henryw.me/#/document-review#implementing-the-review-workflow">https://www.henryw.me/#/document-review#implementing-the-review-workflow</a>
+
+I implemented this workflow end to end. Independent report chunks are analysed in parallel, followed by parallel assessments of the individual risks. The shared ledger lets those assessments reuse the extraction work. Using the recorded processing stages and model usage, I estimated about 3–4 minutes and US$1.20 in model calls for a report of a few hundred pages. 04 Search-based assessment
+
+## Search-only access requires a more explicit plan for gathering evidence.
+
+Risk Assessment Across Long Documents
+Source ID document-review:designing-around-delivery-constraints
+Original <a href="https://www.henryw.me/#/document-review#designing-around-delivery-constraints">https://www.henryw.me/#/document-review#designing-around-delivery-constraints</a>
+
+The client also asked whether the assessment could be built quickly in its existing AI platform. Reports were stored in the platform’s knowledge base, which exposed their content only through search results. The model therefore had to gather evidence through queries and work with the passages the platform returned. Because the model could only assess the material its searches found, the guidance also needed to explain how to find the facts required by each decision rule. I broke each risk down further into explicit evidence requirements and likely source locations. These additions helped the model choose useful queries and identify gaps in the returned material.
+
+## Search for the required facts, then follow the gaps
+
+Risk Assessment Across Long Documents
+Source ID document-review:retrieving-evidence-as-needed
+Original <a href="https://www.henryw.me/#/document-review#retrieving-evidence-as-needed">https://www.henryw.me/#/document-review#retrieving-evidence-as-needed</a>
+
+The model uses the evidence requirements and source guidance to plan its searches. It reads the returned passages, retains relevant observations and checks what is still missing. Follow-up queries use details found in earlier results to gather further evidence. Once the evidence has been gathered, synthesis applies the decision rules and combines the observations into an assessment. The animation shows how searches build on one another before the final judgement. This more detailed guidance makes searches more focused on the facts a judgement requires. Its generalisability depends on how well it accommodates unfamiliar reports. If expected source locations become fixed boundaries, the model may miss relevant evidence in a differently organised document. Likely sections therefore need to remain starting points for further enquiry.
+
 ## AI for IT Operations
 
 AI for IT Operations
@@ -913,7 +981,7 @@ AI for IT Operations
 Source ID ai-it-operations:ai-in-it-operations
 Original <a href="https://www.henryw.me/#/ai-it-operations#ai-in-it-operations">https://www.henryw.me/#/ai-it-operations#ai-in-it-operations</a>
 
-Keeping an organisation’s technology running involves maintaining systems, investigating faults and supporting the people who use them. An IT team works across many products and has to keep up as their software and documentation change. At PwC, I researched how AI could help with this work, including making technical knowledge easier to consult and automating tasks in existing applications. My work focused on two areas. One was the knowledge behind an assistant that answers IT questions. I designed a process for expanding and maintaining its knowledge base, using AI to research missing material and assess changes in the original documentation. The other was carrying out service requests. I built a browser agent that interprets a ticket and works through the relevant application, reading the page as it acts and involving the operator when the task needs their input.
+Keeping an organisation’s technology running involves maintaining systems, investigating faults and supporting the people who use them. An IT team works across many products and has to keep up as their software and documentation change. At PwC, I researched how AI could help with this work, including making technical knowledge easier to consult and automating tasks in existing applications. Two kinds of work need different support. Answering a technical question depends on reliable documentation. Fulfilling a service ticket depends on acting in an application and checking the result. I connected AI reasoning to those workflows, retaining source records for knowledge updates and operator controls for browser actions. 01 Knowledge management
 
 ## Keeping the assistant’s knowledge useful
 
@@ -921,7 +989,7 @@ AI for IT Operations
 Source ID ai-it-operations:knowledge-management
 Original <a href="https://www.henryw.me/#/ai-it-operations#knowledge-management">https://www.henryw.me/#/ai-it-operations#knowledge-management</a>
 
-The platform includes an assistant that answers questions about using and maintaining IT systems. It searches a collection of technical documents and uses relevant passages to help compose each answer, an approach known as retrieval-augmented generation (RAG). That collection, its knowledge base, needs continuing attention. Useful information may be missing, and documents already collected can become outdated. I designed the platform’s Knowledge Management around these two needs, acquiring material that expands what the assistant can answer and maintaining it as the sources change.
+The IT assistant answers questions about using and maintaining systems. It retrieves relevant passages from technical documents and supplies them to a language model when composing an answer. This approach is known as retrieval-augmented generation (RAG). That collection, its knowledge base, needs continuing attention. Useful information may be missing, and documents already collected can become outdated. I designed the platform’s Knowledge Management around these two needs, acquiring material that expands what the assistant can answer and maintaining it as the sources change.
 
 ## Where does the assistant need more knowledge?
 
@@ -929,9 +997,7 @@ AI for IT Operations
 Source ID ai-it-operations:where-does-the-assistant-need-more-knowledge
 Original <a href="https://www.henryw.me/#/ai-it-operations#where-does-the-assistant-need-more-knowledge">https://www.henryw.me/#/ai-it-operations#where-does-the-assistant-need-more-knowledge</a>
 
-Before collecting more documents, I needed to identify what information was missing. Having material on a topic does not tell us which questions it can answer. Documentation on certificates might explain how to renew one while leaving out how to get an application to use its replacement. Checking those two questions separately makes the missing information explicit and gives the next search something specific to find. Questions the assistant had been unable to answer provided one way to discover gaps. I also used AI to propose useful questions beyond those people had already asked, so the collection could develop ahead of demand. A proposed question still needed to be checked against the existing material. A new question does not necessarily require new knowledge. For example, documentation collected on hosting a Python web app may already explain how to host a REST API.
-
-Whether a question has been asked and whether the collection can answer it are therefore separate considerations. The matrix below crosses them to show four cases. The two missing cases supply questions for further research. Try predicting a question, then follow the search for the information it needs.
+I used specific questions to identify gaps in the knowledge base. Guidance on renewing a security certificate, for example, might omit the steps that make an application use the replacement. Checking each question against the collected documents gives the next search a precise target. Unanswered user questions reveal immediate needs. I also used AI to propose questions people might ask next, then checked whether the existing material could answer them. This lets the collection develop ahead of demand while making use of knowledge already held. Documentation collected for Python web apps may also explain how to host a REST API. The matrix below therefore separates whether a question has been asked from whether the knowledge base can answer it. Select a case to see an example, then research the missing answers.
 
 ## Researching gaps in technical guidance
 
@@ -1507,41 +1573,33 @@ About
 Source ID about:root:about-me
 Original <a href="https://www.henryw.me/#/about">https://www.henryw.me/#/about</a>
 
-I&#39;m Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong .
+I was born in Taiwan , grew up in Shanghai , and now study Applied AI at the University of Hong Kong . Alongside my studies, I work in AI consulting at PwC.
 
-I&#39;m a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. Alongside my studies, I&#39;m currently working in AI consulting at PwC.
+I explore ideas and develop models to understand how things work. When I see a way to put that understanding to use, I design and build something around it.
 
-Across my studies and work, I&#39;m drawn to things that are still taking shape. I like gradually finding and building structure as I understand them better.
+My research asks how learning shapes what we can do, and what changes when AI becomes part of human thinking.
 
-In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes.
+My mother used to drive me to the coast near Napier , where we would sit and watch the sea for hours. In Hong Kong , I spent evenings on the waterfront at Kennedy Town.
 
-I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some are small tools that automate everyday tasks. Others are larger systems that use AI to help people work with complex information and make better decisions.
+As AI becomes part of everyday life, I value having a record of my own thoughts and feelings. Fragments is where I write some of them down.
 
-The Builds page brings together projects from my work and coursework, along with personal projects dating back to secondary school. This website is one of them. I use it to explore how AI can reorganise the same material around what a visitor wants to understand. That process also helps me understand and record myself from different angles.
-
-I like the open space by the sea. In Hawke&#39;s Bay , my mother would drive me to the coast near Napier . In Hong Kong , I spent time at Kennedy Town Praya during my early university years. When I travel, I also like taking ferries and walking along the waterfront.
-
-I like travelling, and I often keep a photograph or a few notes from a trip. Looking back at them helps me remember the people I was with, how the place felt and what my life was like then.
-
-As AI becomes part of how we write and remember, our own thoughts and the memories tied to people, places, and feelings seem especially worth keeping. I keep Fragments so that I can return to thoughts and memories that would otherwise fade.
-
-## How I Research and Build
+## I study how people and machines learn
 
 About
 Source ID about:section:how-i-research-and-build
 Original <a href="https://www.henryw.me/#/about#how-i-research-and-build">https://www.henryw.me/#/about#how-i-research-and-build</a>
 
-How we learn and think In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. Things I build I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some are small tools that automate everyday tasks. Others are larger systems that use AI to help people work with complex information and make better decisions.
+My research asks how learning shapes what we can do, and what changes when AI becomes part of human thinking.
 
-The Builds page brings together projects from my work and coursework, along with personal projects dating back to secondary school. This website is one of them. I use it to explore how AI can reorganise the same material around what a visitor wants to understand. That process also helps me understand and record myself from different angles.
-
-## Outside work
+## I want to remember what life felt like
 
 About
 Source ID about:section:outside-work
 Original <a href="https://www.henryw.me/#/about#outside-work">https://www.henryw.me/#/about#outside-work</a>
 
-I like the open space by the sea. In Hawke&#39;s Bay , my mother would drive me to the coast near Napier . In Hong Kong , I spent time at Kennedy Town Praya during my early university years. When I travel, I also like taking ferries and walking along the waterfront. I like travelling, and I often keep a photograph or a few notes from a trip. Looking back at them helps me remember the people I was with, how the place felt and what my life was like then. Travels Follow the places I&#39;ve lived in, travelled through, and remembered As AI becomes part of how we write and remember, our own thoughts and the memories tied to people, places, and feelings seem especially worth keeping. I keep Fragments so that I can return to thoughts and memories that would otherwise fade.
+My mother used to drive me to the coast near Napier , where we would sit and watch the sea for hours. In Hong Kong , I spent evenings on the waterfront at Kennedy Town.
+
+As AI becomes part of everyday life, I value having a record of my own thoughts and feelings. Fragments is where I write some of them down.
 
 ## Say Hello
 
@@ -1551,9 +1609,9 @@ Original <a href="https://www.henryw.me/#/about#say-hello">https://www.henryw.me
 
 If you want to get in touch, I&#39;d be glad to hear from you.
 
-For personal messages, write to me at whenry6688@gmail.com (mailto:whenry6688@gmail.com).
+Personal messages to whenry6688@gmail.com
 
-For academic matters, reach me at henry.why@connect.hku.hk (mailto:henry.why@connect.hku.hk).
+Academic matters to henry.why@connect.hku.hk
 
 ## Why SlidePoise
 
@@ -1561,9 +1619,9 @@ SlidePoise
 Source ID slidepoise:purpose
 Original <a href="https://www.henryw.me/slidepoise/#why-slidepoise">https://www.henryw.me/slidepoise/#why-slidepoise</a>
 
-Agentic slide generation needs both freedom of layout and control over the final deck.
+Each slide needs a layout that serves its message and objects the author can edit.
 
-Fixed templates keep layouts consistent, but restrict how content can be presented. Image generation allows freer design, yet leaves the work of maintaining consistency and turning those designs into accurate, editable slides.
+Image generation makes it possible to explore layouts around the content of a slide. Turning a chosen design into a useful deck also requires accurate text, editable charts and a consistent visual style.
 
 SlidePoise gives that creative process a structured workflow, supported by tools for visual measurement and PowerPoint construction. A shared content plan, style and asset library guide the Agent as it develops designs, builds editable slides and reviews the resulting deck.
 
@@ -1709,19 +1767,9 @@ AI interprets passenger conditions. Constrained optimisation finds arrangements 
 
 ## Places and moments
 
-About
+Travels
 Source ID about:gallery
-Original <a href="https://www.henryw.me/#/about#showcaseimages">https://www.henryw.me/#/about#showcaseimages</a>
+Original <a href="https://www.henryw.me/#/travels#showcaseimages">https://www.henryw.me/#/travels#showcaseimages</a>
 
 A gallery of places and moments from Henry&#39;s travels and everyday life.
-
-## What Henry is currently doing
-
-Home
-Source ID home:currently
-Original <a href="https://www.henryw.me/#/home#story-now">https://www.henryw.me/#/home#story-now</a>
-
-Henry is developing AI × Self, a personal archive that lets visitors connect his work, ideas and experiences through their own questions. Each View composes a perspective with original sources. The Gallery brings these readings together as exhibitions to explore and share. Henry is currently a Cloud, Data &amp; AI consulting intern at PwC in Hong Kong, where he designs and evaluates AI systems for financial services and public sector work. Henry is currently based in Hong Kong. Henry is currently developing Early Epistemic Settlement in AI-Assisted Writing, a research project about how an AI-supplied structure can meet a passage’s current demands while the writer’s own work towards a resolution remains unfinished, and how this changes what they can defend or develop later.
-
-Henry recently wrote The Projection of Thought, a fragment exploring how expression projects layered and moving thought onto the flatter surface of language, which then guides later thinking.
 </pre></main></body></html>

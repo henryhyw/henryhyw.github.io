@@ -149,13 +149,14 @@
       "title": "Cloud, Data & AI Consulting Intern",
       "anchor": "work-pwc",
       "description": "At PwC, I work on AI and data systems for financial-services and public-sector clients, combining solution architecture with hands-on development. I translate business needs into technical requirements and evaluate how existing tools can work together within the client’s constraints.",
-      "body": "At PwC, I work on AI and data systems for financial-services and public-sector clients, combining solution architecture with hands-on development. I translate business needs into technical requirements and evaluate how existing tools can work together within the client’s constraints. Through rapid prototyping, I build and run end-to-end proofs of concept to test the proposed solution against real workflows and refine the design. I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and carries out tasks in the applications the team already uses. For an AI assistant answering public enquiries using client documents, I evaluated and integrated tools into a RAG ingestion pipeline that prepares those documents for retrieval. It preserves page-spanning content, complex tables, references and flowcharts through chunking, which divides documents into searchable passages. I also developed a DeepEval framework to evaluate classification, retrieval and response quality. To support a data migration, I built an LLM-assisted pipeline that reverse-engineers legacy ETL code, the logic that extracts, transforms and loads data. It recovers data lineage showing where data comes from and how it changes, together with the business rules and test scenarios needed for the migration. I designed an AI slide-generation framework to help teams quickly explore different ways to present their ideas and iterate on slide designs. The framework uses the company’s visual assets and brand guidelines to guide image generation, then combines AI interpretation with computer-vision measurements to build editable PowerPoint slides. Teams can try new compositions while preserving original logos, icons and reusable components within a consistent visual identity. I reviewed Ethereum and stablecoin infrastructure risks for a banking engagement.",
+      "body": "At PwC, I work on AI and data systems for financial-services and public-sector clients, combining solution architecture with hands-on development. I translate business needs into technical requirements and evaluate how existing tools can work together within the client’s constraints. Through rapid prototyping, I build and run end-to-end proofs of concept to test the proposed solution against real workflows and refine the design. I designed and implemented an AI workflow that analyses long reports for different types of risk. I studied the evidence each risk requires and defined how the AI should find and assess it. The system links findings to the original source pages, so reviewers can inspect the evidence and record their decisions. I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and carries out tasks in the applications the team already uses. I designed an AI slide-generation framework to help teams quickly explore different ways to present their ideas and iterate on slide designs. The framework uses the company’s visual assets and brand guidelines to guide image generation, then combines AI interpretation with computer-vision measurements to build editable PowerPoint slides. Teams can try new compositions while preserving original logos, icons and reusable components within a consistent visual identity. For an AI assistant answering public enquiries using client documents, I evaluated and integrated tools into a RAG ingestion pipeline that prepares those documents for retrieval. It preserves page-spanning content, complex tables, references and flowcharts through chunking, which divides documents into searchable passages. I also developed a DeepEval framework to evaluate classification, retrieval and response quality. To support a data migration, I built an LLM-assisted pipeline that reverse-engineers legacy ETL code, the logic that extracts, transforms and loads data. It recovers data lineage showing where data comes from and how it changes, together with the business rules and test scenarios needed for the migration. I reviewed Ethereum and stablecoin infrastructure risks for a banking engagement.",
       "parts": [
         "At PwC, I work on AI and data systems for financial-services and public-sector clients, combining solution architecture with hands-on development. I translate business needs into technical requirements and evaluate how existing tools can work together within the client’s constraints. Through rapid prototyping, I build and run end-to-end proofs of concept to test the proposed solution against real workflows and refine the design.",
+        "I designed and implemented an AI workflow that analyses long reports for different types of risk. I studied the evidence each risk requires and defined how the AI should find and assess it. The system links findings to the original source pages, so reviewers can inspect the evidence and record their decisions.",
         "I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and carries out tasks in the applications the team already uses.",
+        "I designed an AI slide-generation framework to help teams quickly explore different ways to present their ideas and iterate on slide designs. The framework uses the company’s visual assets and brand guidelines to guide image generation, then combines AI interpretation with computer-vision measurements to build editable PowerPoint slides. Teams can try new compositions while preserving original logos, icons and reusable components within a consistent visual identity.",
         "For an AI assistant answering public enquiries using client documents, I evaluated and integrated tools into a RAG ingestion pipeline that prepares those documents for retrieval. It preserves page-spanning content, complex tables, references and flowcharts through chunking, which divides documents into searchable passages. I also developed a DeepEval framework to evaluate classification, retrieval and response quality.",
         "To support a data migration, I built an LLM-assisted pipeline that reverse-engineers legacy ETL code, the logic that extracts, transforms and loads data. It recovers data lineage showing where data comes from and how it changes, together with the business rules and test scenarios needed for the migration.",
-        "I designed an AI slide-generation framework to help teams quickly explore different ways to present their ideas and iterate on slide designs. The framework uses the company’s visual assets and brand guidelines to guide image generation, then combines AI interpretation with computer-vision measurements to build editable PowerPoint slides. Teams can try new compositions while preserving original logos, icons and reusable components within a consistent visual identity.",
         "I reviewed Ethereum and stablecoin infrastructure risks for a banking engagement."
       ],
       "view_kind": "experience",
@@ -949,6 +950,44 @@
     },
     {
       "id": 29,
+      "source_id": "projects:pwcDocumentReview",
+      "route": "/document-review",
+      "page": "Risk Assessment Across Long Documents",
+      "title": "Risk Assessment Across Long Documents",
+      "anchor": "",
+      "description": "Henry studied how each risk should be judged and translated its definition into decision rules. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks. These records give facts from different pages a common structure for comparison and synthesis.",
+      "body": "Henry studied how each risk should be judged and translated its definition into decision rules. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks. These records give facts from different pages a common structure for comparison and synthesis. The full-document architecture preserves report structure while dividing it into chunks. A vision-language model reads every page and can extract several independent evidence records from each one. The evidence ledger collects these records across the document. A separate synthesis pass for each risk combines the relevant records and applies its decision rules. It can request further source-page review when additional context is needed. Henry implemented the workflow end to end. Independent report chunks are analysed in parallel, followed by parallel risk assessments that reuse the shared evidence ledger. He estimated about 3–4 minutes and US$1.20 in model calls for a report of a few hundred pages. The client later asked whether the assessment could be built quickly in its existing AI platform. Its knowledge base exposed report content only through search results. Henry extended the risk guidance with explicit evidence requirements and likely source locations to help the model choose useful queries and identify missing facts. Successive searches gather the evidence before synthesis applies the decision rules. This detailed guidance supports focused searches, while assumptions about expected sources can limit generalisability to unfamiliar report structures.",
+      "parts": [
+        "Henry studied how each risk should be judged and translated its definition into decision rules. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks. These records give facts from different pages a common structure for comparison and synthesis.",
+        "The full-document architecture preserves report structure while dividing it into chunks. A vision-language model reads every page and can extract several independent evidence records from each one. The evidence ledger collects these records across the document. A separate synthesis pass for each risk combines the relevant records and applies its decision rules. It can request further source-page review when additional context is needed.",
+        "Henry implemented the workflow end to end. Independent report chunks are analysed in parallel, followed by parallel risk assessments that reuse the shared evidence ledger. He estimated about 3–4 minutes and US$1.20 in model calls for a report of a few hundred pages.",
+        "The client later asked whether the assessment could be built quickly in its existing AI platform. Its knowledge base exposed report content only through search results. Henry extended the risk guidance with explicit evidence requirements and likely source locations to help the model choose useful queries and identify missing facts. Successive searches gather the evidence before synthesis applies the decision rules. This detailed guidance supports focused searches, while assumptions about expected sources can limit generalisability to unfamiliar report structures."
+      ],
+      "view_kind": "project",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [
+        {
+          "src": "/assets/img/PwC.png"
+        }
+      ],
+      "entity": {
+        "kind": "project",
+        "id": "pwcDocumentReview",
+        "period": "October 2026",
+        "subtitle": "Reading long reports and connecting the evidence behind each finding",
+        "route": "/document-review",
+        "anchor": "",
+        "mediaMode": "logo",
+        "logoHeight": "6vh",
+        "richBlock": "interactive.document-review.architecture"
+      },
+      "selected": false
+    },
+    {
+      "id": 30,
       "source_id": "projects:pwcItOps",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -986,7 +1025,7 @@
       "selected": false
     },
     {
-      "id": 30,
+      "id": 31,
       "source_id": "projects:insurance",
       "route": "/playbook",
       "page": "Insurance Product Configuration Engine",
@@ -1023,7 +1062,7 @@
       "selected": false
     },
     {
-      "id": 31,
+      "id": 32,
       "source_id": "projects:scrollytelling",
       "route": "/scrollytelling",
       "page": "Interactive Scrollytelling Deck",
@@ -1070,7 +1109,7 @@
       "selected": false
     },
     {
-      "id": 32,
+      "id": 33,
       "source_id": "projects:pwcRag",
       "route": "/ragflow-pipeline",
       "page": "A Structure-Preserving RAG Ingestion Pipeline",
@@ -1108,7 +1147,7 @@
       "selected": false
     },
     {
-      "id": 33,
+      "id": 34,
       "source_id": "projects:stride",
       "route": "/stride",
       "page": "Stride Support",
@@ -1152,7 +1191,7 @@
       "selected": false
     },
     {
-      "id": 34,
+      "id": 35,
       "source_id": "projects:dealtracker",
       "route": "/dealtracker",
       "page": "Dealtracker",
@@ -1182,53 +1221,6 @@
         "period": "February 2025 - June 2025",
         "subtitle": "A scheduled deal hunter with personal filters and email digests",
         "route": "/dealtracker",
-        "anchor": "",
-        "mediaMode": "gallery",
-        "logoHeight": "",
-        "richBlock": ""
-      },
-      "selected": false
-    },
-    {
-      "id": 35,
-      "source_id": "projects:lexaday",
-      "route": "/lexaday",
-      "page": "Lexaday",
-      "title": "Lexaday",
-      "anchor": "",
-      "description": "Lexaday began with an interest in images as memory cues for vocabulary. Giving every word its own image would create a large collection of separate associations. I built the lessons around shared roots, pairing each root with an AI-generated image and related words so the same visual association could support later learning. Personalised spaced repetition brings earlier roots back alongside new material.",
-      "body": "Lexaday began with an interest in images as memory cues for vocabulary. Giving every word its own image would create a large collection of separate associations. I built the lessons around shared roots, pairing each root with an AI-generated image and related words so the same visual association could support later learning. Personalised spaced repetition brings earlier roots back alongside new material. GitHub Actions runs the language and image models, assembles the daily email and saves each learner’s updated review history.",
-      "parts": [
-        "Lexaday began with an interest in images as memory cues for vocabulary. Giving every word its own image would create a large collection of separate associations. I built the lessons around shared roots, pairing each root with an AI-generated image and related words so the same visual association could support later learning. Personalised spaced repetition brings earlier roots back alongside new material. GitHub Actions runs the language and image models, assembles the daily email and saves each learner’s updated review history."
-      ],
-      "view_kind": "project",
-      "presentations": [
-        "cite"
-      ],
-      "priority": 2,
-      "media": [
-        {
-          "src": "/assets/img/lexaday_gallery_305.png"
-        },
-        {
-          "src": "/assets/img/lexaday_gallery_4.png"
-        },
-        {
-          "src": "/assets/img/lexaday_gallery_90.png"
-        },
-        {
-          "src": "/assets/img/lexaday_gallery_208.png"
-        },
-        {
-          "src": "/assets/img/lexaday_email.jpg"
-        }
-      ],
-      "entity": {
-        "kind": "project",
-        "id": "lexaday",
-        "period": "February 2025 - June 2025",
-        "subtitle": "Related words, memorable images, and reviews by email",
-        "route": "/lexaday",
         "anchor": "",
         "mediaMode": "gallery",
         "logoHeight": "",
@@ -1288,12 +1280,12 @@
       "source_id": "travels:overview",
       "route": "/travels",
       "page": "Travels",
-      "title": "Where I've Wandered",
+      "title": "Travels",
       "anchor": "",
-      "description": "Some of the places I've been, with a photo from each. Drag to spin · pinch to zoom · tap a point",
-      "body": "Some of the places I've been, with a photo from each. Drag to spin · pinch to zoom · tap a point",
+      "description": "Drag to spin · pinch to zoom · tap a point",
+      "body": "Drag to spin · pinch to zoom · tap a point",
       "parts": [
-        "Some of the places I've been, with a photo from each. Drag to spin · pinch to zoom · tap a point"
+        "Drag to spin · pinch to zoom · tap a point"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -1331,9 +1323,9 @@
       "title": "Configuring the app for different insurance products",
       "anchor": "first-the-problem",
       "description": "Across dozens of insurance products in multiple markets, the app needed different screens and questions. Travel insurance might need trip dates, motor insurance might need vehicle details, and an earlier answer could determine which follow-up question appeared. The team needed a way to express those differences and generate the corresponding configuration.",
-      "body": "Across dozens of insurance products in multiple markets, the app needed different screens and questions. Travel insurance might need trip dates, motor insurance might need vehicle details, and an earlier answer could determine which follow-up question appeared. The team needed a way to express those differences and generate the corresponding configuration. Product specifications described the business requirements, while design libraries defined the screens and fields available to implement them. Engineering needed a configuration identifying which components each product required. I worked on making the relationship between these descriptions explicit, so a change in requirements could be carried through to the app configuration. 01 Mapping",
+      "body": "Across dozens of insurance products in multiple markets, the app needed different screens and questions. Travel insurance might need trip dates, motor insurance might need vehicle details, and an earlier answer could determine which follow-up question appeared. The team needed a way to express those differences and generate the corresponding configuration. I connected the product specifications to the design library of available screens and fields. The resulting rules let the engine translate a product’s requirements into the component configuration engineering needed. When a requirement changed, the team could update the rule and regenerate the configuration. 01 Mapping",
       "parts": [
-        "Across dozens of insurance products in multiple markets, the app needed different screens and questions. Travel insurance might need trip dates, motor insurance might need vehicle details, and an earlier answer could determine which follow-up question appeared. The team needed a way to express those differences and generate the corresponding configuration. Product specifications described the business requirements, while design libraries defined the screens and fields available to implement them. Engineering needed a configuration identifying which components each product required. I worked on making the relationship between these descriptions explicit, so a change in requirements could be carried through to the app configuration. 01 Mapping"
+        "Across dozens of insurance products in multiple markets, the app needed different screens and questions. Travel insurance might need trip dates, motor insurance might need vehicle details, and an earlier answer could determine which follow-up question appeared. The team needed a way to express those differences and generate the corresponding configuration. I connected the product specifications to the design library of available screens and fields. The resulting rules let the engine translate a product’s requirements into the component configuration engineering needed. When a requirement changed, the team could update the rule and regenerate the configuration. 01 Mapping"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -1371,10 +1363,10 @@
       "page": "Insurance Product Configuration Engine",
       "title": "Try the rules on a trip",
       "anchor": "try-it",
-      "description": "Try changing the trip type, destination or length below and follow the effect through the highlighted rules to the packing list. Notice how a choice can reveal a follow-up question, and how separate decision tables each contribute to the final output. 03 Automation",
-      "body": "Try changing the trip type, destination or length below and follow the effect through the highlighted rules to the packing list. Notice how a choice can reveal a follow-up question, and how separate decision tables each contribute to the final output. 03 Automation",
+      "description": "Change a trip’s details and trace the result through the highlighted rules to its packing list. The example below shows how conditional questions and separate decision tables work together. 03 Automation",
+      "body": "Change a trip’s details and trace the result through the highlighted rules to its packing list. The example below shows how conditional questions and separate decision tables work together. 03 Automation",
       "parts": [
-        "Try changing the trip type, destination or length below and follow the effect through the highlighted rules to the packing list. Notice how a choice can reveal a follow-up question, and how separate decision tables each contribute to the final output. 03 Automation"
+        "Change a trip’s details and trace the result through the highlighted rules to its packing list. The example below shows how conditional questions and separate decision tables work together. 03 Automation"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -1391,10 +1383,10 @@
       "page": "Insurance Product Configuration Engine",
       "title": "Automating product configuration",
       "anchor": "from-the-packing-demo-to-the-production-tool",
-      "description": "In the production Excel/VBA tool, users entered product specifications through a dynamic form, and the engine automatically applied the decision tables to generate the required UI-component configuration. Follow-up fields appeared according to conditions expressed in a small notation. The roughly 32 KB VBA engine evaluated these definitions alongside the mapping rules.",
-      "body": "In the production Excel/VBA tool, users entered product specifications through a dynamic form, and the engine automatically applied the decision tables to generate the required UI-component configuration. Follow-up fields appeared according to conditions expressed in a small notation. The roughly 32 KB VBA engine evaluated these definitions alongside the mapping rules. Broad defaults and specific exceptions could coexist in a decision table, using wildcard matching and right-side overrides to give specific cases precedence over general rules. I developed four versions of the tool and included an embedded tutorial for colleagues maintaining the libraries and decision tables. The team could generate configurations through the form and update the shared logic through the libraries after my internship.",
+      "description": "In the production Excel/VBA tool, users entered specifications through a dynamic form. A compact notation in each field definition determined when follow-up questions appeared. The roughly 32 KB engine evaluated these inputs against the decision tables and generated the required UI-component configuration.",
+      "body": "In the production Excel/VBA tool, users entered specifications through a dynamic form. A compact notation in each field definition determined when follow-up questions appeared. The roughly 32 KB engine evaluated these inputs against the decision tables and generated the required UI-component configuration. Decision tables combined broad defaults and specific exceptions through wildcard matching and right-side overrides. I developed four versions of the tool and included a tutorial showing colleagues how to maintain these rules and their linked libraries. After my internship, the team could continue generating configurations and updating the shared logic.",
       "parts": [
-        "In the production Excel/VBA tool, users entered product specifications through a dynamic form, and the engine automatically applied the decision tables to generate the required UI-component configuration. Follow-up fields appeared according to conditions expressed in a small notation. The roughly 32 KB VBA engine evaluated these definitions alongside the mapping rules. Broad defaults and specific exceptions could coexist in a decision table, using wildcard matching and right-side overrides to give specific cases precedence over general rules. I developed four versions of the tool and included an embedded tutorial for colleagues maintaining the libraries and decision tables. The team could generate configurations through the form and update the shared logic through the libraries after my internship."
+        "In the production Excel/VBA tool, users entered specifications through a dynamic form. A compact notation in each field definition determined when follow-up questions appeared. The roughly 32 KB engine evaluated these inputs against the decision tables and generated the required UI-component configuration. Decision tables combined broad defaults and specific exceptions through wildcard matching and right-side overrides. I developed four versions of the tool and included a tutorial showing colleagues how to maintain these rules and their linked libraries. After my internship, the team could continue generating configurations and updating the shared logic."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -1411,16 +1403,16 @@
       "page": "Lexaday",
       "title": "Lexaday",
       "anchor": "",
-      "description": "Related words, memorable images, and reviews by email Lexaday explores whether an image attached to a word root can help learners develop a feel for its meaning across a family of words. Each lesson combines a generated image with a family of related words, and a personalised review schedule brings those connections back over time. 01 Words & images",
-      "body": "Related words, memorable images, and reviews by email Lexaday explores whether an image attached to a word root can help learners develop a feel for its meaning across a family of words. Each lesson combines a generated image with a family of related words, and a personalised review schedule brings those connections back over time. 01 Words & images",
+      "description": "Related words, memorable images, and reviews by email I built Lexaday to teach related words through a shared root and an AI-generated image. Daily emails introduce new roots and revisit earlier ones on a personalised schedule. The project explores whether one visual memory can help learners recognise meaning across a family of words. 01 Words & images",
+      "body": "Related words, memorable images, and reviews by email I built Lexaday to teach related words through a shared root and an AI-generated image. Daily emails introduce new roots and revisit earlier ones on a personalised schedule. The project explores whether one visual memory can help learners recognise meaning across a family of words. 01 Words & images",
       "parts": [
-        "Related words, memorable images, and reviews by email Lexaday explores whether an image attached to a word root can help learners develop a feel for its meaning across a family of words. Each lesson combines a generated image with a family of related words, and a personalised review schedule brings those connections back over time. 01 Words & images"
+        "Related words, memorable images, and reviews by email I built Lexaday to teach related words through a shared root and an AI-generated image. Daily emails introduce new roots and revisit earlier ones on a personalised schedule. The project explores whether one visual memory can help learners recognise meaning across a family of words. 01 Words & images"
       ],
       "view_kind": "prose",
       "presentations": [
         "cite"
       ],
-      "priority": 2,
+      "priority": 0,
       "media": [],
       "selected": false
     },
@@ -1440,7 +1432,7 @@
       "presentations": [
         "cite"
       ],
-      "priority": 2,
+      "priority": 0,
       "media": [],
       "selected": false
     },
@@ -1460,7 +1452,7 @@
       "presentations": [
         "cite"
       ],
-      "priority": 2,
+      "priority": 0,
       "media": [],
       "selected": false
     },
@@ -1480,7 +1472,7 @@
       "presentations": [
         "cite"
       ],
-      "priority": 2,
+      "priority": 0,
       "media": [],
       "selected": false
     },
@@ -1500,7 +1492,7 @@
       "presentations": [
         "cite"
       ],
-      "priority": 2,
+      "priority": 0,
       "media": [],
       "selected": false
     },
@@ -1520,7 +1512,7 @@
       "presentations": [
         "cite"
       ],
-      "priority": 2,
+      "priority": 0,
       "media": [],
       "selected": false
     },
@@ -1540,7 +1532,7 @@
       "presentations": [
         "cite"
       ],
-      "priority": 2,
+      "priority": 0,
       "media": [],
       "selected": false
     },
@@ -1560,7 +1552,7 @@
       "presentations": [
         "cite"
       ],
-      "priority": 2,
+      "priority": 0,
       "media": [],
       "selected": false
     },
@@ -1571,10 +1563,10 @@
       "page": "Stride Support",
       "title": "Stride Support",
       "anchor": "",
-      "description": "Customer support with retrieval, recommendations and tool use A customer asking about a return needs an answer that connects the policy to their purchase and helps them take the next step. For this course project, we built an assistant that retrieves relevant information, works with order records and carries out support actions through conversation.",
-      "body": "Customer support with retrieval, recommendations and tool use A customer asking about a return needs an answer that connects the policy to their purchase and helps them take the next step. For this course project, we built an assistant that retrieves relevant information, works with order records and carries out support actions through conversation. Retrieval-augmented generation (RAG) supplies the model with product and policy material, while recommendation and sentiment models help it choose useful suggestions and respond to the customer’s tone. 01 Context",
+      "description": "Customer support with retrieval, recommendations and tool use A customer asking about a return needs the policy applied to their purchase and a way to take the next step. For this course project, we built a support assistant that uses the selected order throughout a conversation. It retrieves product and policy information, recommends suitable products and carries out actions such as filing a complaint. 01 Context",
+      "body": "Customer support with retrieval, recommendations and tool use A customer asking about a return needs the policy applied to their purchase and a way to take the next step. For this course project, we built a support assistant that uses the selected order throughout a conversation. It retrieves product and policy information, recommends suitable products and carries out actions such as filing a complaint. 01 Context",
       "parts": [
-        "Customer support with retrieval, recommendations and tool use A customer asking about a return needs an answer that connects the policy to their purchase and helps them take the next step. For this course project, we built an assistant that retrieves relevant information, works with order records and carries out support actions through conversation. Retrieval-augmented generation (RAG) supplies the model with product and policy material, while recommendation and sentiment models help it choose useful suggestions and respond to the customer’s tone. 01 Context"
+        "Customer support with retrieval, recommendations and tool use A customer asking about a return needs the policy applied to their purchase and a way to take the next step. For this course project, we built a support assistant that uses the selected order throughout a conversation. It retrieves product and policy information, recommends suitable products and carries out actions such as filing a complaint. 01 Context"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -1795,9 +1787,9 @@
       "title": "Defining scenes with reusable D3 renderers",
       "anchor": "describe-a-scene-once-then-let-the-engine-build-it",
       "description": "Each scene describes its text, figure type, and rendering settings in a data object with a shared schema. A renderer registry connects that figure type to the appropriate D3 builder, which draws and animates the visual using the supplied data. Adding a new line-chart scene, for example, means supplying another set of content and settings to the existing line-chart builder.",
-      "body": "Each scene describes its text, figure type, and rendering settings in a data object with a shared schema. A renderer registry connects that figure type to the appropriate D3 builder, which draws and animates the visual using the supplied data. Adding a new line-chart scene, for example, means supplying another set of content and settings to the existing line-chart builder. The explorer below uses the same builders as the full deck. Choose a figure to compare its scene definition with the rendered result, including the settings that control its data and appearance. 03 Consistency",
+      "body": "Each scene describes its text, figure type, and rendering settings in a data object with a shared schema. A renderer registry connects that figure type to the appropriate D3 builder, which draws and animates the visual using the supplied data. Adding a new line-chart scene, for example, means supplying another set of content and settings to the existing line-chart builder. The explorer below uses the same builders as the full deck. Choose a figure, then open its scene definition to see how the data and display settings produce the result. 03 Consistency",
       "parts": [
-        "Each scene describes its text, figure type, and rendering settings in a data object with a shared schema. A renderer registry connects that figure type to the appropriate D3 builder, which draws and animates the visual using the supplied data. Adding a new line-chart scene, for example, means supplying another set of content and settings to the existing line-chart builder. The explorer below uses the same builders as the full deck. Choose a figure to compare its scene definition with the rendered result, including the settings that control its data and appearance. 03 Consistency"
+        "Each scene describes its text, figure type, and rendering settings in a data object with a shared schema. A renderer registry connects that figure type to the appropriate D3 builder, which draws and animates the visual using the supplied data. Adding a new line-chart scene, for example, means supplying another set of content and settings to the existing line-chart builder. The explorer below uses the same builders as the full deck. Choose a figure, then open its scene definition to see how the data and display settings produce the result. 03 Consistency"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2653,6 +2645,148 @@
     },
     {
       "id": 95,
+      "source_id": "document-review:overview",
+      "route": "/document-review",
+      "page": "Risk Assessment Across Long Documents",
+      "title": "Risk Assessment Across Long Documents",
+      "anchor": "",
+      "description": "Reading long reports and connecting the evidence behind each finding At PwC, I designed and built an AI pipeline that reads long reports, extracts individual evidence records and combines them to assess different risks. Reviewers can inspect the reasoning and open the original source pages behind each finding. 01 Task and judgement",
+      "body": "Reading long reports and connecting the evidence behind each finding At PwC, I designed and built an AI pipeline that reads long reports, extracts individual evidence records and combines them to assess different risks. Reviewers can inspect the reasoning and open the original source pages behind each finding. 01 Task and judgement",
+      "parts": [
+        "Reading long reports and connecting the evidence behind each finding At PwC, I designed and built an AI pipeline that reads long reports, extracts individual evidence records and combines them to assess different risks. Reviewers can inspect the reasoning and open the original source pages behind each finding. 01 Task and judgement"
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 96,
+      "source_id": "document-review:prepare-the-evidence-for-a-decision",
+      "route": "/document-review",
+      "page": "Risk Assessment Across Long Documents",
+      "title": "A risk judgement can depend on evidence scattered across hundreds of pages.",
+      "anchor": "prepare-the-evidence-for-a-decision",
+      "description": "The team needed to assess a defined set of risks in long reports. Relevant observations appeared throughout the text, tables and appendices, and the context needed to interpret one observation could be on another page. Each finding needed a reasoned conclusion and references that a reviewer could follow back to the report. I began by studying how each risk should be judged.",
+      "body": "The team needed to assess a defined set of risks in long reports. Relevant observations appeared throughout the text, tables and appendices, and the context needed to interpret one observation could be on another page. Each finding needed a reasoned conclusion and references that a reviewer could follow back to the report. I began by studying how each risk should be judged. I translated its definition into decision rules that explain how observations should be interpreted together and which conditions affect the conclusion. These rules gave each assessment a clear basis for reasoning over the information in the report. I organised the workflow around reading every page and collecting relevant observations before assessing each risk. This separated the work of understanding what the report says from the work of deciding what its evidence means. 02 Evidence records",
+      "parts": [
+        "The team needed to assess a defined set of risks in long reports. Relevant observations appeared throughout the text, tables and appendices, and the context needed to interpret one observation could be on another page. Each finding needed a reasoned conclusion and references that a reviewer could follow back to the report. I began by studying how each risk should be judged. I translated its definition into decision rules that explain how observations should be interpreted together and which conditions affect the conclusion. These rules gave each assessment a clear basis for reasoning over the information in the report. I organised the workflow around reading every page and collecting relevant observations before assessing each risk. This separated the work of understanding what the report says from the work of deciding what its evidence means. 02 Evidence records"
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 97,
+      "source_id": "document-review:designing-reusable-evidence-records",
+      "route": "/document-review",
+      "page": "Risk Assessment Across Long Documents",
+      "title": "Structured records make evidence usable across pages and risks.",
+      "anchor": "designing-reusable-evidence-records",
+      "description": "A report organises information by section, while a risk assessment may need to connect facts from several sections. I designed evidence records as an intermediate representation of the report. They give individual observations a common structure so the model can compare and combine them during assessment. The record schema defines what each observation carries forward.",
+      "body": "A report organises information by section, while a risk assessment may need to connect facts from several sections. I designed evidence records as an intermediate representation of the report. They give individual observations a common structure so the model can compare and combine them during assessment. The record schema defines what each observation carries forward. It preserves the reported fact and its context, together with its source location and potential relevance to different risks. Observed content The fact or statement, including the quantities, conditions and qualifications needed to understand it. Source context The document section, page and source item, such as the table or paragraph where it appears. Assessment relevance The risks it may inform, its role in the analysis and any detail needed from the source. Records retain the identifiers used in the report, allowing observations about the same item to be connected and repeated evidence to be recognised. The section hierarchy distinguishes similarly named tables or appendices in different parts of the document. This representation lets several risk assessments draw on the same observation. Each can interpret its significance through its own decision rules, while the source reference remains available for review. 03 Reading and synthesis",
+      "parts": [
+        "A report organises information by section, while a risk assessment may need to connect facts from several sections. I designed evidence records as an intermediate representation of the report. They give individual observations a common structure so the model can compare and combine them during assessment. The record schema defines what each observation carries forward. It preserves the reported fact and its context, together with its source location and potential relevance to different risks. Observed content The fact or statement, including the quantities, conditions and qualifications needed to understand it. Source context The document section, page and source item, such as the table or paragraph where it appears. Assessment relevance The risks it may inform, its role in the analysis and any detail needed from the source.",
+        "Records retain the identifiers used in the report, allowing observations about the same item to be connected and repeated evidence to be recognised. The section hierarchy distinguishes similarly named tables or appendices in different parts of the document. This representation lets several risk assessments draw on the same observation. Each can interpret its significance through its own decision rules, while the source reference remains available for review. 03 Reading and synthesis"
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 98,
+      "source_id": "document-review:reusing-evidence-across-assessments",
+      "route": "/document-review",
+      "page": "Risk Assessment Across Long Documents",
+      "title": "Read the whole report, then combine the evidence for each risk.",
+      "anchor": "reusing-evidence-across-assessments",
+      "description": "I used the contents and section headings to divide the report into chunks, each capped at a manageable number of pages. A vision-language model (VLM) reads the page images, including tables and visual material, and extracts observations relevant to the defined risks. Each page can produce several separate evidence records.",
+      "body": "I used the contents and section headings to divide the report into chunks, each capped at a manageable number of pages. A vision-language model (VLM) reads the page images, including tables and visual material, and extracts observations relevant to the defined risks. Each page can produce several separate evidence records. These accumulate across the report in an evidence ledger, the shared collection used for assessment. The sequence below follows this process through to synthesis, where the collected records are brought together for each risk. Each risk has a separate synthesis pass that applies its decision rules to the relevant records. It connects observations across pages and explains how they support or qualify a finding. A single record can contribute to several assessments. The model also receives the document index. If a conclusion depends on context missing from a record, it can request another look at the source pages. New evidence is added to the ledger before the assessment is refined. The completed finding includes its reasoning and references to the original material.",
+      "parts": [
+        "I used the contents and section headings to divide the report into chunks, each capped at a manageable number of pages. A vision-language model (VLM) reads the page images, including tables and visual material, and extracts observations relevant to the defined risks. Each page can produce several separate evidence records. These accumulate across the report in an evidence ledger, the shared collection used for assessment. The sequence below follows this process through to synthesis, where the collected records are brought together for each risk. Each risk has a separate synthesis pass that applies its decision rules to the relevant records. It connects observations across pages and explains how they support or qualify a finding. A single record can contribute to several assessments. The model also receives the document index.",
+        "If a conclusion depends on context missing from a record, it can request another look at the source pages. New evidence is added to the ledger before the assessment is refined. The completed finding includes its reasoning and references to the original material."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 99,
+      "source_id": "document-review:implementing-the-review-workflow",
+      "route": "/document-review",
+      "page": "Risk Assessment Across Long Documents",
+      "title": "Parallel processing keeps the full-report workflow practical",
+      "anchor": "implementing-the-review-workflow",
+      "description": "I implemented this workflow end to end. Independent report chunks are analysed in parallel, followed by parallel assessments of the individual risks. The shared ledger lets those assessments reuse the extraction work. Using the recorded processing stages and model usage, I estimated about 3–4 minutes and US$1.20 in model calls for a report of a few hundred pages. 04 Search-based assessment",
+      "body": "I implemented this workflow end to end. Independent report chunks are analysed in parallel, followed by parallel assessments of the individual risks. The shared ledger lets those assessments reuse the extraction work. Using the recorded processing stages and model usage, I estimated about 3–4 minutes and US$1.20 in model calls for a report of a few hundred pages. 04 Search-based assessment",
+      "parts": [
+        "I implemented this workflow end to end. Independent report chunks are analysed in parallel, followed by parallel assessments of the individual risks. The shared ledger lets those assessments reuse the extraction work. Using the recorded processing stages and model usage, I estimated about 3–4 minutes and US$1.20 in model calls for a report of a few hundred pages. 04 Search-based assessment"
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 100,
+      "source_id": "document-review:designing-around-delivery-constraints",
+      "route": "/document-review",
+      "page": "Risk Assessment Across Long Documents",
+      "title": "Search-only access requires a more explicit plan for gathering evidence.",
+      "anchor": "designing-around-delivery-constraints",
+      "description": "The client also asked whether the assessment could be built quickly in its existing AI platform. Reports were stored in the platform’s knowledge base, which exposed their content only through search results. The model therefore had to gather evidence through queries and work with the passages the platform returned.",
+      "body": "The client also asked whether the assessment could be built quickly in its existing AI platform. Reports were stored in the platform’s knowledge base, which exposed their content only through search results. The model therefore had to gather evidence through queries and work with the passages the platform returned. Because the model could only assess the material its searches found, the guidance also needed to explain how to find the facts required by each decision rule. I broke each risk down further into explicit evidence requirements and likely source locations. These additions helped the model choose useful queries and identify gaps in the returned material.",
+      "parts": [
+        "The client also asked whether the assessment could be built quickly in its existing AI platform. Reports were stored in the platform’s knowledge base, which exposed their content only through search results. The model therefore had to gather evidence through queries and work with the passages the platform returned. Because the model could only assess the material its searches found, the guidance also needed to explain how to find the facts required by each decision rule. I broke each risk down further into explicit evidence requirements and likely source locations. These additions helped the model choose useful queries and identify gaps in the returned material."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 101,
+      "source_id": "document-review:retrieving-evidence-as-needed",
+      "route": "/document-review",
+      "page": "Risk Assessment Across Long Documents",
+      "title": "Search for the required facts, then follow the gaps",
+      "anchor": "retrieving-evidence-as-needed",
+      "description": "The model uses the evidence requirements and source guidance to plan its searches. It reads the returned passages, retains relevant observations and checks what is still missing. Follow-up queries use details found in earlier results to gather further evidence. Once the evidence has been gathered, synthesis applies the decision rules and combines the observations into an assessment.",
+      "body": "The model uses the evidence requirements and source guidance to plan its searches. It reads the returned passages, retains relevant observations and checks what is still missing. Follow-up queries use details found in earlier results to gather further evidence. Once the evidence has been gathered, synthesis applies the decision rules and combines the observations into an assessment. The animation shows how searches build on one another before the final judgement. This more detailed guidance makes searches more focused on the facts a judgement requires. Its generalisability depends on how well it accommodates unfamiliar reports. If expected source locations become fixed boundaries, the model may miss relevant evidence in a differently organised document. Likely sections therefore need to remain starting points for further enquiry.",
+      "parts": [
+        "The model uses the evidence requirements and source guidance to plan its searches. It reads the returned passages, retains relevant observations and checks what is still missing. Follow-up queries use details found in earlier results to gather further evidence. Once the evidence has been gathered, synthesis applies the decision rules and combines the observations into an assessment. The animation shows how searches build on one another before the final judgement. This more detailed guidance makes searches more focused on the facts a judgement requires. Its generalisability depends on how well it accommodates unfamiliar reports. If expected source locations become fixed boundaries, the model may miss relevant evidence in a differently organised document. Likely sections therefore need to remain starting points for further enquiry."
+      ],
+      "view_kind": "prose",
+      "presentations": [
+        "cite"
+      ],
+      "priority": 4,
+      "media": [],
+      "selected": false
+    },
+    {
+      "id": 102,
       "source_id": "ai-it-operations:overview",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2672,16 +2806,16 @@
       "selected": false
     },
     {
-      "id": 96,
+      "id": 103,
       "source_id": "ai-it-operations:ai-in-it-operations",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
       "title": "Where AI can help in IT operations",
       "anchor": "ai-in-it-operations",
       "description": "Keeping an organisation’s technology running involves maintaining systems, investigating faults and supporting the people who use them. An IT team works across many products and has to keep up as their software and documentation change. At PwC, I researched how AI could help with this work, including making technical knowledge easier to consult and automating tasks in existing applications.",
-      "body": "Keeping an organisation’s technology running involves maintaining systems, investigating faults and supporting the people who use them. An IT team works across many products and has to keep up as their software and documentation change. At PwC, I researched how AI could help with this work, including making technical knowledge easier to consult and automating tasks in existing applications. My work focused on two areas. One was the knowledge behind an assistant that answers IT questions. I designed a process for expanding and maintaining its knowledge base, using AI to research missing material and assess changes in the original documentation. The other was carrying out service requests. I built a browser agent that interprets a ticket and works through the relevant application, reading the page as it acts and involving the operator when the task needs their input.",
+      "body": "Keeping an organisation’s technology running involves maintaining systems, investigating faults and supporting the people who use them. An IT team works across many products and has to keep up as their software and documentation change. At PwC, I researched how AI could help with this work, including making technical knowledge easier to consult and automating tasks in existing applications. Two kinds of work need different support. Answering a technical question depends on reliable documentation. Fulfilling a service ticket depends on acting in an application and checking the result. I connected AI reasoning to those workflows, retaining source records for knowledge updates and operator controls for browser actions. 01 Knowledge management",
       "parts": [
-        "Keeping an organisation’s technology running involves maintaining systems, investigating faults and supporting the people who use them. An IT team works across many products and has to keep up as their software and documentation change. At PwC, I researched how AI could help with this work, including making technical knowledge easier to consult and automating tasks in existing applications. My work focused on two areas. One was the knowledge behind an assistant that answers IT questions. I designed a process for expanding and maintaining its knowledge base, using AI to research missing material and assess changes in the original documentation. The other was carrying out service requests. I built a browser agent that interprets a ticket and works through the relevant application, reading the page as it acts and involving the operator when the task needs their input."
+        "Keeping an organisation’s technology running involves maintaining systems, investigating faults and supporting the people who use them. An IT team works across many products and has to keep up as their software and documentation change. At PwC, I researched how AI could help with this work, including making technical knowledge easier to consult and automating tasks in existing applications. Two kinds of work need different support. Answering a technical question depends on reliable documentation. Fulfilling a service ticket depends on acting in an application and checking the result. I connected AI reasoning to those workflows, retaining source records for knowledge updates and operator controls for browser actions. 01 Knowledge management"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2692,16 +2826,16 @@
       "selected": false
     },
     {
-      "id": 97,
+      "id": 104,
       "source_id": "ai-it-operations:knowledge-management",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
       "title": "Keeping the assistant’s knowledge useful",
       "anchor": "knowledge-management",
-      "description": "The platform includes an assistant that answers questions about using and maintaining IT systems. It searches a collection of technical documents and uses relevant passages to help compose each answer, an approach known as retrieval-augmented generation (RAG). That collection, its knowledge base, needs continuing attention. Useful information may be missing, and documents already collected can become outdated.",
-      "body": "The platform includes an assistant that answers questions about using and maintaining IT systems. It searches a collection of technical documents and uses relevant passages to help compose each answer, an approach known as retrieval-augmented generation (RAG). That collection, its knowledge base, needs continuing attention. Useful information may be missing, and documents already collected can become outdated. I designed the platform’s Knowledge Management around these two needs, acquiring material that expands what the assistant can answer and maintaining it as the sources change.",
+      "description": "The IT assistant answers questions about using and maintaining systems. It retrieves relevant passages from technical documents and supplies them to a language model when composing an answer. This approach is known as retrieval-augmented generation (RAG). That collection, its knowledge base, needs continuing attention. Useful information may be missing, and documents already collected can become outdated.",
+      "body": "The IT assistant answers questions about using and maintaining systems. It retrieves relevant passages from technical documents and supplies them to a language model when composing an answer. This approach is known as retrieval-augmented generation (RAG). That collection, its knowledge base, needs continuing attention. Useful information may be missing, and documents already collected can become outdated. I designed the platform’s Knowledge Management around these two needs, acquiring material that expands what the assistant can answer and maintaining it as the sources change.",
       "parts": [
-        "The platform includes an assistant that answers questions about using and maintaining IT systems. It searches a collection of technical documents and uses relevant passages to help compose each answer, an approach known as retrieval-augmented generation (RAG). That collection, its knowledge base, needs continuing attention. Useful information may be missing, and documents already collected can become outdated. I designed the platform’s Knowledge Management around these two needs, acquiring material that expands what the assistant can answer and maintaining it as the sources change."
+        "The IT assistant answers questions about using and maintaining systems. It retrieves relevant passages from technical documents and supplies them to a language model when composing an answer. This approach is known as retrieval-augmented generation (RAG). That collection, its knowledge base, needs continuing attention. Useful information may be missing, and documents already collected can become outdated. I designed the platform’s Knowledge Management around these two needs, acquiring material that expands what the assistant can answer and maintaining it as the sources change."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2712,17 +2846,16 @@
       "selected": false
     },
     {
-      "id": 98,
+      "id": 105,
       "source_id": "ai-it-operations:where-does-the-assistant-need-more-knowledge",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
       "title": "Where does the assistant need more knowledge?",
       "anchor": "where-does-the-assistant-need-more-knowledge",
-      "description": "Before collecting more documents, I needed to identify what information was missing. Having material on a topic does not tell us which questions it can answer. Documentation on certificates might explain how to renew one while leaving out how to get an application to use its replacement.",
-      "body": "Before collecting more documents, I needed to identify what information was missing. Having material on a topic does not tell us which questions it can answer. Documentation on certificates might explain how to renew one while leaving out how to get an application to use its replacement. Checking those two questions separately makes the missing information explicit and gives the next search something specific to find. Questions the assistant had been unable to answer provided one way to discover gaps. I also used AI to propose useful questions beyond those people had already asked, so the collection could develop ahead of demand. A proposed question still needed to be checked against the existing material. A new question does not necessarily require new knowledge. For example, documentation collected on hosting a Python web app may already explain how to host a REST API. Whether a question has been asked and whether the collection can answer it are therefore separate considerations. The matrix below crosses them to show four cases. The two missing cases supply questions for further research. Try predicting a question, then follow the search for the information it needs.",
+      "description": "I used specific questions to identify gaps in the knowledge base. Guidance on renewing a security certificate, for example, might omit the steps that make an application use the replacement. Checking each question against the collected documents gives the next search a precise target. Unanswered user questions reveal immediate needs.",
+      "body": "I used specific questions to identify gaps in the knowledge base. Guidance on renewing a security certificate, for example, might omit the steps that make an application use the replacement. Checking each question against the collected documents gives the next search a precise target. Unanswered user questions reveal immediate needs. I also used AI to propose questions people might ask next, then checked whether the existing material could answer them. This lets the collection develop ahead of demand while making use of knowledge already held. Documentation collected for Python web apps may also explain how to host a REST API. The matrix below therefore separates whether a question has been asked from whether the knowledge base can answer it. Select a case to see an example, then research the missing answers.",
       "parts": [
-        "Before collecting more documents, I needed to identify what information was missing. Having material on a topic does not tell us which questions it can answer. Documentation on certificates might explain how to renew one while leaving out how to get an application to use its replacement. Checking those two questions separately makes the missing information explicit and gives the next search something specific to find. Questions the assistant had been unable to answer provided one way to discover gaps. I also used AI to propose useful questions beyond those people had already asked, so the collection could develop ahead of demand. A proposed question still needed to be checked against the existing material. A new question does not necessarily require new knowledge. For example, documentation collected on hosting a Python web app may already explain how to host a REST API.",
-        "Whether a question has been asked and whether the collection can answer it are therefore separate considerations. The matrix below crosses them to show four cases. The two missing cases supply questions for further research. Try predicting a question, then follow the search for the information it needs."
+        "I used specific questions to identify gaps in the knowledge base. Guidance on renewing a security certificate, for example, might omit the steps that make an application use the replacement. Checking each question against the collected documents gives the next search a precise target. Unanswered user questions reveal immediate needs. I also used AI to propose questions people might ask next, then checked whether the existing material could answer them. This lets the collection develop ahead of demand while making use of knowledge already held. Documentation collected for Python web apps may also explain how to host a REST API. The matrix below therefore separates whether a question has been asked from whether the knowledge base can answer it. Select a case to see an example, then research the missing answers."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2733,7 +2866,7 @@
       "selected": false
     },
     {
-      "id": 99,
+      "id": 106,
       "source_id": "ai-it-operations:researching-gaps-in-technical-guidance",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2754,7 +2887,7 @@
       "selected": false
     },
     {
-      "id": 100,
+      "id": 107,
       "source_id": "ai-it-operations:what-happens-when-the-guidance-changes",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2776,7 +2909,7 @@
       "selected": false
     },
     {
-      "id": 101,
+      "id": 108,
       "source_id": "ai-it-operations:from-a-source-to-maintained-knowledge",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2797,7 +2930,7 @@
       "selected": false
     },
     {
-      "id": 102,
+      "id": 109,
       "source_id": "ai-it-operations:browser-control",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2818,7 +2951,7 @@
       "selected": false
     },
     {
-      "id": 103,
+      "id": 110,
       "source_id": "ai-it-operations:turning-the-request-into-actions",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2838,7 +2971,7 @@
       "selected": false
     },
     {
-      "id": 104,
+      "id": 111,
       "source_id": "ai-it-operations:why-a-browser-extension",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2859,7 +2992,7 @@
       "selected": false
     },
     {
-      "id": 105,
+      "id": 112,
       "source_id": "ai-it-operations:a-place-to-start-intervene-and-look-back",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2879,7 +3012,7 @@
       "selected": false
     },
     {
-      "id": 106,
+      "id": 113,
       "source_id": "ai-it-operations:from-planning-to-a-browser-action",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2899,7 +3032,7 @@
       "selected": false
     },
     {
-      "id": 107,
+      "id": 114,
       "source_id": "ai-it-operations:where-judgement-changes-hands",
       "route": "/ai-it-operations",
       "page": "AI for IT Operations",
@@ -2922,7 +3055,7 @@
       "selected": false
     },
     {
-      "id": 108,
+      "id": 115,
       "source_id": "fragments:overview",
       "route": "/fragments",
       "page": "Fragments",
@@ -2942,7 +3075,7 @@
       "selected": false
     },
     {
-      "id": 109,
+      "id": 116,
       "source_id": "fragments:the-projection-of-thought",
       "route": "/fragments",
       "page": "Fragments",
@@ -2976,7 +3109,7 @@
       "selected": false
     },
     {
-      "id": 110,
+      "id": 117,
       "source_id": "fragments:rebuilding-another-state-inside-me",
       "route": "/fragments",
       "page": "Fragments",
@@ -3010,7 +3143,7 @@
       "selected": false
     },
     {
-      "id": 111,
+      "id": 118,
       "source_id": "fragments:visible-part-of-the-mind",
       "route": "/fragments",
       "page": "Fragments",
@@ -3041,7 +3174,7 @@
       "selected": false
     },
     {
-      "id": 112,
+      "id": 119,
       "source_id": "fragments:understanding-before-definition",
       "route": "/fragments",
       "page": "Fragments",
@@ -3071,7 +3204,7 @@
       "selected": false
     },
     {
-      "id": 113,
+      "id": 120,
       "source_id": "fragments:expression-recording",
       "route": "/fragments",
       "page": "Fragments",
@@ -3104,7 +3237,7 @@
       "selected": false
     },
     {
-      "id": 114,
+      "id": 121,
       "source_id": "fragments:rich-traces-and-open-paths",
       "route": "/fragments",
       "page": "Fragments",
@@ -3137,7 +3270,7 @@
       "selected": false
     },
     {
-      "id": 115,
+      "id": 122,
       "source_id": "fragments:labels-goals-rules",
       "route": "/fragments",
       "page": "Fragments",
@@ -3174,7 +3307,7 @@
       "selected": false
     },
     {
-      "id": 116,
+      "id": 123,
       "source_id": "fragments:memory-time-self",
       "route": "/fragments",
       "page": "Fragments",
@@ -3209,7 +3342,7 @@
       "selected": false
     },
     {
-      "id": 117,
+      "id": 124,
       "source_id": "fragments:satisfaction-signal",
       "route": "/fragments",
       "page": "Fragments",
@@ -3243,7 +3376,7 @@
       "selected": false
     },
     {
-      "id": 118,
+      "id": 125,
       "source_id": "fragments:queen-victoria-market-toast-oysters",
       "route": "/fragments",
       "page": "Fragments",
@@ -3271,7 +3404,7 @@
       "selected": false
     },
     {
-      "id": 119,
+      "id": 126,
       "source_id": "fragments:guangzhou-chaoshan-beef-hot-pot",
       "route": "/fragments",
       "page": "Fragments",
@@ -3299,7 +3432,7 @@
       "selected": false
     },
     {
-      "id": 120,
+      "id": 127,
       "source_id": "fragments:ai-generated-kitten-videos",
       "route": "/fragments",
       "page": "Fragments",
@@ -3328,7 +3461,7 @@
       "selected": false
     },
     {
-      "id": 121,
+      "id": 128,
       "source_id": "fragments:identity-interview-reflection",
       "route": "/fragments",
       "page": "Fragments",
@@ -3357,7 +3490,7 @@
       "selected": false
     },
     {
-      "id": 122,
+      "id": 129,
       "source_id": "fragments:napier-seaside-with-my-mother",
       "route": "/fragments",
       "page": "Fragments",
@@ -3387,7 +3520,7 @@
       "selected": false
     },
     {
-      "id": 123,
+      "id": 130,
       "source_id": "fragments:mothers-cooking-across-places",
       "route": "/fragments",
       "page": "Fragments",
@@ -3416,7 +3549,7 @@
       "selected": false
     },
     {
-      "id": 124,
+      "id": 131,
       "source_id": "fragments:golf-with-my-mother-in-new-zealand",
       "route": "/fragments",
       "page": "Fragments",
@@ -3444,7 +3577,7 @@
       "selected": false
     },
     {
-      "id": 125,
+      "id": 132,
       "source_id": "fragments:slr-lab-racket-games",
       "route": "/fragments",
       "page": "Fragments",
@@ -3472,7 +3605,7 @@
       "selected": false
     },
     {
-      "id": 126,
+      "id": 133,
       "source_id": "fragments:kennedy-town-seaside-hku-years",
       "route": "/fragments",
       "page": "Fragments",
@@ -3501,7 +3634,7 @@
       "selected": false
     },
     {
-      "id": 127,
+      "id": 134,
       "source_id": "fragments:sydney-harbour-ferry-rides",
       "route": "/fragments",
       "page": "Fragments",
@@ -3530,7 +3663,7 @@
       "selected": false
     },
     {
-      "id": 128,
+      "id": 135,
       "source_id": "fragments:gold-coast-water-and-city-line",
       "route": "/fragments",
       "page": "Fragments",
@@ -3559,7 +3692,7 @@
       "selected": false
     },
     {
-      "id": 129,
+      "id": 136,
       "source_id": "fragments:great-ocean-road-melbourne-friends",
       "route": "/fragments",
       "page": "Fragments",
@@ -3588,7 +3721,7 @@
       "selected": false
     },
     {
-      "id": 130,
+      "id": 137,
       "source_id": "fragments:taiwan-east-coast-family-road-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -3617,7 +3750,7 @@
       "selected": false
     },
     {
-      "id": 131,
+      "id": 138,
       "source_id": "fragments:tomatoes-of-august-29",
       "route": "/fragments",
       "page": "Fragments",
@@ -3649,7 +3782,7 @@
       "selected": false
     },
     {
-      "id": 132,
+      "id": 139,
       "source_id": "fragments:athens-ruins-and-family-trip",
       "route": "/fragments",
       "page": "Fragments",
@@ -3678,7 +3811,7 @@
       "selected": false
     },
     {
-      "id": 133,
+      "id": 140,
       "source_id": "fragments:swimming-in-the-mediterranean",
       "route": "/fragments",
       "page": "Fragments",
@@ -3707,7 +3840,7 @@
       "selected": false
     },
     {
-      "id": 134,
+      "id": 141,
       "source_id": "fragments:rainy-days-permission-to-stay-in",
       "route": "/fragments",
       "page": "Fragments",
@@ -3735,7 +3868,7 @@
       "selected": false
     },
     {
-      "id": 135,
+      "id": 142,
       "source_id": "fragments:mental-map-of-small-room",
       "route": "/fragments",
       "page": "Fragments",
@@ -3764,7 +3897,7 @@
       "selected": false
     },
     {
-      "id": 136,
+      "id": 143,
       "source_id": "fragments:first-camera-another-way-of-seeing",
       "route": "/fragments",
       "page": "Fragments",
@@ -3793,7 +3926,7 @@
       "selected": false
     },
     {
-      "id": 137,
+      "id": 144,
       "source_id": "fragments:music-that-became-more-spacious",
       "route": "/fragments",
       "page": "Fragments",
@@ -3822,7 +3955,7 @@
       "selected": false
     },
     {
-      "id": 138,
+      "id": 145,
       "source_id": "cv:profile",
       "route": "/cv",
       "page": "CV",
@@ -3842,7 +3975,7 @@
       "selected": false
     },
     {
-      "id": 139,
+      "id": 146,
       "source_id": "cv:education",
       "route": "/cv",
       "page": "CV",
@@ -3862,7 +3995,7 @@
       "selected": false
     },
     {
-      "id": 140,
+      "id": 147,
       "source_id": "cv:experience",
       "route": "/cv",
       "page": "CV",
@@ -3883,7 +4016,7 @@
       "selected": false
     },
     {
-      "id": 141,
+      "id": 148,
       "source_id": "cv:publications-preprints",
       "route": "/cv",
       "page": "CV",
@@ -3903,7 +4036,7 @@
       "selected": false
     },
     {
-      "id": 142,
+      "id": 149,
       "source_id": "cv:projects",
       "route": "/cv",
       "page": "CV",
@@ -3924,24 +4057,20 @@
       "selected": false
     },
     {
-      "id": 143,
+      "id": 150,
       "source_id": "about:root:about-me",
       "route": "/about",
       "page": "About",
       "title": "About Me",
       "anchor": "",
-      "description": "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. Alongside my studies, I'm currently working in AI consulting at PwC. Across my studies and work, I'm drawn to things that are still taking shape.",
-      "body": "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong . I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. Alongside my studies, I'm currently working in AI consulting at PwC. Across my studies and work, I'm drawn to things that are still taking shape. I like gradually finding and building structure as I understand them better. In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some are small tools that automate everyday tasks. Others are larger systems that use AI to help people work with complex information and make better decisions. The Builds page brings together projects from my work and coursework, along with personal projects dating back to secondary school. This website is one of them. I use it to explore how AI can reorganise the same material around what a visitor wants to understand. That process also helps me understand and record myself from different angles. I like the open space by the sea. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , I spent time at Kennedy Town Praya during my early university years. When I travel, I also like taking ferries and walking along the waterfront. I like travelling, and I often keep a photograph or a few notes from a trip. Looking back at them helps me remember the people I was with, how the place felt and what my life was like then. As AI becomes part of how we write and remember, our own thoughts and the memories tied to people, places, and feelings seem especially worth keeping. I keep Fragments so that I can return to thoughts and memories that would otherwise fade.",
+      "description": "I was born in Taiwan , grew up in Shanghai , and now study Applied AI at the University of Hong Kong . Alongside my studies, I work in AI consulting at PwC. I explore ideas and develop models to understand how things work. When I see a way to put that understanding to use, I design and build something around it.",
+      "body": "I was born in Taiwan , grew up in Shanghai , and now study Applied AI at the University of Hong Kong . Alongside my studies, I work in AI consulting at PwC. I explore ideas and develop models to understand how things work. When I see a way to put that understanding to use, I design and build something around it. My research asks how learning shapes what we can do, and what changes when AI becomes part of human thinking. My mother used to drive me to the coast near Napier , where we would sit and watch the sea for hours. In Hong Kong , I spent evenings on the waterfront at Kennedy Town. As AI becomes part of everyday life, I value having a record of my own thoughts and feelings. Fragments is where I write some of them down.",
       "parts": [
-        "I'm Han-yu Wang, and you can call me Henry. I was born in Taiwan , grew up in Shanghai , and now study in Hong Kong .",
-        "I'm a fourth-year student majoring in Applied Artificial Intelligence at the University of Hong Kong. Alongside my studies, I'm currently working in AI consulting at PwC.",
-        "Across my studies and work, I'm drawn to things that are still taking shape. I like gradually finding and building structure as I understand them better.",
-        "In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes.",
-        "I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some are small tools that automate everyday tasks. Others are larger systems that use AI to help people work with complex information and make better decisions.",
-        "The Builds page brings together projects from my work and coursework, along with personal projects dating back to secondary school. This website is one of them. I use it to explore how AI can reorganise the same material around what a visitor wants to understand. That process also helps me understand and record myself from different angles.",
-        "I like the open space by the sea. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , I spent time at Kennedy Town Praya during my early university years. When I travel, I also like taking ferries and walking along the waterfront.",
-        "I like travelling, and I often keep a photograph or a few notes from a trip. Looking back at them helps me remember the people I was with, how the place felt and what my life was like then.",
-        "As AI becomes part of how we write and remember, our own thoughts and the memories tied to people, places, and feelings seem especially worth keeping. I keep Fragments so that I can return to thoughts and memories that would otherwise fade."
+        "I was born in Taiwan , grew up in Shanghai , and now study Applied AI at the University of Hong Kong . Alongside my studies, I work in AI consulting at PwC.",
+        "I explore ideas and develop models to understand how things work. When I see a way to put that understanding to use, I design and build something around it.",
+        "My research asks how learning shapes what we can do, and what changes when AI becomes part of human thinking.",
+        "My mother used to drive me to the coast near Napier , where we would sit and watch the sea for hours. In Hong Kong , I spent evenings on the waterfront at Kennedy Town.",
+        "As AI becomes part of everyday life, I value having a record of my own thoughts and feelings. Fragments is where I write some of them down."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -3950,7 +4079,7 @@
       "priority": 0,
       "media": [
         {
-          "src": "/assets/img/henry.jpg"
+          "src": "/assets/img/henry-rooftop-portrait.jpg"
         }
       ],
       "entity": {
@@ -3960,17 +4089,16 @@
       "selected": false
     },
     {
-      "id": 144,
+      "id": 151,
       "source_id": "about:section:how-i-research-and-build",
       "route": "/about",
       "page": "About",
-      "title": "How I Research and Build",
+      "title": "I study how people and machines learn",
       "anchor": "how-i-research-and-build",
-      "description": "How we learn and think In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later.",
-      "body": "How we learn and think In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. Things I build I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some are small tools that automate everyday tasks. Others are larger systems that use AI to help people work with complex information and make better decisions. The Builds page brings together projects from my work and coursework, along with personal projects dating back to secondary school. This website is one of them. I use it to explore how AI can reorganise the same material around what a visitor wants to understand. That process also helps me understand and record myself from different angles.",
+      "description": "My research asks how learning shapes what we can do, and what changes when AI becomes part of human thinking.",
+      "body": "My research asks how learning shapes what we can do, and what changes when AI becomes part of human thinking.",
       "parts": [
-        "How we learn and think In my Research , I work across human learning, AI models, and human-AI interaction. I study how people and machines learn from experience, how what they learn is represented and used, and how it shapes what they can do later. I also study what changes when AI becomes part of learning and thinking, including what a person notices, practises, understands, remembers, and decides, and how systems can be designed to support those processes. Things I build I also spend a lot of time building things. I enjoy the open-endedness of it, especially when I can combine ideas, tools, and different parts of a system and see how the structure changes as I work. Some are small tools that automate everyday tasks. Others are larger systems that use AI to help people work with complex information and make better decisions.",
-        "The Builds page brings together projects from my work and coursework, along with personal projects dating back to secondary school. This website is one of them. I use it to explore how AI can reorganise the same material around what a visitor wants to understand. That process also helps me understand and record myself from different angles."
+        "My research asks how learning shapes what we can do, and what changes when AI becomes part of human thinking."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -3981,16 +4109,17 @@
       "selected": false
     },
     {
-      "id": 145,
+      "id": 152,
       "source_id": "about:section:outside-work",
       "route": "/about",
       "page": "About",
-      "title": "Outside work",
+      "title": "I want to remember what life felt like",
       "anchor": "outside-work",
-      "description": "I like the open space by the sea. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , I spent time at Kennedy Town Praya during my early university years. When I travel, I also like taking ferries and walking along the waterfront. I like travelling, and I often keep a photograph or a few notes from a trip.",
-      "body": "I like the open space by the sea. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , I spent time at Kennedy Town Praya during my early university years. When I travel, I also like taking ferries and walking along the waterfront. I like travelling, and I often keep a photograph or a few notes from a trip. Looking back at them helps me remember the people I was with, how the place felt and what my life was like then. Travels Follow the places I've lived in, travelled through, and remembered As AI becomes part of how we write and remember, our own thoughts and the memories tied to people, places, and feelings seem especially worth keeping. I keep Fragments so that I can return to thoughts and memories that would otherwise fade.",
+      "description": "My mother used to drive me to the coast near Napier , where we would sit and watch the sea for hours. In Hong Kong , I spent evenings on the waterfront at Kennedy Town. As AI becomes part of everyday life, I value having a record of my own thoughts and feelings. Fragments is where I write some of them down.",
+      "body": "My mother used to drive me to the coast near Napier , where we would sit and watch the sea for hours. In Hong Kong , I spent evenings on the waterfront at Kennedy Town. As AI becomes part of everyday life, I value having a record of my own thoughts and feelings. Fragments is where I write some of them down.",
       "parts": [
-        "I like the open space by the sea. In Hawke's Bay , my mother would drive me to the coast near Napier . In Hong Kong , I spent time at Kennedy Town Praya during my early university years. When I travel, I also like taking ferries and walking along the waterfront. I like travelling, and I often keep a photograph or a few notes from a trip. Looking back at them helps me remember the people I was with, how the place felt and what my life was like then. Travels Follow the places I've lived in, travelled through, and remembered As AI becomes part of how we write and remember, our own thoughts and the memories tied to people, places, and feelings seem especially worth keeping. I keep Fragments so that I can return to thoughts and memories that would otherwise fade."
+        "My mother used to drive me to the coast near Napier , where we would sit and watch the sea for hours. In Hong Kong , I spent evenings on the waterfront at Kennedy Town.",
+        "As AI becomes part of everyday life, I value having a record of my own thoughts and feelings. Fragments is where I write some of them down."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -4001,17 +4130,17 @@
       "selected": false
     },
     {
-      "id": 147,
+      "id": 154,
       "source_id": "slidepoise:purpose",
       "route": "/slidepoise/",
       "page": "SlidePoise",
       "title": "Why SlidePoise",
       "anchor": "why-slidepoise",
-      "description": "Agentic slide generation needs both freedom of layout and control over the final deck. Fixed templates keep layouts consistent, but restrict how content can be presented. Image generation allows freer design, yet leaves the work of maintaining consistency and turning those designs into accurate, editable slides.",
-      "body": "Agentic slide generation needs both freedom of layout and control over the final deck. Fixed templates keep layouts consistent, but restrict how content can be presented. Image generation allows freer design, yet leaves the work of maintaining consistency and turning those designs into accurate, editable slides. SlidePoise gives that creative process a structured workflow, supported by tools for visual measurement and PowerPoint construction. A shared content plan, style and asset library guide the Agent as it develops designs, builds editable slides and reviews the resulting deck.",
+      "description": "Each slide needs a layout that serves its message and objects the author can edit. Image generation makes it possible to explore layouts around the content of a slide. Turning a chosen design into a useful deck also requires accurate text, editable charts and a consistent visual style. SlidePoise gives that creative process a structured workflow, supported by tools for visual measurement and PowerPoint construction.",
+      "body": "Each slide needs a layout that serves its message and objects the author can edit. Image generation makes it possible to explore layouts around the content of a slide. Turning a chosen design into a useful deck also requires accurate text, editable charts and a consistent visual style. SlidePoise gives that creative process a structured workflow, supported by tools for visual measurement and PowerPoint construction. A shared content plan, style and asset library guide the Agent as it develops designs, builds editable slides and reviews the resulting deck.",
       "parts": [
-        "Agentic slide generation needs both freedom of layout and control over the final deck.",
-        "Fixed templates keep layouts consistent, but restrict how content can be presented. Image generation allows freer design, yet leaves the work of maintaining consistency and turning those designs into accurate, editable slides.",
+        "Each slide needs a layout that serves its message and objects the author can edit.",
+        "Image generation makes it possible to explore layouts around the content of a slide. Turning a chosen design into a useful deck also requires accurate text, editable charts and a consistent visual style.",
         "SlidePoise gives that creative process a structured workflow, supported by tools for visual measurement and PowerPoint construction. A shared content plan, style and asset library guide the Agent as it develops designs, builds editable slides and reviews the resulting deck."
       ],
       "view_kind": "prose",
@@ -4023,7 +4152,7 @@
       "selected": true
     },
     {
-      "id": 148,
+      "id": 155,
       "source_id": "slidepoise:philosophy",
       "route": "/slidepoise/",
       "page": "SlidePoise",
@@ -4054,7 +4183,7 @@
       "selected": true
     },
     {
-      "id": 149,
+      "id": 156,
       "source_id": "interactive.archive.gallery-video",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -4094,7 +4223,7 @@
       "selected": true
     },
     {
-      "id": 150,
+      "id": 157,
       "source_id": "interactive.archive.exhibition-ticket",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -4120,7 +4249,7 @@
       "selected": true
     },
     {
-      "id": 151,
+      "id": 158,
       "source_id": "interactive.archive.gallery-design",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -4161,7 +4290,7 @@
       "selected": true
     },
     {
-      "id": 152,
+      "id": 159,
       "source_id": "interactive.archive.exhibition-design",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -4210,7 +4339,7 @@
       "selected": true
     },
     {
-      "id": 153,
+      "id": 160,
       "source_id": "interactive.archive.illustration.main",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -4243,7 +4372,7 @@
       "selected": true
     },
     {
-      "id": 154,
+      "id": 161,
       "source_id": "interactive.archive.illustration.view",
       "route": "/aipersonalarchive",
       "page": "AI × Self",
@@ -4276,7 +4405,7 @@
       "selected": true
     },
     {
-      "id": 155,
+      "id": 162,
       "source_id": "interactive.slidepoise.video",
       "route": "/slidepoise/",
       "page": "SlidePoise",
@@ -4317,7 +4446,7 @@
       "selected": true
     },
     {
-      "id": 156,
+      "id": 163,
       "source_id": "interactive.cathayflex.video",
       "route": "/projects",
       "page": "Cathay Flex",
@@ -4358,10 +4487,10 @@
       "selected": true
     },
     {
-      "id": 157,
+      "id": 164,
       "source_id": "about:gallery",
-      "route": "/about",
-      "page": "About",
+      "route": "/travels",
+      "page": "Travels",
       "title": "Places and moments",
       "anchor": "showcaseimages",
       "description": "A gallery of places and moments from Henry's travels and everyday life.",
@@ -4375,6 +4504,31 @@
       ],
       "priority": 0,
       "media": [
+        {
+          "src": "/assets/gallery/previews/napier1.jpg.webp",
+          "fullSrc": "/assets/gallery/napier1.jpg",
+          "alt": "napier"
+        },
+        {
+          "src": "/assets/gallery/previews/tw3.jpeg.webp",
+          "fullSrc": "/assets/gallery/tw3.jpeg",
+          "alt": "tw"
+        },
+        {
+          "src": "/assets/gallery/previews/athens7.jpg.webp",
+          "fullSrc": "/assets/gallery/athens7.jpg",
+          "alt": "athens"
+        },
+        {
+          "src": "/assets/gallery/previews/hongkong1.jpg.webp",
+          "fullSrc": "/assets/gallery/hongkong1.jpg",
+          "alt": "hongkong"
+        },
+        {
+          "src": "/assets/gallery/previews/syd2.jpg.webp",
+          "fullSrc": "/assets/gallery/syd2.jpg",
+          "alt": "syd"
+        },
         {
           "src": "/assets/gallery/previews/athens1.jpg.webp",
           "fullSrc": "/assets/gallery/athens1.jpg",
@@ -4403,11 +4557,6 @@
         {
           "src": "/assets/gallery/previews/athens6.jpg.webp",
           "fullSrc": "/assets/gallery/athens6.jpg",
-          "alt": "athens"
-        },
-        {
-          "src": "/assets/gallery/previews/athens7.jpg.webp",
-          "fullSrc": "/assets/gallery/athens7.jpg",
           "alt": "athens"
         },
         {
@@ -4454,11 +4603,6 @@
           "src": "/assets/gallery/previews/beijing1.jpg.webp",
           "fullSrc": "/assets/gallery/beijing1.jpg",
           "alt": "beijing"
-        },
-        {
-          "src": "/assets/gallery/previews/hongkong1.jpg.webp",
-          "fullSrc": "/assets/gallery/hongkong1.jpg",
-          "alt": "hongkong"
         },
         {
           "src": "/assets/gallery/previews/hongkong2.jpg.webp",
@@ -4521,11 +4665,6 @@
           "alt": "hkdisney"
         },
         {
-          "src": "/assets/gallery/previews/napier1.jpg.webp",
-          "fullSrc": "/assets/gallery/napier1.jpg",
-          "alt": "napier"
-        },
-        {
           "src": "/assets/gallery/previews/rotorua1.jpg.webp",
           "fullSrc": "/assets/gallery/rotorua1.jpg",
           "alt": "rotorua"
@@ -4541,11 +4680,6 @@
           "alt": "shanghai"
         },
         {
-          "src": "/assets/gallery/previews/tainan1.jpg.webp",
-          "fullSrc": "/assets/gallery/tainan1.jpg",
-          "alt": "tainan"
-        },
-        {
           "src": "/assets/gallery/previews/tw1.jpeg.webp",
           "fullSrc": "/assets/gallery/tw1.jpeg",
           "alt": "tw"
@@ -4553,11 +4687,6 @@
         {
           "src": "/assets/gallery/previews/tw2.jpeg.webp",
           "fullSrc": "/assets/gallery/tw2.jpeg",
-          "alt": "tw"
-        },
-        {
-          "src": "/assets/gallery/previews/tw3.jpeg.webp",
-          "fullSrc": "/assets/gallery/tw3.jpeg",
           "alt": "tw"
         },
         {
@@ -4588,11 +4717,6 @@
         {
           "src": "/assets/gallery/previews/syd1.jpg.webp",
           "fullSrc": "/assets/gallery/syd1.jpg",
-          "alt": "syd"
-        },
-        {
-          "src": "/assets/gallery/previews/syd2.jpg.webp",
-          "fullSrc": "/assets/gallery/syd2.jpg",
           "alt": "syd"
         },
         {
@@ -5164,6 +5288,58 @@
       ],
       "allowedPresentation": "interactive",
       "component": "ReferenceLinkingDemo"
+    },
+    {
+      "id": "interactive.document-review.guidance",
+      "kind": "interactive",
+      "title": "Guiding search-based risk assessment",
+      "description": "Explore how explicit evidence requirements and likely source locations help AI gather the facts needed to assess a risk.",
+      "componentDescription": "Three selectable parts explain the guidance for an assessment that accesses reports only through search. Evidence needed and Where to look support evidence gathering. Decision rules guide synthesis after the evidence is collected.",
+      "narrativeGuidance": "Establish why the second architecture was needed. The client asked to build the assessment quickly in an existing AI platform whose knowledge base exposed report content only through search. Explain how Henry extended the original decision rules with evidence requirements and likely source locations to focus searches and identify missing facts. The earlier full-report workflow reads every page and does not depend on these search instructions.",
+      "activationTopics": [
+        "risk assessment",
+        "evidence requirements",
+        "decision rules",
+        "AI architecture"
+      ],
+      "route": "/document-review",
+      "anchor": "risk-assessment-guidance",
+      "topics": [
+        "PwC",
+        "risk assessment",
+        "long documents",
+        "evidence",
+        "source guidance",
+        "decision rules"
+      ],
+      "allowedPresentation": "interactive",
+      "component": "RiskAssessmentGuide"
+    },
+    {
+      "id": "interactive.document-review.architecture",
+      "kind": "interactive",
+      "title": "Evidence coverage for long-document risk assessment",
+      "description": "Compare extracting individual evidence records across a whole document with retrieving passages through search.",
+      "componentDescription": "Two animated processes explain how evidence is gathered and synthesised. Reading the report extracts multiple independent records from each page, accumulating them across pages before combining them by risk. Search uses evidence requirements and source guidance through successive queries and checks for missing evidence. Decision rules are applied during synthesis. Playback can be paused, replayed or scrubbed.",
+      "narrativeGuidance": "Begin with the long-report assessment task and the full-reading solution. Explain how multiple evidence records are extracted from each page, accumulated across the report and synthesised using per-risk decision rules. Then introduce the additional request to build the assessment in an existing AI platform. Its search-only access required explicit evidence requirements and likely source locations to guide queries and follow-ups. Introduce the animation as a way to follow these different evidence-gathering processes through to synthesis.",
+      "activationTopics": [
+        "long documents",
+        "evidence coverage",
+        "AI architecture",
+        "search-only access"
+      ],
+      "route": "/document-review",
+      "anchor": "document-review-architecture",
+      "topics": [
+        "PwC",
+        "AI architecture",
+        "long documents",
+        "coverage",
+        "evidence",
+        "retrieval"
+      ],
+      "allowedPresentation": "interactive",
+      "component": "DocumentReviewArchitecture"
     },
     {
       "id": "interactive.it-ops.knowledge",
