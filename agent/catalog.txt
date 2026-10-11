@@ -1,6 +1,6 @@
 # Henry's public source catalogue
 
-Content revision 57d313ab6cb0a5707f0d0c7cc99e4bc8b5c0207bfaf16fcab06536cb444a6b4f
+Content revision d7290f11c9e7052410818e537cc24ae2b40a82a74ae54e99926a33f994ecc43a
 165 sources
 
 ## Places I've Studied
@@ -11,7 +11,7 @@ Source ID education:overview
 Original https://www.henryw.me/#/education
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/education%3Aoverview?format=text
 
-These places have shaped a lot of who I am today.
+Living and studying in different places has given me different perspectives on the world.
 
 ## The University of Hong Kong
 

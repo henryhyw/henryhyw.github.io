@@ -1,14 +1,14 @@
 {
-  "revision": "57d313ab6cb0a5707f0d0c7cc99e4bc8b5c0207bfaf16fcab06536cb444a6b4f",
+  "revision": "d7290f11c9e7052410818e537cc24ae2b40a82a74ae54e99926a33f994ecc43a",
   "sources": [
     {
       "id": "education:overview",
       "section": "education",
       "page": "Education",
       "title": "Places I've Studied",
-      "description": "These places have shaped a lot of who I am today.",
+      "description": "Living and studying in different places has given me different perspectives on the world.",
       "url": "https://www.henryw.me/#/education",
-      "text": "These places have shaped a lot of who I am today."
+      "text": "Living and studying in different places has given me different perspectives on the world."
     },
     {
       "id": "education:the-university-of-hong-kong",
