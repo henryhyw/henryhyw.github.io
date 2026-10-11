@@ -4063,12 +4063,12 @@
       "page": "About",
       "title": "About Me",
       "anchor": "",
-      "description": "I was born in Taiwan , grew up in Shanghai , and now study Applied AI at the University of Hong Kong . Alongside my studies, I work in AI consulting at PwC. I explore ideas and develop models to understand how things work. When I see a way to put that understanding to use, I design and build something around it.",
-      "body": "I was born in Taiwan , grew up in Shanghai , and now study Applied AI at the University of Hong Kong . Alongside my studies, I work in AI consulting at PwC. I explore ideas and develop models to understand how things work. When I see a way to put that understanding to use, I design and build something around it. My research asks how learning shapes what we can do, and what changes when AI becomes part of human thinking. My mother used to drive me to the coast near Napier , where we would sit and watch the sea for hours. In Hong Kong , I spent evenings on the waterfront at Kennedy Town. As AI becomes part of everyday life, I value having a record of my own thoughts and feelings. Fragments is where I write some of them down.",
+      "description": "I was born in Taiwan , grew up in Shanghai , and now study Applied AI at the University of Hong Kong . Alongside my studies, I work in AI consulting at PwC. I explore ideas and develop models to understand how things work. When I see a way to put that understanding to use, I design and build something around it. My research explores how people and AI systems learn from experience and use their knowledge.",
+      "body": "I was born in Taiwan , grew up in Shanghai , and now study Applied AI at the University of Hong Kong . Alongside my studies, I work in AI consulting at PwC. I explore ideas and develop models to understand how things work. When I see a way to put that understanding to use, I design and build something around it. My research explores how people and AI systems learn from experience and use their knowledge. I also examine how interacting with AI shapes the way we think and learn. My mother used to drive me to the coast near Napier , where we would sit and watch the sea for hours. In Hong Kong , I spent evenings on the waterfront at Kennedy Town. As AI becomes part of everyday life, I value having a record of my own thoughts and feelings. Fragments is where I write some of them down.",
       "parts": [
         "I was born in Taiwan , grew up in Shanghai , and now study Applied AI at the University of Hong Kong . Alongside my studies, I work in AI consulting at PwC.",
         "I explore ideas and develop models to understand how things work. When I see a way to put that understanding to use, I design and build something around it.",
-        "My research asks how learning shapes what we can do, and what changes when AI becomes part of human thinking.",
+        "My research explores how people and AI systems learn from experience and use their knowledge. I also examine how interacting with AI shapes the way we think and learn.",
         "My mother used to drive me to the coast near Napier , where we would sit and watch the sea for hours. In Hong Kong , I spent evenings on the waterfront at Kennedy Town.",
         "As AI becomes part of everyday life, I value having a record of my own thoughts and feelings. Fragments is where I write some of them down."
       ],
@@ -4095,10 +4095,10 @@
       "page": "About",
       "title": "I study how people and machines learn",
       "anchor": "how-i-research-and-build",
-      "description": "My research asks how learning shapes what we can do, and what changes when AI becomes part of human thinking.",
-      "body": "My research asks how learning shapes what we can do, and what changes when AI becomes part of human thinking.",
+      "description": "My research explores how people and AI systems learn from experience and use their knowledge. I also examine how interacting with AI shapes the way we think and learn.",
+      "body": "My research explores how people and AI systems learn from experience and use their knowledge. I also examine how interacting with AI shapes the way we think and learn.",
       "parts": [
-        "My research asks how learning shapes what we can do, and what changes when AI becomes part of human thinking."
+        "My research explores how people and AI systems learn from experience and use their knowledge. I also examine how interacting with AI shapes the way we think and learn."
       ],
       "view_kind": "prose",
       "presentations": [

@@ -1,6 +1,6 @@
 # Henry's public text
 
-Content revision ca042400f748ba7253b9f83c1097d192cdb3911056cd023a559a21c03f75c1c8
+Content revision 57d313ab6cb0a5707f0d0c7cc99e4bc8b5c0207bfaf16fcab06536cb444a6b4f
 
 ## Places I've Studied
 
@@ -1574,7 +1574,7 @@ I was born in Taiwan , grew up in Shanghai , and now study Applied AI at the Uni
 
 I explore ideas and develop models to understand how things work. When I see a way to put that understanding to use, I design and build something around it.
 
-My research asks how learning shapes what we can do, and what changes when AI becomes part of human thinking.
+My research explores how people and AI systems learn from experience and use their knowledge. I also examine how interacting with AI shapes the way we think and learn.
 
 My mother used to drive me to the coast near Napier , where we would sit and watch the sea for hours. In Hong Kong , I spent evenings on the waterfront at Kennedy Town.
 
@@ -1586,7 +1586,7 @@ About
 Source ID about:section:how-i-research-and-build
 Original https://www.henryw.me/#/about#how-i-research-and-build
 
-My research asks how learning shapes what we can do, and what changes when AI becomes part of human thinking.
+My research explores how people and AI systems learn from experience and use their knowledge. I also examine how interacting with AI shapes the way we think and learn.
 
 ## I want to remember what life felt like
 
@@ -1604,7 +1604,7 @@ About
 Source ID about:contact
 Original https://www.henryw.me/#/about#say-hello
 
-If you want to get in touch, I'd be glad to hear from you.
+I'd love to hear from you.
 
 Personal messages to whenry6688@gmail.com
 
