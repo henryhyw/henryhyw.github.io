@@ -1,6 +1,6 @@
 # Henry's public source catalogue
 
-Content revision f4fb45320037f86ee0fb519aa6943b3dab5703326435e7ea17e998068178109e
+Content revision 2a5f885e687623ea339d77135d472d5b7c0459ff58398dda6e6feb8b6ba3c3c1
 165 sources
 
 ## Places I've Studied
@@ -1531,7 +1531,7 @@ Source ID about:section:outside-work
 Original https://www.henryw.me/#/about#outside-work
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/about%3Asection%3Aoutside-work?format=text
 
-My mother used to drive me to the coast near Napier , where we would sit and watch the sea for hours. In Hong Kong , I spent evenings on the waterfront at Kennedy Town. As AI becomes part of everyday life, I value having a record of my own thoughts and feelings. Fragments is where I write some of them down.
+My mother used to drive me to the coast near Napier , where we would sit and watch the sea for hours. In Hong Kong , I spent evenings on the waterfront at Kennedy Town. As AI becomes part of everyday life, I value having a record of my own thoughts and feelings. I write them down in Fragments before they fade.
 
 ## Say Hello
 
