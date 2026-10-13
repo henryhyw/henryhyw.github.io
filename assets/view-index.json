@@ -955,13 +955,13 @@
       "page": "Risk Assessment Across Long Documents",
       "title": "Risk Assessment Across Long Documents",
       "anchor": "",
-      "description": "Henry studied how each risk should be judged and translated its definition into decision rules. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks. These records give facts from different pages a common structure for comparison and synthesis.",
-      "body": "Henry studied how each risk should be judged and translated its definition into decision rules. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks. These records give facts from different pages a common structure for comparison and synthesis. The full-document architecture preserves report structure while dividing it into chunks. A vision-language model reads every page and can extract several independent evidence records from each one. The evidence ledger collects these records across the document. A separate synthesis pass for each risk combines the relevant records and applies its decision rules. It can request further source-page review when additional context is needed. Henry implemented the workflow end to end. Independent report chunks are analysed in parallel, followed by parallel risk assessments that reuse the shared evidence ledger. He estimated about 3–4 minutes and US$1.20 in model calls for a report of a few hundred pages. The client later asked whether the assessment could be built quickly in its existing AI platform. Its knowledge base exposed report content only through search results. Henry extended the risk guidance with explicit evidence requirements and likely source locations to help the model choose useful queries and identify missing facts. Successive searches gather the evidence before synthesis applies the decision rules. This detailed guidance supports focused searches, while assumptions about expected sources can limit generalisability to unfamiliar report structures.",
+      "description": "Henry translated risk definitions into evidence requirements and decision rules. Optional source guidance identifies report sections likely to contain useful context. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks.",
+      "body": "Henry translated risk definitions into evidence requirements and decision rules. Optional source guidance identifies report sections likely to contain useful context. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks. These records give facts from different pages a common structure for comparison and synthesis. The full-document architecture preserves report structure while dividing it into chunks. A vision-language model reads every page and can extract several independent evidence records from each one. The evidence ledger collects these records across the document. A separate synthesis pass for each risk combines the relevant records and applies its decision rules. It can request further source-page review when additional context is needed. Henry implemented the workflow end to end. TOC-based chunks are rendered as page images and analysed in parallel, followed by parallel risk assessments that reuse the shared evidence ledger. Across three sample reports of a few hundred pages, the estimated average was about five minutes and US$0.68 in model calls, combining measured page rendering with recorded model timings and usage. The review workspace presents findings and their interpretation beside the original report. Each interpretation opens its source page. The Evidence Explorer shows both the evidence used in the assessment and the other context considered. Reviewers confirm, correct or reject findings, and their decisions carry into the review summary. The public interactive example uses fictional report content.",
       "parts": [
-        "Henry studied how each risk should be judged and translated its definition into decision rules. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks. These records give facts from different pages a common structure for comparison and synthesis.",
+        "Henry translated risk definitions into evidence requirements and decision rules. Optional source guidance identifies report sections likely to contain useful context. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks. These records give facts from different pages a common structure for comparison and synthesis.",
         "The full-document architecture preserves report structure while dividing it into chunks. A vision-language model reads every page and can extract several independent evidence records from each one. The evidence ledger collects these records across the document. A separate synthesis pass for each risk combines the relevant records and applies its decision rules. It can request further source-page review when additional context is needed.",
-        "Henry implemented the workflow end to end. Independent report chunks are analysed in parallel, followed by parallel risk assessments that reuse the shared evidence ledger. He estimated about 3–4 minutes and US$1.20 in model calls for a report of a few hundred pages.",
-        "The client later asked whether the assessment could be built quickly in its existing AI platform. Its knowledge base exposed report content only through search results. Henry extended the risk guidance with explicit evidence requirements and likely source locations to help the model choose useful queries and identify missing facts. Successive searches gather the evidence before synthesis applies the decision rules. This detailed guidance supports focused searches, while assumptions about expected sources can limit generalisability to unfamiliar report structures."
+        "Henry implemented the workflow end to end. TOC-based chunks are rendered as page images and analysed in parallel, followed by parallel risk assessments that reuse the shared evidence ledger. Across three sample reports of a few hundred pages, the estimated average was about five minutes and US$0.68 in model calls, combining measured page rendering with recorded model timings and usage.",
+        "The review workspace presents findings and their interpretation beside the original report. Each interpretation opens its source page. The Evidence Explorer shows both the evidence used in the assessment and the other context considered. Reviewers confirm, correct or reject findings, and their decisions carry into the review summary. The public interactive example uses fictional report content."
       ],
       "view_kind": "project",
       "presentations": [
@@ -2650,10 +2650,10 @@
       "page": "Risk Assessment Across Long Documents",
       "title": "Risk Assessment Across Long Documents",
       "anchor": "",
-      "description": "Reading long reports and connecting the evidence behind each finding At PwC, I designed and built an AI pipeline that reads long reports, extracts individual evidence records and combines them to assess different risks. Reviewers can inspect the reasoning and open the original source pages behind each finding. 01 Task and judgement",
-      "body": "Reading long reports and connecting the evidence behind each finding At PwC, I designed and built an AI pipeline that reads long reports, extracts individual evidence records and combines them to assess different risks. Reviewers can inspect the reasoning and open the original source pages behind each finding. 01 Task and judgement",
+      "description": "Reading long reports and connecting the evidence behind each finding At PwC, I designed and built an AI pipeline that reads long reports, extracts individual evidence records and combines them to assess different risks. Reviewers can inspect the reasoning and open the original source pages behind each finding. 01 Task and workflow",
+      "body": "Reading long reports and connecting the evidence behind each finding At PwC, I designed and built an AI pipeline that reads long reports, extracts individual evidence records and combines them to assess different risks. Reviewers can inspect the reasoning and open the original source pages behind each finding. 01 Task and workflow",
       "parts": [
-        "Reading long reports and connecting the evidence behind each finding At PwC, I designed and built an AI pipeline that reads long reports, extracts individual evidence records and combines them to assess different risks. Reviewers can inspect the reasoning and open the original source pages behind each finding. 01 Task and judgement"
+        "Reading long reports and connecting the evidence behind each finding At PwC, I designed and built an AI pipeline that reads long reports, extracts individual evidence records and combines them to assess different risks. Reviewers can inspect the reasoning and open the original source pages behind each finding. 01 Task and workflow"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2668,12 +2668,12 @@
       "source_id": "document-review:prepare-the-evidence-for-a-decision",
       "route": "/document-review",
       "page": "Risk Assessment Across Long Documents",
-      "title": "A risk judgement can depend on evidence scattered across hundreds of pages.",
+      "title": "A risk judgement can depend on evidence across the whole report.",
       "anchor": "prepare-the-evidence-for-a-decision",
-      "description": "The team needed to assess a defined set of risks in long reports. Relevant observations appeared throughout the text, tables and appendices, and the context needed to interpret one observation could be on another page. Each finding needed a reasoned conclusion and references that a reviewer could follow back to the report. I began by studying how each risk should be judged.",
-      "body": "The team needed to assess a defined set of risks in long reports. Relevant observations appeared throughout the text, tables and appendices, and the context needed to interpret one observation could be on another page. Each finding needed a reasoned conclusion and references that a reviewer could follow back to the report. I began by studying how each risk should be judged. I translated its definition into decision rules that explain how observations should be interpreted together and which conditions affect the conclusion. These rules gave each assessment a clear basis for reasoning over the information in the report. I organised the workflow around reading every page and collecting relevant observations before assessing each risk. This separated the work of understanding what the report says from the work of deciding what its evidence means. 02 Evidence records",
+      "description": "The team needed to assess a defined set of risks in reports spanning hundreds of pages. Relevant observations appeared in the text, tables and appendices. A finding could depend on facts from several sections, each carrying its own context. I designed a workflow that reads every page, builds a shared collection of evidence and assesses each risk against that material.",
+      "body": "The team needed to assess a defined set of risks in reports spanning hundreds of pages. Relevant observations appeared in the text, tables and appendices. A finding could depend on facts from several sections, each carrying its own context. I designed a workflow that reads every page, builds a shared collection of evidence and assesses each risk against that material. The resulting findings retain their source references and appear in a workspace for human review.",
       "parts": [
-        "The team needed to assess a defined set of risks in long reports. Relevant observations appeared throughout the text, tables and appendices, and the context needed to interpret one observation could be on another page. Each finding needed a reasoned conclusion and references that a reviewer could follow back to the report. I began by studying how each risk should be judged. I translated its definition into decision rules that explain how observations should be interpreted together and which conditions affect the conclusion. These rules gave each assessment a clear basis for reasoning over the information in the report. I organised the workflow around reading every page and collecting relevant observations before assessing each risk. This separated the work of understanding what the report says from the work of deciding what its evidence means. 02 Evidence records"
+        "The team needed to assess a defined set of risks in reports spanning hundreds of pages. Relevant observations appeared in the text, tables and appendices. A finding could depend on facts from several sections, each carrying its own context. I designed a workflow that reads every page, builds a shared collection of evidence and assesses each risk against that material. The resulting findings retain their source references and appear in a workspace for human review."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2685,16 +2685,15 @@
     },
     {
       "id": 97,
-      "source_id": "document-review:designing-reusable-evidence-records",
+      "source_id": "document-review:designing-around-delivery-constraints",
       "route": "/document-review",
       "page": "Risk Assessment Across Long Documents",
-      "title": "Structured records make evidence usable across pages and risks.",
-      "anchor": "designing-reusable-evidence-records",
-      "description": "A report organises information by section, while a risk assessment may need to connect facts from several sections. I designed evidence records as an intermediate representation of the report. They give individual observations a common structure so the model can compare and combine them during assessment. The record schema defines what each observation carries forward.",
-      "body": "A report organises information by section, while a risk assessment may need to connect facts from several sections. I designed evidence records as an intermediate representation of the report. They give individual observations a common structure so the model can compare and combine them during assessment. The record schema defines what each observation carries forward. It preserves the reported fact and its context, together with its source location and potential relevance to different risks. Observed content The fact or statement, including the quantities, conditions and qualifications needed to understand it. Source context The document section, page and source item, such as the table or paragraph where it appears. Assessment relevance The risks it may inform, its role in the analysis and any detail needed from the source. Records retain the identifiers used in the report, allowing observations about the same item to be connected and repeated evidence to be recognised. The section hierarchy distinguishes similarly named tables or appendices in different parts of the document. This representation lets several risk assessments draw on the same observation. Each can interpret its significance through its own decision rules, while the source reference remains available for review. 03 Reading and synthesis",
+      "title": "Assessment guidance defines what to collect and how to judge it",
+      "anchor": "designing-around-delivery-constraints",
+      "description": "I translated each risk’s definition into evidence requirements and decision rules. The requirements guide what the model extracts. The rules explain how those observations should be interpreted together. Optional source guidance identifies sections likely to contain useful context. 02 Evidence extraction",
+      "body": "I translated each risk’s definition into evidence requirements and decision rules. The requirements guide what the model extracts. The rules explain how those observations should be interpreted together. Optional source guidance identifies sections likely to contain useful context. 02 Evidence extraction",
       "parts": [
-        "A report organises information by section, while a risk assessment may need to connect facts from several sections. I designed evidence records as an intermediate representation of the report. They give individual observations a common structure so the model can compare and combine them during assessment. The record schema defines what each observation carries forward. It preserves the reported fact and its context, together with its source location and potential relevance to different risks. Observed content The fact or statement, including the quantities, conditions and qualifications needed to understand it. Source context The document section, page and source item, such as the table or paragraph where it appears. Assessment relevance The risks it may inform, its role in the analysis and any detail needed from the source.",
-        "Records retain the identifiers used in the report, allowing observations about the same item to be connected and repeated evidence to be recognised. The section hierarchy distinguishes similarly named tables or appendices in different parts of the document. This representation lets several risk assessments draw on the same observation. Each can interpret its significance through its own decision rules, while the source reference remains available for review. 03 Reading and synthesis"
+        "I translated each risk’s definition into evidence requirements and decision rules. The requirements guide what the model extracts. The rules explain how those observations should be interpreted together. Optional source guidance identifies sections likely to contain useful context. 02 Evidence extraction"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2706,16 +2705,16 @@
     },
     {
       "id": 98,
-      "source_id": "document-review:reusing-evidence-across-assessments",
+      "source_id": "document-review:designing-reusable-evidence-records",
       "route": "/document-review",
       "page": "Risk Assessment Across Long Documents",
-      "title": "Read the whole report, then combine the evidence for each risk.",
-      "anchor": "reusing-evidence-across-assessments",
-      "description": "I used the contents and section headings to divide the report into chunks, each capped at a manageable number of pages. A vision-language model (VLM) reads the page images, including tables and visual material, and extracts observations relevant to the defined risks. Each page can produce several separate evidence records.",
-      "body": "I used the contents and section headings to divide the report into chunks, each capped at a manageable number of pages. A vision-language model (VLM) reads the page images, including tables and visual material, and extracts observations relevant to the defined risks. Each page can produce several separate evidence records. These accumulate across the report in an evidence ledger, the shared collection used for assessment. The sequence below follows this process through to synthesis, where the collected records are brought together for each risk. Each risk has a separate synthesis pass that applies its decision rules to the relevant records. It connects observations across pages and explains how they support or qualify a finding. A single record can contribute to several assessments. The model also receives the document index. If a conclusion depends on context missing from a record, it can request another look at the source pages. New evidence is added to the ledger before the assessment is refined. The completed finding includes its reasoning and references to the original material.",
+      "title": "Page-level extraction gives scattered observations a shared structure.",
+      "anchor": "designing-reusable-evidence-records",
+      "description": "I use the table of contents (TOC) and section headings to divide the report into chunks, capped at eight pages. This keeps related material together and makes each reading task manageable. The pages are rendered as images so a vision-language model (VLM) can read the layout of tables and visual material alongside the report’s text. Each chunk can produce several evidence records.",
+      "body": "I use the table of contents (TOC) and section headings to divide the report into chunks, capped at eight pages. This keeps related material together and makes each reading task manageable. The pages are rendered as images so a vision-language model (VLM) can read the layout of tables and visual material alongside the report’s text. Each chunk can produce several evidence records. The extraction guidance focuses on facts that support, qualify or rule out a finding. Each record preserves enough context for the observation to remain meaningful when it is read alongside evidence from another section. Observed content The reported fact, including the quantities, conditions and qualifications needed to interpret it. Source context The document section, page and original item, such as a table row or paragraph. Assessment relevance The risks the observation may inform and the context needed to assess its significance. These records form an evidence ledger shared across the assessments. Item identifiers connect observations about the same subject and help recognise repeated evidence. Section paths distinguish similarly named tables or appendices. Several risks can then draw on the same observation while retaining its original reference. 03 Synthesis",
       "parts": [
-        "I used the contents and section headings to divide the report into chunks, each capped at a manageable number of pages. A vision-language model (VLM) reads the page images, including tables and visual material, and extracts observations relevant to the defined risks. Each page can produce several separate evidence records. These accumulate across the report in an evidence ledger, the shared collection used for assessment. The sequence below follows this process through to synthesis, where the collected records are brought together for each risk. Each risk has a separate synthesis pass that applies its decision rules to the relevant records. It connects observations across pages and explains how they support or qualify a finding. A single record can contribute to several assessments. The model also receives the document index.",
-        "If a conclusion depends on context missing from a record, it can request another look at the source pages. New evidence is added to the ledger before the assessment is refined. The completed finding includes its reasoning and references to the original material."
+        "I use the table of contents (TOC) and section headings to divide the report into chunks, capped at eight pages. This keeps related material together and makes each reading task manageable. The pages are rendered as images so a vision-language model (VLM) can read the layout of tables and visual material alongside the report’s text. Each chunk can produce several evidence records. The extraction guidance focuses on facts that support, qualify or rule out a finding. Each record preserves enough context for the observation to remain meaningful when it is read alongside evidence from another section. Observed content The reported fact, including the quantities, conditions and qualifications needed to interpret it. Source context The document section, page and original item, such as a table row or paragraph.",
+        "Assessment relevance The risks the observation may inform and the context needed to assess its significance. These records form an evidence ledger shared across the assessments. Item identifiers connect observations about the same subject and help recognise repeated evidence. Section paths distinguish similarly named tables or appendices. Several risks can then draw on the same observation while retaining its original reference. 03 Synthesis"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2727,15 +2726,15 @@
     },
     {
       "id": 99,
-      "source_id": "document-review:implementing-the-review-workflow",
+      "source_id": "document-review:reusing-evidence-across-assessments",
       "route": "/document-review",
       "page": "Risk Assessment Across Long Documents",
-      "title": "Parallel processing keeps the full-report workflow practical",
-      "anchor": "implementing-the-review-workflow",
-      "description": "I implemented this workflow end to end. Independent report chunks are analysed in parallel, followed by parallel assessments of the individual risks. The shared ledger lets those assessments reuse the extraction work. Using the recorded processing stages and model usage, I estimated about 3–4 minutes and US$1.20 in model calls for a report of a few hundred pages. 04 Search-based assessment",
-      "body": "I implemented this workflow end to end. Independent report chunks are analysed in parallel, followed by parallel assessments of the individual risks. The shared ledger lets those assessments reuse the extraction work. Using the recorded processing stages and model usage, I estimated about 3–4 minutes and US$1.20 in model calls for a report of a few hundred pages. 04 Search-based assessment",
+      "title": "Each risk is assessed against the collected evidence.",
+      "anchor": "reusing-evidence-across-assessments",
+      "description": "Each risk has a separate synthesis pass. It applies the decision rules to the relevant records, connects observations across pages and explains how they support or qualify a finding. Separating this judgement from extraction lets the assessment reason over the evidence gathered across the report. The model also receives the document index.",
+      "body": "Each risk has a separate synthesis pass. It applies the decision rules to the relevant records, connects observations across pages and explains how they support or qualify a finding. Separating this judgement from extraction lets the assessment reason over the evidence gathered across the report. The model also receives the document index. When a conclusion needs context missing from a record, it can revisit the relevant source pages. New evidence is added to the ledger before the assessment is refined. If a classification still requires human judgement, the finding includes a specific question for the reviewer.",
       "parts": [
-        "I implemented this workflow end to end. Independent report chunks are analysed in parallel, followed by parallel assessments of the individual risks. The shared ledger lets those assessments reuse the extraction work. Using the recorded processing stages and model usage, I estimated about 3–4 minutes and US$1.20 in model calls for a report of a few hundred pages. 04 Search-based assessment"
+        "Each risk has a separate synthesis pass. It applies the decision rules to the relevant records, connects observations across pages and explains how they support or qualify a finding. Separating this judgement from extraction lets the assessment reason over the evidence gathered across the report. The model also receives the document index. When a conclusion needs context missing from a record, it can revisit the relevant source pages. New evidence is added to the ledger before the assessment is refined. If a classification still requires human judgement, the finding includes a specific question for the reviewer."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2747,15 +2746,15 @@
     },
     {
       "id": 100,
-      "source_id": "document-review:designing-around-delivery-constraints",
+      "source_id": "document-review:implementing-the-review-workflow",
       "route": "/document-review",
       "page": "Risk Assessment Across Long Documents",
-      "title": "Search-only access requires a more explicit plan for gathering evidence.",
-      "anchor": "designing-around-delivery-constraints",
-      "description": "The client also asked whether the assessment could be built quickly in its existing AI platform. Reports were stored in the platform’s knowledge base, which exposed their content only through search results. The model therefore had to gather evidence through queries and work with the passages the platform returned.",
-      "body": "The client also asked whether the assessment could be built quickly in its existing AI platform. Reports were stored in the platform’s knowledge base, which exposed their content only through search results. The model therefore had to gather evidence through queries and work with the passages the platform returned. Because the model could only assess the material its searches found, the guidance also needed to explain how to find the facts required by each decision rule. I broke each risk down further into explicit evidence requirements and likely source locations. These additions helped the model choose useful queries and identify gaps in the returned material.",
+      "title": "Parallel processing makes full-report assessment practical",
+      "anchor": "implementing-the-review-workflow",
+      "description": "Independent chunks are read in parallel, followed by parallel risk assessments that reuse the shared ledger. Source-page checks can also run together when more context is needed. Across three sample reports of a few hundred pages, the estimated average was about five minutes and US$0.68 in model calls. The estimate combines measured page rendering with recorded model timings and usage. 04 Presenting the assessment",
+      "body": "Independent chunks are read in parallel, followed by parallel risk assessments that reuse the shared ledger. Source-page checks can also run together when more context is needed. Across three sample reports of a few hundred pages, the estimated average was about five minutes and US$0.68 in model calls. The estimate combines measured page rendering with recorded model timings and usage. 04 Presenting the assessment",
       "parts": [
-        "The client also asked whether the assessment could be built quickly in its existing AI platform. Reports were stored in the platform’s knowledge base, which exposed their content only through search results. The model therefore had to gather evidence through queries and work with the passages the platform returned. Because the model could only assess the material its searches found, the guidance also needed to explain how to find the facts required by each decision rule. I broke each risk down further into explicit evidence requirements and likely source locations. These additions helped the model choose useful queries and identify gaps in the returned material."
+        "Independent chunks are read in parallel, followed by parallel risk assessments that reuse the shared ledger. Source-page checks can also run together when more context is needed. Across three sample reports of a few hundred pages, the estimated average was about five minutes and US$0.68 in model calls. The estimate combines measured page rendering with recorded model timings and usage. 04 Presenting the assessment"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2767,15 +2766,15 @@
     },
     {
       "id": 101,
-      "source_id": "document-review:retrieving-evidence-as-needed",
+      "source_id": "document-review:reviewing-findings-against-the-source",
       "route": "/document-review",
       "page": "Risk Assessment Across Long Documents",
-      "title": "Search for the required facts, then follow the gaps",
-      "anchor": "retrieving-evidence-as-needed",
-      "description": "The model uses the evidence requirements and source guidance to plan its searches. It reads the returned passages, retains relevant observations and checks what is still missing. Follow-up queries use details found in earlier results to gather further evidence. Once the evidence has been gathered, synthesis applies the decision rules and combines the observations into an assessment.",
-      "body": "The model uses the evidence requirements and source guidance to plan its searches. It reads the returned passages, retains relevant observations and checks what is still missing. Follow-up queries use details found in earlier results to gather further evidence. Once the evidence has been gathered, synthesis applies the decision rules and combines the observations into an assessment. The animation shows how searches build on one another before the final judgement. This more detailed guidance makes searches more focused on the facts a judgement requires. Its generalisability depends on how well it accommodates unfamiliar reports. If expected source locations become fixed boundaries, the model may miss relevant evidence in a differently organised document. Likely sections therefore need to remain starting points for further enquiry.",
+      "title": "The review interface keeps each finding beside its source.",
+      "anchor": "reviewing-findings-against-the-source",
+      "description": "I organised the workspace around a finding list, an interpretation panel and a continuous report viewer. Selecting an interpretation opens its cited page while keeping the reasoning visible. This makes the evidence and the conclusion easy to compare. The Evidence Explorer shows which pages support the final assessment and what other context was considered. The interactive example below uses a fictional report.",
+      "body": "I organised the workspace around a finding list, an interpretation panel and a continuous report viewer. Selecting an interpretation opens its cited page while keeping the reasoning visible. This makes the evidence and the conclusion easy to compare. The Evidence Explorer shows which pages support the final assessment and what other context was considered. The interactive example below uses a fictional report. Review decisions complete the workflow. Reviewers can confirm, correct or reject a finding. The interface preserves the original assessment alongside corrections and notes, then carries the decisions into a report-level summary.",
       "parts": [
-        "The model uses the evidence requirements and source guidance to plan its searches. It reads the returned passages, retains relevant observations and checks what is still missing. Follow-up queries use details found in earlier results to gather further evidence. Once the evidence has been gathered, synthesis applies the decision rules and combines the observations into an assessment. The animation shows how searches build on one another before the final judgement. This more detailed guidance makes searches more focused on the facts a judgement requires. Its generalisability depends on how well it accommodates unfamiliar reports. If expected source locations become fixed boundaries, the model may miss relevant evidence in a differently organised document. Likely sections therefore need to remain starting points for further enquiry."
+        "I organised the workspace around a finding list, an interpretation panel and a continuous report viewer. Selecting an interpretation opens its cited page while keeping the reasoning visible. This makes the evidence and the conclusion easy to compare. The Evidence Explorer shows which pages support the final assessment and what other context was considered. The interactive example below uses a fictional report. Review decisions complete the workflow. Reviewers can confirm, correct or reject a finding. The interface preserves the original assessment alongside corrections and notes, then carries the decisions into a report-level summary."
       ],
       "view_kind": "prose",
       "presentations": [
@@ -5292,10 +5291,10 @@
     {
       "id": "interactive.document-review.guidance",
       "kind": "interactive",
-      "title": "Guiding search-based risk assessment",
-      "description": "Explore how explicit evidence requirements and likely source locations help AI gather the facts needed to assess a risk.",
-      "componentDescription": "Three selectable parts explain the guidance for an assessment that accesses reports only through search. Evidence needed and Where to look support evidence gathering. Decision rules guide synthesis after the evidence is collected.",
-      "narrativeGuidance": "Establish why the second architecture was needed. The client asked to build the assessment quickly in an existing AI platform whose knowledge base exposed report content only through search. Explain how Henry extended the original decision rules with evidence requirements and likely source locations to focus searches and identify missing facts. The earlier full-report workflow reads every page and does not depend on these search instructions.",
+      "title": "Guidance for long-document risk assessment",
+      "description": "Explore how evidence requirements, optional source guidance and decision rules support report assessment.",
+      "componentDescription": "Three columns explain the assessment guidance. Evidence requirements guide extraction. Optional source guidance identifies likely sections for further context. Decision rules guide synthesis after the evidence is collected.",
+      "narrativeGuidance": "Explain how Henry translated risk definitions into evidence requirements and decision rules for a workflow that reads every page. Introduce source locations as optional guidance for revisiting the report when more context is needed. Use the component to explain how evidence gathering and judgement are guided at different stages.",
       "activationTopics": [
         "risk assessment",
         "evidence requirements",
@@ -5318,15 +5317,15 @@
     {
       "id": "interactive.document-review.architecture",
       "kind": "interactive",
-      "title": "Evidence coverage for long-document risk assessment",
-      "description": "Compare extracting individual evidence records across a whole document with retrieving passages through search.",
-      "componentDescription": "Two animated processes explain how evidence is gathered and synthesised. Reading the report extracts multiple independent records from each page, accumulating them across pages before combining them by risk. Search uses evidence requirements and source guidance through successive queries and checks for missing evidence. Decision rules are applied during synthesis. Playback can be paused, replayed or scrubbed.",
-      "narrativeGuidance": "Begin with the long-report assessment task and the full-reading solution. Explain how multiple evidence records are extracted from each page, accumulated across the report and synthesised using per-risk decision rules. Then introduce the additional request to build the assessment in an existing AI platform. Its search-only access required explicit evidence requirements and likely source locations to guide queries and follow-ups. Introduce the animation as a way to follow these different evidence-gathering processes through to synthesis.",
+      "title": "Long-document assessment workflow",
+      "description": "Follow chunking, page rendering, evidence extraction, synthesis and presentation in a review workspace.",
+      "componentDescription": "A five-step diagram explains the complete workflow. Chunking divides the report into reading tasks, pages become images, extraction builds an evidence ledger, synthesis applies decision rules, and the review interface presents findings beside source material. Selecting a step highlights it and displays its explanation.",
+      "narrativeGuidance": "Introduce the complete assessment workflow before its individual design decisions. Explain how chunking and page rendering prepare the report, extraction collects evidence, synthesis applies decision rules and the review interface presents findings beside source material. Use the diagram to orient the reader before discussing the evidence schema or reviewer workflow.",
       "activationTopics": [
         "long documents",
         "evidence coverage",
         "AI architecture",
-        "search-only access"
+        "evidence synthesis"
       ],
       "route": "/document-review",
       "anchor": "document-review-architecture",
@@ -5336,7 +5335,7 @@
         "long documents",
         "coverage",
         "evidence",
-        "retrieval"
+        "synthesis"
       ],
       "allowedPresentation": "interactive",
       "component": "DocumentReviewArchitecture"
