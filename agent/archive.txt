@@ -1,6 +1,6 @@
 # Henry's public text
 
-Content revision 871e71c55c56aae34e3608a2622aeb24fab6b34e07e8c6518fa8a1f05b8d6065
+Content revision 34cf3ce73dc88988278856b1bac77bce7608d99191282ce6ff2e6816f5bd2703
 
 ## Places I've Studied
 
@@ -1656,7 +1656,7 @@ AI × Self
 Source ID interactive.archive.gallery-video
 Original https://www.henryw.me/#/aipersonalarchive#gallery-video
 
-Henry’s 1 minute 39 second video introduces The View Gallery. It follows a visitor’s question as AI connects his work, ideas and experiences into a View, then shows the exhibition, original exhibits, audio guide and sharing in the Gallery.
+Henry’s 1 minute 42 second video introduces The View Gallery. It follows a visitor’s question as AI connects his work, ideas and experiences into a View, then shows the exhibition, original exhibits, audio guide and sharing in the Gallery.
 
 Visitors explore Henry’s work, ideas and experiences through their own questions. AI connects original material into a story shaped by the question. Henry calls that a View. Each View becomes an exhibition visitors can walk through at their own pace.
 

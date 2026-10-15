@@ -4188,10 +4188,10 @@
       "page": "AI × Self",
       "title": "The View Gallery introduction",
       "anchor": "gallery-video",
-      "description": "Henry’s 1 minute 39 second video introduces The View Gallery. It follows a visitor’s question as AI connects his work, ideas and experiences into a View, then shows the exhibition, original exhibits, audio guide and sharing in the Gallery. Visitors explore Henry’s work, ideas and experiences through their own questions. AI connects original material into a story shaped by the question. Henry calls that a View.",
-      "body": "Henry’s 1 minute 39 second video introduces The View Gallery. It follows a visitor’s question as AI connects his work, ideas and experiences into a View, then shows the exhibition, original exhibits, audio guide and sharing in the Gallery. Visitors explore Henry’s work, ideas and experiences through their own questions. AI connects original material into a story shaped by the question. Henry calls that a View. Each View becomes an exhibition visitors can walk through at their own pace. The video follows The Places That Shaped Henry. Visitors can listen to an audio guide in Henry’s voice and open an exhibit to read or interact with the original material. To answer a question about his memories, this View connects his mother’s cooking with a road trip among friends. Both memories show how sharing a place with people he cares about makes it feel like home. Visitors can share their exhibition and explore exhibitions shaped by other people’s questions. Over time, the Gallery holds a growing portrait of Henry at different moments. Seeing those perspectives together helps him recognise patterns in his own life.",
+      "description": "Henry’s 1 minute 42 second video introduces The View Gallery. It follows a visitor’s question as AI connects his work, ideas and experiences into a View, then shows the exhibition, original exhibits, audio guide and sharing in the Gallery. Visitors explore Henry’s work, ideas and experiences through their own questions. AI connects original material into a story shaped by the question. Henry calls that a View.",
+      "body": "Henry’s 1 minute 42 second video introduces The View Gallery. It follows a visitor’s question as AI connects his work, ideas and experiences into a View, then shows the exhibition, original exhibits, audio guide and sharing in the Gallery. Visitors explore Henry’s work, ideas and experiences through their own questions. AI connects original material into a story shaped by the question. Henry calls that a View. Each View becomes an exhibition visitors can walk through at their own pace. The video follows The Places That Shaped Henry. Visitors can listen to an audio guide in Henry’s voice and open an exhibit to read or interact with the original material. To answer a question about his memories, this View connects his mother’s cooking with a road trip among friends. Both memories show how sharing a place with people he cares about makes it feel like home. Visitors can share their exhibition and explore exhibitions shaped by other people’s questions. Over time, the Gallery holds a growing portrait of Henry at different moments. Seeing those perspectives together helps him recognise patterns in his own life.",
       "parts": [
-        "Henry’s 1 minute 39 second video introduces The View Gallery. It follows a visitor’s question as AI connects his work, ideas and experiences into a View, then shows the exhibition, original exhibits, audio guide and sharing in the Gallery.",
+        "Henry’s 1 minute 42 second video introduces The View Gallery. It follows a visitor’s question as AI connects his work, ideas and experiences into a View, then shows the exhibition, original exhibits, audio guide and sharing in the Gallery.",
         "Visitors explore Henry’s work, ideas and experiences through their own questions. AI connects original material into a story shaped by the question. Henry calls that a View. Each View becomes an exhibition visitors can walk through at their own pace.",
         "The video follows The Places That Shaped Henry. Visitors can listen to an audio guide in Henry’s voice and open an exhibit to read or interact with the original material. To answer a question about his memories, this View connects his mother’s cooking with a road trip among friends. Both memories show how sharing a place with people he cares about makes it feel like home.",
         "Visitors can share their exhibition and explore exhibitions shaped by other people’s questions. Over time, the Gallery holds a growing portrait of Henry at different moments. Seeing those perspectives together helps him recognise patterns in his own life."
@@ -4208,9 +4208,9 @@
         },
         {
           "kind": "video",
-          "src": "/assets/video/view-gallery/the-view-gallery.mp4",
+          "src": "/assets/video/view-gallery/the-view-gallery.mp4?v=20261015-drama3",
           "alt": "The View Gallery narrated introduction",
-          "duration": 99.3
+          "duration": 102.421
         }
       ],
       "component_description": "The complete original archive-project-evidence component titled “The View Gallery introduction”.",
@@ -4430,9 +4430,9 @@
         },
         {
           "kind": "video",
-          "src": "/assets/video/slidepoise/slidepoise.mp4?v=24179611",
+          "src": "/assets/video/slidepoise/slidepoise.mp4?v=20261015-drama3",
           "alt": "SlidePoise narrated introduction",
-          "duration": 124.774
+          "duration": 129.755
         }
       ],
       "component_description": "The complete original project-video component titled “SlidePoise introduction”.",
@@ -4471,7 +4471,7 @@
         },
         {
           "kind": "video",
-          "src": "/assets/video/cathay-flex/cathay-flex.mp4?v=20261007",
+          "src": "/assets/video/cathay-flex/cathay-flex.mp4?v=bb2ff1b5d142",
           "alt": "Cathay Flex narrated demonstration",
           "duration": 120
         }
@@ -4813,13 +4813,13 @@
       "id": "interactive.archive.gallery-video",
       "title": "The View Gallery introduction",
       "anchor": "gallery-video",
-      "description": "Henry’s 1 minute 39 second video introduces The View Gallery. It follows a visitor’s question as AI connects his work, ideas and experiences into a View, then shows the exhibition, original exhibits, audio guide and sharing in the Gallery.",
+      "description": "Henry’s 1 minute 42 second video introduces The View Gallery. It follows a visitor’s question as AI connects his work, ideas and experiences into a View, then shows the exhibition, original exhibits, audio guide and sharing in the Gallery.",
       "publicParts": [
         "Visitors explore Henry’s work, ideas and experiences through their own questions. AI connects original material into a story shaped by the question. Henry calls that a View. Each View becomes an exhibition visitors can walk through at their own pace.",
         "The video follows The Places That Shaped Henry. Visitors can listen to an audio guide in Henry’s voice and open an exhibit to read or interact with the original material. To answer a question about his memories, this View connects his mother’s cooking with a road trip among friends. Both memories show how sharing a place with people he cares about makes it feel like home.",
         "Visitors can share their exhibition and explore exhibitions shaped by other people’s questions. Over time, the Gallery holds a growing portrait of Henry at different moments. Seeing those perspectives together helps him recognise patterns in his own life."
       ],
-      "componentDescription": "The original narrated Gallery video, 1 minute 39 seconds long. Readers can play, pause, seek or watch fullscreen. It demonstrates the real Gallery and exhibition interface. Light and dark versions contain the same story.",
+      "componentDescription": "The original narrated Gallery video, 1 minute 42 seconds long. Readers can play, pause, seek or watch fullscreen. It demonstrates the real Gallery and exhibition interface. Light and dark versions contain the same story.",
       "narrativeGuidance": "Use this video when seeing a complete Gallery visit helps explain Henry’s AI × Self project, interaction design or approach to personal representation. Introduce what the reader can watch and connect it to the surrounding argument. The video is an optional original source, selected when relevant to the question.",
       "topics": [
         "AI × Self",
@@ -4839,9 +4839,9 @@
         },
         {
           "kind": "video",
-          "src": "/assets/video/view-gallery/the-view-gallery.mp4",
+          "src": "/assets/video/view-gallery/the-view-gallery.mp4?v=20261015-drama3",
           "alt": "The View Gallery narrated introduction",
-          "duration": 99.3
+          "duration": 102.421
         }
       ],
       "entity": {
@@ -5050,7 +5050,7 @@
         "Once a design is chosen, the Agent identifies headings, text, charts and images and interprets their relationships. OpenCV, a computer-vision library, measures each element’s position and size and samples its colour. The Agent combines its interpretation with those measurements to reconstruct native, editable PowerPoint objects and add a consistent header and footer.",
         "The video demonstrates editing the rebuilt slides and organising them into a complete presentation. Consulting and editorial examples show different ways to structure evidence and give images and ideas space. The optional local Console lets visitors configure fonts, colours and visual references and manage their assets. Saved Profiles preserve those settings for reuse with the Agent."
       ],
-      "componentDescription": "The original narrated SlidePoise video, 2 minutes 5 seconds long. Readers can play, pause, seek and watch fullscreen. It demonstrates the slide-generation workflow, native PowerPoint editing, different presentation styles and the local Console.",
+      "componentDescription": "The original narrated SlidePoise video, 2 minutes 10 seconds long. Readers can play, pause, seek and watch fullscreen. It demonstrates the slide-generation workflow, native PowerPoint editing, different presentation styles and the local Console.",
       "narrativeGuidance": "Use this video when seeing SlidePoise in action helps explain Henry’s work on AI-assisted presentation design, agent workflows or editable visual output. Introduce the stages or interactions the reader should notice and connect them to the surrounding explanation. Select it when its content contributes to the visitor’s question.",
       "topics": [
         "SlidePoise",
@@ -5074,9 +5074,9 @@
         },
         {
           "kind": "video",
-          "src": "/assets/video/slidepoise/slidepoise.mp4?v=24179611",
+          "src": "/assets/video/slidepoise/slidepoise.mp4?v=20261015-drama3",
           "alt": "SlidePoise narrated introduction",
-          "duration": 124.774
+          "duration": 129.755
         }
       ],
       "entity": {
@@ -5123,7 +5123,7 @@
         },
         {
           "kind": "video",
-          "src": "/assets/video/cathay-flex/cathay-flex.mp4?v=20261007",
+          "src": "/assets/video/cathay-flex/cathay-flex.mp4?v=bb2ff1b5d142",
           "alt": "Cathay Flex narrated demonstration",
           "duration": 120
         }
