@@ -238,7 +238,7 @@
     "priority": 0,
     "media": [
       {
-        "src": "/assets/img/hsbc.png"
+        "src": "/assets/img/hsbc.svg"
       }
     ],
     "component_description": "The original Experience entry for “Digital Transformation Intern”, including the organisation, role, location, and complete account of the work.",
@@ -1043,7 +1043,7 @@
     "priority": 4,
     "media": [
       {
-        "src": "/assets/img/hsbc.png"
+        "src": "/assets/img/hsbc.svg"
       }
     ],
     "entity": {
