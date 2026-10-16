@@ -1,6 +1,6 @@
 # Henry's public text
 
-Content revision 4b7a4fb452e03a25c443375791735a96614cdf79623ef1b7440fa4d5f312eae6
+Content revision a92d32daeae702a0469aed6d3e06ae604c8dd0c39da1bcab8bda328aefac6d77
 
 ## Places I've Studied
 
@@ -1628,7 +1628,7 @@ Original https://www.henryw.me/slidepoise/#philosophy
 
 Explore the four stages through the consulting presentation. The brief guides reference selection and image generation. The selected design guides reconstruction, and the rendered PowerPoint is checked against both the brief and the design.
 
-The Agent works with your source material to establish the presentation’s argument and the purpose of each slide. Each brief records its main message, supporting content and visual requirements.
+The Agent reviews your brief and source material, researching useful facts, examples and context where needed. It develops the presentation’s argument and each slide’s purpose, then records the message, supporting evidence and visual requirements.
 
 This consulting example compares possible AI pilots. Open its brief to see the chart data and reasoning that guide the design.
 
@@ -1648,9 +1648,9 @@ The Agent checks the message, data and layout, then refines the image where need
 
 Reference pages by PwC (https://www.pwc.de/de/strategie-organisation-prozesse-systeme/pwc-enterprise-architecture-in-an-agile-world.pdf) and Strategy& (https://www.pwc.no/no/publikasjoner/strategyand-desember-b2b-saas-2024.pdf). Icon libraries include Remix Icon (https://remixicon.com/), Material Design Icons (https://icon-sets.iconify.design/mdi/). You can also supply logos, artwork and presentation components.
 
-The Agent identifies what each object means and which elements belong together. OpenCV measures the visible content inside those regions. The Agent uses both records, the source data and original assets to build editable PowerPoint objects.
+The Agent interprets the design, groups related elements and uses OpenCV measurements to rebuild editable objects. The brief, source data and original assets also guide corrections to defects in the generated image, such as incorrect text, distorted icons and uneven alignment.
 
-Select a slide, then click an outlined object.
+Select an outlined object in the generated design.
 
 For illustrations, the Agent can generate a separate, higher-resolution image with a transparent background. It checks the artwork against the slide design, then places it as an independent PowerPoint layer. Compare this detail from the editorial sample.
 

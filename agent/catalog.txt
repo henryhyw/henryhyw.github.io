@@ -1,6 +1,6 @@
 # Henry's public source catalogue
 
-Content revision 4b7a4fb452e03a25c443375791735a96614cdf79623ef1b7440fa4d5f312eae6
+Content revision a92d32daeae702a0469aed6d3e06ae604c8dd0c39da1bcab8bda328aefac6d77
 165 sources
 
 ## Places I've Studied
@@ -1561,7 +1561,7 @@ Source ID slidepoise:philosophy
 Original https://www.henryw.me/slidepoise/#philosophy
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/slidepoise%3Aphilosophy?format=text
 
-Explore the four stages through the consulting presentation. The brief guides reference selection and image generation. The selected design guides reconstruction, and the rendered PowerPoint is checked against both the brief and the design. The Agent works with your source material to establish the presentation’s argument and the purpose of each slide.
+Explore the four stages through the consulting presentation. The brief guides reference selection and image generation. The selected design guides reconstruction, and the rendered PowerPoint is checked against both the brief and the design. The Agent reviews your brief and source material, researching useful facts, examples and context where needed.
 
 ## The View Gallery introduction
 
