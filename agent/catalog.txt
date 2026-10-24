@@ -1,6 +1,6 @@
 # Henry's public source catalogue
 
-Content revision a92d32daeae702a0469aed6d3e06ae604c8dd0c39da1bcab8bda328aefac6d77
+Content revision 6afda45e2499a4db61739fca6010c6f40e6ae6ccd704113a52d65c52a842234b
 165 sources
 
 ## Places I've Studied
@@ -41,7 +41,7 @@ Source ID education:shanghai-high-school-international-division
 Original https://www.henryw.me/#/education#shanghai-high-school-international-division
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/education%3Ashanghai-high-school-international-division?format=text
 
-September 2017 - June 2022 Shanghai High School International Division International Baccalaureate I completed junior high and high school at Shanghai High School International Division , followed by the International Baccalaureate Diploma Programme. For the IB Diploma, I studied computer science, mathematics, economics, physics, English, and Chinese.
+September 2017 - June 2022 Shanghai High School International Division International Baccalaureate I completed junior high and high school at Shanghai High School International Division , where I took the International Baccalaureate Diploma Programme. For the IB Diploma, I studied computer science, mathematics, economics, physics, English, and Chinese.
 
 ## Havelock North High School
 
@@ -51,7 +51,7 @@ Source ID education:havelock-north-high-school
 Original https://www.henryw.me/#/education#havelock-north-high-school
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/education%3Ahavelock-north-high-school?format=text
 
-July 2019 - August 2019 Havelock North High School Visiting Student I spent two months as a visiting student at Havelock North High School in Hawke's Bay, New Zealand. Attending regular classes with local students gave me a direct experience of everyday school life in New Zealand. I studied English, calculus, statistics, chemistry, and physics.
+July 2019 - August 2019 Havelock North High School Visiting Student I spent two months as a visiting student at Havelock North High School in Hawke's Bay, New Zealand, attending regular classes with local students. I studied English, calculus, statistics, chemistry, and physics.
 
 ## Roles I've Had
 
@@ -101,7 +101,7 @@ Source ID experience:kiwiview
 Original https://www.henryw.me/#/experience#work-kiwiview
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/experience%3Akiwiview?format=text
 
-At Kiwiview, I developed the company’s website and digital content, bringing its study-tour and travel programmes into a coherent online presence. I designed, developed, deployed and maintained the company website. I created website copy, branding materials and promotional content for its study-tour and travel programmes.
+At Kiwiview, I developed the company’s website and created digital content for its study-tour and travel programmes. I designed, developed, deployed and maintained the company website. I created website copy, branding materials and promotional content for its study-tour and travel programmes.
 
 ## How AI changes the course of writing
 
@@ -291,7 +291,7 @@ Source ID projects:slidepoise
 Original https://www.henryw.me/#/projects?to=slidepoise
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3Aslidepoise?format=text
 
-SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. The Agent develops the content, retrieves relevant visual references, icons, logos and native component previews, and explores compositions through image generation. Reconstruction combines the Agent’s interpretation with OpenCV measurements to build editable objects.
+SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. The Agent develops the content, retrieves relevant visual references, icons, logos and native component previews, and explores compositions through image generation. Reconstruction combines the Agent’s interpretation with measurements from the computer-vision library OpenCV to build editable objects.
 
 ## Risk Assessment Across Long Documents
 
@@ -461,7 +461,7 @@ Source ID lexaday:the-learning-loop
 Original https://www.henryw.me/#/lexaday#the-learning-loop
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/lexaday%3Athe-learning-loop?format=text
 
-I built spaced repetition into the daily emails so earlier roots would return alongside new material. The intervals increase through one, two, four, eight, and progressively more runs. Each learner needs a separate schedule because the roots they have seen and their last review dates differ. A saved progress record lets the job select one unseen root alongside any reviews due that day, before generating the lesson. 1
+I built spaced repetition into the daily emails so earlier roots would return alongside new material. Reviews are scheduled after one, two, four, eight and progressively more daily runs. Each learner needs a separate schedule because the roots they have seen and their last review dates differ. A saved progress record lets the job select one unseen root alongside any reviews due that day, before generating the lesson.
 
 ## Due today
 
@@ -781,7 +781,7 @@ Source ID aipersonalarchive:seeing-the-archive-as-a-space
 Original https://www.henryw.me/#/aipersonalarchive#seeing-the-archive-as-a-space
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/aipersonalarchive%3Aseeing-the-archive-as-a-space?format=text
 
-The embedding map gives the archive a spatial form. Projects, research and personal writing appear together as a field of points. Their positions make patterns of similarity visible across material that lives on separate pages. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Every dot represents a passage, and nearby dots carry related meaning.
+The embedding map gives the archive a spatial form. Projects, research and personal writing appear together as a field of points. Their positions make patterns of similarity visible across material that lives on separate pages. UMAP, a dimensionality-reduction method, arranges these embeddings in two or three dimensions. Each dot represents a passage. Nearby dots tend to represent passages with similar meanings.
 
 ## Ask brings related passages into one answer
 
@@ -851,7 +851,7 @@ Source ID aipersonalarchive:available-across-the-site
 Original https://www.henryw.me/#/aipersonalarchive#available-across-the-site
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/aipersonalarchive%3Aavailable-across-the-site?format=text
 
-Visitors can open Search, Ask, View and the embedding map from the header on any page. Home also has a question field, and wide screens add a search control beside the page. These entry points make the tools easy to reach throughout the site. The Gallery and Exhibitions use different camera views, reading panels and controls on desktop, portrait phones and landscape phones.
+Visitors can open Search, Ask, View and the embedding map from the header on any page. Home also has a question field, and wide screens add a search control beside the page. The Gallery and Exhibitions use different camera views, reading panels and controls on desktop, portrait phones and landscape phones. The demonstrations below show these layouts alongside the ways visitors can open the site’s tools.
 
 ## Exploring with your own agent
 
@@ -1271,7 +1271,7 @@ Source ID fragments:guangzhou-chaoshan-beef-hot-pot
 Original https://www.henryw.me/#/fragments#guangzhou-chaoshan-beef-hot-pot
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/fragments%3Aguangzhou-chaoshan-beef-hot-pot?format=text
 
-When I travelled to Guangzhou with my father, we went for Chaoshan beef hot pot. The meal stayed with me partly because the food was good and partly because it became one of the moments attached to that trip with him. I especially liked the beef balls and diaolong, a tender sliced cut commonly served in Chaoshan hot pot.
+When I travelled to Guangzhou with my father, we went for Chaoshan beef hot pot. I especially liked the beef balls and diaolong, a tender sliced cut commonly served in Chaoshan hot pot. The beef balls were springy and strongly beefy, while the diaolong was softer and cleaner in flavour. I usually ate both without dipping sauce because I preferred tasting the beef and broth directly.
 
 ## AI-Generated Kitten Videos and Manufactured Cuteness
 
@@ -1281,7 +1281,7 @@ Source ID fragments:ai-generated-kitten-videos
 Original https://www.henryw.me/#/fragments#ai-generated-kitten-videos
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/fragments%3Aai-generated-kitten-videos?format=text
 
-I have seen a lot of AI-generated videos on social media where kittens interact with people, along with more surreal ones, like a plush watermelon being opened to reveal little kittens inside. I find them very cute, and clearly plenty of other people do too. What interests me is not just that they are cute, but that they show generative content triggering real emotion.
+I have seen a lot of AI-generated videos on social media where kittens interact with people, along with more surreal ones, like a plush watermelon being opened to reveal little kittens inside. I find them very cute, and clearly plenty of other people do too. These videos interest me because synthetic scenes can trigger real emotion.
 
 ## A Conversation About Identity
 
@@ -1291,7 +1291,7 @@ Source ID fragments:identity-interview-reflection
 Original https://www.henryw.me/#/fragments#identity-interview-reflection
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/fragments%3Aidentity-interview-reflection?format=text
 
-I once took part in an interview about identity and about growing up with a Taiwanese family background while living mostly in Shanghai. I had not planned to write about it publicly, but the conversation helped me organize a lot of scattered feelings that had sat in the background for a long time. What I took from the conversation was not a dramatic conclusion but a quieter one.
+I once took part in an interview about identity and about growing up with a Taiwanese family background while living mostly in Shanghai. I had not planned to write about it publicly, but the conversation helped me organize a lot of scattered feelings that had sat in the background for a long time. Identity does not have to be a single answer.
 
 ## Napier Seaside with My Mother
 
@@ -1311,7 +1311,7 @@ Source ID fragments:mothers-cooking-across-places
 Original https://www.henryw.me/#/fragments#mothers-cooking-across-places
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/fragments%3Amothers-cooking-across-places?format=text
 
-My mother has always been good at making food that is both healthy and genuinely good. When we were still living together in Shanghai, this felt completely normal. She cooked at home and I ate what she made, and at the time I did not think of it as anything worth remembering. It was just part of home.
+My mother has always been good at making food that is both healthy and tastes good. When we were still living together in Shanghai, this felt completely normal. She cooked at home and I ate what she made, and at the time I did not think of it as anything worth remembering. It was just part of home. Later, after life became more scattered and she spent more time in New Zealand, her cooking started to feel different.
 
 ## Trying Golf with My Mother in New Zealand
 
@@ -1331,7 +1331,7 @@ Source ID fragments:slr-lab-racket-games
 Original https://www.henryw.me/#/fragments#slr-lab-racket-games
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/fragments%3Aslr-lab-racket-games?format=text
 
-One time the PI of our SLR Lab took me and another RA out to play badminton and table tennis. It was not a serious sports day. We played, missed shots, picked up balls, laughed a bit, and drifted between the two games in the slightly messy way small group outings usually go. I liked it because it made the lab feel like more than papers, meetings, and tasks.
+Our principal investigator at the Speech, Language and Reading Lab once took another research assistant and me to play badminton and table tennis. We played, missed shots, picked up balls, laughed a bit, and drifted between the two games. I liked spending time together away from papers, meetings and tasks. That afternoon made the lab feel warmer to me.
 
 ## The Sea in My Early Hong Kong Years
 
@@ -1341,7 +1341,7 @@ Source ID fragments:kennedy-town-seaside-hku-years
 Original https://www.henryw.me/#/fragments#kennedy-town-seaside-hku-years
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/fragments%3Akennedy-town-seaside-hku-years?format=text
 
-I have not been to Kennedy Town's waterfront much lately, which feels strange because it was much more present during my first years at HKU. I lived closer to that side of the city then, and the sea was somewhere I could reach without turning the visit into a plan. I do not remember every walk clearly now. Much of the routine has probably settled into a general feeling.
+I have not been to Kennedy Town's waterfront much lately, which feels strange because it was much more present during my first years at HKU. I lived closer to that side of the city then, and the sea was somewhere I could reach without turning the visit into a plan. I do not remember every walk clearly now. Those walks have probably settled into a general feeling.
 
 ## Ferry Rides Across Sydney Harbour
 
@@ -1351,7 +1351,7 @@ Source ID fragments:sydney-harbour-ferry-rides
 Original https://www.henryw.me/#/fragments#sydney-harbour-ferry-rides
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/fragments%3Asydney-harbour-ferry-rides?format=text
 
-One of my strongest memories of Sydney is not standing at a landmark but moving through the harbour by ferry. The public ferries were inexpensive, so we used them repeatedly to travel between different stops. Seeing the city from the water made it feel less like a fixed map and more like a sequence of changing views.
+One of my strongest memories of Sydney is travelling through the harbour by ferry. The public ferries were inexpensive, so we used them repeatedly to travel between different stops. Seeing the city from the water made it feel less like a fixed map and more like a sequence of changing views. Some routes passed the Opera House and Harbour Bridge, where the city looked as beautiful as its photographs suggest.
 
 ## Gold Coast, Water, and the City Line
 
@@ -1411,7 +1411,7 @@ Source ID fragments:swimming-in-the-mediterranean
 Original https://www.henryw.me/#/fragments#swimming-in-the-mediterranean
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/fragments%3Aswimming-in-the-mediterranean?format=text
 
-One of my clearest memories from Greece is swimming in the Mediterranean. We went out by boat, with the sun above us, open water around us, and my family nearby. The day did not have much of a plot, but it stayed with me more clearly than many carefully planned sights. Before that trip, the Mediterranean had mostly been a name from maps, history, and photographs of Greece.
+One of my clearest memories from Greece is swimming in the Mediterranean. We went out by boat, with the sun above us, open water around us, and my family nearby. Before that trip, the Mediterranean had mostly been a name from maps, history, and photographs of Greece. Then I was in the water rather than looking at it from the shore. I think it was the only time I swam there, which may be why the memory feels so fixed.
 
 ## Rainy Days as Permission to Stay In
 
@@ -1481,7 +1481,7 @@ Source ID cv:experience
 Original https://www.henryw.me/#/cv#experience
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/cv%3Aexperience?format=text
 
-Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Designed an AI-assisted Knowledge Management architecture that identifies gaps, acquires missing material and keeps technical guidance up to date. Built a structure-preserving RAG ingestion pipeline for complex documents and an LLM-assisted pipeline that recovers legacy ETL logic for data migration.
+Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Designed an AI-assisted knowledge management architecture that identifies gaps, acquires missing material and keeps technical guidance up to date.
 
 ## Publications & Preprints
 
