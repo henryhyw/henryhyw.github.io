@@ -1,6 +1,6 @@
 # Henry's public text
 
-Content revision 6afda45e2499a4db61739fca6010c6f40e6ae6ccd704113a52d65c52a842234b
+Content revision bfd75f621e0ea971877b3863d1374f541e1c4e9787f487828f865ef87e7d179a
 
 ## Places I've Studied
 
@@ -60,7 +60,7 @@ At PwC, I design and build AI and data systems for financial-services and public
 
 I designed and implemented an AI workflow that analyses long reports for different types of risk. I studied the evidence each risk requires and defined how the AI should find and assess it. The system links findings to the original source pages, so reviewers can inspect the evidence and record their decisions.
 
-I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and carries out tasks in the applications the team already uses.
+I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and automates tasks in web applications.
 
 I designed an AI slide-generation framework to help teams quickly explore different ways to present their ideas and iterate on slide designs. The framework uses the company’s visual assets and brand guidelines to guide image generation, then combines AI interpretation with computer-vision measurements to build editable PowerPoint slides. Teams can try new compositions while preserving original logos, icons and reusable components within a consistent visual identity.
 
@@ -966,7 +966,7 @@ AI for IT Operations
 Source ID ai-it-operations:overview
 Original https://www.henryw.me/#/ai-it-operations
 
-Maintaining technical knowledge and carrying out service requests At PwC, I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and carries out tasks in the applications the team already uses. 00 Context
+Maintaining technical knowledge and carrying out service requests At PwC, I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and automates tasks in web applications. 00 Context
 
 ## Where AI can help in IT operations
 

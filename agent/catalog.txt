@@ -1,6 +1,6 @@
 # Henry's public source catalogue
 
-Content revision 6afda45e2499a4db61739fca6010c6f40e6ae6ccd704113a52d65c52a842234b
+Content revision bfd75f621e0ea971877b3863d1374f541e1c4e9787f487828f865ef87e7d179a
 165 sources
 
 ## Places I've Studied
@@ -1031,7 +1031,7 @@ Source ID ai-it-operations:overview
 Original https://www.henryw.me/#/ai-it-operations
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/ai-it-operations%3Aoverview?format=text
 
-Maintaining technical knowledge and carrying out service requests At PwC, I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and carries out tasks in the applications the team already uses. 00 Context
+Maintaining technical knowledge and carrying out service requests At PwC, I designed a system that uses AI to identify gaps in an IT assistant’s knowledge, research the missing information and keep its knowledge base up to date. I also built a browser agent that interprets service tickets and automates tasks in web applications. 00 Context
 
 ## Where AI can help in IT operations
 
