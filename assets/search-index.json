@@ -877,39 +877,6 @@
   },
   {
     "id": 27,
-    "source_id": "projects:cathayflex",
-    "route": "/projects",
-    "page": "Builds",
-    "title": "Cathay Flex",
-    "anchor": "cathayflex",
-    "description": "Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one.",
-    "body": "Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one. Contributions and benefits can occur at different times, giving the airline more ways to meet passenger demand within existing capacity. AI interprets natural-language preferences in booking context and produces structured conditions that each traveller reviews. Graph search discovers candidate swaps, chains and cycles. Branch-and-bound selects compatible arrangements under passenger requirements, resource capacity and credit funding constraints. A shared conditional order book maintains active requests, flexibility rules and transaction status. The transaction and settlement layer coordinates passenger consent, conditional travel arrangements and airline fulfilment. A conditional order book tracks active requests, agreed terms, reservations and transaction states. Versioned holds reserve resources and credits, and optimistic concurrency control rejects stale writes. Idempotency keys let repeated commands return their recorded result, while idempotent settlement prevents duplicate credit movements. If a booking update has an uncertain outcome, reconciliation keeps the resources and credits reserved until the complete arrangement is verified. Tests exercise request expiry, competing acceptance and withdrawal, duplicate execution and lost fulfilment acknowledgements.",
-    "parts": [
-      "Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one. Contributions and benefits can occur at different times, giving the airline more ways to meet passenger demand within existing capacity.",
-      "AI interprets natural-language preferences in booking context and produces structured conditions that each traveller reviews. Graph search discovers candidate swaps, chains and cycles. Branch-and-bound selects compatible arrangements under passenger requirements, resource capacity and credit funding constraints. A shared conditional order book maintains active requests, flexibility rules and transaction status.",
-      "The transaction and settlement layer coordinates passenger consent, conditional travel arrangements and airline fulfilment. A conditional order book tracks active requests, agreed terms, reservations and transaction states. Versioned holds reserve resources and credits, and optimistic concurrency control rejects stale writes. Idempotency keys let repeated commands return their recorded result, while idempotent settlement prevents duplicate credit movements. If a booking update has an uncertain outcome, reconciliation keeps the resources and credits reserved until the complete arrangement is verified. Tests exercise request expiry, competing acceptance and withdrawal, duplicate execution and lost fulfilment acknowledgements."
-    ],
-    "view_kind": "project",
-    "presentations": [
-      "cite"
-    ],
-    "priority": 5,
-    "media": [],
-    "entity": {
-      "kind": "project",
-      "id": "cathayflex",
-      "period": "October 2026 - Present",
-      "subtitle": "An airline-managed marketplace for passenger flexibility",
-      "route": "https://cathayflex.github.io/",
-      "anchor": "",
-      "mediaMode": "gallery",
-      "logoHeight": "",
-      "richBlock": ""
-    },
-    "selected": true
-  },
-  {
-    "id": 28,
     "source_id": "projects:slidepoise",
     "route": "/projects",
     "page": "Builds",
@@ -941,6 +908,39 @@
       "route": "/slidepoise/",
       "anchor": "",
       "mediaMode": "hero",
+      "logoHeight": "",
+      "richBlock": ""
+    },
+    "selected": true
+  },
+  {
+    "id": 28,
+    "source_id": "projects:cathayflex",
+    "route": "/projects",
+    "page": "Builds",
+    "title": "Cathay Flex",
+    "anchor": "cathayflex",
+    "description": "Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one.",
+    "body": "Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one. Contributions and benefits can occur at different times, giving the airline more ways to meet passenger demand within existing capacity. AI interprets natural-language preferences in booking context and produces structured conditions that each traveller reviews. Graph search discovers candidate swaps, chains and cycles. Branch-and-bound selects compatible arrangements under passenger requirements, resource capacity and credit funding constraints. A shared conditional order book maintains active requests, flexibility rules and transaction status. The transaction and settlement layer coordinates passenger consent, conditional travel arrangements and airline fulfilment. A conditional order book tracks active requests, agreed terms, reservations and transaction states. Versioned holds reserve resources and credits, and optimistic concurrency control rejects stale writes. Idempotency keys let repeated commands return their recorded result, while idempotent settlement prevents duplicate credit movements. If a booking update has an uncertain outcome, reconciliation keeps the resources and credits reserved until the complete arrangement is verified. Tests exercise request expiry, competing acceptance and withdrawal, duplicate execution and lost fulfilment acknowledgements.",
+    "parts": [
+      "Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one. Contributions and benefits can occur at different times, giving the airline more ways to meet passenger demand within existing capacity.",
+      "AI interprets natural-language preferences in booking context and produces structured conditions that each traveller reviews. Graph search discovers candidate swaps, chains and cycles. Branch-and-bound selects compatible arrangements under passenger requirements, resource capacity and credit funding constraints. A shared conditional order book maintains active requests, flexibility rules and transaction status.",
+      "The transaction and settlement layer coordinates passenger consent, conditional travel arrangements and airline fulfilment. A conditional order book tracks active requests, agreed terms, reservations and transaction states. Versioned holds reserve resources and credits, and optimistic concurrency control rejects stale writes. Idempotency keys let repeated commands return their recorded result, while idempotent settlement prevents duplicate credit movements. If a booking update has an uncertain outcome, reconciliation keeps the resources and credits reserved until the complete arrangement is verified. Tests exercise request expiry, competing acceptance and withdrawal, duplicate execution and lost fulfilment acknowledgements."
+    ],
+    "view_kind": "project",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 5,
+    "media": [],
+    "entity": {
+      "kind": "project",
+      "id": "cathayflex",
+      "period": "October 2026 - Present",
+      "subtitle": "An airline-managed marketplace for passenger flexibility",
+      "route": "https://cathayflex.github.io/",
+      "anchor": "",
+      "mediaMode": "gallery",
       "logoHeight": "",
       "richBlock": ""
     },
