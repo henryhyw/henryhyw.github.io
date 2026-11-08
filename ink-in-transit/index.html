@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f6f3eb">
+  <meta name="description" content="Henry Wang studies Applied AI, researches learning and builds AI systems. An illustrated introduction to his work and life.">
+  <title>Henry Wang</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./source-serif.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main id="journey" aria-label="Henry Wang">
+    <div class="stage" id="stage">
+      <div class="copy" id="measure-copy" aria-hidden="true"></div>
+      <div class="drawing-wrap" id="drawing-wrap">
+        <svg id="drawing" viewBox="0 0 600 460" aria-hidden="true">
+          <g id="ink-echo" fill="none" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="ink" fill="none" stroke-linecap="round" stroke-linejoin="round"></g>
+        </svg>
+        <div id="drawing-controls" role="group" aria-label="Editable slide illustration"></div>
+      </div>
+      <svg id="letters" aria-hidden="true" fill="currentColor" fill-rule="evenodd"></svg>
+      <div id="readable" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+    </div>
+  </main>
+  <noscript><article class="no-script"><h1>Henry Wang</h1><p>I was born in Taiwan, grew up in Shanghai and now study Applied AI at the University of Hong Kong. I work on AI projects at PwC.</p><p>I study how people and AI systems learn. I build tools for writing and working with AI, and record my thoughts and feelings in Fragments. I like spending time by the sea.</p></article></noscript>
+  <script type="module" src="./app.mjs"></script>
+</body>
+</html>

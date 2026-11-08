@@ -1,0 +1,13 @@
+@font-face{font-family:Portrait;src:url('./source-serif.woff') format('woff');font-weight:400;font-style:normal;font-display:block}
+:root{color:#283f38;background:#f6f3eb;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0}#journey{position:relative}.stage{position:sticky;top:0;height:100svh;overflow:hidden}
+.copy{position:absolute;left:9%;width:39%;max-width:540px;top:27%;visibility:hidden;font-family:Portrait,Georgia,serif}.copy h1{font-size:clamp(56px,6.5vw,96px);font-weight:400;line-height:1.02;letter-spacing:-.045em;margin:0 0 30px}.copy p{font-size:clamp(18px,1.55vw,23px);line-height:1.55;letter-spacing:-.012em;max-width:460px;margin:0}.word{display:inline-block;white-space:nowrap}.measure-letter{display:inline-block;line-height:1}.baseline{display:inline-block;width:0;height:0;vertical-align:baseline}
+#letters{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}.letter{will-change:transform}
+.drawing-wrap{position:absolute;left:50%;top:25%;width:45%;max-width:660px;aspect-ratio:600/460}.drawing-wrap>svg{display:block;width:100%;height:100%;overflow:visible}#drawing-controls{position:absolute;inset:0}.drawing-control{position:absolute;min-width:44px;min-height:44px;appearance:none;border:0;background:transparent;color:inherit;cursor:grab;touch-action:none;border-radius:8px;padding:0}.drawing-control:active{cursor:grabbing}.drawing-control:focus-visible{outline:1px dashed #a14e38;outline-offset:8px}.drawing-control:disabled{pointer-events:none}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.no-script{position:fixed;inset:0;background:#f6f3eb;padding:10%;font:20px/1.6 Georgia,serif}
+@media(min-width:1500px){.copy{left:calc(50% - 620px)}.drawing-wrap{left:50%}}
+@media(min-width:701px) and (max-width:1050px){.copy{left:7%;width:42%;top:26%}.copy h1{font-size:58px}.copy p{font-size:19px}.drawing-wrap{left:49%;width:49%;top:30%}}
+@media(max-width:700px){.copy{left:9%;width:82%;top:12%;max-width:none}.copy h1{font-size:clamp(46px,13vw,64px);line-height:1.02;margin-bottom:24px}.copy p{font-size:17px;line-height:1.55;max-width:none}.drawing-wrap{width:86%;left:7%;top:54%;max-width:none}}
+@media(max-width:700px) and (max-height:740px){.copy{top:9%}.copy h1{font-size:44px;margin-bottom:20px}.copy p{font-size:16px;line-height:1.5}}
+@media(max-width:700px) and (max-height:610px){.copy{top:7%}.copy h1{font-size:36px;margin-bottom:16px}.copy p{font-size:14px;line-height:1.4}}
+@media(min-width:701px) and (max-height:650px){.copy{top:15%}.copy h1{font-size:52px;margin-bottom:22px}.copy p{font-size:17px;line-height:1.45}.drawing-wrap{top:21%;width:41%;left:53%}}
