@@ -1,6 +1,6 @@
 # Henry's public text
 
-Content revision 543b15da5b6c11525fa44f39c3b83ce024686e884876aab9d90a402e04699336
+Content revision 23c07b0c1f4ef82f4e1becb0f88a76b63c48abd686d08b2df1640db039e7484b
 
 ## Places I've Studied
 
@@ -1534,7 +1534,7 @@ CV
 Source ID cv:education
 Original https://www.henryw.me/#/cv#education
 
-University of Hong Kong Sep 2022 – Present BASc in Applied Artificial Intelligence Coursework across machine learning, deep learning, data science, algorithms, and the mathematics behind them. Dean’s Honours List, C. V. Starr Scholarship, Student Peer Advisor, and Staff–Student Consultative Committee representative. University of Melbourne Feb 2025 – Jun 2025 Semester exchange, HKU Worldwide Student Exchange First-class honours. Coursework in optimisation, machine learning and principles of finance. Shanghai High School International Division Sep 2017 – Jun 2022 International Baccalaureate Diploma Studied computer science, mathematics, economics and physics. Led the Coding Club and co-founded the SHSID Musix Board.
+University of Hong Kong Sep 2022 – Present BASc in Applied Artificial Intelligence Coursework across machine learning, deep learning, data science, algorithms, and the mathematics behind them. Dean’s Honours List, C. V. Starr Scholarship, Student Peer Advisor, and Staff–Student Consultative Committee representative. University of Melbourne Feb 2025 – Jun 2025 Semester exchange, HKU Worldwide Student Exchange First-class honours. Coursework in optimisation, machine learning and principles of finance. Shanghai High School International Division Sep 2017 – Jun 2022 International Baccalaureate Diploma Studied computer science, mathematics, economics and physics.
 
 ## Experience
 
