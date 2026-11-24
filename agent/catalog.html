@@ -3,7 +3,7 @@
 <style>body{max-width:78ch;margin:40px auto;padding:0 20px;font:16px/1.6 system-ui,sans-serif;color:#222;background:#fff}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}a{color:#235c9b}</style></head>
 <body><main><h1>Henry&#39;s public source catalogue</h1><pre># Henry&#39;s public source catalogue
 
-Content revision 60e2ee1ecf8927847fea2e892daab6dfa3700707553408d534ff8b6cbf1aaf6f
+Content revision e81e12cb96c6f5cc158301697c3a2a315d49c912b20c2845346a55a1d898a902
 172 sources
 
 ## Places I&#39;ve Studied
@@ -774,7 +774,7 @@ Source ID aipersonalarchive:system-architecture
 Original <a href="https://www.henryw.me/#/aipersonalarchive#system-architecture">https://www.henryw.me/#/aipersonalarchive#system-architecture</a>
 Read <a href="https://ask-henry.whenry6688.workers.dev/agent/sources/aipersonalarchive%3Asystem-architecture?format=text">https://ask-henry.whenry6688.workers.dev/agent/sources/aipersonalarchive%3Asystem-architecture?format=text</a>
 
-At build time, the site prepares passages, embeddings and a component catalogue. Search runs in the browser. Cloudflare Workers supply context to Gemini for Ask answers and View compositions. MiniLM creates the search embeddings locally through Transformers.js, and Fish Audio provides narration in my AI voice. The text API makes the public material available to visitors’ own agents.
+At build time, the site prepares passages, embeddings and a component catalogue. Search runs in the browser, where MiniLM embeds queries through Transformers.js. On the homepage, Clef-flash selects material for Ask through a Cloudflare Worker, then Gemini writes the answer. Gemini also composes Views.
 
 ## Find a passage in its original context
 

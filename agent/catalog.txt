@@ -1,6 +1,6 @@
 # Henry's public source catalogue
 
-Content revision 60e2ee1ecf8927847fea2e892daab6dfa3700707553408d534ff8b6cbf1aaf6f
+Content revision e81e12cb96c6f5cc158301697c3a2a315d49c912b20c2845346a55a1d898a902
 172 sources
 
 ## Places I've Studied
@@ -771,7 +771,7 @@ Source ID aipersonalarchive:system-architecture
 Original https://www.henryw.me/#/aipersonalarchive#system-architecture
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/aipersonalarchive%3Asystem-architecture?format=text
 
-At build time, the site prepares passages, embeddings and a component catalogue. Search runs in the browser. Cloudflare Workers supply context to Gemini for Ask answers and View compositions. MiniLM creates the search embeddings locally through Transformers.js, and Fish Audio provides narration in my AI voice. The text API makes the public material available to visitors’ own agents.
+At build time, the site prepares passages, embeddings and a component catalogue. Search runs in the browser, where MiniLM embeds queries through Transformers.js. On the homepage, Clef-flash selects material for Ask through a Cloudflare Worker, then Gemini writes the answer. Gemini also composes Views.
 
 ## Find a passage in its original context
 
