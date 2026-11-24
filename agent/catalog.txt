@@ -1,6 +1,6 @@
 # Henry's public source catalogue
 
-Content revision ea31a3343577b30cee4337cf2fef2b0864a5741341f27598e9108766c486fb2d
+Content revision 543b15da5b6c11525fa44f39c3b83ce024686e884876aab9d90a402e04699336
 165 sources
 
 ## Places I've Studied
@@ -71,7 +71,7 @@ Source ID experience:pwc
 Original https://www.henryw.me/#/experience#work-pwc
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/experience%3Apwc?format=text
 
-At PwC, I design and build AI and data systems for financial-services and public-sector clients. I develop solution architectures around each client’s business needs and technical constraints, then implement them through custom pipelines and integrations with existing systems. I designed and implemented an AI workflow that analyses long reports for different types of risk.
+At PwC, I design and build AI and data systems for financial-services and public-sector clients. I develop agents and reporting systems around how teams work, and help clients decide where AI fits into their operations and technical architecture. I integrated 100,000+ records from 20+ source tables into reusable Databricks SQL models for an insurer’s monthly Power BI dashboard.
 
 ## Part-time Student Research Assistant
 
@@ -91,7 +91,7 @@ Source ID experience:hsbc
 Original https://www.henryw.me/#/experience#work-hsbc
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/experience%3Ahsbc?format=text
 
-At HSBC, I worked with business specialists, regional product teams, engineers and UI/UX designers to turn product knowledge into shared requirements. I designed a reusable framework that linked these requirements to design and implementation decisions, then built tools to automate configuration across products and markets.
+At HSBC, I worked with business specialists, regional product teams, designers and engineers to turn insurance product requirements into banking app configurations that teams could reuse across markets. I also assessed where AI could support insurance and personal banking workflows. I built an Excel/VBA configuration engine that automated banking app setup for 10+ insurance products across 5+ markets.
 
 ## Web Developer, Digital Content Support
 
@@ -1471,7 +1471,7 @@ Source ID cv:education
 Original https://www.henryw.me/#/cv#education
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/cv%3Aeducation?format=text
 
-University of Hong Kong Sep 2022 – Present BASc in Applied Artificial Intelligence Coursework across machine learning, deep learning, data science, algorithms, and the mathematics behind them. Dean’s Honours List, Student Peer Advisor, and Staff–Student Consultative Committee representative.
+University of Hong Kong Sep 2022 – Present BASc in Applied Artificial Intelligence Coursework across machine learning, deep learning, data science, algorithms, and the mathematics behind them. Dean’s Honours List, C. V. Starr Scholarship, Student Peer Advisor, and Staff–Student Consultative Committee representative.
 
 ## Experience
 
@@ -1481,9 +1481,9 @@ Source ID cv:experience
 Original https://www.henryw.me/#/cv#experience
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/cv%3Aexperience?format=text
 
-Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Designed an AI-assisted knowledge management architecture that identifies gaps, acquires missing material and keeps technical guidance up to date.
+Cloud, Data & AI Consulting Intern Jul 2026 – Dec 2026 PwC, Hong Kong Developed 5+ AI agents and workflows for financial-services and public-sector clients using retrieval-augmented generation (RAG) and integrations through the Model Context Protocol (MCP) and APIs. Integrated enterprise data in SQL and designed reusable models for Power BI reporting.
 
-## Publications & Preprints
+## Publications
 
 CV
 Section cv
@@ -1491,7 +1491,7 @@ Source ID cv:publications-preprints
 Original https://www.henryw.me/#/cv#publications-preprints
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/cv%3Apublications-preprints?format=text
 
-Early Epistemic Settlement in AI-Assisted Writing H. Wang Under review · arXiv:2609.09332 BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval H. Su*, H. Yen*, M. Xia*, W. Shi, N. Muennighoff, H. Wang , H. Liu, Q. Shi, Z. S. Siegel, M. Tang, R. Sun, J. Yoon, S. O. Arik, D. Chen, T. Yu ICLR 2025 Spotlight; arXiv:2407.12883
+BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval H. Su*, H. Yen*, M. Xia*, W. Shi, N. Muennighoff, H. Wang , H. Liu, Q. Shi, Z. S. Siegel, M. Tang, R. Sun, J. Yoon, S. O. Arik, D. Chen, T. Yu ICLR 2025 Spotlight; arXiv:2407.12883
 
 ## Projects
 
@@ -1501,7 +1501,7 @@ Source ID cv:projects
 Original https://www.henryw.me/#/cv#projects
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/cv%3Aprojects?format=text
 
-AI × Self Jun 2026 – Present An AI-driven personal archive Built a personal archive combining hybrid search, retrieval-augmented answers and AI-composed Views. Each View connects my work, ideas and experiences around a visitor’s question and becomes an illustrated article and an interactive 3D exhibition.
+Marketing Data Integration and Dashboard Development Oct 2026 – Nov 2026 PwC Built reusable Databricks SQL models that integrated 100,000+ records from 20+ source tables for an insurer’s monthly Power BI dashboard. Reconciled inconsistent keys and definitions across campaigns, journeys and channels so the team could analyse funnel and sales performance.
 
 ## About Me
 
