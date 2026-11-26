@@ -870,7 +870,7 @@
       "kind": "project",
       "id": "searchstory",
       "period": "June 2026 - Present",
-      "subtitle": "An AI-driven personal archive",
+      "subtitle": "Interactive personal archive",
       "route": "/aipersonalarchive",
       "anchor": "",
       "mediaMode": "gallery",
@@ -908,7 +908,7 @@
       "kind": "project",
       "id": "slidepoise",
       "period": "August 2026 - September 2026",
-      "subtitle": "Agentic Slide Generation",
+      "subtitle": "AI PowerPoint generation framework",
       "route": "/slidepoise/",
       "anchor": "",
       "mediaMode": "hero",
@@ -941,7 +941,7 @@
       "kind": "project",
       "id": "cathayflex",
       "period": "October 2026 - Present",
-      "subtitle": "An airline-managed marketplace for passenger flexibility",
+      "subtitle": "Marketplace for travel flexibility",
       "route": "https://cathayflex.github.io/",
       "anchor": "",
       "mediaMode": "gallery",
@@ -957,10 +957,10 @@
     "page": "Builds",
     "title": "IT Incident Analysis and Reporting Agent",
     "anchor": "pwcIncident",
-    "description": "At PwC, I built a Copilot Studio agent that investigates Dynatrace alerts and correlated logs, retrieves relevant ServiceNow incidents and sends a report to Microsoft Teams. The report distinguishes current evidence from historical precedent, giving the response team a basis for the next check.",
-    "body": "At PwC, I built a Copilot Studio agent that investigates Dynatrace alerts and correlated logs, retrieves relevant ServiceNow incidents and sends a report to Microsoft Teams. The report distinguishes current evidence from historical precedent, giving the response team a basis for the next check.",
+    "description": "When an IT service fails, support teams need to determine which systems or users are affected and where to investigate next. At PwC, I built the investigation and reporting workflow for an AI agent triggered by a monitoring alert. The agent retrieves logs for the affected service and time window and searches incident records for similar failures and fixes.",
+    "body": "When an IT service fails, support teams need to determine which systems or users are affected and where to investigate next. At PwC, I built the investigation and reporting workflow for an AI agent triggered by a monitoring alert. The agent retrieves logs for the affected service and time window and searches incident records for similar failures and fixes. The report it posts in Microsoft Teams explains the business impact and distinguishes what the current evidence shows from what past incidents suggest.",
     "parts": [
-      "At PwC, I built a Copilot Studio agent that investigates Dynatrace alerts and correlated logs, retrieves relevant ServiceNow incidents and sends a report to Microsoft Teams. The report distinguishes current evidence from historical precedent, giving the response team a basis for the next check."
+      "When an IT service fails, support teams need to determine which systems or users are affected and where to investigate next. At PwC, I built the investigation and reporting workflow for an AI agent triggered by a monitoring alert. The agent retrieves logs for the affected service and time window and searches incident records for similar failures and fixes. The report it posts in Microsoft Teams explains the business impact and distinguishes what the current evidence shows from what past incidents suggest."
     ],
     "view_kind": "project",
     "presentations": [

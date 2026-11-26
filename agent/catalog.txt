@@ -1,6 +1,6 @@
 # Henry's public source catalogue
 
-Content revision 29c21b7d93362a3c593c90ae6932ebefc73f8561aa1cb6f5529839e11253bb21
+Content revision 7be3b9ac8a8ecfb3f59c5fec3654e81e50894f0f6693a20cb8ac07a900831df5
 172 sources
 
 ## Places I've Studied
@@ -301,7 +301,7 @@ Source ID projects:pwcIncident
 Original https://www.henryw.me/#/projects?to=pwcIncident
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3ApwcIncident?format=text
 
-At PwC, I built a Copilot Studio agent that investigates Dynatrace alerts and correlated logs, retrieves relevant ServiceNow incidents and sends a report to Microsoft Teams. The report distinguishes current evidence from historical precedent, giving the response team a basis for the next check.
+When an IT service fails, support teams need to determine which systems or users are affected and where to investigate next. At PwC, I built the investigation and reporting workflow for an AI agent triggered by a monitoring alert. The agent retrieves logs for the affected service and time window and searches incident records for similar failures and fixes.
 
 ## Risk Assessment Across Long Documents
 
