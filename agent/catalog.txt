@@ -1,6 +1,6 @@
 # Henry's public source catalogue
 
-Content revision 2e0faf241708c4346acdfc86ac9c4eccce57857a3929748d77352f478f8ca919
+Content revision 29c21b7d93362a3c593c90ae6932ebefc73f8561aa1cb6f5529839e11253bb21
 172 sources
 
 ## Places I've Studied
@@ -293,16 +293,6 @@ Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3Acathayfle
 
 Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one.
 
-## Risk Assessment Across Long Documents
-
-Builds
-Section projects
-Source ID projects:pwcDocumentReview
-Original https://www.henryw.me/#/projects?to=pwcDocumentReview
-Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3ApwcDocumentReview?format=text
-
-Henry translated risk definitions into evidence requirements and decision rules. Optional source guidance identifies report sections likely to contain useful context. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks.
-
 ## IT Incident Analysis and Reporting Agent
 
 Builds
@@ -312,6 +302,16 @@ Original https://www.henryw.me/#/projects?to=pwcIncident
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3ApwcIncident?format=text
 
 At PwC, I built a Copilot Studio agent that investigates Dynatrace alerts and correlated logs, retrieves relevant ServiceNow incidents and sends a report to Microsoft Teams. The report distinguishes current evidence from historical precedent, giving the response team a basis for the next check.
+
+## Risk Assessment Across Long Documents
+
+Builds
+Section projects
+Source ID projects:pwcDocumentReview
+Original https://www.henryw.me/#/projects?to=pwcDocumentReview
+Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3ApwcDocumentReview?format=text
+
+Henry translated risk definitions into evidence requirements and decision rules. Optional source guidance identifies report sections likely to contain useful context. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks.
 
 ## Insurance Product Configuration Engine
 
@@ -971,7 +971,7 @@ Source ID document-review:overview
 Original https://www.henryw.me/#/document-review
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/document-review%3Aoverview?format=text
 
-Reading long reports and connecting the evidence behind each finding At PwC, I designed and built an AI pipeline that reads long reports, extracts individual evidence records and combines them to assess different risks. Reviewers can inspect the reasoning and open the original source pages behind each finding. 01 Task and workflow
+Reading long reports and connecting the evidence behind each finding At PwC, I built a workflow for risk assessments that depend on evidence spread across a long report. I separated full-report reading from risk judgement so AI could connect observations across sections, apply the rules for each risk and show reviewers how a finding was reached. 01 Task and workflow
 
 ## A risk judgement can depend on evidence across the whole report.
 
@@ -981,7 +981,7 @@ Source ID document-review:prepare-the-evidence-for-a-decision
 Original https://www.henryw.me/#/document-review#prepare-the-evidence-for-a-decision
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/document-review%3Aprepare-the-evidence-for-a-decision?format=text
 
-The team needed to assess a defined set of risks in reports spanning hundreds of pages. Relevant observations appeared in the text, tables and appendices. A finding could depend on facts from several sections, each carrying its own context. I designed a workflow that reads every page, builds a shared collection of evidence and assesses each risk against that material.
+Each report was roughly 300 pages long. The team needed to assess 5+ risk categories. A measurement in a table might only make sense alongside an exception or a follow-up entry in a different section. I used the report’s structure to keep related pages together while covering every page.
 
 ## Assessment guidance defines what to collect and how to judge it
 
@@ -1001,7 +1001,7 @@ Source ID document-review:designing-reusable-evidence-records
 Original https://www.henryw.me/#/document-review#designing-reusable-evidence-records
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/document-review%3Adesigning-reusable-evidence-records?format=text
 
-I use the table of contents (TOC) and section headings to divide the report into chunks, capped at eight pages. This keeps related material together and makes each reading task manageable. The pages are rendered as images so a vision-language model (VLM) can read the layout of tables and visual material alongside the report’s text. Each chunk can produce several evidence records.
+I use the table of contents (TOC) and verified headings to split the report at section boundaries where possible. Each reading task covers up to eight pages and can include the preceding page when a table or section continues. A vision-language model (VLM) reads the rendered pages so it can interpret text, tables and figures in their original layout. Each chunk can produce several evidence records.
 
 ## Each risk is assessed against the collected evidence.
 
@@ -1011,7 +1011,7 @@ Source ID document-review:reusing-evidence-across-assessments
 Original https://www.henryw.me/#/document-review#reusing-evidence-across-assessments
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/document-review%3Areusing-evidence-across-assessments?format=text
 
-Each risk has a separate synthesis pass. It applies the decision rules to the relevant records, connects observations across pages and explains how they support or qualify a finding. Separating this judgement from extraction lets the assessment reason over the evidence gathered across the report. The model also receives the document index.
+For each risk, the AI model applies the relevant decision rules to the collected records. It connects observations across pages and explains how they support or qualify a finding. Several assessments can draw on the same record while preserving its original reference. The model also receives the document index. When a conclusion needs context missing from a record, it can revisit the relevant source pages.
 
 ## Parallel processing makes full-report assessment practical
 
@@ -1571,7 +1571,7 @@ Source ID cv:projects
 Original https://www.henryw.me/#/cv#projects
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/cv%3Aprojects?format=text
 
-Marketing Data Integration and Dashboard Development Oct 2026 – Nov 2026 PwC Built reusable Databricks SQL models that integrated 100,000+ records from 20+ source tables for an insurer’s monthly Power BI dashboard. Reconciled inconsistent keys and definitions across campaigns, journeys and channels so the team could analyse funnel and sales performance.
+Marketing Data Integration and Dashboard Development Nov 2026 – Dec 2026 PwC Built reusable Databricks SQL models that integrated 100,000+ records from 20+ source tables for an insurer’s monthly Power BI dashboard. Reconciled inconsistent keys and definitions across campaigns, journeys and channels so the team could analyse funnel and sales performance.
 
 ## About Me
 

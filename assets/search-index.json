@@ -158,7 +158,7 @@
       "I evaluated and integrated tools to prepare complex documents for retrieval-augmented generation (RAG). The ingestion pipeline preserves tables, flowcharts, references and page-spanning content during chunking, which divides documents into passages an AI assistant can retrieve. I also developed a DeepEval framework to measure classification, retrieval and response quality.",
       "I studied where JEV could make repeated judgments such as classifying records, ranking search results or routing requests. The model can score defined choices and return probabilities that teams can use to send uncertain cases for review. I set out how to decide whether to adopt it by comparing accuracy, response time and cost across the full workflow.",
       "I studied when knowledge graphs add value to document RAG. They let teams trace dependencies, identify owners and see how a change in one part of the business affects another. I weighed those capabilities against the effort of defining relationships, matching records across systems and keeping those links current.",
-      "I helped develop an AI roadmap for a client deciding which IT operations tasks to automate first. I played a central role in researching and ranking 40+ use cases by business value and feasibility, from routing access requests to verifying production deployments. For the priority use cases, I helped define how the workflows would fit the client’s IT systems, what data they would need and where staff would review the results.",
+      "I helped develop an AI roadmap for a client deciding which IT operations tasks to automate first. I played a central role in researching and ranking 40+ use cases across 15+ categories by business value and feasibility, from routing access requests to verifying production deployments. For the priority use cases, I helped define how the workflows would fit the client’s IT systems, what data they would need and where staff would review the results.",
       "I reviewed Ethereum and stablecoin infrastructure risks for a banking engagement."
     ],
     "view_kind": "experience",
@@ -952,6 +952,41 @@
   },
   {
     "id": 29,
+    "source_id": "projects:pwcIncident",
+    "route": "/projects",
+    "page": "Builds",
+    "title": "IT Incident Analysis and Reporting Agent",
+    "anchor": "pwcIncident",
+    "description": "At PwC, I built a Copilot Studio agent that investigates Dynatrace alerts and correlated logs, retrieves relevant ServiceNow incidents and sends a report to Microsoft Teams. The report distinguishes current evidence from historical precedent, giving the response team a basis for the next check.",
+    "body": "At PwC, I built a Copilot Studio agent that investigates Dynatrace alerts and correlated logs, retrieves relevant ServiceNow incidents and sends a report to Microsoft Teams. The report distinguishes current evidence from historical precedent, giving the response team a basis for the next check.",
+    "parts": [
+      "At PwC, I built a Copilot Studio agent that investigates Dynatrace alerts and correlated logs, retrieves relevant ServiceNow incidents and sends a report to Microsoft Teams. The report distinguishes current evidence from historical precedent, giving the response team a basis for the next check."
+    ],
+    "view_kind": "project",
+    "presentations": [
+      "cite"
+    ],
+    "priority": 5,
+    "media": [
+      {
+        "src": "/assets/img/PwC.png"
+      }
+    ],
+    "entity": {
+      "kind": "project",
+      "id": "pwcIncident",
+      "period": "September 2026 - October 2026",
+      "subtitle": "Investigating monitoring alerts and preparing reports for the response team",
+      "route": "/it-incident-analysis",
+      "anchor": "",
+      "mediaMode": "logo",
+      "logoHeight": "6vh",
+      "richBlock": ""
+    },
+    "selected": true
+  },
+  {
+    "id": 30,
     "source_id": "projects:pwcDocumentReview",
     "route": "/projects",
     "page": "Builds",
@@ -978,48 +1013,13 @@
     "entity": {
       "kind": "project",
       "id": "pwcDocumentReview",
-      "period": "October 2026",
+      "period": "October 2026 - November 2026",
       "subtitle": "Reading long reports and connecting the evidence behind each finding",
       "route": "/document-review",
       "anchor": "",
       "mediaMode": "logo",
       "logoHeight": "6vh",
       "richBlock": "interactive.document-review.architecture"
-    },
-    "selected": false
-  },
-  {
-    "id": 30,
-    "source_id": "projects:pwcIncident",
-    "route": "/projects",
-    "page": "Builds",
-    "title": "IT Incident Analysis and Reporting Agent",
-    "anchor": "pwcIncident",
-    "description": "At PwC, I built a Copilot Studio agent that investigates Dynatrace alerts and correlated logs, retrieves relevant ServiceNow incidents and sends a report to Microsoft Teams. The report distinguishes current evidence from historical precedent, giving the response team a basis for the next check.",
-    "body": "At PwC, I built a Copilot Studio agent that investigates Dynatrace alerts and correlated logs, retrieves relevant ServiceNow incidents and sends a report to Microsoft Teams. The report distinguishes current evidence from historical precedent, giving the response team a basis for the next check.",
-    "parts": [
-      "At PwC, I built a Copilot Studio agent that investigates Dynatrace alerts and correlated logs, retrieves relevant ServiceNow incidents and sends a report to Microsoft Teams. The report distinguishes current evidence from historical precedent, giving the response team a basis for the next check."
-    ],
-    "view_kind": "project",
-    "presentations": [
-      "cite"
-    ],
-    "priority": 4,
-    "media": [
-      {
-        "src": "/assets/img/PwC.png"
-      }
-    ],
-    "entity": {
-      "kind": "project",
-      "id": "pwcIncident",
-      "period": "September 2026 - October 2026",
-      "subtitle": "Investigating monitoring alerts and preparing reports for the response team",
-      "route": "/it-incident-analysis",
-      "anchor": "",
-      "mediaMode": "logo",
-      "logoHeight": "6vh",
-      "richBlock": ""
     },
     "selected": false
   },
@@ -2683,10 +2683,10 @@
     "page": "Risk Assessment Across Long Documents",
     "title": "Risk Assessment Across Long Documents",
     "anchor": "",
-    "description": "Reading long reports and connecting the evidence behind each finding At PwC, I designed and built an AI pipeline that reads long reports, extracts individual evidence records and combines them to assess different risks. Reviewers can inspect the reasoning and open the original source pages behind each finding. 01 Task and workflow",
-    "body": "Reading long reports and connecting the evidence behind each finding At PwC, I designed and built an AI pipeline that reads long reports, extracts individual evidence records and combines them to assess different risks. Reviewers can inspect the reasoning and open the original source pages behind each finding. 01 Task and workflow",
+    "description": "Reading long reports and connecting the evidence behind each finding At PwC, I built a workflow for risk assessments that depend on evidence spread across a long report. I separated full-report reading from risk judgement so AI could connect observations across sections, apply the rules for each risk and show reviewers how a finding was reached. 01 Task and workflow",
+    "body": "Reading long reports and connecting the evidence behind each finding At PwC, I built a workflow for risk assessments that depend on evidence spread across a long report. I separated full-report reading from risk judgement so AI could connect observations across sections, apply the rules for each risk and show reviewers how a finding was reached. 01 Task and workflow",
     "parts": [
-      "Reading long reports and connecting the evidence behind each finding At PwC, I designed and built an AI pipeline that reads long reports, extracts individual evidence records and combines them to assess different risks. Reviewers can inspect the reasoning and open the original source pages behind each finding. 01 Task and workflow"
+      "Reading long reports and connecting the evidence behind each finding At PwC, I built a workflow for risk assessments that depend on evidence spread across a long report. I separated full-report reading from risk judgement so AI could connect observations across sections, apply the rules for each risk and show reviewers how a finding was reached. 01 Task and workflow"
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2703,10 +2703,10 @@
     "page": "Risk Assessment Across Long Documents",
     "title": "A risk judgement can depend on evidence across the whole report.",
     "anchor": "prepare-the-evidence-for-a-decision",
-    "description": "The team needed to assess a defined set of risks in reports spanning hundreds of pages. Relevant observations appeared in the text, tables and appendices. A finding could depend on facts from several sections, each carrying its own context. I designed a workflow that reads every page, builds a shared collection of evidence and assesses each risk against that material.",
-    "body": "The team needed to assess a defined set of risks in reports spanning hundreds of pages. Relevant observations appeared in the text, tables and appendices. A finding could depend on facts from several sections, each carrying its own context. I designed a workflow that reads every page, builds a shared collection of evidence and assesses each risk against that material. The resulting findings retain their source references and appear in a workspace for human review.",
+    "description": "Each report was roughly 300 pages long. The team needed to assess 5+ risk categories. A measurement in a table might only make sense alongside an exception or a follow-up entry in a different section. I used the report’s structure to keep related pages together while covering every page.",
+    "body": "Each report was roughly 300 pages long. The team needed to assess 5+ risk categories. A measurement in a table might only make sense alongside an exception or a follow-up entry in a different section. I used the report’s structure to keep related pages together while covering every page. The model builds a shared ledger of 100+ evidence records per report, preserving each observation, its qualifications and its exact source. Each risk assessment then draws on records across the whole report and can request a closer reading of specific pages when the existing records leave a question open.",
     "parts": [
-      "The team needed to assess a defined set of risks in reports spanning hundreds of pages. Relevant observations appeared in the text, tables and appendices. A finding could depend on facts from several sections, each carrying its own context. I designed a workflow that reads every page, builds a shared collection of evidence and assesses each risk against that material. The resulting findings retain their source references and appear in a workspace for human review."
+      "Each report was roughly 300 pages long. The team needed to assess 5+ risk categories. A measurement in a table might only make sense alongside an exception or a follow-up entry in a different section. I used the report’s structure to keep related pages together while covering every page. The model builds a shared ledger of 100+ evidence records per report, preserving each observation, its qualifications and its exact source. Each risk assessment then draws on records across the whole report and can request a closer reading of specific pages when the existing records leave a question open."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -2743,10 +2743,10 @@
     "page": "Risk Assessment Across Long Documents",
     "title": "Page-level extraction gives scattered observations a shared structure.",
     "anchor": "designing-reusable-evidence-records",
-    "description": "I use the table of contents (TOC) and section headings to divide the report into chunks, capped at eight pages. This keeps related material together and makes each reading task manageable. The pages are rendered as images so a vision-language model (VLM) can read the layout of tables and visual material alongside the report’s text. Each chunk can produce several evidence records.",
-    "body": "I use the table of contents (TOC) and section headings to divide the report into chunks, capped at eight pages. This keeps related material together and makes each reading task manageable. The pages are rendered as images so a vision-language model (VLM) can read the layout of tables and visual material alongside the report’s text. Each chunk can produce several evidence records. The extraction guidance focuses on facts that support, qualify or rule out a finding. Each record preserves enough context for the observation to remain meaningful when it is read alongside evidence from another section. Observed content The reported fact, including the quantities, conditions and qualifications needed to interpret it. Source context The document section, page and original item, such as a table row or paragraph. Assessment relevance The risks the observation may inform and the context needed to assess its significance. These records form an evidence ledger shared across the assessments. Item identifiers connect observations about the same subject and help recognise repeated evidence. Section paths distinguish similarly named tables or appendices. Several risks can then draw on the same observation while retaining its original reference. 03 Synthesis",
+    "description": "I use the table of contents (TOC) and verified headings to split the report at section boundaries where possible. Each reading task covers up to eight pages and can include the preceding page when a table or section continues. A vision-language model (VLM) reads the rendered pages so it can interpret text, tables and figures in their original layout. Each chunk can produce several evidence records.",
+    "body": "I use the table of contents (TOC) and verified headings to split the report at section boundaries where possible. Each reading task covers up to eight pages and can include the preceding page when a table or section continues. A vision-language model (VLM) reads the rendered pages so it can interpret text, tables and figures in their original layout. Each chunk can produce several evidence records. The extraction guidance focuses on facts that support, qualify or rule out a finding. Each record preserves enough context for the observation to remain meaningful when it is read alongside evidence from another section. Observed content The reported fact, including the quantities, conditions and qualifications needed to interpret it. Source context The document section, page and original item, such as a table row or paragraph. Assessment relevance The risks the observation may inform and the context needed to assess its significance. These records form an evidence ledger shared across the assessments. Item identifiers connect observations about the same subject and help recognise repeated evidence. Section paths distinguish similarly named tables or appendices. Several risks can then draw on the same observation while retaining its original reference. 03 Synthesis",
     "parts": [
-      "I use the table of contents (TOC) and section headings to divide the report into chunks, capped at eight pages. This keeps related material together and makes each reading task manageable. The pages are rendered as images so a vision-language model (VLM) can read the layout of tables and visual material alongside the report’s text. Each chunk can produce several evidence records. The extraction guidance focuses on facts that support, qualify or rule out a finding. Each record preserves enough context for the observation to remain meaningful when it is read alongside evidence from another section. Observed content The reported fact, including the quantities, conditions and qualifications needed to interpret it. Source context The document section, page and original item, such as a table row or paragraph.",
+      "I use the table of contents (TOC) and verified headings to split the report at section boundaries where possible. Each reading task covers up to eight pages and can include the preceding page when a table or section continues. A vision-language model (VLM) reads the rendered pages so it can interpret text, tables and figures in their original layout. Each chunk can produce several evidence records. The extraction guidance focuses on facts that support, qualify or rule out a finding. Each record preserves enough context for the observation to remain meaningful when it is read alongside evidence from another section. Observed content The reported fact, including the quantities, conditions and qualifications needed to interpret it. Source context The document section, page and original item, such as a table row or paragraph.",
       "Assessment relevance The risks the observation may inform and the context needed to assess its significance. These records form an evidence ledger shared across the assessments. Item identifiers connect observations about the same subject and help recognise repeated evidence. Section paths distinguish similarly named tables or appendices. Several risks can then draw on the same observation while retaining its original reference. 03 Synthesis"
     ],
     "view_kind": "prose",
@@ -2764,10 +2764,10 @@
     "page": "Risk Assessment Across Long Documents",
     "title": "Each risk is assessed against the collected evidence.",
     "anchor": "reusing-evidence-across-assessments",
-    "description": "Each risk has a separate synthesis pass. It applies the decision rules to the relevant records, connects observations across pages and explains how they support or qualify a finding. Separating this judgement from extraction lets the assessment reason over the evidence gathered across the report. The model also receives the document index.",
-    "body": "Each risk has a separate synthesis pass. It applies the decision rules to the relevant records, connects observations across pages and explains how they support or qualify a finding. Separating this judgement from extraction lets the assessment reason over the evidence gathered across the report. The model also receives the document index. When a conclusion needs context missing from a record, it can revisit the relevant source pages. New evidence is added to the ledger before the assessment is refined. If a classification still requires human judgement, the finding includes a specific question for the reviewer.",
+    "description": "For each risk, the AI model applies the relevant decision rules to the collected records. It connects observations across pages and explains how they support or qualify a finding. Several assessments can draw on the same record while preserving its original reference. The model also receives the document index. When a conclusion needs context missing from a record, it can revisit the relevant source pages.",
+    "body": "For each risk, the AI model applies the relevant decision rules to the collected records. It connects observations across pages and explains how they support or qualify a finding. Several assessments can draw on the same record while preserving its original reference. The model also receives the document index. When a conclusion needs context missing from a record, it can revisit the relevant source pages. New evidence is added to the ledger before the assessment is refined. If a classification still requires human judgement, the finding includes a specific question for the reviewer.",
     "parts": [
-      "Each risk has a separate synthesis pass. It applies the decision rules to the relevant records, connects observations across pages and explains how they support or qualify a finding. Separating this judgement from extraction lets the assessment reason over the evidence gathered across the report. The model also receives the document index. When a conclusion needs context missing from a record, it can revisit the relevant source pages. New evidence is added to the ledger before the assessment is refined. If a classification still requires human judgement, the finding includes a specific question for the reviewer."
+      "For each risk, the AI model applies the relevant decision rules to the collected records. It connects observations across pages and explains how they support or qualify a finding. Several assessments can draw on the same record while preserving its original reference. The model also receives the document index. When a conclusion needs context missing from a record, it can revisit the relevant source pages. New evidence is added to the ledger before the assessment is refined. If a classification still requires human judgement, the finding includes a specific question for the reviewer."
     ],
     "view_kind": "prose",
     "presentations": [
@@ -3101,9 +3101,9 @@
     "presentations": [
       "cite"
     ],
-    "priority": 4,
+    "priority": 5,
     "media": [],
-    "selected": false
+    "selected": true
   },
   {
     "id": 117,
@@ -3121,9 +3121,9 @@
     "presentations": [
       "cite"
     ],
-    "priority": 4,
+    "priority": 5,
     "media": [],
-    "selected": false
+    "selected": true
   },
   {
     "id": 118,
@@ -3141,9 +3141,9 @@
     "presentations": [
       "cite"
     ],
-    "priority": 4,
+    "priority": 5,
     "media": [],
-    "selected": false
+    "selected": true
   },
   {
     "id": 119,
@@ -3161,9 +3161,9 @@
     "presentations": [
       "cite"
     ],
-    "priority": 4,
+    "priority": 5,
     "media": [],
-    "selected": false
+    "selected": true
   },
   {
     "id": 120,
@@ -3182,9 +3182,9 @@
     "presentations": [
       "cite"
     ],
-    "priority": 4,
+    "priority": 5,
     "media": [],
-    "selected": false
+    "selected": true
   },
   {
     "id": 121,
@@ -3202,9 +3202,9 @@
     "presentations": [
       "cite"
     ],
-    "priority": 4,
+    "priority": 5,
     "media": [],
-    "selected": false
+    "selected": true
   },
   {
     "id": 122,
@@ -4193,12 +4193,13 @@
     "page": "CV",
     "title": "Projects",
     "anchor": "projects",
-    "description": "Marketing Data Integration and Dashboard Development Oct 2026 – Nov 2026 PwC Built reusable Databricks SQL models that integrated 100,000+ records from 20+ source tables for an insurer’s monthly Power BI dashboard. Reconciled inconsistent keys and definitions across campaigns, journeys and channels so the team could analyse funnel and sales performance.",
-    "body": "Marketing Data Integration and Dashboard Development Oct 2026 – Nov 2026 PwC Built reusable Databricks SQL models that integrated 100,000+ records from 20+ source tables for an insurer’s monthly Power BI dashboard. Reconciled inconsistent keys and definitions across campaigns, journeys and channels so the team could analyse funnel and sales performance. Supported 50+ reporting fields and traced DAX measure dependencies and data lineage to investigate discrepancies between dashboard figures and source records. Mapped data structures and flows in Visio to clarify mapping rules, gaps and reporting requirements with the team and client. IT Incident Analysis and Reporting Agent Sep 2026 – Oct 2026 PwC Built a Copilot Studio agent that suggests likely causes and next steps during IT incidents. Connected live Dynatrace monitoring through MCP and APIs and designed retrieval around ServiceNow ticket schemas. Built a demo using historical incidents that showed how the agent finds evidence and distributes reports through messaging channels. Our team estimated a 40% reduction in end-to-end handling time compared with manual work. Compared licensing combinations and call patterns using a cost model based on token usage, tool calls and vendor pricing. SlidePoise - AI PowerPoint Generation Framework Aug 2026 – Sep 2026 PwC Built an open-source framework that helps AI agents plan presentation content and explore slide designs with image generation. The workflow supported the creation of 5+ decks. Combined multimodal reasoning, computer-vision measurements in OpenCV and deterministic construction tools to rebuild designs as editable PowerPoint text, charts, tables and shapes. Indexed corporate visual assets so the framework could retrieve logos, icons and other brand elements that fit each slide’s content. AI × Self - Interactive Personal Archive Jun 2026 – Present Personal Built hybrid Search and retrieval-augmented Ask so visitors can find original material and ask questions about my work, ideas and experiences. Developed a system that selects sources and interactive components to compose a View around a visitor’s question. Each View is available as an illustrated article and a 3D exhibition. Built a gallery that arranges selected work into navigable exhibition spaces and generates audio guides. Layout and lighting direct attention to the original material. Henry Han-yu Wang Last updated November 2026",
+    "description": "Marketing Data Integration and Dashboard Development Nov 2026 – Dec 2026 PwC Built reusable Databricks SQL models that integrated 100,000+ records from 20+ source tables for an insurer’s monthly Power BI dashboard. Reconciled inconsistent keys and definitions across campaigns, journeys and channels so the team could analyse funnel and sales performance.",
+    "body": "Marketing Data Integration and Dashboard Development Nov 2026 – Dec 2026 PwC Built reusable Databricks SQL models that integrated 100,000+ records from 20+ source tables for an insurer’s monthly Power BI dashboard. Reconciled inconsistent keys and definitions across campaigns, journeys and channels so the team could analyse funnel and sales performance. Supported 50+ reporting fields and traced DAX measure dependencies and data lineage to investigate discrepancies between dashboard figures and source records. Mapped data structures and flows in Visio to clarify mapping rules, gaps and reporting requirements with the team and client. Risk Assessment Across Long Documents Oct 2026 – Nov 2026 PwC Built a two-stage AI workflow to assess risks in long reports. For each report of about 300 pages, it collects 100+ source-linked evidence records in a shared ledger and combines them into proposed findings. Analysed the business requirements for 5+ risk categories and wrote the assessment guidance, specifying what evidence to collect and which decision rules to apply. Designed a workspace for checking findings against cited pages and recording decisions. Built a working demo and recorded a walkthrough video for the tender. IT Incident Analysis and Reporting Agent Sep 2026 – Oct 2026 PwC Built a Copilot Studio agent that suggests likely causes and next steps during IT incidents. Connected live Dynatrace monitoring through MCP and APIs and designed retrieval around ServiceNow ticket schemas. Built a demo using historical incidents that showed how the agent finds evidence and distributes reports through messaging channels. Our team estimated a 40% reduction in end-to-end handling time compared with manual work. Compared licensing combinations and call patterns using a cost model based on token usage, tool calls and vendor pricing. SlidePoise - AI PowerPoint Generation Framework Aug 2026 – Sep 2026 PwC Built an open-source framework that helps AI agents plan presentation content and explore slide designs with image generation. The workflow supported the creation of 5+ decks. Combined multimodal reasoning, computer-vision measurements in OpenCV and deterministic construction tools to rebuild designs as editable PowerPoint text, charts, tables and shapes. Indexed corporate visual assets so the framework could retrieve logos, icons and other brand elements that fit each slide’s content.",
     "parts": [
-      "Marketing Data Integration and Dashboard Development Oct 2026 – Nov 2026 PwC Built reusable Databricks SQL models that integrated 100,000+ records from 20+ source tables for an insurer’s monthly Power BI dashboard. Reconciled inconsistent keys and definitions across campaigns, journeys and channels so the team could analyse funnel and sales performance. Supported 50+ reporting fields and traced DAX measure dependencies and data lineage to investigate discrepancies between dashboard figures and source records. Mapped data structures and flows in Visio to clarify mapping rules, gaps and reporting requirements with the team and client. IT Incident Analysis and Reporting Agent Sep 2026 – Oct 2026 PwC Built a Copilot Studio agent that suggests likely causes and next steps during IT incidents.",
-      "Connected live Dynatrace monitoring through MCP and APIs and designed retrieval around ServiceNow ticket schemas. Built a demo using historical incidents that showed how the agent finds evidence and distributes reports through messaging channels. Our team estimated a 40% reduction in end-to-end handling time compared with manual work. Compared licensing combinations and call patterns using a cost model based on token usage, tool calls and vendor pricing. SlidePoise - AI PowerPoint Generation Framework Aug 2026 – Sep 2026 PwC Built an open-source framework that helps AI agents plan presentation content and explore slide designs with image generation. The workflow supported the creation of 5+ decks. Combined multimodal reasoning, computer-vision measurements in OpenCV and deterministic construction tools to rebuild designs as editable PowerPoint text, charts, tables and shapes.",
-      "Indexed corporate visual assets so the framework could retrieve logos, icons and other brand elements that fit each slide’s content. AI × Self - Interactive Personal Archive Jun 2026 – Present Personal Built hybrid Search and retrieval-augmented Ask so visitors can find original material and ask questions about my work, ideas and experiences. Developed a system that selects sources and interactive components to compose a View around a visitor’s question. Each View is available as an illustrated article and a 3D exhibition. Built a gallery that arranges selected work into navigable exhibition spaces and generates audio guides. Layout and lighting direct attention to the original material. Henry Han-yu Wang Last updated November 2026"
+      "Marketing Data Integration and Dashboard Development Nov 2026 – Dec 2026 PwC Built reusable Databricks SQL models that integrated 100,000+ records from 20+ source tables for an insurer’s monthly Power BI dashboard. Reconciled inconsistent keys and definitions across campaigns, journeys and channels so the team could analyse funnel and sales performance. Supported 50+ reporting fields and traced DAX measure dependencies and data lineage to investigate discrepancies between dashboard figures and source records. Mapped data structures and flows in Visio to clarify mapping rules, gaps and reporting requirements with the team and client. Risk Assessment Across Long Documents Oct 2026 – Nov 2026 PwC Built a two-stage AI workflow to assess risks in long reports.",
+      "For each report of about 300 pages, it collects 100+ source-linked evidence records in a shared ledger and combines them into proposed findings. Analysed the business requirements for 5+ risk categories and wrote the assessment guidance, specifying what evidence to collect and which decision rules to apply. Designed a workspace for checking findings against cited pages and recording decisions. Built a working demo and recorded a walkthrough video for the tender. IT Incident Analysis and Reporting Agent Sep 2026 – Oct 2026 PwC Built a Copilot Studio agent that suggests likely causes and next steps during IT incidents. Connected live Dynatrace monitoring through MCP and APIs and designed retrieval around ServiceNow ticket schemas. Built a demo using historical incidents that showed how the agent finds evidence and distributes reports through messaging channels.",
+      "Our team estimated a 40% reduction in end-to-end handling time compared with manual work. Compared licensing combinations and call patterns using a cost model based on token usage, tool calls and vendor pricing. SlidePoise - AI PowerPoint Generation Framework Aug 2026 – Sep 2026 PwC Built an open-source framework that helps AI agents plan presentation content and explore slide designs with image generation. The workflow supported the creation of 5+ decks. Combined multimodal reasoning, computer-vision measurements in OpenCV and deterministic construction tools to rebuild designs as editable PowerPoint text, charts, tables and shapes. Indexed corporate visual assets so the framework could retrieve logos, icons and other brand elements that fit each slide’s content.",
+      "AI × Self - Interactive Personal Archive Jun 2026 – Present Personal Built hybrid Search and retrieval-augmented Ask so visitors can find original material and ask questions about my work, ideas and experiences. Developed a system that selects sources and interactive components to compose a View around a visitor’s question. Each View is available as an illustrated article and a 3D exhibition. Built a gallery that arranges selected work into navigable exhibition spaces and generates audio guides. Layout and lighting direct attention to the original material. Henry Han-yu Wang Last updated November 2026"
     ],
     "view_kind": "prose",
     "presentations": [
