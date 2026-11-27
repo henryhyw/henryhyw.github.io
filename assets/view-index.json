@@ -149,11 +149,11 @@
       "title": "Cloud, Data & AI Consulting Intern",
       "anchor": "work-pwc",
       "description": "At PwC, I design and build AI and data systems for financial-services and public-sector clients. I develop agents and reporting systems around how teams work, and help clients decide where AI fits into their operations and technical architecture. I developed the investigation workflow for an AI agent that helps IT support teams respond to service disruptions.",
-      "body": "At PwC, I design and build AI and data systems for financial-services and public-sector clients. I develop agents and reporting systems around how teams work, and help clients decide where AI fits into their operations and technical architecture. I developed the investigation workflow for an AI agent that helps IT support teams respond to service disruptions. The workflow checks monitoring logs and finds how similar incidents were resolved. The agent posts a report in Microsoft Teams that explains what happened, who may be affected and what to check next. Our team estimated a 40% reduction in handling time compared with manual work in the demo scenarios. I helped design an AI workflow that assesses different types of risk in long reports. My work focused on what evidence each risk requires and how the AI should assess it. The workflow links each finding to its source pages so reviewers can check the evidence and record their decisions. I led development of the proof of concept and produced a video walkthrough to support the team’s bid. I was a core contributor to the Databricks SQL models behind an insurer’s monthly Power BI dashboard. I reconciled how campaigns, customer journeys and channels were recorded across 100,000+ records from 20+ tables, so the marketing team could compare sales performance and see where customers dropped out. To support a data migration, I built a pipeline assisted by a large language model (LLM) that reverse-engineers legacy ETL code, the logic that extracts, transforms and loads data. It recovers data lineage showing where data comes from and how it changes, together with the business rules and test scenarios needed for the migration. I designed an AI slide-generation framework to help teams quickly explore different ways to present their ideas and iterate on slide designs. The framework uses the company’s visual assets and brand guidelines to guide image generation, then combines AI interpretation with computer-vision measurements to build editable PowerPoint slides. Teams can try new compositions while preserving original logos, icons and reusable components within a consistent visual identity. I evaluated and integrated tools to prepare complex documents for retrieval-augmented generation (RAG). The ingestion pipeline preserves tables, flowcharts, references and page-spanning content during chunking, which divides documents into passages an AI assistant can retrieve. I also developed a DeepEval framework to measure classification, retrieval and response quality.",
+      "body": "At PwC, I design and build AI and data systems for financial-services and public-sector clients. I develop agents and reporting systems around how teams work, and help clients decide where AI fits into their operations and technical architecture. I developed the investigation workflow for an AI agent that helps IT support teams respond to service disruptions. The workflow checks monitoring logs and finds how similar incidents were resolved. The agent posts a report in Microsoft Teams that explains what happened, who may be affected and what to check next. Our team estimated a 40% reduction in handling time compared with manual work in the demo scenarios. I helped design an AI workflow to flag potential risks in a public-sector client’s monthly reports. I defined what evidence to collect for each risk and how to assess it. The workflow links each finding to its source pages so reviewers can check the evidence and record their decisions. I led development of the proof of concept and produced a video walkthrough to support the team’s bid. I was a core contributor to the Databricks SQL models behind an insurer’s monthly Power BI dashboard. I reconciled how campaigns, customer journeys and channels were recorded across 100,000+ records from 20+ tables, so the marketing team could compare sales performance and see where customers dropped out. To support a data migration, I built a pipeline assisted by a large language model (LLM) that reverse-engineers legacy ETL code, the logic that extracts, transforms and loads data. It recovers data lineage showing where data comes from and how it changes, together with the business rules and test scenarios needed for the migration. I designed an AI slide-generation framework to help teams quickly explore different ways to present their ideas and iterate on slide designs. The framework uses the company’s visual assets and brand guidelines to guide image generation, then combines AI interpretation with computer-vision measurements to build editable PowerPoint slides. Teams can try new compositions while preserving original logos, icons and reusable components within a consistent visual identity. I evaluated and integrated tools to prepare complex documents for retrieval-augmented generation (RAG). The ingestion pipeline preserves tables, flowcharts, references and page-spanning content during chunking, which divides documents into passages an AI assistant can retrieve. I also developed a DeepEval framework to measure classification, retrieval and response quality.",
       "parts": [
         "At PwC, I design and build AI and data systems for financial-services and public-sector clients. I develop agents and reporting systems around how teams work, and help clients decide where AI fits into their operations and technical architecture.",
         "I developed the investigation workflow for an AI agent that helps IT support teams respond to service disruptions. The workflow checks monitoring logs and finds how similar incidents were resolved. The agent posts a report in Microsoft Teams that explains what happened, who may be affected and what to check next. Our team estimated a 40% reduction in handling time compared with manual work in the demo scenarios.",
-        "I helped design an AI workflow that assesses different types of risk in long reports. My work focused on what evidence each risk requires and how the AI should assess it. The workflow links each finding to its source pages so reviewers can check the evidence and record their decisions. I led development of the proof of concept and produced a video walkthrough to support the team’s bid.",
+        "I helped design an AI workflow to flag potential risks in a public-sector client’s monthly reports. I defined what evidence to collect for each risk and how to assess it. The workflow links each finding to its source pages so reviewers can check the evidence and record their decisions. I led development of the proof of concept and produced a video walkthrough to support the team’s bid.",
         "I was a core contributor to the Databricks SQL models behind an insurer’s monthly Power BI dashboard. I reconciled how campaigns, customer journeys and channels were recorded across 100,000+ records from 20+ tables, so the marketing team could compare sales performance and see where customers dropped out.",
         "To support a data migration, I built a pipeline assisted by a large language model (LLM) that reverse-engineers legacy ETL code, the logic that extracts, transforms and loads data. It recovers data lineage showing where data comes from and how it changes, together with the business rules and test scenarios needed for the migration.",
         "I designed an AI slide-generation framework to help teams quickly explore different ways to present their ideas and iterate on slide designs. The framework uses the company’s visual assets and brand guidelines to guide image generation, then combines AI interpretation with computer-vision measurements to build editable PowerPoint slides. Teams can try new compositions while preserving original logos, icons and reusable components within a consistent visual identity.",
@@ -489,66 +489,6 @@
     },
     {
       "id": 19,
-      "source_id": "research:transfer",
-      "route": "/research",
-      "page": "Research",
-      "title": "The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization?",
-      "anchor": "transfer",
-      "description": "We developed a framework that links models of human generalisation to the design of experiments. I construct models by varying both how a learner represents information and how the learner uses it to respond. The same representation can support rule application, comparison with a category prototype or retrieval of remembered examples.",
-      "body": "We developed a framework that links models of human generalisation to the design of experiments. I construct models by varying both how a learner represents information and how the learner uses it to respond. The same representation can support rule application, comparison with a category prototype or retrieval of remembered examples. Varying these mechanisms independently lets me build matched accounts and simulate how each would respond in the same task. I use these predictions to shape an experiment before collecting participant data. Candidate separation measures where the models predict different responses, and candidate recovery estimates how reliably the planned observations can distinguish them. Together, they guide whether to change the test items or response measure, or collect more evidence where a useful contrast already exists. Applications to categorisation and artificial orthography show how these choices change what we can learn about the underlying mechanisms. I developed this framework into the open-source TIDE (Transfer-design Identifiability and Diagnosticity Evaluation) toolkit and an interactive app, so researchers can construct model comparisons, inspect their predictions and explore revisions to a design.",
-      "parts": [
-        "We developed a framework that links models of human generalisation to the design of experiments. I construct models by varying both how a learner represents information and how the learner uses it to respond. The same representation can support rule application, comparison with a category prototype or retrieval of remembered examples. Varying these mechanisms independently lets me build matched accounts and simulate how each would respond in the same task. I use these predictions to shape an experiment before collecting participant data. Candidate separation measures where the models predict different responses, and candidate recovery estimates how reliably the planned observations can distinguish them. Together, they guide whether to change the test items or response measure, or collect more evidence where a useful contrast already exists.",
-        "Applications to categorisation and artificial orthography show how these choices change what we can learn about the underlying mechanisms. I developed this framework into the open-source TIDE (Transfer-design Identifiability and Diagnosticity Evaluation) toolkit and an interactive app, so researchers can construct model comparisons, inspect their predictions and explore revisions to a design."
-      ],
-      "view_kind": "publication",
-      "presentations": [
-        "cite",
-        "component"
-      ],
-      "priority": 5,
-      "media": [
-        {
-          "src": "/assets/img/research/tide-20260909/fig1_overview.svg",
-          "label": "Framework",
-          "caption": ""
-        },
-        {
-          "src": "/assets/img/research/tide-20260909/fig2_machine.svg",
-          "label": "Evidence accumulation",
-          "caption": ""
-        },
-        {
-          "src": "/assets/img/research/tide-20260909/fig3_structure.svg",
-          "label": "Task structure",
-          "caption": ""
-        },
-        {
-          "src": "/assets/img/research/tide-20260909/fig_plane.svg",
-          "label": "Design comparisons",
-          "caption": ""
-        }
-      ],
-      "component_description": "The original Research entry for “The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization?”, including its publication details, full explanation, and research figures where available.",
-      "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
-      "entity": {
-        "kind": "publication",
-        "id": "transfer",
-        "period": "September 2025 - June 2026",
-        "status": "Under review",
-        "authors": "Han-yu Wang, Stephen M. K. Lee",
-        "links": [
-          {
-            "label": "Explore transfer designs",
-            "url": "https://huggingface.co/spaces/project-tide/tide-audit",
-            "presentation": "resource",
-            "iconSrc": "/assets/img/huggingface.svg"
-          }
-        ]
-      },
-      "selected": true
-    },
-    {
-      "id": 20,
       "source_id": "research:bright",
       "route": "/research",
       "page": "Research",
@@ -609,7 +549,104 @@
       "selected": true
     },
     {
+      "id": 20,
+      "source_id": "research:transfer",
+      "route": "/research",
+      "page": "Research",
+      "title": "The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization?",
+      "anchor": "transfer",
+      "description": "We developed a framework that links models of human generalisation to the design of experiments. I construct models by varying both how a learner represents information and how the learner uses it to respond. The same representation can support rule application, comparison with a category prototype or retrieval of remembered examples.",
+      "body": "We developed a framework that links models of human generalisation to the design of experiments. I construct models by varying both how a learner represents information and how the learner uses it to respond. The same representation can support rule application, comparison with a category prototype or retrieval of remembered examples. Varying these mechanisms independently lets me build matched accounts and simulate how each would respond in the same task. I use these predictions to shape an experiment before collecting participant data. Candidate separation measures where the models predict different responses, and candidate recovery estimates how reliably the planned observations can distinguish them. Together, they guide whether to change the test items or response measure, or collect more evidence where a useful contrast already exists. Applications to categorisation and artificial orthography show how these choices change what we can learn about the underlying mechanisms. I developed this framework into the open-source TIDE (Transfer-design Identifiability and Diagnosticity Evaluation) toolkit and an interactive app, so researchers can construct model comparisons, inspect their predictions and explore revisions to a design.",
+      "parts": [
+        "We developed a framework that links models of human generalisation to the design of experiments. I construct models by varying both how a learner represents information and how the learner uses it to respond. The same representation can support rule application, comparison with a category prototype or retrieval of remembered examples. Varying these mechanisms independently lets me build matched accounts and simulate how each would respond in the same task. I use these predictions to shape an experiment before collecting participant data. Candidate separation measures where the models predict different responses, and candidate recovery estimates how reliably the planned observations can distinguish them. Together, they guide whether to change the test items or response measure, or collect more evidence where a useful contrast already exists.",
+        "Applications to categorisation and artificial orthography show how these choices change what we can learn about the underlying mechanisms. I developed this framework into the open-source TIDE (Transfer-design Identifiability and Diagnosticity Evaluation) toolkit and an interactive app, so researchers can construct model comparisons, inspect their predictions and explore revisions to a design."
+      ],
+      "view_kind": "publication",
+      "presentations": [
+        "cite",
+        "component"
+      ],
+      "priority": 5,
+      "media": [
+        {
+          "src": "/assets/img/research/tide-20260909/fig1_overview.svg",
+          "label": "Framework",
+          "caption": ""
+        },
+        {
+          "src": "/assets/img/research/tide-20260909/fig2_machine.svg",
+          "label": "Evidence accumulation",
+          "caption": ""
+        },
+        {
+          "src": "/assets/img/research/tide-20260909/fig3_structure.svg",
+          "label": "Task structure",
+          "caption": ""
+        },
+        {
+          "src": "/assets/img/research/tide-20260909/fig_plane.svg",
+          "label": "Design comparisons",
+          "caption": ""
+        }
+      ],
+      "component_description": "The original Research entry for “The Resolving Power of Transfer Experiments: When Can Designs Distinguish Accounts of Generalization?”, including its publication details, full explanation, and research figures where available.",
+      "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
+      "entity": {
+        "kind": "publication",
+        "id": "transfer",
+        "period": "September 2025 - June 2026",
+        "status": "Under review",
+        "authors": "Han-yu Wang, Stephen M. K. Lee",
+        "links": [
+          {
+            "label": "Open the interactive app",
+            "url": "https://huggingface.co/spaces/project-tide/tide-audit",
+            "presentation": "resource",
+            "iconSrc": "/assets/img/huggingface.svg"
+          }
+        ]
+      },
+      "selected": true
+    },
+    {
       "id": 21,
+      "source_id": "research:humansDisengage",
+      "route": "/research",
+      "page": "Research",
+      "title": "Divergent Relationships Between Effort and Success in Human and AI Reasoning",
+      "anchor": "humansDisengage",
+      "description": "I study what it takes for a person or an AI model to get the same problem right or wrong. I used grid puzzles that ask solvers to infer a rule from worked examples and apply it to a new grid. People and reasoning models tended to spend more effort on the same puzzles. When I compared answers to the same puzzle, people took about as long to submit a wrong grid as a right one.",
+      "body": "I study what it takes for a person or an AI model to get the same problem right or wrong. I used grid puzzles that ask solvers to infer a rule from worked examples and apply it to a new grid. People and reasoning models tended to spend more effort on the same puzzles. When I compared answers to the same puzzle, people took about as long to submit a wrong grid as a right one. DeepSeek-R1 generated 16% more reasoning tokens, the units of text it produced before answering, on wrong attempts. I looked at the grid editor histories and the model’s reasoning text to see what went into those totals. People made fewer edits on wrong answers, especially when the right grid required many changes. Some of the model’s extra reasoning went into revisiting rules that already conflicted with a worked example. A wrong answer can take more work to reason through and less work to enter. Looking at those two parts separately helps me see what a timing or token count actually measures.",
+      "parts": [
+        "I study what it takes for a person or an AI model to get the same problem right or wrong. I used grid puzzles that ask solvers to infer a rule from worked examples and apply it to a new grid. People and reasoning models tended to spend more effort on the same puzzles. When I compared answers to the same puzzle, people took about as long to submit a wrong grid as a right one. DeepSeek-R1 generated 16% more reasoning tokens, the units of text it produced before answering, on wrong attempts. I looked at the grid editor histories and the model’s reasoning text to see what went into those totals. People made fewer edits on wrong answers, especially when the right grid required many changes. Some of the model’s extra reasoning went into revisiting rules that already conflicted with a worked example. A wrong answer can take more work to reason through and less work to enter.",
+        "Looking at those two parts separately helps me see what a timing or token count actually measures."
+      ],
+      "view_kind": "publication",
+      "presentations": [
+        "cite",
+        "component"
+      ],
+      "priority": 5,
+      "media": [],
+      "component_description": "The original Research entry for “Divergent Relationships Between Effort and Success in Human and AI Reasoning”, including its publication details, full explanation, and research figures where available.",
+      "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
+      "entity": {
+        "kind": "publication",
+        "id": "humansDisengage",
+        "period": "January 2026 - May 2026",
+        "status": "",
+        "authors": "Han-yu Wang",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2606.26502"
+          }
+        ]
+      },
+      "selected": true
+    },
+    {
+      "id": 22,
       "source_id": "research:fittedAssistance",
       "route": "/research",
       "page": "Research",
@@ -634,7 +671,7 @@
         "kind": "publication",
         "id": "fittedAssistance",
         "period": "June 2026 - Present",
-        "status": "Under review",
+        "status": "",
         "authors": "Han-yu Wang",
         "links": [
           {
@@ -649,10 +686,10 @@
           }
         ]
       },
-      "selected": true
+      "selected": false
     },
     {
-      "id": 22,
+      "id": 23,
       "source_id": "research:functionVector",
       "route": "/research",
       "page": "Research",
@@ -669,7 +706,7 @@
         "cite",
         "component"
       ],
-      "priority": 5,
+      "priority": 3,
       "media": [
         {
           "src": "/assets/img/research/function-vectors-20261005/fig5_intervention.png",
@@ -703,70 +740,12 @@
         "kind": "publication",
         "id": "functionVector",
         "period": "September 2025 - March 2026",
-        "status": "Under review",
+        "status": "",
         "authors": "Han-yu Wang",
         "links": [
           {
             "label": "Paper",
             "url": "https://arxiv.org/abs/2606.07560"
-          }
-        ]
-      },
-      "selected": true
-    },
-    {
-      "id": 23,
-      "source_id": "research:humansDisengage",
-      "route": "/research",
-      "page": "Research",
-      "title": "Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation",
-      "anchor": "humansDisengage",
-      "description": "I studied how people and large reasoning models allocate effort once a problem becomes difficult. Across visual abstraction, intuitive physics and relational reasoning, I analysed human response times alongside the length and content of reasoning traces, the text models generate before answering. Comparing attempts on the same problems let me separate sensitivity to difficulty from the allocation of further effort.",
-      "body": "I studied how people and large reasoning models allocate effort once a problem becomes difficult. Across visual abstraction, intuitive physics and relational reasoning, I analysed human response times alongside the length and content of reasoning traces, the text models generate before answering. Comparing attempts on the same problems let me separate sensitivity to difficulty from the allocation of further effort. On visual grid puzzles, successful human attempts lasted longer than failed ones, while the model analysis showed longer traces on failed attempts. Grid actions and reasoning traces helped characterise what happened during that extra work. I developed a resource-rational account in which continued reasoning depends on its expected progress, the value of that progress and the cost of pursuing it. This makes the decision to continue a question about the return on further computation, and gives a basis for understanding how people and models can recognise the same difficulty yet pursue different courses of action.",
-      "parts": [
-        "I studied how people and large reasoning models allocate effort once a problem becomes difficult. Across visual abstraction, intuitive physics and relational reasoning, I analysed human response times alongside the length and content of reasoning traces, the text models generate before answering. Comparing attempts on the same problems let me separate sensitivity to difficulty from the allocation of further effort. On visual grid puzzles, successful human attempts lasted longer than failed ones, while the model analysis showed longer traces on failed attempts. Grid actions and reasoning traces helped characterise what happened during that extra work. I developed a resource-rational account in which continued reasoning depends on its expected progress, the value of that progress and the cost of pursuing it.",
-        "This makes the decision to continue a question about the return on further computation, and gives a basis for understanding how people and models can recognise the same difficulty yet pursue different courses of action."
-      ],
-      "view_kind": "publication",
-      "presentations": [
-        "cite",
-        "component"
-      ],
-      "priority": 3,
-      "media": [
-        {
-          "src": "/assets/img/research/disengage-20260909/figure_1.svg",
-          "label": "Difficulty and effort",
-          "caption": ""
-        },
-        {
-          "src": "/assets/img/research/disengage-20260909/figure_2.svg",
-          "label": "The allocation gap",
-          "caption": ""
-        },
-        {
-          "src": "/assets/img/research/disengage-20260909/figure_3.svg",
-          "label": "Across reasoning tasks",
-          "caption": ""
-        },
-        {
-          "src": "/assets/img/research/disengage-20260909/figure_4.svg",
-          "label": "Actions and traces",
-          "caption": ""
-        }
-      ],
-      "component_description": "The original Research entry for “Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation”, including its publication details, full explanation, and research figures where available.",
-      "narrative_guidance": "State the research contribution that answers the visitor and explain what the complete Research component adds as source evidence.",
-      "entity": {
-        "kind": "publication",
-        "id": "humansDisengage",
-        "period": "January 2026 - May 2026",
-        "status": "Under review",
-        "authors": "Han-yu Wang",
-        "links": [
-          {
-            "label": "Paper",
-            "url": "https://arxiv.org/abs/2606.26502"
           }
         ]
       },
@@ -872,7 +851,7 @@
         "kind": "project",
         "id": "searchstory",
         "period": "June 2026 - Present",
-        "subtitle": "Interactive personal archive",
+        "subtitle": "An AI-powered archive for exploring my work, ideas and experiences",
         "route": "/aipersonalarchive",
         "anchor": "",
         "mediaMode": "gallery",
@@ -910,7 +889,7 @@
         "kind": "project",
         "id": "slidepoise",
         "period": "August 2026 - September 2026",
-        "subtitle": "AI PowerPoint generation framework",
+        "subtitle": "An AI framework for creating editable PowerPoint decks",
         "route": "/slidepoise/",
         "anchor": "",
         "mediaMode": "hero",
@@ -943,7 +922,7 @@
         "kind": "project",
         "id": "cathayflex",
         "period": "October 2026 - Present",
-        "subtitle": "Marketplace for travel flexibility",
+        "subtitle": "A marketplace that rewards travellers for accepting booking changes",
         "route": "https://cathayflex.github.io/",
         "anchor": "",
         "mediaMode": "gallery",
@@ -978,7 +957,7 @@
         "kind": "project",
         "id": "pwcIncident",
         "period": "September 2026 - October 2026",
-        "subtitle": "Investigating monitoring alerts and preparing reports for the response team",
+        "subtitle": "An AI agent that investigates IT incidents and reports in Teams",
         "route": "/it-incident-analysis",
         "anchor": "",
         "mediaMode": "logo",
@@ -994,9 +973,10 @@
       "page": "Risk Assessment Across Long Documents",
       "title": "Risk Assessment Across Long Documents",
       "anchor": "",
-      "description": "Henry translated risk definitions into evidence requirements and decision rules. Optional source guidance identifies report sections likely to contain useful context. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks.",
-      "body": "Henry translated risk definitions into evidence requirements and decision rules. Optional source guidance identifies report sections likely to contain useful context. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks. These records give facts from different pages a common structure for comparison and synthesis. The full-document architecture preserves report structure while dividing it into chunks. A vision-language model reads every page and can extract several independent evidence records from each one. The evidence ledger collects these records across the document. A separate synthesis pass for each risk combines the relevant records and applies its decision rules. It can request further source-page review when additional context is needed. Henry implemented the workflow end to end. Chunks based on the table of contents are rendered as page images and analysed in parallel, followed by parallel risk assessments that reuse the shared evidence ledger. Across three sample reports of a few hundred pages, the estimated average was about five minutes and US$0.68 in model calls, combining measured page rendering with recorded model timings and usage. The review workspace presents findings and their interpretation beside the original report. Each interpretation opens its source page. The Evidence Explorer shows both the evidence used in the assessment and the other context considered. Reviewers confirm, correct or reject findings, and their decisions carry into the review summary. The public interactive example uses fictional report content.",
+      "description": "The project helped a public-sector client assess monthly reports of roughly 300 pages. The AI workflow reads the full report and flags potential risks for review. It links each proposed finding to the original pages so reviewers can check the evidence before deciding what to do. Henry translated risk definitions into evidence requirements and decision rules.",
+      "body": "The project helped a public-sector client assess monthly reports of roughly 300 pages. The AI workflow reads the full report and flags potential risks for review. It links each proposed finding to the original pages so reviewers can check the evidence before deciding what to do. Henry translated risk definitions into evidence requirements and decision rules. Optional source guidance identifies report sections likely to contain useful context. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks. These records give facts from different pages a common structure for comparison and synthesis. The full-document architecture preserves report structure while dividing it into chunks. A vision-language model reads every page and can extract several independent evidence records from each one. The evidence ledger collects these records across the document. A separate synthesis pass for each risk combines the relevant records and applies its decision rules. It can request further source-page review when additional context is needed. Henry implemented the workflow end to end. Chunks based on the table of contents are rendered as page images and analysed in parallel, followed by parallel risk assessments that reuse the shared evidence ledger. Across three sample reports of a few hundred pages, the estimated average was about five minutes and US$0.68 in model calls, combining measured page rendering with recorded model timings and usage. The review workspace presents findings and their interpretation beside the original report. Each interpretation opens its source page. The Evidence Explorer shows both the evidence used in the assessment and the other context considered. Reviewers confirm, correct or reject findings, and their decisions carry into the review summary. The public interactive example uses fictional report content.",
       "parts": [
+        "The project helped a public-sector client assess monthly reports of roughly 300 pages. The AI workflow reads the full report and flags potential risks for review. It links each proposed finding to the original pages so reviewers can check the evidence before deciding what to do.",
         "Henry translated risk definitions into evidence requirements and decision rules. Optional source guidance identifies report sections likely to contain useful context. He separated reading the report from assessing what its evidence means. An evidence-record schema preserves each observation, its context, source location and potential relevance to different risks. These records give facts from different pages a common structure for comparison and synthesis.",
         "The full-document architecture preserves report structure while dividing it into chunks. A vision-language model reads every page and can extract several independent evidence records from each one. The evidence ledger collects these records across the document. A separate synthesis pass for each risk combines the relevant records and applies its decision rules. It can request further source-page review when additional context is needed.",
         "Henry implemented the workflow end to end. Chunks based on the table of contents are rendered as page images and analysed in parallel, followed by parallel risk assessments that reuse the shared evidence ledger. Across three sample reports of a few hundred pages, the estimated average was about five minutes and US$0.68 in model calls, combining measured page rendering with recorded model timings and usage.",
@@ -1016,7 +996,7 @@
         "kind": "project",
         "id": "pwcDocumentReview",
         "period": "October 2026 - November 2026",
-        "subtitle": "Reading long reports and connecting the evidence behind each finding",
+        "subtitle": "AI risk review for a public-sector client’s monthly reports",
         "route": "/document-review",
         "anchor": "",
         "mediaMode": "logo",
@@ -1053,7 +1033,7 @@
         "kind": "project",
         "id": "insurance",
         "period": "July 2024 - December 2024",
-        "subtitle": "Mapping insurance requirements to the app’s screens and fields",
+        "subtitle": "Rules that configure insurance forms in a banking app",
         "route": "/playbook",
         "anchor": "",
         "mediaMode": "logo",
@@ -1100,7 +1080,7 @@
         "kind": "project",
         "id": "scrollytelling",
         "period": "November 2025 – December 2025",
-        "subtitle": "A web presentation whose charts unfold as you scroll",
+        "subtitle": "Scrolling presentations with interactive charts",
         "route": "/scrollytelling",
         "anchor": "",
         "mediaMode": "gallery",
@@ -1138,7 +1118,7 @@
         "kind": "project",
         "id": "pwcRag",
         "period": "July 2026 - August 2026",
-        "subtitle": "Preserving document structure through ingestion and retrieval",
+        "subtitle": "Searchable tables, references and flowcharts for AI",
         "route": "/ragflow-pipeline",
         "anchor": "",
         "mediaMode": "logo",
@@ -1182,7 +1162,7 @@
         "kind": "project",
         "id": "stride",
         "period": "September 2025 – December 2025",
-        "subtitle": "Customer support with retrieval, recommendations and tool use",
+        "subtitle": "AI support for orders, recommendations and complaints",
         "route": "/stride",
         "anchor": "",
         "mediaMode": "gallery",
@@ -1220,7 +1200,7 @@
         "kind": "project",
         "id": "dealtracker",
         "period": "February 2025 - June 2025",
-        "subtitle": "A scheduled deal hunter with personal filters and email digests",
+        "subtitle": "Personalised sale alerts for outdoor gear",
         "route": "/dealtracker",
         "anchor": "",
         "mediaMode": "gallery",
@@ -1267,7 +1247,7 @@
         "kind": "project",
         "id": "early",
         "period": "September 2017 - June 2022",
-        "subtitle": "Downloaders, browser extensions, and an economics graph generator",
+        "subtitle": "School projects in automation, web tools and economics",
         "route": "/early",
         "anchor": "",
         "mediaMode": "gallery",
@@ -1302,7 +1282,7 @@
         "kind": "project",
         "id": "pwcItOps",
         "period": "August 2026 - September 2026",
-        "subtitle": "Early use-case research and workflow design",
+        "subtitle": "AI workflows for IT documentation and requests",
         "route": "/ai-it-operations",
         "anchor": "",
         "mediaMode": "logo",
@@ -2685,10 +2665,10 @@
       "page": "Risk Assessment Across Long Documents",
       "title": "Risk Assessment Across Long Documents",
       "anchor": "",
-      "description": "Reading long reports and connecting the evidence behind each finding At PwC, I built a workflow for risk assessments that depend on evidence spread across a long report. I separated full-report reading from risk judgement so AI could connect observations across sections, apply the rules for each risk and show reviewers how a finding was reached. 01 Task and workflow",
-      "body": "Reading long reports and connecting the evidence behind each finding At PwC, I built a workflow for risk assessments that depend on evidence spread across a long report. I separated full-report reading from risk judgement so AI could connect observations across sections, apply the rules for each risk and show reviewers how a finding was reached. 01 Task and workflow",
+      "description": "AI-assisted risk review of monthly reports At PwC, I built an AI workflow to help a public-sector client review its monthly reports and flag potential risks for follow-up. 01 Overview",
+      "body": "AI-assisted risk review of monthly reports At PwC, I built an AI workflow to help a public-sector client review its monthly reports and flag potential risks for follow-up. 01 Overview",
       "parts": [
-        "Reading long reports and connecting the evidence behind each finding At PwC, I built a workflow for risk assessments that depend on evidence spread across a long report. I separated full-report reading from risk judgement so AI could connect observations across sections, apply the rules for each risk and show reviewers how a finding was reached. 01 Task and workflow"
+        "AI-assisted risk review of monthly reports At PwC, I built an AI workflow to help a public-sector client review its monthly reports and flag potential risks for follow-up. 01 Overview"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2703,12 +2683,12 @@
       "source_id": "document-review:prepare-the-evidence-for-a-decision",
       "route": "/document-review",
       "page": "Risk Assessment Across Long Documents",
-      "title": "A risk judgement can depend on evidence across the whole report.",
+      "title": "Flagging risks in monthly reports",
       "anchor": "prepare-the-evidence-for-a-decision",
-      "description": "Each report was roughly 300 pages long. The team needed to assess 5+ risk categories. A measurement in a table might only make sense alongside an exception or a follow-up entry in a different section. I used the report’s structure to keep related pages together while covering every page.",
-      "body": "Each report was roughly 300 pages long. The team needed to assess 5+ risk categories. A measurement in a table might only make sense alongside an exception or a follow-up entry in a different section. I used the report’s structure to keep related pages together while covering every page. The model builds a shared ledger of 100+ evidence records per report, preserving each observation, its qualifications and its exact source. Each risk assessment then draws on records across the whole report and can request a closer reading of specific pages when the existing records leave a question open.",
+      "description": "The client’s reviewers needed to check each report, roughly 300 pages, for more than five categories of risk. The evidence for a single finding could be spread across the report. A measurement in one section, for example, might need to be read alongside a follow-up in another. I designed the workflow to read every page and collect evidence before assessing each risk against criteria I defined.",
+      "body": "The client’s reviewers needed to check each report, roughly 300 pages, for more than five categories of risk. The evidence for a single finding could be spread across the report. A measurement in one section, for example, might need to be read alongside a follow-up in another. I designed the workflow to read every page and collect evidence before assessing each risk against criteria I defined. It flags potential risks and shows the pages behind each finding. I also built a review workspace where staff could verify the evidence and confirm, correct or reject the findings. 02 Workflow",
       "parts": [
-        "Each report was roughly 300 pages long. The team needed to assess 5+ risk categories. A measurement in a table might only make sense alongside an exception or a follow-up entry in a different section. I used the report’s structure to keep related pages together while covering every page. The model builds a shared ledger of 100+ evidence records per report, preserving each observation, its qualifications and its exact source. Each risk assessment then draws on records across the whole report and can request a closer reading of specific pages when the existing records leave a question open."
+        "The client’s reviewers needed to check each report, roughly 300 pages, for more than five categories of risk. The evidence for a single finding could be spread across the report. A measurement in one section, for example, might need to be read alongside a follow-up in another. I designed the workflow to read every page and collect evidence before assessing each risk against criteria I defined. It flags potential risks and shows the pages behind each finding. I also built a review workspace where staff could verify the evidence and confirm, correct or reject the findings. 02 Workflow"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2725,10 +2705,10 @@
       "page": "Risk Assessment Across Long Documents",
       "title": "Assessment guidance defines what to collect and how to judge it",
       "anchor": "designing-around-delivery-constraints",
-      "description": "I translated each risk’s definition into evidence requirements and decision rules. The requirements guide what the model extracts. The rules explain how those observations should be interpreted together. Optional source guidance identifies sections likely to contain useful context. 02 Evidence extraction",
-      "body": "I translated each risk’s definition into evidence requirements and decision rules. The requirements guide what the model extracts. The rules explain how those observations should be interpreted together. Optional source guidance identifies sections likely to contain useful context. 02 Evidence extraction",
+      "description": "I translated each risk’s definition into evidence requirements and decision rules. The requirements guide what the model extracts. The rules explain how those observations should be interpreted together. Optional source guidance identifies sections likely to contain useful context. 03 Evidence extraction",
+      "body": "I translated each risk’s definition into evidence requirements and decision rules. The requirements guide what the model extracts. The rules explain how those observations should be interpreted together. Optional source guidance identifies sections likely to contain useful context. 03 Evidence extraction",
       "parts": [
-        "I translated each risk’s definition into evidence requirements and decision rules. The requirements guide what the model extracts. The rules explain how those observations should be interpreted together. Optional source guidance identifies sections likely to contain useful context. 02 Evidence extraction"
+        "I translated each risk’s definition into evidence requirements and decision rules. The requirements guide what the model extracts. The rules explain how those observations should be interpreted together. Optional source guidance identifies sections likely to contain useful context. 03 Evidence extraction"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2746,10 +2726,10 @@
       "title": "Page-level extraction gives scattered observations a shared structure.",
       "anchor": "designing-reusable-evidence-records",
       "description": "I use the table of contents (TOC) and verified headings to split the report at section boundaries where possible. Each reading task covers up to eight pages and can include the preceding page when a table or section continues. A vision-language model (VLM) reads the rendered pages so it can interpret text, tables and figures in their original layout. Each chunk can produce several evidence records.",
-      "body": "I use the table of contents (TOC) and verified headings to split the report at section boundaries where possible. Each reading task covers up to eight pages and can include the preceding page when a table or section continues. A vision-language model (VLM) reads the rendered pages so it can interpret text, tables and figures in their original layout. Each chunk can produce several evidence records. The extraction guidance focuses on facts that support, qualify or rule out a finding. Each record preserves enough context for the observation to remain meaningful when it is read alongside evidence from another section. Observed content The reported fact, including the quantities, conditions and qualifications needed to interpret it. Source context The document section, page and original item, such as a table row or paragraph. Assessment relevance The risks the observation may inform and the context needed to assess its significance. These records form an evidence ledger shared across the assessments. Item identifiers connect observations about the same subject and help recognise repeated evidence. Section paths distinguish similarly named tables or appendices. Several risks can then draw on the same observation while retaining its original reference. 03 Synthesis",
+      "body": "I use the table of contents (TOC) and verified headings to split the report at section boundaries where possible. Each reading task covers up to eight pages and can include the preceding page when a table or section continues. A vision-language model (VLM) reads the rendered pages so it can interpret text, tables and figures in their original layout. Each chunk can produce several evidence records. The extraction guidance focuses on facts that support, qualify or rule out a finding. Each record preserves enough context for the observation to remain meaningful when it is read alongside evidence from another section. Observed content The reported fact, including the quantities, conditions and qualifications needed to interpret it. Source context The document section, page and original item, such as a table row or paragraph. Assessment relevance The risks the observation may inform and the context needed to assess its significance. The workflow collects 100+ records per report in an evidence ledger shared across the assessments. Item identifiers connect observations about the same subject and help recognise repeated evidence. Section paths distinguish similarly named tables or appendices. Several risks can then draw on the same observation while retaining its original reference. 04 Synthesis",
       "parts": [
         "I use the table of contents (TOC) and verified headings to split the report at section boundaries where possible. Each reading task covers up to eight pages and can include the preceding page when a table or section continues. A vision-language model (VLM) reads the rendered pages so it can interpret text, tables and figures in their original layout. Each chunk can produce several evidence records. The extraction guidance focuses on facts that support, qualify or rule out a finding. Each record preserves enough context for the observation to remain meaningful when it is read alongside evidence from another section. Observed content The reported fact, including the quantities, conditions and qualifications needed to interpret it. Source context The document section, page and original item, such as a table row or paragraph.",
-        "Assessment relevance The risks the observation may inform and the context needed to assess its significance. These records form an evidence ledger shared across the assessments. Item identifiers connect observations about the same subject and help recognise repeated evidence. Section paths distinguish similarly named tables or appendices. Several risks can then draw on the same observation while retaining its original reference. 03 Synthesis"
+        "Assessment relevance The risks the observation may inform and the context needed to assess its significance. The workflow collects 100+ records per report in an evidence ledger shared across the assessments. Item identifiers connect observations about the same subject and help recognise repeated evidence. Section paths distinguish similarly named tables or appendices. Several risks can then draw on the same observation while retaining its original reference. 04 Synthesis"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -2786,10 +2766,10 @@
       "page": "Risk Assessment Across Long Documents",
       "title": "Parallel processing makes full-report assessment practical",
       "anchor": "implementing-the-review-workflow",
-      "description": "Independent chunks are read in parallel, followed by parallel risk assessments that reuse the shared ledger. Source-page checks can also run together when more context is needed. Across three sample reports of a few hundred pages, the estimated average was about five minutes and US$0.68 in model calls. The estimate combines measured page rendering with recorded model timings and usage. 04 Presenting the assessment",
-      "body": "Independent chunks are read in parallel, followed by parallel risk assessments that reuse the shared ledger. Source-page checks can also run together when more context is needed. Across three sample reports of a few hundred pages, the estimated average was about five minutes and US$0.68 in model calls. The estimate combines measured page rendering with recorded model timings and usage. 04 Presenting the assessment",
+      "description": "Independent chunks are read in parallel, followed by parallel risk assessments that reuse the shared ledger. Source-page checks can also run together when more context is needed. Across three sample reports of a few hundred pages, the estimated average was about five minutes and US$0.68 in model calls. The estimate combines measured page rendering with recorded model timings and usage. 05 Presenting the assessment",
+      "body": "Independent chunks are read in parallel, followed by parallel risk assessments that reuse the shared ledger. Source-page checks can also run together when more context is needed. Across three sample reports of a few hundred pages, the estimated average was about five minutes and US$0.68 in model calls. The estimate combines measured page rendering with recorded model timings and usage. 05 Presenting the assessment",
       "parts": [
-        "Independent chunks are read in parallel, followed by parallel risk assessments that reuse the shared ledger. Source-page checks can also run together when more context is needed. Across three sample reports of a few hundred pages, the estimated average was about five minutes and US$0.68 in model calls. The estimate combines measured page rendering with recorded model timings and usage. 04 Presenting the assessment"
+        "Independent chunks are read in parallel, followed by parallel risk assessments that reuse the shared ledger. Source-page checks can also run together when more context is needed. Across three sample reports of a few hundred pages, the estimated average was about five minutes and US$0.68 in model calls. The estimate combines measured page rendering with recorded model timings and usage. 05 Presenting the assessment"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -3094,10 +3074,10 @@
       "page": "IT Incident Analysis and Reporting Agent",
       "title": "IT Incident Analysis and Reporting Agent",
       "anchor": "",
-      "description": "At PwC, I helped build an AI agent that investigates IT service failures and reports its findings in Microsoft Teams. The report explains what went wrong in plain language and what it means for customers and operations. 01 Context",
-      "body": "At PwC, I helped build an AI agent that investigates IT service failures and reports its findings in Microsoft Teams. The report explains what went wrong in plain language and what it means for customers and operations. 01 Context",
+      "description": "At PwC, I helped build an AI agent that investigates IT service failures and reports its findings in Microsoft Teams. The report explains what went wrong in plain language and what it means for customers and operations. 01 Overview",
+      "body": "At PwC, I helped build an AI agent that investigates IT service failures and reports its findings in Microsoft Teams. The report explains what went wrong in plain language and what it means for customers and operations. 01 Overview",
       "parts": [
-        "At PwC, I helped build an AI agent that investigates IT service failures and reports its findings in Microsoft Teams. The report explains what went wrong in plain language and what it means for customers and operations. 01 Context"
+        "At PwC, I helped build an AI agent that investigates IT service failures and reports its findings in Microsoft Teams. The report explains what went wrong in plain language and what it means for customers and operations. 01 Overview"
       ],
       "view_kind": "prose",
       "presentations": [
@@ -4196,10 +4176,10 @@
       "title": "Projects",
       "anchor": "projects",
       "description": "Marketing Data Integration and Dashboard Development Nov 2026 – Dec 2026 PwC Built reusable Databricks SQL models that integrated 100,000+ records from 20+ source tables for an insurer’s monthly Power BI dashboard. Reconciled inconsistent keys and definitions across campaigns, journeys and channels so the team could analyse funnel and sales performance.",
-      "body": "Marketing Data Integration and Dashboard Development Nov 2026 – Dec 2026 PwC Built reusable Databricks SQL models that integrated 100,000+ records from 20+ source tables for an insurer’s monthly Power BI dashboard. Reconciled inconsistent keys and definitions across campaigns, journeys and channels so the team could analyse funnel and sales performance. Supported 50+ reporting fields and traced DAX measure dependencies and data lineage to investigate discrepancies between dashboard figures and source records. Mapped data structures and flows in Visio to clarify mapping rules, gaps and reporting requirements with the team and client. Risk Assessment Across Long Documents Oct 2026 – Nov 2026 PwC Built a two-stage AI workflow to assess risks in long reports. For each report of about 300 pages, it collects 100+ source-linked evidence records in a shared ledger and combines them into proposed findings. Analysed the business requirements for 5+ risk categories and wrote the assessment guidance, specifying what evidence to collect and which decision rules to apply. Designed a workspace for checking findings against cited pages and recording decisions. Built a working demo and recorded a walkthrough video for the tender. IT Incident Analysis and Reporting Agent Sep 2026 – Oct 2026 PwC Built a Copilot Studio agent that suggests likely causes and next steps during IT incidents. Connected live Dynatrace monitoring through MCP and APIs and designed retrieval around ServiceNow ticket schemas. Built a demo using historical incidents that showed how the agent finds evidence and distributes reports through messaging channels. Our team estimated a 40% reduction in end-to-end handling time compared with manual work. Compared licensing combinations and call patterns using a cost model based on token usage, tool calls and vendor pricing. SlidePoise - AI PowerPoint Generation Framework Aug 2026 – Sep 2026 PwC Built an open-source framework that helps AI agents plan presentation content and explore slide designs with image generation. The workflow supported the creation of 5+ decks. Combined multimodal reasoning, computer-vision measurements in OpenCV and deterministic construction tools to rebuild designs as editable PowerPoint text, charts, tables and shapes. Indexed corporate visual assets so the framework could retrieve logos, icons and other brand elements that fit each slide’s content.",
+      "body": "Marketing Data Integration and Dashboard Development Nov 2026 – Dec 2026 PwC Built reusable Databricks SQL models that integrated 100,000+ records from 20+ source tables for an insurer’s monthly Power BI dashboard. Reconciled inconsistent keys and definitions across campaigns, journeys and channels so the team could analyse funnel and sales performance. Supported 50+ reporting fields and traced DAX measure dependencies and data lineage to investigate discrepancies between dashboard figures and source records. Mapped data structures and flows in Visio to clarify mapping rules, gaps and reporting requirements with the team and client. Risk Assessment Across Long Documents Oct 2026 – Nov 2026 PwC Built a two-stage AI workflow to flag potential risks in a public-sector client’s monthly reports. It reads all pages of each roughly 300-page report and combines 100+ source-linked evidence records into proposed findings. Analysed the business requirements for 5+ risk categories and wrote the assessment guidance, specifying what evidence to collect and which decision rules to apply. Designed a workspace for checking findings against cited pages and recording decisions. Built a working demo and recorded a walkthrough video for the tender. IT Incident Analysis and Reporting Agent Sep 2026 – Oct 2026 PwC Built a Copilot Studio agent that suggests likely causes and next steps during IT incidents. Connected live Dynatrace monitoring through MCP and APIs and designed retrieval around ServiceNow ticket schemas. Built a demo using historical incidents that showed how the agent finds evidence and distributes reports through messaging channels. Our team estimated a 40% reduction in end-to-end handling time compared with manual work. Compared licensing combinations and call patterns using a cost model based on token usage, tool calls and vendor pricing. SlidePoise - AI PowerPoint Generation Framework Aug 2026 – Sep 2026 PwC Built an open-source framework that helps AI agents plan presentation content and explore slide designs with image generation. The workflow supported the creation of 5+ decks. Combined multimodal reasoning, computer-vision measurements in OpenCV and deterministic construction tools to rebuild designs as editable PowerPoint text, charts, tables and shapes. Indexed corporate visual assets so the framework could retrieve logos, icons and other brand elements that fit each slide’s content.",
       "parts": [
-        "Marketing Data Integration and Dashboard Development Nov 2026 – Dec 2026 PwC Built reusable Databricks SQL models that integrated 100,000+ records from 20+ source tables for an insurer’s monthly Power BI dashboard. Reconciled inconsistent keys and definitions across campaigns, journeys and channels so the team could analyse funnel and sales performance. Supported 50+ reporting fields and traced DAX measure dependencies and data lineage to investigate discrepancies between dashboard figures and source records. Mapped data structures and flows in Visio to clarify mapping rules, gaps and reporting requirements with the team and client. Risk Assessment Across Long Documents Oct 2026 – Nov 2026 PwC Built a two-stage AI workflow to assess risks in long reports.",
-        "For each report of about 300 pages, it collects 100+ source-linked evidence records in a shared ledger and combines them into proposed findings. Analysed the business requirements for 5+ risk categories and wrote the assessment guidance, specifying what evidence to collect and which decision rules to apply. Designed a workspace for checking findings against cited pages and recording decisions. Built a working demo and recorded a walkthrough video for the tender. IT Incident Analysis and Reporting Agent Sep 2026 – Oct 2026 PwC Built a Copilot Studio agent that suggests likely causes and next steps during IT incidents. Connected live Dynatrace monitoring through MCP and APIs and designed retrieval around ServiceNow ticket schemas. Built a demo using historical incidents that showed how the agent finds evidence and distributes reports through messaging channels.",
+        "Marketing Data Integration and Dashboard Development Nov 2026 – Dec 2026 PwC Built reusable Databricks SQL models that integrated 100,000+ records from 20+ source tables for an insurer’s monthly Power BI dashboard. Reconciled inconsistent keys and definitions across campaigns, journeys and channels so the team could analyse funnel and sales performance. Supported 50+ reporting fields and traced DAX measure dependencies and data lineage to investigate discrepancies between dashboard figures and source records. Mapped data structures and flows in Visio to clarify mapping rules, gaps and reporting requirements with the team and client. Risk Assessment Across Long Documents Oct 2026 – Nov 2026 PwC Built a two-stage AI workflow to flag potential risks in a public-sector client’s monthly reports.",
+        "It reads all pages of each roughly 300-page report and combines 100+ source-linked evidence records into proposed findings. Analysed the business requirements for 5+ risk categories and wrote the assessment guidance, specifying what evidence to collect and which decision rules to apply. Designed a workspace for checking findings against cited pages and recording decisions. Built a working demo and recorded a walkthrough video for the tender. IT Incident Analysis and Reporting Agent Sep 2026 – Oct 2026 PwC Built a Copilot Studio agent that suggests likely causes and next steps during IT incidents. Connected live Dynatrace monitoring through MCP and APIs and designed retrieval around ServiceNow ticket schemas. Built a demo using historical incidents that showed how the agent finds evidence and distributes reports through messaging channels.",
         "Our team estimated a 40% reduction in end-to-end handling time compared with manual work. Compared licensing combinations and call patterns using a cost model based on token usage, tool calls and vendor pricing. SlidePoise - AI PowerPoint Generation Framework Aug 2026 – Sep 2026 PwC Built an open-source framework that helps AI agents plan presentation content and explore slide designs with image generation. The workflow supported the creation of 5+ decks. Combined multimodal reasoning, computer-vision measurements in OpenCV and deterministic construction tools to rebuild designs as editable PowerPoint text, charts, tables and shapes. Indexed corporate visual assets so the framework could retrieve logos, icons and other brand elements that fit each slide’s content.",
         "AI × Self - Interactive Personal Archive Jun 2026 – Present Personal Built hybrid Search and retrieval-augmented Ask so visitors can find original material and ask questions about my work, ideas and experiences. Developed a system that selects sources and interactive components to compose a View around a visitor’s question. Each View is available as an illustrated article and a 3D exhibition. Built a gallery that arranges selected work into navigable exhibition spaces and generates audio guides. Layout and lighting direct attention to the original material. Henry Han-yu Wang Last updated November 2026"
       ],
