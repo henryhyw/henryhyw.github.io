@@ -3,7 +3,7 @@
 <style>body{max-width:78ch;margin:40px auto;padding:0 20px;font:16px/1.6 system-ui,sans-serif;color:#222;background:#fff}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}a{color:#235c9b}</style></head>
 <body><main><h1>Henry&#39;s complete public text</h1><pre># Henry&#39;s public text
 
-Content revision 9edfb87a9d39589ef51ded5d4be428995c8c720163bf6b4893c4449e6eb26e41
+Content revision 72eaf5cb7c004f84760b45a3e008cc30bfda24fd74a7581b94cabcc1ae0de722
 
 ## Places I&#39;ve Studied
 
@@ -233,9 +233,9 @@ Research
 Source ID research:humansDisengage
 Original <a href="https://www.henryw.me/#/research#humansDisengage">https://www.henryw.me/#/research#humansDisengage</a>
 
-I study what it takes for a person or an AI model to get the same problem right or wrong. I used grid puzzles that ask solvers to infer a rule from worked examples and apply it to a new grid. People and reasoning models tended to spend more effort on the same puzzles. When I compared answers to the same puzzle, people took about as long to submit a wrong grid as a right one. DeepSeek-R1 generated 16% more reasoning tokens, the units of text it produced before answering, on wrong attempts. I looked at the grid editor histories and the model’s reasoning text to see what went into those totals. People made fewer edits on wrong answers, especially when the right grid required many changes. Some of the model’s extra reasoning went into revisiting rules that already conflicted with a worked example. A wrong answer can take more work to reason through and less work to enter.
+Earlier work found that AI models tended to write more while working through problems that took people longer to answer. I asked what happened when the problem stayed the same. How did the effort on a wrong answer compare with the effort on a right one? I used visual puzzles because I could see how people put their answers together and read what the models wrote before giving theirs. People took about as long to submit a wrong answer as a right one, although they usually made fewer edits on wrong attempts. DeepSeek-R1’s reasoning was longer on wrong attempts. Sometimes it found an example its rule couldn’t explain, checked the rule again, and still used it in the answer. The time to submit an answer included the work of entering it. In the model’s reasoning I could follow what it did after spotting a problem with its rule.
 
-Looking at those two parts separately helps me see what a timing or token count actually measures.
+How much effort an answer took and what that effort accomplished were two separate questions.
 
 ## Early Epistemic Settlement in AI-Assisted Writing
 
