@@ -1,6 +1,6 @@
 # Henry's public source catalogue
 
-Content revision 72eaf5cb7c004f84760b45a3e008cc30bfda24fd74a7581b94cabcc1ae0de722
+Content revision bb1e7dc29d1f5a629de47e9a9a34e4c9e05e4631c0105cf695935c8c30a7f133
 172 sources
 
 ## Places I've Studied
@@ -283,16 +283,6 @@ Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3Aslidepois
 
 SlidePoise combines the visual freedom of image generation with an editable PowerPoint workflow. The Agent develops the content, retrieves relevant visual references, icons, logos and native component previews, and explores compositions through image generation. Reconstruction combines the Agent’s interpretation with measurements from the computer-vision library OpenCV to build editable objects.
 
-## Cathay Flex
-
-Builds
-Section projects
-Source ID projects:cathayflex
-Original https://www.henryw.me/#/projects?to=cathayflex
-Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3Acathayflex?format=text
-
-Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one.
-
 ## IT Incident Analysis and Reporting Agent
 
 Builds
@@ -322,6 +312,16 @@ Original https://www.henryw.me/#/projects?to=insurance
 Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3Ainsurance?format=text
 
 One banking app supported many insurance products, each with different screens, fields, and conditional follow-ups. Business requirements described what a product needed to collect, design libraries described reusable screens and UI components, and engineering needed an executable configuration. The key dependency was the mapping between those representations across products and markets.
+
+## Cathay Flex
+
+Builds
+Section projects
+Source ID projects:cathayflex
+Original https://www.henryw.me/#/projects?to=cathayflex
+Read https://ask-henry.whenry6688.workers.dev/agent/sources/projects%3Acathayflex?format=text
+
+Cathay Flex is Team Globe’s project for the Cathay Pacific Hackathon. An airline-managed marketplace lets travellers earn Flex credits by accepting suitable changes or releasing eligible unused services. They can use the credits for different travel needs on the same journey or a later one.
 
 ## Interactive Scrollytelling Deck
 
